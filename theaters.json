@@ -61,7 +61,7 @@
       "address": "Avenida Frei Miguel Contreiras, 52, 1700-213 Lisboa",
       "city": "Lisboa",
       "site": "https://teatromariamatos.pt",
-      "programacao": "https://teatromariamatos.pt/tipo/teatro/",
+      "programacao": "https://teatromariamatos.pt/tipo/programacao/",
       "lat": 38.7466,
       "lng": -9.1365,
       "salas": [
@@ -72,7 +72,10 @@
         "maria matos",
         "tmm",
         "teatro maria matos"
-      ]
+      ],
+      "logo_url": "https://teatromariamatos.pt/wp-content/uploads/2023/03/logo-light.png",
+      "favicon_url": "https://teatromariamatos.pt/wp-content/uploads/2023/03/cropped-favicon-32x32.png",
+      "facade_url": "https://teatromariamatos.pt/wp-content/uploads/2023/03/teatro-maria-matos-fachada.jpg"
     },
     {
       "id": "culturgest",
