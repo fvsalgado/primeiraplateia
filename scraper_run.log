@@ -1,7 +1,7 @@
-2026-03-20 00:53:52 [INFO] primeiraplateia: =======================================================
-2026-03-20 00:53:52 [INFO] primeiraplateia: Primeira Plateia — início do scraping
-2026-03-20 00:53:52 [INFO] primeiraplateia: =======================================================
-2026-03-20 00:53:58 [ERROR] primeiraplateia:   ERRO Teatro Variedades: compile() takes from 1 to 2 positional arguments but 3 were given
+2026-03-20 00:54:16 [INFO] primeiraplateia: =======================================================
+2026-03-20 00:54:16 [INFO] primeiraplateia: Primeira Plateia — início do scraping
+2026-03-20 00:54:16 [INFO] primeiraplateia: =======================================================
+2026-03-20 00:54:22 [ERROR] primeiraplateia:   ERRO Teatro Variedades: compile() takes from 1 to 2 positional arguments but 3 were given
 Traceback (most recent call last):
   File "/home/runner/work/primeiraplateia/primeiraplateia/scraper.py", line 138, in run
     evs = fn()
@@ -19,7 +19,7 @@ Traceback (most recent call last):
     seg_pat = _re.compile(
               ^^^^^^^^^^^^
 TypeError: compile() takes from 1 to 2 positional arguments but 3 were given
-2026-03-20 00:54:04 [ERROR] primeiraplateia:   ERRO Capitólio: compile() takes from 1 to 2 positional arguments but 3 were given
+2026-03-20 00:54:28 [ERROR] primeiraplateia:   ERRO Capitólio: compile() takes from 1 to 2 positional arguments but 3 were given
 Traceback (most recent call last):
   File "/home/runner/work/primeiraplateia/primeiraplateia/scraper.py", line 138, in run
     evs = fn()
@@ -37,7 +37,7 @@ Traceback (most recent call last):
     seg_pat = _re.compile(
               ^^^^^^^^^^^^
 TypeError: compile() takes from 1 to 2 positional arguments but 3 were given
-2026-03-20 00:54:08 [ERROR] primeiraplateia:   ERRO São Luiz Teatro Municipal: compile() takes from 1 to 2 positional arguments but 3 were given
+2026-03-20 00:54:33 [ERROR] primeiraplateia:   ERRO São Luiz Teatro Municipal: compile() takes from 1 to 2 positional arguments but 3 were given
 Traceback (most recent call last):
   File "/home/runner/work/primeiraplateia/primeiraplateia/scraper.py", line 138, in run
     evs = fn()
@@ -52,12 +52,12 @@ Traceback (most recent call last):
     seg_pat = _re.compile(
               ^^^^^^^^^^^^
 TypeError: compile() takes from 1 to 2 positional arguments but 3 were given
-2026-03-20 00:54:25 [INFO] scrapers.utils: [Maria Matos] 6 eventos
-2026-03-20 00:54:25 [INFO] primeiraplateia:   OK   Teatro Maria Matos: 6 eventos raw
-2026-03-20 00:54:29 [INFO] scrapers.utils: [Culturgest] Listagem vazia (JS) — a usar seeds de fallback
-2026-03-20 00:55:07 [INFO] scrapers.utils: [Culturgest] Inacessível https://www.culturgest.pt/pt/programacao/falta-de-cha-humor-tabus-e-censura/: 404 Client Error: Not Found for url: https://www.culturgest.pt/pt/programacao/falta-de-cha-humor-tabus-e-censura/
-2026-03-20 00:55:30 [INFO] scrapers.utils: [Culturgest] 44 URLs descobertos
-2026-03-20 00:55:31 [ERROR] primeiraplateia:   ERRO Culturgest: compile() takes from 1 to 2 positional arguments but 3 were given
+2026-03-20 00:54:44 [INFO] scrapers.utils: [Maria Matos] 6 eventos
+2026-03-20 00:54:44 [INFO] primeiraplateia:   OK   Teatro Maria Matos: 6 eventos raw
+2026-03-20 00:54:47 [INFO] scrapers.utils: [Culturgest] Listagem vazia (JS) — a usar seeds de fallback
+2026-03-20 00:55:31 [INFO] scrapers.utils: [Culturgest] Inacessível https://www.culturgest.pt/pt/programacao/falta-de-cha-humor-tabus-e-censura/: 404 Client Error: Not Found for url: https://www.culturgest.pt/pt/programacao/falta-de-cha-humor-tabus-e-censura/
+2026-03-20 00:55:44 [INFO] scrapers.utils: [Culturgest] 44 URLs descobertos
+2026-03-20 00:55:45 [ERROR] primeiraplateia:   ERRO Culturgest: compile() takes from 1 to 2 positional arguments but 3 were given
 Traceback (most recent call last):
   File "/home/runner/work/primeiraplateia/primeiraplateia/scraper.py", line 138, in run
     evs = fn()
@@ -72,7 +72,7 @@ Traceback (most recent call last):
     seg_pat = _re.compile(
               ^^^^^^^^^^^^
 TypeError: compile() takes from 1 to 2 positional arguments but 3 were given
-2026-03-20 00:55:36 [ERROR] primeiraplateia:   ERRO CCB — Centro Cultural de Belém: compile() takes from 1 to 2 positional arguments but 3 were given
+2026-03-20 00:55:48 [ERROR] primeiraplateia:   ERRO CCB — Centro Cultural de Belém: compile() takes from 1 to 2 positional arguments but 3 were given
 Traceback (most recent call last):
   File "/home/runner/work/primeiraplateia/primeiraplateia/scraper.py", line 138, in run
     evs = fn()
@@ -87,25 +87,25 @@ Traceback (most recent call last):
     seg_pat = _re.compile(
               ^^^^^^^^^^^^
 TypeError: compile() takes from 1 to 2 positional arguments but 3 were given
-2026-03-20 00:55:39 [INFO] scrapers.utils: [Teatro Viriato] 0 candidatos após filtragem da listagem
-2026-03-20 00:55:39 [INFO] scrapers.utils: [Teatro Viriato] 0 eventos de teatro
-2026-03-20 00:55:39 [INFO] primeiraplateia:   OK   Teatro Viriato: 0 eventos raw
-2026-03-20 00:55:43 [INFO] scrapers.utils: [Theatro Circo] 17 candidatos de teatro na listagem
-2026-03-20 00:56:29 [INFO] scrapers.utils: [Theatro Circo] 0 eventos de teatro
-2026-03-20 00:56:29 [INFO] primeiraplateia:   OK   Theatro Circo: 0 eventos raw
-2026-03-20 00:56:31 [INFO] scrapers.utils: [Teatro do Bairro] Nav sem links de evento — a usar fallback por <section>
-2026-03-20 00:56:31 [INFO] scrapers.utils: [Teatro do Bairro] Erro na secção 'reilear': name 'build_sessions' is not defined
-2026-03-20 00:56:31 [INFO] scrapers.utils: [Teatro do Bairro] 0 eventos de teatro
-2026-03-20 00:56:31 [INFO] primeiraplateia:   OK   Teatro do Bairro: 0 eventos raw
-2026-03-20 00:56:36 [INFO] scrapers.utils: [Teatro da Trindade INATEL] 5 candidatos na listagem
-2026-03-20 00:56:37 [INFO] scrapers.utils: [Teatro da Trindade INATEL] Erro em https://teatrotrindade.inatel.pt/espetaculo/a-gaivota/: compile() takes from 1 to 2 positional arguments but 3 were given
-2026-03-20 00:56:38 [INFO] scrapers.utils: [Teatro da Trindade INATEL] Erro em https://teatrotrindade.inatel.pt/espetaculo/brokeback-mountain/: compile() takes from 1 to 2 positional arguments but 3 were given
-2026-03-20 00:56:40 [INFO] scrapers.utils: [Teatro da Trindade INATEL] Erro em https://teatrotrindade.inatel.pt/espetaculo/verdadeiro-oeste/: compile() takes from 1 to 2 positional arguments but 3 were given
-2026-03-20 00:56:42 [INFO] scrapers.utils: [Teatro da Trindade INATEL] Erro em https://teatrotrindade.inatel.pt/espetaculo/clube-dos-poetas-mortos/: compile() takes from 1 to 2 positional arguments but 3 were given
-2026-03-20 00:56:43 [INFO] scrapers.utils: [Teatro da Trindade INATEL] Erro em https://teatrotrindade.inatel.pt/espetaculo/andre-freitas/: compile() takes from 1 to 2 positional arguments but 3 were given
-2026-03-20 00:56:44 [INFO] scrapers.utils: [Teatro da Trindade INATEL] 0 eventos de teatro
-2026-03-20 00:56:44 [INFO] primeiraplateia:   OK   Teatro da Trindade INATEL: 0 eventos raw
-2026-03-20 00:56:46 [ERROR] primeiraplateia:   ERRO Teatro das Figuras: name 'date_end' is not defined
+2026-03-20 00:55:50 [INFO] scrapers.utils: [Teatro Viriato] 0 candidatos após filtragem da listagem
+2026-03-20 00:55:50 [INFO] scrapers.utils: [Teatro Viriato] 0 eventos de teatro
+2026-03-20 00:55:50 [INFO] primeiraplateia:   OK   Teatro Viriato: 0 eventos raw
+2026-03-20 00:55:55 [INFO] scrapers.utils: [Theatro Circo] 17 candidatos de teatro na listagem
+2026-03-20 00:56:37 [INFO] scrapers.utils: [Theatro Circo] 0 eventos de teatro
+2026-03-20 00:56:37 [INFO] primeiraplateia:   OK   Theatro Circo: 0 eventos raw
+2026-03-20 00:56:39 [INFO] scrapers.utils: [Teatro do Bairro] Nav sem links de evento — a usar fallback por <section>
+2026-03-20 00:56:39 [INFO] scrapers.utils: [Teatro do Bairro] Erro na secção 'reilear': name 'build_sessions' is not defined
+2026-03-20 00:56:39 [INFO] scrapers.utils: [Teatro do Bairro] 0 eventos de teatro
+2026-03-20 00:56:39 [INFO] primeiraplateia:   OK   Teatro do Bairro: 0 eventos raw
+2026-03-20 00:56:43 [INFO] scrapers.utils: [Teatro da Trindade INATEL] 5 candidatos na listagem
+2026-03-20 00:56:44 [INFO] scrapers.utils: [Teatro da Trindade INATEL] Erro em https://teatrotrindade.inatel.pt/espetaculo/a-gaivota/: compile() takes from 1 to 2 positional arguments but 3 were given
+2026-03-20 00:56:46 [INFO] scrapers.utils: [Teatro da Trindade INATEL] Erro em https://teatrotrindade.inatel.pt/espetaculo/brokeback-mountain/: compile() takes from 1 to 2 positional arguments but 3 were given
+2026-03-20 00:56:47 [INFO] scrapers.utils: [Teatro da Trindade INATEL] Erro em https://teatrotrindade.inatel.pt/espetaculo/verdadeiro-oeste/: compile() takes from 1 to 2 positional arguments but 3 were given
+2026-03-20 00:56:49 [INFO] scrapers.utils: [Teatro da Trindade INATEL] Erro em https://teatrotrindade.inatel.pt/espetaculo/clube-dos-poetas-mortos/: compile() takes from 1 to 2 positional arguments but 3 were given
+2026-03-20 00:56:51 [INFO] scrapers.utils: [Teatro da Trindade INATEL] Erro em https://teatrotrindade.inatel.pt/espetaculo/andre-freitas/: compile() takes from 1 to 2 positional arguments but 3 were given
+2026-03-20 00:56:51 [INFO] scrapers.utils: [Teatro da Trindade INATEL] 0 eventos de teatro
+2026-03-20 00:56:51 [INFO] primeiraplateia:   OK   Teatro da Trindade INATEL: 0 eventos raw
+2026-03-20 00:56:53 [ERROR] primeiraplateia:   ERRO Teatro das Figuras: name 'date_end' is not defined
 Traceback (most recent call last):
   File "/home/runner/work/primeiraplateia/primeiraplateia/scraper.py", line 138, in run
     evs = fn()
@@ -117,30 +117,30 @@ Traceback (most recent call last):
     "sessions":        build_sessions(date_start, date_end, schedule),
                                                   ^^^^^^^^
 NameError: name 'date_end' is not defined. Did you mean: 'date_el'?
-2026-03-20 00:56:46 [INFO] primeiraplateia: 
+2026-03-20 00:56:53 [INFO] primeiraplateia: 
 Total raw: 6
-2026-03-20 00:56:46 [INFO] primeiraplateia: Após deduplicação: 6 eventos
-2026-03-20 00:56:46 [INFO] scrapers.theater_registry: theater_registry: 11 teatros, 50 aliases carregados
-2026-03-20 00:56:46 [INFO] scrapers.harmonizer: harmonizer: 6 eventos harmonizados
-2026-03-20 00:56:46 [INFO] primeiraplateia: Após harmonização: 6 eventos
-2026-03-20 00:56:46 [INFO] scrapers.theater_registry: theater_registry: 11 teatros, 50 aliases carregados
-2026-03-20 00:56:46 [INFO] scrapers.validator: validação: 6 aceites | 0 rejeitados | 0 com avisos
-2026-03-20 00:56:46 [INFO] primeiraplateia: 
-events.json: 6 eventos válidos em 174.3s
-2026-03-20 00:56:46 [INFO] primeiraplateia: ────────────────────────────────────────
-2026-03-20 00:56:46 [INFO] primeiraplateia:   Teatro Variedades                     0 raw
-2026-03-20 00:56:46 [INFO] primeiraplateia:   Capitólio                             0 raw
-2026-03-20 00:56:46 [INFO] primeiraplateia:   São Luiz Teatro Municipal             0 raw
-2026-03-20 00:56:46 [INFO] primeiraplateia:   Teatro Maria Matos                    6 raw
-2026-03-20 00:56:46 [INFO] primeiraplateia:   Culturgest                            0 raw
-2026-03-20 00:56:46 [INFO] primeiraplateia:   CCB — Centro Cultural de Belém        0 raw
-2026-03-20 00:56:46 [INFO] primeiraplateia:   Teatro Viriato                        0 raw
-2026-03-20 00:56:46 [INFO] primeiraplateia:   Theatro Circo                         0 raw
-2026-03-20 00:56:46 [INFO] primeiraplateia:   Teatro do Bairro                      0 raw
-2026-03-20 00:56:46 [INFO] primeiraplateia:   Teatro da Trindade INATEL             0 raw
-2026-03-20 00:56:46 [INFO] primeiraplateia:   Teatro das Figuras                    0 raw
-2026-03-20 00:56:46 [INFO] primeiraplateia: 
+2026-03-20 00:56:53 [INFO] primeiraplateia: Após deduplicação: 6 eventos
+2026-03-20 00:56:53 [INFO] scrapers.theater_registry: theater_registry: 11 teatros, 50 aliases carregados
+2026-03-20 00:56:53 [INFO] scrapers.harmonizer: harmonizer: 6 eventos harmonizados
+2026-03-20 00:56:53 [INFO] primeiraplateia: Após harmonização: 6 eventos
+2026-03-20 00:56:53 [INFO] scrapers.theater_registry: theater_registry: 11 teatros, 50 aliases carregados
+2026-03-20 00:56:53 [INFO] scrapers.validator: validação: 6 aceites | 0 rejeitados | 0 com avisos
+2026-03-20 00:56:53 [INFO] primeiraplateia: 
+events.json: 6 eventos válidos em 156.9s
+2026-03-20 00:56:53 [INFO] primeiraplateia: ────────────────────────────────────────
+2026-03-20 00:56:53 [INFO] primeiraplateia:   Teatro Variedades                     0 raw
+2026-03-20 00:56:53 [INFO] primeiraplateia:   Capitólio                             0 raw
+2026-03-20 00:56:53 [INFO] primeiraplateia:   São Luiz Teatro Municipal             0 raw
+2026-03-20 00:56:53 [INFO] primeiraplateia:   Teatro Maria Matos                    6 raw
+2026-03-20 00:56:53 [INFO] primeiraplateia:   Culturgest                            0 raw
+2026-03-20 00:56:53 [INFO] primeiraplateia:   CCB — Centro Cultural de Belém        0 raw
+2026-03-20 00:56:53 [INFO] primeiraplateia:   Teatro Viriato                        0 raw
+2026-03-20 00:56:53 [INFO] primeiraplateia:   Theatro Circo                         0 raw
+2026-03-20 00:56:53 [INFO] primeiraplateia:   Teatro do Bairro                      0 raw
+2026-03-20 00:56:53 [INFO] primeiraplateia:   Teatro da Trindade INATEL             0 raw
+2026-03-20 00:56:53 [INFO] primeiraplateia:   Teatro das Figuras                    0 raw
+2026-03-20 00:56:53 [INFO] primeiraplateia: 
   Duplicados removidos:      0
-2026-03-20 00:56:46 [INFO] primeiraplateia:   Rejeitados pela validação: 0
-2026-03-20 00:56:46 [INFO] primeiraplateia:   Com avisos:                0
-2026-03-20 00:56:46 [INFO] primeiraplateia: =======================================================
+2026-03-20 00:56:53 [INFO] primeiraplateia:   Rejeitados pela validação: 0
+2026-03-20 00:56:53 [INFO] primeiraplateia:   Com avisos:                0
+2026-03-20 00:56:53 [INFO] primeiraplateia: =======================================================
