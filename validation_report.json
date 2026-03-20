@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-03-20T23:22:46.126880Z",
-  "total_raw": 154,
-  "total_accepted": 149,
-  "total_rejected": 5,
+  "generated_at": "2026-03-20T23:35:56.681041Z",
+  "total_raw": 165,
+  "total_accepted": 159,
+  "total_rejected": 6,
   "total_warnings": 1,
   "rejected": [
     {
@@ -36,6 +36,13 @@
     {
       "id": "saoluiz-pons-varolii",
       "title": "PONS VAROLII",
+      "errors": [
+        "'date_start' ausente ou vazio"
+      ]
+    },
+    {
+      "id": "mariamatos-lap-laborat-rio-de-artes-performativas-para-crian-",
+      "title": "LAP | Laboratório de Artes Performativas para crianças",
       "errors": [
         "'date_start' ausente ou vazio"
       ]
