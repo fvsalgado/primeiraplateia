@@ -8,15 +8,14 @@ on:
     branches:
       - main
   workflow_dispatch:
-    # Permite correr manualmente a partir do GitHub Actions UI
 
 permissions:
-  contents: write  # necessário para commitar events.json e data/
+  contents: write
 
 jobs:
   scrape-and-deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
 
     steps:
 
@@ -24,7 +23,7 @@ jobs:
       - name: Checkout repositório
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # histórico completo para diffs de anomalias
+          fetch-depth: 0
 
       # ── 2. Python ────────────────────────────────────────────
       - name: Configurar Python
@@ -36,7 +35,7 @@ jobs:
       - name: Instalar dependências
         run: pip install -r requirements.txt
 
-      # ── 3. Sync scrapers (auto-registo) ──────────────────────
+      # ── 3. Sync scrapers ─────────────────────────────────────
       - name: Sincronizar scrapers
         run: python scripts/sync_scrapers.py
 
@@ -45,99 +44,100 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add theaters.json scraper.py
-          git diff --staged --quiet || git commit -m "chore: sync scrapers automático [skip ci]"
+          git diff --staged --quiet || git commit -m "chore: sync scrapers [skip ci]"
 
       # ── 4. Scraper principal ─────────────────────────────────
       - name: Correr scraper
         run: python scraper.py
-        env:
-          # Timeout mais longo para scrapers lentos
-          PYTHONDONTWRITEBYTECODE: 1
 
-      # ── 5. Build (gerar data/) ───────────────────────────────
+      # ── 5. Build — gera data/ no filesystem ─────────────────
       - name: Gerar artefactos de dados
         run: python scripts/build.py
 
-      # ── 6. Commitar dados gerados ────────────────────────────
-      - name: Commitar events.json e validation_report.json
+      # ── 6. Verificar que data/ foi gerado ────────────────────
+      - name: Verificar artefactos
         run: |
-          git add events.json validation_report.json
-          git diff --staged --quiet || git commit -m "data: actualização diária $(date -u '+%Y-%m-%d %H:%M UTC') [skip ci]"
-
-      # ── 7. Verificar anomalias ───────────────────────────────
-      - name: Verificar anomalias
-        run: |
+          echo "=== Ficheiros gerados ==="
+          ls -lh data/ || echo "ERRO: data/ não foi gerado"
           python -c "
-          import json, sys
+          import json
           try:
-              with open('data/meta.json') as f:
-                  meta = json.load(f)
-              anomalies = meta.get('anomalies', [])
-              if anomalies:
-                  print('⚠️  ANOMALIAS DETECTADAS:')
-                  for a in anomalies:
-                      print(f'  • {a}')
-                  # Não falha o workflow — apenas avisa
-                  # Para falhar: sys.exit(1)
-              else:
-                  print('✓ Sem anomalias detectadas.')
-                  print(f'  Teatros: {meta.get(\"total_theaters\", \"?\")}')
-                  print(f'  Espectáculos: {meta.get(\"total_events\", \"?\")}')
-                  print(f'  Completeness médio: {meta.get(\"completeness_avg\", \"?\")}')
-          except FileNotFoundError:
-              print('⚠️  data/meta.json não encontrado — build.py ainda não implementado?')
+              m = json.load(open('data/meta.json'))
+              print(f'OK meta.json: {m[\"total_events\"]} eventos, {m[\"total_theaters\"]} teatros')
+          except Exception as e:
+              print(f'ERRO meta.json: {e}')
+          try:
+              evs = json.load(open('data/events.slim.json'))
+              print(f'OK events.slim.json: {len(evs)} eventos')
+          except Exception as e:
+              print(f'ERRO events.slim.json: {e}')
           "
 
-      # ── 8. Deploy para GitHub Pages ──────────────────────────
+      # ── 7. Commitar events.json para main ────────────────────
+      - name: Commitar events.json
+        run: |
+          git add events.json validation_report.json
+          git diff --staged --quiet || git commit -m "data: $(date -u '+%Y-%m-%d %H:%M UTC') [skip ci]"
+          git push || true
+
+      # ── 8. Preparar pasta _site/ para deploy ─────────────────
+      # Agrega tudo o que o site precisa numa pasta limpa.
+      # IMPORTANTE: inclui data/ gerado em runtime — não está no repo.
+      - name: Preparar pasta de deploy
+        run: |
+          mkdir -p _site
+
+          # Assets estáticos
+          cp -r design fonts _site/
+          cp manifest.webmanifest robots.txt sitemap.xml llms.txt CNAME _site/ 2>/dev/null || true
+
+          # Páginas HTML
+          cp index.html 404.html _site/
+          for dir in programacao calendario teatros espetaculo sobre privacidade aviso-legal acessibilidade; do
+            [ -d "$dir" ] && cp -r "$dir" _site/
+          done
+
+          # Dados — gerados em runtime pelo scraper + build.py
+          cp -r data _site/
+          cp events.json theaters.json _site/
+
+          echo "=== Conteúdo _site/ ==="
+          find _site -maxdepth 3 -type f | sort
+
+      # ── 9. Deploy para GitHub Pages ──────────────────────────
       - name: Deploy para GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./
+          publish_dir: ./_site
           publish_branch: gh-pages
-          # Excluir ficheiros que não devem ser publicados
-          exclude_assets: |
-            .github
-            scrapers
-            scripts
-            scraper.py
-            requirements.txt
-            validation_report.json
-            *.md
-            *.py
-            .gitignore
-          # Manter histórico do gh-pages branch
-          keep_files: false
-          # Mensagem de commit no gh-pages
-          commit_message: "deploy: ${{ github.sha }} — $(date -u '+%Y-%m-%d %H:%M UTC')"
-          # Forçar HTTPS
           force_orphan: false
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: "deploy: ${{ github.sha }}"
           cname: primeiraplateia.pt
 
-      # ── 9. Sumário ───────────────────────────────────────────
+      # ── 10. Sumário ──────────────────────────────────────────
       - name: Sumário do workflow
         if: always()
         run: |
-          echo "## 🎭 Primeira Plateia — Build Summary" >> $GITHUB_STEP_SUMMARY
+          echo "## Primeira Plateia — Build Summary" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           python -c "
           import json
           try:
-              with open('data/meta.json') as f:
-                  m = json.load(f)
-              print(f'| Campo | Valor |')
-              print(f'|---|---|')
+              m = json.load(open('data/meta.json'))
+              print('| Campo | Valor |')
+              print('|---|---|')
               print(f'| Teatros | {m.get(\"total_theaters\", \"?\")} |')
-              print(f'| Espectáculos | {m.get(\"total_events\", \"?\")} |')
-              print(f'| Completeness médio | {m.get(\"completeness_avg\", \"?\")} |')
+              print(f'| Espectaculos | {m.get(\"total_events\", \"?\")} |')
+              print(f'| Completeness medio | {m.get(\"completeness_avg\", \"?\")} |')
               print(f'| Actualizado em | {m.get(\"updated_at\", \"?\")} |')
               anomalies = m.get('anomalies', [])
               if anomalies:
-                  print(f'| ⚠️ Anomalias | {len(anomalies)} teatro(s) |')
+                  print(f'| Anomalias | {len(anomalies)} teatro(s) |')
               else:
-                  print(f'| Anomalias | Nenhuma ✓ |')
-          except:
-              print('Não foi possível ler meta.json')
-          " >> $GITHUB_STEP_SUMMARY
+                  print('| Anomalias | Nenhuma |')
+          except Exception as e:
+              print(f'Erro ao ler meta.json: {e}')
+          " >> $GITHUB_STEP_SUMMARY || true
