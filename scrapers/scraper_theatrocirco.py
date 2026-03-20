@@ -6,16 +6,17 @@ Cidade: Braga
 Estrutura do site (HTML estático, WordPress / The Events Calendar):
   - Listagem: /programa/ — página única com TODOS os eventos (sem paginação).
     Cada evento é um div.highlight-card com:
-      • p.highlight-meta  → "DD mês (dia) → Categoria[, Categoria]"
-        (existe versão .desktop e versão mobile com a mesma info; usar só .desktop
-        ou a primeira encontrada para evitar duplicados)
+      • p.highlight-meta.desktop  → "DD mês (dia) <span>→</span> Categoria[, Categoria]"
+        (existe versão .desktop e versão .mobile com a mesma info; usar .desktop para evitar
+        duplicados; o separador "→" está dentro de um <span>, mas get_text() une tudo)
       • div.highlight-image > a[href]  → URL do evento (contém <img> ou <video>,
         NÃO texto — bug do scraper antigo: chamava a.get_text() aqui)
-      • h3 > em  → título em itálico
-      • h3 (sem em)  → título sem itálico
-      • h3 seguinte → subtítulo / companhia
-      • a.highlight-tag → tags (ex: Infantojuvenil, Acessibilidade, Aniversário)
-      • a[href*="bol.pt"] → ticket_url directo da listagem
+      • ATENÇÃO: h3.line-one e h3.line-two estão VAZIOS — o texto está nos <p> irmãos
+        seguintes: h3.line-one + p seguinte = título; h3.line-two + p seguinte = subtítulo
+      • a.tag (dentro de div.highlight-tags) → tags (Infantojuvenil, Acessibilidade, etc.)
+        NÃO usar a.highlight-tag (não existe); tags aparecem duplicadas (desktop+mobile),
+        deduplicar com set()
+      • div.highlight-ticket > a[href]  → ticket_url directo da listagem
 
   - Página de evento individual (sempre visitada):
       • og:image        → imagem principal (mais fiável que a da listagem)
@@ -145,28 +146,41 @@ def _collect_candidates() -> list[dict]:
     """
     Percorre /programa/ e devolve todos os eventos encontrados.
 
-    Estrutura HTML de cada evento:
+    Estrutura HTML de cada evento (confirmada com HTML real):
       <div class="highlight-card">
-        <p class="highlight-meta desktop">DD mês (dia) → Categoria</p>
+        <div class="text-decoration-none text-dark">
+          <p class="highlight-meta small desktop">
+            DD mês (dia) <span>→</span> Categoria
+          </p>
+        </div>
         <div class="highlight-image">
-          <a href="/event/slug/">
+          <a href="https://theatrocirco.com/event/slug/">
             <img ...>  <!-- OU <video> — NÃO tem texto -->
           </a>
+          <div class="highlight-tags">          <!-- tags opcionais -->
+            <a class="tag" href="/event_tag/...">Tag</a>
+          </div>
+          <div class="highlight-ticket">        <!-- ticket opcional -->
+            <a href="https://www.bol.pt/...">Bilhetes</a>
+          </div>
         </div>
-        <!-- Tags opcionais antes do título -->
-        <a class="highlight-tag" href="...">Infantojuvenil</a>
-        <a href="https://www.bol.pt/...">Bilhetes</a>
-        <!-- meta repetido (mobile) -->
-        <p class="highlight-meta">DD mês (dia) → Categoria</p>
-        <h3><em>Título em itálico</em></h3>  OU  <h3>Título simples</h3>
-        <h3>Subtítulo / Companhia</h3>
-        <!-- Tags opcionais depois do título -->
-        <a class="highlight-tag" href="...">Tag</a>
+        <p class="highlight-meta small only-mobile mobile">...</p>
+        <h3 class="line-one"></h3>   <!-- VAZIO — texto no <p> seguinte -->
+        <p><em>Título</em></p>
+        <h3 class="line-two"></h3>   <!-- VAZIO — texto no <p> seguinte -->
+        <p>Subtítulo / Companhia</p>
+        <div class="mobile mobile-buttons">
+          <div class="highlight-tags">          <!-- tags duplicadas (mobile) -->
+            <a class="tag" href="/event_tag/...">Tag</a>
+          </div>
+        </div>
       </div>
 
-    Bug corrigido: o scraper anterior iterava <a href=/event/> e chamava
-    .get_text() — essas tags só contêm <img>/<video>, texto sempre vazio.
-    A solução é iterar div.highlight-card e ler os elementos filhos.
+    Bugs corrigidos vs. versão anterior:
+      1. Títulos: h3.select() dava strings vazias — texto está nos <p> irmãos.
+      2. Tags: selector era "a.highlight-tag" (não existe) → deve ser "a.tag";
+         deduplicar porque aparecem em versão desktop e mobile.
+      3. Ticket: selector correcto é "div.highlight-ticket a[href]".
     """
     try:
         r = requests.get(_AGENDA, headers=HEADERS, timeout=20)
@@ -206,24 +220,32 @@ def _collect_candidates() -> list[dict]:
             raw_category = parts[1].strip()
 
         # ── Título e subtítulo ─────────────────────────────────
-        h3_list = card.select("h3")
+        # ATENÇÃO: h3.line-one e h3.line-two estão VAZIOS no HTML.
+        # O texto está no elemento <p> irmão imediatamente a seguir a cada h3.
         title    = ""
         subtitle = ""
-        if h3_list:
-            title    = h3_list[0].get_text(strip=True)
-        if len(h3_list) >= 2:
-            subtitle = h3_list[1].get_text(strip=True)
+        h3_one = card.select_one("h3.line-one")
+        if h3_one:
+            nxt = h3_one.find_next_sibling("p")
+            if nxt:
+                title = nxt.get_text(strip=True)
+        h3_two = card.select_one("h3.line-two")
+        if h3_two:
+            nxt = h3_two.find_next_sibling("p")
+            if nxt:
+                subtitle = nxt.get_text(strip=True)
 
         # ── Tags ───────────────────────────────────────────────
-        tags = [a.get_text(strip=True) for a in card.select("a.highlight-tag")]
+        # Selector correcto: "a.tag" (não "a.highlight-tag" que não existe).
+        # As tags aparecem duplicadas (versão desktop + mobile) — deduplicar.
+        tags = list({a.get_text(strip=True) for a in card.select("a.tag")})
 
         # ── Ticket URL da listagem ─────────────────────────────
+        # Está dentro de div.highlight-ticket > a
         ticket_url = ""
-        for a in card.select("a[href]"):
-            h = a["href"]
-            if "bol.pt" in h or "ticketline.pt" in h:
-                ticket_url = h
-                break
+        t = card.select_one("div.highlight-ticket a[href]")
+        if t:
+            ticket_url = t["href"]
 
         # ── Imagem thumbnail da listagem ───────────────────────
         # Guardamos para fallback — a imagem definitiva vem da página individual
@@ -329,7 +351,7 @@ def _scrape_event(item: dict) -> dict | None:
 
     hora_m = re.search(r"\b(\d{1,2}[hH]\d{2})\b", full_text)
     if hora_m:
-        schedule = hora_m.group(1).lower().replace("h", "h")  # normalizar para "21h30"
+        schedule = hora_m.group(1).lower()  # normalizar "21H30" → "21h30"
 
     sala_m = re.search(
         r"(Sala\s+Principal|Pequeno\s+Audit[oó]rio|Grande\s+Audit[oó]rio|Foyer)",
@@ -403,7 +425,9 @@ def _scrape_event(item: dict) -> dict | None:
     if not ticket_url:
         for a in soup.find_all("a", href=True):
             h = a["href"]
-            if any(k in h for k in ("bol.pt", "ticketline.pt", "bilhete", "comprar")):
+            # Só domínios externos de bilheteira — evitar apanhar links internos
+            # como /informacoes/bilheteira que contém a palavra "bilhete"
+            if any(k in h for k in ("bol.pt", "ticketline.pt")):
                 ticket_url = h if h.startswith("http") else urljoin(_BASE, h)
                 break
 
@@ -499,8 +523,10 @@ def _parse_date_text(text: str) -> tuple[str, str, str]:
         d1, mo1, d2, mo2, yr = m.groups()
         n1, n2 = _mon(mo1), _mon(mo2)
         if n1 and n2:
+            # Inferir o ano pelo FIM do intervalo; calcular o início com base nele.
+            # Evita o bug "12 jan a 18 abr" → jan=2027, abr=2026 quando jan já passou.
             y2 = int(yr) if yr else _infer_year(n2, int(d2))
-            y1 = _infer_year(n1, int(d1)) if not yr else y2
+            y1 = _infer_year_start(n1, n2, y2)
             label = f"{d1} {mo1.capitalize()} a {d2} {mo2.capitalize()}"
             return (label,
                     f"{y1}-{n1:02d}-{int(d1):02d}",
@@ -564,6 +590,15 @@ def _infer_year(month: int, day: int) -> int:
     if month > now.month or (month == now.month and day >= now.day):
         return now.year
     return now.year + 1
+
+
+def _infer_year_start(ini_month: int, end_month: int, end_year: int) -> int:
+    """
+    Dado o ano de fim de um intervalo, calcula o ano de início.
+    Se início <= fim no calendário → mesmo ano.
+    Se início > fim (ex: Dez→Jan) → end_year - 1.
+    """
+    return end_year if ini_month <= end_month else end_year - 1
 
 
 # ─────────────────────────────────────────────────────────────
