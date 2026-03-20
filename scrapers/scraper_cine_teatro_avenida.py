@@ -1,6 +1,24 @@
 """
-Scraper para o Cine-Teatro Avenida (Castelo Branco)
+Scraper: Cine-Teatro Avenida (Castelo Branco)
 Fonte: https://www.ticketline.pt/salas/sala/139
+
+Estrutura do site (Ticketline, HTML):
+  - Listagem: /salas/sala/139 — lista todos os próximos eventos do teatro.
+    Cada item é um <li itemscope> dentro de ul.events_list, com:
+      - <div class="date" data-date="YYYY-MM-DD"> — data fiável, sem JS
+      - <p class="title" itemprop="name"> — título do evento
+      - <img data-src-original="..."> — imagem em lazy-load
+      - <p class="weekday"> — dia da semana abreviado
+      - <a itemprop="url" href="/evento/slug"> — link para detalhe
+  - Página de evento: /evento/<slug>
+    Fonte de sinopse, categoria, preço, duração, idade, ticket_url.
+    Ticketline bloqueia alguns pedidos — cada detalhe é tratado
+    individualmente com try/except; falha não descarta o evento.
+
+Notas:
+  - Não há paginação: a listagem mostra todos os próximos eventos.
+  - A categoria não aparece na listagem; vem apenas do detalhe.
+  - ticket_url = source_url (a mesma página serve de bilheteira).
 """
 
 import logging
@@ -9,381 +27,394 @@ import time
 
 import requests
 from bs4 import BeautifulSoup
+from urllib.parse import urljoin
 
-from scrapers.utils import make_id, truncate_synopsis
+from scrapers.utils import (
+    make_id,
+    log,
+    HEADERS,
+    can_scrape,
+    truncate_synopsis,
+    build_image_object,
+)
 from scrapers.schema import normalize_category
 
 logger = logging.getLogger(__name__)
 
+# ─────────────────────────────────────────────────────────────
+# Metadados do teatro — lidos pelo sync_scrapers.py
+# ─────────────────────────────────────────────────────────────
 THEATER = {
-    "id":    "cine-teatro-avenida",
-    "name":  "Cine-Teatro Avenida",
-    "city":  "Castelo Branco",
-    "url":   "https://www.ticketline.pt/salas/sala/139",
-    "color": "#8B1A1A",
+    "id":          "cine-teatro-avenida",
+    "name":        "Cine-Teatro Avenida",
+    "short":       "C.T. Avenida",
+    "color":       "#8B1A1A",
+    "city":        "Castelo Branco",
+    "address":     "Av. General Humberto Delgado, 6000-081 Castelo Branco",
+    "site":        "https://www.ticketline.pt/salas/sala/139",
+    "programacao": "https://www.ticketline.pt/salas/sala/139",
+    "lat":         39.8237,
+    "lng":         -7.4906,
+    "salas":       ["Grande Sala"],
+    "aliases": [
+        "cine-teatro avenida",
+        "cine teatro avenida",
+        "cine-teatro avenida castelo branco",
+    ],
+    "description": (
+        "O Cine-Teatro Avenida é o principal equipamento cultural de Castelo Branco, "
+        "acolhendo espectáculos de teatro, dança, música e cinema. "
+        "A sua programação é disponibilizada através da plataforma Ticketline."
+    ),
 }
 
-BASE_URL = "https://www.ticketline.pt"
-VENUE_URL = "https://www.ticketline.pt/salas/sala/139"
+THEATER_NAME = THEATER["name"]
+SOURCE_SLUG  = THEATER["id"]
+BASE         = "https://www.ticketline.pt"
+VENUE_URL    = "https://www.ticketline.pt/salas/sala/139"
 
-# Mapeamento das categorias Ticketline → vocabulário controlado
-CATEGORY_MAP = {
-    "teatro": "Teatro",
-    "dança": "Dança",
-    "ópera": "Ópera",
-    "opera": "Ópera",
-    "musical": "Teatro Musical",
-    "circo": "Circo",
-    "mais novos": "Infanto-Juvenil",
-    "infantil": "Infanto-Juvenil",
-    "música": "Música",
-    "musica": "Música",
-    "concerto": "Música",
-    "performance": "Performance",
+# Mapeamento de categorias Ticketline → vocabulário controlado
+_CATEGORY_MAP = {
+    "teatro":          "Teatro",
+    "dança":           "Dança",
+    "danca":           "Dança",
+    "ópera":           "Ópera",
+    "opera":           "Ópera",
+    "musical":         "Teatro Musical",
+    "circo":           "Circo",
+    "mais novos":      "Infanto-Juvenil",
+    "infantil":        "Infanto-Juvenil",
+    "música":          "Música",
+    "musica":          "Música",
+    "concerto":        "Música",
+    "performance":     "Performance",
     "stand up comedy": "Outro",
     "outros produtos": "Outro",
-    "lazer": "Outro",
+    "lazer":           "Outro",
 }
 
-WEEKDAY_MAP = {
+_WEEKDAY_PT = {
     "seg": "Seg", "ter": "Ter", "qua": "Qua",
-    "qui": "Qui", "sex": "Sex", "sáb": "Sáb", "dom": "Dom",
-}
-
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (compatible; PrimeiraPlateiaBot/1.0; "
-        "+https://primeiraplateia.pt)"
-    ),
-    "Accept-Language": "pt-PT,pt;q=0.9",
+    "qui": "Qui", "sex": "Sex", "sáb": "Sáb",
+    "sab": "Sáb", "dom": "Dom",
 }
 
 
-def _get(url: str, session: requests.Session) -> BeautifulSoup | None:
-    """GET com tratamento de erros; devolve BeautifulSoup ou None."""
-    try:
-        resp = session.get(url, headers=HEADERS, timeout=15)
-        resp.raise_for_status()
-        return BeautifulSoup(resp.text, "lxml")
-    except requests.RequestException as exc:
-        logger.warning("Erro ao obter %s: %s", url, exc)
+# ─────────────────────────────────────────────────────────────
+# Ponto de entrada
+# ─────────────────────────────────────────────────────────────
+
+def scrape() -> list[dict]:
+    if not can_scrape(BASE):
+        log(f"robots.txt: scraping bloqueado para {BASE}")
+        return []
+
+    session = requests.Session()
+    session.headers.update(HEADERS)
+
+    listing = _get_soup(VENUE_URL, session)
+    if listing is None:
+        log(f"[{THEATER_NAME}] Erro ao obter listagem: {VENUE_URL}")
+        return []
+
+    items = listing.select("ul.events_list li[itemscope]")
+    log(f"[{THEATER_NAME}] {len(items)} eventos na listagem")
+
+    events:   list[dict] = []
+    seen_ids: set[str]   = set()
+
+    for item in items:
+        try:
+            stub = _parse_listing_item(item)
+            if not stub:
+                continue
+
+            time.sleep(0.5)
+            ev = _build_event(session, stub)
+            if not ev:
+                continue
+
+            eid = ev["id"]
+            if eid not in seen_ids:
+                seen_ids.add(eid)
+                events.append(ev)
+
+        except Exception as e:
+            log(f"[{THEATER_NAME}] Erro inesperado num item da listagem: {e}")
+
+    log(f"[{THEATER_NAME}] {len(events)} eventos recolhidos")
+    return events
+
+
+# ─────────────────────────────────────────────────────────────
+# Parsing da listagem
+# ─────────────────────────────────────────────────────────────
+
+def _parse_listing_item(item) -> dict | None:
+    """
+    Extrai stub do <li> da listagem.
+    Devolve dict com title, date_start, weekday, img_url, source_url,
+    ou None se faltar título ou data.
+    """
+    # URL do evento
+    link = item.select_one("a[itemprop='url'], a[href*='/evento/']")
+    if not link:
+        return None
+    href       = link.get("href", "")
+    source_url = href if href.startswith("http") else urljoin(BASE, href)
+
+    # Título
+    title_el = item.select_one("p.title[itemprop='name'], p.title")
+    title    = title_el.get_text(strip=True) if title_el else ""
+    if not title:
         return None
 
+    # Data — atributo data-date é fiável e independente de JS
+    date_el    = item.select_one("div.date[data-date]")
+    date_start = date_el["data-date"] if date_el else ""
+    if not date_start:
+        sd = item.find(itemprop="startDate")
+        if sd:
+            content = sd.get("content", "")
+            m = re.match(r"(\d{4}-\d{2}-\d{2})", content)
+            date_start = m.group(1) if m else ""
+    if not date_start:
+        return None
 
-def _clean_text(text: str | None) -> str:
-    """Remove HTML residual e normaliza espaços."""
-    if not text:
-        return ""
-    text = re.sub(r"<[^>]+>", " ", text)
-    text = re.sub(r"\s+", " ", text)
-    return text.strip()
+    # Dia da semana
+    wd_el   = item.select_one("p.weekday")
+    wd_raw  = wd_el.get_text(strip=True).lower() if wd_el else ""
+    weekday = _WEEKDAY_PT.get(wd_raw)
+
+    # Imagem (lazy-load — remover querystring de cache)
+    img_el  = item.select_one("div.thumb img[data-src-original]")
+    img_url = ""
+    if img_el:
+        img_url = re.sub(r"\?rev=\d+", "", img_el["data-src-original"])
+
+    return {
+        "title":      title,
+        "date_start": date_start,
+        "weekday":    weekday,
+        "img_url":    img_url,
+        "source_url": source_url,
+    }
+
+
+# ─────────────────────────────────────────────────────────────
+# Construção do evento com enriquecimento via página de detalhe
+# ─────────────────────────────────────────────────────────────
+
+def _build_event(session: requests.Session, stub: dict) -> dict | None:
+    """
+    Cria evento com dados do stub + campos extra do detalhe.
+    A falha no detalhe não descarta o evento — usa o stub.
+    """
+    title      = stub["title"]
+    date_start = stub["date_start"]
+    source_url = stub["source_url"]
+
+    # Imagem base (da listagem)
+    image = None
+    if stub["img_url"]:
+        image = {
+            "url":     stub["img_url"],
+            "credit":  None,
+            "source":  source_url,
+            "theater": THEATER_NAME,
+        }
+
+    # Sessão mínima (da listagem)
+    sessions = [{
+        "date":    date_start,
+        "time":    None,
+        "weekday": stub["weekday"],
+    }]
+
+    # Campos opcionais — preenchidos pelo detalhe
+    category   = None
+    synopsis   = ""
+    ticket_url = source_url
+    price_info = ""
+    price_min  = None
+    price_max  = None
+    duration   = ""
+    dur_min    = None
+    age_rating = ""
+    age_min    = None
+
+    # ── Tentar página de detalhe ──────────────────────────────
+    soup = _get_soup(source_url, session)
+    if soup:
+        full_text = soup.get_text(" ", strip=True)
+
+        # Categoria
+        cat_el = soup.select_one(
+            "p.metadata.categories, span.category, "
+            "a[href*='/pesquisa?category']"
+        )
+        if cat_el:
+            category = _map_category(cat_el.get_text(strip=True))
+
+        # Sinopse
+        og = soup.find("meta", property="og:description")
+        if og and og.get("content", "").strip():
+            synopsis = truncate_synopsis(og["content"].strip())
+        else:
+            main = soup.find("main") or soup.find("article") or soup
+            parts = []
+            for p in main.find_all("p"):
+                t = p.get_text(strip=True)
+                if len(t) >= 60:
+                    parts.append(t)
+                    if sum(len(x) for x in parts) > 600:
+                        break
+            synopsis = truncate_synopsis(" ".join(parts))
+
+        # Imagem — og:image tem maior resolução que o cartaz da listagem
+        og_img = soup.find("meta", property="og:image")
+        if og_img and og_img.get("content", "").startswith("http"):
+            image = build_image_object(og_img["content"], soup, THEATER_NAME, source_url)
+
+        # Preço
+        price_el = soup.select_one(
+            "p.price, span.price, div.price, span[itemprop='price']"
+        )
+        price_text = price_el.get_text(strip=True) if price_el else ""
+        if not price_text:
+            pm = re.search(
+                r"(Entrada\s+(?:livre|gratuita)|gratuito"
+                r"|\d+(?:[,.]\d+)?\s*€(?:\s*[-–]\s*\d+(?:[,.]\d+)?\s*€)?)",
+                full_text, re.IGNORECASE,
+            )
+            if pm:
+                price_text = pm.group(1).strip()
+        if price_text:
+            price_info, price_min, price_max = _parse_price(price_text)
+
+        # Duração
+        dur_el   = soup.select_one("p.duration, span.duration, li.duration")
+        dur_text = dur_el.get_text(strip=True) if dur_el else ""
+        if not dur_text:
+            dm = re.search(r"(\d+)\s*min(?:utos?)?", full_text, re.IGNORECASE)
+            if dm:
+                dur_text = dm.group(0)
+        if dur_text:
+            duration, dur_min = _parse_duration(dur_text)
+
+        # Classificação etária
+        age_el   = soup.select_one("p.age_rating, span.age, li.age_rating, p.rating")
+        age_text = age_el.get_text(strip=True) if age_el else ""
+        if not age_text:
+            am = re.search(
+                r"\bM\s*/\s*(\d+)\b|todos\s+os\s+p[úu]blicos",
+                full_text, re.IGNORECASE,
+            )
+            if am:
+                age_text = am.group(0)
+        if age_text:
+            age_rating, age_min = _parse_age(age_text)
+
+        # URL de bilhetes explícito
+        buy = soup.select_one("a.buy_ticket, a[href*='/comprar/'], a.button.buy")
+        if buy and buy.get("href"):
+            href = buy["href"]
+            ticket_url = href if href.startswith("http") else urljoin(BASE, href)
+
+    # ── Montar evento (omitir campos vazios) ──────────────────
+    ev: dict = {
+        "id":         make_id(SOURCE_SLUG, title),
+        "title":      title,
+        "theater":    THEATER_NAME,
+        "date_start": date_start,
+        "source_url": source_url,
+        "ticket_url": ticket_url,
+        "sessions":   sessions,
+    }
+
+    if category:
+        ev["category"] = category
+    if synopsis:
+        ev["synopsis"] = synopsis
+    if image:
+        ev["image"] = image
+    if price_info:
+        ev["price_info"] = price_info
+    if price_min is not None:
+        ev["price_min"] = price_min
+    if price_max is not None:
+        ev["price_max"] = price_max
+    if duration:
+        ev["duration"] = duration
+    if dur_min is not None:
+        ev["duration_min"] = dur_min
+    if age_rating:
+        ev["age_rating"] = age_rating
+    if age_min is not None:
+        ev["age_min"] = age_min
+
+    return ev
+
+
+# ─────────────────────────────────────────────────────────────
+# Utilitários internos
+# ─────────────────────────────────────────────────────────────
+
+def _get_soup(url: str, session: requests.Session) -> BeautifulSoup | None:
+    try:
+        r = session.get(url, timeout=15)
+        r.raise_for_status()
+        return BeautifulSoup(r.text, "lxml")
+    except requests.RequestException as e:
+        log(f"[{THEATER_NAME}] Erro ao obter {url}: {e}")
+        return None
 
 
 def _map_category(raw: str) -> str | None:
-    """Converte categoria Ticketline para vocabulário controlado."""
     if not raw:
         return None
     key = raw.strip().lower()
-    # Tentativa directa
-    if key in CATEGORY_MAP:
-        return CATEGORY_MAP[key]
-    # Tentativa via normalize_category (harmonizer)
-    normalized = normalize_category(raw)
-    if normalized:
-        return normalized
-    # Fallback parcial
-    for k, v in CATEGORY_MAP.items():
+    if key in _CATEGORY_MAP:
+        return _CATEGORY_MAP[key]
+    for k, v in _CATEGORY_MAP.items():
         if k in key:
             return v
-    return "Outro"
+    return normalize_category(raw) or None
 
 
-def _parse_price(text: str | None) -> dict:
-    """Extrai price_info, price_min, price_max de uma string de preço."""
-    result: dict = {}
-    if not text:
-        return result
-    text = _clean_text(text)
-    if re.search(r"entr[ae]da\s+livre|gratuito|free", text, re.I):
-        result["price_info"] = "Entrada livre"
-        result["price_min"] = 0.0
-        return result
-    prices = re.findall(r"(\d+(?:[.,]\d+)?)\s*€", text)
+def _parse_price(text: str) -> tuple[str, float | None, float | None]:
+    text = text.strip()
+    if re.search(r"entr[ae]da\s+livre|gratuito", text, re.I):
+        return "Entrada livre", 0.0, None
+    prices = [float(p.replace(",", ".")) for p in re.findall(r"(\d+(?:[,.]\d+)?)\s*€", text)]
     if prices:
-        floats = [float(p.replace(",", ".")) for p in prices]
-        result["price_min"] = min(floats)
-        result["price_max"] = max(floats)
-        result["price_info"] = text
-    return result
+        pmin = min(prices)
+        pmax = max(prices) if len(prices) > 1 else None
+        return text, pmin, pmax
+    return text, None, None
 
 
-def _parse_duration(text: str | None) -> dict:
-    """Extrai duration e duration_min de 'aprox. 90 min' etc."""
-    result: dict = {}
-    if not text:
-        return result
+def _parse_duration(text: str) -> tuple[str, int | None]:
     m = re.search(r"(\d+)\s*min", text, re.I)
     if m:
         mins = int(m.group(1))
-        result["duration_min"] = mins
-        result["duration"] = f"{mins} min."
-    return result
+        return f"{mins} min.", mins
+    return "", None
 
 
-def _scrape_detail(url: str, session: requests.Session) -> dict:
-    """
-    Visita a página de detalhe do evento e extrai campos extra.
-    Devolve um dict parcial (só os campos encontrados).
-    """
-    extra: dict = {}
-    soup = _get(url, session)
-    if soup is None:
-        return extra
-
-    # --- Sinopse ---
-    synopsis_el = soup.select_one(
-        'div.description, div.synopsis, div[itemprop="description"], '
-        'div.text p, section.description p'
-    )
-    if synopsis_el:
-        raw_syn = _clean_text(synopsis_el.get_text(" ", strip=True))
-        if raw_syn:
-            extra["synopsis"] = truncate_synopsis(raw_syn, 300)
-
-    # --- Categoria ---
-    cat_el = soup.select_one(
-        'p.metadata.categories, span.category, '
-        'a[href*="/pesquisa?category"]'
-    )
-    if cat_el:
-        cat_raw = _clean_text(cat_el.get_text())
-        if cat_raw:
-            mapped = _map_category(cat_raw)
-            if mapped:
-                extra["category"] = mapped
-
-    # --- Datas ---
-    # Tentamos schema.org startDate / endDate
-    start_el = soup.find(itemprop="startDate")
-    if start_el:
-        date_val = start_el.get("content") or start_el.get("datetime", "")
-        m = re.match(r"(\d{4}-\d{2}-\d{2})", date_val)
-        if m:
-            extra["date_start"] = m.group(1)
-    end_el = soup.find(itemprop="endDate")
-    if end_el:
-        date_val = end_el.get("content") or end_el.get("datetime", "")
-        m = re.match(r"(\d{4}-\d{2}-\d{2})", date_val)
-        if m:
-            extra["date_end"] = m.group(1)
-
-    # --- Sessões ---
-    sessions = []
-    for row in soup.select("ul.sessions li, table.sessions tr, div.session"):
-        date_el = row.find(class_=re.compile(r"date|day"))
-        time_el = row.find(class_=re.compile(r"time|hour|hora"))
-        if not date_el:
-            continue
-        date_str = (date_el.get("data-date") or
-                    date_el.get("content") or
-                    date_el.get_text(strip=True))
-        m = re.match(r"(\d{4}-\d{2}-\d{2})", date_str or "")
-        if not m:
-            continue
-        sess: dict = {"date": m.group(1)}
-        if time_el:
-            t = _clean_text(time_el.get_text())
-            m2 = re.match(r"(\d{1,2}:\d{2})", t)
-            sess["time"] = m2.group(1) if m2 else None
-        else:
-            sess["time"] = None
-        # Dia da semana
-        wd_el = row.find(class_=re.compile(r"weekday|week"))
-        sess["weekday"] = (
-            WEEKDAY_MAP.get(
-                _clean_text(wd_el.get_text()).lower(), None
-            )
-            if wd_el else None
-        )
-        sessions.append(sess)
-    if sessions:
-        extra["sessions"] = sessions
-
-    # --- Preço ---
-    price_el = soup.select_one(
-        'p.price, span.price, div.price, '
-        'span[itemprop="price"], p.ticket_price'
-    )
-    if price_el:
-        extra.update(_parse_price(_clean_text(price_el.get_text())))
-
-    # --- Duração ---
-    dur_el = soup.select_one(
-        'p.duration, span.duration, li.duration'
-    )
-    if dur_el:
-        extra.update(_parse_duration(_clean_text(dur_el.get_text())))
-
-    # --- Classificação etária ---
-    age_el = soup.select_one(
-        'p.age_rating, span.age, li.age_rating, '
-        'p.rating, span[class*="age"]'
-    )
-    if age_el:
-        age_text = _clean_text(age_el.get_text())
-        m = re.search(r"M[/\s]*(\d+)|todos\s+os\s+públicos", age_text, re.I)
-        if m:
-            if m.group(1):
-                extra["age_rating"] = f"M/{m.group(1)}"
-                extra["age_min"] = int(m.group(1))
-            else:
-                extra["age_rating"] = "Todos os públicos"
-                extra["age_min"] = 0
-
-    # --- URL de bilhetes ---
-    # Normalmente o próprio URL Ticketline serve de ticket_url
-    buy_el = soup.select_one(
-        'a.buy_ticket, a[href*="/comprar/"], a.button.buy'
-    )
-    if buy_el and buy_el.get("href"):
-        href = buy_el["href"]
-        extra["ticket_url"] = (
-            href if href.startswith("http") else BASE_URL + href
-        )
-
-    # --- Acessibilidade ---
-    access: list[str] = []
-    access_text = soup.get_text(" ", strip=True).lower()
-    if "lgp" in access_text or "língua gestual" in access_text:
-        access.append("LGP")
-    if "audiodescrição" in access_text or "audiodescri" in access_text:
-        access.append("Audiodescrição")
-    if "legendagem" in access_text or "legendad" in access_text:
-        access.append("Legendagem")
-    if "cadeira de rodas" in access_text or "mobilidade reduzida" in access_text:
-        access.append("Acesso cadeira de rodas")
-    if "relaxed" in access_text:
-        access.append("Relaxed performance")
-    if access:
-        extra["accessibility"] = access
-
-    return extra
+def _parse_age(text: str) -> tuple[str, int | None]:
+    if re.search(r"todos\s+os\s+p[úu]blicos", text, re.I):
+        return "Todos os públicos", 0
+    m = re.search(r"M\s*/\s*(\d+)", text, re.I)
+    if m:
+        n = int(m.group(1))
+        return f"M/{n}", n
+    return "", None
 
 
-def scrape() -> list[dict]:
-    """Devolve lista de eventos do Cine-Teatro Avenida."""
-    events: list[dict] = []
-    session = requests.Session()
-
-    soup = _get(VENUE_URL, session)
-    if soup is None:
-        logger.error("Não foi possível obter a página principal: %s", VENUE_URL)
-        return events
-
-    event_items = soup.select("ul.events_list li[itemscope]")
-    logger.info("Encontrados %d eventos na listagem", len(event_items))
-
-    for item in event_items:
-        try:
-            # --- Campos da listagem ---
-            link_el = item.select_one("a[itemprop='url'], a[href]")
-            if not link_el:
-                continue
-            href = link_el.get("href", "")
-            source_url = href if href.startswith("http") else BASE_URL + href
-
-            # Título
-            title_el = item.select_one("p.title[itemprop='name'], p.title")
-            title = _clean_text(title_el.get_text()) if title_el else None
-            if not title:
-                logger.warning("Evento sem título em %s — a saltar", source_url)
-                continue
-
-            # Data início (data-date no div.date)
-            date_el = item.select_one("div.date[data-date]")
-            date_start = date_el["data-date"] if date_el else None
-            if not date_start:
-                # Fallback: itemprop startDate
-                sd_el = item.find(itemprop="startDate")
-                if sd_el:
-                    date_start = (
-                        sd_el.get("content") or
-                        re.match(r"\d{4}-\d{2}-\d{2}",
-                                 sd_el.get_text(strip=True) or "")
-                        and re.match(r"\d{4}-\d{2}-\d{2}",
-                                     sd_el.get_text(strip=True)).group(0)
-                    )
-            if not date_start:
-                logger.warning("Evento '%s' sem data — a saltar", title)
-                continue
-
-            # Imagem (data-src-original no lazy-load img)
-            img_el = item.select_one("div.thumb img[data-src-original]")
-            image = None
-            if img_el:
-                img_url = img_el["data-src-original"]
-                # Remover querystring de cache se presente
-                img_url_clean = re.sub(r"\?rev=\d+", "", img_url)
-                image = {
-                    "url":     img_url_clean,
-                    "credit":  None,
-                    "source":  source_url,
-                    "theater": THEATER["name"],
-                }
-
-            # Dia da semana (para a sessão da listagem)
-            wd_el = item.select_one("p.weekday")
-            weekday_raw = _clean_text(wd_el.get_text()).lower() if wd_el else None
-            weekday = WEEKDAY_MAP.get(weekday_raw, None) if weekday_raw else None
-
-            # Sessão mínima com o que temos da listagem
-            listing_session = {
-                "date":    date_start,
-                "time":    None,       # Ticketline não expõe hora na listagem
-                "weekday": weekday,
-            }
-
-            # --- Construção do evento base ---
-            event: dict = {
-                "id":         make_id(THEATER["id"], title),
-                "title":      title,
-                "theater":    THEATER["name"],
-                "date_start": date_start,
-                "source_url": source_url,
-            }
-            if image:
-                event["image"] = image
-            event["sessions"] = [listing_session]
-
-            # --- Enriquecimento via página de detalhe ---
-            time.sleep(0.5)
-            detail = _scrape_detail(source_url, session)
-
-            # Mesclar: campos do detalhe têm precedência, excepto
-            # date_start (já temos da listagem e é fiável)
-            for key, val in detail.items():
-                if key == "date_start" and event.get("date_start"):
-                    continue          # não sobrescrever data que já temos
-                if key == "sessions" and val:
-                    # Substituir a sessão mínima pelas sessões completas
-                    event["sessions"] = val
-                else:
-                    event[key] = val
-
-            # ticket_url: se não veio do detalhe, usar source_url
-            if "ticket_url" not in event:
-                event["ticket_url"] = source_url
-
-            events.append(event)
-            logger.debug("Evento adicionado: %s (%s)", title, date_start)
-
-        except Exception as exc:
-            logger.exception("Erro inesperado a processar evento: %s", exc)
-            continue
-
-    logger.info("Total de eventos recolhidos: %d", len(events))
-    return events
-
+# ─────────────────────────────────────────────────────────────
+# Execução directa (teste local)
+# ─────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
     import json
