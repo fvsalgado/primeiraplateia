@@ -256,6 +256,31 @@
       ],
       "description": "O Teatro das Figuras é o principal equipamento cultural da cidade de Faro, com programação de teatro, dança, música e cinema.",
       "_overrides": []
+    },
+    {
+      "id": "tagv",
+      "name": "TAGV — Teatro Académico Gil Vicente",
+      "short": "TAGV",
+      "color": "#c0392b",
+      "city": "Coimbra",
+      "address": "Praça da República, 3000-343 Coimbra",
+      "site": "https://tagv.pt",
+      "programacao": "https://tagv.pt/agenda/",
+      "lat": 40.2093,
+      "lng": -8.4206,
+      "salas": [
+        "Grande Auditório",
+        "Sala Estúdio"
+      ],
+      "aliases": [
+        "tagv",
+        "teatro académico gil vicente",
+        "teatro academico gil vicente",
+        "gil vicente",
+        "tagv coimbra"
+      ],
+      "description": "O Teatro Académico Gil Vicente (TAGV) é o principal espaço de artes performativas de Coimbra, gerido pela Universidade de Coimbra. Apresenta programação regular de teatro, dança, performance, música, cinema e outras formas artísticas.",
+      "_overrides": []
     }
   ]
 }
