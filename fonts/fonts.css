@@ -1,0 +1,19 @@
+/* ═══════════════════════════════════════════════════════════════
+   PRIMEIRA PLATEIA — Fontes
+   Playfair Display (display/headings) — Google Fonts
+   Inter (body/UI) — Google Fonts
+   Carregamento optimizado: preconnect no <head> de cada página
+═══════════════════════════════════════════════════════════════ */
+
+/* Playfair Display — Regular (400), Regular Italic (400i), Bold (700), Bold Italic (700i) */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+/*
+   Preconnects obrigatórios no <head> de TODAS as páginas,
+   antes do link para este ficheiro:
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+   Sem estes, o navegador não começa a ligar antes de parsear o CSS.
+*/

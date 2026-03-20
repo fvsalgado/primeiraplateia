@@ -1,0 +1,51 @@
+# Dados gerados — nunca commitar, gerados fresh em cada deploy
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+
+# Ambientes virtuais
+.env
+.env.local
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+pip-log.txt
+
+# Screenshots PWA (gerar separadamente)
+screenshots/
+
+# Ícones PWA (gerar separadamente com ferramenta de ícones)
+# icons/ — manter no repo quando gerados
+
+# Relatório de validação (gerado pelo scraper, pode commitar se quiseres histórico)
+# validation_report.json  — comentar esta linha para commitar

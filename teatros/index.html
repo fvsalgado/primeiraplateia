@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Teatros — Primeira Plateia</title>
+<meta name="description" content="Todos os teatros e espaços culturais em Portugal. Descobre a programação completa de cada sala."/>
+<meta name="theme-color" content="#1B2B4B"/>
+<meta name="robots" content="index, follow"/>
+<link rel="canonical" href="https://www.primeiraplateia.pt/teatros/"/>
+<meta property="og:title" content="Teatros — Primeira Plateia"/>
+<meta property="og:description" content="Todos os teatros e espaços culturais em Portugal. Descobre a programação completa de cada sala."/>
+<meta property="og:url" content="https://www.primeiraplateia.pt/teatros/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:locale" content="pt_PT"/>
+<link rel="manifest" href="/manifest.webmanifest"/>
+<link rel="apple-touch-icon" href="/icons/icon-192.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link rel="stylesheet" href="/fonts/fonts.css"/>
+<link rel="stylesheet" href="/design/tokens.css"/>
+<link rel="stylesheet" href="/design/base.css"/>
+<script>(function(){var s=localStorage.getItem('pp-theme');var sys=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',s||sys);})();</script>
+
+<style>
+/* ── PAGE HEADER ────────────────────────────────────────────── */
+.page-header {
+  padding: calc(var(--nav-h) + var(--space-12)) var(--space-12) var(--space-10);
+  background: var(--surface-bg);
+  border-bottom: 1px solid var(--surface-card-border);
+}
+
+.page-header-inner {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--space-6);
+  flex-wrap: wrap;
+}
+
+.page-header h1 {
+  font-family: var(--ff-display);
+  font-size: clamp(var(--text-3xl), 5vw, var(--text-5xl));
+  font-weight: 900;
+  letter-spacing: -.03em;
+  line-height: 1;
+  color: var(--text-primary);
+}
+
+.page-header h1 em {
+  font-style: italic;
+  color: var(--color-accent);
+}
+
+/* ── FILTROS ────────────────────────────────────────────────── */
+.filters-bar {
+  position: sticky;
+  top: var(--nav-h);
+  z-index: calc(var(--z-nav) - 1);
+  background: rgba(248,249,250,.95);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--surface-card-border);
+  padding: var(--space-3) var(--space-12);
+}
+
+[data-theme="dark"] .filters-bar {
+  background: rgba(12,15,20,.95);
+}
+
+.filters-inner {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+.search-wrap {
+  position: relative;
+  flex: 1;
+  min-width: 180px;
+  max-width: 320px;
+}
+
+.search-icon {
+  position: absolute;
+  left: var(--space-3);
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-muted);
+  font-size: 14px;
+  pointer-events: none;
+}
+
+.search-input {
+  width: 100%;
+  height: 38px;
+  padding: var(--space-2) var(--space-3) var(--space-2) calc(var(--space-3) + 22px);
+  background: var(--surface-card);
+  border: 1px solid var(--surface-card-border);
+  border-radius: var(--radius-full);
+  font-size: var(--text-sm);
+  color: var(--text-primary);
+  outline: none;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.search-input::placeholder { color: var(--text-muted); }
+
+.search-input:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px var(--color-primary-light);
+}
+
+.filters-sep {
+  width: 1px;
+  height: 24px;
+  background: var(--surface-divider);
+  flex-shrink: 0;
+}
+
+.filter-select {
+  height: 38px;
+  padding: var(--space-2) var(--space-8) var(--space-2) var(--space-3);
+  background: var(--surface-card);
+  border: 1px solid var(--surface-card-border);
+  border-radius: var(--radius-full);
+  font-family: var(--ff-body);
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  cursor: pointer;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%234A5568' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  transition: border-color var(--transition-fast), color var(--transition-fast);
+}
+
+.filter-select:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px var(--color-primary-light);
+}
+
+.filter-select.active {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+/* Vista toggle */
+.view-toggle {
+  display: flex;
+  gap: var(--space-1);
+  background: var(--surface-bg-2);
+  border: 1px solid var(--surface-card-border);
+  border-radius: var(--radius-full);
+  padding: 3px;
+  margin-left: auto;
+}
+
+.view-btn {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-full);
+  border: none;
+  background: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 14px;
+  transition: background var(--transition-fast), color var(--transition-fast);
+}
+
+.view-btn.active {
+  background: var(--surface-card);
+  color: var(--color-primary);
+  box-shadow: var(--shadow-xs);
+}
+
+/* ── BODY ───────────────────────────────────────────────────── */
+.teatros-body {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: var(--space-8) var(--space-12) var(--space-24);
+}
+
+/* Toolbar */
+.results-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  margin-bottom: var(--space-8);
+  flex-wrap: wrap;
+}
+
+.results-count {
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+}
+
+.results-count strong {
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+/* ── GRUPOS POR CIDADE ──────────────────────────────────────── */
+.city-section {
+  margin-bottom: var(--space-12);
+}
+
+.city-section-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+}
+
+.city-section-title {
+  font-family: var(--ff-display);
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -.02em;
+  white-space: nowrap;
+}
+
+.city-section-line {
+  flex: 1;
+  height: 1px;
+  background: var(--surface-card-border);
+}
+
+.city-section-count {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  color: var(--text-muted);
+  letter-spacing: .06em;
+  white-space: nowrap;
+}
+
+/* ── GRELHA DE TEATROS ──────────────────────────────────────── */
+.theaters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--space-5);
+}
+
+/* Card de teatro */
+.theater-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--surface-card);
+  border: 1px solid var(--surface-card-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--text-primary);
+  transition:
+    border-color var(--transition-base),
+    box-shadow var(--transition-base),
+    transform var(--transition-fast);
+  position: relative;
+}
+
+.theater-card:hover {
+  border-color: rgba(27,43,75,.2);
+  box-shadow: var(--shadow-primary);
+  transform: translateY(-3px);
+}
+
+.theater-card:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring-offset), var(--shadow-primary);
+}
+
+/* Barra de cor do teatro no topo */
+.theater-card-bar {
+  height: 4px;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.theater-card-body {
+  padding: var(--space-5) var(--space-6);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: var(--space-2);
+}
+
+.theater-card-name {
+  font-family: var(--ff-display);
+  font-size: var(--text-xl);
+  font-weight: 700;
+  line-height: 1.15;
+  color: var(--text-primary);
+}
+
+.theater-card-city {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.theater-card-desc {
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+  line-height: 1.6;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-top: var(--space-1);
+}
+
+.theater-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+  margin-top: var(--space-4);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--surface-card-border);
+}
+
+.theater-card-count {
+  font-size: var(--text-xs);
+  font-weight: 700;
+  color: var(--color-primary);
+  letter-spacing: .02em;
+}
+
+[data-theme="dark"] .theater-card-count {
+  color: var(--color-primary);
+}
+
+.theater-card-address {
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 55%;
+}
+
+/* ── VISTA LISTA (alternativa à grelha) ─────────────────────── */
+.theaters-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.theater-row {
+  display: grid;
+  grid-template-columns: 4px 1fr auto;
+  align-items: center;
+  gap: 0 var(--space-5);
+  background: var(--surface-card);
+  border: 1px solid var(--surface-card-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--text-primary);
+  transition:
+    border-color var(--transition-base),
+    box-shadow var(--transition-base),
+    transform var(--transition-fast);
+}
+
+.theater-row:hover {
+  border-color: rgba(27,43,75,.2);
+  box-shadow: var(--shadow-sm);
+  transform: translateY(-2px);
+}
+
+.theater-row:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring-offset);
+}
+
+.theater-row-bar {
+  width: 4px;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+
+.theater-row-body {
+  padding: var(--space-4) 0;
+  display: flex;
+  align-items: center;
+  gap: var(--space-6);
+  flex-wrap: wrap;
+  min-width: 0;
+}
+
+.theater-row-name {
+  font-family: var(--ff-display);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--text-primary);
+  min-width: 180px;
+}
+
+.theater-row-city {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.theater-row-count {
+  font-size: var(--text-xs);
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+[data-theme="dark"] .theater-row-count {
+  color: var(--color-primary);
+}
+
+.theater-row-cta {
+  padding: var(--space-4) var(--space-5);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.theater-row:hover .theater-row-cta {
+  color: var(--color-accent);
+}
+
+/* ── RESPONSIVE ─────────────────────────────────────────────── */
+@media (max-width: 900px) {
+  .page-header,
+  .filters-bar,
+  .teatros-body { padding-left: var(--space-5); padding-right: var(--space-5); }
+  .theaters-grid { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+  .filters-sep { display: none; }
+  .view-toggle { display: none; }
+}
+
+@media (max-width: 600px) {
+  .page-header-inner { flex-direction: column; align-items: flex-start; }
+  .theaters-grid { grid-template-columns: 1fr; }
+  .theater-row-body { gap: var(--space-3); }
+}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Saltar para o conteúdo principal</a>
+
+<!-- ── NAVEGAÇÃO ─────────────────────────────────────────────── -->
+<nav class="nav" role="navigation" aria-label="Navegação principal">
+  <a class="nav-brand" href="/" aria-label="Primeira Plateia — página inicial">
+    <span class="nav-brand-primeira">Primeira</span>
+    <span class="nav-brand-plateia">Plateia</span>
+  </a>
+  <div class="nav-right">
+    <ul class="nav-links" id="nav-menu" role="list">
+      <li><a href="/programacao/">Programação</a></li>
+      <li><a href="/calendario/">Calendário</a></li>
+      <li><a href="/teatros/" aria-current="page">Teatros</a></li>
+      <li><a href="/sobre/">Sobre</a></li>
+    </ul>
+    <button class="theme-btn" id="theme-toggle" aria-label="Mudar para modo escuro" data-tip="Modo escuro">
+      <span class="i-moon" aria-hidden="true">🌙</span>
+      <span class="i-sun" aria-hidden="true">☀️</span>
+    </button>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-menu">☰</button>
+  </div>
+</nav>
+
+<main id="main-content">
+
+  <header class="page-header">
+    <div class="page-header-inner">
+      <div>
+        <p class="section-label" aria-hidden="true">Espaços</p>
+        <h1><em>Tea</em>tros</h1>
+      </div>
+    </div>
+  </header>
+
+  <!-- Filtros sticky -->
+  <div class="filters-bar" role="search" aria-label="Filtrar teatros">
+    <div class="filters-inner">
+      <div class="search-wrap">
+        <span class="search-icon" aria-hidden="true">🔍</span>
+        <input
+          class="search-input"
+          type="search"
+          id="search-input"
+          placeholder="Pesquisar teatro…"
+          aria-label="Pesquisar teatro"
+          autocomplete="off"
+        />
+      </div>
+      <div class="filters-sep" aria-hidden="true"></div>
+      <select class="filter-select" id="filter-city" aria-label="Filtrar por cidade">
+        <option value="">Todas as cidades</option>
+      </select>
+      <div class="view-toggle" role="group" aria-label="Tipo de vista">
+        <button class="view-btn active" id="view-grid" aria-label="Vista em grelha" aria-pressed="true">⊞</button>
+        <button class="view-btn" id="view-list" aria-label="Vista em lista" aria-pressed="false">☰</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="teatros-body">
+    <div class="results-toolbar" aria-live="polite" aria-atomic="true">
+      <p class="results-count"><strong id="results-count">—</strong> teatros</p>
+    </div>
+
+    <div id="teatros-container" aria-live="polite" aria-label="Lista de teatros"></div>
+
+    <div class="state-empty" id="state-empty" hidden>
+      <div class="state-empty-icon" aria-hidden="true">🏛️</div>
+      <h2 class="state-empty-title">Nenhum teatro encontrado</h2>
+      <p class="state-empty-text">Nenhum teatro corresponde à pesquisa. Tenta outro termo ou cidade.</p>
+      <button class="btn btn-outline" id="reset-btn">Limpar pesquisa</button>
+    </div>
+
+    <div class="state-empty" id="state-error" hidden>
+      <div class="state-empty-icon" aria-hidden="true">🏛️</div>
+      <h2 class="state-empty-title">Teatros temporariamente indisponíveis</h2>
+      <p class="state-empty-text">Não foi possível carregar a lista de teatros. Tenta novamente em breve.</p>
+    </div>
+  </div>
+
+</main>
+
+<!-- ── RODAPÉ ─────────────────────────────────────────────────── -->
+<footer class="footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-brand-col">
+      <div class="footer-brand">
+        <span class="footer-brand-primeira">Primeira</span>
+        <span class="footer-brand-plateia">Plateia</span>
+      </div>
+      <p class="footer-tagline">A agenda nacional de teatro, dança e artes performativas em Portugal.</p>
+      <nav class="footer-social" aria-label="Redes sociais">
+        <a href="https://instagram.com/primeiraplateia" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+        </a>
+        <a href="https://facebook.com/primeiraplateia" target="_blank" rel="noopener" aria-label="Facebook">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        </a>
+        <a href="https://linkedin.com/company/primeiraplateia" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="https://youtube.com/@primeiraplateia" target="_blank" rel="noopener" aria-label="YouTube">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="white"/></svg>
+        </a>
+      </nav>
+    </div>
+    <div>
+      <p class="footer-col-title">Explorar</p>
+      <nav class="footer-col-links" aria-label="Explorar">
+        <a href="/programacao/">Programação</a>
+        <a href="/calendario/">Calendário</a>
+        <a href="/teatros/">Teatros</a>
+      </nav>
+    </div>
+    <div>
+      <p class="footer-col-title">Sobre</p>
+      <nav class="footer-col-links" aria-label="Sobre">
+        <a href="/sobre/">O projecto</a>
+        <a href="mailto:fabio@primeiraplateia.pt">Contacto</a>
+      </nav>
+    </div>
+    <div>
+      <p class="footer-col-title">Legal</p>
+      <nav class="footer-col-links" aria-label="Legal">
+        <a href="/privacidade/">Privacidade</a>
+        <a href="/aviso-legal/">Aviso legal</a>
+        <a href="/acessibilidade/">Acessibilidade</a>
+      </nav>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p class="footer-legal">© <span id="footer-year"></span> Primeira Plateia. Conteúdo © dos respectivos teatros.</p>
+    <p class="footer-meta"><span class="footer-meta-dot" aria-hidden="true"></span><span id="footer-updated"></span></p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  /* ── Tema ───────────────────────────────────────────────── */
+  const themeBtn = document.getElementById('theme-toggle');
+  const html = document.documentElement;
+  themeBtn.addEventListener('click', function () {
+    const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    html.setAttribute('data-theme', next);
+    localStorage.setItem('pp-theme', next);
+    themeBtn.setAttribute('aria-label', next === 'dark' ? 'Mudar para modo claro' : 'Mudar para modo escuro');
+    themeBtn.setAttribute('data-tip', next === 'dark' ? 'Modo claro' : 'Modo escuro');
+  });
+
+  /* ── Menu mobile ────────────────────────────────────────── */
+  const navToggle = document.getElementById('nav-toggle');
+  const navMenu   = document.getElementById('nav-menu');
+  navToggle.addEventListener('click', function () {
+    const isOpen = navMenu.classList.toggle('open');
+    navToggle.setAttribute('aria-expanded', isOpen);
+    navToggle.textContent = isOpen ? '✕' : '☰';
+  });
+  document.addEventListener('click', function (e) {
+    if (!navMenu.contains(e.target) && !navToggle.contains(e.target)) {
+      navMenu.classList.remove('open');
+      navToggle.setAttribute('aria-expanded', 'false');
+      navToggle.textContent = '☰';
+    }
+  });
+
+  document.getElementById('footer-year').textContent = new Date().getFullYear();
+
+  /* ── Estado ─────────────────────────────────────────────── */
+  let allTheaters = [];
+  let eventCounts = {};
+  let filteredTheaters = [];
+  let currentView = 'grid'; // 'grid' | 'list'
+  const state = { query: '', city: '' };
+
+  /* ── Carregar dados ─────────────────────────────────────── */
+  async function loadData() {
+    try {
+      // Teatros
+      const tr = await fetch('/theaters.json');
+      if (!tr.ok) throw new Error('Sem theaters.json');
+      allTheaters = await tr.json();
+
+      // Contagem de eventos por teatro (do meta.json)
+      try {
+        const mr = await fetch('/data/meta.json');
+        if (mr.ok) {
+          const meta = await mr.json();
+          eventCounts = meta.by_theater || {};
+          const fu = document.getElementById('footer-updated');
+          if (fu) {
+            const diff = Math.floor((Date.now() - new Date(meta.updated_at)) / 3600000);
+            fu.textContent = `Actualizado há ${diff < 1 ? 'menos de 1h' : diff + 'h'}`;
+          }
+        }
+      } catch (_) {}
+
+      // Popular cidades
+      const cities = [...new Set(allTheaters.map(t => t.city).filter(Boolean))].sort();
+      const citySelect = document.getElementById('filter-city');
+      cities.forEach(c => {
+        const o = document.createElement('option');
+        o.value = o.textContent = c;
+        citySelect.appendChild(o);
+      });
+
+      applyFilters();
+    } catch (_) {
+      document.getElementById('state-error').hidden = false;
+      document.getElementById('teatros-container').hidden = true;
+    }
+  }
+
+  /* ── Filtrar ────────────────────────────────────────────── */
+  function applyFilters() {
+    const q = state.query.toLowerCase().trim();
+    filteredTheaters = allTheaters.filter(t => {
+      if (state.city && t.city !== state.city) return false;
+      if (q) {
+        const hay = [t.name, t.short, t.city, t.address, t.description]
+          .filter(Boolean).join(' ').toLowerCase();
+        if (!hay.includes(q)) return false;
+      }
+      return true;
+    });
+
+    // Ordenar: por cidade e depois por nome
+    filteredTheaters.sort((a, b) => {
+      const cc = (a.city || '').localeCompare(b.city || '', 'pt');
+      return cc !== 0 ? cc : (a.name || '').localeCompare(b.name || '', 'pt');
+    });
+
+    render();
+  }
+
+  /* ── Renderizar ─────────────────────────────────────────── */
+  function render() {
+    const container = document.getElementById('teatros-container');
+    const empty     = document.getElementById('state-empty');
+    const count     = document.getElementById('results-count');
+
+    count.textContent = filteredTheaters.length;
+
+    if (filteredTheaters.length === 0) {
+      container.innerHTML = '';
+      container.hidden = true;
+      empty.hidden = false;
+      return;
+    }
+
+    container.hidden = false;
+    empty.hidden = true;
+
+    // Agrupar por cidade
+    const byCidade = {};
+    filteredTheaters.forEach(t => {
+      const c = t.city || 'Outro';
+      if (!byCidade[c]) byCidade[c] = [];
+      byCidade[c].push(t);
+    });
+
+    const hideCityGroups = state.city !== ''; // se filtrado por cidade, não agrupar
+
+    if (hideCityGroups) {
+      // Vista sem cabeçalho de cidade
+      container.innerHTML = currentView === 'grid'
+        ? `<div class="theaters-grid">${filteredTheaters.map(renderCard).join('')}</div>`
+        : `<div class="theaters-list">${filteredTheaters.map(renderRow).join('')}</div>`;
+    } else {
+      // Agrupar por cidade
+      container.innerHTML = Object.entries(byCidade)
+        .sort(([a], [b]) => a.localeCompare(b, 'pt'))
+        .map(([cidade, theaters]) => `
+          <section class="city-section" aria-labelledby="city-${cidade.toLowerCase().replace(/\s/g,'-')}">
+            <div class="city-section-header">
+              <h2 class="city-section-title" id="city-${cidade.toLowerCase().replace(/\s/g,'-')}">${cidade}</h2>
+              <span class="city-section-line" aria-hidden="true"></span>
+              <span class="city-section-count">${theaters.length} ${theaters.length === 1 ? 'teatro' : 'teatros'}</span>
+            </div>
+            ${currentView === 'grid'
+              ? `<div class="theaters-grid">${theaters.map(renderCard).join('')}</div>`
+              : `<div class="theaters-list">${theaters.map(renderRow).join('')}</div>`}
+          </section>`).join('');
+    }
+  }
+
+  function getEventCount(theater) {
+    // Tenta pelo name, depois pelo short
+    return eventCounts[theater.name] || eventCounts[theater.short] || 0;
+  }
+
+  function renderCard(t) {
+    const color = t.color || 'var(--color-primary)';
+    const evCount = getEventCount(t);
+    const countStr = evCount > 0
+      ? `${evCount} espectáculo${evCount !== 1 ? 's' : ''} em cartaz`
+      : 'Sem espectáculos actuais';
+
+    return `
+      <a class="theater-card" href="/teatros/${t.id}/" aria-label="${t.name} — ${t.city || ''}">
+        <div class="theater-card-bar" style="background:${color}" aria-hidden="true"></div>
+        <div class="theater-card-body">
+          <h3 class="theater-card-name">${t.name}</h3>
+          <p class="theater-card-city">${t.city || ''}</p>
+          ${t.description ? `<p class="theater-card-desc">${t.description}</p>` : ''}
+          <div class="theater-card-footer">
+            <span class="theater-card-count">${countStr}</span>
+            ${t.address ? `<span class="theater-card-address" aria-label="Morada: ${t.address}">📍 ${t.address.split(',')[0]}</span>` : ''}
+          </div>
+        </div>
+      </a>`;
+  }
+
+  function renderRow(t) {
+    const color = t.color || 'var(--color-primary)';
+    const evCount = getEventCount(t);
+    const countStr = evCount > 0 ? `${evCount} em cartaz` : '—';
+
+    return `
+      <a class="theater-row" href="/teatros/${t.id}/" aria-label="${t.name} — ${t.city || ''}">
+        <div class="theater-row-bar" style="background:${color}" aria-hidden="true"></div>
+        <div class="theater-row-body">
+          <span class="theater-row-name">${t.name}</span>
+          <span class="theater-row-city">${t.city || ''}</span>
+          <span class="theater-row-count">${countStr}</span>
+        </div>
+        <span class="theater-row-cta" aria-hidden="true">Ver programação →</span>
+      </a>`;
+  }
+
+  /* ── Event listeners ────────────────────────────────────── */
+  let searchTimer;
+  document.getElementById('search-input').addEventListener('input', function (e) {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => { state.query = e.target.value; applyFilters(); }, 220);
+  });
+
+  document.getElementById('filter-city').addEventListener('change', function (e) {
+    state.city = e.target.value;
+    e.target.classList.toggle('active', !!e.target.value);
+    applyFilters();
+  });
+
+  document.getElementById('reset-btn').addEventListener('click', function () {
+    state.query = ''; state.city = '';
+    document.getElementById('search-input').value = '';
+    document.getElementById('filter-city').value = '';
+    document.getElementById('filter-city').classList.remove('active');
+    applyFilters();
+  });
+
+  /* Vista toggle */
+  document.getElementById('view-grid').addEventListener('click', function () {
+    if (currentView === 'grid') return;
+    currentView = 'grid';
+    this.classList.add('active'); this.setAttribute('aria-pressed', 'true');
+    document.getElementById('view-list').classList.remove('active');
+    document.getElementById('view-list').setAttribute('aria-pressed', 'false');
+    render();
+  });
+
+  document.getElementById('view-list').addEventListener('click', function () {
+    if (currentView === 'list') return;
+    currentView = 'list';
+    this.classList.add('active'); this.setAttribute('aria-pressed', 'true');
+    document.getElementById('view-grid').classList.remove('active');
+    document.getElementById('view-grid').setAttribute('aria-pressed', 'false');
+    render();
+  });
+
+  /* ── Init ───────────────────────────────────────────────── */
+  loadData();
+
+})();
+</script>
+</body>
+</html>

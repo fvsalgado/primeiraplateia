@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Páginas que não precisam de ser indexadas
+Disallow: /data/
+Disallow: /404.html
+
+# Sitemap
+Sitemap: https://www.primeiraplateia.pt/sitemap.xml
+
+# Crawl-delay por cortesia
+Crawl-delay: 2

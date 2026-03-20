@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Página não encontrada — Primeira Plateia</title>
+<meta name="description" content="Esta página não existe. Mas há espectáculos acontecer por todo o Portugal."/>
+<meta name="theme-color" content="#1B2B4B"/>
+<meta name="robots" content="noindex, nofollow"/>
+<link rel="manifest" href="/manifest.webmanifest"/>
+<link rel="apple-touch-icon" href="/icons/icon-192.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link rel="stylesheet" href="/fonts/fonts.css"/>
+<link rel="stylesheet" href="/design/tokens.css"/>
+<link rel="stylesheet" href="/design/base.css"/>
+<script>(function(){var s=localStorage.getItem('pp-theme');var sys=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',s||sys);})();</script>
+
+<style>
+/* ── 404 LAYOUT ─────────────────────────────────────────────── */
+.page-404 {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: calc(var(--nav-h) + var(--space-12)) var(--space-8) var(--space-16);
+  text-align: center;
+  background: var(--surface-bg);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Elemento decorativo de fundo */
+.page-404::before {
+  content: '404';
+  position: absolute;
+  font-family: var(--ff-display);
+  font-size: clamp(200px, 30vw, 400px);
+  font-weight: 900;
+  letter-spacing: -.05em;
+  color: var(--color-primary);
+  opacity: .04;
+  user-select: none;
+  pointer-events: none;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  z-index: 0;
+}
+
+[data-theme="dark"] .page-404::before { opacity: .06; }
+
+.page-404-inner {
+  position: relative; z-index: 1;
+  max-width: 560px;
+}
+
+/* Cortina fechada — ilustração SVG */
+.curtain-wrap {
+  margin: 0 auto var(--space-8);
+  width: 200px;
+  position: relative;
+}
+
+/* Número 404 estilizado */
+.num-404 {
+  font-family: var(--ff-display);
+  font-size: clamp(80px, 15vw, 140px);
+  font-weight: 900;
+  letter-spacing: -.06em;
+  line-height: 1;
+  color: var(--color-primary);
+  display: block;
+  margin-bottom: var(--space-2);
+}
+
+.num-404 .accent { color: var(--color-accent); }
+
+/* Título */
+.title-404 {
+  font-family: var(--ff-display);
+  font-size: clamp(var(--text-2xl), 4vw, var(--text-4xl));
+  font-weight: 700;
+  letter-spacing: -.02em;
+  line-height: 1.1;
+  color: var(--text-primary);
+  margin-bottom: var(--space-4);
+}
+
+.title-404 em {
+  font-style: italic;
+  color: var(--color-accent);
+}
+
+/* Subtítulo */
+.sub-404 {
+  font-size: var(--text-base);
+  color: var(--text-muted);
+  line-height: 1.75;
+  margin-bottom: var(--space-10);
+  max-width: 400px;
+  margin-left: auto; margin-right: auto;
+}
+
+/* Sugestões */
+.suggestions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin-bottom: var(--space-10);
+  text-align: left;
+  background: var(--surface-card);
+  border: 1px solid var(--surface-card-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5) var(--space-6);
+}
+
+.suggestions-title {
+  font-size: var(--text-xs);
+  font-weight: 700;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: var(--space-1);
+}
+
+.suggestion-link {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  color: var(--text-secondary);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  transition:
+    background var(--transition-fast),
+    color var(--transition-fast);
+}
+
+.suggestion-link:hover {
+  background: var(--color-primary-light);
+  color: var(--color-primary);
+}
+
+[data-theme="dark"] .suggestion-link:hover {
+  background: var(--surface-bg-2);
+  color: var(--text-primary);
+}
+
+.suggestion-link:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring-offset);
+  border-radius: var(--radius-md);
+}
+
+.suggestion-icon {
+  font-size: 20px;
+  flex-shrink: 0;
+  width: 32px;
+  text-align: center;
+}
+
+.suggestion-arrow {
+  margin-left: auto;
+  color: var(--text-muted);
+  opacity: .4;
+  font-size: 14px;
+}
+
+.suggestion-link:hover .suggestion-arrow { opacity: 1; }
+
+/* Acções principais */
+.actions-404 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+  margin-bottom: var(--space-8);
+}
+
+/* Espectáculo aleatório */
+.random-section {
+  padding: var(--space-6);
+  background: var(--surface-bg-2);
+  border: 1px solid var(--surface-card-border);
+  border-radius: var(--radius-lg);
+  margin-bottom: var(--space-8);
+}
+
+.random-label {
+  font-size: var(--text-xs);
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  display: block;
+  margin-bottom: var(--space-3);
+}
+
+.random-event {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  text-decoration: none;
+  color: var(--text-primary);
+  transition: opacity var(--transition-fast);
+}
+
+.random-event:hover { opacity: .8; }
+
+.random-event-img {
+  width: 56px; height: 56px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: var(--surface-bg);
+  flex-shrink: 0;
+}
+
+.random-event-img img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+}
+
+.random-event-placeholder {
+  width: 100%; height: 100%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 24px; opacity: .3;
+}
+
+.random-event-info { text-align: left; }
+
+.random-event-theater {
+  font-size: 10px; font-weight: 700;
+  letter-spacing: .08em; text-transform: uppercase;
+  color: var(--color-primary); display: block;
+  margin-bottom: 2px;
+}
+
+[data-theme="dark"] .random-event-theater { color: var(--color-primary); }
+
+.random-event-title {
+  font-family: var(--ff-display);
+  font-size: var(--text-base); font-weight: 700;
+  line-height: 1.2;
+}
+
+.random-event-date {
+  font-size: var(--text-xs);
+  color: var(--color-accent); font-weight: 600;
+  display: block; margin-top: 2px;
+}
+
+/* Nota de rodapé */
+.note-404 {
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+  opacity: .7;
+}
+
+/* ── ANIMAÇÕES ──────────────────────────────────────────────── */
+@media (prefers-reduced-motion: no-preference) {
+  .curtain-wrap svg {
+    animation: curtain-sway 4s ease-in-out infinite;
+  }
+
+  @keyframes curtain-sway {
+    0%, 100% { transform: rotate(-1deg); }
+    50% { transform: rotate(1deg); }
+  }
+
+  .num-404 {
+    animation: fade-in-up .5s ease forwards;
+    opacity: 0;
+  }
+
+  .title-404 {
+    animation: fade-in-up .5s .1s ease forwards;
+    opacity: 0;
+  }
+
+  .sub-404 {
+    animation: fade-in-up .5s .2s ease forwards;
+    opacity: 0;
+  }
+
+  .suggestions {
+    animation: fade-in-up .5s .3s ease forwards;
+    opacity: 0;
+  }
+
+  .actions-404 {
+    animation: fade-in-up .5s .4s ease forwards;
+    opacity: 0;
+  }
+
+  @keyframes fade-in-up {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
+
+@media (max-width: 480px) {
+  .actions-404 { flex-direction: column; width: 100%; }
+  .actions-404 .btn { width: 100%; justify-content: center; }
+}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Saltar para o conteúdo principal</a>
+
+<nav class="nav" role="navigation" aria-label="Navegação principal">
+  <a class="nav-brand" href="/" aria-label="Primeira Plateia — página inicial">
+    <span class="nav-brand-primeira">Primeira</span>
+    <span class="nav-brand-plateia">Plateia</span>
+  </a>
+  <div class="nav-right">
+    <ul class="nav-links" id="nav-menu" role="list">
+      <li><a href="/programacao/">Programação</a></li>
+      <li><a href="/calendario/">Calendário</a></li>
+      <li><a href="/teatros/">Teatros</a></li>
+      <li><a href="/sobre/">Sobre</a></li>
+    </ul>
+    <button class="theme-btn" id="theme-toggle" aria-label="Mudar para modo escuro" data-tip="Modo escuro">
+      <span class="i-moon" aria-hidden="true">🌙</span>
+      <span class="i-sun" aria-hidden="true">☀️</span>
+    </button>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-menu">☰</button>
+  </div>
+</nav>
+
+<main id="main-content" class="page-404">
+  <div class="page-404-inner">
+
+    <!-- Cortina fechada -->
+    <div class="curtain-wrap" aria-hidden="true">
+      <svg viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cortina de teatro fechada">
+        <!-- Barra superior -->
+        <rect x="0" y="0" width="200" height="12" rx="2" fill="var(--color-primary)" opacity=".9"/>
+        <!-- Cortina esquerda -->
+        <path d="M0,12 Q30,40 20,80 Q10,120 30,160 L0,160 Z" fill="var(--color-primary)" opacity=".85"/>
+        <path d="M0,12 Q40,50 25,90 Q15,130 35,160 L15,160 Q-5,130 5,90 Q20,50 10,12 Z" fill="var(--color-primary-dark)" opacity=".5"/>
+        <!-- Cortina direita -->
+        <path d="M200,12 Q170,40 180,80 Q190,120 170,160 L200,160 Z" fill="var(--color-primary)" opacity=".85"/>
+        <path d="M200,12 Q160,50 175,90 Q185,130 165,160 L185,160 Q205,130 195,90 Q180,50 190,12 Z" fill="var(--color-primary-dark)" opacity=".5"/>
+        <!-- Franja -->
+        <g fill="var(--color-accent)" opacity=".8">
+          <circle cx="10" cy="14" r="4"/>
+          <circle cx="30" cy="14" r="4"/>
+          <circle cx="50" cy="14" r="4"/>
+          <circle cx="70" cy="14" r="4"/>
+          <circle cx="90" cy="14" r="4"/>
+          <circle cx="110" cy="14" r="4"/>
+          <circle cx="130" cy="14" r="4"/>
+          <circle cx="150" cy="14" r="4"/>
+          <circle cx="170" cy="14" r="4"/>
+          <circle cx="190" cy="14" r="4"/>
+        </g>
+        <!-- Centro vazio — a peça não existe -->
+        <text x="100" y="100" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-style="italic" fill="var(--text-muted)" opacity=".4">?</text>
+      </svg>
+    </div>
+
+    <!-- Número 404 -->
+    <span class="num-404" aria-hidden="true">4<span class="accent">0</span>4</span>
+
+    <h1 class="title-404">
+      A cortina não<br><em>se abriu aqui.</em>
+    </h1>
+
+    <p class="sub-404">
+      Esta página não existe ou foi mudada de lugar.
+      Mas há espectáculos acontecer por todo o Portugal —
+      talvez encontres algo que valha a pena ver.
+    </p>
+
+    <!-- Espectáculo aleatório -->
+    <div class="random-section" id="random-section" hidden>
+      <span class="random-label">🎲 Espectáculo aleatório para esta noite</span>
+      <a class="random-event" id="random-event-link" href="/programacao/">
+        <div class="random-event-img" id="random-event-img">
+          <div class="random-event-placeholder" aria-hidden="true">🎭</div>
+        </div>
+        <div class="random-event-info">
+          <span class="random-event-theater" id="random-theater">—</span>
+          <span class="random-event-title" id="random-title">A carregar…</span>
+          <span class="random-event-date" id="random-date"></span>
+        </div>
+      </a>
+    </div>
+
+    <!-- Acções -->
+    <div class="actions-404">
+      <a href="/" class="btn btn-primary btn-lg">
+        <span aria-hidden="true">🏠</span> Página inicial
+      </a>
+      <a href="/programacao/" class="btn btn-outline btn-lg">
+        Ver programação
+      </a>
+    </div>
+
+    <!-- Sugestões -->
+    <nav class="suggestions" aria-label="Sugestões de páginas">
+      <p class="suggestions-title">Talvez estavas à procura de…</p>
+      <a href="/programacao/" class="suggestion-link">
+        <span class="suggestion-icon" aria-hidden="true">🎭</span>
+        Programação — todos os espectáculos
+        <span class="suggestion-arrow" aria-hidden="true">→</span>
+      </a>
+      <a href="/calendario/" class="suggestion-link">
+        <span class="suggestion-icon" aria-hidden="true">📅</span>
+        Calendário — o que há hoje
+        <span class="suggestion-arrow" aria-hidden="true">→</span>
+      </a>
+      <a href="/teatros/" class="suggestion-link">
+        <span class="suggestion-icon" aria-hidden="true">🏛️</span>
+        Teatros — todos os espaços
+        <span class="suggestion-arrow" aria-hidden="true">→</span>
+      </a>
+      <a href="/sobre/" class="suggestion-link">
+        <span class="suggestion-icon" aria-hidden="true">ℹ️</span>
+        Sobre o projecto
+        <span class="suggestion-arrow" aria-hidden="true">→</span>
+      </a>
+    </nav>
+
+    <p class="note-404">
+      Se chegaste aqui a partir de um link do nosso site,
+      <a href="mailto:fabio@primeiraplateia.pt?subject=Link quebrado" style="color:var(--color-primary)">diz-nos</a> — agradecemos.
+    </p>
+
+  </div>
+</main>
+
+<script>
+(function () {
+  'use strict';
+
+  const themeBtn = document.getElementById('theme-toggle');
+  const html = document.documentElement;
+  themeBtn.addEventListener('click', function () {
+    const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    html.setAttribute('data-theme', next);
+    localStorage.setItem('pp-theme', next);
+    themeBtn.setAttribute('aria-label', next === 'dark' ? 'Mudar para modo claro' : 'Mudar para modo escuro');
+    themeBtn.setAttribute('data-tip', next === 'dark' ? 'Modo claro' : 'Modo escuro');
+  });
+
+  const navToggle = document.getElementById('nav-toggle');
+  const navMenu   = document.getElementById('nav-menu');
+  navToggle.addEventListener('click', function () {
+    const isOpen = navMenu.classList.toggle('open');
+    navToggle.setAttribute('aria-expanded', isOpen);
+    navToggle.textContent = isOpen ? '✕' : '☰';
+  });
+  document.addEventListener('click', function (e) {
+    if (!navMenu.contains(e.target) && !navToggle.contains(e.target)) {
+      navMenu.classList.remove('open');
+      navToggle.setAttribute('aria-expanded', 'false');
+      navToggle.textContent = '☰';
+    }
+  });
+
+  /* ── Espectáculo aleatório ──────────────────────────────── */
+  async function loadRandom() {
+    try {
+      const today = new Date().toISOString().slice(0, 10);
+      let data;
+
+      try {
+        const r = await fetch('/data/events.slim.json');
+        if (r.ok) data = await r.json(); else throw new Error();
+      } catch (_) {
+        const r2 = await fetch('/events.json');
+        if (!r2.ok) return;
+        data = await r2.json();
+      }
+
+      const upcoming = data.filter(e => (e.next_session || e.date_start) >= today);
+      if (!upcoming.length) return;
+
+      // Escolher um aleatório
+      const ev = upcoming[Math.floor(Math.random() * Math.min(upcoming.length, 30))];
+      if (!ev) return;
+
+      const ns = ev.next_session || ev.date_start;
+      const dateStr = new Date(ns + 'T00:00:00').toLocaleDateString('pt-PT', { weekday: 'long', day: 'numeric', month: 'long' });
+
+      document.getElementById('random-theater').textContent = ev.theater || '';
+      document.getElementById('random-title').textContent = ev.title;
+      document.getElementById('random-date').textContent = dateStr;
+
+      if (ev.image_url) {
+        document.getElementById('random-event-img').innerHTML =
+          `<img src="${ev.image_url}" alt="" loading="lazy" decoding="async"/>`;
+      }
+
+      document.getElementById('random-event-link').href = `/espetaculo/?id=${ev.id}`;
+      document.getElementById('random-event-link').setAttribute('aria-label', `${ev.title} — ${ev.theater || ''}`);
+      document.getElementById('random-section').hidden = false;
+    } catch (_) {
+      // Falha silenciosa — a secção fica oculta
+    }
+  }
+
+  loadRandom();
+
+})();
+</script>
+</body>
+</html>
