@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-20T20:54:23.860050Z",
-  "total_raw": 62,
-  "total_accepted": 61,
+  "generated_at": "2026-03-20T21:02:37.950736Z",
+  "total_raw": 68,
+  "total_accepted": 67,
   "total_rejected": 1,
-  "total_warnings": 0,
+  "total_warnings": 1,
   "rejected": [
     {
       "id": "saoluiz-um-homem-e-o-seu-criado",
@@ -13,7 +13,15 @@
       ]
     }
   ],
-  "warnings": [],
+  "warnings": [
+    {
+      "id": "variedades-teatro-variedades-100-anos-100-entradas-na-wikip-d",
+      "title": "Teatro Variedades: 100 Anos, 100 Entradas na Wikipédia",
+      "warnings": [
+        "'date_end' (2026-06-20) < 'date_start' (2026-10-18) — corrigido"
+      ]
+    }
+  ],
   "total_duplicates_removed": 0,
   "duplicates_removed": []
 }
