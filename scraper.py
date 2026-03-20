@@ -48,6 +48,7 @@ from scrapers import (
     scraper_teatrodobairro,
     scraper_trindade,
     scraper_teatrodasfiguras,
+    scraper_tagv,
 )
 from scrapers.harmonizer import harmonize
 from scrapers.validator import validate
@@ -64,6 +65,7 @@ SCRAPERS: list[tuple[str, callable]] = [
     ("Teatro do Bairro",                    scraper_teatrodobairro.scrape),
     ("Teatro da Trindade INATEL",           scraper_trindade.scrape),
     ("Teatro das Figuras",                  scraper_teatrodasfiguras.scrape),
+    ("TAGV — Teatro Académico Gil Vicente", scraper_tagv.scrape),
 ]
 
 
