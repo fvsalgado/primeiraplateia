@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-20T20:03:03.954885+00:00",
-  "total": 79,
+  "updated_at": "2026-03-20T20:18:39.017773+00:00",
+  "total": 95,
   "by_theater": {
     "Teatro Variedades": 3,
     "Capitólio": 3,
@@ -12,7 +12,7 @@
     "Theatro Circo": 0,
     "Teatro do Bairro": 1,
     "Teatro da Trindade INATEL": 5,
-    "Teatro das Figuras": 5,
+    "Teatro das Figuras": 21,
     "TAGV — Teatro Académico Gil Vicente": 0,
     "Cine-Teatro Avenida": 0
   },
@@ -54,7 +54,7 @@
       "age_rating": "M/6",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-open-call-isto-n-o-um-cubo",
@@ -86,7 +86,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-tr-s-tempos-com-capicua-e-lu-s-montenegro",
@@ -118,7 +118,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-open-call",
@@ -150,7 +150,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-capicua-e-lu-s-montenegro",
@@ -182,7 +182,7 @@
       "age_rating": "M/6",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-coletivo-de-p-blico-residente-sess-es-abertas",
@@ -214,7 +214,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-tr-s-tempos-com-xullaji-e-beatriz-pessoa",
@@ -246,7 +246,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-osso",
@@ -278,7 +278,7 @@
       "age_rating": "M/6",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-teatro-do-frio",
@@ -310,7 +310,7 @@
       "age_rating": "M/3",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-casa-das-novidades",
@@ -342,7 +342,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "trindade-a-gaivota",
@@ -387,7 +387,7 @@
         "figurinos": "Filipe Faísca Desenho de luz Nuno Meira",
         "música": "original Artur Guimarães Sonoplastia Rui Santos Vídeo João Alves Assistência de"
       },
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "trindade-brokeback-mountain",
@@ -432,7 +432,7 @@
         "cenografia": "FPSolutions Fotografia de cartaz Pedro Macedo – Framed Photos Fotografia de cena Alípio Padilha",
         "produção": "executiva Teatro do Vão"
       },
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "mariamatos-primeira-vista",
@@ -490,7 +490,7 @@
         "autor": "Suzie Miller é uma dramaturga e argumentista contemporânea, vencedora de diversos prémios internacionais. Gosta de histórias humanas complexas que frequentemente versam a injustiça. Trabalha em Londres, no Reino Unido, e em Sydney, na Austrália, mas a sua obra tem sido apresentada em todo o mundo. T",
         "dramaturgia": "no National Institute of Dramatic Art , na Austrália. Play Avenida Frei Miguel Contreiras, 52, 1700-213, Lisboa Horário da Bilheteira Segunda – Sábado 17h30 às 21h30 Domingo — 15h30 às 18h30 *Horários em vigor em dias de espectáculo. Horário sujeito a alterações. Reservas e informações de bilheteira"
       },
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-ch-tisana-e-kombucha-humor-e-diferen-as-culturais",
@@ -522,7 +522,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-formiga-at-mica",
@@ -554,7 +554,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "saoluiz-todos-p-ssaros",
@@ -645,7 +645,7 @@
         "interpretação": "Cucha Carvalheiro, David Esteves, Fernando Luís, Madalena Almeida, Manuela Couto, Virgílio Castelo e Duarte Romão e Laura Garnel (alunos finalistas da ESTC)",
         "coprodução": "Culturproject, Teatro Municipal Joaquim Benite e São Luiz Teatro Municipal Projeto apoiado por República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes"
       },
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "mariamatos-uma-ideia-genial",
@@ -687,7 +687,7 @@
         "interpretação": "Ana Guiomar, Cristóvão Campos, Ruben Madureira e Sandra Faleiro",
         "elenco": "Ana Guiomar, Cristóvão Campos, Ruben Madureira e Sandra Faleiro, “Uma Ideia Genial” conta a história hilariante de uma personagem que se multiplica em três, cada uma com as suas características e perplexidades. Atrações, ciúmes, suspeitas e destinos cruzados criam uma sucessão de mal-entendidos e um"
       },
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "teatrodasfiguras-o-figurante",
@@ -707,14 +707,19 @@
       ],
       "schedule": "21h30",
       "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
-      "image": null,
+      "image": {
+        "url": "https://teatrodasfiguras.pt/uploads/Eventos/2026/Mar%C3%A7o/O_Figurante_MINIATURA.jpg?file=vgdJ_74-VPsYQj70TdFUYQ",
+        "credit": null,
+        "source": "https://teatrodasfiguras.pt/agenda/o-figurante",
+        "theater": "Teatro das Figuras"
+      },
       "source_url": "https://teatrodasfiguras.pt/agenda/o-figurante",
       "ticket_url": "",
       "price_info": "",
       "duration": "",
       "age_rating": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "saoluiz-as-quatro-mortes-de-napole-o",
@@ -808,7 +813,7 @@
         "produção": "Fátima Santos Filipe Difusão João Vaz Silva",
         "coprodução": "O Fim do Teatro, Casa Varela, Teatro-Cine de Pombal e São Luiz Teatro Municipal Parceria RTP Palco Apoio Largo Residências Media partner Radar 97.8 FM AGRADECIMENTOS Chão de Oliva, Elsa Lago Matos e Luiz Quaresma"
       },
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "teatro-variedades-in-the-heights",
@@ -845,7 +850,7 @@
       "age_rating": "M/12",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "teatro-variedades-o-tamanho-das-coisas",
@@ -882,7 +887,7 @@
       "age_rating": "M/14",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "teatro-variedades-radojka",
@@ -919,7 +924,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "teatro-capitolio-come-from-away",
@@ -956,7 +961,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "teatro-capitolio-evita",
@@ -993,7 +998,7 @@
       "age_rating": "M/12",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "teatro-capitolio-macbeth",
@@ -1030,7 +1035,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-falta-de-ch-humor-tabus-e-censura",
@@ -1062,7 +1067,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-diana-niepce",
@@ -1094,7 +1099,7 @@
       "age_rating": "M/16",
       "accessibility": "Audiodescrição",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "ccb-a-valentina-e-a-valeria-n-o-est-o-mortas",
@@ -1135,7 +1140,7 @@
         "produção": "Executiva Marisa Coelho Gestão Financeira Nuno Pratas",
         "coprodução": "Associação Bo Dixam Bai, Associação Palavrão, Centro Cultural de Belém, Cineteatro Louletano e Culturproject"
       },
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "teatrodasfiguras-para-so-meu-para-so",
@@ -1155,14 +1160,19 @@
       ],
       "schedule": "21h30",
       "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
-      "image": null,
+      "image": {
+        "url": "https://teatrodasfiguras.pt/uploads/Eventos/2026/Mar%C3%A7o/Para%C3%ADso_meu_Para%C3%ADso_FINAL_MINIATURA.jpg?file=pbHRa6un9CuXzyJZ3A19iw",
+        "credit": null,
+        "source": "https://teatrodasfiguras.pt/agenda/paraiso-meu-paraiso",
+        "theater": "Teatro das Figuras"
+      },
       "source_url": "https://teatrodasfiguras.pt/agenda/paraiso-meu-paraiso",
       "ticket_url": "",
       "price_info": "",
       "duration": "",
       "age_rating": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "saoluiz-dia-mundial-do-teatro",
@@ -1196,7 +1206,7 @@
       "accessibility": "",
       "sala": "Vários espaços do Teatro",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-do-ch-ao-iced-tea-humor-passado-e-presente",
@@ -1228,7 +1238,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-hedera-4tet-x-vera-mantero",
@@ -1260,7 +1270,7 @@
       "age_rating": "M/6",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "teatrodobairro-rei-lear",
@@ -1303,7 +1313,39 @@
         "luz": "Rui Seabra; Desenho de som: Paulo Abelho; Costureira: RosÃ¡rio Balbi; ConstruÃ§Ã£o de cenÃ¡rio: FÃ¡bio Paulo; OperaÃ§Ã£o de luz: AntÃ³nio SerrÃ£o e JoÃ£o Madeira; OperaÃ§Ã£o de som: Vasco Maciel; Chef",
         "dramaturgia": "LuÃ­sa Costa Gomes 2015 | QUATRO SANTOS EM TRÃS ACTOS libreto de Gertrude Stein e muÌsica de Virgil Thomson TraducÌ§aÌo e"
       },
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
+    },
+    {
+      "id": "teatrodasfiguras-ciclo-de-solistas",
+      "title": "Ciclo de Solistas",
+      "subtitle": "Orquestra do Algarve",
+      "theater": "Teatro das Figuras",
+      "category": "Música",
+      "dates_label": "3 Abr 2026",
+      "date_start": "2026-04-03",
+      "date_end": "2026-04-03",
+      "sessions": [
+        {
+          "date": "2026-04-03",
+          "time": "18:00",
+          "weekday": "Sex"
+        }
+      ],
+      "schedule": "18h00",
+      "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+      "image": {
+        "url": "https://teatrodasfiguras.pt/uploads/Eventos/2026/Abril/Ciclo_Solistas_Abril_MINIATURA.jpg?file=07OfXDBPtOQ0RrNIYZRbbA",
+        "credit": null,
+        "source": "https://teatrodasfiguras.pt/agenda/ciclo-de-solistasii",
+        "theater": "Teatro das Figuras"
+      },
+      "source_url": "https://teatrodasfiguras.pt/agenda/ciclo-de-solistasii",
+      "ticket_url": "",
+      "price_info": "",
+      "duration": "",
+      "age_rating": "",
+      "technical_sheet": {},
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "mariamatos-o-amor-fodid",
@@ -1348,7 +1390,39 @@
         "produção": "Janice Mayamona Apoio Técnico: Léo Emílio Contabilidade: Irene Gaspar Comunicação e Design Gráfico: Natacha Ventura Comunicação Digital: Miguel Durão Hilário Registo em vídeo: Bruno Canas Costureira: Teresa Matos Assessoria de imprensa: Canal Aberto – Márcia Marques, Daniele Valério e Carina Bordalo",
         "autor": "diz-nos que há algo de sinistro numa mulher que só usa roupa uma vez. Como haverá, dizemos nós, algo de identicamente sinistro em vestir sempre a mesma roupa. É igual com o amor. Há algo pecaminoso em vestir-nos de amor uma vez e de novamente repetir a dose. Ao entrar para dentro do círculo amoroso,"
       },
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
+    },
+    {
+      "id": "teatrodasfiguras-os-invis-veis",
+      "title": "Os Invisíveis",
+      "subtitle": "Documentário",
+      "theater": "Teatro das Figuras",
+      "category": "Outro",
+      "dates_label": "7 Abr 2026",
+      "date_start": "2026-04-07",
+      "date_end": "2026-04-07",
+      "sessions": [
+        {
+          "date": "2026-04-07",
+          "time": "18:00",
+          "weekday": "Ter"
+        }
+      ],
+      "schedule": "18h00",
+      "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+      "image": {
+        "url": "https://teatrodasfiguras.pt/uploads/Eventos/2026/Abril/Document%C3%A1rio_Os_Invis%C3%ADveis_MINIATURA.jpg?file=p-keOaf6wGFcOsG25hyoaA",
+        "credit": null,
+        "source": "https://teatrodasfiguras.pt/agenda/os-invisiveis",
+        "theater": "Teatro das Figuras"
+      },
+      "source_url": "https://teatrodasfiguras.pt/agenda/os-invisiveis",
+      "ticket_url": "",
+      "price_info": "",
+      "duration": "",
+      "age_rating": "",
+      "technical_sheet": {},
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "saoluiz-os-contratos-do-comerciante",
@@ -1406,7 +1480,39 @@
         "produção": "Frederico Barata",
         "coprodução": "auéééu e São Luiz Teatro Municipal Apoios SPA, Junta de Freguesia de Santo António, Casa da Comarca de Arganil, MTC, os nossos putos Agradecimentos Eva Baudry, Filipe Andrade, Fernando Roussado, auéééu teatro"
       },
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
+    },
+    {
+      "id": "teatrodasfiguras-para-so-de-los-negros",
+      "title": "Paraíso de los Negros",
+      "subtitle": "María Pagés Compañia",
+      "theater": "Teatro das Figuras",
+      "category": "Dança",
+      "dates_label": "10 Abr 2026",
+      "date_start": "2026-04-10",
+      "date_end": "2026-04-10",
+      "sessions": [
+        {
+          "date": "2026-04-10",
+          "time": "21:30",
+          "weekday": "Sex"
+        }
+      ],
+      "schedule": "21h30",
+      "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+      "image": {
+        "url": "https://teatrodasfiguras.pt/uploads/Eventos/2026/Abril/Paraiso_de_los_Negros_MINIATURA.jpg?file=rLy-4754X6rXQsBGY0jTMg",
+        "credit": null,
+        "source": "https://teatrodasfiguras.pt/agenda/paraiso-de-los-negros",
+        "theater": "Teatro das Figuras"
+      },
+      "source_url": "https://teatrodasfiguras.pt/agenda/paraiso-de-los-negros",
+      "ticket_url": "",
+      "price_info": "",
+      "duration": "",
+      "age_rating": "",
+      "technical_sheet": {},
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "saoluiz-kabe-a-or",
@@ -1477,7 +1583,39 @@
         "produção": "Vanessa Amaral Produção Associação Orí – Negritudes em Convergência Espiralar",
         "coprodução": "Bolsa de Criação O Espaço do Tempo com apoio do Banco BPI e Fundação “la Caixa” /// Projeto financiado por República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes Apoios Biblioteca de Alcântara, Câmara Municipal de Almada, Câmara Municipal da Moita, RDP África, Buala"
       },
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
+    },
+    {
+      "id": "teatrodasfiguras-s-rgio-os-assessores",
+      "title": "Sérgio & Os Assessores",
+      "subtitle": "Liberdade25",
+      "theater": "Teatro das Figuras",
+      "category": "Música",
+      "dates_label": "11 Abr 2026",
+      "date_start": "2026-04-11",
+      "date_end": "2026-04-11",
+      "sessions": [
+        {
+          "date": "2026-04-11",
+          "time": "21:30",
+          "weekday": "Sáb"
+        }
+      ],
+      "schedule": "21h30",
+      "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+      "image": {
+        "url": "https://teatrodasfiguras.pt/uploads/Eventos/2026/Abril/S%C3%A9rgio_Godinho_MINIATURA.jpg?file=38HMzJRhtVZphR-3UUsj_Q",
+        "credit": null,
+        "source": "https://teatrodasfiguras.pt/agenda/sergio-&-os-assessores",
+        "theater": "Teatro das Figuras"
+      },
+      "source_url": "https://teatrodasfiguras.pt/agenda/sergio-&-os-assessores",
+      "ticket_url": "",
+      "price_info": "",
+      "duration": "",
+      "age_rating": "",
+      "technical_sheet": {},
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-oneohtrix-point-never",
@@ -1509,7 +1647,39 @@
       "age_rating": "M/6",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
+    },
+    {
+      "id": "teatrodasfiguras-estou-beira-do-abismo-mas-a-vista-excepcional",
+      "title": "Estou à beira do abismo, mas a vista é excepcional",
+      "subtitle": "Ciclo de Conversas",
+      "theater": "Teatro das Figuras",
+      "category": "Outro",
+      "dates_label": "15 Abr 2026",
+      "date_start": "2026-04-15",
+      "date_end": "2026-04-15",
+      "sessions": [
+        {
+          "date": "2026-04-15",
+          "time": "18:00",
+          "weekday": "Qua"
+        }
+      ],
+      "schedule": "18h00",
+      "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+      "image": {
+        "url": "https://teatrodasfiguras.pt/uploads/Eventos/2026/Fevereiro/Ciclo_de_Conversas_Abril_MINIATURA.jpg?file=yHyc0aW8sT8SVJKA1I6JJg",
+        "credit": null,
+        "source": "https://teatrodasfiguras.pt/agenda/ciclo-de-conversas-abril",
+        "theater": "Teatro das Figuras"
+      },
+      "source_url": "https://teatrodasfiguras.pt/agenda/ciclo-de-conversas-abril",
+      "ticket_url": "",
+      "price_info": "",
+      "duration": "",
+      "age_rating": "",
+      "technical_sheet": {},
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-tr-s-tempos",
@@ -1541,7 +1711,39 @@
       "age_rating": "M/6",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
+    },
+    {
+      "id": "teatrodasfiguras-a-luminosa-viol-ncia-da-perfei-o",
+      "title": "A Luminosa Violência da Perfeição",
+      "subtitle": "de Daniel Matos",
+      "theater": "Teatro das Figuras",
+      "category": "Dança",
+      "dates_label": "18 Abr 2026",
+      "date_start": "2026-04-18",
+      "date_end": "2026-04-18",
+      "sessions": [
+        {
+          "date": "2026-04-18",
+          "time": "21:30",
+          "weekday": "Sáb"
+        }
+      ],
+      "schedule": "21h30",
+      "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+      "image": {
+        "url": "https://teatrodasfiguras.pt/uploads/Eventos/2026/Abril/A_Luminosa_Viol%C3%AAncia_FINAL_EVENTO.jpg?file=3JE9w8vCLtQlShFW12DmHQ",
+        "credit": null,
+        "source": "https://teatrodasfiguras.pt/agenda/a-luminosa-violencia-da-perfeicao",
+        "theater": "Teatro das Figuras"
+      },
+      "source_url": "https://teatrodasfiguras.pt/agenda/a-luminosa-violencia-da-perfeicao",
+      "ticket_url": "",
+      "price_info": "",
+      "duration": "",
+      "age_rating": "",
+      "technical_sheet": {},
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-tortoise",
@@ -1573,7 +1775,7 @@
       "age_rating": "M/6",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "mariamatos-pedro-cardoso-o-rec-m-nascido",
@@ -1615,7 +1817,7 @@
         "figurinos": "Giovanna Moretto",
         "produção": "e"
       },
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "saoluiz-d-juan",
@@ -1676,7 +1878,44 @@
         "produção": "Loup Solitaire",
         "coprodução": "Teatro Virgínia, Casa das Artes de Vila Nova de Famalicão, Teatro Diogo Bernardes, Teatro Gil Vicente e São Luiz Teatro Municipal /// A Loup Solitaire é uma estrutura financiada pela República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes"
       },
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
+    },
+    {
+      "id": "teatrodasfiguras-zoom-encontro-de-media-o-cultural",
+      "title": "ZOOM - Encontro de Mediação Cultural",
+      "subtitle": "2.ª edição",
+      "theater": "Teatro das Figuras",
+      "category": "Outro",
+      "dates_label": "22 Abr 2026 – 23 Abr 2026",
+      "date_start": "2026-04-22",
+      "date_end": "2026-04-23",
+      "sessions": [
+        {
+          "date": "2026-04-22",
+          "time": "09:30",
+          "weekday": "Qua"
+        },
+        {
+          "date": "2026-04-23",
+          "time": "09:30",
+          "weekday": "Qui"
+        }
+      ],
+      "schedule": "9h30 - 18h00",
+      "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+      "image": {
+        "url": "https://teatrodasfiguras.pt/uploads/Eventos/2026/Abril/Zoom_Final_MINIATURA.jpg?file=vIHQsNiP-YFWj6ewbxFnVA",
+        "credit": null,
+        "source": "https://teatrodasfiguras.pt/agenda/zoom-encontro-de-mediacao-cultural-ii",
+        "theater": "Teatro das Figuras"
+      },
+      "source_url": "https://teatrodasfiguras.pt/agenda/zoom-encontro-de-mediacao-cultural-ii",
+      "ticket_url": "",
+      "price_info": "",
+      "duration": "",
+      "age_rating": "",
+      "technical_sheet": {},
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-afetos-nacionais",
@@ -1708,7 +1947,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-catarina-r-lo-salgueiro-e-isabel-costa-os-possesso",
@@ -1740,7 +1979,7 @@
       "age_rating": "M/12",
       "accessibility": "Audiodescrição",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "trindade-verdadeiro-oeste",
@@ -1784,7 +2023,7 @@
         "produção": "Martim Pedroso",
         "música": "Dan Gillespie Sells"
       },
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "trindade-clube-dos-poetas-mortos",
@@ -1828,7 +2067,39 @@
         "produção": "– Tenda Produções Ana Delgado",
         "música": "Dan Gillespie Sells"
       },
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
+    },
+    {
+      "id": "teatrodasfiguras-z-eduardo-trio-convida-clarke-peters",
+      "title": "Zé Eduardo Trio convida Clarke Peters",
+      "subtitle": "Os Dias do Jazz'26",
+      "theater": "Teatro das Figuras",
+      "category": "Música",
+      "dates_label": "30 Abr 2026",
+      "date_start": "2026-04-30",
+      "date_end": "2026-04-30",
+      "sessions": [
+        {
+          "date": "2026-04-30",
+          "time": "21:30",
+          "weekday": "Qui"
+        }
+      ],
+      "schedule": "21h30",
+      "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+      "image": {
+        "url": "https://teatrodasfiguras.pt/uploads/Eventos/2026/Abril/Z%C3%A9_Eduardo_MINIATURA.jpg?file=ImogMKXDuUBjUSMsv5l9tw",
+        "credit": null,
+        "source": "https://teatrodasfiguras.pt/agenda/ze-eduardo-trio-convida-clarke-peters",
+        "theater": "Teatro das Figuras"
+      },
+      "source_url": "https://teatrodasfiguras.pt/agenda/ze-eduardo-trio-convida-clarke-peters",
+      "ticket_url": "",
+      "price_info": "",
+      "duration": "",
+      "age_rating": "",
+      "technical_sheet": {},
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-p-e-d-r-a",
@@ -1860,7 +2131,39 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
+    },
+    {
+      "id": "teatrodasfiguras-dino-d-santiago",
+      "title": "Dino D'Santiago",
+      "subtitle": "Festival Mochila",
+      "theater": "Teatro das Figuras",
+      "category": "Música",
+      "dates_label": "2 Mai 2026",
+      "date_start": "2026-05-02",
+      "date_end": "2026-05-02",
+      "sessions": [
+        {
+          "date": "2026-05-02",
+          "time": "21:30",
+          "weekday": "Sáb"
+        }
+      ],
+      "schedule": "21h30",
+      "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+      "image": {
+        "url": "https://teatrodasfiguras.pt/uploads/Eventos/2026/Maio/Dino_DSantiago_MINIATURA.jpg?file=P32CSvgnNx2DTk9XN7966Q",
+        "credit": null,
+        "source": "https://teatrodasfiguras.pt/agenda/dino-dsantiago-mochila",
+        "theater": "Teatro das Figuras"
+      },
+      "source_url": "https://teatrodasfiguras.pt/agenda/dino-dsantiago-mochila",
+      "ticket_url": "",
+      "price_info": "",
+      "duration": "",
+      "age_rating": "",
+      "technical_sheet": {},
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-joga-o-jogo-fugida",
@@ -1892,7 +2195,39 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
+    },
+    {
+      "id": "teatrodasfiguras-joana-marques",
+      "title": "Joana Marques",
+      "subtitle": "Em Sede Própria",
+      "theater": "Teatro das Figuras",
+      "category": "Outro",
+      "dates_label": "3 Mai 2026",
+      "date_start": "2026-05-03",
+      "date_end": "2026-05-03",
+      "sessions": [
+        {
+          "date": "2026-05-03",
+          "time": "17:30",
+          "weekday": "Dom"
+        }
+      ],
+      "schedule": "17h30 e 21h30",
+      "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+      "image": {
+        "url": "https://teatrodasfiguras.pt/uploads/Eventos/2026/Maio/Joana_Marques_MINIATURA.jpg?file=x5-BtJgRHibKrGHy0qRAQw",
+        "credit": null,
+        "source": "https://teatrodasfiguras.pt/agenda/joana-marques",
+        "theater": "Teatro das Figuras"
+      },
+      "source_url": "https://teatrodasfiguras.pt/agenda/joana-marques",
+      "ticket_url": "",
+      "price_info": "",
+      "duration": "",
+      "age_rating": "",
+      "technical_sheet": {},
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "saoluiz-fimfa-lx26",
@@ -1934,7 +2269,7 @@
         "direção": "Luís Vieira e Rute Ribeiro",
         "coprodução": "LU.CA – Teatro Luís de Camões, Teatro Nacional D. Maria II, Centro Cultural de Belém e São Luiz Teatro Municipal /// A Tarumba é uma estrutura financiada por República Portuguesa – Cultura / Direção-Geral das Artes"
       },
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "teatrodasfiguras-falsas-hist-rias-verdadeiras-uma-pina-colagem",
@@ -1954,14 +2289,19 @@
       ],
       "schedule": "21h30",
       "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
-      "image": null,
+      "image": {
+        "url": "https://teatrodasfiguras.pt/uploads/Eventos/2026/Maio/Uma_Pina_Colagem_MINIATURA.jpg?file=J7xwYyEKlPhzT1d1Zr0DMQ",
+        "credit": null,
+        "source": "https://teatrodasfiguras.pt/agenda/falsas-historias-verdadeiras-uma-pina-colagem",
+        "theater": "Teatro das Figuras"
+      },
       "source_url": "https://teatrodasfiguras.pt/agenda/falsas-historias-verdadeiras-uma-pina-colagem",
       "ticket_url": "",
       "price_info": "",
       "duration": "",
       "age_rating": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-23-festival-internacional-de-cinema",
@@ -1993,7 +2333,7 @@
       "age_rating": "M/16",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "mariamatos-sin-doque-ivo-canelas-e-jo-o-vasco",
@@ -2029,7 +2369,7 @@
         "elenco": "João Vasco. Actualmente em itinerância, Sinédoque estreou em 2023 e foi apresentado em Portugal, Tunísia, Cabo Verde, Brasil, França e Angola. Avenida Frei Miguel Contreiras, 52, 1700-213, Lisboa Horário da Bilheteira Segunda – Sábado 17h30 às 21h30 Domingo — 15h30 às 18h30 *Horários em vigor em dia",
         "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
       },
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-meg-stuart",
@@ -2061,7 +2401,7 @@
       "age_rating": "M/12",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-lucy-railton-com-charlie-hope-rebecca-salvadori",
@@ -2093,7 +2433,7 @@
       "age_rating": "M/6",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-restaurar-o-futuro",
@@ -2125,7 +2465,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-alex-cassal-m-cria-o",
@@ -2157,7 +2497,39 @@
       "age_rating": "M/14",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
+    },
+    {
+      "id": "teatrodasfiguras-carminho",
+      "title": "Carminho",
+      "subtitle": "Eu vou Morrer de Amor ou Resistir",
+      "theater": "Teatro das Figuras",
+      "category": "Música",
+      "dates_label": "23 Mai 2026",
+      "date_start": "2026-05-23",
+      "date_end": "2026-05-23",
+      "sessions": [
+        {
+          "date": "2026-05-23",
+          "time": "21:30",
+          "weekday": "Sáb"
+        }
+      ],
+      "schedule": "21h30",
+      "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+      "image": {
+        "url": "https://teatrodasfiguras.pt/uploads/Eventos/2026/Maio/Carminho_MINIATURA.jpg?file=oKGT1IES4aNU9nhZQU34Cg",
+        "credit": null,
+        "source": "https://teatrodasfiguras.pt/agenda/carminho",
+        "theater": "Teatro das Figuras"
+      },
+      "source_url": "https://teatrodasfiguras.pt/agenda/carminho",
+      "ticket_url": "",
+      "price_info": "",
+      "duration": "",
+      "age_rating": "",
+      "technical_sheet": {},
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "ccb-constitui-o-8211-estreia",
@@ -2234,7 +2606,7 @@
         "luz": "Ângela Bismarck",
         "coprodução": "CCB/Fábrica das Artes Apoio Fundo Cultural da Sociedade Portuguesa de Autores Apoio à investigação Tribunal Constitucional Projeto criado no âmbito da parceria Centro Cultural de Belém/Fábrica das Artes e Assembleia da República. Imagem ©Assembleia da República Ilustração de Mantr"
       },
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-rui-agostinho-alex-cassal",
@@ -2266,7 +2638,39 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
+    },
+    {
+      "id": "teatrodasfiguras-para-que-serve-a-literatura",
+      "title": "Para que serve a Literatura?",
+      "subtitle": "Ciclo de Conversas",
+      "theater": "Teatro das Figuras",
+      "category": "Outro",
+      "dates_label": "27 Mai 2026",
+      "date_start": "2026-05-27",
+      "date_end": "2026-05-27",
+      "sessions": [
+        {
+          "date": "2026-05-27",
+          "time": "18:00",
+          "weekday": "Qua"
+        }
+      ],
+      "schedule": "18h00",
+      "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+      "image": {
+        "url": "https://teatrodasfiguras.pt/uploads/Eventos/2026/Fevereiro/Ciclo_de_Conversas_Maio_MINIATURA.jpg?file=aUmYvzh-Bm5YC1SiVEiVYQ",
+        "credit": null,
+        "source": "https://teatrodasfiguras.pt/agenda/ciclo-de-conversas-maio",
+        "theater": "Teatro das Figuras"
+      },
+      "source_url": "https://teatrodasfiguras.pt/agenda/ciclo-de-conversas-maio",
+      "ticket_url": "",
+      "price_info": "",
+      "duration": "",
+      "age_rating": "",
+      "technical_sheet": {},
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "saoluiz-hip-lito",
@@ -2313,7 +2717,7 @@
         "luz": "Pedro Guimarães",
         "produção": "Xana Lagusi"
       },
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-a-winged-victory-for-the-sullen",
@@ -2345,7 +2749,7 @@
       "age_rating": "M/6",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-projeto-educativo-em-dan-a-de-repert-rio-para-adol",
@@ -2377,7 +2781,7 @@
       "age_rating": "M/6",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "teatrodasfiguras-masha-e-o-urso",
@@ -2397,14 +2801,19 @@
       ],
       "schedule": "11h00 e 15h00",
       "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
-      "image": null,
+      "image": {
+        "url": "https://teatrodasfiguras.pt/uploads/Eventos/2026/Maio/Masha_e_o_Urso_MINIATURA.jpg?file=TTiMHKFJqAMzpUQ_Vk7_Mw",
+        "credit": null,
+        "source": "https://teatrodasfiguras.pt/agenda/masha-e-o-urso-2026",
+        "theater": "Teatro das Figuras"
+      },
       "source_url": "https://teatrodasfiguras.pt/agenda/masha-e-o-urso-2026",
       "ticket_url": "",
       "price_info": "",
       "duration": "",
       "age_rating": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-lia-rodrigues",
@@ -2436,7 +2845,7 @@
       "age_rating": "M/12",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "saoluiz-da-boca-pra-fora",
@@ -2523,7 +2932,7 @@
         "produção": "André Camilo",
         "coprodução": "Camarote Produções e São Luiz Teatro Municipal"
       },
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "teatrodasfiguras-quinteto-de-morte",
@@ -2531,26 +2940,41 @@
       "subtitle": "",
       "theater": "Teatro das Figuras",
       "category": "Teatro",
-      "dates_label": "5 Jun 2026",
+      "dates_label": "5 Jun 2026 – 7 Jun 2026",
       "date_start": "2026-06-05",
-      "date_end": "2026-06-05",
+      "date_end": "2026-06-07",
       "sessions": [
         {
           "date": "2026-06-05",
           "time": "21:30",
           "weekday": "Sex"
+        },
+        {
+          "date": "2026-06-06",
+          "time": "21:30",
+          "weekday": "Sáb"
+        },
+        {
+          "date": "2026-06-07",
+          "time": "21:30",
+          "weekday": "Dom"
         }
       ],
       "schedule": "Dias 5 e 6 às 21h30 | Dia...",
       "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
-      "image": null,
+      "image": {
+        "url": "https://teatrodasfiguras.pt/uploads/Eventos/2026/Junho/O_Quinteto_da_Morte_MINIATURA.jpg?file=eWtAf7ohkmMLFTFg7sgU_g",
+        "credit": null,
+        "source": "https://teatrodasfiguras.pt/agenda/quinteto-de-morte",
+        "theater": "Teatro das Figuras"
+      },
       "source_url": "https://teatrodasfiguras.pt/agenda/quinteto-de-morte",
       "ticket_url": "",
       "price_info": "",
       "duration": "",
       "age_rating": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "ccb-o-direito-do-mais-fraco-liberdade",
@@ -2590,7 +3014,44 @@
         "produção": "Inês Pinto",
         "coprodução": "A Oficina/Centro Cultural Vila Flor , RTP – Rádio e Televisão de Portugal , Teatro Diogo Bernardes e Teatro das Figuras"
       },
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
+    },
+    {
+      "id": "teatrodasfiguras-as-guerreiras-do-k-pop-em-concerto-tributo",
+      "title": "As Guerreiras do K-POP em concerto (Tributo)",
+      "subtitle": "",
+      "theater": "Teatro das Figuras",
+      "category": "Música",
+      "dates_label": "12 Jun 2026 – 13 Jun 2026",
+      "date_start": "2026-06-12",
+      "date_end": "2026-06-13",
+      "sessions": [
+        {
+          "date": "2026-06-12",
+          "time": "19:00",
+          "weekday": "Sex"
+        },
+        {
+          "date": "2026-06-13",
+          "time": "19:00",
+          "weekday": "Sáb"
+        }
+      ],
+      "schedule": "Dia 12 às 19h00 | Dia 13 ...",
+      "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+      "image": {
+        "url": "https://teatrodasfiguras.pt/uploads/Eventos/2026/Junho/As_Guerreiras_do_KPOP_MINIATURA.jpg?file=klvKSgo0LAy19JkDL_pQOw",
+        "credit": null,
+        "source": "https://teatrodasfiguras.pt/agenda/as-guerreiras-do-k-pop-em-concerto-tributo",
+        "theater": "Teatro das Figuras"
+      },
+      "source_url": "https://teatrodasfiguras.pt/agenda/as-guerreiras-do-k-pop-em-concerto-tributo",
+      "ticket_url": "",
+      "price_info": "",
+      "duration": "",
+      "age_rating": "",
+      "technical_sheet": {},
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "trindade-andr-de-freitas",
@@ -2626,7 +3087,7 @@
         "encenação": "Diogo Infante 19 Fev - 05 Abr 2026 BROKEBACK MOUNTAIN",
         "música": "Dan Gillespie Sells"
       },
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "ccb-exerc-cio-de-montagem",
@@ -2716,7 +3177,39 @@
         "luz": "Leocádia Silva",
         "produção": "Alaíde Costa Assistente de"
       },
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
+    },
+    {
+      "id": "teatrodasfiguras-tommy-guerrero",
+      "title": "Tommy Guerrero",
+      "subtitle": "",
+      "theater": "Teatro das Figuras",
+      "category": "Música",
+      "dates_label": "18 Jun 2026",
+      "date_start": "2026-06-18",
+      "date_end": "2026-06-18",
+      "sessions": [
+        {
+          "date": "2026-06-18",
+          "time": "21:30",
+          "weekday": "Qui"
+        }
+      ],
+      "schedule": "21h30",
+      "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+      "image": {
+        "url": "https://teatrodasfiguras.pt/uploads/Eventos/2026/Junho/Tommy_Guerrero_MINIATURA.jpg?file=OwTPkPS5LS03qX-BGcCV3g",
+        "credit": null,
+        "source": "https://teatrodasfiguras.pt/agenda/tommy-guerrero",
+        "theater": "Teatro das Figuras"
+      },
+      "source_url": "https://teatrodasfiguras.pt/agenda/tommy-guerrero",
+      "ticket_url": "",
+      "price_info": "",
+      "duration": "",
+      "age_rating": "",
+      "technical_sheet": {},
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "saoluiz-a-cavalo",
@@ -2767,7 +3260,7 @@
         "direção_produção": "Maria João Garcia",
         "coprodução": "Fundação de Serralves/Serralves em Festa, Citemor, Festival End, Festival Paragem e São Luiz Teatro Municipal"
       },
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-festival-art-explora",
@@ -2849,7 +3342,7 @@
       "age_rating": "M/6",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-mater",
@@ -2881,7 +3374,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "saoluiz-deixar-o-karate",
@@ -2967,7 +3460,7 @@
         "produção": "Razões Pessoais Residência artística Casa de Gigante",
         "coprodução": "Teatro das Figuras e São Luiz Teatro Municipal"
       },
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "saoluiz-es-tr3s-irms",
@@ -3016,7 +3509,7 @@
         "produção": "Trypas-Corassão Associação Cultural",
         "coprodução": "Es Tr3s Irms é o projeto vencedor da 5ª edição da Bolsa Amélia Rey Colaço, uma iniciativa promovida pelo Teatro Nacional D. Maria II (Lisboa), A Oficina / Centro Cultural Vila Flor (Guimarães), O Espaço do Tempo (Montemor-o-Novo), e o Teatro Viriato (Viseu)."
       },
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-mala-voadora",
@@ -3048,7 +3541,7 @@
       "age_rating": "M/16",
       "accessibility": "Audiodescrição",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-um-silab-rio-por-reconstruir-iv",
@@ -3080,7 +3573,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "ccb-um-julgamento",
@@ -3121,7 +3614,7 @@
         "produção": "Henrique Mariano",
         "coprodução": "Centro Cultural de Belém (Lisboa-Portugal), Holland Festival (Amsterdão), Festival d’Avignon (França), Edinburgh International Festival (Escócia) e DeSingel (Bélgica) Apoio UCLA’s Center for the Art of Performance e Instituto Guimarães Rosa — IGR — Ministério das Relações Exteriores do Brasi"
       },
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "mariamatos-swimming-pool-party",
@@ -3157,7 +3650,7 @@
         "produção": "e Cena TdE Sílvia Moura",
         "texto": "de Ricardo Neves-Neves, o enredo é muito mais dramático, as causas mais profundas, as personagens uns canalhas desprezíveis, e o final trará o espanto. Querem ser cúmplices deste crime? Avenida Frei Miguel Contreiras, 52, 1700-213, Lisboa Horário da Bilheteira Segunda – Sábado 17h30 às 21h30 Domingo"
       },
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "ccb-quem-tem-medo-de-virginia-woolf-de-edward-albee",
@@ -3199,7 +3692,7 @@
         "interpretação": "João Reis, Margarida Carvalho, Daniel Silva, Joana Africano",
         "coprodução": "Centro Cultural de Belém, Casa das Artes de Vila Nova de Famalicão, Teatro Nacional São João"
       },
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "culturgest-jo-o-penalva",
@@ -3231,7 +3724,7 @@
       "age_rating": "",
       "accessibility": "Língua Gestual",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     },
     {
       "id": "saoluiz-escola-superior-de-teatro-e-cinema",
@@ -3285,7 +3778,81 @@
       "accessibility": "",
       "sala": "Sala Mário Viegas",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T20:03:03.950282+00:00"
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
+    },
+    {
+      "id": "teatrodasfiguras-evita",
+      "title": "Evita",
+      "subtitle": "Yellow Star Company",
+      "theater": "Teatro das Figuras",
+      "category": "Teatro Musical",
+      "dates_label": "20 Ago 2026 – 22 Ago 2026",
+      "date_start": "2026-08-20",
+      "date_end": "2026-08-22",
+      "sessions": [
+        {
+          "date": "2026-08-20",
+          "time": "21:30",
+          "weekday": "Qui"
+        },
+        {
+          "date": "2026-08-21",
+          "time": "21:30",
+          "weekday": "Sex"
+        },
+        {
+          "date": "2026-08-22",
+          "time": "21:30",
+          "weekday": "Sáb"
+        }
+      ],
+      "schedule": "21h30",
+      "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+      "image": {
+        "url": "https://teatrodasfiguras.pt/uploads/Eventos/2026/Agosto/Evita_MINIATURA.jpg?file=zQQi2Jm-6vg2EU0sIWQhcw",
+        "credit": null,
+        "source": "https://teatrodasfiguras.pt/agenda/evita",
+        "theater": "Teatro das Figuras"
+      },
+      "source_url": "https://teatrodasfiguras.pt/agenda/evita",
+      "ticket_url": "",
+      "price_info": "",
+      "duration": "",
+      "age_rating": "",
+      "technical_sheet": {},
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
+    },
+    {
+      "id": "teatrodasfiguras-quatro-e-meia",
+      "title": "Quatro e Meia",
+      "subtitle": "Tour Interior",
+      "theater": "Teatro das Figuras",
+      "category": "Música",
+      "dates_label": "6 Fev 2027",
+      "date_start": "2027-02-06",
+      "date_end": "2027-02-06",
+      "sessions": [
+        {
+          "date": "2027-02-06",
+          "time": "21:30",
+          "weekday": "Sáb"
+        }
+      ],
+      "schedule": "21h30",
+      "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+      "image": {
+        "url": "https://teatrodasfiguras.pt/uploads/Eventos/2027/02_FEV/Os_Quatro_e_Meia_MINIATURA.jpg?file=LWkQTzDQXp_0anvGZOd69A",
+        "credit": null,
+        "source": "https://teatrodasfiguras.pt/agenda/quatro-e-meia",
+        "theater": "Teatro das Figuras"
+      },
+      "source_url": "https://teatrodasfiguras.pt/agenda/quatro-e-meia",
+      "ticket_url": "",
+      "price_info": "",
+      "duration": "",
+      "age_rating": "",
+      "technical_sheet": {},
+      "scraped_at": "2026-03-20T20:18:39.013498+00:00"
     }
   ]
 }
