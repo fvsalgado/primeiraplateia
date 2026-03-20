@@ -768,7 +768,7 @@
       : 'Sem espectáculos actuais';
 
     return `
-      <a class="theater-card" href="${t.id}/" aria-label="${t.name} — ${t.city || ''}">
+      <a class="theater-card" href="teatro.html?id=${t.id}" aria-label="${t.name} — ${t.city || ''}">
         <div class="theater-card-bar" style="background:${color}" aria-hidden="true"></div>
         <div class="theater-card-body">
           <h3 class="theater-card-name">${t.name}</h3>
@@ -788,7 +788,7 @@
     const countStr = evCount > 0 ? `${evCount} em cartaz` : '—';
 
     return `
-      <a class="theater-row" href="${t.id}/" aria-label="${t.name} — ${t.city || ''}">
+      <a class="theater-row" href="teatro.html?id=${t.id}" aria-label="${t.name} — ${t.city || ''}">
         <div class="theater-row-bar" style="background:${color}" aria-hidden="true"></div>
         <div class="theater-row-body">
           <span class="theater-row-name">${t.name}</span>
