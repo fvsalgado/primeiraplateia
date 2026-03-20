@@ -3,6 +3,7 @@
     "id": "teatrodobairro-rei-lear",
     "title": "Rei Lear",
     "theater": "Teatro do Bairro",
+    "subtitle": "William Shakespeare; TraduÃ§Ã£o: Ãlvaro Cunhal; EncenaÃ§Ã£o: AntÃ³nio Pires",
     "category": "Teatro",
     "dates_label": "3 a 26 Abril",
     "date_start": "2026-04-03",
@@ -19,8 +20,8 @@
         "weekday": "Dom"
       }
     ],
-    "schedule": "21h00",
-    "synopsis": "10â¬ ( 65, profissionais do espectÃ¡culo) 8â¬ (Quarta-Feira - Dia do espectador e portadores do CartÃ£o de Amigo do Teatro do Bairro) Rei Lear, um dos textos maiores de William Shakespeare, conta-nos a histÃ³ria de um monarca envelhecido que decide dividir o reino entre as trÃªs filhas, esper…",
+    "schedule": "21h00 / 17h00",
+    "synopsis": "10â¬ ( 65, profissionais do espectÃ¡culo) 8â¬ (Quarta-Feira - Dia do espectador e portadores do CartÃ£o de Amigo do Teatro do Bairro) Bilhetes Ã  venda em bol.pt M/12 .…",
     "image": {
       "url": "https://teatrodobairro.org/assets/imagens/programa/reilear.jpg",
       "credit": "Ramos, Carolina Campanela, ClÃ¡udio da Silva, Crista Alfaiate, Dinarte Branco, D",
@@ -29,22 +30,23 @@
     },
     "source_url": "https://teatrodobairro.org/#reilear",
     "ticket_url": "https://teatrodobairro.bol.pt/Comprar/Bilhetes/174311-rei_lear-teatro_do_bairro/",
-    "price_info": "",
     "duration": "150 min.",
+    "duration_min": 150,
     "age_rating": "M/12",
-    "sala": "",
+    "age_min": 12,
     "technical_sheet": {
-      "texto": "William Shakespeare; TraduÃ§Ã£o: Ãlvaro Cunhal; EncenaÃ§Ã£o: AntÃ³nio Pires; Com: Adriano Luz, AndrÃ© Ramos, Carolina Campanela, ClÃ¡udio da Silva, Crista Alfaiate, Dinarte Branco, Dinis Gomes, Franc",
-      "cenografia": "JoÃ£o Mendes Ribeiro;",
-      "figurinos": "LuÃ­sa Pacheco; Assistente de encenaÃ§Ã£o: Carolina FerrÃ£o; MÃºsica: Daniel Bernardes;",
-      "luz": "Rui Seabra; Desenho de som: Paulo Abelho; Costureira: RosÃ¡rio Balbi; ConstruÃ§Ã£o de cenÃ¡rio: FÃ¡bio Paulo; OperaÃ§Ã£o de luz: AntÃ³nio SerrÃ£o e JoÃ£o Madeira; OperaÃ§Ã£o de som: Vasco Maciel; Chef",
-      "dramaturgia": "LuÃ­sa Costa Gomes 2015 | QUATRO SANTOS EM TRÃS ACTOS libreto de Gertrude Stein e muÌsica de Virgil Thomson TraducÌ§aÌo e"
+      "texto": "William Shakespeare; TraduÃ§Ã£o: Ãlvaro Cunhal; EncenaÃ§Ã£o: AntÃ³nio Pires",
+      "interpretação": "Adriano Luz, AndrÃ",
+      "cenografia": "JoÃ£o Mendes Ribeiro",
+      "figurinos": "LuÃ­sa Pacheco; Assistente de encenaÃ§Ã£o: Carolina FerrÃ£o; MÃºsica: Daniel Bernardes",
+      "luz": "Rui Seabra",
+      "som": "Paulo Abelho; Costureira: RosÃ¡rio Balbi; ConstruÃ§Ã£o de cenÃ¡rio: FÃ¡bio Paulo; OperaÃ§Ã£o de luz: AntÃ³nio SerrÃ£o e JoÃ£o Madeira; OperaÃ§Ã£o de som: Vasco Maciel; Chefe de guarda roupa: InÃªs da Mata; Assistentes de guarda-roupa: Beatriz Dinis e Ema FalcÃ£o; IlustraÃ§Ã£o: Joana Villaverde; Foto"
     },
-    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
+    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
     "theater_id": "teatrodobairro",
     "city": "Lisboa",
     "_meta": {
-      "completeness": 0.7
+      "completeness": 0.72
     }
   }
 ]

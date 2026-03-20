@@ -227,7 +227,10 @@
         "ar de filmes"
       ],
       "description": "O Teatro do Bairro é um espaço cultural no coração do Bairro Alto, em Lisboa, inaugurado pela Ar de Filmes em 2011. Combina produção própria de teatro com acolhimento de criadores convidados, num programa que inclui também cinema.",
-      "_overrides": []
+      "_overrides": [],
+      "logo_url": "https://teatrodobairro.org/assets/imagens/logos/logo_tdb.svg",
+      "favicon_url": "https://teatrodobairro.org/assets/imagens/favicons/favicon-32x32.png",
+      "facade_url": "https://teatrodobairro.org/assets/imagens/artigos/TeatrodoBairro_img.jpg"
     },
     {
       "id": "trindade",
