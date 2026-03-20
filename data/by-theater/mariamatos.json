@@ -1,0 +1,291 @@
+[
+  {
+    "id": "mariamatos-primeira-vista",
+    "title": "À PRIMEIRA VISTA",
+    "theater": "Teatro Maria Matos",
+    "category": "Teatro",
+    "dates_label": "2026-03-03 – 2026-03-31",
+    "date_start": "2026-03-03",
+    "date_end": "2026-03-31",
+    "sessions": [
+      {
+        "date": "2026-03-03",
+        "time": "21:00",
+        "weekday": "Ter"
+      },
+      {
+        "date": "2026-03-23",
+        "time": "21:00",
+        "weekday": "Seg"
+      },
+      {
+        "date": "2026-03-30",
+        "time": "21:00",
+        "weekday": "Seg"
+      },
+      {
+        "date": "2026-03-31",
+        "time": "21:00",
+        "weekday": "Ter"
+      }
+    ],
+    "schedule": "2026-03-03 21:00 | 2026-03-23 21:00 | 2026-03-30 21:00 | 2026-03-31 21:00",
+    "synopsis": "Prima Facie —Expressão jurídica latina que significa: À primeira vista. Margarida Vila-Novasobe ao palco doTeatro Maria Matoscom a versão portuguesa deÀ PRIMEIRA VISTA(PRIMA FACIE), de Suzie Miller, com encenação deTiago Guedes.…",
+    "image": {
+      "url": "https://teatromariamatos.pt/wp-content/uploads/2025/03/2024_04_23_A_PRIMEIRA_VISTA_TL_1920x1080px_01.jpg",
+      "credit": "Filipe Ferreira 90 min. M/14 Prima Facie —Expressão jurídica latina que signific",
+      "source": "https://teatromariamatos.pt/espetaculos/a-primeira-vista/",
+      "theater": "Teatro Maria Matos"
+    },
+    "source_url": "https://teatromariamatos.pt/espetaculos/a-primeira-vista/",
+    "ticket_url": "https://ticketline.sapo.pt/salas/sala/2791",
+    "price_info": "20€",
+    "duration": "90 min.",
+    "age_rating": "M/14",
+    "technical_sheet": {
+      "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
+      "texto": "Suzie Miller",
+      "encenação": "Tiago Guedes",
+      "tradução": "Ana Sampaio",
+      "cenário": "Catarina Amaro",
+      "luz": "Nuno Meira",
+      "som": "Carincur",
+      "figurinos": "Rita Alves agradecimentos João Tavares",
+      "produção": "Força de",
+      "autor": "Suzie Miller é uma dramaturga e argumentista contemporânea, vencedora de diversos prémios internacionais. Gosta de histórias humanas complexas que frequentemente versam a injustiça. Trabalha em Londres, no Reino Unido, e em Sydney, na Austrália, mas a sua obra tem sido apresentada em todo o mundo. T",
+      "dramaturgia": "no National Institute of Dramatic Art , na Austrália. Play Avenida Frei Miguel Contreiras, 52, 1700-213, Lisboa Horário da Bilheteira Segunda – Sábado 17h30 às 21h30 Domingo — 15h30 às 18h30 *Horários em vigor em dias de espectáculo. Horário sujeito a alterações. Reservas e informações de bilheteira"
+    },
+    "scraped_at": "2026-03-20T01:21:22.140184+00:00",
+    "theater_id": "mariamatos",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.85
+    }
+  },
+  {
+    "id": "mariamatos-uma-ideia-genial",
+    "title": "UMA IDEIA GENIAL",
+    "theater": "Teatro Maria Matos",
+    "category": "Teatro",
+    "dates_label": "18 março – 17 maio",
+    "date_start": "2026-03-18",
+    "date_end": "2026-05-17",
+    "sessions": [
+      {
+        "date": "2026-03-17",
+        "time": "21:00",
+        "weekday": "Ter"
+      }
+    ],
+    "schedule": "Sessões especiais: 2026-03-17 21:00 | Domingos 17:00 | Quintas 21:00 | Sextas 21:00 | Sábados 21:00",
+    "synopsis": "Todos nós temos um sósia algures no mundo. E se encontrasse o seu? Uma comédia irresistível que explora uma série de coincidências inesperadas e o absurdo de uma ideia que parecia genial. Dizem que todos nós temos um sósia, mas podemos passar uma vida inteira sem o conhecer.…",
+    "image": {
+      "url": "https://teatromariamatos.pt/wp-content/uploads/2025/12/2025_12_15_UMA_IDEIA_GENIAL_MM_Site_1920x1080px_01.jpg",
+      "credit": null,
+      "source": "https://teatromariamatos.pt/espetaculos/uma-ideia-genial/",
+      "theater": "Teatro Maria Matos"
+    },
+    "source_url": "https://teatromariamatos.pt/espetaculos/uma-ideia-genial/",
+    "ticket_url": "https://ticketline.sapo.pt/salas/sala/2791",
+    "price_info": "20-22€",
+    "duration": "",
+    "age_rating": "M/12",
+    "technical_sheet": {
+      "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
+      "autor": "Sébastien Castro",
+      "encenação": "Ricardo Neves-Neves",
+      "tradução": "Ana Sampaio",
+      "cenário": "Catarina Amaro",
+      "figurinos": "Rafaela Mapril",
+      "luz": "Rui Seabra",
+      "produção": "Força de",
+      "interpretação": "Ana Guiomar, Cristóvão Campos, Ruben Madureira e Sandra Faleiro",
+      "elenco": "Ana Guiomar, Cristóvão Campos, Ruben Madureira e Sandra Faleiro, “Uma Ideia Genial” conta a história hilariante de uma personagem que se multiplica em três, cada uma com as suas características e perplexidades. Atrações, ciúmes, suspeitas e destinos cruzados criam uma sucessão de mal-entendidos e um"
+    },
+    "scraped_at": "2026-03-20T01:21:22.140184+00:00",
+    "theater_id": "mariamatos",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.8
+    }
+  },
+  {
+    "id": "mariamatos-o-amor-fodid",
+    "title": "O AMOR É FODID*",
+    "theater": "Teatro Maria Matos",
+    "category": "Teatro",
+    "dates_label": "2026-04-07 – 2026-04-08",
+    "date_start": "2026-04-07",
+    "date_end": "2026-04-08",
+    "sessions": [
+      {
+        "date": "2026-04-07",
+        "time": "21:00",
+        "weekday": "Ter"
+      },
+      {
+        "date": "2026-04-08",
+        "time": "21:00",
+        "weekday": "Qua"
+      }
+    ],
+    "schedule": "2026-04-07 21:00 | 2026-04-08 21:00",
+    "synopsis": "O que propomos é uma obra que trate do amor com todas as peças — uma espécie de Romeu e Julieta contemporâneo em que os amantes se enganam reciprocamente suicidando-se para o amor, continuando apesar de tudo: vivos. Há uma resistência, uma vontade de se começar o que ainda não se começou.…",
+    "image": {
+      "url": "https://teatromariamatos.pt/wp-content/uploads/2026/02/O_AMOR_E_FODIDO_TL_1920x1080px.jpg",
+      "credit": "Mário Rainha Campos e Natacha Ventura Assistência de direção: Paulo Oliveira, Gu",
+      "source": "https://teatromariamatos.pt/espetaculos/o-amor-e-fodid/",
+      "theater": "Teatro Maria Matos"
+    },
+    "source_url": "https://teatromariamatos.pt/espetaculos/o-amor-e-fodid/",
+    "ticket_url": "https://ticketline.sapo.pt/salas/sala/2791",
+    "price_info": "18€",
+    "duration": "90 min.",
+    "age_rating": "M/18",
+    "technical_sheet": {
+      "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
+      "texto": "Miguel Esteves Cardoso Adaptação, encenação, espaço cênico e",
+      "interpretação": "João Garcia Miguel Asistencia a",
+      "dramaturgia": "Michael Margota",
+      "direção": "executiva: Suzana Durão",
+      "figurinos": "Rute Osório de Castro Fotografia: Mário Rainha Campos e Natacha Ventura Assistência de",
+      "produção": "Janice Mayamona Apoio Técnico: Léo Emílio Contabilidade: Irene Gaspar Comunicação e Design Gráfico: Natacha Ventura Comunicação Digital: Miguel Durão Hilário Registo em vídeo: Bruno Canas Costureira: Teresa Matos Assessoria de imprensa: Canal Aberto – Márcia Marques, Daniele Valério e Carina Bordalo",
+      "autor": "diz-nos que há algo de sinistro numa mulher que só usa roupa uma vez. Como haverá, dizemos nós, algo de identicamente sinistro em vestir sempre a mesma roupa. É igual com o amor. Há algo pecaminoso em vestir-nos de amor uma vez e de novamente repetir a dose. Ao entrar para dentro do círculo amoroso,"
+    },
+    "scraped_at": "2026-03-20T01:21:22.140184+00:00",
+    "theater_id": "mariamatos",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.81
+    }
+  },
+  {
+    "id": "mariamatos-pedro-cardoso-o-rec-m-nascido",
+    "title": "PEDRO CARDOSO | o recém nascido",
+    "theater": "Teatro Maria Matos",
+    "category": "Teatro",
+    "dates_label": "2026-04-21 – 2026-04-27",
+    "date_start": "2026-04-21",
+    "date_end": "2026-04-27",
+    "sessions": [
+      {
+        "date": "2026-04-21",
+        "time": "21:00",
+        "weekday": "Ter"
+      },
+      {
+        "date": "2026-04-27",
+        "time": "21:00",
+        "weekday": "Seg"
+      }
+    ],
+    "schedule": "2026-04-21 21:00 | 2026-04-27 21:00",
+    "synopsis": "Quem se lembra do próprio nascimento? Ninguém. Mas eu me lembro do meu.Lembro de todos os detalhes do meu nascimento e da minha infância. E posso garantir: eu era muito mais feliz antes de nascer! Vida boa era a minha quando eu estava guardado ainda dentro da minha mãe!…",
+    "image": {
+      "url": "https://teatromariamatos.pt/wp-content/uploads/2026/02/Banner-Site-Lisboa-1920x1080_TRATADA.jpg",
+      "credit": null,
+      "source": "https://teatromariamatos.pt/espetaculos/pedro-cardoso-o-recem-nascido/",
+      "theater": "Teatro Maria Matos"
+    },
+    "source_url": "https://teatromariamatos.pt/espetaculos/pedro-cardoso-o-recem-nascido/",
+    "ticket_url": "https://ticketline.sapo.pt/salas/sala/2791",
+    "price_info": "20€",
+    "duration": "75 min.",
+    "age_rating": "M/16",
+    "technical_sheet": {
+      "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
+      "texto": "e atuação: Pedro Cardoso",
+      "direção": "Pedro Cardoso",
+      "figurinos": "Giovanna Moretto",
+      "produção": "e"
+    },
+    "scraped_at": "2026-03-20T01:21:22.140184+00:00",
+    "theater_id": "mariamatos",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.75
+    }
+  },
+  {
+    "id": "mariamatos-sin-doque-ivo-canelas-e-jo-o-vasco",
+    "title": "SINÉDOQUE | Ivo Canelas e João Vasco",
+    "theater": "Teatro Maria Matos",
+    "category": "Teatro",
+    "dates_label": "2026-05-13",
+    "date_start": "2026-05-13",
+    "date_end": "2026-05-13",
+    "sessions": [
+      {
+        "date": "2026-05-13",
+        "time": "21:00",
+        "weekday": "Qua"
+      }
+    ],
+    "schedule": "2026-05-13 21:00",
+    "synopsis": "Evocando a figura de estilo pela qual se exprime “a parte pelo todo” ou “o todo pela parte”, o espectáculo “Sinédoque” revisita e reinventa a obra de poetas portugueses dos séculos XX e XXI, entre os quais Alexandre O’Neill, Ruy Belo, Tiago Rodrigues ou Margarida Vale de Gato.…",
+    "image": {
+      "url": "https://teatromariamatos.pt/wp-content/uploads/2026/02/2025_11_25_SINEDOQUE_MM_Site_1920x1080px_01.jpg",
+      "credit": null,
+      "source": "https://teatromariamatos.pt/espetaculos/sinedoque-ivo-canelas-e-joao-vasco/",
+      "theater": "Teatro Maria Matos"
+    },
+    "source_url": "https://teatromariamatos.pt/espetaculos/sinedoque-ivo-canelas-e-joao-vasco/",
+    "ticket_url": "https://ticketline.sapo.pt/salas/sala/2791",
+    "price_info": "18€ - 22€",
+    "duration": "",
+    "age_rating": "M/12",
+    "technical_sheet": {
+      "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
+      "direção": "artística",
+      "elenco": "João Vasco. Actualmente em itinerância, Sinédoque estreou em 2023 e foi apresentado em Portugal, Tunísia, Cabo Verde, Brasil, França e Angola. Avenida Frei Miguel Contreiras, 52, 1700-213, Lisboa Horário da Bilheteira Segunda – Sábado 17h30 às 21h30 Domingo — 15h30 às 18h30 *Horários em vigor em dia",
+      "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
+    },
+    "scraped_at": "2026-03-20T01:21:22.140184+00:00",
+    "theater_id": "mariamatos",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.68
+    }
+  },
+  {
+    "id": "mariamatos-swimming-pool-party",
+    "title": "SWIMMING POOL PARTY",
+    "theater": "Teatro Maria Matos",
+    "category": "Teatro",
+    "dates_label": "9 julho –  9 agosto",
+    "date_start": "2026-07-09",
+    "date_end": "2026-08-09",
+    "sessions": [],
+    "schedule": "Domingos 18:00 | Quintas 21:00 | Sextas 21:00 | Sábados 21:00",
+    "synopsis": "O estranho caso do assassinato no Teatro Maria Matos.Pode um grupo de amigos e familiares, em estranha party de fim de temporada, ao som da bossa nova e conversas presunçosas, levar a um desfecho mortal e suscitar a perguntawhodunit?…",
+    "image": {
+      "url": "https://teatromariamatos.pt/wp-content/uploads/2026/03/1920x1080.jpg",
+      "credit": null,
+      "source": "https://teatromariamatos.pt/espetaculos/swimming-pool-party/",
+      "theater": "Teatro Maria Matos"
+    },
+    "source_url": "https://teatromariamatos.pt/espetaculos/swimming-pool-party/",
+    "ticket_url": "https://ticketline.sapo.pt/salas/sala/2791",
+    "price_info": "20€ - 22€",
+    "duration": "",
+    "age_rating": "M/12",
+    "technical_sheet": {
+      "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
+      "encenação": "Ricardo Neves-Neves",
+      "elenco": "Ana Brito e Cunha, Ana Cloe, Ana Marta Contente, Filipe Vargas, José Leite, Marta Andrino, Ruben Madureira, Sandra Faleiro e Santiago Galvão",
+      "cenografia": "Catarina Amaro",
+      "figurinos": "Rafaela Mapril",
+      "luz": "Cristina Piedade",
+      "som": "Gonçalo Carlos",
+      "coreografia": "Marco Mercier Caracterização e cabelos Carlos Feio Assistente de Caracterização Inês Cotrim Fotografias e vídeo promocional Pedro Macedo / Framed Films Fotografias de cena Estelle Valente Ilustrações Promocionais Tiago Albuquerque Design Gráfico José Cruz Assistência de",
+      "produção": "e Cena TdE Sílvia Moura",
+      "texto": "de Ricardo Neves-Neves, o enredo é muito mais dramático, as causas mais profundas, as personagens uns canalhas desprezíveis, e o final trará o espanto. Querem ser cúmplices deste crime? Avenida Frei Miguel Contreiras, 52, 1700-213, Lisboa Horário da Bilheteira Segunda – Sábado 17h30 às 21h30 Domingo"
+    },
+    "scraped_at": "2026-03-20T01:21:22.140184+00:00",
+    "theater_id": "mariamatos",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.6
+    }
+  }
+]
