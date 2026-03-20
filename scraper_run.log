@@ -1,84 +1,84 @@
-2026-03-20 01:01:03 [INFO] primeiraplateia: =======================================================
-2026-03-20 01:01:03 [INFO] primeiraplateia: Primeira Plateia — início do scraping
-2026-03-20 01:01:03 [INFO] primeiraplateia: =======================================================
-2026-03-20 01:01:13 [INFO] scrapers.utils: [Teatro Variedades] 3 eventos
-2026-03-20 01:01:13 [INFO] primeiraplateia:   OK   Teatro Variedades: 3 eventos raw
-2026-03-20 01:01:22 [INFO] scrapers.utils: [Capitólio] 3 eventos
-2026-03-20 01:01:22 [INFO] primeiraplateia:   OK   Capitólio: 3 eventos raw
-2026-03-20 01:01:26 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'espaço público'): https://www.teatrosaoluiz.pt/espetaculo/consultas-poeticas-2/
-2026-03-20 01:01:28 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'pensamento'): https://www.teatrosaoluiz.pt/espetaculo/dia-mundial-da-marioneta-apresentacao-do-fimfa-lx26/
-2026-03-20 01:01:28 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'pensamento'): https://www.teatrosaoluiz.pt/espetaculo/podia-ser-na-tate-mas-e-aqui/
-2026-03-20 01:01:28 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'pensamento'): https://www.teatrosaoluiz.pt/espetaculo/teatro-de-imagens/
-2026-03-20 01:01:28 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'exposição'): https://www.teatrosaoluiz.pt/espetaculo/a-luz-que-ficou/
-2026-03-20 01:01:30 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'visita'): https://www.teatrosaoluiz.pt/espetaculo/visitas-guiadas-2025-2026/
-2026-03-20 01:01:33 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'música'): https://www.teatrosaoluiz.pt/espetaculo/uma-viagem-pela-musica-com-o-teatro-nacional-de-sao-carlos/
-2026-03-20 01:01:33 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'música'): https://www.teatrosaoluiz.pt/espetaculo/jardim-aberto-cores-em-cinza-musica-francesa-da-grande-guerra/
-2026-03-20 01:01:33 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'literatura'): https://www.teatrosaoluiz.pt/espetaculo/coisas-de-teatro/
-2026-03-20 01:01:33 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'literatura'): https://www.teatrosaoluiz.pt/espetaculo/lancamento-livro-contra-corvos/
-2026-03-20 01:01:36 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'música'): https://www.teatrosaoluiz.pt/espetaculo/festival-musica-viva-2026-insurgencia/
-2026-03-20 01:01:41 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'música'): https://www.teatrosaoluiz.pt/espetaculo/lallegro-il-penseroso-ed-il-moderato/
-2026-03-20 01:01:41 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'música'): https://www.teatrosaoluiz.pt/espetaculo/jardim-aberto-musica-no-feminino/
-2026-03-20 01:01:41 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'música'): https://www.teatrosaoluiz.pt/espetaculo/a-reinvencao-de-vivaldi/
-2026-03-20 01:01:41 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'música'): https://www.teatrosaoluiz.pt/espetaculo/as-paixoes-da-alma/
-2026-03-20 01:01:46 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'literatura'): https://www.teatrosaoluiz.pt/espetaculo/disquiet-international-literary-program-2026/
-2026-03-20 01:01:46 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'música'): https://www.teatrosaoluiz.pt/espetaculo/integral-das-sinfonias-de-schumann/
-2026-03-20 01:01:46 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'ópera'): https://www.teatrosaoluiz.pt/espetaculo/a-laugh-to-cry-2/
-2026-03-20 01:01:47 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'música'): https://www.teatrosaoluiz.pt/espetaculo/pons-varolli/
-2026-03-20 01:01:47 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'música'): https://www.teatrosaoluiz.pt/espetaculo/raul-refree-maria-mazzotta/
-2026-03-20 01:01:47 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'música'): https://www.teatrosaoluiz.pt/espetaculo/vincent-peirani/
-2026-03-20 01:01:47 [INFO] scrapers.utils: [São Luiz] 14 eventos
-2026-03-20 01:01:47 [INFO] primeiraplateia:   OK   São Luiz Teatro Municipal: 14 eventos raw
-2026-03-20 01:02:02 [INFO] scrapers.utils: [Maria Matos] 6 eventos
-2026-03-20 01:02:02 [INFO] primeiraplateia:   OK   Teatro Maria Matos: 6 eventos raw
-2026-03-20 01:02:05 [INFO] scrapers.utils: [Culturgest] Listagem vazia (JS) — a usar seeds de fallback
-2026-03-20 01:02:27 [INFO] scrapers.utils: [Culturgest] Inacessível https://www.culturgest.pt/pt/programacao/falta-de-cha-humor-tabus-e-censura/: 404 Client Error: Not Found for url: https://www.culturgest.pt/pt/programacao/falta-de-cha-humor-tabus-e-censura/
-2026-03-20 01:02:51 [INFO] scrapers.utils: [Culturgest] 44 URLs descobertos
-2026-03-20 01:03:35 [INFO] scrapers.utils: [Culturgest] 37 eventos
-2026-03-20 01:03:35 [INFO] primeiraplateia:   OK   Culturgest: 37 eventos raw
-2026-03-20 01:03:55 [INFO] scrapers.utils: [CCB] 6 eventos de 6 URLs
-2026-03-20 01:03:55 [INFO] primeiraplateia:   OK   CCB — Centro Cultural de Belém: 6 eventos raw
-2026-03-20 01:03:57 [INFO] scrapers.utils: [Teatro Viriato] 0 candidatos após filtragem da listagem
-2026-03-20 01:03:57 [INFO] scrapers.utils: [Teatro Viriato] 0 eventos de teatro
-2026-03-20 01:03:57 [INFO] primeiraplateia:   OK   Teatro Viriato: 0 eventos raw
-2026-03-20 01:04:01 [INFO] scrapers.utils: [Theatro Circo] 17 candidatos de teatro na listagem
-2026-03-20 01:04:42 [INFO] scrapers.utils: [Theatro Circo] 0 eventos de teatro
-2026-03-20 01:04:42 [INFO] primeiraplateia:   OK   Theatro Circo: 0 eventos raw
-2026-03-20 01:04:44 [INFO] scrapers.utils: [Teatro do Bairro] Nav sem links de evento — a usar fallback por <section>
-2026-03-20 01:04:44 [INFO] scrapers.utils: [Teatro do Bairro] 1 eventos de teatro
-2026-03-20 01:04:44 [INFO] primeiraplateia:   OK   Teatro do Bairro: 1 eventos raw
-2026-03-20 01:04:48 [INFO] scrapers.utils: [Teatro da Trindade INATEL] 5 candidatos na listagem
-2026-03-20 01:04:56 [INFO] scrapers.utils: [Teatro da Trindade INATEL] 5 eventos de teatro
-2026-03-20 01:04:56 [INFO] primeiraplateia:   OK   Teatro da Trindade INATEL: 5 eventos raw
-2026-03-20 01:05:07 [INFO] scrapers.utils: [Teatro das Figuras] 5 eventos
-2026-03-20 01:05:07 [INFO] primeiraplateia:   OK   Teatro das Figuras: 5 eventos raw
-2026-03-20 01:05:07 [INFO] primeiraplateia: 
+2026-03-20 01:04:59 [INFO] primeiraplateia: =======================================================
+2026-03-20 01:04:59 [INFO] primeiraplateia: Primeira Plateia — início do scraping
+2026-03-20 01:04:59 [INFO] primeiraplateia: =======================================================
+2026-03-20 01:05:09 [INFO] scrapers.utils: [Teatro Variedades] 3 eventos
+2026-03-20 01:05:09 [INFO] primeiraplateia:   OK   Teatro Variedades: 3 eventos raw
+2026-03-20 01:05:18 [INFO] scrapers.utils: [Capitólio] 3 eventos
+2026-03-20 01:05:18 [INFO] primeiraplateia:   OK   Capitólio: 3 eventos raw
+2026-03-20 01:05:22 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'espaço público'): https://www.teatrosaoluiz.pt/espetaculo/consultas-poeticas-2/
+2026-03-20 01:05:24 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'pensamento'): https://www.teatrosaoluiz.pt/espetaculo/dia-mundial-da-marioneta-apresentacao-do-fimfa-lx26/
+2026-03-20 01:05:24 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'pensamento'): https://www.teatrosaoluiz.pt/espetaculo/podia-ser-na-tate-mas-e-aqui/
+2026-03-20 01:05:24 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'pensamento'): https://www.teatrosaoluiz.pt/espetaculo/teatro-de-imagens/
+2026-03-20 01:05:24 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'exposição'): https://www.teatrosaoluiz.pt/espetaculo/a-luz-que-ficou/
+2026-03-20 01:05:26 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'visita'): https://www.teatrosaoluiz.pt/espetaculo/visitas-guiadas-2025-2026/
+2026-03-20 01:05:29 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'música'): https://www.teatrosaoluiz.pt/espetaculo/uma-viagem-pela-musica-com-o-teatro-nacional-de-sao-carlos/
+2026-03-20 01:05:29 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'música'): https://www.teatrosaoluiz.pt/espetaculo/jardim-aberto-cores-em-cinza-musica-francesa-da-grande-guerra/
+2026-03-20 01:05:29 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'literatura'): https://www.teatrosaoluiz.pt/espetaculo/coisas-de-teatro/
+2026-03-20 01:05:29 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'literatura'): https://www.teatrosaoluiz.pt/espetaculo/lancamento-livro-contra-corvos/
+2026-03-20 01:05:32 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'música'): https://www.teatrosaoluiz.pt/espetaculo/festival-musica-viva-2026-insurgencia/
+2026-03-20 01:05:37 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'música'): https://www.teatrosaoluiz.pt/espetaculo/lallegro-il-penseroso-ed-il-moderato/
+2026-03-20 01:05:37 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'música'): https://www.teatrosaoluiz.pt/espetaculo/jardim-aberto-musica-no-feminino/
+2026-03-20 01:05:37 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'música'): https://www.teatrosaoluiz.pt/espetaculo/a-reinvencao-de-vivaldi/
+2026-03-20 01:05:37 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'música'): https://www.teatrosaoluiz.pt/espetaculo/as-paixoes-da-alma/
+2026-03-20 01:05:42 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'literatura'): https://www.teatrosaoluiz.pt/espetaculo/disquiet-international-literary-program-2026/
+2026-03-20 01:05:42 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'música'): https://www.teatrosaoluiz.pt/espetaculo/integral-das-sinfonias-de-schumann/
+2026-03-20 01:05:42 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'ópera'): https://www.teatrosaoluiz.pt/espetaculo/a-laugh-to-cry-2/
+2026-03-20 01:05:43 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'música'): https://www.teatrosaoluiz.pt/espetaculo/pons-varolli/
+2026-03-20 01:05:43 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'música'): https://www.teatrosaoluiz.pt/espetaculo/raul-refree-maria-mazzotta/
+2026-03-20 01:05:43 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'música'): https://www.teatrosaoluiz.pt/espetaculo/vincent-peirani/
+2026-03-20 01:05:43 [INFO] scrapers.utils: [São Luiz] 14 eventos
+2026-03-20 01:05:43 [INFO] primeiraplateia:   OK   São Luiz Teatro Municipal: 14 eventos raw
+2026-03-20 01:05:51 [INFO] scrapers.utils: [Maria Matos] 6 eventos
+2026-03-20 01:05:51 [INFO] primeiraplateia:   OK   Teatro Maria Matos: 6 eventos raw
+2026-03-20 01:05:54 [INFO] scrapers.utils: [Culturgest] Listagem vazia (JS) — a usar seeds de fallback
+2026-03-20 01:06:11 [INFO] scrapers.utils: [Culturgest] Inacessível https://www.culturgest.pt/pt/programacao/falta-de-cha-humor-tabus-e-censura/: 404 Client Error: Not Found for url: https://www.culturgest.pt/pt/programacao/falta-de-cha-humor-tabus-e-censura/
+2026-03-20 01:06:42 [INFO] scrapers.utils: [Culturgest] 44 URLs descobertos
+2026-03-20 01:07:29 [INFO] scrapers.utils: [Culturgest] 37 eventos
+2026-03-20 01:07:29 [INFO] primeiraplateia:   OK   Culturgest: 37 eventos raw
+2026-03-20 01:07:45 [INFO] scrapers.utils: [CCB] 6 eventos de 6 URLs
+2026-03-20 01:07:45 [INFO] primeiraplateia:   OK   CCB — Centro Cultural de Belém: 6 eventos raw
+2026-03-20 01:07:47 [INFO] scrapers.utils: [Teatro Viriato] 0 candidatos após filtragem da listagem
+2026-03-20 01:07:47 [INFO] scrapers.utils: [Teatro Viriato] 0 eventos de teatro
+2026-03-20 01:07:47 [INFO] primeiraplateia:   OK   Teatro Viriato: 0 eventos raw
+2026-03-20 01:07:51 [INFO] scrapers.utils: [Theatro Circo] 17 candidatos de teatro na listagem
+2026-03-20 01:08:33 [INFO] scrapers.utils: [Theatro Circo] 0 eventos de teatro
+2026-03-20 01:08:33 [INFO] primeiraplateia:   OK   Theatro Circo: 0 eventos raw
+2026-03-20 01:08:35 [INFO] scrapers.utils: [Teatro do Bairro] Nav sem links de evento — a usar fallback por <section>
+2026-03-20 01:08:35 [INFO] scrapers.utils: [Teatro do Bairro] 1 eventos de teatro
+2026-03-20 01:08:35 [INFO] primeiraplateia:   OK   Teatro do Bairro: 1 eventos raw
+2026-03-20 01:08:39 [INFO] scrapers.utils: [Teatro da Trindade INATEL] 5 candidatos na listagem
+2026-03-20 01:08:47 [INFO] scrapers.utils: [Teatro da Trindade INATEL] 5 eventos de teatro
+2026-03-20 01:08:47 [INFO] primeiraplateia:   OK   Teatro da Trindade INATEL: 5 eventos raw
+2026-03-20 01:08:55 [INFO] scrapers.utils: [Teatro das Figuras] 5 eventos
+2026-03-20 01:08:55 [INFO] primeiraplateia:   OK   Teatro das Figuras: 5 eventos raw
+2026-03-20 01:08:55 [INFO] primeiraplateia: 
 Total raw: 80
-2026-03-20 01:05:07 [INFO] primeiraplateia: Após deduplicação: 80 eventos
-2026-03-20 01:05:07 [INFO] scrapers.theater_registry: theater_registry: 11 teatros, 50 aliases carregados
-2026-03-20 01:05:07 [WARNING] scrapers.harmonizer: harmonizer: campo recomendado 'date_end' ausente em 1/80 eventos (1%)
-2026-03-20 01:05:07 [WARNING] scrapers.harmonizer: harmonizer: campo recomendado 'image' ausente em 5/80 eventos (6%)
-2026-03-20 01:05:07 [WARNING] scrapers.harmonizer: harmonizer: campo recomendado 'ticket_url' ausente em 15/80 eventos (19%)
-2026-03-20 01:05:07 [INFO] scrapers.harmonizer: harmonizer: 80 eventos harmonizados
-2026-03-20 01:05:07 [INFO] primeiraplateia: Após harmonização: 80 eventos
-2026-03-20 01:05:07 [INFO] scrapers.theater_registry: theater_registry: 11 teatros, 50 aliases carregados
-2026-03-20 01:05:07 [INFO] scrapers.validator: validação: 79 aceites | 1 rejeitados | 12 com avisos
-2026-03-20 01:05:07 [WARNING] scrapers.validator:   REJEITADO 'saoluiz-um-homem-e-o-seu-criado': ["'date_start' ausente ou vazio"]
-2026-03-20 01:05:07 [INFO] primeiraplateia: 
-events.json: 79 eventos válidos em 243.7s
-2026-03-20 01:05:07 [INFO] primeiraplateia: ────────────────────────────────────────
-2026-03-20 01:05:07 [INFO] primeiraplateia:   Teatro Variedades                     3 raw
-2026-03-20 01:05:07 [INFO] primeiraplateia:   Capitólio                             3 raw
-2026-03-20 01:05:07 [INFO] primeiraplateia:   São Luiz Teatro Municipal            14 raw
-2026-03-20 01:05:07 [INFO] primeiraplateia:   Teatro Maria Matos                    6 raw
-2026-03-20 01:05:07 [INFO] primeiraplateia:   Culturgest                           37 raw
-2026-03-20 01:05:07 [INFO] primeiraplateia:   CCB — Centro Cultural de Belém        6 raw
-2026-03-20 01:05:07 [INFO] primeiraplateia:   Teatro Viriato                        0 raw
-2026-03-20 01:05:07 [INFO] primeiraplateia:   Theatro Circo                         0 raw
-2026-03-20 01:05:07 [INFO] primeiraplateia:   Teatro do Bairro                      1 raw
-2026-03-20 01:05:07 [INFO] primeiraplateia:   Teatro da Trindade INATEL             5 raw
-2026-03-20 01:05:07 [INFO] primeiraplateia:   Teatro das Figuras                    5 raw
-2026-03-20 01:05:07 [INFO] primeiraplateia: 
+2026-03-20 01:08:55 [INFO] primeiraplateia: Após deduplicação: 80 eventos
+2026-03-20 01:08:55 [INFO] scrapers.theater_registry: theater_registry: 11 teatros, 50 aliases carregados
+2026-03-20 01:08:55 [WARNING] scrapers.harmonizer: harmonizer: campo recomendado 'date_end' ausente em 1/80 eventos (1%)
+2026-03-20 01:08:55 [WARNING] scrapers.harmonizer: harmonizer: campo recomendado 'image' ausente em 5/80 eventos (6%)
+2026-03-20 01:08:55 [WARNING] scrapers.harmonizer: harmonizer: campo recomendado 'ticket_url' ausente em 15/80 eventos (19%)
+2026-03-20 01:08:55 [INFO] scrapers.harmonizer: harmonizer: 80 eventos harmonizados
+2026-03-20 01:08:55 [INFO] primeiraplateia: Após harmonização: 80 eventos
+2026-03-20 01:08:55 [INFO] scrapers.theater_registry: theater_registry: 11 teatros, 50 aliases carregados
+2026-03-20 01:08:55 [INFO] scrapers.validator: validação: 79 aceites | 1 rejeitados | 12 com avisos
+2026-03-20 01:08:55 [WARNING] scrapers.validator:   REJEITADO 'saoluiz-um-homem-e-o-seu-criado': ["'date_start' ausente ou vazio"]
+2026-03-20 01:08:55 [INFO] primeiraplateia: 
+events.json: 79 eventos válidos em 235.7s
+2026-03-20 01:08:55 [INFO] primeiraplateia: ────────────────────────────────────────
+2026-03-20 01:08:55 [INFO] primeiraplateia:   Teatro Variedades                     3 raw
+2026-03-20 01:08:55 [INFO] primeiraplateia:   Capitólio                             3 raw
+2026-03-20 01:08:55 [INFO] primeiraplateia:   São Luiz Teatro Municipal            14 raw
+2026-03-20 01:08:55 [INFO] primeiraplateia:   Teatro Maria Matos                    6 raw
+2026-03-20 01:08:55 [INFO] primeiraplateia:   Culturgest                           37 raw
+2026-03-20 01:08:55 [INFO] primeiraplateia:   CCB — Centro Cultural de Belém        6 raw
+2026-03-20 01:08:55 [INFO] primeiraplateia:   Teatro Viriato                        0 raw
+2026-03-20 01:08:55 [INFO] primeiraplateia:   Theatro Circo                         0 raw
+2026-03-20 01:08:55 [INFO] primeiraplateia:   Teatro do Bairro                      1 raw
+2026-03-20 01:08:55 [INFO] primeiraplateia:   Teatro da Trindade INATEL             5 raw
+2026-03-20 01:08:55 [INFO] primeiraplateia:   Teatro das Figuras                    5 raw
+2026-03-20 01:08:55 [INFO] primeiraplateia: 
   Duplicados removidos:      0
-2026-03-20 01:05:07 [INFO] primeiraplateia:   Rejeitados pela validação: 1
-2026-03-20 01:05:07 [INFO] primeiraplateia:   Com avisos:                12
-2026-03-20 01:05:07 [INFO] primeiraplateia: =======================================================
+2026-03-20 01:08:55 [INFO] primeiraplateia:   Rejeitados pela validação: 1
+2026-03-20 01:08:55 [INFO] primeiraplateia:   Com avisos:                12
+2026-03-20 01:08:55 [INFO] primeiraplateia: =======================================================
