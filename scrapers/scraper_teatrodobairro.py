@@ -31,7 +31,7 @@ from urllib.parse import urljoin
 from scrapers.utils import (
     make_id, log, HEADERS, can_scrape,
     truncate_synopsis, build_image_object,
-    parse_date_range, parse_date,
+    parse_date_range, parse_date, build_sessions,
 )
 
 # ─────────────────────────────────────────────────────────────

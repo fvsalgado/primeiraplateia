@@ -300,7 +300,7 @@ def build_sessions(
         r"((?:seg|ter|qua|qui|sex|s[aá]b|dom|segunda|terça|quarta|quinta|sexta|s[aá]bado|domingo)"
         r"(?:\s+(?:a|e|,|/)\s*(?:seg|ter|qua|qui|sex|s[aá]b|dom|segunda|terça|quarta|quinta|sexta|s[aá]bado|domingo))*)"
         r"[,\s]+(\d{1,2})[h:](\d{0,2})",
-        txt, _re.IGNORECASE,
+        _re.IGNORECASE,
     )
 
     for m in seg_pat.finditer(txt):

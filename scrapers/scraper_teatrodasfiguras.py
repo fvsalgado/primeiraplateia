@@ -201,7 +201,7 @@ def _parse_card(card, section_month: int, section_year: int) -> dict | None:
         "dates_label":     dates_label,
         "date_start":      date_start,
         "date_end":        date_start,   # só temos data de início no card; enriquecido depois
-        "sessions":        build_sessions(date_start, date_end, schedule),
+        "sessions":        build_sessions(date_start, date_start, schedule),
         "schedule":        schedule,
         "synopsis":        "",
         "image":           image,
