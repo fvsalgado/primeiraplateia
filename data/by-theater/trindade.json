@@ -3,46 +3,61 @@
     "id": "trindade-a-gaivota",
     "title": "A GAIVOTA",
     "theater": "Teatro da Trindade INATEL",
-    "category": "Teatro",
+    "category": "Outro",
+    "subtitle": "De Anton Tchékhov Versão e encenação Diogo Infante",
     "dates_label": "29 Jan – 05 Abr 2026",
     "date_start": "2026-01-29",
     "date_end": "2026-04-05",
     "sessions": [
       {
         "date": "2026-01-29",
-        "time": "",
+        "time": "21:00",
         "weekday": "Qui"
       },
       {
         "date": "2026-04-05",
-        "time": "",
+        "time": "21:00",
         "weekday": "Dom"
       }
     ],
-    "schedule": "",
+    "schedule": "21:00",
     "synopsis": "Escrita em 1895,A Gaivotaé uma das mais emblemáticas peças de Tchékhov e é frequentemente considerada um comentário meta-teatral à natureza da arte e dos artistas.…",
     "image": {
-      "url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2025/06/gaivota-pedromacedo-300x169.jpg",
+      "url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2025/06/gaivota-pedromacedo.jpg",
       "credit": "2026 Teatro da Trindade INATEL Mapa do site Política de privacidade Livro de Rec",
       "source": "https://teatrotrindade.inatel.pt/espetaculo/a-gaivota/",
       "theater": "Teatro da Trindade INATEL"
     },
     "source_url": "https://teatrotrindade.inatel.pt/espetaculo/a-gaivota/",
-    "ticket_url": "https://www.ticketline.pt/evento/a-gaivota-91586",
-    "price_info": "10€",
-    "duration": "",
-    "age_rating": "M/12",
+    "ticket_url": "https://teatrotrindade.inatel.pt/bilheteira/",
+    "price_info": "10€ a 22€",
     "sala": "Sala Carmen Dolores",
     "technical_sheet": {
-      "autor": "INATEL Saltar para o conteúdo principal Mapa do Website Ajuda de navegação e acessibilida",
-      "encenação": "Diogo Infante Ir para Sinopse Galeria Ficha Artística Comprar Bilhetes Partilhar no Twitter Partilhar no Facebook Copiar Link Sinopse Datas e Horários 29 JAN a 05 ABR Qua a Sáb 21:00 Dom 16:30 Duração",
-      "produção": "do Teatro da Graça, Alexandra Lencastre dá agora corpo e voz a Irina Arkadina, a diva do teatro clássico, cuja personalidade se impõe no palco e fora dele. Galeria Ficha artística",
-      "dramaturgia": "Margarida Tavares Com Alexandra Lencastre, André Leitão, António Melo, Flávio Gil, Guilherme Filipe, Ivo Canelas, Margarida Bakker, Pedro Laginha, Rita Rocha Silva e Rita Salema",
+      "autor": "Anton Tchékhov",
+      "encenação": "Diogo Infante",
+      "interpretação": "Alexandra Lencastre, André Leitão, António Melo, Flávio Gil, Guilherme Filipe, Ivo Canelas, Margarida Bakker, Pedro Laginha, Rita Rocha Silva e Rita Salema",
       "cenografia": "Catarina Amaro",
-      "figurinos": "Filipe Faísca Desenho de luz Nuno Meira",
-      "música": "original Artur Guimarães Sonoplastia Rui Santos Vídeo João Alves Assistência de"
+      "figurinos": "Filipe Faísca",
+      "assistência de encenação": "Flávio Gil",
+      "produção": "Teatro da Trindade INATEL"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "cast": [
+      "Alexandra Lencastre",
+      "André Leitão",
+      "António Melo",
+      "Flávio Gil",
+      "Guilherme Filipe",
+      "Ivo Canelas",
+      "Margarida Bakker",
+      "Pedro Laginha",
+      "Rita Rocha Silva",
+      "Rita Salema"
+    ],
+    "price_min": 10.0,
+    "price_max": 22.0,
+    "age_rating": "M/12",
+    "age_min": 12,
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
@@ -53,185 +68,320 @@
     "id": "trindade-brokeback-mountain",
     "title": "BROKEBACK MOUNTAIN",
     "theater": "Teatro da Trindade INATEL",
-    "category": "Teatro",
+    "category": "Outro",
+    "subtitle": "De Ashley Robinson , a partir do conto de Annie Proulx Música Dan Gillespie Sells Encenação Daniel Gorjão",
     "dates_label": "19 Fev – 05 Abr 2026",
     "date_start": "2026-02-19",
     "date_end": "2026-04-05",
     "sessions": [
       {
         "date": "2026-02-19",
-        "time": "",
+        "time": "19:00",
         "weekday": "Qui"
       },
       {
         "date": "2026-04-05",
-        "time": "",
+        "time": "19:00",
         "weekday": "Dom"
       }
     ],
-    "schedule": "",
+    "schedule": "19:00",
     "synopsis": "DeAshley Robinson, a partir do conto deAnnie ProulxMúsicaDan Gillespie SellsEncenaçãoDaniel Gorjão Dois homens atravessam o mesmo silêncio, sem saber que a ausência de palavras pode ser o início de tudo. Não se encontram: colidem.…",
     "image": {
-      "url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2025/06/brokeback-300x169.jpg",
+      "url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2025/06/brokeback.jpg",
       "credit": "Pedro Macedo - Framed Photos Ir para Sinopse Galeria Ficha Artística Comprar Bil",
       "source": "https://teatrotrindade.inatel.pt/espetaculo/brokeback-mountain/",
       "theater": "Teatro da Trindade INATEL"
     },
     "source_url": "https://teatrotrindade.inatel.pt/espetaculo/brokeback-mountain/",
-    "ticket_url": "https://ticketline.sapo.pt/evento/brokeback-mountain-97308",
-    "price_info": "10€",
-    "duration": "90 min.",
-    "age_rating": "M/16",
+    "ticket_url": "https://teatrotrindade.inatel.pt/bilheteira/",
+    "price_info": "10€ a 14€",
     "sala": "Sala Estúdio",
     "technical_sheet": {
-      "autor": "INATEL Saltar para o conteúdo principal Mapa do Website Ajuda de navegação e acessibilida",
+      "autor": "Ashley Robinson, Annie Proulx",
+      "tradução": "Ana Sampaio",
       "música": "Dan Gillespie Sells",
       "encenação": "Daniel Gorjão",
-      "tradução": "Ana Sampaio",
-      "direção": "plástica Daniel Gorjão Assistente de",
-      "cenografia": "FPSolutions Fotografia de cartaz Pedro Macedo – Framed Photos Fotografia de cena Alípio Padilha",
-      "produção": "executiva Teatro do Vão"
+      "interpretação": "Carla Galvão, Duarte Melo, Joana Ribeiro, João Candeias e Rui Pedro Silva",
+      "direção": "Miguel Lucas Mendes",
+      "produção": "Teatro do Vão",
+      "coprodução": "Teatro da Trindade INATEL, Teatro do Vão, Cine-Teatro São Pedro de Alcanena e Cine-teatro Paraíso"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "cast": [
+      "Carla Galvão",
+      "Duarte Melo",
+      "Joana Ribeiro",
+      "João Candeias",
+      "Rui Pedro Silva"
+    ],
+    "price_min": 10.0,
+    "price_max": 14.0,
+    "age_rating": "M/16",
+    "age_min": 16,
+    "duration": "90 min.",
+    "duration_min": 90,
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
-      "completeness": 0.79
+      "completeness": 0.81
     }
   },
   {
     "id": "trindade-verdadeiro-oeste",
     "title": "Verdadeiro Oeste",
     "theater": "Teatro da Trindade INATEL",
-    "category": "Teatro",
+    "category": "Outro",
+    "subtitle": "De Sam Shepard Encenação Rita Lello",
     "dates_label": "23 Abr – 07 Jun 2026",
     "date_start": "2026-04-23",
     "date_end": "2026-06-07",
     "sessions": [
       {
         "date": "2026-04-23",
-        "time": "",
+        "time": "19:00",
         "weekday": "Qui"
       },
       {
         "date": "2026-06-07",
-        "time": "",
+        "time": "19:00",
         "weekday": "Dom"
       }
     ],
-    "schedule": "",
+    "schedule": "19:00",
     "synopsis": "Numwestern indoorcheio de humor e mordacidade, Shepardesconde o traço autobiográfico, desdobrando-se em dois irmãos antagonistas. Um irmão não sobreviverá sem o outro, pois são as duas faces da mesma moeda.…",
     "image": {
-      "url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2025/06/verdadeiro-oestepedro-macedo-framed-photos-1-300x187.jpg",
+      "url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2025/06/verdadeiro-oestepedro-macedo-framed-photos-1.jpg",
       "credit": "2026 Teatro da Trindade INATEL Mapa do site Política de privacidade Livro de Rec",
       "source": "https://teatrotrindade.inatel.pt/espetaculo/verdadeiro-oeste/",
       "theater": "Teatro da Trindade INATEL"
     },
     "source_url": "https://teatrotrindade.inatel.pt/espetaculo/verdadeiro-oeste/",
-    "ticket_url": "https://www.ticketline.pt/evento/true-west-91593",
-    "price_info": "10€",
-    "duration": "90 min.",
-    "age_rating": "M/12",
+    "ticket_url": "https://teatrotrindade.inatel.pt/bilheteira/",
+    "price_info": "10€ a 14€",
     "sala": "Sala Estúdio",
     "technical_sheet": {
-      "autor": "INATEL Saltar para o conteúdo principal Mapa do Website Ajuda de navegação e acessibilida",
-      "encenação": "Rita Lello Ir para Sinopse Ficha Artística Comprar Bilhetes Partilhar no Twitter Partilhar no Facebook Copiar Link Sinopse Datas e Horários 23 ABR a 07 JUN Qua a Dom 19:00 Duração: 90 min. Sala e Preç",
-      "cenografia": "Rita Lello Desenho de luz Ricardo Campos Sonoplastia Carlos Morgado Vídeo Rita Casaes",
-      "figurinos": "João Telmo – Besta",
-      "produção": "Martim Pedroso",
-      "música": "Dan Gillespie Sells"
+      "autor": "Sam Shepard",
+      "tradução": "Rita Lello",
+      "interpretação": "André Nunes, Heitor Lourenço, Martim Pedroso e Valerie Braddell",
+      "cenografia": "Rita Lello",
+      "som": "Carlos Morgado",
+      "figurinos": "João Telmo – Besta de Estilo",
+      "direção": "Martim Pedroso",
+      "coprodução": "Teatro da Trindade INATEL, Nova Companhia, Rita Lello e Ajagato"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "cast": [
+      "André Nunes",
+      "Heitor Lourenço",
+      "Martim Pedroso",
+      "Valerie Braddell"
+    ],
+    "price_min": 10.0,
+    "price_max": 14.0,
+    "age_rating": "M/12",
+    "age_min": 12,
+    "duration": "90 min.",
+    "duration_min": 90,
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
-      "completeness": 0.77
+      "completeness": 0.81
     }
   },
   {
     "id": "trindade-clube-dos-poetas-mortos",
     "title": "CLUBE DOS POETAS MORTOS",
     "theater": "Teatro da Trindade INATEL",
-    "category": "Teatro",
+    "category": "Outro",
+    "subtitle": "De Tom Schulman Encenação Hélder Gamboa",
     "dates_label": "30 Abr – 02 Ago 2026",
     "date_start": "2026-04-30",
     "date_end": "2026-08-02",
     "sessions": [
       {
         "date": "2026-04-30",
-        "time": "",
+        "time": "21:00",
         "weekday": "Qui"
       },
       {
         "date": "2026-08-02",
-        "time": "",
+        "time": "21:00",
         "weekday": "Dom"
       }
     ],
-    "schedule": "",
+    "schedule": "21:00",
     "synopsis": "Num colégio interno dos Estados Unidos, “Tradição, Disciplina, Honra e Excelência” são os pilares de um ensino rígido e espartilhado. Estes serão postos à prova pelo carismático professor de Literatura, John Keating, apenas porque os seus métodos são diferentes dostatus quo.…",
     "image": {
-      "url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2025/06/clubepoetas-300x169.jpg",
+      "url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2025/06/clubepoetas.jpg",
       "credit": "Pedro Macedo - Framed Photos Ir para Sinopse Ficha Artística Comprar Bilhetes Pa",
       "source": "https://teatrotrindade.inatel.pt/espetaculo/clube-dos-poetas-mortos/",
       "theater": "Teatro da Trindade INATEL"
     },
     "source_url": "https://teatrotrindade.inatel.pt/espetaculo/clube-dos-poetas-mortos/",
-    "ticket_url": "https://www.ticketline.pt/evento/clube-dos-poetas-mortos-94378",
-    "price_info": "10€",
-    "duration": "90 min.",
-    "age_rating": "M/14",
+    "ticket_url": "https://teatrotrindade.inatel.pt/bilheteira/",
+    "price_info": "10€ a 22€",
     "sala": "Sala Carmen Dolores",
     "technical_sheet": {
-      "autor": "INATEL Saltar para o conteúdo principal Mapa do Website Ajuda de navegação e acessibilida",
+      "autor": "Tom Schulman",
       "encenação": "Hélder Gamboa",
-      "cenografia": "Fernando Ribeiro Adereços Rafaela Almeida Desenho de luz Nuno Meira Sonoplastia Luís Lucena",
-      "figurinos": "Maria Gonzaga Cabelos Rui Canento Assistência de",
-      "produção": "– Tenda Produções Ana Delgado",
-      "música": "Dan Gillespie Sells"
+      "interpretação": "Carlos Félix",
+      "cenografia": "Fernando Ribeiro",
+      "adereços": "Rafaela Almeida",
+      "som": "Luís Lucena",
+      "figurinos": "Maria Gonzaga",
+      "cabelos": "Rui Canento",
+      "assistência de encenação": "Ângela Pinto e Pedro Maralma",
+      "produção": "Ana Delgado",
+      "coprodução": "Teatro da Trindade INATEL e Tenda Produções"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "cast": [
+      "Carlos Félix"
+    ],
+    "price_min": 10.0,
+    "price_max": 22.0,
+    "age_rating": "M/14",
+    "age_min": 14,
+    "duration": "90 min.",
+    "duration_min": 90,
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
-      "completeness": 0.77
+      "completeness": 0.85
+    }
+  },
+  {
+    "id": "trindade-diana-vilarinho",
+    "title": "Diana Vilarinho",
+    "theater": "Teatro da Trindade INATEL",
+    "category": "Outro",
+    "subtitle": "Uma Carta Escrita",
+    "dates_label": "12 Mai 2026",
+    "date_start": "2026-05-12",
+    "date_end": "2026-05-12",
+    "sessions": [
+      {
+        "date": "2026-05-12",
+        "time": "21:00",
+        "weekday": "Ter"
+      }
+    ],
+    "schedule": "21:00",
+    "synopsis": "O Teatro da Trindade INATEL recebe Diana Vilarinho para a apresentação oficial do seu novo álbumUma Carta Escrita. O espetáculo assinala um momento de consolidação na carreira da fadista.…",
+    "image": {
+      "url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2026/02/dianavilarinho-1920x1080-1.jpg",
+      "credit": "2026 Teatro da Trindade INATEL Mapa do site Política de privacidade Livro de Rec",
+      "source": "https://teatrotrindade.inatel.pt/espetaculo/diana-vilarinho/",
+      "theater": "Teatro da Trindade INATEL"
+    },
+    "source_url": "https://teatrotrindade.inatel.pt/espetaculo/diana-vilarinho/",
+    "ticket_url": "https://teatrotrindade.inatel.pt/bilheteira/",
+    "price_info": "14€ a 20€",
+    "sala": "Sala Carmen Dolores",
+    "technical_sheet": {
+      "autor": "INATEL Saltar para o conteúdo principal Mapa do Website Ajuda de navegação e acessibilida",
+      "direção": "artística contemporânea. Com",
+      "som": "Francisco Grilo Técnico de",
+      "luz": "Jaime Mendes Outros Espetáculos Todos os Espetáculos 29 Jan - 05 Abr 2026 A GAIVOTA",
+      "encenação": "Diogo Infante 19 Fev - 05 Abr 2026 BROKEBACK MOUNTAIN",
+      "música": "Dan Gillespie Sells"
+    },
+    "cast": [],
+    "price_min": 14.0,
+    "price_max": 20.0,
+    "age_rating": "M/6",
+    "age_min": 6,
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "theater_id": "trindade",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.72
+    }
+  },
+  {
+    "id": "trindade-mico-da-camara-pereira",
+    "title": "Mico da Camara Pereira",
+    "theater": "Teatro da Trindade INATEL",
+    "category": "Outro",
+    "subtitle": "40 anos de teimosia Convidados Francisca da Camara Pereira, Frederico BC, Jaqueline Carvalho, CC, Gonçalo da Camara Pereira, Lara Afonso, João Campos, Noa, Luís Represas, Namorados da Cidade, Pedro Urbano, Rão Kyao, Rui Melo, Silvestre Fonseca e Sónia Costa.",
+    "dates_label": "26 Mai 2026",
+    "date_start": "2026-05-26",
+    "date_end": "2026-05-26",
+    "sessions": [
+      {
+        "date": "2026-05-26",
+        "time": "21:00",
+        "weekday": "Ter"
+      }
+    ],
+    "schedule": "21:00",
+    "synopsis": "40 anos de teimosiaConvidadosFrancisca da Camara Pereira, Frederico BC, Jaqueline Carvalho, CC, Gonçalo da Camara Pereira, Lara Afonso, João Campos, Noa, Luís Represas, Namorados da Cidade, Pedro Urbano, Rão Kyao, Rui Melo, Silvestre Fonseca e Sónia Costa.",
+    "image": {
+      "url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2026/02/mico-1920x1080-1.jpg",
+      "credit": "2026 Teatro da Trindade INATEL Mapa do site Política de privacidade Livro de Rec",
+      "source": "https://teatrotrindade.inatel.pt/espetaculo/mico-da-camara-pereira/",
+      "theater": "Teatro da Trindade INATEL"
+    },
+    "source_url": "https://teatrotrindade.inatel.pt/espetaculo/mico-da-camara-pereira/",
+    "ticket_url": "https://teatrotrindade.inatel.pt/bilheteira/",
+    "price_info": "14€ a 20€",
+    "sala": "Sala Carmen Dolores",
+    "technical_sheet": {
+      "autor": "INATEL Saltar para o conteúdo principal Mapa do Website Ajuda de navegação e acessibilida",
+      "texto": "que iniciou o seu caminho artístico, aprendendo desde cedo o valor da palavra cantada, da escuta e do respeito pelo público. Ao longo de mais de quatro décadas, construiu uma carreira sólida e reconhe",
+      "música": "portuguesa. Ao seu lado esteve sempre a guitarra companheira de uma vida, extensão natural da sua voz e instrumento através do qual nasceram muitas das suas composições. É com ela que pensa a música,",
+      "encenação": "Diogo Infante 19 Fev - 05 Abr 2026 BROKEBACK MOUNTAIN"
+    },
+    "cast": [],
+    "price_min": 14.0,
+    "price_max": 20.0,
+    "age_rating": "M/6",
+    "age_min": 6,
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "theater_id": "trindade",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.68
     }
   },
   {
     "id": "trindade-andr-de-freitas",
     "title": "André de Freitas",
     "theater": "Teatro da Trindade INATEL",
-    "category": "Teatro",
+    "category": "Outro",
+    "subtitle": "Stand-up comedy Public display of affection",
     "dates_label": "16 Jun 2026",
     "date_start": "2026-06-16",
     "date_end": "2026-06-16",
     "sessions": [
       {
         "date": "2026-06-16",
-        "time": "",
+        "time": "21:00",
         "weekday": "Ter"
       }
     ],
-    "schedule": "",
+    "schedule": "21:00",
     "synopsis": "No seu segundo espetáculo de stand-up, André de Freitas está naquela fase estranha da vida em que supostamente devemos tornar-nos adultos. Os teus pais passam a ser pessoas, as relações tornam-se complicadas e nada parece ser apenas preto ou branco.…",
     "image": {
-      "url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2026/03/andredefreitas-1920x1080-1-300x169.jpg",
+      "url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2026/03/andredefreitas-1920x1080-1.jpg",
       "credit": "2026 Teatro da Trindade INATEL Mapa do site Política de privacidade Livro de Rec",
       "source": "https://teatrotrindade.inatel.pt/espetaculo/andre-freitas/",
       "theater": "Teatro da Trindade INATEL"
     },
     "source_url": "https://teatrotrindade.inatel.pt/espetaculo/andre-freitas/",
-    "ticket_url": "https://www.ticketline.pt/evento/andre-de-freitas-publicdisplay-of-affection-102676",
-    "price_info": "16€",
-    "duration": "",
-    "age_rating": "",
+    "ticket_url": "https://teatrotrindade.inatel.pt/bilheteira/",
+    "price_info": "16€ a 20€",
     "sala": "Sala Carmen Dolores",
     "technical_sheet": {
       "autor": "Freitas | Teatro da Trinda",
       "encenação": "Diogo Infante 19 Fev - 05 Abr 2026 BROKEBACK MOUNTAIN",
       "música": "Dan Gillespie Sells"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "cast": [],
+    "price_min": 16.0,
+    "price_max": 20.0,
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {

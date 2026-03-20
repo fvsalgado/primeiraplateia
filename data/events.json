@@ -38,7 +38,7 @@
     "subtitle": "Com Xullaji e Tiago Sampaio",
     "date_end": "2026-04-18",
     "schedule": "18h45",
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -83,7 +83,7 @@
     "duration": "60 min",
     "duration_min": 60,
     "age_min": 351,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
     "_meta": {
@@ -94,46 +94,61 @@
     "id": "trindade-a-gaivota",
     "title": "A GAIVOTA",
     "theater": "Teatro da Trindade INATEL",
-    "category": "Teatro",
+    "category": "Outro",
+    "subtitle": "De Anton Tchékhov Versão e encenação Diogo Infante",
     "dates_label": "29 Jan – 05 Abr 2026",
     "date_start": "2026-01-29",
     "date_end": "2026-04-05",
     "sessions": [
       {
         "date": "2026-01-29",
-        "time": "",
+        "time": "21:00",
         "weekday": "Qui"
       },
       {
         "date": "2026-04-05",
-        "time": "",
+        "time": "21:00",
         "weekday": "Dom"
       }
     ],
-    "schedule": "",
+    "schedule": "21:00",
     "synopsis": "Escrita em 1895,A Gaivotaé uma das mais emblemáticas peças de Tchékhov e é frequentemente considerada um comentário meta-teatral à natureza da arte e dos artistas.…",
     "image": {
-      "url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2025/06/gaivota-pedromacedo-300x169.jpg",
+      "url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2025/06/gaivota-pedromacedo.jpg",
       "credit": "2026 Teatro da Trindade INATEL Mapa do site Política de privacidade Livro de Rec",
       "source": "https://teatrotrindade.inatel.pt/espetaculo/a-gaivota/",
       "theater": "Teatro da Trindade INATEL"
     },
     "source_url": "https://teatrotrindade.inatel.pt/espetaculo/a-gaivota/",
-    "ticket_url": "https://www.ticketline.pt/evento/a-gaivota-91586",
-    "price_info": "10€",
-    "duration": "",
-    "age_rating": "M/12",
+    "ticket_url": "https://teatrotrindade.inatel.pt/bilheteira/",
+    "price_info": "10€ a 22€",
     "sala": "Sala Carmen Dolores",
     "technical_sheet": {
-      "autor": "INATEL Saltar para o conteúdo principal Mapa do Website Ajuda de navegação e acessibilida",
-      "encenação": "Diogo Infante Ir para Sinopse Galeria Ficha Artística Comprar Bilhetes Partilhar no Twitter Partilhar no Facebook Copiar Link Sinopse Datas e Horários 29 JAN a 05 ABR Qua a Sáb 21:00 Dom 16:30 Duração",
-      "produção": "do Teatro da Graça, Alexandra Lencastre dá agora corpo e voz a Irina Arkadina, a diva do teatro clássico, cuja personalidade se impõe no palco e fora dele. Galeria Ficha artística",
-      "dramaturgia": "Margarida Tavares Com Alexandra Lencastre, André Leitão, António Melo, Flávio Gil, Guilherme Filipe, Ivo Canelas, Margarida Bakker, Pedro Laginha, Rita Rocha Silva e Rita Salema",
+      "autor": "Anton Tchékhov",
+      "encenação": "Diogo Infante",
+      "interpretação": "Alexandra Lencastre, André Leitão, António Melo, Flávio Gil, Guilherme Filipe, Ivo Canelas, Margarida Bakker, Pedro Laginha, Rita Rocha Silva e Rita Salema",
       "cenografia": "Catarina Amaro",
-      "figurinos": "Filipe Faísca Desenho de luz Nuno Meira",
-      "música": "original Artur Guimarães Sonoplastia Rui Santos Vídeo João Alves Assistência de"
+      "figurinos": "Filipe Faísca",
+      "assistência de encenação": "Flávio Gil",
+      "produção": "Teatro da Trindade INATEL"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "cast": [
+      "Alexandra Lencastre",
+      "André Leitão",
+      "António Melo",
+      "Flávio Gil",
+      "Guilherme Filipe",
+      "Ivo Canelas",
+      "Margarida Bakker",
+      "Pedro Laginha",
+      "Rita Rocha Silva",
+      "Rita Salema"
+    ],
+    "price_min": 10.0,
+    "price_max": 22.0,
+    "age_rating": "M/12",
+    "age_min": 12,
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
@@ -144,50 +159,63 @@
     "id": "trindade-brokeback-mountain",
     "title": "BROKEBACK MOUNTAIN",
     "theater": "Teatro da Trindade INATEL",
-    "category": "Teatro",
+    "category": "Outro",
+    "subtitle": "De Ashley Robinson , a partir do conto de Annie Proulx Música Dan Gillespie Sells Encenação Daniel Gorjão",
     "dates_label": "19 Fev – 05 Abr 2026",
     "date_start": "2026-02-19",
     "date_end": "2026-04-05",
     "sessions": [
       {
         "date": "2026-02-19",
-        "time": "",
+        "time": "19:00",
         "weekday": "Qui"
       },
       {
         "date": "2026-04-05",
-        "time": "",
+        "time": "19:00",
         "weekday": "Dom"
       }
     ],
-    "schedule": "",
+    "schedule": "19:00",
     "synopsis": "DeAshley Robinson, a partir do conto deAnnie ProulxMúsicaDan Gillespie SellsEncenaçãoDaniel Gorjão Dois homens atravessam o mesmo silêncio, sem saber que a ausência de palavras pode ser o início de tudo. Não se encontram: colidem.…",
     "image": {
-      "url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2025/06/brokeback-300x169.jpg",
+      "url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2025/06/brokeback.jpg",
       "credit": "Pedro Macedo - Framed Photos Ir para Sinopse Galeria Ficha Artística Comprar Bil",
       "source": "https://teatrotrindade.inatel.pt/espetaculo/brokeback-mountain/",
       "theater": "Teatro da Trindade INATEL"
     },
     "source_url": "https://teatrotrindade.inatel.pt/espetaculo/brokeback-mountain/",
-    "ticket_url": "https://ticketline.sapo.pt/evento/brokeback-mountain-97308",
-    "price_info": "10€",
-    "duration": "90 min.",
-    "age_rating": "M/16",
+    "ticket_url": "https://teatrotrindade.inatel.pt/bilheteira/",
+    "price_info": "10€ a 14€",
     "sala": "Sala Estúdio",
     "technical_sheet": {
-      "autor": "INATEL Saltar para o conteúdo principal Mapa do Website Ajuda de navegação e acessibilida",
+      "autor": "Ashley Robinson, Annie Proulx",
+      "tradução": "Ana Sampaio",
       "música": "Dan Gillespie Sells",
       "encenação": "Daniel Gorjão",
-      "tradução": "Ana Sampaio",
-      "direção": "plástica Daniel Gorjão Assistente de",
-      "cenografia": "FPSolutions Fotografia de cartaz Pedro Macedo – Framed Photos Fotografia de cena Alípio Padilha",
-      "produção": "executiva Teatro do Vão"
+      "interpretação": "Carla Galvão, Duarte Melo, Joana Ribeiro, João Candeias e Rui Pedro Silva",
+      "direção": "Miguel Lucas Mendes",
+      "produção": "Teatro do Vão",
+      "coprodução": "Teatro da Trindade INATEL, Teatro do Vão, Cine-Teatro São Pedro de Alcanena e Cine-teatro Paraíso"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "cast": [
+      "Carla Galvão",
+      "Duarte Melo",
+      "Joana Ribeiro",
+      "João Candeias",
+      "Rui Pedro Silva"
+    ],
+    "price_min": 10.0,
+    "price_max": 14.0,
+    "age_rating": "M/16",
+    "age_min": 16,
+    "duration": "90 min.",
+    "duration_min": 90,
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
-      "completeness": 0.79
+      "completeness": 0.81
     }
   },
   {
@@ -246,7 +274,7 @@
       "autor": "Suzie Miller é uma dramaturga e argumentista contemporânea, vencedora de diversos prémios internacionais. Gosta de histórias humanas complexas que frequentemente versam a injustiça. Trabalha em Londres, no Reino Unido, e em Sydney, na Austrália, mas a sua obra tem sido apresentada em todo o mundo. T",
       "dramaturgia": "no National Institute of Dramatic Art , na Austrália. Play Avenida Frei Miguel Contreiras, 52, 1700-213, Lisboa Horário da Bilheteira Segunda – Sábado 17h30 às 21h30 Domingo — 15h30 às 18h30 *Horários em vigor em dias de espectáculo. Horário sujeito a alterações. Reservas e informações de bilheteira"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
@@ -293,7 +321,7 @@
     "schedule": "18h00",
     "age_rating": "M/6",
     "age_min": 6,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -400,7 +428,7 @@
       "interpretação": "Cucha Carvalheiro, David Esteves, Fernando Luís, Madalena Almeida, Manuela Couto, Virgílio Castelo e Duarte Romão e Laura Garnel (alunos finalistas da ESTC)",
       "coprodução": "Culturproject, Teatro Municipal Joaquim Benite e São Luiz Teatro Municipal Projeto apoiado por República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -447,7 +475,7 @@
       "interpretação": "Ana Guiomar, Cristóvão Campos, Ruben Madureira e Sandra Faleiro",
       "elenco": "Ana Guiomar, Cristóvão Campos, Ruben Madureira e Sandra Faleiro, “Uma Ideia Genial” conta a história hilariante de uma personagem que se multiplica em três, cada uma com as suas características e perplexidades. Atrações, ciúmes, suspeitas e destinos cruzados criam uma sucessão de mal-entendidos e um"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
@@ -484,7 +512,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -589,7 +617,7 @@
       "produção": "Fátima Santos Filipe Difusão João Vaz Silva",
       "coprodução": "O Fim do Teatro, Casa Varela, Teatro-Cine de Pombal e São Luiz Teatro Municipal Parceria RTP Palco Apoio Largo Residências Media partner Radar 97.8 FM AGRADECIMENTOS Chão de Oliva, Elsa Lago Matos e Luiz Quaresma"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -633,7 +661,7 @@
       "direção": "Luís Vieira e Rute Ribeiro",
       "coprodução": "LU.CA – Teatro Luís de Camões, Teatro Nacional D. Maria II, Centro Cultural de Belém e São Luiz Teatro Municipal /// A Tarumba é uma estrutura financiada por República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -676,7 +704,7 @@
     "sala": "Pequeno Auditório",
     "age_rating": "M/6",
     "age_min": 6,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -719,7 +747,7 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -760,7 +788,7 @@
     "age_min": 14,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -800,7 +828,7 @@
     "age_rating": "M1770",
     "age_min": 1770,
     "sala": "Sala Bernardo Sassetti",
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -845,7 +873,7 @@
     "age_min": 6,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -892,7 +920,7 @@
     "duration": "120 min",
     "duration_min": 120,
     "age_min": 12,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
     "_meta": {
@@ -938,7 +966,7 @@
       "produção": "Executiva Marisa Coelho Gestão Financeira Nuno Pratas",
       "coprodução": "Associação Bo Dixam Bai, Associação Palavrão, Centro Cultural de Belém, Cineteatro Louletano e Culturproject"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
     "_meta": {
@@ -978,7 +1006,7 @@
     "accessibility": [],
     "subtitle": "Celebração do Dia Mundial do Teatro",
     "schedule": "19h00",
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1015,7 +1043,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -1062,7 +1090,7 @@
     "duration": "120 min",
     "duration_min": 120,
     "age_min": 12,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -1110,7 +1138,7 @@
     "technical_sheet": {
       "produção": "São Luiz Teatro Municipal"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -1149,7 +1177,7 @@
     "duration_min": 1,
     "age_rating": "Consultar a classificação dos espetáculos",
     "sala": "Vários espaços do Teatro",
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -1207,7 +1235,7 @@
     "age_min": 14,
     "price_min": 5.0,
     "price_max": 5.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1248,7 +1276,7 @@
     "accessibility": [],
     "subtitle": "Biografia e Autoficção",
     "schedule": "11h00",
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1287,7 +1315,7 @@
     "duration_min": 45,
     "price_min": 3.5,
     "price_max": 3.5,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1330,7 +1358,7 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1373,7 +1401,7 @@
     "age_min": 14,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1422,7 +1450,7 @@
     "age_min": 12,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1470,7 +1498,7 @@
       "luz": "Rui Seabra; Desenho de som: Paulo Abelho; Costureira: RosÃ¡rio Balbi; ConstruÃ§Ã£o de cenÃ¡rio: FÃ¡bio Paulo; OperaÃ§Ã£o de luz: AntÃ³nio SerrÃ£o e JoÃ£o Madeira; OperaÃ§Ã£o de som: Vasco Maciel; Chef",
       "dramaturgia": "LuÃ­sa Costa Gomes 2015 | QUATRO SANTOS EM TRÃS ACTOS libreto de Gertrude Stein e muÌsica de Virgil Thomson TraducÌ§aÌo e"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "teatrodobairro",
     "city": "Lisboa",
     "_meta": {
@@ -1507,7 +1535,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -1557,7 +1585,7 @@
       "produção": "Janice Mayamona Apoio Técnico: Léo Emílio Contabilidade: Irene Gaspar Comunicação e Design Gráfico: Natacha Ventura Comunicação Digital: Miguel Durão Hilário Registo em vídeo: Bruno Canas Costureira: Teresa Matos Assessoria de imprensa: Canal Aberto – Márcia Marques, Daniele Valério e Carina Bordalo",
       "autor": "diz-nos que há algo de sinistro numa mulher que só usa roupa uma vez. Como haverá, dizemos nós, algo de identicamente sinistro em vestir sempre a mesma roupa. É igual com o amor. Há algo pecaminoso em vestir-nos de amor uma vez e de novamente repetir a dose. Ao entrar para dentro do círculo amoroso,"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
@@ -1606,7 +1634,7 @@
     "subtitle": "com Beatriz Valentim",
     "date_end": "2026-04-09",
     "schedule": "11h00",
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1643,7 +1671,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -1706,7 +1734,7 @@
       "produção": "Frederico Barata",
       "coprodução": "auéééu e São Luiz Teatro Municipal Apoios SPA, Junta de Freguesia de Santo António, Casa da Comarca de Arganil, MTC, os nossos putos Agradecimentos Eva Baudry, Filipe Andrade, Fernando Roussado, auéééu teatro"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -1753,7 +1781,7 @@
     "age_min": 6,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1790,7 +1818,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -1867,7 +1895,7 @@
       "produção": "Vanessa Amaral Produção Associação Orí – Negritudes em Convergência Espiralar",
       "coprodução": "Bolsa de Criação O Espaço do Tempo com apoio do Banco BPI e Fundação “la Caixa” /// Projeto financiado por República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes Apoios Biblioteca de Alcântara, Câmara Municipal de Almada, Câmara Municipal da Moita, RDP África, Buala"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -1908,7 +1936,7 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1945,7 +1973,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -1985,7 +2013,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Bernardo Sassetti",
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -2024,7 +2052,7 @@
     "sala": "Pequeno Auditório",
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2068,7 +2096,7 @@
       "produção": "Canário Bonacheirão",
       "coprodução": "Canário Bonacheirão e São Luiz Teatro Municipal"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -2105,7 +2133,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -2182,7 +2210,7 @@
     "date_end": "2026-04-24",
     "schedule": "21h30",
     "sala": "Pequeno Auditório",
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2233,7 +2261,7 @@
     "duration_min": 90,
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2266,15 +2294,15 @@
     "price_info": "",
     "technical_sheet": {},
     "tags": [
-      "Infantojuvenil",
-      "Aniversário"
+      "Aniversário",
+      "Infantojuvenil"
     ],
     "accessibility": [],
     "subtitle": "Livraria Aqui há Gato",
     "schedule": "11h30",
     "duration": "35 min.",
     "duration_min": 35,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2319,7 +2347,7 @@
     "age_min": 6,
     "price_min": 15.0,
     "price_max": 15.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2356,7 +2384,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -2396,7 +2424,7 @@
     "age_rating": "M1770",
     "age_min": 1770,
     "sala": "Sala Bernardo Sassetti",
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -2442,7 +2470,7 @@
     "age_min": 6,
     "price_min": 20.0,
     "price_max": 20.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2483,7 +2511,7 @@
     "age_min": 16,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2530,7 +2558,7 @@
       "figurinos": "Giovanna Moretto",
       "produção": "e"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
@@ -2576,7 +2604,7 @@
     "age_min": 6,
     "price_min": 25.0,
     "price_max": 25.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2642,7 +2670,7 @@
       "produção": "Loup Solitaire",
       "coprodução": "Teatro Virgínia, Casa das Artes de Vila Nova de Famalicão, Teatro Diogo Bernardes, Teatro Gil Vicente e São Luiz Teatro Municipal /// A Loup Solitaire é uma estrutura financiada pela República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -2688,7 +2716,7 @@
     "duration_min": 120,
     "age_rating": "M/16",
     "age_min": 16,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2730,7 +2758,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -2786,7 +2814,7 @@
       "coprodução": "Teatro-Cine Torres Vedras"
     },
     "sala": "Auditório Emílio Rui Vilar",
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "culturgest",
     "city": "Lisboa",
     "_meta": {
@@ -2797,49 +2825,62 @@
     "id": "trindade-verdadeiro-oeste",
     "title": "Verdadeiro Oeste",
     "theater": "Teatro da Trindade INATEL",
-    "category": "Teatro",
+    "category": "Outro",
+    "subtitle": "De Sam Shepard Encenação Rita Lello",
     "dates_label": "23 Abr – 07 Jun 2026",
     "date_start": "2026-04-23",
     "date_end": "2026-06-07",
     "sessions": [
       {
         "date": "2026-04-23",
-        "time": "",
+        "time": "19:00",
         "weekday": "Qui"
       },
       {
         "date": "2026-06-07",
-        "time": "",
+        "time": "19:00",
         "weekday": "Dom"
       }
     ],
-    "schedule": "",
+    "schedule": "19:00",
     "synopsis": "Numwestern indoorcheio de humor e mordacidade, Shepardesconde o traço autobiográfico, desdobrando-se em dois irmãos antagonistas. Um irmão não sobreviverá sem o outro, pois são as duas faces da mesma moeda.…",
     "image": {
-      "url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2025/06/verdadeiro-oestepedro-macedo-framed-photos-1-300x187.jpg",
+      "url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2025/06/verdadeiro-oestepedro-macedo-framed-photos-1.jpg",
       "credit": "2026 Teatro da Trindade INATEL Mapa do site Política de privacidade Livro de Rec",
       "source": "https://teatrotrindade.inatel.pt/espetaculo/verdadeiro-oeste/",
       "theater": "Teatro da Trindade INATEL"
     },
     "source_url": "https://teatrotrindade.inatel.pt/espetaculo/verdadeiro-oeste/",
-    "ticket_url": "https://www.ticketline.pt/evento/true-west-91593",
-    "price_info": "10€",
-    "duration": "90 min.",
-    "age_rating": "M/12",
+    "ticket_url": "https://teatrotrindade.inatel.pt/bilheteira/",
+    "price_info": "10€ a 14€",
     "sala": "Sala Estúdio",
     "technical_sheet": {
-      "autor": "INATEL Saltar para o conteúdo principal Mapa do Website Ajuda de navegação e acessibilida",
-      "encenação": "Rita Lello Ir para Sinopse Ficha Artística Comprar Bilhetes Partilhar no Twitter Partilhar no Facebook Copiar Link Sinopse Datas e Horários 23 ABR a 07 JUN Qua a Dom 19:00 Duração: 90 min. Sala e Preç",
-      "cenografia": "Rita Lello Desenho de luz Ricardo Campos Sonoplastia Carlos Morgado Vídeo Rita Casaes",
-      "figurinos": "João Telmo – Besta",
-      "produção": "Martim Pedroso",
-      "música": "Dan Gillespie Sells"
+      "autor": "Sam Shepard",
+      "tradução": "Rita Lello",
+      "interpretação": "André Nunes, Heitor Lourenço, Martim Pedroso e Valerie Braddell",
+      "cenografia": "Rita Lello",
+      "som": "Carlos Morgado",
+      "figurinos": "João Telmo – Besta de Estilo",
+      "direção": "Martim Pedroso",
+      "coprodução": "Teatro da Trindade INATEL, Nova Companhia, Rita Lello e Ajagato"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "cast": [
+      "André Nunes",
+      "Heitor Lourenço",
+      "Martim Pedroso",
+      "Valerie Braddell"
+    ],
+    "price_min": 10.0,
+    "price_max": 14.0,
+    "age_rating": "M/12",
+    "age_min": 12,
+    "duration": "90 min.",
+    "duration_min": 90,
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
-      "completeness": 0.77
+      "completeness": 0.81
     }
   },
   {
@@ -2890,7 +2931,7 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2933,7 +2974,7 @@
     "age_min": 12,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2997,7 +3038,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Luis Miguel Cintra e sala Bernardo Sassetti",
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -3048,7 +3089,7 @@
     "age_min": 6,
     "price_min": 40.0,
     "price_max": 40.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3059,49 +3100,62 @@
     "id": "trindade-clube-dos-poetas-mortos",
     "title": "CLUBE DOS POETAS MORTOS",
     "theater": "Teatro da Trindade INATEL",
-    "category": "Teatro",
+    "category": "Outro",
+    "subtitle": "De Tom Schulman Encenação Hélder Gamboa",
     "dates_label": "30 Abr – 02 Ago 2026",
     "date_start": "2026-04-30",
     "date_end": "2026-08-02",
     "sessions": [
       {
         "date": "2026-04-30",
-        "time": "",
+        "time": "21:00",
         "weekday": "Qui"
       },
       {
         "date": "2026-08-02",
-        "time": "",
+        "time": "21:00",
         "weekday": "Dom"
       }
     ],
-    "schedule": "",
+    "schedule": "21:00",
     "synopsis": "Num colégio interno dos Estados Unidos, “Tradição, Disciplina, Honra e Excelência” são os pilares de um ensino rígido e espartilhado. Estes serão postos à prova pelo carismático professor de Literatura, John Keating, apenas porque os seus métodos são diferentes dostatus quo.…",
     "image": {
-      "url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2025/06/clubepoetas-300x169.jpg",
+      "url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2025/06/clubepoetas.jpg",
       "credit": "Pedro Macedo - Framed Photos Ir para Sinopse Ficha Artística Comprar Bilhetes Pa",
       "source": "https://teatrotrindade.inatel.pt/espetaculo/clube-dos-poetas-mortos/",
       "theater": "Teatro da Trindade INATEL"
     },
     "source_url": "https://teatrotrindade.inatel.pt/espetaculo/clube-dos-poetas-mortos/",
-    "ticket_url": "https://www.ticketline.pt/evento/clube-dos-poetas-mortos-94378",
-    "price_info": "10€",
-    "duration": "90 min.",
-    "age_rating": "M/14",
+    "ticket_url": "https://teatrotrindade.inatel.pt/bilheteira/",
+    "price_info": "10€ a 22€",
     "sala": "Sala Carmen Dolores",
     "technical_sheet": {
-      "autor": "INATEL Saltar para o conteúdo principal Mapa do Website Ajuda de navegação e acessibilida",
+      "autor": "Tom Schulman",
       "encenação": "Hélder Gamboa",
-      "cenografia": "Fernando Ribeiro Adereços Rafaela Almeida Desenho de luz Nuno Meira Sonoplastia Luís Lucena",
-      "figurinos": "Maria Gonzaga Cabelos Rui Canento Assistência de",
-      "produção": "– Tenda Produções Ana Delgado",
-      "música": "Dan Gillespie Sells"
+      "interpretação": "Carlos Félix",
+      "cenografia": "Fernando Ribeiro",
+      "adereços": "Rafaela Almeida",
+      "som": "Luís Lucena",
+      "figurinos": "Maria Gonzaga",
+      "cabelos": "Rui Canento",
+      "assistência de encenação": "Ângela Pinto e Pedro Maralma",
+      "produção": "Ana Delgado",
+      "coprodução": "Teatro da Trindade INATEL e Tenda Produções"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "cast": [
+      "Carlos Félix"
+    ],
+    "price_min": 10.0,
+    "price_max": 22.0,
+    "age_rating": "M/14",
+    "age_min": 14,
+    "duration": "90 min.",
+    "duration_min": 90,
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
-      "completeness": 0.77
+      "completeness": 0.85
     }
   },
   {
@@ -3134,7 +3188,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -3171,7 +3225,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -3208,7 +3262,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -3257,7 +3311,7 @@
     "age_min": 12,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3349,7 +3403,7 @@
     "duration": "70 min",
     "duration_min": 70,
     "age_min": 14,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
     "_meta": {
@@ -3396,7 +3450,7 @@
       "direção": "Luís Vieira e Rute Ribeiro",
       "coprodução": "LU.CA – Teatro Luís de Camões, Teatro Nacional D. Maria II, Centro Cultural de Belém e São Luiz Teatro Municipal /// A Tarumba é uma estrutura financiada por República Portuguesa – Cultura / Direção-Geral das Artes"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -3482,7 +3536,7 @@
     "accessibility": [],
     "subtitle": "Bienal de Arte e Tecnologia",
     "date_end": "2026-05-17",
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3569,7 +3623,7 @@
     "subtitle": "Pedro Gossler",
     "date_end": "2026-05-17",
     "schedule": "14h30",
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3658,7 +3712,7 @@
     "subtitle": "Shuang Li",
     "date_end": "2026-05-17",
     "schedule": "14h30",
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3701,7 +3755,7 @@
     "age_min": 6,
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3742,7 +3796,7 @@
     "age_min": 6,
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3779,7 +3833,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -3820,7 +3874,7 @@
     "age_min": 6,
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3880,11 +3934,59 @@
     "age_min": 12,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
       "completeness": 0.74
+    }
+  },
+  {
+    "id": "trindade-diana-vilarinho",
+    "title": "Diana Vilarinho",
+    "theater": "Teatro da Trindade INATEL",
+    "category": "Outro",
+    "subtitle": "Uma Carta Escrita",
+    "dates_label": "12 Mai 2026",
+    "date_start": "2026-05-12",
+    "date_end": "2026-05-12",
+    "sessions": [
+      {
+        "date": "2026-05-12",
+        "time": "21:00",
+        "weekday": "Ter"
+      }
+    ],
+    "schedule": "21:00",
+    "synopsis": "O Teatro da Trindade INATEL recebe Diana Vilarinho para a apresentação oficial do seu novo álbumUma Carta Escrita. O espetáculo assinala um momento de consolidação na carreira da fadista.…",
+    "image": {
+      "url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2026/02/dianavilarinho-1920x1080-1.jpg",
+      "credit": "2026 Teatro da Trindade INATEL Mapa do site Política de privacidade Livro de Rec",
+      "source": "https://teatrotrindade.inatel.pt/espetaculo/diana-vilarinho/",
+      "theater": "Teatro da Trindade INATEL"
+    },
+    "source_url": "https://teatrotrindade.inatel.pt/espetaculo/diana-vilarinho/",
+    "ticket_url": "https://teatrotrindade.inatel.pt/bilheteira/",
+    "price_info": "14€ a 20€",
+    "sala": "Sala Carmen Dolores",
+    "technical_sheet": {
+      "autor": "INATEL Saltar para o conteúdo principal Mapa do Website Ajuda de navegação e acessibilida",
+      "direção": "artística contemporânea. Com",
+      "som": "Francisco Grilo Técnico de",
+      "luz": "Jaime Mendes Outros Espetáculos Todos os Espetáculos 29 Jan - 05 Abr 2026 A GAIVOTA",
+      "encenação": "Diogo Infante 19 Fev - 05 Abr 2026 BROKEBACK MOUNTAIN",
+      "música": "Dan Gillespie Sells"
+    },
+    "cast": [],
+    "price_min": 14.0,
+    "price_max": 20.0,
+    "age_rating": "M/6",
+    "age_min": 6,
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "theater_id": "trindade",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.72
     }
   },
   {
@@ -3921,7 +4023,7 @@
       "elenco": "João Vasco. Actualmente em itinerância, Sinédoque estreou em 2023 e foi apresentado em Portugal, Tunísia, Cabo Verde, Brasil, França e Angola. Avenida Frei Miguel Contreiras, 52, 1700-213, Lisboa Horário da Bilheteira Segunda – Sábado 17h30 às 21h30 Domingo — 15h30 às 18h30 *Horários em vigor em dia",
       "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
@@ -3972,7 +4074,7 @@
     "age_min": 3,
     "price_min": 2.5,
     "price_max": 2.5,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -4018,7 +4120,7 @@
     "duration_min": 55,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -4067,7 +4169,7 @@
       "coprodução": "Má-Criação, Fundação Caixa Geral de Depósitos- Culturgest, Planetário do Porto – Centro Ciência Viva / U. Porto"
     },
     "sala": "",
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "culturgest",
     "city": "Lisboa",
     "_meta": {
@@ -4114,7 +4216,7 @@
     "sala": "Sala Principal",
     "age_rating": "M/6",
     "age_min": 6,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -4151,7 +4253,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -4233,11 +4335,57 @@
       "luz": "Ângela Bismarck",
       "coprodução": "CCB/Fábrica das Artes Apoio Fundo Cultural da Sociedade Portuguesa de Autores Apoio à investigação Tribunal Constitucional Projeto criado no âmbito da parceria Centro Cultural de Belém/Fábrica das Artes e Assembleia da República. Imagem ©Assembleia da República Ilustração de Mantr"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.73
+    }
+  },
+  {
+    "id": "trindade-mico-da-camara-pereira",
+    "title": "Mico da Camara Pereira",
+    "theater": "Teatro da Trindade INATEL",
+    "category": "Outro",
+    "subtitle": "40 anos de teimosia Convidados Francisca da Camara Pereira, Frederico BC, Jaqueline Carvalho, CC, Gonçalo da Camara Pereira, Lara Afonso, João Campos, Noa, Luís Represas, Namorados da Cidade, Pedro Urbano, Rão Kyao, Rui Melo, Silvestre Fonseca e Sónia Costa.",
+    "dates_label": "26 Mai 2026",
+    "date_start": "2026-05-26",
+    "date_end": "2026-05-26",
+    "sessions": [
+      {
+        "date": "2026-05-26",
+        "time": "21:00",
+        "weekday": "Ter"
+      }
+    ],
+    "schedule": "21:00",
+    "synopsis": "40 anos de teimosiaConvidadosFrancisca da Camara Pereira, Frederico BC, Jaqueline Carvalho, CC, Gonçalo da Camara Pereira, Lara Afonso, João Campos, Noa, Luís Represas, Namorados da Cidade, Pedro Urbano, Rão Kyao, Rui Melo, Silvestre Fonseca e Sónia Costa.",
+    "image": {
+      "url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2026/02/mico-1920x1080-1.jpg",
+      "credit": "2026 Teatro da Trindade INATEL Mapa do site Política de privacidade Livro de Rec",
+      "source": "https://teatrotrindade.inatel.pt/espetaculo/mico-da-camara-pereira/",
+      "theater": "Teatro da Trindade INATEL"
+    },
+    "source_url": "https://teatrotrindade.inatel.pt/espetaculo/mico-da-camara-pereira/",
+    "ticket_url": "https://teatrotrindade.inatel.pt/bilheteira/",
+    "price_info": "14€ a 20€",
+    "sala": "Sala Carmen Dolores",
+    "technical_sheet": {
+      "autor": "INATEL Saltar para o conteúdo principal Mapa do Website Ajuda de navegação e acessibilida",
+      "texto": "que iniciou o seu caminho artístico, aprendendo desde cedo o valor da palavra cantada, da escuta e do respeito pelo público. Ao longo de mais de quatro décadas, construiu uma carreira sólida e reconhe",
+      "música": "portuguesa. Ao seu lado esteve sempre a guitarra companheira de uma vida, extensão natural da sua voz e instrumento através do qual nasceram muitas das suas composições. É com ela que pensa a música,",
+      "encenação": "Diogo Infante 19 Fev - 05 Abr 2026 BROKEBACK MOUNTAIN"
+    },
+    "cast": [],
+    "price_min": 14.0,
+    "price_max": 20.0,
+    "age_rating": "M/6",
+    "age_min": 6,
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "theater_id": "trindade",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.68
     }
   },
   {
@@ -4270,7 +4418,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -4322,7 +4470,7 @@
     "duration": "50 min",
     "duration_min": 50,
     "age_min": 6,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
     "_meta": {
@@ -4374,7 +4522,7 @@
     "duration": "50 min",
     "duration_min": 50,
     "age_min": 6,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -4426,7 +4574,7 @@
       "luz": "Pedro Guimarães",
       "produção": "Xana Lagusi"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -4478,7 +4626,7 @@
     "sala": "Sala Principal",
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -4516,7 +4664,7 @@
     "tags": [],
     "accessibility": [],
     "subtitle": "António Brito Guterres e Maria Manuel Oliveira",
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -4560,7 +4708,7 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -4600,7 +4748,7 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -4637,7 +4785,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -4712,7 +4860,7 @@
     "duration_min": 35,
     "price_min": 3.0,
     "price_max": 3.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -4752,7 +4900,7 @@
     "tags": [],
     "accessibility": [],
     "date_end": "2026-10-31",
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -4797,7 +4945,7 @@
     "age_min": 6,
     "price_min": 30.0,
     "price_max": 30.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -4844,7 +4992,7 @@
     "duration": "90 min",
     "duration_min": 90,
     "age_min": 351,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
     "_meta": {
@@ -4936,7 +5084,7 @@
       "produção": "André Camilo",
       "coprodução": "Camarote Produções e São Luiz Teatro Municipal"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -4987,7 +5135,7 @@
     "age_min": 6,
     "price_min": 2.5,
     "price_max": 2.5,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -5034,7 +5182,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -5073,7 +5221,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Luis Miguel Cintra",
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -5118,7 +5266,7 @@
     "age_min": 6,
     "price_min": 3.0,
     "price_max": 3.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -5164,7 +5312,7 @@
     "age_min": 6,
     "price_min": 2.5,
     "price_max": 2.5,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -5209,7 +5357,7 @@
       "produção": "Inês Pinto",
       "coprodução": "A Oficina/Centro Cultural Vila Flor , RTP – Rádio e Televisão de Portugal , Teatro Diogo Bernardes e Teatro das Figuras"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
     "_meta": {
@@ -5249,7 +5397,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Bernardo Sassetti",
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -5293,7 +5441,7 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -5332,7 +5480,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Luis Miguel Cintra",
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -5374,7 +5522,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -5432,7 +5580,7 @@
     "age_min": 12,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -5474,7 +5622,7 @@
     "technical_sheet": {
       "direção": "Pedro Carneiro Violoncelo Vasco Ferrão Maestros assistentes Vasco Ferrão, Jorge Leiria"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -5485,37 +5633,39 @@
     "id": "trindade-andr-de-freitas",
     "title": "André de Freitas",
     "theater": "Teatro da Trindade INATEL",
-    "category": "Teatro",
+    "category": "Outro",
+    "subtitle": "Stand-up comedy Public display of affection",
     "dates_label": "16 Jun 2026",
     "date_start": "2026-06-16",
     "date_end": "2026-06-16",
     "sessions": [
       {
         "date": "2026-06-16",
-        "time": "",
+        "time": "21:00",
         "weekday": "Ter"
       }
     ],
-    "schedule": "",
+    "schedule": "21:00",
     "synopsis": "No seu segundo espetáculo de stand-up, André de Freitas está naquela fase estranha da vida em que supostamente devemos tornar-nos adultos. Os teus pais passam a ser pessoas, as relações tornam-se complicadas e nada parece ser apenas preto ou branco.…",
     "image": {
-      "url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2026/03/andredefreitas-1920x1080-1-300x169.jpg",
+      "url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2026/03/andredefreitas-1920x1080-1.jpg",
       "credit": "2026 Teatro da Trindade INATEL Mapa do site Política de privacidade Livro de Rec",
       "source": "https://teatrotrindade.inatel.pt/espetaculo/andre-freitas/",
       "theater": "Teatro da Trindade INATEL"
     },
     "source_url": "https://teatrotrindade.inatel.pt/espetaculo/andre-freitas/",
-    "ticket_url": "https://www.ticketline.pt/evento/andre-de-freitas-publicdisplay-of-affection-102676",
-    "price_info": "16€",
-    "duration": "",
-    "age_rating": "",
+    "ticket_url": "https://teatrotrindade.inatel.pt/bilheteira/",
+    "price_info": "16€ a 20€",
     "sala": "Sala Carmen Dolores",
     "technical_sheet": {
       "autor": "Freitas | Teatro da Trinda",
       "encenação": "Diogo Infante 19 Fev - 05 Abr 2026 BROKEBACK MOUNTAIN",
       "música": "Dan Gillespie Sells"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "cast": [],
+    "price_min": 16.0,
+    "price_max": 20.0,
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
@@ -5610,7 +5760,7 @@
       "luz": "Leocádia Silva",
       "produção": "Alaíde Costa Assistente de"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
     "_meta": {
@@ -5647,7 +5797,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -5703,7 +5853,7 @@
       "direção_produção": "Maria João Garcia",
       "coprodução": "Fundação de Serralves/Serralves em Festa, Citemor, Festival End, Festival Paragem e São Luiz Teatro Municipal"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -5747,7 +5897,7 @@
     "age_min": 6,
     "price_min": 25.0,
     "price_max": 25.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -5838,7 +5988,7 @@
       "produção": "Razões Pessoais Residência artística Casa de Gigante",
       "coprodução": "Teatro das Figuras e São Luiz Teatro Municipal"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -5893,7 +6043,7 @@
       "produção": "Trypas-Corassão Associação Cultural",
       "coprodução": "Es Tr3s Irms é o projeto vencedor da 5ª edição da Bolsa Amélia Rey Colaço, uma iniciativa promovida pelo Teatro Nacional D. Maria II (Lisboa), A Oficina / Centro Cultural Vila Flor (Guimarães), O Espaço do Tempo (Montemor-o-Novo), e o Teatro Viriato (Viseu)."
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -5952,7 +6102,7 @@
       "coprodução": "Teatro Municipal do Porto – Rivoli / Campo Alegre A mala voadora é uma estrutura financiada pelo Governo de Portugal – Ministério da Cultura / Direção-Geral das Artes"
     },
     "sala": "Auditório Emílio Rui Vilar",
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "culturgest",
     "city": "Lisboa",
     "_meta": {
@@ -5992,7 +6142,7 @@
     "subtitle": "Com Pedro Melo Alves",
     "duration": "90 min.",
     "duration_min": 90,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6037,7 +6187,7 @@
     "age_min": 6,
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6083,7 +6233,7 @@
       "produção": "Henrique Mariano",
       "coprodução": "Centro Cultural de Belém (Lisboa-Portugal), Holland Festival (Amsterdão), Festival d’Avignon (França), Edinburgh International Festival (Escócia) e DeSingel (Bélgica) Apoio UCLA’s Center for the Art of Performance e Instituto Guimarães Rosa — IGR — Ministério das Relações Exteriores do Brasi"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
     "_meta": {
@@ -6125,7 +6275,7 @@
     "duration": "150 min",
     "duration_min": 150,
     "age_min": 6,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -6166,7 +6316,7 @@
       "produção": "e Cena TdE Sílvia Moura",
       "texto": "de Ricardo Neves-Neves, o enredo é muito mais dramático, as causas mais profundas, as personagens uns canalhas desprezíveis, e o final trará o espanto. Querem ser cúmplices deste crime? Avenida Frei Miguel Contreiras, 52, 1700-213, Lisboa Horário da Bilheteira Segunda – Sábado 17h30 às 21h30 Domingo"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
@@ -6213,7 +6363,7 @@
       "interpretação": "João Reis, Margarida Carvalho, Daniel Silva, Joana Africano",
       "coprodução": "Centro Cultural de Belém, Casa das Artes de Vila Nova de Famalicão, Teatro Nacional São João"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
     "_meta": {
@@ -6259,7 +6409,7 @@
     "age_min": 3,
     "price_min": 1.5,
     "price_max": 1.5,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6304,7 +6454,7 @@
     "duration": "120 min",
     "duration_min": 120,
     "age_min": 16,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -6363,7 +6513,7 @@
     "duration_min": 1,
     "age_rating": "A classificar pela CCE",
     "sala": "Sala Mário Viegas",
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -6435,7 +6585,7 @@
     "tags": [],
     "accessibility": [],
     "date_end": "2026-07-25",
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6497,7 +6647,7 @@
     "duration": "90 min",
     "duration_min": 90,
     "age_min": 351,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -6549,7 +6699,7 @@
     "age_min": 12,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6596,7 +6746,7 @@
     "sala": "Pequeno Auditório",
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6639,7 +6789,7 @@
     "age_min": 12,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6682,7 +6832,7 @@
     "age_min": 12,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6725,7 +6875,7 @@
     "age_min": 12,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6772,7 +6922,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -6816,7 +6966,7 @@
     "age_min": 12,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6859,7 +7009,7 @@
     "age_min": 16,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6906,7 +7056,7 @@
     "duration": "105 min",
     "duration_min": 105,
     "age_min": 351,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -6939,7 +7089,7 @@
     "age_rating": "M1770",
     "age_min": 1770,
     "sala": "Vários espaços do Teatro",
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -6975,7 +7125,7 @@
     "duration": "14h30",
     "duration_min": 870,
     "age_min": 351,
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
     "_meta": {
@@ -7014,7 +7164,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Luis Miguel Cintra",
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -7053,7 +7203,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Luis Miguel Cintra",
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -7087,7 +7237,7 @@
     "age_rating": "M1770",
     "age_min": 1770,
     "sala": "Sala Bernardo Sassetti",
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -7127,7 +7277,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Bernardo Sassetti",
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -7172,7 +7322,7 @@
     "technical_sheet": {
       "produção": "São Luiz Teatro Municipal"
     },
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -7209,7 +7359,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
+    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {

@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-03-20T21:56:38.410798+00:00",
-  "build_version": "20260320-2156",
-  "total_events": 147,
+  "updated_at": "2026-03-20T23:22:46.289584+00:00",
+  "build_version": "20260320-2322",
+  "total_events": 149,
   "total_theaters": 10,
   "by_theater": {
     "Theatro Circo": 63,
     "Teatro Variedades": 6,
-    "Teatro da Trindade INATEL": 5,
+    "Teatro da Trindade INATEL": 7,
     "Teatro Maria Matos": 6,
     "São Luiz Teatro Municipal": 30,
     "Teatro das Figuras": 21,
@@ -15,6 +15,6 @@
     "Teatro do Bairro": 1,
     "Culturgest": 3
   },
-  "completeness_avg": 0.623,
+  "completeness_avg": 0.625,
   "anomalies": []
 }
