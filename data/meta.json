@@ -1,9 +1,11 @@
 {
-  "updated_at": "2026-03-20T00:45:32.240232+00:00",
-  "build_version": "20260320-0045",
-  "total_events": 0,
-  "total_theaters": 0,
-  "by_theater": {},
-  "completeness_avg": 0.0,
+  "updated_at": "2026-03-20T00:46:44.271907+00:00",
+  "build_version": "20260320-0046",
+  "total_events": 6,
+  "total_theaters": 1,
+  "by_theater": {
+    "Teatro Maria Matos": 6
+  },
+  "completeness_avg": 0.748,
   "anomalies": []
 }
