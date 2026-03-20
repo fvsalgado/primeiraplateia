@@ -490,7 +490,7 @@
     <div class="page-header-inner">
       <div>
         <p class="section-label" aria-hidden="true">Agenda</p>
-        <h1>Programa<em>ção</em></h1>
+        <h1>Programação</h1>
       </div>
       <p class="page-header-meta" id="page-meta" aria-live="polite">
         <strong id="meta-count">—</strong> espectáculos · actualizado <span id="meta-updated">—</span>
@@ -519,12 +519,12 @@
 
       <!-- Cidade -->
       <select class="filter-select" id="filter-city" aria-label="Filtrar por cidade">
-        <option value="">Todas as cidades</option>
+        <option value="">Onde?</option>
       </select>
 
       <!-- Categoria -->
       <select class="filter-select" id="filter-category" aria-label="Filtrar por categoria">
-        <option value="">Todas as categorias</option>
+        <option value="">Que tipo?</option>
         <option value="Teatro">Teatro</option>
         <option value="Dança">Dança</option>
         <option value="Ópera">Ópera</option>
@@ -537,7 +537,7 @@
 
       <!-- Preço máximo -->
       <select class="filter-select" id="filter-price" aria-label="Filtrar por preço">
-        <option value="">Qualquer preço</option>
+        <option value="">Preço</option>
         <option value="0">Entrada livre</option>
         <option value="10">Até 10€</option>
         <option value="20">Até 20€</option>
@@ -565,10 +565,10 @@
     <div class="results-toolbar" aria-live="polite" aria-atomic="true">
       <p class="results-count"><strong id="results-count">—</strong> espectáculos encontrados</p>
       <select class="sort-select" id="sort-select" aria-label="Ordenar resultados">
-        <option value="data">Ordenar: por data</option>
-        <option value="titulo">Ordenar: por título</option>
-        <option value="teatro">Ordenar: por teatro</option>
-        <option value="preco">Ordenar: por preço</option>
+        <option value="data">Por data</option>
+        <option value="titulo">Por título</option>
+        <option value="teatro">Por teatro</option>
+        <option value="preco">Por preço</option>
       </select>
     </div>
 
@@ -585,14 +585,13 @@
     <div class="state-empty" id="state-empty" hidden>
       <div class="state-empty-icon" aria-hidden="true">🔍</div>
       <h2 class="state-empty-title">Sem resultados</h2>
-      <p class="state-empty-text">Nenhum espectáculo corresponde aos filtros seleccionados. Tenta ajustar a pesquisa.</p>
+      <p class="state-empty-text">Nenhum espectáculo para estes filtros. Experimenta alargar a pesquisa — ou descobre o que há esta semana.</p>
       <button class="btn btn-outline" id="reset-all-btn">Limpar filtros</button>
     </div>
 
     <div class="state-empty" id="state-error" hidden>
-      <div class="state-empty-icon" aria-hidden="true">🎭</div>
-      <h2 class="state-empty-title">Programação temporariamente indisponível</h2>
-      <p class="state-empty-text">Não foi possível carregar os espectáculos. Tenta novamente em breve.</p>
+      <h2 class="state-empty-title">Algo correu mal</h2>
+      <p class="state-empty-text">Não foi possível carregar a programação. Tenta de novo em breve.</p>
     </div>
   </div>
 
