@@ -80,7 +80,7 @@
       "address": "Rua Arco do Cego, 50, 1000-020 Lisboa",
       "city": "Lisboa",
       "site": "https://www.culturgest.pt",
-      "programacao": "https://www.culturgest.pt/pt/programacao/",
+      "programacao": "https://www.culturgest.pt/pt/programacao/por-evento/",
       "lat": 38.7316,
       "lng": -9.1387,
       "salas": [
@@ -91,7 +91,10 @@
         "culturgest",
         "fundação caixa geral de depósitos",
         "cgd culturgest"
-      ]
+      ],
+      "logo_url": "https://www.culturgest.pt/static/site/images/logo_cgd.svg",
+      "favicon_url": "https://www.culturgest.pt/static/site/images/favicon/favicon-96x96.png",
+      "facade_url": "https://www.culturgest.pt/media/filer_public/culturgest-fachada.jpg"
     },
     {
       "id": "variedades",
