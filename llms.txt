@@ -1,0 +1,103 @@
+# Primeira Plateia
+
+> A agenda nacional de teatro, dança, ópera e artes performativas em Portugal.
+> Dados actualizados diariamente a partir dos sites oficiais dos teatros.
+
+## O que é
+
+A Primeira Plateia é um agregador de programação cultural em Portugal.
+Recolhe automaticamente espectáculos de múltiplos teatros e espaços culturais,
+normaliza os dados e publica-os num site estático actualizado todos os dias às 07:00 UTC.
+
+**URL:** https://www.primeiraplateia.pt
+**Email:** fabio@primeiraplateia.pt
+**Criador:** Fábio
+
+## Dados disponíveis (JSON públicos)
+
+Os dados de programação são públicos e acessíveis directamente:
+
+- `/data/meta.json` — metadados do último build (total de teatros, espectáculos, timestamp)
+- `/data/events.slim.json` — todos os espectáculos (campos essenciais para cards)
+- `/events.json` — todos os espectáculos (schema completo, compatibilidade)
+- `/data/by-theater/{id}.json` — espectáculos completos de um teatro específico
+- `/data/search.json` — índice de pesquisa enriquecido (lowercase, pessoas, acessibilidade)
+- `/theaters.json` — registry de todos os teatros (nome, cidade, morada, coordenadas, cor)
+
+## Schema de um espectáculo (campos principais)
+
+```json
+{
+  "id": "trindade-verdadeiro-oeste",
+  "title": "Verdadeiro Oeste",
+  "subtitle": "de Sam Shepard",
+  "theater": "Teatro da Trindade INATEL",
+  "theater_id": "trindade",
+  "city": "Lisboa",
+  "category": "Teatro",
+  "date_start": "2026-04-23",
+  "date_end": "2026-06-07",
+  "dates_label": "23 Abr – 07 Jun 2026",
+  "sessions": [
+    { "date": "2026-04-23", "time": "21:00", "weekday": "Qui" }
+  ],
+  "next_session": "2026-04-23",
+  "synopsis": "...",
+  "image": { "url": "...", "credit": "© Nome", "source": "..." },
+  "source_url": "https://...",
+  "ticket_url": "https://...",
+  "price_info": "8€ – 20€",
+  "price_min": 8,
+  "price_max": 20,
+  "duration": "100 min.",
+  "duration_min": 100,
+  "age_rating": "M/12",
+  "age_min": 12,
+  "sala": "Sala Carmen Dolores",
+  "accessibility": ["LGP", "Audiodescrição"],
+  "director": "Rita Lello",
+  "author": "Sam Shepard",
+  "cast": ["Nuno Lopes", "Ricardo Aibéo"],
+  "technical_sheet": { "encenação": "...", "texto": "...", "...": "..." },
+  "people": ["lista de todos os nomes envolvidos, lowercase"],
+  "tags": ["estreia"],
+  "_meta": { "scraped_at": "...", "completeness": 0.92 }
+}
+```
+
+## Categorias de espectáculos
+
+Teatro · Dança · Ópera · Teatro Musical · Circo · Infanto-Juvenil · Performance · Música · Outro
+
+## Teatros activos (Março 2026)
+
+CCB · São Luiz Teatro Municipal · Maria Matos · Culturgest · Capitólio · Variedades ·
+Teatro Viriato (Viseu) · Theatro Circo (Braga) · Teatro do Bairro (Lisboa) ·
+Teatro da Trindade INATEL (Lisboa) · Teatro das Figuras (Faro)
+
+## Páginas
+
+- `/` — Homepage com destaques e navegação
+- `/programacao/` — Agenda completa com filtros (cidade, categoria, preço, data, acessibilidade)
+- `/calendario/` — Vista de calendário por dia/semana
+- `/teatros/` — Lista de todos os teatros
+- `/teatros/{id}/` — Página individual de teatro
+- `/espetaculo/?id={id}` — Página individual de espectáculo
+- `/sobre/` — Sobre o projecto
+- `/acessibilidade/` — Declaração de acessibilidade WCAG 2.1 AA
+
+## Redes sociais
+
+- Instagram: https://instagram.com/primeiraplateia
+- Facebook: https://facebook.com/primeiraplateia
+- LinkedIn: https://linkedin.com/company/primeiraplateia
+- YouTube: https://youtube.com/@primeiraplateia
+
+## Notas para agentes de IA
+
+- Os dados são actualizados diariamente. Para informação em tempo real, consulta `/data/meta.json` para o timestamp do último build.
+- `next_session` é o campo mais útil para saber quando é a próxima sessão de um espectáculo.
+- `people[]` contém todos os nomes envolvidos (elenco + equipa técnica) em lowercase — útil para pesquisa por pessoa.
+- `accessibility[]` contém as opções disponíveis: "LGP", "Audiodescrição", "Legendagem", "Acesso cadeira de rodas".
+- Para pesquisa por espectáculo: usar `/data/search.json` (todos os campos em lowercase).
+- Para programação de um teatro específico: `/data/by-theater/{theater_id}.json`.

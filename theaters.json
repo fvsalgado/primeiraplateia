@@ -1,0 +1,261 @@
+{
+  "theaters": [
+    {
+      "id": "ccb",
+      "name": "CCB — Centro Cultural de Belém",
+      "short": "CCB",
+      "color": "#00695c",
+      "description": "O Centro Cultural de Belém é um dos maiores centros culturais de Portugal. Inaugurado em 1992, acolhe espetáculos de teatro, música, dança e ópera nas suas várias salas.",
+      "address": "Praça do Império, 1449-003 Lisboa",
+      "city": "Lisboa",
+      "site": "https://www.ccb.pt",
+      "programacao": "https://www.ccb.pt/eventos/category/teatro/",
+      "lat": 38.6974,
+      "lng": -9.2059,
+      "salas": [
+        "Grande Auditório",
+        "Pequeno Auditório",
+        "Black Box"
+      ],
+      "aliases": [
+        "ccb",
+        "centro cultural de belém",
+        "centro cultural belem",
+        "c.c.b.",
+        "ccb belém"
+      ]
+    },
+    {
+      "id": "saoluiz",
+      "name": "São Luiz Teatro Municipal",
+      "short": "São Luiz",
+      "color": "#1a73e8",
+      "description": "O São Luiz Teatro Municipal é um dos mais emblemáticos teatros de Lisboa, com programação diversa de teatro, dança e performance. Situado no Chiado.",
+      "address": "Rua António Maria Cardoso, 38, 1200-027 Lisboa",
+      "city": "Lisboa",
+      "site": "https://www.teatrosaoluiz.pt",
+      "programacao": "https://www.teatrosaoluiz.pt/programacao/",
+      "lat": 38.7098,
+      "lng": -9.1421,
+      "salas": [
+        "Grande Sala",
+        "Sala Estúdio"
+      ],
+      "aliases": [
+        "são luiz",
+        "sao luiz",
+        "teatro são luiz",
+        "teatro municipal são luiz",
+        "saoluiz"
+      ]
+    },
+    {
+      "id": "mariamatos",
+      "name": "Teatro Maria Matos",
+      "short": "Maria Matos",
+      "color": "#e65100",
+      "description": "O Teatro Maria Matos é um espaço de referência para as artes performativas contemporâneas em Lisboa, com programação inovadora de teatro, dança, música e performance.",
+      "address": "Avenida Frei Miguel Contreiras, 52, 1700-213 Lisboa",
+      "city": "Lisboa",
+      "site": "https://teatromariamatos.pt",
+      "programacao": "https://teatromariamatos.pt/tipo/teatro/",
+      "lat": 38.7466,
+      "lng": -9.1365,
+      "salas": [
+        "Grande Sala",
+        "Sala Estúdio"
+      ],
+      "aliases": [
+        "maria matos",
+        "tmm",
+        "teatro maria matos"
+      ]
+    },
+    {
+      "id": "culturgest",
+      "name": "Culturgest",
+      "short": "Culturgest",
+      "color": "#6d4c97",
+      "description": "A Culturgest — Fundação Caixa Geral de Depósitos dedica-se à criação contemporânea, com programação regular de teatro, dança, música e artes visuais em Lisboa e Porto.",
+      "address": "Rua Arco do Cego, 50, 1000-020 Lisboa",
+      "city": "Lisboa",
+      "site": "https://www.culturgest.pt",
+      "programacao": "https://www.culturgest.pt/pt/programacao/",
+      "lat": 38.7316,
+      "lng": -9.1387,
+      "salas": [
+        "Grande Auditório",
+        "Pequeno Auditório"
+      ],
+      "aliases": [
+        "culturgest",
+        "fundação caixa geral de depósitos",
+        "cgd culturgest"
+      ]
+    },
+    {
+      "id": "variedades",
+      "name": "Teatro Variedades",
+      "short": "Variedades",
+      "color": "#d93025",
+      "description": "O Teatro Variedades é um dos espaços históricos do Parque Mayer em Lisboa, com uma programação eclética de teatro, música e espetáculos de entretenimento.",
+      "address": "Parque Mayer, Avenida da Liberdade, Lisboa",
+      "city": "Lisboa",
+      "site": "https://teatrovariedades-capitolio.pt",
+      "programacao": "https://teatrovariedades-capitolio.pt/agenda/teatro-variedades/",
+      "lat": 38.7192,
+      "lng": -9.1483,
+      "salas": [
+        "Teatro Variedades"
+      ],
+      "aliases": [
+        "variedades",
+        "teatro variedades",
+        "parque mayer variedades",
+        "tv"
+      ]
+    },
+    {
+      "id": "capitolio",
+      "name": "Capitólio",
+      "short": "Capitólio",
+      "color": "#e53935",
+      "description": "O Capitólio é um espaço histórico do Parque Mayer em Lisboa, com uma programação diversa de teatro, música e espetáculos de entretenimento.",
+      "address": "Parque Mayer, Avenida da Liberdade, Lisboa",
+      "city": "Lisboa",
+      "site": "https://teatrovariedades-capitolio.pt",
+      "programacao": "https://teatrovariedades-capitolio.pt/agenda/capitolio/",
+      "lat": 38.7195,
+      "lng": -9.148,
+      "salas": [
+        "Capitólio"
+      ],
+      "aliases": [
+        "capitolio",
+        "teatro capitólio",
+        "teatro capitolio",
+        "parque mayer capitólio",
+        "parque mayer capitolio"
+      ]
+    },
+    {
+      "id": "viriato",
+      "name": "Teatro Viriato",
+      "short": "Viriato",
+      "color": "#1565c0",
+      "description": "O Teatro Viriato — Centro de Artes do Espectáculo de Viseu é uma das mais relevantes estruturas culturais do interior de Portugal, com uma programação eclética de teatro, dança, música e artes performativas.",
+      "address": "Largo Mouzinho de Albuquerque, 3500-160 Viseu",
+      "city": "Viseu",
+      "site": "https://www.teatroviriato.com",
+      "programacao": "https://www.teatroviriato.com/pt/programacao",
+      "lat": 40.6566,
+      "lng": -7.9122,
+      "salas": [
+        "Sala de Espetáculos",
+        "Sala Estúdio"
+      ],
+      "aliases": [
+        "teatro viriato",
+        "viriato",
+        "centro de artes do espectáculo de viseu",
+        "centro de artes do espetaculo de viseu",
+        "caev"
+      ]
+    },
+    {
+      "id": "theatrocirco",
+      "name": "Theatro Circo",
+      "short": "Theatro Circo",
+      "color": "#b71c1c",
+      "city": "Braga",
+      "address": "Av. da Liberdade, 697, 4710-251 Braga",
+      "site": "https://theatrocirco.com",
+      "programacao": "https://theatrocirco.com/programa/?agenda_category=teatro-pt",
+      "lat": 41.5454,
+      "lng": -8.4265,
+      "salas": [
+        "Sala Principal",
+        "Pequeno Auditório"
+      ],
+      "aliases": [
+        "theatro circo",
+        "theatro circo braga",
+        "teatro circo",
+        "teatro circo braga"
+      ],
+      "description": "O Theatro Circo é um dos mais emblemáticos teatros do norte de Portugal, inaugurado em 1915 em Braga. Com uma programação diversa de teatro, música, dança e cinema, é referência cultural da cidade e da região.",
+      "_overrides": [],
+      "logo": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9Ijk5IiB2aWV3Ym94PSIwIDAgMTI5IDk5IiB3aWR0aD0iMTI5IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNOTkuODQ1NyAyOC40NTExQzExMi4xMDQgMjguNDUxMSAxMjEuMTY4IDM2LjU4OCAxMjYuMTEyIDQ3LjgxNTdIMTI4Ljk5N1YzNC44MzcyQzEyMS43ODcgMjkuMTcxNyAxMTEuNTg5IDI0LjYzOTcgOTkuODQ1NyAyNC42Mzk3Qzk5LjAyMzcgMjQuNjM5NyA5OC4yMDg5IDI0LjY2NTEgOTcuMzk3OCAyNC43MDg1Qzk3LjI2OTIgMjQuNjIzNCA5Ny4xMTg5IDI0LjU3ODIgOTYuOTQ4NyAyNC41NzgyQzk2LjIxIDI0LjU3ODIgOTUuNDc4NSAyNC41OTQ1IDk0Ljc1MjUgMjQuNjI3MVYwLjgwNDY4OEg1LjI2MjRWMjcuNzE0Mkg5LjQxNDE2QzEwLjE4MDEgMTMuMzEyNSAxNi43NTA4IDYuNTQ2MTcgMzIuMTYxIDYuNDk3MjlIMzguMzY3OEMzOC4zNjc4IDYuNDk3MjkgMzguMzc2OSA2LjQ5NzI5IDM4LjM4MjMgNi40OTcyOUg0NC41NzQ3VjYuNDk1NDhINDUuNDkyNkwzOC4zNjc4IDI4LjQ5MjdWMjguODA5NkgzOC4yNjY0TDE4Ljg1NjYgODIuNjYzQzE2LjU0OTggODkuNTgxNCAxMS40NzQ3IDkyLjE5NTkgMi4wOTU2MiA5My4xMTc1TDAuODY2MjExIDk3LjI2NzRINDIuOTk3Nkw0NC4zODA5IDkzLjExMzlDMzUuNDYxOCA5Mi4xOTIzIDMxLjMxMTggODkuODg1NSAzMy42MTg2IDgyLjY1OTNMNjAuMjU2NSA2LjQ5NTQ4SDY3LjYzNjZDNjcuNjc2NCA2LjQ5NTQ4IDY3LjcxMjYgNi40OTU0OCA2Ny43NTA2IDYuNDk1NDhDODIuMzg0MSA2LjUxMTc3IDg4Ljk2NTcgMTIuNDM3OSA5MC4zODE2IDI1LjAyNzJDNzAuOTc5IDI3LjcxNDIgNTcuNDk3MSA0Mi4yOTMzIDU3LjQ5NzEgNjEuNjYxNUM1Ny40OTcxIDcyLjI3NTQgNjEuNzA2OCA4MS44NTU0IDY5LjM1MyA4OC42MzYyQzc2LjcwMjQgOTUuMTU0NCA4Ni43MTY5IDk4Ljc0NDkgOTcuNTQ4MSA5OC43NDQ5SDk3LjU1ODlDOTguMzE3NiA5OC43ODI5IDk5LjA3OTggOTguODA0NyA5OS44NDk0IDk4LjgwNDdDMTExLjU5MSA5OC44MDQ3IDEyMS43OSA5NC4yNzI3IDEyOSA4OC42MDcyVjc1LjYyODdIMTI2LjExNkMxMjEuMTcxIDg2Ljg1NjQgMTEyLjEwNyA5NC45OTMzIDk5Ljg0OTQgOTQuOTkzM0M4MC4wNzE5IDk0Ljk5MzMgNzMuMTY5OCA4Mi4zNjc4IDczLjE2OTggNjEuNzIzMUM3My4xNjk4IDQzLjI4NTUgODAuMDcxOSAyOC40NTI5IDk5Ljg0OTQgMjguNDUyOSIgZmlsbD0iIzEwMTAxMCI+PC9wYXRoPgo8L3N2Zz4="
+    },
+    {
+      "id": "teatrodobairro",
+      "name": "Teatro do Bairro",
+      "short": "T. do Bairro",
+      "color": "#212121",
+      "city": "Lisboa",
+      "address": "Rua Luz Soriano, 63, 1200-246 Lisboa",
+      "site": "https://teatrodobairro.org",
+      "programacao": "https://teatrodobairro.org/",
+      "lat": 38.7131,
+      "lng": -9.1432,
+      "salas": [
+        "Teatro do Bairro"
+      ],
+      "aliases": [
+        "teatro do bairro",
+        "tdb",
+        "companhia do teatro do bairro",
+        "ar de filmes"
+      ],
+      "description": "O Teatro do Bairro é um espaço cultural no coração do Bairro Alto, em Lisboa, inaugurado pela Ar de Filmes em 2011. Combina produção própria de teatro com acolhimento de criadores convidados, num programa que inclui também cinema.",
+      "_overrides": []
+    },
+    {
+      "id": "trindade",
+      "name": "Teatro da Trindade INATEL",
+      "short": "Trindade",
+      "color": "#8b0000",
+      "city": "Lisboa",
+      "address": "Rua Nova da Trindade, 9, 1200-301 Lisboa",
+      "site": "https://teatrotrindade.inatel.pt",
+      "programacao": "https://teatrotrindade.inatel.pt/programacao/teatro",
+      "lat": 38.7107,
+      "lng": -9.1414,
+      "salas": [
+        "Sala Carmen Dolores",
+        "Sala Estúdio"
+      ],
+      "aliases": [
+        "teatro da trindade",
+        "teatro da trindade inatel",
+        "trindade",
+        "trindade inatel"
+      ],
+      "description": "O Teatro da Trindade INATEL, inaugurado em 1867, é um dos mais emblemáticos teatros de Lisboa. A sua Sala Carmen Dolores é um dos mais bem preservados exemplares de teatro à italiana do país, com capacidade para 485 espectadores.",
+      "_overrides": []
+    },
+    {
+      "id": "teatrodasfiguras",
+      "name": "Teatro das Figuras",
+      "short": "T. das Figuras",
+      "color": "#c8102e",
+      "city": "Faro",
+      "address": "Rua Pedro Franque, 8000-281 Faro",
+      "site": "https://teatrodasfiguras.pt",
+      "programacao": "https://teatrodasfiguras.pt/agenda?categories=3,15",
+      "lat": 37.0179,
+      "lng": -7.9307,
+      "salas": [
+        "Grande Auditório",
+        "Pequeno Auditório"
+      ],
+      "aliases": [
+        "teatro das figuras",
+        "tdf",
+        "teatro municipal de faro"
+      ],
+      "description": "O Teatro das Figuras é o principal equipamento cultural da cidade de Faro, com programação de teatro, dança, música e cinema.",
+      "_overrides": []
+    }
+  ]
+}

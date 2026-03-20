@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title id="page-title">Espectáculo — Primeira Plateia</title>
+<meta name="description" id="page-desc" content="Sinopse, ficha técnica, sessões e bilhetes."/>
+<meta name="theme-color" content="#1B2B4B"/>
+<meta name="robots" content="index, follow"/>
+<link rel="canonical" id="page-canonical" href="https://www.primeiraplateia.pt/espetaculo/"/>
+<meta property="og:title" id="og-title" content="Espectáculo — Primeira Plateia"/>
+<meta property="og:description" id="og-desc" content="Sinopse, ficha técnica, sessões e bilhetes."/>
+<meta property="og:image" id="og-image" content="https://www.primeiraplateia.pt/og-image.jpg"/>
+<meta property="og:url" id="og-url" content="https://www.primeiraplateia.pt/espetaculo/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:locale" content="pt_PT"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" id="tw-title" content="Espectáculo — Primeira Plateia"/>
+<meta name="twitter:description" id="tw-desc" content="Sinopse, ficha técnica, sessões e bilhetes."/>
+<meta name="twitter:image" id="tw-image" content="https://www.primeiraplateia.pt/og-image.jpg"/>
+<link rel="manifest" href="/manifest.webmanifest"/>
+<link rel="apple-touch-icon" href="/icons/icon-192.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link rel="stylesheet" href="/fonts/fonts.css"/>
+<link rel="stylesheet" href="/design/tokens.css"/>
+<link rel="stylesheet" href="/design/base.css"/>
+<script>(function(){var s=localStorage.getItem('pp-theme');var sys=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',s||sys);})();</script>
+<script id="ld-json" type="application/ld+json">{}</script>
+
+<style>
+/* ── HERO ────────────────────────────────────────────────────── */
+.ev-hero {
+  padding-top: var(--nav-h);
+  background: var(--surface-bg);
+  position: relative;
+}
+
+/* Imagem de fundo com blur */
+.ev-hero-backdrop {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center top;
+  filter: blur(40px) saturate(.4) brightness(.3);
+  opacity: 0;
+  transition: opacity var(--transition-slow);
+  z-index: 0;
+}
+
+.ev-hero-backdrop.loaded { opacity: 1; }
+
+[data-theme="dark"] .ev-hero-backdrop {
+  filter: blur(40px) saturate(.3) brightness(.2);
+}
+
+.ev-hero-inner {
+  position: relative;
+  z-index: 1;
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: var(--space-10) var(--space-12) var(--space-12);
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: var(--space-10);
+  align-items: start;
+}
+
+/* Poster / imagem do espectáculo */
+.ev-poster {
+  position: sticky;
+  top: calc(var(--nav-h) + var(--space-4));
+  flex-shrink: 0;
+}
+
+.ev-poster-img {
+  width: 100%;
+  aspect-ratio: 3/4;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--surface-bg-2);
+  box-shadow: var(--shadow-xl);
+}
+
+.ev-poster-img img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.ev-poster-img-placeholder {
+  width: 100%; height: 100%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 64px; opacity: .15;
+  background: linear-gradient(135deg, var(--color-primary-light), var(--surface-bg-2));
+}
+
+[data-theme="dark"] .ev-poster-img-placeholder {
+  background: linear-gradient(135deg, var(--surface-bg-2), var(--surface-card));
+}
+
+/* Botão de bilhetes abaixo do poster */
+.ev-poster-ticket {
+  margin-top: var(--space-4);
+  width: 100%;
+}
+
+/* Info principal */
+.ev-info {}
+
+/* Breadcrumb */
+.breadcrumb {
+  display: flex; align-items: center; gap: var(--space-2);
+  font-size: var(--text-xs); font-weight: 500; color: var(--text-muted);
+  margin-bottom: var(--space-5); flex-wrap: wrap;
+}
+.breadcrumb a { color: var(--text-muted); text-decoration: none; transition: color var(--transition-fast); }
+.breadcrumb a:hover { color: var(--color-primary); }
+.breadcrumb-sep { opacity: .4; }
+
+/* Tags de categoria + acessibilidade */
+.ev-tags {
+  display: flex; align-items: center; gap: var(--space-2); flex-wrap: wrap;
+  margin-bottom: var(--space-5);
+}
+
+/* Título */
+.ev-title {
+  font-family: var(--ff-display);
+  font-size: clamp(var(--text-3xl), 5vw, var(--text-6xl));
+  font-weight: 900;
+  letter-spacing: -.03em; line-height: .95;
+  color: var(--text-primary);
+  margin-bottom: var(--space-2);
+}
+
+.ev-subtitle {
+  font-family: var(--ff-display);
+  font-size: clamp(var(--text-lg), 2.5vw, var(--text-2xl));
+  font-weight: 400; font-style: italic;
+  color: var(--text-muted);
+  margin-bottom: var(--space-6);
+  line-height: 1.3;
+}
+
+/* Teatro + cidade */
+.ev-theater-link {
+  display: inline-flex; align-items: center; gap: var(--space-2);
+  font-size: var(--text-sm); font-weight: 600;
+  color: var(--color-primary);
+  text-decoration: none; margin-bottom: var(--space-6);
+  transition: color var(--transition-fast);
+}
+.ev-theater-link:hover { color: var(--color-primary-dark); text-decoration: underline; }
+[data-theme="dark"] .ev-theater-link { color: var(--color-primary); }
+
+/* Meta rápida: preço, duração, classificação */
+.ev-quick-meta {
+  display: flex; align-items: center; gap: var(--space-5); flex-wrap: wrap;
+  padding: var(--space-4) var(--space-5);
+  background: var(--surface-card);
+  border: 1px solid var(--surface-card-border);
+  border-radius: var(--radius-lg);
+  margin-bottom: var(--space-6);
+}
+
+.quick-meta-item {
+  display: flex; flex-direction: column; gap: 2px;
+}
+
+.quick-meta-label {
+  font-size: 10px; font-weight: 700; letter-spacing: .12em;
+  text-transform: uppercase; color: var(--text-muted);
+}
+
+.quick-meta-value {
+  font-size: var(--text-sm); font-weight: 700;
+  color: var(--text-primary);
+}
+
+.quick-meta-value.accent { color: var(--color-accent); }
+
+.quick-meta-sep {
+  width: 1px; height: 32px;
+  background: var(--surface-divider); flex-shrink: 0;
+}
+
+/* Acções principais */
+.ev-actions {
+  display: flex; gap: var(--space-3); flex-wrap: wrap;
+  margin-bottom: var(--space-8);
+}
+
+/* ── SECÇÕES COLAPSÁVEIS ────────────────────────────────────── */
+.ev-sections {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 0 var(--space-12) var(--space-24);
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: var(--space-8);
+  align-items: start;
+}
+
+/* Coluna principal */
+.ev-main-col {}
+
+/* Accordion */
+.accordion {
+  border: 1px solid var(--surface-card-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--surface-card);
+}
+
+.accordion-item {
+  border-bottom: 1px solid var(--surface-card-border);
+}
+
+.accordion-item:last-child { border-bottom: none; }
+
+.accordion-trigger {
+  width: 100%;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: var(--space-5) var(--space-6);
+  background: none; border: none; cursor: pointer;
+  text-align: left;
+  transition: background var(--transition-fast);
+}
+
+.accordion-trigger:hover { background: var(--surface-bg-2); }
+
+.accordion-trigger:focus-visible {
+  outline: none;
+  box-shadow: inset var(--focus-ring-offset);
+}
+
+.accordion-title {
+  font-family: var(--ff-display);
+  font-size: var(--text-lg); font-weight: 700;
+  color: var(--text-primary);
+}
+
+.accordion-icon {
+  font-size: 20px; color: var(--text-muted);
+  transition: transform var(--transition-base);
+  flex-shrink: 0; margin-left: var(--space-4);
+}
+
+.accordion-trigger[aria-expanded="true"] .accordion-icon {
+  transform: rotate(180deg);
+}
+
+.accordion-body {
+  padding: 0 var(--space-6) var(--space-6);
+  display: none;
+}
+
+.accordion-body.open { display: block; }
+
+/* Sinopse */
+.synopsis-text {
+  font-size: var(--text-base);
+  color: var(--text-secondary);
+  line-height: 1.85;
+}
+
+/* Ficha técnica */
+.technical-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.technical-table tr {
+  border-bottom: 1px solid var(--surface-card-border);
+}
+
+.technical-table tr:last-child { border-bottom: none; }
+
+.technical-table td {
+  padding: var(--space-3) var(--space-2);
+  font-size: var(--text-sm);
+  vertical-align: top;
+}
+
+.technical-table td:first-child {
+  font-weight: 700; color: var(--text-muted);
+  text-transform: capitalize;
+  width: 38%; padding-right: var(--space-4);
+  white-space: nowrap;
+}
+
+.technical-table td:last-child {
+  color: var(--text-secondary);
+}
+
+/* Sessões */
+.sessions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: var(--space-2);
+}
+
+.session-card {
+  background: var(--surface-bg-2);
+  border: 1px solid var(--surface-card-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-3) var(--space-4);
+  text-align: center;
+}
+
+.session-card.next {
+  background: var(--color-primary-light);
+  border-color: var(--color-primary);
+}
+
+[data-theme="dark"] .session-card.next {
+  background: rgba(74,111,165,.2);
+  border-color: var(--color-primary);
+}
+
+.session-weekday {
+  font-size: 10px; font-weight: 700;
+  letter-spacing: .1em; text-transform: uppercase;
+  color: var(--text-muted); display: block;
+  margin-bottom: 2px;
+}
+
+.session-card.next .session-weekday { color: var(--color-primary); }
+
+.session-date {
+  font-family: var(--ff-display);
+  font-size: var(--text-base); font-weight: 700;
+  color: var(--text-primary); display: block;
+}
+
+.session-time {
+  font-size: var(--text-xs); font-weight: 600;
+  color: var(--color-accent); display: block;
+  margin-top: 2px;
+}
+
+.sessions-no-data {
+  font-size: var(--text-sm); color: var(--text-muted);
+  font-style: italic;
+}
+
+/* Acessibilidade */
+.access-list {
+  display: flex; flex-wrap: wrap; gap: var(--space-3);
+}
+
+.access-item {
+  display: flex; align-items: center; gap: var(--space-2);
+  padding: var(--space-3) var(--space-4);
+  background: var(--surface-bg-2);
+  border: 1px solid var(--surface-card-border);
+  border-radius: var(--radius-md);
+  font-size: var(--text-sm); font-weight: 600;
+  color: var(--text-secondary);
+}
+
+/* ── COLUNA LATERAL ─────────────────────────────────────────── */
+.ev-side-col {
+  position: sticky;
+  top: calc(var(--nav-h) + var(--space-4));
+}
+
+.side-card {
+  background: var(--surface-card);
+  border: 1px solid var(--surface-card-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  margin-bottom: var(--space-4);
+}
+
+.side-card-header {
+  padding: var(--space-4) var(--space-5);
+  border-bottom: 1px solid var(--surface-card-border);
+}
+
+.side-card-title {
+  font-family: var(--ff-display);
+  font-size: var(--text-base); font-weight: 700;
+  color: var(--text-primary);
+}
+
+.side-card-body {
+  padding: var(--space-5);
+  display: flex; flex-direction: column; gap: var(--space-3);
+}
+
+/* Próxima sessão em destaque */
+.next-session-highlight {
+  background: var(--color-primary-light);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  text-align: center;
+}
+
+[data-theme="dark"] .next-session-highlight {
+  background: rgba(74,111,165,.15);
+}
+
+.next-session-label {
+  font-size: 10px; font-weight: 700;
+  letter-spacing: .15em; text-transform: uppercase;
+  color: var(--color-primary); display: block;
+  margin-bottom: var(--space-2);
+}
+
+.next-session-date {
+  font-family: var(--ff-display);
+  font-size: var(--text-2xl); font-weight: 900;
+  color: var(--text-primary); line-height: 1;
+  letter-spacing: -.02em;
+}
+
+.next-session-time {
+  font-size: var(--text-sm); font-weight: 600;
+  color: var(--color-accent); margin-top: var(--space-1); display: block;
+}
+
+/* Partilhar */
+.share-btns {
+  display: flex; gap: var(--space-2); flex-wrap: wrap;
+}
+
+.share-btn {
+  flex: 1; min-width: 80px;
+  padding: var(--space-2) var(--space-3);
+  background: var(--surface-bg-2);
+  border: 1px solid var(--surface-card-border);
+  border-radius: var(--radius-md);
+  font-family: var(--ff-body);
+  font-size: var(--text-xs); font-weight: 600;
+  color: var(--text-secondary);
+  cursor: pointer; text-align: center;
+  text-decoration: none;
+  transition: background var(--transition-fast), border-color var(--transition-fast), color var(--transition-fast);
+}
+
+.share-btn:hover {
+  background: var(--color-primary-light);
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+/* Crédito da imagem */
+.img-credit {
+  font-size: 10px; color: var(--text-muted); opacity: .7;
+  text-align: center; margin-top: var(--space-2);
+  line-height: 1.4;
+}
+
+/* ── RESPONSIVE ─────────────────────────────────────────────── */
+@media (max-width: 1100px) {
+  .ev-sections {
+    grid-template-columns: 1fr 300px;
+    gap: var(--space-6);
+  }
+}
+
+@media (max-width: 900px) {
+  .ev-hero-inner {
+    grid-template-columns: 200px 1fr;
+    gap: var(--space-6);
+    padding: var(--space-8) var(--space-5) var(--space-8);
+  }
+  .ev-poster { position: static; }
+  .ev-sections {
+    grid-template-columns: 1fr;
+    padding-left: var(--space-5);
+    padding-right: var(--space-5);
+  }
+  .ev-side-col { position: static; }
+}
+
+@media (max-width: 640px) {
+  .ev-hero-inner {
+    grid-template-columns: 1fr;
+  }
+  .ev-poster {
+    max-width: 220px;
+  }
+  .ev-title { font-size: clamp(var(--text-2xl), 8vw, var(--text-4xl)); }
+  .sessions-grid { grid-template-columns: repeat(3, 1fr); }
+  .ev-quick-meta { gap: var(--space-4); }
+  .quick-meta-sep { display: none; }
+}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Saltar para o conteúdo principal</a>
+
+<!-- ── NAVEGAÇÃO ─────────────────────────────────────────────── -->
+<nav class="nav" role="navigation" aria-label="Navegação principal">
+  <a class="nav-brand" href="/" aria-label="Primeira Plateia — página inicial">
+    <span class="nav-brand-primeira">Primeira</span>
+    <span class="nav-brand-plateia">Plateia</span>
+  </a>
+  <div class="nav-right">
+    <ul class="nav-links" id="nav-menu" role="list">
+      <li><a href="/programacao/">Programação</a></li>
+      <li><a href="/calendario/">Calendário</a></li>
+      <li><a href="/teatros/">Teatros</a></li>
+      <li><a href="/sobre/">Sobre</a></li>
+    </ul>
+    <button class="theme-btn" id="theme-toggle" aria-label="Mudar para modo escuro" data-tip="Modo escuro">
+      <span class="i-moon" aria-hidden="true">🌙</span>
+      <span class="i-sun" aria-hidden="true">☀️</span>
+    </button>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-menu">☰</button>
+  </div>
+</nav>
+
+<main id="main-content">
+
+  <!-- Hero -->
+  <div class="ev-hero" id="ev-hero">
+    <div class="ev-hero-backdrop" id="ev-backdrop" aria-hidden="true"></div>
+    <div class="ev-hero-inner">
+
+      <!-- Poster -->
+      <div class="ev-poster" id="ev-poster">
+        <div class="ev-poster-img" id="ev-poster-img">
+          <div class="ev-poster-img-placeholder" aria-hidden="true">🎭</div>
+        </div>
+        <p class="img-credit" id="img-credit" hidden></p>
+        <div id="poster-ticket" hidden style="margin-top:var(--space-4)"></div>
+      </div>
+
+      <!-- Info -->
+      <div class="ev-info" id="ev-info">
+        <nav class="breadcrumb" aria-label="Localização na página">
+          <a href="/">Início</a>
+          <span class="breadcrumb-sep" aria-hidden="true">›</span>
+          <a href="/programacao/">Programação</a>
+          <span class="breadcrumb-sep" aria-hidden="true">›</span>
+          <span id="breadcrumb-name" aria-current="page">…</span>
+        </nav>
+
+        <div class="ev-tags" id="ev-tags"></div>
+
+        <h1 class="ev-title" id="ev-title">A carregar…</h1>
+        <p class="ev-subtitle" id="ev-subtitle" hidden></p>
+
+        <a class="ev-theater-link" id="ev-theater-link" href="/teatros/">
+          <span aria-hidden="true">🏛️</span>
+          <span id="ev-theater-name">…</span>
+        </a>
+
+        <!-- Meta rápida -->
+        <div class="ev-quick-meta" id="ev-quick-meta" aria-label="Informação rápida"></div>
+
+        <!-- Acções -->
+        <div class="ev-actions" id="ev-actions"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Secções colapsáveis + coluna lateral -->
+  <div class="ev-sections" id="ev-sections" hidden>
+
+    <!-- Coluna principal: accordion -->
+    <div class="ev-main-col">
+      <div class="accordion" role="list">
+
+        <!-- Sinopse -->
+        <div class="accordion-item" role="listitem" id="acc-sinopse" hidden>
+          <button class="accordion-trigger" aria-expanded="true" aria-controls="acc-body-sinopse" id="acc-btn-sinopse">
+            <span class="accordion-title">Sinopse</span>
+            <span class="accordion-icon" aria-hidden="true">⌄</span>
+          </button>
+          <div class="accordion-body open" id="acc-body-sinopse" role="region" aria-labelledby="acc-btn-sinopse">
+            <p class="synopsis-text" id="synopsis-text"></p>
+          </div>
+        </div>
+
+        <!-- Sessões -->
+        <div class="accordion-item" role="listitem" id="acc-sessoes" hidden>
+          <button class="accordion-trigger" aria-expanded="true" aria-controls="acc-body-sessoes" id="acc-btn-sessoes">
+            <span class="accordion-title">Sessões</span>
+            <span class="accordion-icon" aria-hidden="true">⌄</span>
+          </button>
+          <div class="accordion-body open" id="acc-body-sessoes" role="region" aria-labelledby="acc-btn-sessoes">
+            <div class="sessions-grid" id="sessions-grid"></div>
+          </div>
+        </div>
+
+        <!-- Ficha técnica -->
+        <div class="accordion-item" role="listitem" id="acc-ficha" hidden>
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="acc-body-ficha" id="acc-btn-ficha">
+            <span class="accordion-title">Ficha técnica</span>
+            <span class="accordion-icon" aria-hidden="true">⌄</span>
+          </button>
+          <div class="accordion-body" id="acc-body-ficha" role="region" aria-labelledby="acc-btn-ficha">
+            <table class="technical-table" id="technical-table" aria-label="Ficha técnica do espectáculo"></table>
+          </div>
+        </div>
+
+        <!-- Acessibilidade -->
+        <div class="accordion-item" role="listitem" id="acc-access" hidden>
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="acc-body-access" id="acc-btn-access">
+            <span class="accordion-title">Acessibilidade</span>
+            <span class="accordion-icon" aria-hidden="true">⌄</span>
+          </button>
+          <div class="accordion-body" id="acc-body-access" role="region" aria-labelledby="acc-btn-access">
+            <div class="access-list" id="access-list"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Coluna lateral -->
+    <aside class="ev-side-col" aria-label="Bilhetes e partilha">
+
+      <!-- Próxima sessão -->
+      <div class="side-card" id="side-next-session" hidden>
+        <div class="side-card-header">
+          <h2 class="side-card-title">Próxima sessão</h2>
+        </div>
+        <div class="side-card-body">
+          <div class="next-session-highlight">
+            <span class="next-session-label">Próxima sessão</span>
+            <span class="next-session-date" id="side-next-date">—</span>
+            <span class="next-session-time" id="side-next-time"></span>
+          </div>
+          <div id="side-ticket-btn"></div>
+          <a id="side-source-link" href="#" class="btn btn-outline" target="_blank" rel="noopener" hidden>
+            Ver no site do teatro →
+          </a>
+        </div>
+      </div>
+
+      <!-- Partilhar -->
+      <div class="side-card">
+        <div class="side-card-header">
+          <h2 class="side-card-title">Partilhar</h2>
+        </div>
+        <div class="side-card-body">
+          <div class="share-btns">
+            <button class="share-btn" id="share-copy" aria-label="Copiar link">🔗 Link</button>
+            <a class="share-btn" id="share-twitter" href="#" target="_blank" rel="noopener" aria-label="Partilhar no X / Twitter">𝕏 Twitter</a>
+            <a class="share-btn" id="share-whatsapp" href="#" target="_blank" rel="noopener" aria-label="Partilhar no WhatsApp">💬 WhatsApp</a>
+            <a class="share-btn" id="share-facebook" href="#" target="_blank" rel="noopener" aria-label="Partilhar no Facebook">Facebook</a>
+          </div>
+        </div>
+      </div>
+
+    </aside>
+  </div>
+
+  <!-- Estado de erro global -->
+  <div class="state-empty" id="state-error" hidden style="padding:var(--space-24) var(--space-8)">
+    <div class="state-empty-icon" aria-hidden="true">🎭</div>
+    <h2 class="state-empty-title">Espectáculo não encontrado</h2>
+    <p class="state-empty-text">Não foi possível encontrar este espectáculo. Pode ter terminado ou o link estar incorrecto.</p>
+    <a href="/programacao/" class="btn btn-outline">Ver programação</a>
+  </div>
+
+</main>
+
+<!-- ── RODAPÉ ─────────────────────────────────────────────────── -->
+<footer class="footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-brand-col">
+      <div class="footer-brand">
+        <span class="footer-brand-primeira">Primeira</span>
+        <span class="footer-brand-plateia">Plateia</span>
+      </div>
+      <p class="footer-tagline">A agenda nacional de teatro, dança e artes performativas em Portugal.</p>
+      <nav class="footer-social" aria-label="Redes sociais">
+        <a href="https://instagram.com/primeiraplateia" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+        </a>
+        <a href="https://facebook.com/primeiraplateia" target="_blank" rel="noopener" aria-label="Facebook">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        </a>
+        <a href="https://linkedin.com/company/primeiraplateia" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="https://youtube.com/@primeiraplateia" target="_blank" rel="noopener" aria-label="YouTube">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="white"/></svg>
+        </a>
+      </nav>
+    </div>
+    <div>
+      <p class="footer-col-title">Explorar</p>
+      <nav class="footer-col-links" aria-label="Explorar">
+        <a href="/programacao/">Programação</a>
+        <a href="/calendario/">Calendário</a>
+        <a href="/teatros/">Teatros</a>
+      </nav>
+    </div>
+    <div>
+      <p class="footer-col-title">Sobre</p>
+      <nav class="footer-col-links" aria-label="Sobre">
+        <a href="/sobre/">O projecto</a>
+        <a href="mailto:fabio@primeiraplateia.pt">Contacto</a>
+      </nav>
+    </div>
+    <div>
+      <p class="footer-col-title">Legal</p>
+      <nav class="footer-col-links" aria-label="Legal">
+        <a href="/privacidade/">Privacidade</a>
+        <a href="/aviso-legal/">Aviso legal</a>
+        <a href="/acessibilidade/">Acessibilidade</a>
+      </nav>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p class="footer-legal">© <span id="footer-year"></span> Primeira Plateia. Conteúdo © dos respectivos teatros.</p>
+    <p class="footer-meta"><span class="footer-meta-dot" aria-hidden="true"></span><span id="footer-updated"></span></p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  /* ── Tema ───────────────────────────────────────────────── */
+  const themeBtn = document.getElementById('theme-toggle');
+  const html = document.documentElement;
+  themeBtn.addEventListener('click', function () {
+    const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    html.setAttribute('data-theme', next);
+    localStorage.setItem('pp-theme', next);
+    themeBtn.setAttribute('aria-label', next === 'dark' ? 'Mudar para modo claro' : 'Mudar para modo escuro');
+    themeBtn.setAttribute('data-tip', next === 'dark' ? 'Modo claro' : 'Modo escuro');
+  });
+
+  /* ── Menu mobile ────────────────────────────────────────── */
+  const navToggle = document.getElementById('nav-toggle');
+  const navMenu   = document.getElementById('nav-menu');
+  navToggle.addEventListener('click', function () {
+    const isOpen = navMenu.classList.toggle('open');
+    navToggle.setAttribute('aria-expanded', isOpen);
+    navToggle.textContent = isOpen ? '✕' : '☰';
+  });
+  document.addEventListener('click', function (e) {
+    if (!navMenu.contains(e.target) && !navToggle.contains(e.target)) {
+      navMenu.classList.remove('open');
+      navToggle.setAttribute('aria-expanded', 'false');
+      navToggle.textContent = '☰';
+    }
+  });
+
+  document.getElementById('footer-year').textContent = new Date().getFullYear();
+
+  /* ── Ler ID do query string ──────────────────────────── */
+  const params = new URLSearchParams(window.location.search);
+  const eventId = params.get('id');
+
+  if (!eventId) { window.location.href = '/programacao/'; return; }
+
+  /* ── Utils ──────────────────────────────────────────────── */
+  const today = new Date().toISOString().slice(0, 10);
+
+  function esc(s) {
+    return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  function formatDate(iso) {
+    return new Date(iso + 'T00:00:00').toLocaleDateString('pt-PT', { weekday:'short', day:'numeric', month:'short' });
+  }
+
+  function formatDateLong(iso) {
+    return new Date(iso + 'T00:00:00').toLocaleDateString('pt-PT', { weekday:'long', day:'numeric', month:'long', year:'numeric' });
+  }
+
+  function getCategoryClass(cat) {
+    return { 'Teatro':'teatro','Dança':'danca','Ópera':'opera',
+      'Teatro Musical':'musical','Circo':'circo','Infanto-Juvenil':'infantil',
+      'Performance':'performance','Música':'musica' }[cat] || 'outro';
+  }
+
+  const ACCESS_ICONS = {
+    'LGP': '🤟', 'Audiodescrição': '🎧',
+    'Legendagem': '📝', 'Acesso cadeira de rodas': '♿',
+    'Relaxed performance': '🟡'
+  };
+
+  /* ── Carregar evento ────────────────────────────────────── */
+  async function loadEvent() {
+    try {
+      let ev = null;
+
+      // Tentar by-theater primeiro se theater_id disponível
+      // Mas como não sabemos o theater_id sem o evento, começar pelo events.json completo
+      try {
+        const r = await fetch('/data/events.slim.json');
+        if (r.ok) {
+          const all = await r.json();
+          ev = all.find(e => e.id === eventId);
+        }
+      } catch (_) {}
+
+      // Se não encontrou ou não tem dados completos, tentar events.json
+      if (!ev || !ev.synopsis) {
+        try {
+          const r2 = await fetch('/events.json');
+          if (r2.ok) {
+            const all = await r2.json();
+            const found = all.find(e => e.id === eventId);
+            if (found) ev = found;
+          }
+        } catch (_) {}
+      }
+
+      // Se tem theater_id, tentar dados completos do by-theater
+      if (ev && ev.theater_id && (!ev.technical_sheet || !ev.sessions)) {
+        try {
+          const r3 = await fetch(`/data/by-theater/${ev.theater_id}.json`);
+          if (r3.ok) {
+            const all = await r3.json();
+            const found = all.find(e => e.id === eventId);
+            if (found) ev = found;
+          }
+        } catch (_) {}
+      }
+
+      if (!ev) throw new Error('Evento não encontrado');
+
+      render(ev);
+    } catch (_) {
+      document.getElementById('state-error').hidden = false;
+    }
+  }
+
+  /* ── Renderizar evento ──────────────────────────────────── */
+  function render(ev) {
+    const imageUrl = ev.image_url || (ev.image && ev.image.url) || null;
+    const imageCredit = ev.image && ev.image.credit ? ev.image.credit : null;
+    const ns = ev.next_session || ev.date_start;
+
+    // ── Meta tags ──
+    const pageTitle = `${ev.title}${ev.theater ? ' — ' + ev.theater : ''} — Primeira Plateia`;
+    document.getElementById('page-title').textContent = pageTitle;
+    document.getElementById('page-desc').setAttribute('content', ev.synopsis ? ev.synopsis.slice(0, 155) : pageTitle);
+    document.getElementById('page-canonical').setAttribute('href', `https://www.primeiraplateia.pt/espetaculo/?id=${eventId}`);
+    document.getElementById('og-title').setAttribute('content', pageTitle);
+    document.getElementById('og-desc').setAttribute('content', ev.synopsis ? ev.synopsis.slice(0, 155) : pageTitle);
+    document.getElementById('og-url').setAttribute('content', `https://www.primeiraplateia.pt/espetaculo/?id=${eventId}`);
+    document.getElementById('tw-title').setAttribute('content', pageTitle);
+    document.getElementById('tw-desc').setAttribute('content', ev.synopsis ? ev.synopsis.slice(0, 155) : pageTitle);
+    if (imageUrl) {
+      document.getElementById('og-image').setAttribute('content', imageUrl);
+      document.getElementById('tw-image').setAttribute('content', imageUrl);
+    }
+
+    // ── JSON-LD Event ──
+    const ld = {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": ev.title,
+      "url": `https://www.primeiraplateia.pt/espetaculo/?id=${eventId}`,
+      "description": ev.synopsis || '',
+      "startDate": ev.date_start,
+      "endDate": ev.date_end || ev.date_start,
+      "inLanguage": "pt-PT",
+      "location": {
+        "@type": "PerformingArtsTheater",
+        "name": ev.theater || '',
+        "address": { "@type": "PostalAddress", "addressLocality": ev.city || '', "addressCountry": "PT" }
+      },
+      "organizer": { "@type": "Organization", "name": ev.theater || '' },
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode"
+    };
+    if (imageUrl) ld.image = imageUrl;
+    if (ev.price_min !== undefined) {
+      ld.offers = {
+        "@type": "Offer",
+        "price": ev.price_min,
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "url": ev.ticket_url || ev.source_url || ''
+      };
+    }
+    document.getElementById('ld-json').textContent = JSON.stringify(ld);
+
+    // ── Backdrop ──
+    if (imageUrl) {
+      const backdrop = document.getElementById('ev-backdrop');
+      backdrop.style.backgroundImage = `url(${imageUrl})`;
+      // Usar um img temporário para detectar quando carregou
+      const img = new Image();
+      img.onload = () => backdrop.classList.add('loaded');
+      img.src = imageUrl;
+    }
+
+    // ── Poster ──
+    const posterImg = document.getElementById('ev-poster-img');
+    if (imageUrl) {
+      posterImg.innerHTML = `<img src="${esc(imageUrl)}" alt="Cartaz de ${esc(ev.title)}" loading="eager"/>`;
+    }
+    if (imageCredit) {
+      const creditEl = document.getElementById('img-credit');
+      creditEl.textContent = imageCredit;
+      creditEl.hidden = false;
+    }
+
+    // Botão de bilhetes no poster (mobile)
+    if (ev.ticket_url) {
+      const pt = document.getElementById('poster-ticket');
+      pt.innerHTML = `<a href="${esc(ev.ticket_url)}" class="btn btn-accent" target="_blank" rel="noopener" style="width:100%">
+        <span aria-hidden="true">🎟️</span> Comprar bilhetes
+      </a>`;
+      pt.hidden = false;
+    }
+
+    // ── Breadcrumb ──
+    document.getElementById('breadcrumb-name').textContent = ev.title;
+
+    // ── Tags ──
+    const tagsEl = document.getElementById('ev-tags');
+    const tags = [];
+    if (ev.category) tags.push(`<span class="pill pill-${getCategoryClass(ev.category)}">${esc(ev.category)}</span>`);
+    if (ev.tags) ev.tags.forEach(t => tags.push(`<span class="pill pill-neutral">${esc(t)}</span>`));
+    if (ev.sala) tags.push(`<span class="pill pill-neutral">🎭 ${esc(ev.sala)}</span>`);
+    tagsEl.innerHTML = tags.join('');
+
+    // ── Título e subtítulo ──
+    document.getElementById('ev-title').textContent = ev.title;
+    if (ev.subtitle) {
+      const sub = document.getElementById('ev-subtitle');
+      sub.textContent = ev.subtitle;
+      sub.hidden = false;
+    }
+
+    // ── Link do teatro ──
+    const theatLink = document.getElementById('ev-theater-link');
+    document.getElementById('ev-theater-name').textContent = ev.theater || '';
+    if (ev.theater_id) {
+      theatLink.href = `/teatros/${ev.theater_id}/`;
+    }
+
+    // ── Meta rápida ──
+    const metaEl = document.getElementById('ev-quick-meta');
+    const metaItems = [];
+
+    if (ev.dates_label || (ev.date_start && ev.date_end)) {
+      metaItems.push(`<div class="quick-meta-item">
+        <span class="quick-meta-label">Período</span>
+        <span class="quick-meta-value">${esc(ev.dates_label || ev.date_start)}</span>
+      </div>`);
+    }
+
+    if (ev.price_info) {
+      metaItems.push(`<div class="quick-meta-sep" aria-hidden="true"></div>
+      <div class="quick-meta-item">
+        <span class="quick-meta-label">Preço</span>
+        <span class="quick-meta-value accent">${esc(ev.price_info)}</span>
+      </div>`);
+    }
+
+    if (ev.duration) {
+      metaItems.push(`<div class="quick-meta-sep" aria-hidden="true"></div>
+      <div class="quick-meta-item">
+        <span class="quick-meta-label">Duração</span>
+        <span class="quick-meta-value">${esc(ev.duration)}</span>
+      </div>`);
+    }
+
+    if (ev.age_rating) {
+      metaItems.push(`<div class="quick-meta-sep" aria-hidden="true"></div>
+      <div class="quick-meta-item">
+        <span class="quick-meta-label">Classificação</span>
+        <span class="quick-meta-value">${esc(ev.age_rating)}</span>
+      </div>`);
+    }
+
+    metaEl.innerHTML = metaItems.join('');
+
+    // ── Acções ──
+    const actEl = document.getElementById('ev-actions');
+    const actBtns = [];
+    if (ev.ticket_url) {
+      actBtns.push(`<a href="${esc(ev.ticket_url)}" class="btn btn-accent btn-lg" target="_blank" rel="noopener">
+        <span aria-hidden="true">🎟️</span> Comprar bilhetes
+      </a>`);
+    }
+    if (ev.source_url) {
+      actBtns.push(`<a href="${esc(ev.source_url)}" class="btn btn-outline" target="_blank" rel="noopener">
+        Ver no site do teatro →
+      </a>`);
+    }
+    actEl.innerHTML = actBtns.join('');
+
+    // ── Secções colapsáveis ──
+    document.getElementById('ev-sections').hidden = false;
+
+    // Sinopse
+    if (ev.synopsis) {
+      document.getElementById('synopsis-text').textContent = ev.synopsis;
+      document.getElementById('acc-sinopse').hidden = false;
+    }
+
+    // Sessões
+    const sessions = (ev.sessions || []).filter(s => s.date >= today);
+    if (sessions.length) {
+      const nextSession = sessions[0];
+      const grid = document.getElementById('sessions-grid');
+      grid.innerHTML = sessions.slice(0, 30).map((s, i) => `
+        <div class="session-card${i === 0 ? ' next' : ''}" aria-label="${formatDateLong(s.date)}${s.time ? ' às ' + s.time : ''}">
+          <span class="session-weekday">${s.weekday || new Date(s.date+'T00:00:00').toLocaleDateString('pt-PT',{weekday:'short'})}</span>
+          <span class="session-date">${new Date(s.date+'T00:00:00').toLocaleDateString('pt-PT',{day:'numeric',month:'short'})}</span>
+          ${s.time ? `<span class="session-time">${esc(s.time)}</span>` : ''}
+        </div>`).join('');
+
+      if (sessions.length > 30) {
+        grid.insertAdjacentHTML('beforeend', `<p class="sessions-no-data" style="grid-column:1/-1;margin-top:var(--space-2)">
+          + ${sessions.length - 30} sessões adicionais. <a href="${esc(ev.source_url||'#')}" target="_blank" rel="noopener">Ver todas →</a>
+        </p>`);
+      }
+
+      document.getElementById('acc-sessoes').hidden = false;
+
+      // Coluna lateral: próxima sessão
+      const sideNext = document.getElementById('side-next-session');
+      document.getElementById('side-next-date').textContent =
+        new Date(nextSession.date+'T00:00:00').toLocaleDateString('pt-PT',{day:'numeric',month:'long'});
+      if (nextSession.time) document.getElementById('side-next-time').textContent = nextSession.time;
+      sideNext.hidden = false;
+    } else if (ns) {
+      // Sem sessões mas tem next_session
+      const sideNext = document.getElementById('side-next-session');
+      document.getElementById('side-next-date').textContent =
+        new Date(ns+'T00:00:00').toLocaleDateString('pt-PT',{day:'numeric',month:'long'});
+      sideNext.hidden = false;
+    }
+
+    // Botão de bilhetes na coluna lateral
+    if (ev.ticket_url) {
+      document.getElementById('side-ticket-btn').innerHTML =
+        `<a href="${esc(ev.ticket_url)}" class="btn btn-accent" target="_blank" rel="noopener" style="width:100%">
+          <span aria-hidden="true">🎟️</span> Comprar bilhetes
+        </a>`;
+    }
+
+    // Link fonte na coluna lateral
+    if (ev.source_url) {
+      const sl = document.getElementById('side-source-link');
+      sl.href = ev.source_url;
+      sl.hidden = false;
+    }
+
+    // Ficha técnica
+    if (ev.technical_sheet && Object.keys(ev.technical_sheet).length) {
+      const table = document.getElementById('technical-table');
+      table.innerHTML = Object.entries(ev.technical_sheet)
+        .filter(([, v]) => v)
+        .map(([k, v]) => `<tr><td>${esc(k)}</td><td>${esc(v)}</td></tr>`)
+        .join('');
+      document.getElementById('acc-ficha').hidden = false;
+    }
+
+    // Acessibilidade
+    if (ev.accessibility && ev.accessibility.length) {
+      const accessList = document.getElementById('access-list');
+      accessList.innerHTML = ev.accessibility.map(a => `
+        <div class="access-item">
+          <span aria-hidden="true">${ACCESS_ICONS[a] || '✓'}</span>
+          <span>${esc(a)}</span>
+        </div>`).join('');
+      document.getElementById('acc-access').hidden = false;
+    }
+
+    // ── Partilha ──
+    const pageUrl = window.location.href;
+    const shareText = `${ev.title}${ev.theater ? ' — ' + ev.theater : ''} via Primeira Plateia`;
+
+    document.getElementById('share-copy').addEventListener('click', async function () {
+      try {
+        await navigator.clipboard.writeText(pageUrl);
+        this.textContent = '✓ Copiado!';
+        setTimeout(() => { this.textContent = '🔗 Link'; }, 2000);
+      } catch (_) {
+        prompt('Copia este link:', pageUrl);
+      }
+    });
+
+    document.getElementById('share-twitter').href =
+      `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(pageUrl)}`;
+    document.getElementById('share-whatsapp').href =
+      `https://wa.me/?text=${encodeURIComponent(shareText + '\n' + pageUrl)}`;
+    document.getElementById('share-facebook').href =
+      `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(pageUrl)}`;
+  }
+
+  /* ── Accordion ──────────────────────────────────────────── */
+  document.querySelectorAll('.accordion-trigger').forEach(btn => {
+    btn.addEventListener('click', function () {
+      const expanded = this.getAttribute('aria-expanded') === 'true';
+      const bodyId = this.getAttribute('aria-controls');
+      const body = document.getElementById(bodyId);
+      this.setAttribute('aria-expanded', !expanded);
+      body.classList.toggle('open', !expanded);
+    });
+  });
+
+  /* ── Init ───────────────────────────────────────────────── */
+  loadEvent();
+
+  // Footer meta
+  fetch('/data/meta.json').then(r => r.ok ? r.json() : null).then(m => {
+    if (!m) return;
+    const fu = document.getElementById('footer-updated');
+    if (fu) {
+      const diff = Math.floor((Date.now() - new Date(m.updated_at)) / 3600000);
+      fu.textContent = `Actualizado há ${diff < 1 ? 'menos de 1h' : diff + 'h'}`;
+    }
+  }).catch(() => {});
+
+})();
+</script>
+</body>
+</html>

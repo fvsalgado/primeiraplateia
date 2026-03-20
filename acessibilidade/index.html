@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Acessibilidade — Primeira Plateia</title>
+<meta name="description" content="Declaração de acessibilidade da Primeira Plateia. Conformidade WCAG 2.1, funcionalidades e como reportar problemas."/>
+<meta name="theme-color" content="#1B2B4B"/>
+<meta name="robots" content="index, follow"/>
+<link rel="canonical" href="https://www.primeiraplateia.pt/acessibilidade/"/>
+<link rel="manifest" href="/manifest.webmanifest"/>
+<link rel="apple-touch-icon" href="/icons/icon-192.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link rel="stylesheet" href="/fonts/fonts.css"/>
+<link rel="stylesheet" href="/design/tokens.css"/>
+<link rel="stylesheet" href="/design/base.css"/>
+<script>(function(){var s=localStorage.getItem('pp-theme');var sys=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',s||sys);})();</script>
+<style>
+.legal-hero{padding:calc(var(--nav-h) + var(--space-12)) var(--space-12) var(--space-10);border-bottom:1px solid var(--surface-card-border);background:var(--surface-bg);}
+.legal-hero-inner{max-width:var(--max-w-text);margin:0 auto;}
+.legal-hero h1{font-family:var(--ff-display);font-size:clamp(var(--text-3xl),5vw,var(--text-5xl));font-weight:900;letter-spacing:-.03em;line-height:1;color:var(--text-primary);margin-bottom:var(--space-3);}
+.legal-hero h1 em{font-style:italic;color:var(--color-accent);}
+.legal-meta{font-size:var(--text-sm);color:var(--text-muted);display:flex;align-items:center;gap:var(--space-3);}
+.legal-body{padding:var(--space-12) var(--space-12) var(--space-24);}
+.legal-body-inner{max-width:var(--max-w-text);margin:0 auto;}
+.legal-body h2{font-family:var(--ff-display);font-size:var(--text-2xl);font-weight:700;letter-spacing:-.01em;color:var(--text-primary);margin:var(--space-10) 0 var(--space-4);padding-top:var(--space-10);border-top:1px solid var(--surface-card-border);}
+.legal-body h2:first-child{margin-top:0;padding-top:0;border-top:none;}
+.legal-body p{font-size:var(--text-base);line-height:1.85;color:var(--text-secondary);margin-bottom:var(--space-4);}
+.legal-body ul{margin:var(--space-4) 0 var(--space-4) var(--space-6);display:flex;flex-direction:column;gap:var(--space-2);}
+.legal-body li{font-size:var(--text-base);line-height:1.75;color:var(--text-secondary);list-style:disc;padding-left:var(--space-2);}
+.legal-body a{color:var(--color-primary);text-decoration:underline;}
+.legal-body a:hover{color:var(--color-accent);}
+.legal-highlight{background:var(--surface-bg-2);border-left:3px solid var(--color-primary);border-radius:0 var(--radius-md) var(--radius-md) 0;padding:var(--space-5) var(--space-6);margin:var(--space-6) 0;}
+.legal-highlight p{margin-bottom:0;font-weight:500;color:var(--text-primary);}
+
+/* Tabela de conformidade */
+.conformidade-table {
+  width: 100%; border-collapse: collapse;
+  margin: var(--space-6) 0;
+  font-size: var(--text-sm);
+}
+.conformidade-table th {
+  text-align: left;
+  padding: var(--space-3) var(--space-4);
+  background: var(--surface-bg-2);
+  font-weight: 700; font-size: var(--text-xs);
+  letter-spacing: .08em; text-transform: uppercase;
+  color: var(--text-muted);
+  border-bottom: 2px solid var(--surface-card-border);
+}
+.conformidade-table td {
+  padding: var(--space-3) var(--space-4);
+  border-bottom: 1px solid var(--surface-card-border);
+  vertical-align: top; line-height: 1.6;
+  color: var(--text-secondary);
+}
+.conformidade-table tr:last-child td { border-bottom: none; }
+.status-ok { color: #166534; font-weight: 700; }
+.status-partial { color: #92400E; font-weight: 700; }
+[data-theme="dark"] .status-ok { color: #86EFAC; }
+[data-theme="dark"] .status-partial { color: #FCD34D; }
+
+@media(max-width:768px){
+  .legal-hero,.legal-body{padding-left:var(--space-5);padding-right:var(--space-5);}
+  .conformidade-table { font-size: var(--text-xs); }
+  .conformidade-table th, .conformidade-table td { padding: var(--space-2) var(--space-3); }
+}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Saltar para o conteúdo principal</a>
+<nav class="nav" role="navigation" aria-label="Navegação principal">
+  <a class="nav-brand" href="/" aria-label="Primeira Plateia — página inicial">
+    <span class="nav-brand-primeira">Primeira</span>
+    <span class="nav-brand-plateia">Plateia</span>
+  </a>
+  <div class="nav-right">
+    <ul class="nav-links" id="nav-menu" role="list">
+      <li><a href="/programacao/">Programação</a></li>
+      <li><a href="/calendario/">Calendário</a></li>
+      <li><a href="/teatros/">Teatros</a></li>
+      <li><a href="/sobre/">Sobre</a></li>
+    </ul>
+    <button class="theme-btn" id="theme-toggle" aria-label="Mudar para modo escuro" data-tip="Modo escuro">
+      <span class="i-moon" aria-hidden="true">🌙</span>
+      <span class="i-sun" aria-hidden="true">☀️</span>
+    </button>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-menu">☰</button>
+  </div>
+</nav>
+<main id="main-content">
+  <header class="legal-hero">
+    <div class="legal-hero-inner">
+      <p class="section-label" aria-hidden="true">Inclusão</p>
+      <h1>Acessibili<em>dade</em></h1>
+      <p class="legal-meta">
+        <span>Declaração: Março 2026</span>
+        <span aria-hidden="true">·</span>
+        <span>Norma: WCAG 2.1 Nível AA</span>
+      </p>
+    </div>
+  </header>
+  <div class="legal-body">
+    <div class="legal-body-inner">
+
+      <div class="legal-highlight">
+        <p>A acessibilidade não é uma funcionalidade extra — é uma exigência de base. Este site foi construído para ser utilizável por toda a gente, incluindo quem usa tecnologias de apoio.</p>
+      </div>
+
+      <h2>Compromisso</h2>
+      <p>A Primeira Plateia compromete-se a garantir a acessibilidade digital para pessoas com deficiência. Trabalhamos continuamente para melhorar a experiência de todos os utilizadores e aplicamos as normas de acessibilidade relevantes.</p>
+
+      <h2>Norma de referência</h2>
+      <p>Este site tem como referência as <strong>Web Content Accessibility Guidelines (WCAG) 2.1, Nível AA</strong>, publicadas pelo W3C. Estas normas definem como tornar o conteúdo web mais acessível a pessoas com deficiências visuais, auditivas, motoras ou cognitivas.</p>
+
+      <h2>Estado de conformidade</h2>
+      <p>A Primeira Plateia encontra-se em <strong>conformidade parcial</strong> com as WCAG 2.1 Nível AA. As áreas em que a conformidade é total ou parcial estão descritas abaixo.</p>
+
+      <table class="conformidade-table" aria-label="Estado de conformidade por área">
+        <thead>
+          <tr>
+            <th scope="col">Área</th>
+            <th scope="col">Estado</th>
+            <th scope="col">Notas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Navegação por teclado</td>
+            <td><span class="status-ok">✓ Conforme</span></td>
+            <td>Todos os elementos interactivos são acessíveis por teclado. Foco visível em todos os estados.</td>
+          </tr>
+          <tr>
+            <td>Skip link</td>
+            <td><span class="status-ok">✓ Conforme</span></td>
+            <td>"Saltar para o conteúdo principal" presente em todas as páginas.</td>
+          </tr>
+          <tr>
+            <td>Contraste de cor</td>
+            <td><span class="status-ok">✓ Conforme</span></td>
+            <td>Todos os rácios de contraste verificados: mínimo 4.5:1 para texto normal, 3:1 para texto grande. Modos claro e escuro.</td>
+          </tr>
+          <tr>
+            <td>Estrutura semântica</td>
+            <td><span class="status-ok">✓ Conforme</span></td>
+            <td>Uso correcto de headings (h1–h3), landmarks (nav, main, footer), listas e tabelas.</td>
+          </tr>
+          <tr>
+            <td>ARIA labels</td>
+            <td><span class="status-ok">✓ Conforme</span></td>
+            <td>Todos os elementos interactivos têm labels descritivas. Regiões live para conteúdo dinâmico.</td>
+          </tr>
+          <tr>
+            <td>Texto alternativo em imagens</td>
+            <td><span class="status-ok">✓ Conforme</span></td>
+            <td>Imagens decorativas com alt="" e aria-hidden. Imagens informativas com alt descritivo.</td>
+          </tr>
+          <tr>
+            <td>Preferência de movimento reduzido</td>
+            <td><span class="status-ok">✓ Conforme</span></td>
+            <td>Todas as animações são desactivadas quando prefers-reduced-motion está activo.</td>
+          </tr>
+          <tr>
+            <td>Redimensionamento de texto</td>
+            <td><span class="status-ok">✓ Conforme</span></td>
+            <td>O layout mantém-se funcional até 200% de zoom. Tipografia em unidades relativas (rem).</td>
+          </tr>
+          <tr>
+            <td>Modo escuro do sistema</td>
+            <td><span class="status-ok">✓ Conforme</span></td>
+            <td>Detecta e respeita prefers-color-scheme automaticamente.</td>
+          </tr>
+          <tr>
+            <td>Conteúdo de terceiros (mapas, imagens)</td>
+            <td><span class="status-partial">◑ Parcial</span></td>
+            <td>Os mapas OpenStreetMap e imagens dos teatros não estão sob nosso controlo. Os iframes de mapa têm title e aria-label.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Funcionalidades de acessibilidade</h2>
+      <ul>
+        <li><strong>Skip link</strong> — O primeiro elemento de cada página é um link "Saltar para o conteúdo principal", activado com Tab ao carregar a página.</li>
+        <li><strong>Foco visível</strong> — Todos os elementos interactivos têm um indicador de foco claro (contorno com offset) em modo de navegação por teclado.</li>
+        <li><strong>Modo escuro</strong> — O site detecta automaticamente a preferência do sistema operativo e adapta a paleta. A preferência pode ser alterada manualmente com o botão na navegação.</li>
+        <li><strong>Texto escalável</strong> — Toda a tipografia usa unidades relativas. O layout não quebra até 200% de zoom.</li>
+        <li><strong>Animações opcionais</strong> — Quem tem <code>prefers-reduced-motion: reduce</code> activo não vê animações.</li>
+        <li><strong>Regiões ARIA live</strong> — O conteúdo dinâmico (resultados de filtros, carregamento de espectáculos) é anunciado correctamente por leitores de ecrã.</li>
+        <li><strong>Accordion acessível</strong> — As secções colapsáveis usam <code>aria-expanded</code> e <code>aria-controls</code> correctamente.</li>
+      </ul>
+
+      <h2>Limitações conhecidas</h2>
+      <ul>
+        <li>As imagens dos espectáculos são fornecidas pelos teatros e podem não ter texto alternativo descritivo disponível. Usamos alt="" para imagens de cartaz (conteúdo decorativo) para não gerar ruído nos leitores de ecrã.</li>
+        <li>Os mapas de localização dos teatros (OpenStreetMap) são de terceiros e podem ter limitações de acessibilidade fora do nosso controlo. Em alternativa, a morada textual está sempre disponível.</li>
+      </ul>
+
+      <h2>Tecnologias de apoio testadas</h2>
+      <p>O site foi testado com as seguintes combinações:</p>
+      <ul>
+        <li>VoiceOver (macOS + Safari)</li>
+        <li>NVDA (Windows + Firefox)</li>
+        <li>TalkBack (Android + Chrome)</li>
+        <li>Navegação por teclado (sem rato) em Chrome, Firefox e Safari</li>
+      </ul>
+
+      <h2>Reportar um problema</h2>
+      <p>Se encontrares uma barreira de acessibilidade no nosso site, queremos saber. Podes contactar-nos por email com uma descrição do problema, a página onde ocorre e a tecnologia de apoio que estás a usar (se aplicável).</p>
+      <p><strong>Email:</strong> <a href="mailto:fabio@primeiraplateia.pt?subject=Problema de acessibilidade">fabio@primeiraplateia.pt</a></p>
+      <p>Comprometemo-nos a responder no prazo de 5 dias úteis.</p>
+
+      <h2>Mecanismo de recurso</h2>
+      <p>Se não ficares satisfeito com a nossa resposta, podes contactar o <a href="https://www.acessibilidade.gov.pt" target="_blank" rel="noopener">Organismo de Monitorização de Acessibilidade</a> (AMA — Agência para a Modernização Administrativa).</p>
+
+    </div>
+  </div>
+</main>
+<footer class="footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-brand-col">
+      <div class="footer-brand"><span class="footer-brand-primeira">Primeira</span><span class="footer-brand-plateia">Plateia</span></div>
+      <p class="footer-tagline">A agenda nacional de teatro, dança e artes performativas em Portugal.</p>
+    </div>
+    <div><p class="footer-col-title">Explorar</p><nav class="footer-col-links" aria-label="Explorar"><a href="/programacao/">Programação</a><a href="/calendario/">Calendário</a><a href="/teatros/">Teatros</a></nav></div>
+    <div><p class="footer-col-title">Sobre</p><nav class="footer-col-links" aria-label="Sobre"><a href="/sobre/">O projecto</a><a href="mailto:fabio@primeiraplateia.pt">Contacto</a></nav></div>
+    <div><p class="footer-col-title">Legal</p><nav class="footer-col-links" aria-label="Legal"><a href="/privacidade/">Privacidade</a><a href="/aviso-legal/">Aviso legal</a><a href="/acessibilidade/" aria-current="page">Acessibilidade</a></nav></div>
+  </div>
+  <div class="footer-bottom">
+    <p class="footer-legal">© <span id="footer-year"></span> Primeira Plateia. Conteúdo © dos respectivos teatros.</p>
+  </div>
+</footer>
+<script>
+(function(){
+  var themeBtn=document.getElementById('theme-toggle'),html=document.documentElement;
+  themeBtn.addEventListener('click',function(){var next=html.getAttribute('data-theme')==='dark'?'light':'dark';html.setAttribute('data-theme',next);localStorage.setItem('pp-theme',next);themeBtn.setAttribute('aria-label',next==='dark'?'Mudar para modo claro':'Mudar para modo escuro');});
+  var nt=document.getElementById('nav-toggle'),nm=document.getElementById('nav-menu');
+  nt.addEventListener('click',function(){var o=nm.classList.toggle('open');nt.setAttribute('aria-expanded',o);nt.textContent=o?'✕':'☰';});
+  document.addEventListener('click',function(e){if(!nm.contains(e.target)&&!nt.contains(e.target)){nm.classList.remove('open');nt.setAttribute('aria-expanded','false');nt.textContent='☰';}});
+  document.getElementById('footer-year').textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>

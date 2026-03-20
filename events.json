@@ -1,0 +1,25 @@
+{
+  "updated_at": "2026-03-20T00:45:32.153505+00:00",
+  "total": 0,
+  "by_theater": {
+    "Teatro Variedades": 0,
+    "Capitólio": 0,
+    "São Luiz Teatro Municipal": 0,
+    "Teatro Maria Matos": 0,
+    "Culturgest": 0,
+    "CCB — Centro Cultural de Belém": 0,
+    "Teatro Viriato": 0,
+    "Theatro Circo": 0,
+    "Teatro do Bairro": 0,
+    "Teatro da Trindade INATEL": 0,
+    "Teatro das Figuras": 0
+  },
+  "meta": {
+    "description": "Primeira Plateia — Agregação pública de programação cultural em Portugal. Conteúdos © respetivos teatros.",
+    "license_note": "Títulos, sinopses (excerto) e imagens são propriedade dos teatros indicados.",
+    "contact": "fabio@primeiraplateia.pt",
+    "takedown_url": "mailto:fabio@primeiraplateia.pt",
+    "takedown_sla": "Remoção em 48h mediante pedido."
+  },
+  "events": []
+}

@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Calendário — Primeira Plateia</title>
+<meta name="description" content="Calendário de espectáculos de teatro, dança e artes performativas em Portugal. Navega por dia, semana ou mês."/>
+<meta name="theme-color" content="#1B2B4B"/>
+<meta name="robots" content="index, follow"/>
+<link rel="canonical" href="https://www.primeiraplateia.pt/calendario/"/>
+<meta property="og:title" content="Calendário — Primeira Plateia"/>
+<meta property="og:description" content="Calendário de espectáculos de teatro, dança e artes performativas em Portugal."/>
+<meta property="og:url" content="https://www.primeiraplateia.pt/calendario/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:locale" content="pt_PT"/>
+<link rel="manifest" href="/manifest.webmanifest"/>
+<link rel="apple-touch-icon" href="/icons/icon-192.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link rel="stylesheet" href="/fonts/fonts.css"/>
+<link rel="stylesheet" href="/design/tokens.css"/>
+<link rel="stylesheet" href="/design/base.css"/>
+<script>(function(){var s=localStorage.getItem('pp-theme');var sys=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',s||sys);})();</script>
+
+<style>
+/* ── PAGE HEADER ────────────────────────────────────────────── */
+.page-header {
+  padding: calc(var(--nav-h) + var(--space-10)) var(--space-12) var(--space-8);
+  background: var(--surface-bg);
+  border-bottom: 1px solid var(--surface-card-border);
+}
+
+.page-header-inner {
+  max-width: var(--max-w);
+  margin: 0 auto;
+}
+
+.page-header h1 {
+  font-family: var(--ff-display);
+  font-size: clamp(var(--text-3xl), 5vw, var(--text-5xl));
+  font-weight: 900;
+  letter-spacing: -.03em;
+  line-height: 1;
+  color: var(--text-primary);
+  margin-bottom: var(--space-2);
+}
+
+.page-header h1 em {
+  font-style: italic;
+  color: var(--color-accent);
+}
+
+.page-header-sub {
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+}
+
+/* ── CALENDÁRIO WRAPPER ─────────────────────────────────────── */
+.cal-wrap {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: var(--space-8) var(--space-12) var(--space-24);
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: var(--space-8);
+  align-items: start;
+}
+
+/* ── PAINEL ESQUERDO: mini calendário ───────────────────────── */
+.cal-panel {
+  position: sticky;
+  top: calc(var(--nav-h) + var(--space-4));
+}
+
+.mini-cal {
+  background: var(--surface-card);
+  border: 1px solid var(--surface-card-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+/* Cabeçalho do mini-cal: mês + setas */
+.mini-cal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-4) var(--space-5);
+  border-bottom: 1px solid var(--surface-card-border);
+}
+
+.mini-cal-title {
+  font-family: var(--ff-display);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -.01em;
+  text-transform: capitalize;
+}
+
+.mini-cal-nav {
+  display: flex;
+  gap: var(--space-1);
+}
+
+.mini-cal-btn {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  background: none;
+  border: 1px solid var(--surface-card-border);
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 14px;
+  transition:
+    background var(--transition-fast),
+    border-color var(--transition-fast),
+    color var(--transition-fast);
+}
+
+.mini-cal-btn:hover {
+  background: var(--color-primary-light);
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.mini-cal-btn:focus-visible {
+  box-shadow: var(--focus-ring-offset);
+  outline: none;
+}
+
+/* Cabeçalho dos dias da semana */
+.mini-cal-weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: var(--space-3) var(--space-4) var(--space-2);
+  gap: var(--space-1);
+}
+
+.mini-cal-weekday {
+  text-align: center;
+  font-size: var(--text-xs);
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  padding: var(--space-1) 0;
+}
+
+/* Grelha de dias */
+.mini-cal-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 0 var(--space-4) var(--space-4);
+  gap: var(--space-1);
+}
+
+.cal-day {
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--text-secondary);
+  cursor: pointer;
+  border: none;
+  background: none;
+  position: relative;
+  transition:
+    background var(--transition-fast),
+    color var(--transition-fast);
+}
+
+.cal-day:hover:not(:disabled) {
+  background: var(--color-primary-light);
+  color: var(--color-primary);
+}
+
+.cal-day:focus-visible {
+  box-shadow: var(--focus-ring-offset);
+  outline: none;
+}
+
+.cal-day:disabled {
+  color: var(--text-muted);
+  opacity: .35;
+  cursor: default;
+}
+
+/* Dia de outro mês */
+.cal-day.other-month {
+  opacity: .3;
+}
+
+/* Hoje */
+.cal-day.today {
+  font-weight: 700;
+  color: var(--color-accent);
+}
+
+.cal-day.today::after {
+  content: '';
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--color-accent);
+}
+
+/* Dia seleccionado */
+.cal-day.selected {
+  background: var(--color-primary);
+  color: #fff;
+  font-weight: 700;
+}
+
+.cal-day.selected::after { display: none; }
+
+.cal-day.selected:hover {
+  background: var(--color-primary-dark);
+  color: #fff;
+}
+
+/* Tem eventos */
+.cal-day.has-events:not(.selected):not(:disabled) {
+  background: var(--color-primary-light);
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+[data-theme="dark"] .cal-day.has-events:not(.selected):not(:disabled) {
+  background: rgba(74,111,165,.15);
+  color: var(--color-primary);
+}
+
+/* Hoje com eventos */
+.cal-day.today.has-events:not(.selected) {
+  background: var(--color-accent-light);
+  color: var(--color-accent);
+}
+
+[data-theme="dark"] .cal-day.today.has-events:not(.selected) {
+  background: rgba(217,31,31,.15);
+}
+
+/* Legenda */
+.mini-cal-legend {
+  padding: var(--space-3) var(--space-5);
+  border-top: 1px solid var(--surface-card-border);
+  display: flex;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+}
+
+.legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: var(--radius-sm);
+  flex-shrink: 0;
+}
+
+/* Navegação rápida abaixo do calendário */
+.cal-quick-nav {
+  margin-top: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.cal-quick-btn {
+  padding: var(--space-2) var(--space-4);
+  background: var(--surface-card);
+  border: 1px solid var(--surface-card-border);
+  border-radius: var(--radius-md);
+  font-family: var(--ff-body);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--text-secondary);
+  cursor: pointer;
+  text-align: left;
+  transition:
+    background var(--transition-fast),
+    border-color var(--transition-fast),
+    color var(--transition-fast);
+}
+
+.cal-quick-btn:hover {
+  background: var(--color-primary-light);
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.cal-quick-btn.active {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+}
+
+/* ── PAINEL DIREITO: lista de eventos ───────────────────────── */
+.cal-events {
+  min-height: 400px;
+}
+
+.cal-events-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-6);
+  gap: var(--space-4);
+  flex-wrap: wrap;
+}
+
+.cal-events-title {
+  font-family: var(--ff-display);
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -.02em;
+  text-transform: capitalize;
+}
+
+.cal-events-count {
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Lista de eventos do dia */
+.day-events-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+/* Card horizontal de evento */
+.ev-row {
+  display: grid;
+  grid-template-columns: 80px 1fr auto;
+  gap: var(--space-4);
+  align-items: center;
+  background: var(--surface-card);
+  border: 1px solid var(--surface-card-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-4) var(--space-5);
+  text-decoration: none;
+  color: var(--text-primary);
+  transition:
+    border-color var(--transition-base),
+    box-shadow var(--transition-base),
+    transform var(--transition-fast);
+}
+
+.ev-row:hover {
+  border-color: rgba(27,43,75,.18);
+  box-shadow: var(--shadow-primary);
+  transform: translateY(-2px);
+}
+
+.ev-row:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring-offset), var(--shadow-primary);
+}
+
+.ev-row-img {
+  width: 80px;
+  height: 80px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  flex-shrink: 0;
+  background: var(--surface-bg-2);
+}
+
+.ev-row-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ev-row-img-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  opacity: .2;
+}
+
+.ev-row-body {}
+
+.ev-row-theater {
+  font-size: var(--text-xs);
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  margin-bottom: var(--space-1);
+}
+
+[data-theme="dark"] .ev-row-theater {
+  color: var(--color-primary);
+}
+
+.ev-row-title {
+  font-family: var(--ff-display);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--text-primary);
+  margin-bottom: var(--space-1);
+}
+
+.ev-row-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+.ev-row-time {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  color: var(--color-accent);
+}
+
+.ev-row-price {
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+}
+
+.ev-row-actions {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--space-2);
+}
+
+/* Agrupar por cidade */
+.city-group {}
+
+.city-group-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin: var(--space-8) 0 var(--space-4);
+}
+
+.city-group-header:first-child {
+  margin-top: 0;
+}
+
+.city-group-title {
+  font-size: var(--text-xs);
+  font-weight: 700;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.city-group-line {
+  flex: 1;
+  height: 1px;
+  background: var(--surface-card-border);
+}
+
+/* ── RESPONSIVE ─────────────────────────────────────────────── */
+@media (max-width: 1024px) {
+  .cal-wrap {
+    grid-template-columns: 280px 1fr;
+    gap: var(--space-6);
+  }
+}
+
+@media (max-width: 768px) {
+  .page-header,
+  .cal-wrap { padding-left: var(--space-5); padding-right: var(--space-5); }
+
+  .cal-wrap {
+    grid-template-columns: 1fr;
+  }
+
+  .cal-panel {
+    position: static;
+  }
+
+  .mini-cal-grid,
+  .mini-cal-weekdays {
+    padding-left: var(--space-3);
+    padding-right: var(--space-3);
+  }
+
+  .cal-quick-nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .cal-quick-btn {
+    flex: 1;
+    min-width: 120px;
+    text-align: center;
+  }
+
+  .ev-row {
+    grid-template-columns: 64px 1fr;
+  }
+
+  .ev-row-actions {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .ev-row {
+    grid-template-columns: 1fr;
+  }
+
+  .ev-row-img {
+    display: none;
+  }
+}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Saltar para o conteúdo principal</a>
+
+<!-- ── NAVEGAÇÃO ─────────────────────────────────────────────── -->
+<nav class="nav" role="navigation" aria-label="Navegação principal">
+  <a class="nav-brand" href="/" aria-label="Primeira Plateia — página inicial">
+    <span class="nav-brand-primeira">Primeira</span>
+    <span class="nav-brand-plateia">Plateia</span>
+  </a>
+  <div class="nav-right">
+    <ul class="nav-links" id="nav-menu" role="list">
+      <li><a href="/programacao/">Programação</a></li>
+      <li><a href="/calendario/" aria-current="page">Calendário</a></li>
+      <li><a href="/teatros/">Teatros</a></li>
+      <li><a href="/sobre/">Sobre</a></li>
+    </ul>
+    <button class="theme-btn" id="theme-toggle" aria-label="Mudar para modo escuro" data-tip="Modo escuro">
+      <span class="i-moon" aria-hidden="true">🌙</span>
+      <span class="i-sun" aria-hidden="true">☀️</span>
+    </button>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-menu">☰</button>
+  </div>
+</nav>
+
+<main id="main-content">
+
+  <header class="page-header">
+    <div class="page-header-inner">
+      <p class="section-label" aria-hidden="true">Datas</p>
+      <h1>Calen<em>dário</em></h1>
+      <p class="page-header-sub">Navega por dia e descobre o que há em cena.</p>
+    </div>
+  </header>
+
+  <div class="cal-wrap">
+
+    <!-- Painel esquerdo: mini calendário + navegação rápida -->
+    <aside class="cal-panel" aria-label="Navegação por data">
+
+      <div class="mini-cal" role="application" aria-label="Calendário mensal">
+        <div class="mini-cal-header">
+          <span class="mini-cal-title" id="cal-month-label" aria-live="polite"></span>
+          <div class="mini-cal-nav">
+            <button class="mini-cal-btn" id="cal-prev" aria-label="Mês anterior">‹</button>
+            <button class="mini-cal-btn" id="cal-today-btn" aria-label="Ir para hoje" title="Hoje">○</button>
+            <button class="mini-cal-btn" id="cal-next" aria-label="Próximo mês">›</button>
+          </div>
+        </div>
+
+        <div class="mini-cal-weekdays" role="row" aria-hidden="true">
+          <span class="mini-cal-weekday">Seg</span>
+          <span class="mini-cal-weekday">Ter</span>
+          <span class="mini-cal-weekday">Qua</span>
+          <span class="mini-cal-weekday">Qui</span>
+          <span class="mini-cal-weekday">Sex</span>
+          <span class="mini-cal-weekday">Sáb</span>
+          <span class="mini-cal-weekday">Dom</span>
+        </div>
+
+        <div class="mini-cal-grid" id="cal-grid" role="grid" aria-label="Dias do mês"></div>
+
+        <div class="mini-cal-legend" aria-hidden="true">
+          <span class="legend-item">
+            <span class="legend-dot" style="background:var(--color-primary-light);border:1.5px solid var(--color-primary)"></span>
+            Com espectáculos
+          </span>
+          <span class="legend-item">
+            <span class="legend-dot" style="background:var(--color-accent-light);border:1.5px solid var(--color-accent)"></span>
+            Hoje
+          </span>
+        </div>
+      </div>
+
+      <!-- Navegação rápida -->
+      <nav class="cal-quick-nav" aria-label="Atalhos de data">
+        <button class="cal-quick-btn" id="btn-hoje">📅 Hoje</button>
+        <button class="cal-quick-btn" id="btn-amanha">Amanhã</button>
+        <button class="cal-quick-btn" id="btn-fds">Este fim-de-semana</button>
+        <button class="cal-quick-btn" id="btn-semana">Esta semana</button>
+      </nav>
+
+    </aside>
+
+    <!-- Painel direito: lista de eventos do dia/período seleccionado -->
+    <section class="cal-events" id="cal-events" aria-labelledby="cal-events-heading" aria-live="polite">
+
+      <div class="cal-events-header">
+        <h2 class="cal-events-title" id="cal-events-heading">A carregar…</h2>
+        <span class="cal-events-count" id="cal-events-count"></span>
+      </div>
+
+      <div id="events-list" class="day-events-list"></div>
+
+      <div class="state-empty" id="state-empty" hidden>
+        <div class="state-empty-icon" aria-hidden="true">📅</div>
+        <h3 class="state-empty-title">Sem espectáculos</h3>
+        <p class="state-empty-text">Não há espectáculos marcados para este dia. Experimenta outro dia ou vê a programação completa.</p>
+        <a href="/programacao/" class="btn btn-outline">Ver toda a programação</a>
+      </div>
+
+      <div class="state-empty" id="state-error" hidden>
+        <div class="state-empty-icon" aria-hidden="true">🎭</div>
+        <h3 class="state-empty-title">Programação indisponível</h3>
+        <p class="state-empty-text">Não foi possível carregar os dados. Tenta novamente em breve.</p>
+      </div>
+
+    </section>
+  </div>
+
+</main>
+
+<!-- ── RODAPÉ ─────────────────────────────────────────────────── -->
+<footer class="footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-brand-col">
+      <div class="footer-brand">
+        <span class="footer-brand-primeira">Primeira</span>
+        <span class="footer-brand-plateia">Plateia</span>
+      </div>
+      <p class="footer-tagline">A agenda nacional de teatro, dança e artes performativas em Portugal.</p>
+      <nav class="footer-social" aria-label="Redes sociais">
+        <a href="https://instagram.com/primeiraplateia" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+        </a>
+        <a href="https://facebook.com/primeiraplateia" target="_blank" rel="noopener" aria-label="Facebook">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        </a>
+        <a href="https://linkedin.com/company/primeiraplateia" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="https://youtube.com/@primeiraplateia" target="_blank" rel="noopener" aria-label="YouTube">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="white"/></svg>
+        </a>
+      </nav>
+    </div>
+    <div>
+      <p class="footer-col-title">Explorar</p>
+      <nav class="footer-col-links" aria-label="Explorar">
+        <a href="/programacao/">Programação</a>
+        <a href="/calendario/">Calendário</a>
+        <a href="/teatros/">Teatros</a>
+      </nav>
+    </div>
+    <div>
+      <p class="footer-col-title">Sobre</p>
+      <nav class="footer-col-links" aria-label="Sobre">
+        <a href="/sobre/">O projecto</a>
+        <a href="mailto:fabio@primeiraplateia.pt">Contacto</a>
+      </nav>
+    </div>
+    <div>
+      <p class="footer-col-title">Legal</p>
+      <nav class="footer-col-links" aria-label="Legal">
+        <a href="/privacidade/">Privacidade</a>
+        <a href="/aviso-legal/">Aviso legal</a>
+        <a href="/acessibilidade/">Acessibilidade</a>
+      </nav>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p class="footer-legal">© <span id="footer-year"></span> Primeira Plateia. Conteúdo © dos respectivos teatros.</p>
+    <p class="footer-meta"><span class="footer-meta-dot" aria-hidden="true"></span><span id="footer-updated"></span></p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  /* ── Tema ───────────────────────────────────────────────── */
+  const themeBtn = document.getElementById('theme-toggle');
+  const html = document.documentElement;
+  themeBtn.addEventListener('click', function () {
+    const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    html.setAttribute('data-theme', next);
+    localStorage.setItem('pp-theme', next);
+    themeBtn.setAttribute('aria-label', next === 'dark' ? 'Mudar para modo claro' : 'Mudar para modo escuro');
+    themeBtn.setAttribute('data-tip', next === 'dark' ? 'Modo claro' : 'Modo escuro');
+  });
+
+  /* ── Menu mobile ────────────────────────────────────────── */
+  const navToggle = document.getElementById('nav-toggle');
+  const navMenu   = document.getElementById('nav-menu');
+  navToggle.addEventListener('click', function () {
+    const isOpen = navMenu.classList.toggle('open');
+    navToggle.setAttribute('aria-expanded', isOpen);
+    navToggle.textContent = isOpen ? '✕' : '☰';
+  });
+  document.addEventListener('click', function (e) {
+    if (!navMenu.contains(e.target) && !navToggle.contains(e.target)) {
+      navMenu.classList.remove('open');
+      navToggle.setAttribute('aria-expanded', 'false');
+      navToggle.textContent = '☰';
+    }
+  });
+
+  document.getElementById('footer-year').textContent = new Date().getFullYear();
+
+  /* ── Utilitários de data ────────────────────────────────── */
+  const MONTHS_PT = ['Janeiro','Fevereiro','Março','Abril','Maio','Junho',
+                     'Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'];
+  const WEEKDAYS_PT = ['Segunda','Terça','Quarta','Quinta','Sexta','Sábado','Domingo'];
+
+  function toISO(y, m, d) {
+    return `${y}-${String(m+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
+  }
+
+  function todayISO() {
+    return new Date().toISOString().slice(0,10);
+  }
+
+  function addDays(iso, n) {
+    const d = new Date(iso + 'T00:00:00');
+    d.setDate(d.getDate() + n);
+    return d.toISOString().slice(0,10);
+  }
+
+  function formatDayLabel(iso) {
+    const d = new Date(iso + 'T00:00:00');
+    const today = todayISO();
+    if (iso === today) return 'Hoje — ' + d.toLocaleDateString('pt-PT', { weekday:'long', day:'numeric', month:'long' });
+    if (iso === addDays(today, 1)) return 'Amanhã — ' + d.toLocaleDateString('pt-PT', { weekday:'long', day:'numeric', month:'long' });
+    return d.toLocaleDateString('pt-PT', { weekday:'long', day:'numeric', month:'long', year:'numeric' });
+  }
+
+  function formatRangeLabel(from, to) {
+    const df = new Date(from + 'T00:00:00');
+    const dt = new Date(to + 'T00:00:00');
+    const today = todayISO();
+    const monday = getMonday(today);
+    const sunday = getSunday(today);
+    if (from === monday && to === sunday) return 'Esta semana';
+    const sat = addDays(sunday, -1);
+    if (from === sat && to === sunday) return 'Este fim-de-semana';
+    return df.toLocaleDateString('pt-PT',{day:'numeric',month:'short'}) + ' – ' + dt.toLocaleDateString('pt-PT',{day:'numeric',month:'short'});
+  }
+
+  function getMonday(iso) {
+    const d = new Date(iso + 'T00:00:00');
+    const day = d.getDay();
+    const diff = d.getDate() - day + (day === 0 ? -6 : 1);
+    d.setDate(diff);
+    return d.toISOString().slice(0,10);
+  }
+
+  function getSunday(iso) {
+    const monday = getMonday(iso);
+    return addDays(monday, 6);
+  }
+
+  /* ── Estado ─────────────────────────────────────────────── */
+  const state = {
+    viewYear: new Date().getFullYear(),
+    viewMonth: new Date().getMonth(),
+    selectedDate: todayISO(),
+    selectedRange: null, // { from, to } ou null
+    mode: 'day'          // 'day' | 'range'
+  };
+
+  let allEvents = [];
+  // Mapa: ISO date → array de eventos com sessão nesse dia
+  let eventsByDate = {};
+
+  /* ── Carregar dados ─────────────────────────────────────── */
+  async function loadData() {
+    try {
+      let data;
+      try {
+        const r = await fetch('/data/events.slim.json');
+        if (r.ok) data = await r.json(); else throw new Error();
+      } catch (_) {
+        const r2 = await fetch('/events.json');
+        if (!r2.ok) throw new Error('Sem dados');
+        data = await r2.json();
+      }
+
+      allEvents = data;
+
+      // Indexar por data
+      allEvents.forEach(ev => {
+        const today = todayISO();
+        if (ev.sessions && ev.sessions.length) {
+          ev.sessions.forEach(s => {
+            if (s.date >= today) {
+              if (!eventsByDate[s.date]) eventsByDate[s.date] = [];
+              // Evitar duplicados
+              if (!eventsByDate[s.date].find(e => e.id === ev.id && e._sessionTime === s.time)) {
+                eventsByDate[s.date].push({ ...ev, _sessionTime: s.time, _sessionDate: s.date });
+              }
+            }
+          });
+        } else {
+          // Sem sessões: usar next_session ou date_start
+          const d = ev.next_session || ev.date_start;
+          if (d && d >= today) {
+            if (!eventsByDate[d]) eventsByDate[d] = [];
+            if (!eventsByDate[d].find(e => e.id === ev.id)) {
+              eventsByDate[d].push({ ...ev, _sessionDate: d });
+            }
+          }
+        }
+      });
+
+      renderCalendar();
+      renderEvents();
+
+    } catch (_) {
+      document.getElementById('state-error').hidden = false;
+      document.getElementById('events-list').hidden = true;
+    }
+  }
+
+  /* ── Renderizar mini calendário ─────────────────────────── */
+  function renderCalendar() {
+    const { viewYear, viewMonth } = state;
+    document.getElementById('cal-month-label').textContent =
+      MONTHS_PT[viewMonth] + ' ' + viewYear;
+
+    const grid = document.getElementById('cal-grid');
+    grid.innerHTML = '';
+
+    const firstDay = new Date(viewYear, viewMonth, 1).getDay();
+    // Ajustar: domingo=0 → 6, segunda=1 → 0
+    const startOffset = (firstDay === 0 ? 6 : firstDay - 1);
+    const daysInMonth = new Date(viewYear, viewMonth + 1, 0).getDate();
+    const daysInPrevMonth = new Date(viewYear, viewMonth, 0).getDate();
+    const today = todayISO();
+
+    // Dias do mês anterior
+    for (let i = startOffset - 1; i >= 0; i--) {
+      const d = daysInPrevMonth - i;
+      const iso = toISO(viewMonth === 0 ? viewYear - 1 : viewYear, viewMonth === 0 ? 11 : viewMonth - 1, d);
+      grid.appendChild(makeDayBtn(d, iso, true));
+    }
+
+    // Dias do mês actual
+    for (let d = 1; d <= daysInMonth; d++) {
+      const iso = toISO(viewYear, viewMonth, d);
+      grid.appendChild(makeDayBtn(d, iso, false));
+    }
+
+    // Completar última linha
+    const totalCells = startOffset + daysInMonth;
+    const remainder = totalCells % 7 === 0 ? 0 : 7 - (totalCells % 7);
+    for (let d = 1; d <= remainder; d++) {
+      const iso = toISO(viewMonth === 11 ? viewYear + 1 : viewYear, viewMonth === 11 ? 0 : viewMonth + 1, d);
+      grid.appendChild(makeDayBtn(d, iso, true));
+    }
+  }
+
+  function makeDayBtn(dayNum, iso, otherMonth) {
+    const btn = document.createElement('button');
+    btn.className = 'cal-day';
+    btn.textContent = dayNum;
+    btn.setAttribute('aria-label', new Date(iso + 'T00:00:00').toLocaleDateString('pt-PT', { day:'numeric', month:'long' }));
+
+    const today = todayISO();
+    if (otherMonth)                     btn.classList.add('other-month');
+    if (iso === today)                  btn.classList.add('today');
+    if (iso === state.selectedDate && state.mode === 'day') btn.classList.add('selected');
+    if (eventsByDate[iso]?.length)      btn.classList.add('has-events');
+    if (iso < today && !otherMonth) {
+      btn.disabled = true;
+    }
+
+    btn.addEventListener('click', function () {
+      state.selectedDate = iso;
+      state.mode = 'day';
+      state.selectedRange = null;
+      // Navegar para o mês do dia clicado se for outro mês
+      if (otherMonth) {
+        const d = new Date(iso + 'T00:00:00');
+        state.viewYear = d.getFullYear();
+        state.viewMonth = d.getMonth();
+        renderCalendar();
+      } else {
+        // Só actualizar selected
+        document.querySelectorAll('.cal-day.selected').forEach(el => el.classList.remove('selected'));
+        btn.classList.add('selected');
+      }
+      clearQuickActive();
+      renderEvents();
+    });
+
+    return btn;
+  }
+
+  function clearQuickActive() {
+    document.querySelectorAll('.cal-quick-btn').forEach(b => b.classList.remove('active'));
+  }
+
+  /* ── Renderizar lista de eventos ────────────────────────── */
+  function renderEvents() {
+    const list  = document.getElementById('events-list');
+    const empty = document.getElementById('state-empty');
+    const title = document.getElementById('cal-events-heading');
+    const count = document.getElementById('cal-events-count');
+
+    let events = [];
+    let dates  = [];
+
+    if (state.mode === 'day') {
+      dates = [state.selectedDate];
+      title.textContent = formatDayLabel(state.selectedDate);
+    } else {
+      const { from, to } = state.selectedRange;
+      let d = from;
+      while (d <= to) { dates.push(d); d = addDays(d, 1); }
+      title.textContent = formatRangeLabel(from, to);
+    }
+
+    // Recolher todos os eventos dos dias
+    const seen = new Set();
+    dates.forEach(d => {
+      (eventsByDate[d] || []).forEach(ev => {
+        const key = ev.id + '_' + (ev._sessionTime || '');
+        if (!seen.has(key)) { seen.add(key); events.push(ev); }
+      });
+    });
+
+    count.textContent = events.length
+      ? `${events.length} espectáculo${events.length !== 1 ? 's' : ''}`
+      : '';
+
+    if (events.length === 0) {
+      list.innerHTML = '';
+      list.hidden = true;
+      empty.hidden = false;
+      return;
+    }
+
+    list.hidden = false;
+    empty.hidden = true;
+
+    if (state.mode === 'day') {
+      // Agrupar por cidade
+      const byCidade = {};
+      events.forEach(ev => {
+        const c = ev.city || 'Outro';
+        if (!byCidade[c]) byCidade[c] = [];
+        byCidade[c].push(ev);
+      });
+
+      list.innerHTML = Object.entries(byCidade)
+        .sort(([a],[b]) => a.localeCompare(b, 'pt'))
+        .map(([cidade, evs]) => `
+          <div class="city-group">
+            <div class="city-group-header" aria-hidden="true">
+              <span class="city-group-title">${cidade}</span>
+              <span class="city-group-line"></span>
+            </div>
+            ${evs.map(ev => renderEvRow(ev)).join('')}
+          </div>`).join('');
+    } else {
+      // Vista de intervalo: agrupar por data
+      list.innerHTML = dates
+        .filter(d => eventsByDate[d]?.length)
+        .map(d => {
+          const label = new Date(d + 'T00:00:00').toLocaleDateString('pt-PT', { weekday:'long', day:'numeric', month:'long' });
+          return `
+            <div class="city-group">
+              <div class="city-group-header" aria-hidden="true">
+                <span class="city-group-title" style="text-transform:capitalize">${label}</span>
+                <span class="city-group-line"></span>
+              </div>
+              ${(eventsByDate[d] || []).map(ev => renderEvRow(ev)).join('')}
+            </div>`;
+        }).join('');
+    }
+  }
+
+  function renderEvRow(ev) {
+    const imgHtml = ev.image_url
+      ? `<img src="${ev.image_url}" alt="" loading="lazy" decoding="async"/>`
+      : `<div class="ev-row-img-placeholder" aria-hidden="true">🎭</div>`;
+    const timeStr = ev._sessionTime ? `🕐 ${ev._sessionTime}` : '';
+    const ticketBtn = ev.ticket_url
+      ? `<a href="${ev.ticket_url}" class="btn btn-accent btn-sm" target="_blank" rel="noopener" aria-label="Comprar bilhete para ${ev.title}">Bilhetes</a>`
+      : '';
+
+    return `
+      <a class="ev-row" href="/espetaculo/?id=${ev.id}" aria-label="${ev.title}${ev.theater ? ' — ' + ev.theater : ''}">
+        <div class="ev-row-img">${imgHtml}</div>
+        <div class="ev-row-body">
+          <p class="ev-row-theater">${ev.theater || ''}</p>
+          <h3 class="ev-row-title">${ev.title}</h3>
+          <div class="ev-row-meta">
+            ${timeStr ? `<span class="ev-row-time">${timeStr}</span>` : ''}
+            ${ev.price_info ? `<span class="ev-row-price">${ev.price_info}</span>` : ''}
+            ${ev.sala ? `<span class="pill pill-neutral" style="font-size:10px">${ev.sala}</span>` : ''}
+          </div>
+        </div>
+        <div class="ev-row-actions">
+          ${ticketBtn}
+        </div>
+      </a>`;
+  }
+
+  /* ── Navegação do calendário ────────────────────────────── */
+  document.getElementById('cal-prev').addEventListener('click', function () {
+    if (state.viewMonth === 0) { state.viewYear--; state.viewMonth = 11; }
+    else state.viewMonth--;
+    renderCalendar();
+  });
+
+  document.getElementById('cal-next').addEventListener('click', function () {
+    if (state.viewMonth === 11) { state.viewYear++; state.viewMonth = 0; }
+    else state.viewMonth++;
+    renderCalendar();
+  });
+
+  document.getElementById('cal-today-btn').addEventListener('click', function () {
+    const now = new Date();
+    state.viewYear = now.getFullYear();
+    state.viewMonth = now.getMonth();
+    state.selectedDate = todayISO();
+    state.mode = 'day';
+    state.selectedRange = null;
+    renderCalendar();
+    clearQuickActive();
+    renderEvents();
+  });
+
+  /* ── Atalhos rápidos ────────────────────────────────────── */
+  document.getElementById('btn-hoje').addEventListener('click', function () {
+    state.selectedDate = todayISO();
+    state.mode = 'day';
+    state.selectedRange = null;
+    const now = new Date();
+    state.viewYear = now.getFullYear();
+    state.viewMonth = now.getMonth();
+    renderCalendar();
+    setQuickActive(this);
+    renderEvents();
+  });
+
+  document.getElementById('btn-amanha').addEventListener('click', function () {
+    state.selectedDate = addDays(todayISO(), 1);
+    state.mode = 'day';
+    state.selectedRange = null;
+    const d = new Date(state.selectedDate + 'T00:00:00');
+    state.viewYear = d.getFullYear();
+    state.viewMonth = d.getMonth();
+    renderCalendar();
+    setQuickActive(this);
+    renderEvents();
+  });
+
+  document.getElementById('btn-fds').addEventListener('click', function () {
+    const saturday = addDays(getSunday(todayISO()), -1);
+    const sunday   = getSunday(todayISO());
+    state.selectedRange = { from: saturday, to: sunday };
+    state.mode = 'range';
+    setQuickActive(this);
+    renderEvents();
+  });
+
+  document.getElementById('btn-semana').addEventListener('click', function () {
+    state.selectedRange = { from: getMonday(todayISO()), to: getSunday(todayISO()) };
+    state.mode = 'range';
+    setQuickActive(this);
+    renderEvents();
+  });
+
+  function setQuickActive(btn) {
+    clearQuickActive();
+    btn.classList.add('active');
+  }
+
+  /* ── Init ───────────────────────────────────────────────── */
+  loadData();
+
+  // Meta do footer
+  fetch('/data/meta.json').then(r => r.ok ? r.json() : null).then(m => {
+    if (!m) return;
+    const fu = document.getElementById('footer-updated');
+    if (fu) {
+      const diff = Math.floor((Date.now() - new Date(m.updated_at)) / 3600000);
+      fu.textContent = `Actualizado há ${diff < 1 ? 'menos de 1h' : diff + 'h'}`;
+    }
+  }).catch(() => {});
+
+})();
+</script>
+</body>
+</html>

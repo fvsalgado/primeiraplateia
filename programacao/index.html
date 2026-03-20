@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Programação — Primeira Plateia</title>
+<meta name="description" content="Agenda completa de teatro, dança, ópera e artes performativas em Portugal. Filtra por cidade, categoria, data e preço."/>
+<meta name="theme-color" content="#1B2B4B"/>
+<meta name="robots" content="index, follow"/>
+<link rel="canonical" href="https://www.primeiraplateia.pt/programacao/"/>
+
+<meta property="og:title" content="Programação — Primeira Plateia"/>
+<meta property="og:description" content="Agenda completa de teatro, dança, ópera e artes performativas em Portugal."/>
+<meta property="og:url" content="https://www.primeiraplateia.pt/programacao/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:locale" content="pt_PT"/>
+
+<link rel="manifest" href="/manifest.webmanifest"/>
+<link rel="apple-touch-icon" href="/icons/icon-192.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link rel="stylesheet" href="/fonts/fonts.css"/>
+<link rel="stylesheet" href="/design/tokens.css"/>
+<link rel="stylesheet" href="/design/base.css"/>
+<script>(function(){var s=localStorage.getItem('pp-theme');var sys=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',s||sys);})();</script>
+
+<style>
+/* ── PAGE HEADER ────────────────────────────────────────────── */
+.page-header {
+  padding: calc(var(--nav-h) + var(--space-12)) var(--space-12) var(--space-10);
+  background: var(--surface-bg);
+  border-bottom: 1px solid var(--surface-card-border);
+}
+
+.page-header-inner {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--space-6);
+  flex-wrap: wrap;
+}
+
+.page-header h1 {
+  font-family: var(--ff-display);
+  font-size: clamp(var(--text-3xl), 5vw, var(--text-5xl));
+  font-weight: 900;
+  letter-spacing: -.03em;
+  line-height: 1;
+  color: var(--text-primary);
+}
+
+.page-header h1 em {
+  font-style: italic;
+  color: var(--color-accent);
+}
+
+.page-header-meta {
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex-shrink: 0;
+}
+
+.page-header-meta strong {
+  font-weight: 700;
+  color: var(--text-secondary);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── BARRA DE FILTROS ───────────────────────────────────────── */
+.filters-bar {
+  position: sticky;
+  top: var(--nav-h);
+  z-index: calc(var(--z-nav) - 1);
+  background: rgba(248,249,250,.95);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--surface-card-border);
+  padding: var(--space-3) var(--space-12);
+  transition: background var(--transition-base);
+}
+
+[data-theme="dark"] .filters-bar {
+  background: rgba(12,15,20,.95);
+}
+
+.filters-inner {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+/* Campo de pesquisa */
+.search-wrap {
+  position: relative;
+  flex: 1;
+  min-width: 200px;
+  max-width: 360px;
+}
+
+.search-icon {
+  position: absolute;
+  left: var(--space-3);
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-muted);
+  font-size: 15px;
+  pointer-events: none;
+}
+
+.search-input {
+  width: 100%;
+  padding: var(--space-2) var(--space-3) var(--space-2) calc(var(--space-3) + 22px);
+  background: var(--surface-card);
+  border: 1px solid var(--surface-card-border);
+  border-radius: var(--radius-full);
+  font-size: var(--text-sm);
+  color: var(--text-primary);
+  transition:
+    border-color var(--transition-fast),
+    box-shadow var(--transition-fast);
+  outline: none;
+  height: 38px;
+}
+
+.search-input::placeholder {
+  color: var(--text-muted);
+}
+
+.search-input:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px var(--color-primary-light);
+}
+
+[data-theme="dark"] .search-input:focus {
+  box-shadow: 0 0 0 3px rgba(74,111,165,.2);
+}
+
+/* Separador */
+.filters-sep {
+  width: 1px;
+  height: 24px;
+  background: var(--surface-divider);
+  flex-shrink: 0;
+}
+
+/* Selects de filtro */
+.filter-select {
+  padding: var(--space-2) var(--space-3);
+  background: var(--surface-card);
+  border: 1px solid var(--surface-card-border);
+  border-radius: var(--radius-full);
+  font-family: var(--ff-body);
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  cursor: pointer;
+  outline: none;
+  height: 38px;
+  transition:
+    border-color var(--transition-fast),
+    color var(--transition-fast);
+  appearance: none;
+  -webkit-appearance: none;
+  padding-right: var(--space-8);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%234A5568' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+}
+
+.filter-select:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px var(--color-primary-light);
+}
+
+.filter-select.active {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+/* Chips de filtro rápido */
+.filter-chips {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+  padding: var(--space-2) var(--space-12);
+  max-width: calc(var(--max-w) + var(--space-24));
+  margin: 0 auto;
+}
+
+/* só aparece quando a barra está expandida */
+.filter-chips-row {
+  border-bottom: 1px solid var(--surface-card-border);
+  padding: 0 var(--space-12) var(--space-3);
+  background: inherit;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  padding: 4px 12px;
+  font-size: var(--text-xs);
+  font-weight: 600;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--surface-card-border);
+  background: var(--surface-card);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition:
+    background var(--transition-fast),
+    border-color var(--transition-fast),
+    color var(--transition-fast);
+  white-space: nowrap;
+  user-select: none;
+}
+
+.chip:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  background: var(--color-primary-light);
+}
+
+.chip.active {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+}
+
+.chip-reset {
+  color: var(--color-accent);
+  border-color: var(--color-accent-light);
+  background: var(--color-accent-light);
+}
+
+.chip-reset:hover {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: #fff;
+}
+
+/* ── CONTEÚDO PRINCIPAL ─────────────────────────────────────── */
+.programacao-body {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: var(--space-8) var(--space-12) var(--space-24);
+}
+
+/* Toolbar: contagem + ordenação */
+.results-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+  flex-wrap: wrap;
+}
+
+.results-count {
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+}
+
+.results-count strong {
+  font-weight: 700;
+  color: var(--text-primary);
+  font-variant-numeric: tabular-nums;
+}
+
+.sort-select {
+  padding: var(--space-2) var(--space-8) var(--space-2) var(--space-3);
+  background: var(--surface-card);
+  border: 1px solid var(--surface-card-border);
+  border-radius: var(--radius-sm);
+  font-family: var(--ff-body);
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  cursor: pointer;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%234A5568' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+/* Grelha de espectáculos */
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: var(--space-5);
+}
+
+/* Card de espectáculo (reutiliza estilos da homepage, aqui com link wrapper) */
+.ev-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--surface-card);
+  border: 1px solid var(--surface-card-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--text-primary);
+  transition:
+    border-color var(--transition-base),
+    box-shadow var(--transition-base),
+    transform var(--transition-fast);
+}
+
+.ev-card:hover {
+  border-color: rgba(27,43,75,.18);
+  box-shadow: var(--shadow-primary);
+  transform: translateY(-3px);
+}
+
+.ev-card:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring-offset), var(--shadow-primary);
+}
+
+.ev-card-img {
+  aspect-ratio: 3/4;
+  overflow: hidden;
+  background: var(--surface-bg-2);
+  position: relative;
+  flex-shrink: 0;
+}
+
+.ev-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-slow);
+}
+
+.ev-card:hover .ev-card-img img {
+  transform: scale(1.04);
+}
+
+.ev-card-img-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  opacity: .12;
+  background: linear-gradient(135deg, var(--color-primary-light), var(--surface-bg-2));
+}
+
+.ev-card-category {
+  position: absolute;
+  top: var(--space-3);
+  left: var(--space-3);
+}
+
+.ev-card-body {
+  padding: var(--space-4) var(--space-4) var(--space-5);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: var(--space-1);
+}
+
+.ev-card-theater {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+[data-theme="dark"] .ev-card-theater {
+  color: var(--color-primary);
+}
+
+.ev-card-title {
+  font-family: var(--ff-display);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--text-primary);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.ev-card-subtitle {
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+  font-style: italic;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.ev-card-footer {
+  margin-top: auto;
+  padding-top: var(--space-3);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+  border-top: 1px solid var(--surface-card-border);
+}
+
+.ev-card-date {
+  font-size: var(--text-xs);
+  font-weight: 700;
+  color: var(--color-accent);
+  letter-spacing: .02em;
+}
+
+.ev-card-price {
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+/* ── PAGINAÇÃO / LOAD MORE ──────────────────────────────────── */
+.load-more-wrap {
+  text-align: center;
+  margin-top: var(--space-12);
+}
+
+/* ── RESPONSIVE ─────────────────────────────────────────────── */
+@media (max-width: 900px) {
+  .page-header,
+  .filters-bar,
+  .filter-chips-row { padding-left: var(--space-5); padding-right: var(--space-5); }
+  .programacao-body { padding: var(--space-6) var(--space-5) var(--space-16); }
+  .filters-inner { gap: var(--space-2); }
+  .search-wrap { max-width: 100%; }
+  .filters-sep { display: none; }
+}
+
+@media (max-width: 600px) {
+  .events-grid { grid-template-columns: repeat(2, 1fr); gap: var(--space-3); }
+  .page-header-inner { flex-direction: column; align-items: flex-start; }
+}
+
+@media (max-width: 380px) {
+  .events-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Saltar para o conteúdo principal</a>
+
+<!-- ── NAVEGAÇÃO ─────────────────────────────────────────────── -->
+<nav class="nav" role="navigation" aria-label="Navegação principal">
+  <a class="nav-brand" href="/" aria-label="Primeira Plateia — página inicial">
+    <span class="nav-brand-primeira">Primeira</span>
+    <span class="nav-brand-plateia">Plateia</span>
+  </a>
+  <div class="nav-right">
+    <ul class="nav-links" id="nav-menu" role="list">
+      <li><a href="/programacao/" aria-current="page">Programação</a></li>
+      <li><a href="/calendario/">Calendário</a></li>
+      <li><a href="/teatros/">Teatros</a></li>
+      <li><a href="/sobre/">Sobre</a></li>
+    </ul>
+    <button class="theme-btn" id="theme-toggle" aria-label="Mudar para modo escuro" data-tip="Modo escuro">
+      <span class="i-moon" aria-hidden="true">🌙</span>
+      <span class="i-sun" aria-hidden="true">☀️</span>
+    </button>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-menu">☰</button>
+  </div>
+</nav>
+
+<!-- ── MAIN ──────────────────────────────────────────────────── -->
+<main id="main-content">
+
+  <!-- Cabeçalho da página -->
+  <header class="page-header">
+    <div class="page-header-inner">
+      <div>
+        <p class="section-label" aria-hidden="true">Agenda</p>
+        <h1>Programa<em>ção</em></h1>
+      </div>
+      <p class="page-header-meta" id="page-meta" aria-live="polite">
+        <strong id="meta-count">—</strong> espectáculos · actualizado <span id="meta-updated">—</span>
+      </p>
+    </div>
+  </header>
+
+  <!-- Barra de filtros sticky -->
+  <div class="filters-bar" role="search" aria-label="Filtrar espectáculos">
+    <div class="filters-inner">
+      <!-- Pesquisa de texto -->
+      <div class="search-wrap">
+        <span class="search-icon" aria-hidden="true">🔍</span>
+        <input
+          class="search-input"
+          type="search"
+          id="search-input"
+          placeholder="Pesquisar espectáculo, encenador, actor…"
+          aria-label="Pesquisar espectáculos"
+          autocomplete="off"
+          spellcheck="false"
+        />
+      </div>
+
+      <div class="filters-sep" aria-hidden="true"></div>
+
+      <!-- Cidade -->
+      <select class="filter-select" id="filter-city" aria-label="Filtrar por cidade">
+        <option value="">Todas as cidades</option>
+      </select>
+
+      <!-- Categoria -->
+      <select class="filter-select" id="filter-category" aria-label="Filtrar por categoria">
+        <option value="">Todas as categorias</option>
+        <option value="Teatro">Teatro</option>
+        <option value="Dança">Dança</option>
+        <option value="Ópera">Ópera</option>
+        <option value="Teatro Musical">Teatro Musical</option>
+        <option value="Circo">Circo</option>
+        <option value="Infanto-Juvenil">Infanto-Juvenil</option>
+        <option value="Performance">Performance</option>
+        <option value="Música">Música</option>
+      </select>
+
+      <!-- Preço máximo -->
+      <select class="filter-select" id="filter-price" aria-label="Filtrar por preço">
+        <option value="">Qualquer preço</option>
+        <option value="0">Entrada livre</option>
+        <option value="10">Até 10€</option>
+        <option value="20">Até 20€</option>
+        <option value="30">Até 30€</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Chips de filtro rápido -->
+  <div class="filter-chips-row" aria-label="Filtros rápidos">
+    <div class="filters-inner" style="padding:var(--space-2) 0">
+      <button class="chip" data-chip="hoje" aria-pressed="false">📅 Hoje</button>
+      <button class="chip" data-chip="semana" aria-pressed="false">Esta semana</button>
+      <button class="chip" data-chip="fds" aria-pressed="false">Fim-de-semana</button>
+      <button class="chip" data-chip="livre" aria-pressed="false">Entrada livre</button>
+      <button class="chip" data-chip="criancas" aria-pressed="false">👶 Crianças</button>
+      <button class="chip" data-chip="lgp" aria-pressed="false">🤟 LGP</button>
+      <button class="chip" data-chip="audiodesc" aria-pressed="false">🎧 Audiodescrição</button>
+      <button class="chip chip-reset" id="reset-filters" aria-label="Limpar todos os filtros" hidden>✕ Limpar filtros</button>
+    </div>
+  </div>
+
+  <!-- Corpo da programação -->
+  <div class="programacao-body">
+    <div class="results-toolbar" aria-live="polite" aria-atomic="true">
+      <p class="results-count"><strong id="results-count">—</strong> espectáculos encontrados</p>
+      <select class="sort-select" id="sort-select" aria-label="Ordenar resultados">
+        <option value="data">Ordenar: por data</option>
+        <option value="titulo">Ordenar: por título</option>
+        <option value="teatro">Ordenar: por teatro</option>
+        <option value="preco">Ordenar: por preço</option>
+      </select>
+    </div>
+
+    <div class="events-grid" id="events-grid" role="list" aria-label="Lista de espectáculos" aria-live="polite"></div>
+
+    <!-- Load more -->
+    <div class="load-more-wrap" id="load-more-wrap" hidden>
+      <button class="btn btn-outline btn-lg" id="load-more-btn">
+        Mostrar mais espectáculos
+      </button>
+    </div>
+
+    <!-- Estados -->
+    <div class="state-empty" id="state-empty" hidden>
+      <div class="state-empty-icon" aria-hidden="true">🔍</div>
+      <h2 class="state-empty-title">Sem resultados</h2>
+      <p class="state-empty-text">Nenhum espectáculo corresponde aos filtros seleccionados. Tenta ajustar a pesquisa.</p>
+      <button class="btn btn-outline" id="reset-all-btn">Limpar filtros</button>
+    </div>
+
+    <div class="state-empty" id="state-error" hidden>
+      <div class="state-empty-icon" aria-hidden="true">🎭</div>
+      <h2 class="state-empty-title">Programação temporariamente indisponível</h2>
+      <p class="state-empty-text">Não foi possível carregar os espectáculos. Tenta novamente em breve.</p>
+    </div>
+  </div>
+
+</main>
+
+<!-- ── RODAPÉ ─────────────────────────────────────────────────── -->
+<footer class="footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-brand-col">
+      <div class="footer-brand">
+        <span class="footer-brand-primeira">Primeira</span>
+        <span class="footer-brand-plateia">Plateia</span>
+      </div>
+      <p class="footer-tagline">A agenda nacional de teatro, dança e artes performativas em Portugal.</p>
+      <nav class="footer-social" aria-label="Redes sociais">
+        <a href="https://instagram.com/primeiraplateia" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+        </a>
+        <a href="https://facebook.com/primeiraplateia" target="_blank" rel="noopener" aria-label="Facebook">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        </a>
+        <a href="https://linkedin.com/company/primeiraplateia" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="https://youtube.com/@primeiraplateia" target="_blank" rel="noopener" aria-label="YouTube">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="white"/></svg>
+        </a>
+      </nav>
+    </div>
+    <div>
+      <p class="footer-col-title">Explorar</p>
+      <nav class="footer-col-links" aria-label="Explorar">
+        <a href="/programacao/">Programação</a>
+        <a href="/calendario/">Calendário</a>
+        <a href="/teatros/">Teatros</a>
+      </nav>
+    </div>
+    <div>
+      <p class="footer-col-title">Sobre</p>
+      <nav class="footer-col-links" aria-label="Sobre">
+        <a href="/sobre/">O projecto</a>
+        <a href="mailto:fabio@primeiraplateia.pt">Contacto</a>
+      </nav>
+    </div>
+    <div>
+      <p class="footer-col-title">Legal</p>
+      <nav class="footer-col-links" aria-label="Legal">
+        <a href="/privacidade/">Privacidade</a>
+        <a href="/aviso-legal/">Aviso legal</a>
+        <a href="/acessibilidade/">Acessibilidade</a>
+      </nav>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p class="footer-legal">© <span id="footer-year"></span> Primeira Plateia. Conteúdo © dos respectivos teatros.</p>
+    <p class="footer-meta" id="footer-meta">
+      <span class="footer-meta-dot" aria-hidden="true"></span>
+      <span id="footer-updated"></span>
+    </p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  /* ── Tema ───────────────────────────────────────────────── */
+  const themeBtn = document.getElementById('theme-toggle');
+  const html = document.documentElement;
+  themeBtn.addEventListener('click', function () {
+    const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    html.setAttribute('data-theme', next);
+    localStorage.setItem('pp-theme', next);
+    themeBtn.setAttribute('aria-label', next === 'dark' ? 'Mudar para modo claro' : 'Mudar para modo escuro');
+    themeBtn.setAttribute('data-tip', next === 'dark' ? 'Modo claro' : 'Modo escuro');
+  });
+
+  /* ── Menu mobile ────────────────────────────────────────── */
+  const navToggle = document.getElementById('nav-toggle');
+  const navMenu   = document.getElementById('nav-menu');
+  navToggle.addEventListener('click', function () {
+    const isOpen = navMenu.classList.toggle('open');
+    navToggle.setAttribute('aria-expanded', isOpen);
+    navToggle.textContent = isOpen ? '✕' : '☰';
+  });
+  document.addEventListener('click', function (e) {
+    if (!navMenu.contains(e.target) && !navToggle.contains(e.target)) {
+      navMenu.classList.remove('open');
+      navToggle.setAttribute('aria-expanded', 'false');
+      navToggle.textContent = '☰';
+    }
+  });
+
+  /* ── Ano ────────────────────────────────────────────────── */
+  document.getElementById('footer-year').textContent = new Date().getFullYear();
+
+  /* ── Utils ──────────────────────────────────────────────── */
+  const today = new Date().toISOString().slice(0, 10);
+
+  function getMonday() {
+    const d = new Date(); const day = d.getDay();
+    const diff = d.getDate() - day + (day === 0 ? -6 : 1);
+    d.setDate(diff); return d.toISOString().slice(0, 10);
+  }
+
+  function getSunday() {
+    const d = new Date(); const day = d.getDay();
+    const diff = d.getDate() - day + (day === 0 ? 0 : 7);
+    d.setDate(diff); return d.toISOString().slice(0, 10);
+  }
+
+  function getSaturday() {
+    const d = new Date(); const day = d.getDay();
+    const diff = d.getDate() + (6 - day);
+    d.setDate(diff); return d.toISOString().slice(0, 10);
+  }
+
+  function formatDate(iso) {
+    return new Date(iso).toLocaleDateString('pt-PT', { day: 'numeric', month: 'short' });
+  }
+
+  function formatRelative(iso) {
+    const diff = Math.floor((Date.now() - new Date(iso)) / 3600000);
+    if (diff < 1) return 'há menos de 1 hora';
+    if (diff < 24) return `há ${diff}h`;
+    return `há ${Math.floor(diff/24)} dia${Math.floor(diff/24)!==1?'s':''}`;
+  }
+
+  function getCategoryClass(cat) {
+    return { 'Teatro':'teatro','Dança':'danca','Ópera':'opera',
+      'Teatro Musical':'musical','Circo':'circo','Infanto-Juvenil':'infantil',
+      'Performance':'performance','Música':'musica' }[cat] || 'outro';
+  }
+
+  /* ── Estado dos filtros ─────────────────────────────────── */
+  const state = {
+    query: '',
+    city: '',
+    category: '',
+    price: '',
+    chip: '',
+    sort: 'data',
+    page: 0,
+    perPage: 24
+  };
+
+  let allEvents = [];
+  let filteredEvents = [];
+
+  /* ── Leitura de URL params ──────────────────────────────── */
+  (function readParams() {
+    const p = new URLSearchParams(window.location.search);
+    if (p.get('q'))        { state.query    = p.get('q');    document.getElementById('search-input').value = p.get('q'); }
+    if (p.get('cidade'))   { state.city     = p.get('cidade'); }
+    if (p.get('categoria')){ state.category = p.get('categoria'); }
+  })();
+
+  /* ── Carregar dados ─────────────────────────────────────── */
+  async function loadData() {
+    try {
+      let data;
+      try {
+        const r = await fetch('/data/events.slim.json');
+        if (r.ok) { data = await r.json(); }
+        else throw new Error();
+      } catch (_) {
+        const r2 = await fetch('/events.json');
+        if (!r2.ok) throw new Error('Sem dados');
+        data = await r2.json();
+      }
+
+      allEvents = data.filter(e => (e.next_session || e.date_start) >= today);
+
+      // Popular cidades
+      const cities = [...new Set(allEvents.map(e => e.city).filter(Boolean))].sort();
+      const citySelect = document.getElementById('filter-city');
+      cities.forEach(c => {
+        const o = document.createElement('option');
+        o.value = o.textContent = c;
+        citySelect.appendChild(o);
+      });
+
+      // Aplicar params de URL
+      if (state.city)     citySelect.value = state.city;
+      if (state.category) document.getElementById('filter-category').value = state.category;
+
+      applyFilters();
+    } catch (_) {
+      document.getElementById('state-error').hidden = false;
+      document.getElementById('events-grid').hidden = true;
+    }
+  }
+
+  /* ── Carregar meta ──────────────────────────────────────── */
+  async function loadMeta() {
+    try {
+      const r = await fetch('/data/meta.json');
+      if (!r.ok) return;
+      const m = await r.json();
+      document.getElementById('meta-count').textContent = m.total_events ?? '—';
+      document.getElementById('meta-updated').textContent = formatRelative(m.updated_at);
+      const fu = document.getElementById('footer-updated');
+      if (fu) fu.textContent = `Actualizado ${formatRelative(m.updated_at)}`;
+    } catch (_) {}
+  }
+
+  /* ── Filtrar ────────────────────────────────────────────── */
+  function applyFilters() {
+    const q = state.query.toLowerCase().trim();
+    const monday = getMonday(), sunday = getSunday(), saturday = getSaturday();
+
+    filteredEvents = allEvents.filter(ev => {
+      const ns = ev.next_session || ev.date_start;
+
+      // Texto livre
+      if (q) {
+        const hay = [ev.title, ev.theater, ev.subtitle, ev.city, ev.category]
+          .filter(Boolean).join(' ').toLowerCase();
+        if (!hay.includes(q)) return false;
+      }
+
+      // Filtros de select
+      if (state.city     && ev.city     !== state.city)     return false;
+      if (state.category && ev.category !== state.category) return false;
+      if (state.price !== '') {
+        const max = Number(state.price);
+        if (max === 0 && ev.price_min > 0) return false;
+        if (max > 0  && ev.price_min > max) return false;
+      }
+
+      // Chips
+      if (state.chip === 'hoje'     && ns !== today)                return false;
+      if (state.chip === 'semana'   && (ns < monday || ns > sunday)) return false;
+      if (state.chip === 'fds'      && (ns < saturday || ns > sunday)) return false;
+      if (state.chip === 'livre'    && ev.price_min > 0)            return false;
+      if (state.chip === 'criancas' && ev.category !== 'Infanto-Juvenil') return false;
+      if (state.chip === 'lgp'      && !ev.accessibility?.includes('LGP')) return false;
+      if (state.chip === 'audiodesc'&& !ev.accessibility?.includes('Audiodescrição')) return false;
+
+      return true;
+    });
+
+    // Ordenação
+    filteredEvents.sort((a, b) => {
+      if (state.sort === 'data')   return (a.next_session||a.date_start) < (b.next_session||b.date_start) ? -1 : 1;
+      if (state.sort === 'titulo') return a.title.localeCompare(b.title, 'pt');
+      if (state.sort === 'teatro') return a.theater.localeCompare(b.theater, 'pt');
+      if (state.sort === 'preco')  return (a.price_min||0) - (b.price_min||0);
+      return 0;
+    });
+
+    state.page = 0;
+    renderEvents(true);
+    updateURL();
+    updateResetBtn();
+  }
+
+  /* ── Renderizar cards ───────────────────────────────────── */
+  function renderEvents(reset) {
+    const grid   = document.getElementById('events-grid');
+    const empty  = document.getElementById('state-empty');
+    const lmWrap = document.getElementById('load-more-wrap');
+    const count  = document.getElementById('results-count');
+
+    count.textContent = filteredEvents.length;
+
+    if (filteredEvents.length === 0) {
+      grid.innerHTML = '';
+      grid.hidden = true;
+      empty.hidden = false;
+      lmWrap.hidden = true;
+      return;
+    }
+
+    grid.hidden = false;
+    empty.hidden = true;
+
+    const start = state.page * state.perPage;
+    const slice = filteredEvents.slice(0, start + state.perPage);
+
+    if (reset) grid.innerHTML = '';
+
+    const fragment = document.createDocumentFragment();
+
+    slice.slice(reset ? 0 : start).forEach(ev => {
+      const catClass = getCategoryClass(ev.category);
+      const ns = ev.next_session || ev.date_start;
+
+      const article = document.createElement('article');
+      article.className = 'ev-card';
+      article.setAttribute('role', 'listitem');
+      article.innerHTML = `
+        <a href="/espetaculo/?id=${ev.id}" aria-label="${ev.title}${ev.theater ? ' — ' + ev.theater : ''}">
+          <div class="ev-card-img">
+            ${ev.image_url
+              ? `<img src="${ev.image_url}" alt="" loading="lazy" decoding="async"/>`
+              : `<div class="ev-card-img-placeholder" aria-hidden="true">🎭</div>`}
+            <span class="ev-card-category">
+              <span class="pill pill-${catClass}">${ev.category || 'Teatro'}</span>
+            </span>
+          </div>
+          <div class="ev-card-body">
+            <p class="ev-card-theater">${ev.theater || ''}</p>
+            <h2 class="ev-card-title">${ev.title}</h2>
+            ${ev.subtitle ? `<p class="ev-card-subtitle">${ev.subtitle}</p>` : ''}
+            <div class="ev-card-footer">
+              <span class="ev-card-date">${formatDate(ns)}</span>
+              ${ev.price_info ? `<span class="ev-card-price">${ev.price_info}</span>` : ''}
+            </div>
+          </div>
+        </a>`;
+      fragment.appendChild(article);
+    });
+
+    grid.appendChild(fragment);
+
+    const hasMore = slice.length < filteredEvents.length;
+    lmWrap.hidden = !hasMore;
+  }
+
+  /* ── URL sync ───────────────────────────────────────────── */
+  function updateURL() {
+    const p = new URLSearchParams();
+    if (state.query)    p.set('q', state.query);
+    if (state.city)     p.set('cidade', state.city);
+    if (state.category) p.set('categoria', state.category);
+    const url = p.toString() ? `?${p}` : window.location.pathname;
+    history.replaceState(null, '', url);
+  }
+
+  /* ── Botão de reset ─────────────────────────────────────── */
+  function updateResetBtn() {
+    const hasFilters = state.query || state.city || state.category || state.price || state.chip;
+    document.getElementById('reset-filters').hidden = !hasFilters;
+  }
+
+  function resetAllFilters() {
+    state.query = ''; state.city = ''; state.category = '';
+    state.price = ''; state.chip = '';
+    document.getElementById('search-input').value = '';
+    document.getElementById('filter-city').value = '';
+    document.getElementById('filter-category').value = '';
+    document.getElementById('filter-price').value = '';
+    document.querySelectorAll('.chip[data-chip]').forEach(c => {
+      c.classList.remove('active');
+      c.setAttribute('aria-pressed', 'false');
+    });
+    applyFilters();
+  }
+
+  /* ── Event listeners ────────────────────────────────────── */
+  let searchTimer;
+  document.getElementById('search-input').addEventListener('input', function (e) {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => { state.query = e.target.value; applyFilters(); }, 280);
+  });
+
+  document.getElementById('filter-city').addEventListener('change', function (e) {
+    state.city = e.target.value;
+    e.target.classList.toggle('active', !!e.target.value);
+    applyFilters();
+  });
+
+  document.getElementById('filter-category').addEventListener('change', function (e) {
+    state.category = e.target.value;
+    e.target.classList.toggle('active', !!e.target.value);
+    applyFilters();
+  });
+
+  document.getElementById('filter-price').addEventListener('change', function (e) {
+    state.price = e.target.value;
+    e.target.classList.toggle('active', !!e.target.value);
+    applyFilters();
+  });
+
+  document.getElementById('sort-select').addEventListener('change', function (e) {
+    state.sort = e.target.value;
+    applyFilters();
+  });
+
+  document.querySelectorAll('.chip[data-chip]').forEach(chip => {
+    chip.addEventListener('click', function () {
+      const key = this.dataset.chip;
+      if (state.chip === key) {
+        state.chip = '';
+        this.classList.remove('active');
+        this.setAttribute('aria-pressed', 'false');
+      } else {
+        document.querySelectorAll('.chip[data-chip]').forEach(c => {
+          c.classList.remove('active');
+          c.setAttribute('aria-pressed', 'false');
+        });
+        state.chip = key;
+        this.classList.add('active');
+        this.setAttribute('aria-pressed', 'true');
+      }
+      applyFilters();
+    });
+  });
+
+  document.getElementById('reset-filters').addEventListener('click', resetAllFilters);
+  document.getElementById('reset-all-btn').addEventListener('click', resetAllFilters);
+
+  document.getElementById('load-more-btn').addEventListener('click', function () {
+    state.page++;
+    renderEvents(false);
+    // Foco no primeiro card novo para acessibilidade
+    const cards = document.querySelectorAll('#events-grid .ev-card');
+    const first = cards[state.page * state.perPage];
+    if (first) first.querySelector('a').focus({ preventScroll: true });
+  });
+
+  /* ── Init ───────────────────────────────────────────────── */
+  loadMeta();
+  loadData();
+
+})();
+</script>
+</body>
+</html>

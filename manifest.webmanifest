@@ -1,0 +1,79 @@
+{
+  "name": "Primeira Plateia",
+  "short_name": "Primeira Plateia",
+  "description": "A agenda nacional de teatro, dança, ópera e artes performativas em Portugal.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8F9FA",
+  "theme_color": "#1B2B4B",
+  "lang": "pt-PT",
+  "dir": "ltr",
+  "orientation": "any",
+  "scope": "/",
+  "categories": ["entertainment", "lifestyle", "news"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/desktop.jpg",
+      "sizes": "1280x800",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "Programação — Primeira Plateia"
+    },
+    {
+      "src": "/screenshots/mobile.jpg",
+      "sizes": "390x844",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "Agenda no telemóvel"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Programação",
+      "short_name": "Programação",
+      "description": "Ver toda a programação em cartaz",
+      "url": "/programacao/",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Hoje",
+      "short_name": "Hoje",
+      "description": "Ver o que há em cena hoje",
+      "url": "/calendario/",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Teatros",
+      "short_name": "Teatros",
+      "description": "Explorar todos os teatros",
+      "url": "/teatros/",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
