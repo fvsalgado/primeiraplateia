@@ -101,14 +101,14 @@
       "id": "variedades",
       "name": "Teatro Variedades",
       "short": "Variedades",
-      "color": "#d93025",
-      "description": "O Teatro Variedades é um dos espaços históricos do Parque Mayer em Lisboa, com uma programação eclética de teatro, música e espetáculos de entretenimento.",
-      "address": "Parque Mayer, Avenida da Liberdade, Lisboa",
+      "color": "#E8372C",
+      "description": "O Teatro Variedades é um dos mais emblemáticos teatros de Lisboa, com uma longa tradição de espectáculos de teatro, comédia e variedades.",
+      "address": "Rua António Pedro 32, 1000-040 Lisboa",
       "city": "Lisboa",
       "site": "https://teatrovariedades-capitolio.pt",
       "programacao": "https://teatrovariedades-capitolio.pt/agenda/teatro-variedades/",
-      "lat": 38.7192,
-      "lng": -9.1483,
+      "lat": 38.7172,
+      "lng": -9.1394,
       "salas": [
         "Teatro Variedades"
       ],
@@ -117,20 +117,23 @@
         "teatro variedades",
         "parque mayer variedades",
         "tv"
-      ]
+      ],
+      "logo_url": "https://teatrovariedades-capitolio.pt/wp-content/themes/variedades/assets/images/logo-variedades.svg",
+      "favicon_url": "https://teatrovariedades-capitolio.pt/favicon.ico",
+      "facade_url": "https://teatrovariedades-capitolio.pt/wp-content/uploads/facade-variedades.jpg"
     },
     {
       "id": "capitolio",
       "name": "Capitólio",
       "short": "Capitólio",
-      "color": "#e53935",
-      "description": "O Capitólio é um espaço histórico do Parque Mayer em Lisboa, com uma programação diversa de teatro, música e espetáculos de entretenimento.",
-      "address": "Parque Mayer, Avenida da Liberdade, Lisboa",
+      "color": "#1A3A5C",
+      "description": "O Capitólio é um espaço cultural histórico de Lisboa, situado no Parque Mayer, dedicado a espectáculos de teatro, música e artes performativas.",
+      "address": "Parque Mayer, Av. da Liberdade, 1250-096 Lisboa",
       "city": "Lisboa",
       "site": "https://teatrovariedades-capitolio.pt",
       "programacao": "https://teatrovariedades-capitolio.pt/agenda/capitolio/",
-      "lat": 38.7195,
-      "lng": -9.148,
+      "lat": 38.7213,
+      "lng": -9.1492,
       "salas": [
         "Capitólio"
       ],
@@ -140,7 +143,10 @@
         "teatro capitolio",
         "parque mayer capitólio",
         "parque mayer capitolio"
-      ]
+      ],
+      "logo_url": "https://teatrovariedades-capitolio.pt/wp-content/themes/variedades/assets/images/logo-capitolio.svg",
+      "favicon_url": "https://teatrovariedades-capitolio.pt/favicon.ico",
+      "facade_url": "https://teatrovariedades-capitolio.pt/wp-content/uploads/facade-capitolio.jpg"
     },
     {
       "id": "viriato",

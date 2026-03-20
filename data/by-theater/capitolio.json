@@ -1,67 +1,25 @@
 [
   {
-    "id": "teatro-capitolio-come-from-away",
-    "title": "Come From Away",
-    "theater": "Capitólio",
-    "category": "Teatro",
-    "dates_label": "25.03 – 03.05.2026",
-    "date_start": "2026-03-25",
-    "date_end": "2026-05-03",
-    "sessions": [
-      {
-        "date": "2026-03-25",
-        "time": "",
-        "weekday": "Qua"
-      },
-      {
-        "date": "2026-05-03",
-        "time": "",
-        "weekday": "Dom"
-      }
-    ],
-    "schedule": "",
-    "synopsis": "Come From Awayé um musical criado por Irene Sankoff e David Hein. A obra baseia-se nos acontecimentos ocorridos na cidade de Gander, em Terra Nova (Canadá), na semana seguinte aos atentados de 11 de setembro de 2001.…",
-    "image": {
-      "url": "https://teatrovariedades-capitolio.pt/wp-content/uploads/2026/01/1920x1080.jpg",
-      "credit": null,
-      "source": "https://teatrovariedades-capitolio.pt/evento/come-from-away/",
-      "theater": "Capitólio"
-    },
-    "source_url": "https://teatrovariedades-capitolio.pt/evento/come-from-away/",
-    "ticket_url": "https://teatrovariedades.bol.pt/Comprar/Bilhetes/168149-in_the_heights-teatro_variedades/",
-    "price_info": "25€",
-    "duration": "21h",
-    "age_rating": "",
-    "accessibility": "",
-    "technical_sheet": {},
-    "scraped_at": "2026-03-20T20:54:23.856668+00:00",
-    "theater_id": "capitolio",
-    "city": "Lisboa",
-    "_meta": {
-      "completeness": 0.6
-    }
-  },
-  {
-    "id": "teatro-capitolio-evita",
+    "id": "capitolio-evita",
     "title": "Evita",
     "theater": "Capitólio",
     "category": "Teatro",
-    "dates_label": "25.03 – 03.05.2026",
-    "date_start": "2026-03-25",
-    "date_end": "2026-05-03",
+    "dates_label": "27.03 – 28.06.2026",
+    "date_start": "2026-03-27",
+    "date_end": "2026-06-28",
     "sessions": [
       {
-        "date": "2026-03-25",
-        "time": "",
-        "weekday": "Qua"
+        "date": "2026-03-27",
+        "time": "21:00",
+        "weekday": "Sex"
       },
       {
-        "date": "2026-05-03",
-        "time": "",
+        "date": "2026-06-28",
+        "time": "21:00",
         "weekday": "Dom"
       }
     ],
-    "schedule": "",
+    "schedule": "21h",
     "synopsis": "O musical Evita, é uma das obras mais célebres de Andrew Lloyd Webber (música) e Tim Rice (letra).",
     "image": {
       "url": "https://teatrovariedades-capitolio.pt/wp-content/uploads/2025/11/2-scaled-e1762549074993.jpg",
@@ -70,13 +28,18 @@
       "theater": "Capitólio"
     },
     "source_url": "https://teatrovariedades-capitolio.pt/evento/evita/",
-    "ticket_url": "https://teatrovariedades.bol.pt/Comprar/Bilhetes/168149-in_the_heights-teatro_variedades/",
+    "ticket_url": "https://teatrovariedades-capitolio.pt/visite-nos/bilheteira-e-horarios/",
     "price_info": "25€",
-    "duration": "21h",
     "age_rating": "M/12",
     "accessibility": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T20:54:23.856668+00:00",
+    "subtitle": "Entre 25€ e 35€",
+    "price_min": 25.0,
+    "price_max": 25.0,
+    "duration": "120 min",
+    "duration_min": 120,
+    "age_min": 12,
+    "scraped_at": "2026-03-20T21:02:37.946967+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -84,26 +47,180 @@
     }
   },
   {
-    "id": "teatro-capitolio-macbeth",
-    "title": "MACBETH",
+    "id": "capitolio-around-classic",
+    "title": "Around Classic",
     "theater": "Capitólio",
-    "category": "Teatro",
-    "dates_label": "25.03 – 03.05.2026",
-    "date_start": "2026-03-25",
-    "date_end": "2026-05-03",
+    "category": "Música",
+    "dates_label": "29.05 – 31.05.2026",
+    "date_start": "2026-05-29",
+    "date_end": "2026-05-31",
     "sessions": [
       {
-        "date": "2026-03-25",
-        "time": "",
-        "weekday": "Qua"
+        "date": "2026-05-29",
+        "time": "16:00",
+        "weekday": "Sex"
       },
       {
-        "date": "2026-05-03",
-        "time": "",
+        "date": "2026-05-30",
+        "time": "16:00",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-05-31",
+        "time": "16:00",
         "weekday": "Dom"
       }
     ],
-    "schedule": "",
+    "schedule": "16h",
+    "synopsis": "Around Classic é um festival que contribui para a difusão da música erudita em todas as suas vertentes, unindo o passado e o moderno através da música e estabelecendo ligações entre pessoas com interesses comuns.…",
+    "image": {
+      "url": "https://teatrovariedades-capitolio.pt/wp-content/uploads/2026/01/Wolfgang-amadeus-mozart_1-scaled-e1769531533747.jpg",
+      "credit": null,
+      "source": "https://teatrovariedades-capitolio.pt/evento/around-classic-2/",
+      "theater": "Capitólio"
+    },
+    "source_url": "https://teatrovariedades-capitolio.pt/evento/around-classic-2/",
+    "ticket_url": "https://teatrovariedades-capitolio.pt/visite-nos/bilheteira-e-horarios/",
+    "price_info": "20€",
+    "age_rating": "M/6",
+    "accessibility": "",
+    "technical_sheet": {},
+    "subtitle": "A partir de 20€",
+    "price_min": 20.0,
+    "price_max": 20.0,
+    "duration": "50 min",
+    "duration_min": 50,
+    "age_min": 6,
+    "scraped_at": "2026-03-20T21:02:37.946967+00:00",
+    "theater_id": "capitolio",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.65
+    }
+  },
+  {
+    "id": "capitolio-emel-mathlouthi",
+    "title": "Emel Mathlouthi",
+    "theater": "Capitólio",
+    "category": "Música",
+    "dates_label": "05.07.2026",
+    "date_start": "2026-07-05",
+    "date_end": "2026-07-05",
+    "sessions": [
+      {
+        "date": "2026-07-05",
+        "time": "20:30",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "20h30",
+    "synopsis": "A aclamada artista tunisina Emel Mathlouthi apresenta-se em Lisboa para uma noite de música intensa e impactante, prometendo uma energia arrebatadora e inesquecível.",
+    "image": {
+      "url": "https://teatrovariedades-capitolio.pt/wp-content/uploads/2026/02/EMEL-2026-Janine-Kuehn-Horizontal-scaled.jpg",
+      "credit": null,
+      "source": "https://teatrovariedades-capitolio.pt/evento/emel-mathlouthi/",
+      "theater": "Capitólio"
+    },
+    "source_url": "https://teatrovariedades-capitolio.pt/evento/emel-mathlouthi/",
+    "ticket_url": "https://teatrovariedades-capitolio.pt/visite-nos/bilheteira-e-horarios/",
+    "price_info": "23.20€",
+    "age_rating": "M/6",
+    "accessibility": "",
+    "technical_sheet": {},
+    "subtitle": "Entre 23.20€ e 33€",
+    "price_min": 23.2,
+    "price_max": 23.2,
+    "duration": "150 min",
+    "duration_min": 150,
+    "age_min": 6,
+    "scraped_at": "2026-03-20T21:02:37.946967+00:00",
+    "theater_id": "capitolio",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.65
+    }
+  },
+  {
+    "id": "capitolio-gongada-drag",
+    "title": "Gongada Drag",
+    "theater": "Capitólio",
+    "category": "Performance",
+    "dates_label": "15.07 – 16.07.2026",
+    "date_start": "2026-07-15",
+    "date_end": "2026-07-16",
+    "sessions": [
+      {
+        "date": "2026-07-15",
+        "time": "21:00",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-07-16",
+        "time": "21:00",
+        "weekday": "Qui"
+      }
+    ],
+    "schedule": "21h",
+    "synopsis": "Depois de passar por várias cidades no Brasil, oGongada Dragchega agora a Portugal pelas mãos do humorista Bruno Motta. O espetáculo cruza comédia e arte drag, num formato marcado pelo humor e pelas suas alfinetadas.",
+    "image": {
+      "url": "https://teatrovariedades-capitolio.pt/wp-content/uploads/2026/03/3840x2160_IMG-1024x576.png",
+      "credit": null,
+      "source": "https://teatrovariedades-capitolio.pt/evento/gongada-drag/",
+      "theater": "Capitólio"
+    },
+    "source_url": "https://teatrovariedades-capitolio.pt/evento/gongada-drag/",
+    "ticket_url": "https://teatrovariedades-capitolio.pt/visite-nos/bilheteira-e-horarios/",
+    "price_info": "",
+    "age_rating": "M/16",
+    "accessibility": "",
+    "technical_sheet": {},
+    "subtitle": "120 min.",
+    "duration": "120 min",
+    "duration_min": 120,
+    "age_min": 16,
+    "scraped_at": "2026-03-20T21:02:37.946967+00:00",
+    "theater_id": "capitolio",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.6
+    }
+  },
+  {
+    "id": "capitolio-macbeth",
+    "title": "MACBETH",
+    "theater": "Capitólio",
+    "category": "Teatro",
+    "dates_label": "21.07 – 25.07.2026",
+    "date_start": "2026-07-21",
+    "date_end": "2026-07-25",
+    "sessions": [
+      {
+        "date": "2026-07-21",
+        "time": "21:00",
+        "weekday": "Ter"
+      },
+      {
+        "date": "2026-07-22",
+        "time": "21:00",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-07-23",
+        "time": "21:00",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-07-24",
+        "time": "21:00",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-07-25",
+        "time": "21:00",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "21h",
     "synopsis": "MACBETHtransporta para a contemporaneidade os temas intemporais da ambição desmedida, da corrupção do poder e da erosão moral, recriando-os num universo onde a intimidade é constantemente exposta, julgada e consumida.…",
     "image": {
       "url": "https://teatrovariedades-capitolio.pt/wp-content/uploads/2026/01/nosso-site-4.jpg",
@@ -112,17 +229,69 @@
       "theater": "Capitólio"
     },
     "source_url": "https://teatrovariedades-capitolio.pt/evento/macbeth/",
-    "ticket_url": "https://teatrovariedades.bol.pt/Comprar/Bilhetes/168149-in_the_heights-teatro_variedades/",
+    "ticket_url": "https://teatrovariedades-capitolio.pt/visite-nos/bilheteira-e-horarios/",
     "price_info": "10€",
-    "duration": "21h",
-    "age_rating": "",
+    "age_rating": "+351",
     "accessibility": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T20:54:23.856668+00:00",
+    "subtitle": "A partir de 10€",
+    "price_min": 10.0,
+    "price_max": 10.0,
+    "duration": "90 min",
+    "duration_min": 90,
+    "age_min": 351,
+    "scraped_at": "2026-03-20T21:02:37.946967+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
-      "completeness": 0.6
+      "completeness": 0.65
+    }
+  },
+  {
+    "id": "capitolio-come-from-away",
+    "title": "Come From Away",
+    "theater": "Capitólio",
+    "category": "Teatro",
+    "dates_label": "10.09 – 04.10.2026",
+    "date_start": "2026-09-10",
+    "date_end": "2026-10-04",
+    "sessions": [
+      {
+        "date": "2026-09-10",
+        "time": "21:00",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-10-04",
+        "time": "21:00",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "21h",
+    "synopsis": "Come From Awayé um musical criado por Irene Sankoff e David Hein. A obra baseia-se nos acontecimentos ocorridos na cidade de Gander, em Terra Nova (Canadá), na semana seguinte aos atentados de 11 de setembro de 2001.…",
+    "image": {
+      "url": "https://teatrovariedades-capitolio.pt/wp-content/uploads/2026/01/1920x1080.jpg",
+      "credit": null,
+      "source": "https://teatrovariedades-capitolio.pt/evento/come-from-away/",
+      "theater": "Capitólio"
+    },
+    "source_url": "https://teatrovariedades-capitolio.pt/evento/come-from-away/",
+    "ticket_url": "https://teatrovariedades-capitolio.pt/visite-nos/bilheteira-e-horarios/",
+    "price_info": "25€",
+    "age_rating": "+351",
+    "accessibility": "",
+    "technical_sheet": {},
+    "subtitle": "Entre 25€ e 35€",
+    "price_min": 25.0,
+    "price_max": 25.0,
+    "duration": "105 min",
+    "duration_min": 105,
+    "age_min": 351,
+    "scraped_at": "2026-03-20T21:02:37.946967+00:00",
+    "theater_id": "capitolio",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.65
     }
   }
 ]
