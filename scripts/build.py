@@ -104,7 +104,7 @@ SLIM_FIELDS = {
     "image_url",   # extraído de image.url
     "source_url", "ticket_url",
     "price_info", "price_min",
-    "age_rating", "accessibility",
+    "age_rating", "accessibility", "sessions",
 }
 
 
