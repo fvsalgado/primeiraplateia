@@ -1109,7 +1109,6 @@
 
   // Footer meta
   fetch('../data/meta.json').then(r => r.ok ? r.json() : null).then(m => {
-    if
     if (!m) return;
     const fu = document.getElementById('footer-updated');
     if (fu) {
