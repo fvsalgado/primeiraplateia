@@ -38,7 +38,7 @@
     "subtitle": "Com Xullaji e Tiago Sampaio",
     "date_end": "2026-04-18",
     "schedule": "18h45",
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -83,7 +83,7 @@
     "duration": "60 min",
     "duration_min": 60,
     "age_min": 351,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
     "_meta": {
@@ -148,7 +148,7 @@
     "price_max": 22.0,
     "age_rating": "M/12",
     "age_min": 12,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
@@ -211,74 +211,11 @@
     "age_min": 16,
     "duration": "90 min.",
     "duration_min": 90,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.81
-    }
-  },
-  {
-    "id": "mariamatos-primeira-vista",
-    "title": "À PRIMEIRA VISTA",
-    "theater": "Teatro Maria Matos",
-    "category": "Teatro",
-    "dates_label": "2026-03-03 – 2026-03-31",
-    "date_start": "2026-03-03",
-    "date_end": "2026-03-31",
-    "sessions": [
-      {
-        "date": "2026-03-03",
-        "time": "21:00",
-        "weekday": "Ter"
-      },
-      {
-        "date": "2026-03-23",
-        "time": "21:00",
-        "weekday": "Seg"
-      },
-      {
-        "date": "2026-03-30",
-        "time": "21:00",
-        "weekday": "Seg"
-      },
-      {
-        "date": "2026-03-31",
-        "time": "21:00",
-        "weekday": "Ter"
-      }
-    ],
-    "schedule": "2026-03-03 21:00 | 2026-03-23 21:00 | 2026-03-30 21:00 | 2026-03-31 21:00",
-    "synopsis": "Prima Facie —Expressão jurídica latina que significa: À primeira vista. Margarida Vila-Novasobe ao palco doTeatro Maria Matoscom a versão portuguesa deÀ PRIMEIRA VISTA(PRIMA FACIE), de Suzie Miller, com encenação deTiago Guedes.…",
-    "image": {
-      "url": "https://teatromariamatos.pt/wp-content/uploads/2025/03/2024_04_23_A_PRIMEIRA_VISTA_TL_1920x1080px_01.jpg",
-      "credit": "Filipe Ferreira 90 min. M/14 Prima Facie —Expressão jurídica latina que signific",
-      "source": "https://teatromariamatos.pt/espetaculos/a-primeira-vista/",
-      "theater": "Teatro Maria Matos"
-    },
-    "source_url": "https://teatromariamatos.pt/espetaculos/a-primeira-vista/",
-    "ticket_url": "https://ticketline.sapo.pt/salas/sala/2791",
-    "price_info": "20€",
-    "duration": "90 min.",
-    "age_rating": "M/14",
-    "technical_sheet": {
-      "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
-      "texto": "Suzie Miller",
-      "encenação": "Tiago Guedes",
-      "tradução": "Ana Sampaio",
-      "cenário": "Catarina Amaro",
-      "luz": "Nuno Meira",
-      "som": "Carincur",
-      "figurinos": "Rita Alves agradecimentos João Tavares",
-      "produção": "Força de",
-      "autor": "Suzie Miller é uma dramaturga e argumentista contemporânea, vencedora de diversos prémios internacionais. Gosta de histórias humanas complexas que frequentemente versam a injustiça. Trabalha em Londres, no Reino Unido, e em Sydney, na Austrália, mas a sua obra tem sido apresentada em todo o mundo. T",
-      "dramaturgia": "no National Institute of Dramatic Art , na Austrália. Play Avenida Frei Miguel Contreiras, 52, 1700-213, Lisboa Horário da Bilheteira Segunda – Sábado 17h30 às 21h30 Domingo — 15h30 às 18h30 *Horários em vigor em dias de espectáculo. Horário sujeito a alterações. Reservas e informações de bilheteira"
-    },
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
-    "theater_id": "mariamatos",
-    "city": "Lisboa",
-    "_meta": {
-      "completeness": 0.85
     }
   },
   {
@@ -321,7 +258,7 @@
     "schedule": "18h00",
     "age_rating": "M/6",
     "age_min": 6,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -428,7 +365,7 @@
       "interpretação": "Cucha Carvalheiro, David Esteves, Fernando Luís, Madalena Almeida, Manuela Couto, Virgílio Castelo e Duarte Romão e Laura Garnel (alunos finalistas da ESTC)",
       "coprodução": "Culturproject, Teatro Municipal Joaquim Benite e São Luiz Teatro Municipal Projeto apoiado por República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes"
     },
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -437,32 +374,39 @@
   },
   {
     "id": "mariamatos-uma-ideia-genial",
-    "title": "UMA IDEIA GENIAL",
+    "title": "Uma Ideia Genial",
     "theater": "Teatro Maria Matos",
-    "category": "Teatro",
+    "category": "Outro",
+    "source_url": "https://teatromariamatos.pt/espetaculos/uma-ideia-genial/",
     "dates_label": "18 março – 17 maio",
     "date_start": "2026-03-18",
     "date_end": "2026-05-17",
+    "schedule": "Domingos · 17:00 | Quintas · 21:00 | Sextas · 21:00 | Sábados · 21:00",
     "sessions": [
       {
-        "date": "2026-03-17",
-        "time": "21:00",
-        "weekday": "Ter"
+        "date": "2026-03-18",
+        "time": "17:00",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-05-17",
+        "time": "17:00",
+        "weekday": "Dom"
       }
     ],
-    "schedule": "Sessões especiais: 2026-03-17 21:00 | Domingos 17:00 | Quintas 21:00 | Sextas 21:00 | Sábados 21:00",
-    "synopsis": "Todos nós temos um sósia algures no mundo. E se encontrasse o seu? Uma comédia irresistível que explora uma série de coincidências inesperadas e o absurdo de uma ideia que parecia genial. Dizem que todos nós temos um sósia, mas podemos passar uma vida inteira sem o conhecer.…",
+    "synopsis": "Todos nós temos um sósia algures no mundo. E se encontrasse o seu?\r\nUma comédia irresistível que explora uma série de coincidências inesperadas e o absurdo de uma ideia que parecia genial.…",
     "image": {
       "url": "https://teatromariamatos.pt/wp-content/uploads/2025/12/2025_12_15_UMA_IDEIA_GENIAL_MM_Site_1920x1080px_01.jpg",
       "credit": null,
       "source": "https://teatromariamatos.pt/espetaculos/uma-ideia-genial/",
       "theater": "Teatro Maria Matos"
     },
-    "source_url": "https://teatromariamatos.pt/espetaculos/uma-ideia-genial/",
     "ticket_url": "https://ticketline.sapo.pt/salas/sala/2791",
     "price_info": "20-22€",
-    "duration": "",
+    "price_min": 20.0,
+    "price_max": 22.0,
     "age_rating": "M/12",
+    "age_min": 12,
     "technical_sheet": {
       "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
       "autor": "Sébastien Castro",
@@ -475,7 +419,7 @@
       "interpretação": "Ana Guiomar, Cristóvão Campos, Ruben Madureira e Sandra Faleiro",
       "elenco": "Ana Guiomar, Cristóvão Campos, Ruben Madureira e Sandra Faleiro, “Uma Ideia Genial” conta a história hilariante de uma personagem que se multiplica em três, cada uma com as suas características e perplexidades. Atrações, ciúmes, suspeitas e destinos cruzados criam uma sucessão de mal-entendidos e um"
     },
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
@@ -512,7 +456,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -617,7 +561,7 @@
       "produção": "Fátima Santos Filipe Difusão João Vaz Silva",
       "coprodução": "O Fim do Teatro, Casa Varela, Teatro-Cine de Pombal e São Luiz Teatro Municipal Parceria RTP Palco Apoio Largo Residências Media partner Radar 97.8 FM AGRADECIMENTOS Chão de Oliva, Elsa Lago Matos e Luiz Quaresma"
     },
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -661,7 +605,7 @@
       "direção": "Luís Vieira e Rute Ribeiro",
       "coprodução": "LU.CA – Teatro Luís de Camões, Teatro Nacional D. Maria II, Centro Cultural de Belém e São Luiz Teatro Municipal /// A Tarumba é uma estrutura financiada por República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes"
     },
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -704,7 +648,7 @@
     "sala": "Pequeno Auditório",
     "age_rating": "M/6",
     "age_min": 6,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -747,7 +691,7 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -788,7 +732,7 @@
     "age_min": 14,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -828,11 +772,47 @@
     "age_rating": "M1770",
     "age_min": 1770,
     "sala": "Sala Bernardo Sassetti",
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.65
+    }
+  },
+  {
+    "id": "mariamatos-ponto-de-fuga-martim-sousa-tavares",
+    "title": "Ponto de Fuga | Martim Sousa Tavares",
+    "theater": "Teatro Maria Matos",
+    "category": "Outro",
+    "source_url": "https://teatromariamatos.pt/espetaculos/ponto-de-fuga-martim-sousa-tavares/",
+    "subtitle": "Martim Sousa Tavares",
+    "dates_label": "24 março",
+    "date_start": "2026-03-24",
+    "date_end": "2026-03-24",
+    "synopsis": "Combinando a espontaneidade narrativa do formato stand-up com a profundidade de uma viagem pelo mundo das artes, Ponto de Fuga é um espetáculo original concebido e apresentado por Martim Sousa Tavares com a participação especial de João Barradas.…",
+    "image": {
+      "url": "https://teatromariamatos.pt/wp-content/uploads/2025/11/MARTIM_SOUSA_TAVARES_1920x1080.jpg",
+      "credit": null,
+      "source": "https://teatromariamatos.pt/espetaculos/ponto-de-fuga-martim-sousa-tavares/",
+      "theater": "Teatro Maria Matos"
+    },
+    "ticket_url": "https://ticketline.sapo.pt/salas/sala/2791",
+    "price_info": "20€ - 22€",
+    "price_min": 20.0,
+    "price_max": 22.0,
+    "duration": "90 min",
+    "duration_min": 90,
+    "age_rating": "M/6",
+    "age_min": 6,
+    "technical_sheet": {
+      "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
+      "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
+    },
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
+    "theater_id": "mariamatos",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.49
     }
   },
   {
@@ -873,7 +853,7 @@
     "age_min": 6,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -920,7 +900,7 @@
     "duration": "120 min",
     "duration_min": 120,
     "age_min": 12,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
     "_meta": {
@@ -966,7 +946,7 @@
       "produção": "Executiva Marisa Coelho Gestão Financeira Nuno Pratas",
       "coprodução": "Associação Bo Dixam Bai, Associação Palavrão, Centro Cultural de Belém, Cineteatro Louletano e Culturproject"
     },
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
     "_meta": {
@@ -1006,7 +986,7 @@
     "accessibility": [],
     "subtitle": "Celebração do Dia Mundial do Teatro",
     "schedule": "19h00",
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1043,7 +1023,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -1090,7 +1070,7 @@
     "duration": "120 min",
     "duration_min": 120,
     "age_min": 12,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -1138,7 +1118,7 @@
     "technical_sheet": {
       "produção": "São Luiz Teatro Municipal"
     },
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -1177,7 +1157,7 @@
     "duration_min": 1,
     "age_rating": "Consultar a classificação dos espetáculos",
     "sala": "Vários espaços do Teatro",
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -1219,8 +1199,8 @@
       "produção": "Leonardo Garibaldi, Joana Silva"
     },
     "tags": [
-      "Dia Mundial do Teatro",
-      "Acessibilidade"
+      "Acessibilidade",
+      "Dia Mundial do Teatro"
     ],
     "accessibility": [
       "LGP",
@@ -1235,7 +1215,7 @@
     "age_min": 14,
     "price_min": 5.0,
     "price_max": 5.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1276,7 +1256,7 @@
     "accessibility": [],
     "subtitle": "Biografia e Autoficção",
     "schedule": "11h00",
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1315,7 +1295,7 @@
     "duration_min": 45,
     "price_min": 3.5,
     "price_max": 3.5,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1358,7 +1338,7 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1401,7 +1381,7 @@
     "age_min": 14,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1450,11 +1430,46 @@
     "age_min": 12,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
       "completeness": 0.74
+    }
+  },
+  {
+    "id": "mariamatos-dr-love-a-cerim-nia",
+    "title": "Dr Love: a Cerimónia",
+    "theater": "Teatro Maria Matos",
+    "category": "Outro",
+    "source_url": "https://teatromariamatos.pt/espetaculos/dr-love-a-cerimonia/",
+    "dates_label": "1 abril",
+    "date_start": "2026-04-01",
+    "date_end": "2026-04-01",
+    "synopsis": "Em Abril, o Dr. Love entra em modo cerimónia para o grande evento matrimonial, com direito a véu, grinalda, bouquet e ilustres convidados que irão apadrinhar a boda e ajudar-nos a responder, em tempo real, aos dilemas mais surpreendentes e inéditos de sempre.…",
+    "image": {
+      "url": "https://teatromariamatos.pt/wp-content/uploads/2026/01/DRLOVE_TICKETLINE_755X470px.jpg",
+      "credit": null,
+      "source": "https://teatromariamatos.pt/espetaculos/dr-love-a-cerimonia/",
+      "theater": "Teatro Maria Matos"
+    },
+    "ticket_url": "https://ticketline.sapo.pt/salas/sala/2791",
+    "price_info": "20€",
+    "price_min": 20.0,
+    "price_max": 20.0,
+    "duration": "90 min",
+    "duration_min": 90,
+    "age_rating": "M/16",
+    "age_min": 16,
+    "technical_sheet": {
+      "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
+      "produção": "90 Minutos aprox. M/16 Em Abril, o Dr. Love entra em modo cerimónia para o grande evento matrimonial, com direito a véu, grinalda, bouquet e ilustres convidados que irão apadrinhar a boda e ajudar-nos a responder, em tempo real, aos dilemas mais surpreendentes e inéditos de sempre. Breakups, makeout"
+    },
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
+    "theater_id": "mariamatos",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.49
     }
   },
   {
@@ -1498,7 +1513,7 @@
       "luz": "Rui Seabra; Desenho de som: Paulo Abelho; Costureira: RosÃ¡rio Balbi; ConstruÃ§Ã£o de cenÃ¡rio: FÃ¡bio Paulo; OperaÃ§Ã£o de luz: AntÃ³nio SerrÃ£o e JoÃ£o Madeira; OperaÃ§Ã£o de som: Vasco Maciel; Chef",
       "dramaturgia": "LuÃ­sa Costa Gomes 2015 | QUATRO SANTOS EM TRÃS ACTOS libreto de Gertrude Stein e muÌsica de Virgil Thomson TraducÌ§aÌo e"
     },
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "teatrodobairro",
     "city": "Lisboa",
     "_meta": {
@@ -1535,7 +1550,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -1544,25 +1559,13 @@
   },
   {
     "id": "mariamatos-o-amor-fodid",
-    "title": "O AMOR É FODID*",
+    "title": "O Amor É Fodid*",
     "theater": "Teatro Maria Matos",
-    "category": "Teatro",
-    "dates_label": "2026-04-07 – 2026-04-08",
+    "category": "Outro",
+    "source_url": "https://teatromariamatos.pt/espetaculos/o-amor-e-fodid/",
+    "dates_label": "7 abril",
     "date_start": "2026-04-07",
-    "date_end": "2026-04-08",
-    "sessions": [
-      {
-        "date": "2026-04-07",
-        "time": "21:00",
-        "weekday": "Ter"
-      },
-      {
-        "date": "2026-04-08",
-        "time": "21:00",
-        "weekday": "Qua"
-      }
-    ],
-    "schedule": "2026-04-07 21:00 | 2026-04-08 21:00",
+    "date_end": "2026-04-07",
     "synopsis": "O que propomos é uma obra que trate do amor com todas as peças — uma espécie de Romeu e Julieta contemporâneo em que os amantes se enganam reciprocamente suicidando-se para o amor, continuando apesar de tudo: vivos. Há uma resistência, uma vontade de se começar o que ainda não se começou.…",
     "image": {
       "url": "https://teatromariamatos.pt/wp-content/uploads/2026/02/O_AMOR_E_FODIDO_TL_1920x1080px.jpg",
@@ -1570,11 +1573,14 @@
       "source": "https://teatromariamatos.pt/espetaculos/o-amor-e-fodid/",
       "theater": "Teatro Maria Matos"
     },
-    "source_url": "https://teatromariamatos.pt/espetaculos/o-amor-e-fodid/",
     "ticket_url": "https://ticketline.sapo.pt/salas/sala/2791",
     "price_info": "18€",
-    "duration": "90 min.",
+    "price_min": 18.0,
+    "price_max": 18.0,
+    "duration": "90 min",
+    "duration_min": 90,
     "age_rating": "M/18",
+    "age_min": 18,
     "technical_sheet": {
       "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
       "texto": "Miguel Esteves Cardoso Adaptação, encenação, espaço cênico e",
@@ -1585,11 +1591,11 @@
       "produção": "Janice Mayamona Apoio Técnico: Léo Emílio Contabilidade: Irene Gaspar Comunicação e Design Gráfico: Natacha Ventura Comunicação Digital: Miguel Durão Hilário Registo em vídeo: Bruno Canas Costureira: Teresa Matos Assessoria de imprensa: Canal Aberto – Márcia Marques, Daniele Valério e Carina Bordalo",
       "autor": "diz-nos que há algo de sinistro numa mulher que só usa roupa uma vez. Como haverá, dizemos nós, algo de identicamente sinistro em vestir sempre a mesma roupa. É igual com o amor. Há algo pecaminoso em vestir-nos de amor uma vez e de novamente repetir a dose. Ao entrar para dentro do círculo amoroso,"
     },
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
-      "completeness": 0.81
+      "completeness": 0.61
     }
   },
   {
@@ -1634,7 +1640,7 @@
     "subtitle": "com Beatriz Valentim",
     "date_end": "2026-04-09",
     "schedule": "11h00",
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1671,7 +1677,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -1734,7 +1740,7 @@
       "produção": "Frederico Barata",
       "coprodução": "auéééu e São Luiz Teatro Municipal Apoios SPA, Junta de Freguesia de Santo António, Casa da Comarca de Arganil, MTC, os nossos putos Agradecimentos Eva Baudry, Filipe Andrade, Fernando Roussado, auéééu teatro"
     },
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -1781,7 +1787,7 @@
     "age_min": 6,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1818,7 +1824,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -1895,7 +1901,7 @@
       "produção": "Vanessa Amaral Produção Associação Orí – Negritudes em Convergência Espiralar",
       "coprodução": "Bolsa de Criação O Espaço do Tempo com apoio do Banco BPI e Fundação “la Caixa” /// Projeto financiado por República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes Apoios Biblioteca de Alcântara, Câmara Municipal de Almada, Câmara Municipal da Moita, RDP África, Buala"
     },
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -1936,7 +1942,7 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1973,7 +1979,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -2013,7 +2019,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Bernardo Sassetti",
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -2052,7 +2058,7 @@
     "sala": "Pequeno Auditório",
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2096,11 +2102,79 @@
       "produção": "Canário Bonacheirão",
       "coprodução": "Canário Bonacheirão e São Luiz Teatro Municipal"
     },
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.69
+    }
+  },
+  {
+    "id": "mariamatos-m-nica-salmaso",
+    "title": "Mônica Salmaso",
+    "theater": "Teatro Maria Matos",
+    "category": "Outro",
+    "source_url": "https://teatromariamatos.pt/espetaculos/monica-salmaso/",
+    "dates_label": "14 abril",
+    "date_start": "2026-04-14",
+    "date_end": "2026-04-14",
+    "synopsis": "ALMA LÍRICA BRASILEIRA\r\nA cantora Mônica Salmaso juntou-se ao pianista Nelson Ayres e ao flautista e saxofonista Teco Cardoso no álbum chamado “Alma Lírica Brasileira”.…",
+    "image": {
+      "url": "https://teatromariamatos.pt/wp-content/uploads/2026/02/2026_02_10_MONICA_SALMASO_TL_1920x1080px_01.jpg",
+      "credit": null,
+      "source": "https://teatromariamatos.pt/espetaculos/monica-salmaso/",
+      "theater": "Teatro Maria Matos"
+    },
+    "ticket_url": "https://ticketline.sapo.pt/salas/sala/2791",
+    "price_info": "30€",
+    "price_min": 30.0,
+    "price_max": 30.0,
+    "age_rating": "M/6",
+    "age_min": 6,
+    "technical_sheet": {
+      "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
+      "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
+    },
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
+    "theater_id": "mariamatos",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.44
+    }
+  },
+  {
+    "id": "mariamatos-carolina-de-deus",
+    "title": "Carolina de Deus",
+    "theater": "Teatro Maria Matos",
+    "category": "Outro",
+    "source_url": "https://teatromariamatos.pt/espetaculos/carolina-de-deus-2/",
+    "dates_label": "15 abril",
+    "date_start": "2026-04-15",
+    "date_end": "2026-04-15",
+    "synopsis": "Carolina de Deus é uma cantora e compositora natural de Lisboa. Com influências variadas, que vão desde Amy Winehouse ou The Beatles até Bárbara Tinoco ou Jorge Palma, Carolina lançou o single de estreia, “Talvez…” em janeiro de 2022, que imediatamente se tornou um sucesso.…",
+    "image": {
+      "url": "https://teatromariamatos.pt/wp-content/uploads/2025/07/CD-1920x1080-1.jpg",
+      "credit": null,
+      "source": "https://teatromariamatos.pt/espetaculos/carolina-de-deus-2/",
+      "theater": "Teatro Maria Matos"
+    },
+    "ticket_url": "https://ticketline.sapo.pt/salas/sala/2791",
+    "price_info": "25€",
+    "price_min": 25.0,
+    "price_max": 25.0,
+    "duration": "90 min",
+    "duration_min": 90,
+    "age_rating": "M/06",
+    "age_min": 6,
+    "technical_sheet": {
+      "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
+      "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
+    },
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
+    "theater_id": "mariamatos",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.49
     }
   },
   {
@@ -2133,7 +2207,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -2210,7 +2284,7 @@
     "date_end": "2026-04-24",
     "schedule": "21h30",
     "sala": "Pequeno Auditório",
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2261,7 +2335,7 @@
     "duration_min": 90,
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2302,7 +2376,7 @@
     "schedule": "11h30",
     "duration": "35 min.",
     "duration_min": 35,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2347,7 +2421,7 @@
     "age_min": 6,
     "price_min": 15.0,
     "price_max": 15.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2384,7 +2458,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -2424,7 +2498,7 @@
     "age_rating": "M1770",
     "age_min": 1770,
     "sala": "Sala Bernardo Sassetti",
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -2470,7 +2544,7 @@
     "age_min": 6,
     "price_min": 20.0,
     "price_max": 20.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2511,7 +2585,7 @@
     "age_min": 16,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2522,35 +2596,27 @@
     "id": "mariamatos-pedro-cardoso-o-rec-m-nascido",
     "title": "PEDRO CARDOSO | o recém nascido",
     "theater": "Teatro Maria Matos",
-    "category": "Teatro",
-    "dates_label": "2026-04-21 – 2026-04-27",
+    "category": "Outro",
+    "source_url": "https://teatromariamatos.pt/espetaculos/pedro-cardoso-o-recem-nascido/",
+    "subtitle": "o recém nascido",
+    "dates_label": "21 abril",
     "date_start": "2026-04-21",
-    "date_end": "2026-04-27",
-    "sessions": [
-      {
-        "date": "2026-04-21",
-        "time": "21:00",
-        "weekday": "Ter"
-      },
-      {
-        "date": "2026-04-27",
-        "time": "21:00",
-        "weekday": "Seg"
-      }
-    ],
-    "schedule": "2026-04-21 21:00 | 2026-04-27 21:00",
-    "synopsis": "Quem se lembra do próprio nascimento? Ninguém. Mas eu me lembro do meu.Lembro de todos os detalhes do meu nascimento e da minha infância. E posso garantir: eu era muito mais feliz antes de nascer! Vida boa era a minha quando eu estava guardado ainda dentro da minha mãe!…",
+    "date_end": "2026-04-21",
+    "synopsis": "Quem se lembra do próprio nascimento? Ninguém. Mas eu me lembro do meu.\r\nLembro de todos os detalhes do meu nascimento e da minha infância. E posso garantir: eu era muito mais feliz antes de nascer! Vida boa era a minha quando eu estava guardado ainda dentro da minha mãe!…",
     "image": {
       "url": "https://teatromariamatos.pt/wp-content/uploads/2026/02/Banner-Site-Lisboa-1920x1080_TRATADA.jpg",
       "credit": null,
       "source": "https://teatromariamatos.pt/espetaculos/pedro-cardoso-o-recem-nascido/",
       "theater": "Teatro Maria Matos"
     },
-    "source_url": "https://teatromariamatos.pt/espetaculos/pedro-cardoso-o-recem-nascido/",
     "ticket_url": "https://ticketline.sapo.pt/salas/sala/2791",
     "price_info": "20€",
-    "duration": "75 min.",
+    "price_min": 20.0,
+    "price_max": 20.0,
+    "duration": "75 min",
+    "duration_min": 75,
     "age_rating": "M/16",
+    "age_min": 16,
     "technical_sheet": {
       "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
       "texto": "e atuação: Pedro Cardoso",
@@ -2558,11 +2624,11 @@
       "figurinos": "Giovanna Moretto",
       "produção": "e"
     },
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
-      "completeness": 0.75
+      "completeness": 0.55
     }
   },
   {
@@ -2604,7 +2670,7 @@
     "age_min": 6,
     "price_min": 25.0,
     "price_max": 25.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2670,11 +2736,46 @@
       "produção": "Loup Solitaire",
       "coprodução": "Teatro Virgínia, Casa das Artes de Vila Nova de Famalicão, Teatro Diogo Bernardes, Teatro Gil Vicente e São Luiz Teatro Municipal /// A Loup Solitaire é uma estrutura financiada pela República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes"
     },
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.77
+    }
+  },
+  {
+    "id": "mariamatos-tom-smith",
+    "title": "Tom Smith",
+    "theater": "Teatro Maria Matos",
+    "category": "Outro",
+    "source_url": "https://teatromariamatos.pt/espetaculos/tom-smith/",
+    "dates_label": "22 abril",
+    "date_start": "2026-04-22",
+    "date_end": "2026-04-22",
+    "synopsis": "Há mais de duas décadas que qualquer música dos Editors é instantaneamente reconhecível graças à voz de Tom Smith. Solene, penetrante, imponente. Mesmo quando, no início do século, eles pareciam pertencer a um pacote pós-punk ao lado de outras bandas como Interpol, Maxïmo Park ou The Bravery, Smith …",
+    "image": {
+      "url": "https://teatromariamatos.pt/wp-content/uploads/2025/11/1920x1080_2_lis.jpg",
+      "credit": null,
+      "source": "https://teatromariamatos.pt/espetaculos/tom-smith/",
+      "theater": "Teatro Maria Matos"
+    },
+    "ticket_url": "https://ticketline.sapo.pt/salas/sala/2791",
+    "price_info": "22€ - 27€",
+    "price_min": 22.0,
+    "price_max": 27.0,
+    "duration": "120 min",
+    "duration_min": 120,
+    "age_rating": "M/6",
+    "age_min": 6,
+    "technical_sheet": {
+      "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
+      "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
+    },
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
+    "theater_id": "mariamatos",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.49
     }
   },
   {
@@ -2716,7 +2817,7 @@
     "duration_min": 120,
     "age_rating": "M/16",
     "age_min": 16,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2758,7 +2859,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -2814,7 +2915,7 @@
       "coprodução": "Teatro-Cine Torres Vedras"
     },
     "sala": "Auditório Emílio Rui Vilar",
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "culturgest",
     "city": "Lisboa",
     "_meta": {
@@ -2876,7 +2977,7 @@
     "age_min": 12,
     "duration": "90 min.",
     "duration_min": 90,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
@@ -2931,7 +3032,7 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2974,7 +3075,7 @@
     "age_min": 12,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3038,11 +3139,47 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Luis Miguel Cintra e sala Bernardo Sassetti",
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.65
+    }
+  },
+  {
+    "id": "mariamatos-nena-e-joana-almeirante-dois-pares-de-botas",
+    "title": "NENA E JOANA ALMEIRANTE | dois pares de botas",
+    "theater": "Teatro Maria Matos",
+    "category": "Outro",
+    "source_url": "https://teatromariamatos.pt/espetaculos/nena-e-joana-almeirante/",
+    "subtitle": "dois pares de botas",
+    "dates_label": "29 abril",
+    "date_start": "2026-04-29",
+    "date_end": "2026-04-29",
+    "synopsis": "Dizem que não há estilo como o country no que diz respeito a contar histórias e Nena e Joana Almeirante, duas das mais promissoras artistas da nova geração da música portuguesa, têm muitas para contar.…",
+    "image": {
+      "url": "https://teatromariamatos.pt/wp-content/uploads/2025/10/1920x1080_download.jpg",
+      "credit": null,
+      "source": "https://teatromariamatos.pt/espetaculos/nena-e-joana-almeirante/",
+      "theater": "Teatro Maria Matos"
+    },
+    "ticket_url": "https://ticketline.sapo.pt/salas/sala/2791",
+    "price_info": "18€ - 25€",
+    "price_min": 18.0,
+    "price_max": 25.0,
+    "duration": "90 min",
+    "duration_min": 90,
+    "age_rating": "M/6",
+    "age_min": 6,
+    "technical_sheet": {
+      "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
+      "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
+    },
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
+    "theater_id": "mariamatos",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.49
     }
   },
   {
@@ -3089,7 +3226,7 @@
     "age_min": 6,
     "price_min": 40.0,
     "price_max": 40.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3151,7 +3288,7 @@
     "age_min": 14,
     "duration": "90 min.",
     "duration_min": 90,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
@@ -3188,7 +3325,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -3225,7 +3362,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -3262,7 +3399,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -3311,7 +3448,7 @@
     "age_min": 12,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3403,7 +3540,7 @@
     "duration": "70 min",
     "duration_min": 70,
     "age_min": 14,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
     "_meta": {
@@ -3450,7 +3587,7 @@
       "direção": "Luís Vieira e Rute Ribeiro",
       "coprodução": "LU.CA – Teatro Luís de Camões, Teatro Nacional D. Maria II, Centro Cultural de Belém e São Luiz Teatro Municipal /// A Tarumba é uma estrutura financiada por República Portuguesa – Cultura / Direção-Geral das Artes"
     },
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -3536,7 +3673,7 @@
     "accessibility": [],
     "subtitle": "Bienal de Arte e Tecnologia",
     "date_end": "2026-05-17",
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3623,7 +3760,7 @@
     "subtitle": "Pedro Gossler",
     "date_end": "2026-05-17",
     "schedule": "14h30",
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3712,7 +3849,7 @@
     "subtitle": "Shuang Li",
     "date_end": "2026-05-17",
     "schedule": "14h30",
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3755,7 +3892,7 @@
     "age_min": 6,
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3796,7 +3933,7 @@
     "age_min": 6,
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3833,7 +3970,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -3874,11 +4011,48 @@
     "age_min": 6,
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
       "completeness": 0.6
+    }
+  },
+  {
+    "id": "mariamatos-latte-escrevi-can-es-e-s-o-todas-iguais",
+    "title": "LATTE | escrevi canções e são todas iguais",
+    "theater": "Teatro Maria Matos",
+    "category": "Outro",
+    "source_url": "https://teatromariamatos.pt/espetaculos/latte-escrevi-cancoes-e-sao-todas-iguais/",
+    "subtitle": "escrevi canções e são todas iguais",
+    "dates_label": "12 maio",
+    "date_start": "2026-05-12",
+    "date_end": "2026-05-12",
+    "synopsis": "Latte apresenta o primeiro álbum de estúdio \"escrevi canções e são todas iguais\", com data de lançamento no dia 27 de março. Um projeto há muito aguardado pelo público em que se vislumbra a sua identidade artística entre canções com amores e desamores, sem necessidade de assumir uma posição ou prova…",
+    "image": {
+      "url": "https://teatromariamatos.pt/wp-content/uploads/2026/03/site-MM_Latte.png",
+      "credit": null,
+      "source": "https://teatromariamatos.pt/espetaculos/latte-escrevi-cancoes-e-sao-todas-iguais/",
+      "theater": "Teatro Maria Matos"
+    },
+    "ticket_url": "https://ticketline.sapo.pt/salas/sala/2791",
+    "price_info": "15-18€",
+    "price_min": 15.0,
+    "price_max": 18.0,
+    "duration": "90 min",
+    "duration_min": 90,
+    "age_rating": "M/6",
+    "age_min": 6,
+    "technical_sheet": {
+      "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
+      "elenco": "Zarko, que atingiu o top nacional e se tornou single de ouro.",
+      "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
+    },
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
+    "theater_id": "mariamatos",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.51
     }
   },
   {
@@ -3934,7 +4108,7 @@
     "age_min": 12,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3982,7 +4156,7 @@
     "price_max": 20.0,
     "age_rating": "M/6",
     "age_min": 6,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
@@ -3993,18 +4167,12 @@
     "id": "mariamatos-sin-doque-ivo-canelas-e-jo-o-vasco",
     "title": "SINÉDOQUE | Ivo Canelas e João Vasco",
     "theater": "Teatro Maria Matos",
-    "category": "Teatro",
-    "dates_label": "2026-05-13",
+    "category": "Outro",
+    "source_url": "https://teatromariamatos.pt/espetaculos/sinedoque-ivo-canelas-e-joao-vasco/",
+    "subtitle": "Ivo Canelas e João Vasco",
+    "dates_label": "13 maio",
     "date_start": "2026-05-13",
     "date_end": "2026-05-13",
-    "sessions": [
-      {
-        "date": "2026-05-13",
-        "time": "21:00",
-        "weekday": "Qua"
-      }
-    ],
-    "schedule": "2026-05-13 21:00",
     "synopsis": "Evocando a figura de estilo pela qual se exprime “a parte pelo todo” ou “o todo pela parte”, o espectáculo “Sinédoque” revisita e reinventa a obra de poetas portugueses dos séculos XX e XXI, entre os quais Alexandre O’Neill, Ruy Belo, Tiago Rodrigues ou Margarida Vale de Gato.…",
     "image": {
       "url": "https://teatromariamatos.pt/wp-content/uploads/2026/02/2025_11_25_SINEDOQUE_MM_Site_1920x1080px_01.jpg",
@@ -4012,22 +4180,23 @@
       "source": "https://teatromariamatos.pt/espetaculos/sinedoque-ivo-canelas-e-joao-vasco/",
       "theater": "Teatro Maria Matos"
     },
-    "source_url": "https://teatromariamatos.pt/espetaculos/sinedoque-ivo-canelas-e-joao-vasco/",
     "ticket_url": "https://ticketline.sapo.pt/salas/sala/2791",
     "price_info": "18€ - 22€",
-    "duration": "",
+    "price_min": 18.0,
+    "price_max": 22.0,
     "age_rating": "M/12",
+    "age_min": 12,
     "technical_sheet": {
       "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
       "direção": "artística",
       "elenco": "João Vasco. Actualmente em itinerância, Sinédoque estreou em 2023 e foi apresentado em Portugal, Tunísia, Cabo Verde, Brasil, França e Angola. Avenida Frei Miguel Contreiras, 52, 1700-213, Lisboa Horário da Bilheteira Segunda – Sábado 17h30 às 21h30 Domingo — 15h30 às 18h30 *Horários em vigor em dia",
       "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
     },
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
-      "completeness": 0.68
+      "completeness": 0.48
     }
   },
   {
@@ -4074,11 +4243,48 @@
     "age_min": 3,
     "price_min": 2.5,
     "price_max": 2.5,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
       "completeness": 0.65
+    }
+  },
+  {
+    "id": "mariamatos-in-s-de-vasconcellos-entre-ontem-e-agora",
+    "title": "INÊS DE VASCONCELLOS | entre ontem e agora",
+    "theater": "Teatro Maria Matos",
+    "category": "Outro",
+    "source_url": "https://teatromariamatos.pt/espetaculos/ines-de-vasconcellos-entre-ontem-e-agora/",
+    "subtitle": "entre ontem e agora",
+    "dates_label": "20 maio",
+    "date_start": "2026-05-20",
+    "date_end": "2026-05-20",
+    "synopsis": "Inês de Vasconcellos apresenta o seu novo álbum Entre Ontem e Agora, num espetáculo que reflete cinco anos de percurso artístico e um momento de afirmação enquanto intérprete da música portuguesa.…",
+    "image": {
+      "url": "https://teatromariamatos.pt/wp-content/uploads/2025/10/InesDeVasconcellos_SemTexto_1920x1080px.jpg",
+      "credit": null,
+      "source": "https://teatromariamatos.pt/espetaculos/ines-de-vasconcellos-entre-ontem-e-agora/",
+      "theater": "Teatro Maria Matos"
+    },
+    "ticket_url": "https://ticketline.sapo.pt/salas/sala/2791",
+    "price_info": "14€",
+    "price_min": 14.0,
+    "price_max": 14.0,
+    "duration": "90 min",
+    "duration_min": 90,
+    "age_rating": "M/6",
+    "age_min": 6,
+    "technical_sheet": {
+      "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
+      "luz": "Pedro Leston Jr. 90 min. M/6 Inês de Vasconcellos apresenta o seu novo álbum Entre Ontem e Agora, num espetáculo que reflete cinco anos de percurso artístico e um momento de afirmação enquanto intérprete da",
+      "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
+    },
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
+    "theater_id": "mariamatos",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.51
     }
   },
   {
@@ -4120,7 +4326,7 @@
     "duration_min": 55,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -4169,7 +4375,7 @@
       "coprodução": "Má-Criação, Fundação Caixa Geral de Depósitos- Culturgest, Planetário do Porto – Centro Ciência Viva / U. Porto"
     },
     "sala": "",
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "culturgest",
     "city": "Lisboa",
     "_meta": {
@@ -4216,7 +4422,7 @@
     "sala": "Sala Principal",
     "age_rating": "M/6",
     "age_min": 6,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -4253,7 +4459,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -4335,7 +4541,7 @@
       "luz": "Ângela Bismarck",
       "coprodução": "CCB/Fábrica das Artes Apoio Fundo Cultural da Sociedade Portuguesa de Autores Apoio à investigação Tribunal Constitucional Projeto criado no âmbito da parceria Centro Cultural de Belém/Fábrica das Artes e Assembleia da República. Imagem ©Assembleia da República Ilustração de Mantr"
     },
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
     "_meta": {
@@ -4381,7 +4587,7 @@
     "price_max": 20.0,
     "age_rating": "M/6",
     "age_min": 6,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
@@ -4418,7 +4624,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -4470,7 +4676,7 @@
     "duration": "50 min",
     "duration_min": 50,
     "age_min": 6,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
     "_meta": {
@@ -4522,7 +4728,7 @@
     "duration": "50 min",
     "duration_min": 50,
     "age_min": 6,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -4574,7 +4780,7 @@
       "luz": "Pedro Guimarães",
       "produção": "Xana Lagusi"
     },
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -4626,7 +4832,7 @@
     "sala": "Sala Principal",
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -4664,7 +4870,7 @@
     "tags": [],
     "accessibility": [],
     "subtitle": "António Brito Guterres e Maria Manuel Oliveira",
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -4708,7 +4914,7 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -4748,7 +4954,7 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -4785,7 +4991,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -4860,7 +5066,7 @@
     "duration_min": 35,
     "price_min": 3.0,
     "price_max": 3.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -4900,7 +5106,7 @@
     "tags": [],
     "accessibility": [],
     "date_end": "2026-10-31",
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -4945,7 +5151,7 @@
     "age_min": 6,
     "price_min": 30.0,
     "price_max": 30.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -4992,7 +5198,7 @@
     "duration": "90 min",
     "duration_min": 90,
     "age_min": 351,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
     "_meta": {
@@ -5084,7 +5290,7 @@
       "produção": "André Camilo",
       "coprodução": "Camarote Produções e São Luiz Teatro Municipal"
     },
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -5135,7 +5341,7 @@
     "age_min": 6,
     "price_min": 2.5,
     "price_max": 2.5,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -5182,7 +5388,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -5221,7 +5427,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Luis Miguel Cintra",
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -5266,7 +5472,7 @@
     "age_min": 6,
     "price_min": 3.0,
     "price_max": 3.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -5312,7 +5518,7 @@
     "age_min": 6,
     "price_min": 2.5,
     "price_max": 2.5,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -5357,7 +5563,7 @@
       "produção": "Inês Pinto",
       "coprodução": "A Oficina/Centro Cultural Vila Flor , RTP – Rádio e Televisão de Portugal , Teatro Diogo Bernardes e Teatro das Figuras"
     },
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
     "_meta": {
@@ -5397,7 +5603,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Bernardo Sassetti",
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -5441,7 +5647,7 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -5480,7 +5686,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Luis Miguel Cintra",
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -5522,7 +5728,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -5580,7 +5786,7 @@
     "age_min": 12,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -5622,7 +5828,7 @@
     "technical_sheet": {
       "direção": "Pedro Carneiro Violoncelo Vasco Ferrão Maestros assistentes Vasco Ferrão, Jorge Leiria"
     },
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -5665,7 +5871,7 @@
     "cast": [],
     "price_min": 16.0,
     "price_max": 20.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
@@ -5760,7 +5966,7 @@
       "luz": "Leocádia Silva",
       "produção": "Alaíde Costa Assistente de"
     },
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
     "_meta": {
@@ -5797,7 +6003,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -5853,7 +6059,7 @@
       "direção_produção": "Maria João Garcia",
       "coprodução": "Fundação de Serralves/Serralves em Festa, Citemor, Festival End, Festival Paragem e São Luiz Teatro Municipal"
     },
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -5897,7 +6103,7 @@
     "age_min": 6,
     "price_min": 25.0,
     "price_max": 25.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -5988,7 +6194,7 @@
       "produção": "Razões Pessoais Residência artística Casa de Gigante",
       "coprodução": "Teatro das Figuras e São Luiz Teatro Municipal"
     },
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -6043,7 +6249,7 @@
       "produção": "Trypas-Corassão Associação Cultural",
       "coprodução": "Es Tr3s Irms é o projeto vencedor da 5ª edição da Bolsa Amélia Rey Colaço, uma iniciativa promovida pelo Teatro Nacional D. Maria II (Lisboa), A Oficina / Centro Cultural Vila Flor (Guimarães), O Espaço do Tempo (Montemor-o-Novo), e o Teatro Viriato (Viseu)."
     },
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -6102,7 +6308,7 @@
       "coprodução": "Teatro Municipal do Porto – Rivoli / Campo Alegre A mala voadora é uma estrutura financiada pelo Governo de Portugal – Ministério da Cultura / Direção-Geral das Artes"
     },
     "sala": "Auditório Emílio Rui Vilar",
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "culturgest",
     "city": "Lisboa",
     "_meta": {
@@ -6142,7 +6348,7 @@
     "subtitle": "Com Pedro Melo Alves",
     "duration": "90 min.",
     "duration_min": 90,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6187,7 +6393,7 @@
     "age_min": 6,
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6233,7 +6439,7 @@
       "produção": "Henrique Mariano",
       "coprodução": "Centro Cultural de Belém (Lisboa-Portugal), Holland Festival (Amsterdão), Festival d’Avignon (França), Edinburgh International Festival (Escócia) e DeSingel (Bélgica) Apoio UCLA’s Center for the Art of Performance e Instituto Guimarães Rosa — IGR — Ministério das Relações Exteriores do Brasi"
     },
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
     "_meta": {
@@ -6275,7 +6481,7 @@
     "duration": "150 min",
     "duration_min": 150,
     "age_min": 6,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -6284,26 +6490,39 @@
   },
   {
     "id": "mariamatos-swimming-pool-party",
-    "title": "SWIMMING POOL PARTY",
+    "title": "Swimming Pool Party",
     "theater": "Teatro Maria Matos",
-    "category": "Teatro",
+    "category": "Outro",
+    "source_url": "https://teatromariamatos.pt/espetaculos/swimming-pool-party/",
     "dates_label": "9 julho –  9 agosto",
     "date_start": "2026-07-09",
     "date_end": "2026-08-09",
-    "sessions": [],
-    "schedule": "Domingos 18:00 | Quintas 21:00 | Sextas 21:00 | Sábados 21:00",
-    "synopsis": "O estranho caso do assassinato no Teatro Maria Matos.Pode um grupo de amigos e familiares, em estranha party de fim de temporada, ao som da bossa nova e conversas presunçosas, levar a um desfecho mortal e suscitar a perguntawhodunit?…",
+    "schedule": "Domingos · 18:00 | Quintas · 21:00 | Sextas · 21:00 | Sábados · 21:00",
+    "sessions": [
+      {
+        "date": "2026-07-09",
+        "time": "18:00",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-08-09",
+        "time": "18:00",
+        "weekday": "Dom"
+      }
+    ],
+    "synopsis": "O estranho caso do assassinato no Teatro Maria Matos.\r\nPode um grupo de amigos e familiares, em estranha party de fim de temporada, ao som da bossa nova e conversas presunçosas, levar a um desfecho mortal e suscitar a pergunta whodunit?…",
     "image": {
       "url": "https://teatromariamatos.pt/wp-content/uploads/2026/03/1920x1080.jpg",
       "credit": null,
       "source": "https://teatromariamatos.pt/espetaculos/swimming-pool-party/",
       "theater": "Teatro Maria Matos"
     },
-    "source_url": "https://teatromariamatos.pt/espetaculos/swimming-pool-party/",
     "ticket_url": "https://ticketline.sapo.pt/salas/sala/2791",
     "price_info": "20€ - 22€",
-    "duration": "",
+    "price_min": 20.0,
+    "price_max": 22.0,
     "age_rating": "M/12",
+    "age_min": 12,
     "technical_sheet": {
       "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
       "encenação": "Ricardo Neves-Neves",
@@ -6316,11 +6535,11 @@
       "produção": "e Cena TdE Sílvia Moura",
       "texto": "de Ricardo Neves-Neves, o enredo é muito mais dramático, as causas mais profundas, as personagens uns canalhas desprezíveis, e o final trará o espanto. Querem ser cúmplices deste crime? Avenida Frei Miguel Contreiras, 52, 1700-213, Lisboa Horário da Bilheteira Segunda – Sábado 17h30 às 21h30 Domingo"
     },
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
-      "completeness": 0.6
+      "completeness": 0.8
     }
   },
   {
@@ -6363,7 +6582,7 @@
       "interpretação": "João Reis, Margarida Carvalho, Daniel Silva, Joana Africano",
       "coprodução": "Centro Cultural de Belém, Casa das Artes de Vila Nova de Famalicão, Teatro Nacional São João"
     },
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
     "_meta": {
@@ -6409,7 +6628,7 @@
     "age_min": 3,
     "price_min": 1.5,
     "price_max": 1.5,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6454,7 +6673,7 @@
     "duration": "120 min",
     "duration_min": 120,
     "age_min": 16,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -6513,7 +6732,7 @@
     "duration_min": 1,
     "age_rating": "A classificar pela CCE",
     "sala": "Sala Mário Viegas",
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -6585,7 +6804,7 @@
     "tags": [],
     "accessibility": [],
     "date_end": "2026-07-25",
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6647,7 +6866,7 @@
     "duration": "90 min",
     "duration_min": 90,
     "age_min": 351,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -6699,7 +6918,7 @@
     "age_min": 12,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6746,7 +6965,7 @@
     "sala": "Pequeno Auditório",
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6789,7 +7008,7 @@
     "age_min": 12,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6832,7 +7051,7 @@
     "age_min": 12,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6875,7 +7094,7 @@
     "age_min": 12,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6922,7 +7141,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -6966,7 +7185,7 @@
     "age_min": 12,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -7009,7 +7228,7 @@
     "age_min": 16,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -7056,7 +7275,7 @@
     "duration": "105 min",
     "duration_min": 105,
     "age_min": 351,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -7089,7 +7308,7 @@
     "age_rating": "M1770",
     "age_min": 1770,
     "sala": "Vários espaços do Teatro",
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -7125,11 +7344,45 @@
     "duration": "14h30",
     "duration_min": 870,
     "age_min": 351,
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.45
+    }
+  },
+  {
+    "id": "mariamatos-tova-leigh-fifty-shades-of-rage",
+    "title": "TOVA LEIGH | fifty shades of rage",
+    "theater": "Teatro Maria Matos",
+    "category": "Outro",
+    "source_url": "https://teatromariamatos.pt/espetaculos/tova-leigh-fifty-shades-of-rage/",
+    "subtitle": "fifty shades of rage",
+    "dates_label": "21 outubro",
+    "date_start": "2026-10-21",
+    "date_end": "2026-10-21",
+    "synopsis": "Fifty Shades of RAGE\r\n\r\nDe volta por aclamação popular após a sua digressão esgotada de 2024, onde levantou o véu sobre o casamento, a maternidade e a montanha-russa da perimenopausa. Tova Leigh regressa com um espetáculo a solo totalmente novo: Fifty Shades of Rage.…",
+    "image": {
+      "url": "https://teatromariamatos.pt/wp-content/uploads/2026/02/tova-leigh-maria-matos-1920x1080-sem-texto.jpg",
+      "credit": null,
+      "source": "https://teatromariamatos.pt/espetaculos/tova-leigh-fifty-shades-of-rage/",
+      "theater": "Teatro Maria Matos"
+    },
+    "ticket_url": "https://ticketline.sapo.pt/salas/sala/2791",
+    "price_info": "25€-60€",
+    "price_min": 25.0,
+    "price_max": 60.0,
+    "age_rating": "M/18",
+    "age_min": 18,
+    "technical_sheet": {
+      "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
+      "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
+    },
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
+    "theater_id": "mariamatos",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.44
     }
   },
   {
@@ -7164,7 +7417,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Luis Miguel Cintra",
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -7203,11 +7456,46 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Luis Miguel Cintra",
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.65
+    }
+  },
+  {
+    "id": "mariamatos-mo-gilligan-the-mo-you-know",
+    "title": "MO GILLIGAN | the mo you know",
+    "theater": "Teatro Maria Matos",
+    "category": "Outro",
+    "source_url": "https://teatromariamatos.pt/espetaculos/mo-gillian-the-mo-you-know/",
+    "subtitle": "the mo you know",
+    "dates_label": "25 novembro",
+    "date_start": "2026-11-25",
+    "date_end": "2026-11-25",
+    "synopsis": "O comediante sensação e vencedor de três prémios BAFTA, Mo Gilligan, anunciou a sua maior digressão mundial de sempre com The Mo You Know, em 2026. A tour começa no The Alban Arena, em St Albans, na quarta-feira, 28 de janeiro, com uma série inicial de 28 espetáculos no Reino Unido.…",
+    "image": {
+      "url": "https://teatromariamatos.pt/wp-content/uploads/2025/09/mogilligan-maria-matos-site-1920x1080-1.jpg",
+      "credit": null,
+      "source": "https://teatromariamatos.pt/espetaculos/mo-gillian-the-mo-you-know/",
+      "theater": "Teatro Maria Matos"
+    },
+    "ticket_url": "https://ticketline.sapo.pt/salas/sala/2791",
+    "price_info": "23€-26€",
+    "price_min": 23.0,
+    "price_max": 26.0,
+    "age_rating": "M/16",
+    "age_min": 16,
+    "technical_sheet": {
+      "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
+      "elenco": "The Mo You Know , em 2026.",
+      "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
+    },
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
+    "theater_id": "mariamatos",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.46
     }
   },
   {
@@ -7237,7 +7525,7 @@
     "age_rating": "M1770",
     "age_min": 1770,
     "sala": "Sala Bernardo Sassetti",
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -7277,7 +7565,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Bernardo Sassetti",
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -7322,7 +7610,7 @@
     "technical_sheet": {
       "produção": "São Luiz Teatro Municipal"
     },
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -7359,11 +7647,55 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:22:46.119488+00:00",
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
       "completeness": 0.45
+    }
+  },
+  {
+    "id": "mariamatos-primeira-vista",
+    "title": "À Primeira Vista",
+    "theater": "Teatro Maria Matos",
+    "category": "Outro",
+    "source_url": "https://teatromariamatos.pt/espetaculos/a-primeira-vista/",
+    "dates_label": "3 março",
+    "date_start": "2027-03-03",
+    "date_end": "2027-03-03",
+    "synopsis": "Prima Facie —Expressão jurídica latina que significa: À primeira vista.\r\n\r\nMargarida Vila-Nova sobe ao palco do Teatro Maria Matos com a versão portuguesa de À PRIMEIRA VISTA (PRIMA FACIE), de Suzie Miller, com encenação de Tiago Guedes.…",
+    "image": {
+      "url": "https://teatromariamatos.pt/wp-content/uploads/2025/03/2024_04_23_A_PRIMEIRA_VISTA_TL_1920x1080px_01.jpg",
+      "credit": "Filipe Ferreira 90 min. M/14 Prima Facie —Expressão jurídica latina que signific",
+      "source": "https://teatromariamatos.pt/espetaculos/a-primeira-vista/",
+      "theater": "Teatro Maria Matos"
+    },
+    "ticket_url": "https://ticketline.sapo.pt/salas/sala/2791",
+    "price_info": "20€",
+    "price_min": 20.0,
+    "price_max": 20.0,
+    "duration": "90 min",
+    "duration_min": 90,
+    "age_rating": "M/14",
+    "age_min": 14,
+    "technical_sheet": {
+      "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
+      "texto": "Suzie Miller",
+      "encenação": "Tiago Guedes",
+      "tradução": "Ana Sampaio",
+      "cenário": "Catarina Amaro",
+      "luz": "Nuno Meira",
+      "som": "Carincur",
+      "figurinos": "Rita Alves agradecimentos João Tavares",
+      "produção": "Força de",
+      "autor": "Suzie Miller é uma dramaturga e argumentista contemporânea, vencedora de diversos prémios internacionais. Gosta de histórias humanas complexas que frequentemente versam a injustiça. Trabalha em Londres, no Reino Unido, e em Sydney, na Austrália, mas a sua obra tem sido apresentada em todo o mundo. T",
+      "dramaturgia": "no National Institute of Dramatic Art , na Austrália. Play Avenida Frei Miguel Contreiras, 52, 1700-213, Lisboa Horário da Bilheteira Segunda – Sábado 17h30 às 21h30 Domingo — 15h30 às 18h30 *Horários em vigor em dias de espectáculo. Horário sujeito a alterações. Reservas e informações de bilheteira"
+    },
+    "scraped_at": "2026-03-20T23:35:56.673492+00:00",
+    "theater_id": "mariamatos",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.65
     }
   }
 ]
