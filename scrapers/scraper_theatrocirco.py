@@ -400,20 +400,31 @@ def _scrape_event(item: dict) -> dict | None:
     image   = None
     raw_img = ""
 
-    # og:image é o mais fiável
-    og = soup.find("meta", property="og:image")
-    if og:
-        raw_img = og.get("content", "").strip()
+    # og:image — o WordPress emite DOIS: primeiro o genérico do tema
+    # (share-image.png) e depois o correcto do evento (wp-content/uploads).
+    # soup.find() apanharia sempre o primeiro (errado); usar find_all() e
+    # iterar ao contrário para apanhar o último que aponte para uploads.
+    og_tags = soup.find_all("meta", property="og:image")
+    for og in reversed(og_tags):
+        candidate = og.get("content", "").strip()
+        if candidate and "wp-content/uploads" in candidate:
+            raw_img = candidate
+            break
+    # Fallback: último og:image disponível
+    if not raw_img and og_tags:
+        raw_img = og_tags[-1].get("content", "").strip()
 
-    # Fallback: thumbnail da listagem
-    if not raw_img:
-        raw_img = item.get("thumb_url", "")
+    # Fallback: thumbnail da listagem (já específico por evento)
+    if not raw_img or "share-image" in raw_img:
+        thumb = item.get("thumb_url", "")
+        if thumb:
+            raw_img = thumb
 
-    # Fallback: primeira imagem wp-content sem ser logo
-    if not raw_img:
+    # Fallback: primeira <img> de wp-content/uploads na página
+    if not raw_img or "share-image" in raw_img:
         for img in soup.find_all("img", src=re.compile(r"/wp-content/uploads/")):
             src = img.get("src", "")
-            if src and "logo" not in src.lower() and len(src) > 40:
+            if src and "logo" not in src.lower() and "cropped" not in src.lower():
                 raw_img = src if src.startswith("http") else urljoin(_BASE, src)
                 break
 
