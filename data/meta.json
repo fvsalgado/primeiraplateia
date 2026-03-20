@@ -1,9 +1,10 @@
 {
-  "updated_at": "2026-03-20T21:22:45.966244+00:00",
-  "build_version": "20260320-2122",
-  "total_events": 67,
-  "total_theaters": 9,
+  "updated_at": "2026-03-20T21:38:05.459181+00:00",
+  "build_version": "20260320-2138",
+  "total_events": 130,
+  "total_theaters": 10,
   "by_theater": {
+    "Theatro Circo": 63,
     "Teatro Variedades": 6,
     "Teatro da Trindade INATEL": 5,
     "Teatro Maria Matos": 6,
@@ -14,6 +15,6 @@
     "Teatro do Bairro": 1,
     "Culturgest": 3
   },
-  "completeness_avg": 0.614,
+  "completeness_avg": 0.615,
   "anomalies": []
 }

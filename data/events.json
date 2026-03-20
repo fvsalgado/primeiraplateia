@@ -1,5 +1,51 @@
 [
   {
+    "id": "theatrocirco-tr-s-tempos",
+    "title": "Três Tempos",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/tres-tempos-2026/",
+    "date_start": "2026-01-12",
+    "category": "Outro",
+    "dates_label": "12 Janeiro a 18 Abril",
+    "sessions": [
+      {
+        "date": "2026-01-12",
+        "time": "18:45",
+        "weekday": "Seg"
+      },
+      {
+        "date": "2026-04-18",
+        "time": "18:45",
+        "weekday": "Sáb"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/tres-tempos-2026/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "A várias mãos, com os diferentes tempos de cada cidade parceira, Três Tempos entra na sua segunda edição, agora com xullaji como guia sonoro e poético. Três grupos com idades entre os 15 e os 18 anos, reunidos em Braga (Theatro Circo), Viseu (Teatro Viriato) e Lisboa (Culturgest), recebem o convite …",
+    "ticket_url": "",
+    "price_info": "Gratuito",
+    "technical_sheet": {
+      "música": "Três Tempos Com Xullaji e Tiago Sampaio Segundas · 18h45 Sala de Ensaios Gratuito mediante inscrição para participacao@theatrocirco.com Jovens dos 15 aos 18 anos 1/8 1/8 2/8 3/8 4/8 5/8 6/8 7/8 8/8 A",
+      "criação": "deste projeto participativo, fora do ambiente escolar, pensado para que cada grupo viva o processo de forma igual. Assim, entre novembro de 2025 e abril de 2026, têm lugar encontros semanais de escrit",
+      "produção": "Theatro Circo (Braga), Culturgest (Lisboa) e Teatro Viriato (Viseu) Queres fazer parte deste projeto? Escreve-nos para participacao@theatrocirco.com TheatroCirco Programação Sobre Informações Acessibi"
+    },
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "Com Xullaji e Tiago Sampaio",
+    "date_end": "2026-04-18",
+    "schedule": "18h45",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.56
+    }
+  },
+  {
     "id": "variedades-clube-de-leitura-do-teatro-variedades",
     "title": "Clube de Leitura do Teatro Variedades",
     "theater": "Teatro Variedades",
@@ -37,7 +83,7 @@
     "duration": "60 min",
     "duration_min": 60,
     "age_min": 351,
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
     "_meta": {
@@ -87,7 +133,7 @@
       "figurinos": "Filipe Faísca Desenho de luz Nuno Meira",
       "música": "original Artur Guimarães Sonoplastia Rui Santos Vídeo João Alves Assistência de"
     },
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
@@ -137,7 +183,7 @@
       "cenografia": "FPSolutions Fotografia de cartaz Pedro Macedo – Framed Photos Fotografia de cena Alípio Padilha",
       "produção": "executiva Teatro do Vão"
     },
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
@@ -200,11 +246,58 @@
       "autor": "Suzie Miller é uma dramaturga e argumentista contemporânea, vencedora de diversos prémios internacionais. Gosta de histórias humanas complexas que frequentemente versam a injustiça. Trabalha em Londres, no Reino Unido, e em Sydney, na Austrália, mas a sua obra tem sido apresentada em todo o mundo. T",
       "dramaturgia": "no National Institute of Dramatic Art , na Austrália. Play Avenida Frei Miguel Contreiras, 52, 1700-213, Lisboa Horário da Bilheteira Segunda – Sábado 17h30 às 21h30 Domingo — 15h30 às 18h30 *Horários em vigor em dias de espectáculo. Horário sujeito a alterações. Reservas e informações de bilheteira"
     },
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.85
+    }
+  },
+  {
+    "id": "theatrocirco-ciclo-m-sica-de-c-mara",
+    "title": "Ciclo Música de Câmara",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/ciclo-musica-de-camara-universidade-do-minho/",
+    "date_start": "2026-03-03",
+    "category": "Música",
+    "dates_label": "3 e 31 Março",
+    "sessions": [
+      {
+        "date": "2026-03-03",
+        "time": "18:00",
+        "weekday": "Ter"
+      },
+      {
+        "date": "2026-03-31",
+        "time": "18:00",
+        "weekday": "Ter"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/ciclo-musica-de-camara-universidade-do-minho/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Na sequência da edição de 2025, o Departamento de Música da Universidade do Minho traz ao Salão Nobre obras de referência do repertório da música erudita através doCiclo de Música de Câmara.…",
+    "ticket_url": "",
+    "price_info": "Gratuito",
+    "technical_sheet": {
+      "música": "de Câmara Universidade do Minho - Theatro Circo Saltar para o conteúdo principal En TheatroCirco Outros → Programação → Bilheteira → O Theatro → Acessibilidade TheatroCirco Programação Este site utili",
+      "direção": "Francisco Oliveira e Maria João Azevedo – Saxofone Soprano Gabriel Azevedo e Matheus Lima – Saxofone Alto Guilherme Oliveira e Rita Mendes – Saxofone Tenor Beatriz Alves, Beatriz Rolo e Tiago Godinho"
+    },
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "Universidade do Minho",
+    "date_end": "2026-03-31",
+    "schedule": "18h00",
+    "age_rating": "M/6",
+    "age_min": 6,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.59
     }
   },
   {
@@ -296,7 +389,7 @@
       "interpretação": "Cucha Carvalheiro, David Esteves, Fernando Luís, Madalena Almeida, Manuela Couto, Virgílio Castelo e Duarte Romão e Laura Garnel (alunos finalistas da ESTC)",
       "coprodução": "Culturproject, Teatro Municipal Joaquim Benite e São Luiz Teatro Municipal Projeto apoiado por República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes"
     },
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -343,7 +436,7 @@
       "interpretação": "Ana Guiomar, Cristóvão Campos, Ruben Madureira e Sandra Faleiro",
       "elenco": "Ana Guiomar, Cristóvão Campos, Ruben Madureira e Sandra Faleiro, “Uma Ideia Genial” conta a história hilariante de uma personagem que se multiplica em três, cada uma com as suas características e perplexidades. Atrações, ciúmes, suspeitas e destinos cruzados criam uma sucessão de mal-entendidos e um"
     },
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
@@ -380,7 +473,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -479,11 +572,183 @@
       "produção": "Fátima Santos Filipe Difusão João Vaz Silva",
       "coprodução": "O Fim do Teatro, Casa Varela, Teatro-Cine de Pombal e São Luiz Teatro Municipal Parceria RTP Palco Apoio Largo Residências Media partner Radar 97.8 FM AGRADECIMENTOS Chão de Oliva, Elsa Lago Matos e Luiz Quaresma"
     },
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.83
+    }
+  },
+  {
+    "id": "theatrocirco-apresenta-o-tr-s-tempos",
+    "title": "Apresentação Três Tempos",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/apresentacao-tres-tempos/",
+    "date_start": "2026-03-21",
+    "category": "Música",
+    "dates_label": "21 Março",
+    "sessions": [
+      {
+        "date": "2026-03-21",
+        "time": "",
+        "weekday": "Sáb"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/apresentacao-tres-tempos/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Pelo segundo ano consecutivo, o Theatro Circo junta-se à Culturgest e ao Teatro Viriato para umprojeto a três tempos– um convite ao artista e músico Xullaji para falar sobre os seus processos de escrita e composição musical.…",
+    "ticket_url": "",
+    "price_info": "Entrada gratuita",
+    "technical_sheet": {
+      "música": "Apresentação Três Tempos 15h Pequeno Auditório Entrada gratuita, conforme lotação da sala e mediante levantamento de bilhete M/6 Pelo segundo ano consecutivo, o Theatro Circo junta-se à Culturgest e a",
+      "criação": "semelhante. Em Braga, a acompanhar o grupo, está o artista local Tiago Sampaio. A 21 de março, os participantes do projeto em Braga apresentam-se à comunidade para um espetáculo que adota uma abordage",
+      "texto": "do espetáculo",
+      "interpretação": "de sentidos, palavras e objetos, e na sua transposição para a escrita e para o som. Foram ativados diferentes dispositivos e estímulos",
+      "produção": "Theatro Circo, Culturgest – Fundação Caixa Geral de Depósitos e Teatro Viriato *Entrada gratuita, conforme lotação da sala e mediante levantamento de bilhete no dia do espetáculo a partir da hora de a"
+    },
+    "tags": [],
+    "accessibility": [],
+    "sala": "Pequeno Auditório",
+    "age_rating": "M/6",
+    "age_min": 6,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.65
+    }
+  },
+  {
+    "id": "theatrocirco-yerai-cort-s",
+    "title": "Yerai Cortés",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/yerai-cortes/",
+    "date_start": "2026-03-21",
+    "category": "Música",
+    "dates_label": "21 Março",
+    "sessions": [
+      {
+        "date": "2026-03-21",
+        "time": "21:30",
+        "weekday": "Sáb"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/yerai-cortes/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "O guitarrista alicantino Yerai Cortés chega ao Theatro Circo com o aclamado espetáculoGuitarra Coral, um projeto que reflete a mestria e a nova visão de uma das figuras mais singulares do flamenco contemporâneo. Nascido em 1995, Yerai transita o flamenco com uma profundidade invulgar.…",
+    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/166061-yerai_cortes_guitarra_coral-theatro_circo/Sessoes",
+    "price_info": "12€",
+    "technical_sheet": {
+      "música": "Yerai Cortés Guitarra Coral 21h30 Sala Principal 12€ / Cartão Pentágono 6€ M/6 O guitarrista alicantino Yerai Cortés chega ao Theatro Circo com o aclamado espetáculo Guitarra Coral , um projeto que re"
+    },
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "Guitarra Coral",
+    "schedule": "21h30",
+    "sala": "Sala Principal",
+    "age_rating": "M/6",
+    "age_min": 6,
+    "price_min": 12.0,
+    "price_max": 12.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.62
+    }
+  },
+  {
+    "id": "theatrocirco-maria-vit-ria",
+    "title": "Maria Vitória",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/maria-vitoria/",
+    "date_start": "2026-03-23",
+    "category": "Outro",
+    "dates_label": "23 Março",
+    "sessions": [
+      {
+        "date": "2026-03-23",
+        "time": "21:30",
+        "weekday": "Seg"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/maria-vitoria/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Maria Vitóriade Mário Patrocínio2025 | Portugal | Drama | 1h53 Maria Vitória vive numa aldeia remota nas montanhas portuguesas e joga futebol na equipa juvenil masculina local. Determinada a tornar-se profissional, dedica todo o seu tempo livre a treinos intensos com o pai, Nacho.…",
+    "ticket_url": "https://theatrocirco.bol.pt/Comprar/Bilhetes/172894-cinema_maria_vitoria-theatro_circo/Sessoes",
+    "price_info": "4€",
+    "technical_sheet": {},
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "Mário Patrocínio",
+    "schedule": "21h30",
+    "sala": "Pequeno Auditório",
+    "age_rating": "M/14",
+    "age_min": 14,
+    "price_min": 4.0,
+    "price_max": 4.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.6
+    }
+  },
+  {
+    "id": "theatrocirco-la-guitarra-flamenca-de-yerai-cort-s",
+    "title": "La guitarra flamenca de Yerai Cortés",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/la-guitarra-flamenca-de-yerai-cortes/",
+    "date_start": "2026-03-24",
+    "category": "Outro",
+    "dates_label": "24 Março",
+    "sessions": [
+      {
+        "date": "2026-03-24",
+        "time": "21:30",
+        "weekday": "Ter"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/la-guitarra-flamenca-de-yerai-cortes/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Em antecipação ao concerto de Yerai Cortés no Theatro Circo, exibimos o documentárioLa guitarra flamenca de Yerai Cortés(2024), a aclamada estreia na realização de Antón Álvarez, mais conhecido como C. Tangana.…",
+    "ticket_url": "",
+    "price_info": "4€",
+    "technical_sheet": {
+      "música": "como meio para confrontar um segredo familiar e explorar temas de identidade, amor e perdão. Considerado um dos documentários"
+    },
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "Antón Álvarez",
+    "schedule": "21h30",
+    "sala": "Pequeno Auditório",
+    "duration": "95 min.",
+    "duration_min": 95,
+    "age_rating": "M/6",
+    "age_min": 6,
+    "price_min": 4.0,
+    "price_max": 4.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.62
     }
   },
   {
@@ -526,7 +791,7 @@
     "duration": "120 min",
     "duration_min": 120,
     "age_min": 12,
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
     "_meta": {
@@ -572,11 +837,51 @@
       "produção": "Executiva Marisa Coelho Gestão Financeira Nuno Pratas",
       "coprodução": "Associação Bo Dixam Bai, Associação Palavrão, Centro Cultural de Belém, Cineteatro Louletano e Culturproject"
     },
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.71
+    }
+  },
+  {
+    "id": "theatrocirco-conversa-jantar-com-sara-in-s-gigante",
+    "title": "Conversa-Jantar com Sara Inês Gigante",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/conversa-jantar-sara-ines-gigante/",
+    "date_start": "2026-03-26",
+    "category": "Outro",
+    "dates_label": "26 Março",
+    "sessions": [
+      {
+        "date": "2026-03-26",
+        "time": "19:00",
+        "weekday": "Qui"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/conversa-jantar-sara-ines-gigante/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Na véspera do Dia Mundial do Teatro, a 27 de março, convidamos o público para uma conversa entre a atriz e criadora Sara Inês Gigante, que nos visita com o seu solo POPULAR, e Maria Inês Marques, programadora de Artes Performativas do Theatro Circo.…",
+    "ticket_url": "",
+    "price_info": "Gratuito",
+    "technical_sheet": {
+      "texto": "sociopolítico. E porque as conversas e as celebrações também se fazem à volta da mesa, este encontro será acompanhado por um jantar volante, num ambiente descontraído, acolhedor e propício ao diálogo."
+    },
+    "tags": [
+      "Dia Mundial do Teatro"
+    ],
+    "accessibility": [],
+    "subtitle": "Celebração do Dia Mundial do Teatro",
+    "schedule": "19h00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.52
     }
   },
   {
@@ -609,7 +914,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -656,7 +961,7 @@
     "duration": "120 min",
     "duration_min": 120,
     "age_min": 12,
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -695,11 +1000,284 @@
     "accessibility": "",
     "sala": "Vários espaços do Teatro",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.55
+    }
+  },
+  {
+    "id": "theatrocirco-popular",
+    "title": "POPULAR",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/popular/",
+    "date_start": "2026-03-27",
+    "category": "Teatro",
+    "dates_label": "27 Março",
+    "sessions": [
+      {
+        "date": "2026-03-27",
+        "time": "21:30",
+        "weekday": "Sex"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/popular/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "POPULARé um espetáculo-desafio que parte da autoficção de que a criadora e intérprete pretende ser uma artista popular, desafiando os padrões do panorama cultural e do universo popular através de uma fusão entre os dois.…",
+    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/166062-popular_sara_ines_gigante-theatro_circo/Sessoes",
+    "price_info": "5€",
+    "technical_sheet": {
+      "texto": "e",
+      "interpretação": "Sara Inês Gigante",
+      "criação": "Malu Vilas Boas",
+      "cenografia": "F. Ribeiro",
+      "luz": "Manuel Abrantes",
+      "música": "l e sonoplastia FOQUE Colaboração",
+      "design": "das imagens em cena Lavandaria",
+      "produção": "Leonardo Garibaldi, Joana Silva"
+    },
+    "tags": [
+      "Acessibilidade",
+      "Dia Mundial do Teatro"
+    ],
+    "accessibility": [
+      "LGP",
+      "Audiodescrição"
+    ],
+    "subtitle": "Sara Inês Gigante",
+    "schedule": "21h30",
+    "sala": "Sala Principal",
+    "duration": "65 min.",
+    "duration_min": 65,
+    "age_rating": "M/14",
+    "age_min": 14,
+    "price_min": 5.0,
+    "price_max": 5.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.81
+    }
+  },
+  {
+    "id": "theatrocirco-companhia-de-espectadores",
+    "title": "Companhia de Espectadores",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/companhia-de-espectadores-mar2026/",
+    "date_start": "2026-03-28",
+    "category": "Outro",
+    "dates_label": "28 Março",
+    "sessions": [
+      {
+        "date": "2026-03-28",
+        "time": "11:00",
+        "weekday": "Sáb"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/companhia-de-espectadores-mar2026/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Em 2026, a Companhia de Espectadores entra numa nova fase. Depois de várias temporadas a mergulhar em obras e espetáculos específicos, o projeto amplia agora o seu horizonte e transforma-se numa escola informal de análise dramatúrgica.…",
+    "ticket_url": "",
+    "price_info": "gratuito",
+    "technical_sheet": {
+      "texto": "imagem, som, espaço, tempo e relação com o público. Entre encontros e conversas, o grupo investiga os mecanismos que fazem uma",
+      "criação": "acontecer: como se constrói uma",
+      "dramaturgia": "que escolhas sustentam uma composição, de que forma o espectador participa no sentido do espetáculo. Continuamos a ver, ouvir e discutir — mas também a pensar as artes performativas como linguagem e",
+      "encenação": "28 março – Biografia e Autoficção 11 abril – Teatro pós-dramático Mediação BALA – Núcleo Dramatúrgico Inscrição gratuita para participacao@theatrocirco.com A participação na Companhia de Espectadores"
+    },
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "Biografia e Autoficção",
+    "schedule": "11h00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.58
+    }
+  },
+  {
+    "id": "theatrocirco-visita-guiada-ao-theatro-circo",
+    "title": "Visita Guiada ao Theatro Circo",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/visita-guiada-ao-theatro-circo-mar2026/",
+    "date_start": "2026-03-28",
+    "category": "Outro",
+    "dates_label": "28 Março",
+    "sessions": [
+      {
+        "date": "2026-03-28",
+        "time": "",
+        "weekday": "Sáb"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/visita-guiada-ao-theatro-circo-mar2026/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Com mais de um século de história, o Theatro Circo é um dos teatros mais emblemáticos e majestosos de Portugal. Nesta visita guiada, revelam-se os bastidores e as histórias que deram forma a este espaço, oferecendo uma perspetiva única sobre o seu valor patrimonial e simbólico.…",
+    "ticket_url": "",
+    "price_info": "3,5€",
+    "technical_sheet": {},
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "Visita Guiada ao Theatro Circo (28/03/2026)",
+    "duration": "45 min.",
+    "duration_min": 45,
+    "price_min": 3.5,
+    "price_max": 3.5,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.55
+    }
+  },
+  {
+    "id": "theatrocirco-dora-morelenbaum",
+    "title": "Dora Morelenbaum",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/dora-morelenbaum/",
+    "date_start": "2026-03-28",
+    "category": "Música",
+    "dates_label": "28 Março",
+    "sessions": [
+      {
+        "date": "2026-03-28",
+        "time": "21:30",
+        "weekday": "Sáb"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/dora-morelenbaum/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "A artista carioca Dora Morelenbaum apresenta no Theatro Circo o seu primeiro álbum a solo,Pique(2024), uma obra que reflete uma musicalidade rica, forjada entre as suas influências (de Ryuichi Sakamoto a Milton Nascimento) e a sua notável herança familiar.…",
+    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/166063-dora_morelembaum_pique-theatro_circo/Sessoes",
+    "price_info": "12€",
+    "technical_sheet": {
+      "música": "Dora Morelenbaum Pique 21h30 Sala Principal 12€ / Cartão Pentágono 6€ M/6 A artista carioca Dora Morelenbaum apresenta no Theatro Circo o seu primeiro álbum a solo, Pique (2024), uma obra que reflete"
+    },
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "Pique",
+    "schedule": "21h30",
+    "sala": "Sala Principal",
+    "age_rating": "M/6",
+    "age_min": 6,
+    "price_min": 12.0,
+    "price_max": 12.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.62
+    }
+  },
+  {
+    "id": "theatrocirco-blue-moon",
+    "title": "Blue Moon",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/blue-moon/",
+    "date_start": "2026-03-30",
+    "category": "Outro",
+    "dates_label": "30 Março",
+    "sessions": [
+      {
+        "date": "2026-03-30",
+        "time": "21:30",
+        "weekday": "Seg"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/blue-moon/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Blue Moonde Richard Linklater2025 | EUA | Drama | 1h40 O lendário letrista da Broadway Lorenz Hart sai de um teatro e dirige-se ao Sardi’s. O dia é 31 de Março de 1943, noite de estreia do musicalOklahoma!, do seu antigo parceiro de escrita Richard Rodgers e Oscar Hammerstein II.…",
+    "ticket_url": "https://theatrocirco.bol.pt/Comprar/Bilhetes/172896/1914781/Sectores",
+    "price_info": "4€",
+    "technical_sheet": {
+      "música": "l Oklahoma! , do seu antigo parceiro de escrita Richard Rodgers e Oscar Hammerstein II. Na festa dessa noite, Hart vê-se confrontado com o declínio da carreira… Captando este momento singular, Blue Mo"
+    },
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "Richard Linklater",
+    "schedule": "21h30",
+    "sala": "Pequeno Auditório",
+    "age_rating": "M/14",
+    "age_min": 14,
+    "price_min": 4.0,
+    "price_max": 4.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.62
+    }
+  },
+  {
+    "id": "theatrocirco-romeu-julieta",
+    "title": "Romeu & Julieta",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/romeu-julieta-mar-2/",
+    "date_start": "2026-03-31",
+    "category": "Teatro",
+    "dates_label": "31 Março",
+    "sessions": [
+      {
+        "date": "2026-03-31",
+        "time": "21:30",
+        "weekday": "Ter"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/romeu-julieta-mar-2/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "de Alexej Schipenko, a partir de William Shakespeare Este é um espetáculo sobre seis dias de amor absoluto. São precisamente seis dias que dura a história de Romeu e Julieta, e o próprio tempo torna-se a personagem principal desta peça.…",
+    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/166602-companhia_de_teatro_de_braga_romeu_e_julieta-theatro_circo/Sessoes",
+    "price_info": "10€",
+    "technical_sheet": {
+      "encenação": "e",
+      "dramaturgia": "Alexej Schipenko A partir da obra de William Shakespeare",
+      "cenografia": "e",
+      "figurinos": "Lesja Chernish Vídeo e som Sepehr Mousavi",
+      "luz": "Alexej Schipenko e Sérgio Lajas Construção de cenário e montagem Fernando Gomes Assistente de",
+      "criação": "de conteúdo Leonor Pereira Elenco André Laires, Carlos Feio, Dinis Lapyuk, Eduarda Filipa, Jaime Monsanto, Rogério Boane, Rui Madeira, Sílvia Brito e Solange Sá",
+      "produção": "Paula Fonseca"
+    },
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "de Alexej Schipenko, a partir de William Shakespeare",
+    "schedule": "21h30",
+    "sala": "Sala Principal",
+    "age_rating": "M/12",
+    "age_min": 12,
+    "price_min": 10.0,
+    "price_max": 10.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.74
     }
   },
   {
@@ -743,7 +1321,7 @@
       "luz": "Rui Seabra; Desenho de som: Paulo Abelho; Costureira: RosÃ¡rio Balbi; ConstruÃ§Ã£o de cenÃ¡rio: FÃ¡bio Paulo; OperaÃ§Ã£o de luz: AntÃ³nio SerrÃ£o e JoÃ£o Madeira; OperaÃ§Ã£o de som: Vasco Maciel; Chef",
       "dramaturgia": "LuÃ­sa Costa Gomes 2015 | QUATRO SANTOS EM TRÃS ACTOS libreto de Gertrude Stein e muÌsica de Virgil Thomson TraducÌ§aÌo e"
     },
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "teatrodobairro",
     "city": "Lisboa",
     "_meta": {
@@ -780,7 +1358,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -830,11 +1408,60 @@
       "produção": "Janice Mayamona Apoio Técnico: Léo Emílio Contabilidade: Irene Gaspar Comunicação e Design Gráfico: Natacha Ventura Comunicação Digital: Miguel Durão Hilário Registo em vídeo: Bruno Canas Costureira: Teresa Matos Assessoria de imprensa: Canal Aberto – Márcia Marques, Daniele Valério e Carina Bordalo",
       "autor": "diz-nos que há algo de sinistro numa mulher que só usa roupa uma vez. Como haverá, dizemos nós, algo de identicamente sinistro em vestir sempre a mesma roupa. É igual com o amor. Há algo pecaminoso em vestir-nos de amor uma vez e de novamente repetir a dose. Ao entrar para dentro do círculo amoroso,"
     },
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.81
+    }
+  },
+  {
+    "id": "theatrocirco-open-call-laborat-rio-assim-trico",
+    "title": "OPEN CALL — Laboratório Assimétrico",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/supracasa-open-call-laboratorio-assimetrico/",
+    "date_start": "2026-04-07",
+    "category": "Dança",
+    "dates_label": "7 a 9 Abril",
+    "sessions": [
+      {
+        "date": "2026-04-07",
+        "time": "11:00",
+        "weekday": "Ter"
+      },
+      {
+        "date": "2026-04-08",
+        "time": "11:00",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-04-09",
+        "time": "11:00",
+        "weekday": "Qui"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/supracasa-open-call-laboratorio-assimetrico/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Sessões de 7 a 9 abril (ter a qui)→Dança O Theatro Circo abre uma convocatória para jovens interessados em investigar a relação entre corpo, ritmo e som como forma de pesquisa e criação.…",
+    "ticket_url": "",
+    "price_info": "Gratuito",
+    "technical_sheet": {
+      "criação": ". Durante três dias, sob a orientação da bailarina e coreógrafa Beatriz Valentim, será desenvolvido um laboratório prático que integra o processo de"
+    },
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "com Beatriz Valentim",
+    "date_end": "2026-04-09",
+    "schedule": "11h00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.52
     }
   },
   {
@@ -867,7 +1494,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -930,9 +1557,56 @@
       "produção": "Frederico Barata",
       "coprodução": "auéééu e São Luiz Teatro Municipal Apoios SPA, Junta de Freguesia de Santo António, Casa da Comarca de Arganil, MTC, os nossos putos Agradecimentos Eva Baudry, Filipe Andrade, Fernando Roussado, auéééu teatro"
     },
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.71
+    }
+  },
+  {
+    "id": "theatrocirco-amadeo-s",
+    "title": "Amadeo(s)",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/amadeos/",
+    "date_start": "2026-04-08",
+    "category": "Teatro",
+    "dates_label": "8 Abril",
+    "sessions": [
+      {
+        "date": "2026-04-08",
+        "time": "21:30",
+        "weekday": "Qua"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/amadeos/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Esta experiência teatral, pela Art´Imagem, mergulha na vida e obra de Amadeo de Souza-Cardoso (1889-1918), um dos mais emblemáticos pintores modernistas portugueses.…",
+    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/166606-amadeo_s_art_imagem-theatro_circo/Sessoes",
+    "price_info": "10€",
+    "technical_sheet": {
+      "encenação": "José Leitão",
+      "interpretação": "Daniela Pêgo, Flávio Hamilton e Pedro Carvalho",
+      "direção": "de Movimento Ana Lígia Vieira"
+    },
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "Art’Imagem",
+    "schedule": "21h30",
+    "sala": "Sala Principal",
+    "duration": "60 min.",
+    "duration_min": 60,
+    "age_rating": "M/6",
+    "age_min": 6,
+    "price_min": 10.0,
+    "price_max": 10.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
     "_meta": {
       "completeness": 0.71
     }
@@ -967,7 +1641,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -1043,11 +1717,52 @@
       "produção": "Vanessa Amaral Produção Associação Orí – Negritudes em Convergência Espiralar",
       "coprodução": "Bolsa de Criação O Espaço do Tempo com apoio do Banco BPI e Fundação “la Caixa” /// Projeto financiado por República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes Apoios Biblioteca de Alcântara, Câmara Municipal de Almada, Câmara Municipal da Moita, RDP África, Buala"
     },
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.72
+    }
+  },
+  {
+    "id": "theatrocirco-contraponto-g-recki-e-adams",
+    "title": "Contraponto:Górecki e Adams",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/contraponto-gorecki-adams/",
+    "date_start": "2026-04-11",
+    "category": "Música",
+    "dates_label": "11 Abril",
+    "sessions": [
+      {
+        "date": "2026-04-11",
+        "time": "21:30",
+        "weekday": "Sáb"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/contraponto-gorecki-adams/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "A violinista e diretora artística Rakhi Singh, uma das vozes mais originais da cena musical britânica e cofundadora do Manchester Collective, chega ao Theatro Circo para se juntar à Sinfonietta de Braga num programa do ciclo Contraponto que une contemplação, intensidade e espiritualidade.…",
+    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/166066-contraponto_gorecki_e_adams_por_rakhi_singh_e_sinfonietta_de_braga-theatro_circo/Sessoes",
+    "price_info": "12€",
+    "technical_sheet": {},
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "Por Rakhi Singh e Sinfonietta de Braga",
+    "schedule": "21h30",
+    "sala": "Sala Principal",
+    "age_rating": "M/6",
+    "age_min": 6,
+    "price_min": 12.0,
+    "price_max": 12.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.6
     }
   },
   {
@@ -1080,11 +1795,50 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
       "completeness": 0.45
+    }
+  },
+  {
+    "id": "theatrocirco-entroncamento",
+    "title": "Entroncamento",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/entroncamento/",
+    "date_start": "2026-04-13",
+    "category": "Outro",
+    "dates_label": "13 Abril",
+    "sessions": [
+      {
+        "date": "2026-04-13",
+        "time": "21:30",
+        "weekday": "Seg"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/entroncamento/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Entroncamentode Pedro Cabeleira2025 | Portugal | Drama | 2h11 Em fuga de um passado turbulento, Laura refugia-se no Entroncamento para reconstruir a sua vida. Dividida entre um emprego honesto e os esquemas do pequeno crime, cruza-se com uma juventude desencantada não muito diferente de si.…",
+    "ticket_url": "https://theatrocirco.bol.pt/Comprar/Bilhetes/174110-cinema_entroncamento-theatro_circo/",
+    "price_info": "4€",
+    "technical_sheet": {},
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "Pedro Cabeleira",
+    "schedule": "21h30",
+    "sala": "Pequeno Auditório",
+    "price_min": 4.0,
+    "price_max": 4.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.55
     }
   },
   {
@@ -1117,11 +1871,225 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
       "completeness": 0.45
+    }
+  },
+  {
+    "id": "theatrocirco-111-anivers-rio-do-theatro-circo",
+    "title": "111º Aniversário do Theatro Circo",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/111-aniversario-theatro-circo/",
+    "date_start": "2026-04-17",
+    "category": "Outro",
+    "dates_label": "17 a 24 Abril",
+    "sessions": [
+      {
+        "date": "2026-04-17",
+        "time": "21:30",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-04-18",
+        "time": "21:30",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-04-19",
+        "time": "21:30",
+        "weekday": "Dom"
+      },
+      {
+        "date": "2026-04-20",
+        "time": "21:30",
+        "weekday": "Seg"
+      },
+      {
+        "date": "2026-04-21",
+        "time": "21:30",
+        "weekday": "Ter"
+      },
+      {
+        "date": "2026-04-22",
+        "time": "21:30",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-04-23",
+        "time": "21:30",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-04-24",
+        "time": "21:30",
+        "weekday": "Sex"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/111-aniversario-theatro-circo/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Em 2026, o Theatro Circo celebra 111 anos. Sonhado por um grupo de bracarenses em 1906, abriu as portas a 21 de abril de 1915, tornando-se o ponto de encontro da população — entre si, com a arte e com o mundo.…",
+    "ticket_url": "",
+    "price_info": "",
+    "technical_sheet": {
+      "criação": "experimentação e celebração. Para assinalar esta festividade, entre os dias 17 e 24 de abril passarão por esta casa de espetáculos centenária um conjunto de propostas artísticas que vão da",
+      "música": "ao teatro, à dança e ainda atividades para o público infantojuvenil. Programa completo Capra – or how to say hello to fear · Roxana Ionesco 17 abr · 21h30 · Pequeno Auditório Histórias de Sonho · Li"
+    },
+    "tags": [
+      "Aniversário"
+    ],
+    "accessibility": [],
+    "date_end": "2026-04-24",
+    "schedule": "21h30",
+    "sala": "Pequeno Auditório",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.49
+    }
+  },
+  {
+    "id": "theatrocirco-capra-or-how-to-say-hello-to-fear",
+    "title": "Capra – or how to say hello to fear",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/capra/",
+    "date_start": "2026-04-17",
+    "category": "Teatro",
+    "dates_label": "17 Abril",
+    "sessions": [
+      {
+        "date": "2026-04-17",
+        "time": "21:30",
+        "weekday": "Sex"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/capra/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Um espetáculo criado a partir de uma tradição ancestral pagã da memória coletiva romena e moldava — a cabra do Ano Novo — um ritual de renovação. Uma CAPRA que procura espelhar as nossas entranhas — aquelas que, de tão desconhecidas, nos metem medo.…",
+    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/166107-supracasa_capra_or_how_to_say_hello_to_fear_roxana_ionesco-theatro_circo/Sessoes",
+    "price_info": "9€",
+    "technical_sheet": {
+      "encenação": "Roxana Ionesco",
+      "interpretação": "Bianca Banica, Vanessa Lonau, Daria Asaftei, Ramona Gherasim",
+      "som": "Guilherme Curado Design de luz Renato Marinho",
+      "figurinos": "Çal Pfungst Artesão Gonçalo Alegria",
+      "produção": "Mariana de Sá Marques Comunicação Filipa Machado",
+      "fotografia": "Max Shuz Teaser Maria Couto",
+      "direção": "-Geral das Artes"
+    },
+    "tags": [
+      "Aniversário"
+    ],
+    "accessibility": [],
+    "subtitle": "Roxana Ionesco",
+    "schedule": "21h30",
+    "sala": "Pequeno Auditório",
+    "duration": "90 min.",
+    "duration_min": 90,
+    "price_min": 9.0,
+    "price_max": 9.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.74
+    }
+  },
+  {
+    "id": "theatrocirco-hist-rias-de-sonho",
+    "title": "Histórias de Sonho",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/historias-de-sonho/",
+    "date_start": "2026-04-18",
+    "category": "Teatro",
+    "dates_label": "18 Abril",
+    "sessions": [
+      {
+        "date": "2026-04-18",
+        "time": "11:30",
+        "weekday": "Sáb"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/historias-de-sonho/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Histórias contadas com emoção. O Aqui Há Gato escolhe as melhores: as mais divertidas, as que fazem pensar, as que fazem sentir e as que fazem crescer lendo!Uma história? Duas histórias? Três histórias? Queremos mais! Pois muito bem, muitas histórias iremos contar e os teus sonhos embalar. Curiosos?…",
+    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/166110-historias_de_sonho_livraria_aqui_ha_gato-theatro_circo/Sessoes",
+    "price_info": "",
+    "technical_sheet": {},
+    "tags": [
+      "Infantojuvenil",
+      "Aniversário"
+    ],
+    "accessibility": [],
+    "subtitle": "Livraria Aqui há Gato",
+    "schedule": "11h30",
+    "duration": "35 min.",
+    "duration_min": 35,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.55
+    }
+  },
+  {
+    "id": "theatrocirco-elisabete-matos-maciej-pikulski-e-pedro-ribeiro",
+    "title": "Elisabete Matos, Maciej Pikulski e Pedro Ribeiro",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/elisabete-matos-maciej-pikulski-pedro-ribeiro/",
+    "date_start": "2026-04-18",
+    "category": "Música",
+    "dates_label": "18 Abril",
+    "sessions": [
+      {
+        "date": "2026-04-18",
+        "time": "21:30",
+        "weekday": "Sáb"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/elisabete-matos-maciej-pikulski-pedro-ribeiro/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Elisabete Matos, Maciej Pikulski e Pedro Ribeiro Este encontro entre música e palavra, entre sonho e presença, é uma celebração do universo feminino visto através dos olhos do outro.…",
+    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/166115-elisabete_matos_maciej_pikulski_pedro_ribeiro_onirico_feminino-theatro_circo/Sessoes",
+    "price_info": "15€",
+    "technical_sheet": {},
+    "tags": [
+      "Aniversário"
+    ],
+    "accessibility": [],
+    "subtitle": "Onírico Feminino: O teu olhar sobre mim",
+    "schedule": "21h30",
+    "sala": "Sala Principal",
+    "duration": "70 min.",
+    "duration_min": 70,
+    "age_rating": "M/6",
+    "age_min": 6,
+    "price_min": 15.0,
+    "price_max": 15.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.65
     }
   },
   {
@@ -1154,11 +2122,98 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
       "completeness": 0.45
+    }
+  },
+  {
+    "id": "theatrocirco-tortoise",
+    "title": "Tortoise",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/tortoise/",
+    "date_start": "2026-04-19",
+    "category": "Música",
+    "dates_label": "19 Abril",
+    "sessions": [
+      {
+        "date": "2026-04-19",
+        "time": "21:30",
+        "weekday": "Dom"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/tortoise/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Tortoise emergiu da cena musical de Chicago no início da década de 1990, com uma formação central composta por John McEntire (bateria e produção), Douglas McCombs (baixo) e Dan Bitney (bateria e percussão).…",
+    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/165683-tortoise-theatro_circo/Sessoes",
+    "price_info": "20€",
+    "technical_sheet": {
+      "música": "Tortoise 21h30 Sala Principal 20€ / Cartão Pentágono 10€ M/6 Aniversário Tortoise emergiu da cena",
+      "produção": "), Douglas McCombs (baixo) e Dan Bitney (bateria e percussão). Esta inusitada configuração de bateria dupla tornou-se um dos elementos mais distintivos da sua sonoridade. Considerada uma das bandas ma",
+      "direção": "-Geral das Artes · RTCP – Rede de Teatros e Cineteatros Portugueses TheatroCirco Bilhetes Reservas Bilhetes Reservas Programação Sobre Informações Acessibilidade En Inscreva-se aqui na nossa Newslette"
+    },
+    "tags": [
+      "Aniversário"
+    ],
+    "accessibility": [],
+    "schedule": "21h30",
+    "sala": "Sala Principal",
+    "age_rating": "M/6",
+    "age_min": 6,
+    "price_min": 20.0,
+    "price_max": 20.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.66
+    }
+  },
+  {
+    "id": "theatrocirco-o-barqueiro",
+    "title": "O Barqueiro",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/o-barqueiro/",
+    "date_start": "2026-04-20",
+    "category": "Outro",
+    "dates_label": "20 Abril",
+    "sessions": [
+      {
+        "date": "2026-04-20",
+        "time": "21:30",
+        "weekday": "Seg"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/o-barqueiro/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "O Barqueirode Simão Cayatte2025 | Portugal | Drama | 1h46 Joaquim sai em liberdade condicional antes do fim da pena de dezasseis anos mas não conta à família.…",
+    "ticket_url": "https://theatrocirco.bol.pt/Comprar/Bilhetes/174111-cinema_o_barqueiro-theatro_circo/",
+    "price_info": "4€",
+    "technical_sheet": {},
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "Simão Cayatte",
+    "schedule": "21h30",
+    "sala": "Pequeno Auditório",
+    "age_rating": "M/16",
+    "age_min": 16,
+    "price_min": 4.0,
+    "price_max": 4.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.6
     }
   },
   {
@@ -1201,11 +2256,57 @@
       "figurinos": "Giovanna Moretto",
       "produção": "e"
     },
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.75
+    }
+  },
+  {
+    "id": "theatrocirco-a-garota-n-o",
+    "title": "A Garota Não",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/a-garota-nao/",
+    "date_start": "2026-04-21",
+    "category": "Música",
+    "dates_label": "21 Abril",
+    "sessions": [
+      {
+        "date": "2026-04-21",
+        "time": "21:30",
+        "weekday": "Ter"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/a-garota-nao/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "A Vulgar Mulher Extraordinária, é um espetáculo de A Garota Não, que terá apenas duas apresentações ao vivo – uma no Theatro Circo e outra no Centro Cultural de Belém.…",
+    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/166117-a_garota_nao_a_vulgar_mulher_extraordinaria-theatro_circo/Sessoes",
+    "price_info": "25€",
+    "technical_sheet": {
+      "música": "A Garota Não A Vulgar Mulher Extraordinária 21h30 Sala Principal 25€ / Cartão Pentágono 12,5€ M/6 Aniversário A Vulgar Mulher Extraordinária , é um espetáculo de A Garota Não, que terá apenas duas apr",
+      "criação": "que é uma profunda homenagem ao universo feminino. A Garota Não parte de uma figura singular — a sua mãe — para construir uma biografia coletiva que atravessa as vidas de mulheres anónimas, amigas e f"
+    },
+    "tags": [
+      "Aniversário"
+    ],
+    "accessibility": [],
+    "subtitle": "A Vulgar Mulher Extraordinária",
+    "schedule": "21h30",
+    "sala": "Sala Principal",
+    "age_rating": "M/6",
+    "age_min": 6,
+    "price_min": 25.0,
+    "price_max": 25.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.64
     }
   },
   {
@@ -1267,11 +2368,57 @@
       "produção": "Loup Solitaire",
       "coprodução": "Teatro Virgínia, Casa das Artes de Vila Nova de Famalicão, Teatro Diogo Bernardes, Teatro Gil Vicente e São Luiz Teatro Municipal /// A Loup Solitaire é uma estrutura financiada pela República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes"
     },
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.72
+    }
+  },
+  {
+    "id": "theatrocirco-formas-de-fazer-na-sombra-dos-relatos-oficiais",
+    "title": "Formas de Fazer:Na sombra dos relatos oficiais",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/formas-de-fazer-nina-laisne/",
+    "date_start": "2026-04-22",
+    "category": "Outro",
+    "dates_label": "22 Abril",
+    "sessions": [
+      {
+        "date": "2026-04-22",
+        "time": "18:30",
+        "weekday": "Qua"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/formas-de-fazer-nina-laisne/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Formas de Fazer:Na sombra dos relatos oficiais Porquê abordar os arquivos históricos sob a ótica do nosso mundo contemporâneo? O que nos dizem as identidades marginais e resistentes que permaneceram na sombra dos relatos oficiais?…",
+    "ticket_url": "",
+    "price_info": "Gratuito",
+    "technical_sheet": {
+      "texto": "que não é o da sua origem, sem se desconectar das raízes? Estas são algumas das questões que orientam as pesquisas de Nina Laisné, artista multidisciplinar francesa. Através do seu conhecimento profun",
+      "cenografia": "que acolhe tanto formas de utopias como feridas coletivas. Nesta masterclass que antecede o seu espetáculo Como una baguala oscura , Nina Laisné partilhará alguns aspetos do seu processo criativo, ent"
+    },
+    "tags": [
+      "Aniversário"
+    ],
+    "accessibility": [],
+    "subtitle": "com Nina Laisné",
+    "schedule": "18h30",
+    "sala": "Pequeno Auditório",
+    "duration": "120 min.",
+    "duration_min": 120,
+    "age_rating": "M/16",
+    "age_min": 16,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.64
     }
   },
   {
@@ -1309,7 +2456,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -1365,7 +2512,7 @@
       "coprodução": "Teatro-Cine Torres Vedras"
     },
     "sala": "Auditório Emílio Rui Vilar",
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "culturgest",
     "city": "Lisboa",
     "_meta": {
@@ -1414,11 +2561,160 @@
       "produção": "Martim Pedroso",
       "música": "Dan Gillespie Sells"
     },
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.77
+    }
+  },
+  {
+    "id": "theatrocirco-como-una-baguala-oscura",
+    "title": "Como una baguala oscura",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/nina-laisne-nestor-pastorive/",
+    "date_start": "2026-04-24",
+    "category": "Dança",
+    "dates_label": "24 Abril",
+    "sessions": [
+      {
+        "date": "2026-04-24",
+        "time": "21:30",
+        "weekday": "Sex"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/nina-laisne-nestor-pastorive/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Como una baguala oscuramarca o regresso da artista multidisciplinar Nina Laisné ao Theatro Circo, onde em 2022 apresentou o impressionanteArca Ostinata.…",
+    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/166121-nina_laisne_nestor_pola_pastorive_como_una_baguala_oscura-theatro_circo/Sessoes",
+    "price_info": "12€",
+    "technical_sheet": {
+      "criação": "Nina Laisné e Néstor Pola Pastorive Ideia Original,",
+      "encenação": "e",
+      "figurinos": "Nina Laisné",
+      "coreografia": "e",
+      "interpretação": "Néstor Pola Pastorive Piano e Composição Hilda Herrera Peças a 4 mãos Sebastián Gangi",
+      "luz": "Shaly López Engenharia de som Arthur Frick",
+      "direção": "de palco e vídeo Caroline Nguyen Imagens e vídeos Dante Martinez Engenharia de som em estúdio Mireille Faure",
+      "cenografia": "Nicolas Bénard Carpintaria Jonathan Chaillou Serralharia Jean-Christophe David, Jules Chavigny Escultura e pintura decorativa Laurent Pelois, Margaux Hocquart Construção do ecrã Serrurerie Gaby Sitter",
+      "tradução": "Adrienne Orssaud Administração Martine Girol Responsável de",
+      "produção": "Valentina Salazar Henao Gestão de",
+      "música": "le-Metz; Théâtre Garonne – Scène européenne; La Place de la danse CDCN Toulouse-Occitanie; Théâtre Molière Sète, Scène nationale archipel de Thau; Festival d’Automne à Paris"
+    },
+    "tags": [
+      "Aniversário"
+    ],
+    "accessibility": [],
+    "subtitle": "Nina Laisné & Néstor Pola Pastorive",
+    "schedule": "21h30",
+    "sala": "Sala Principal",
+    "age_rating": "M/6",
+    "age_min": 6,
+    "price_min": 12.0,
+    "price_max": 12.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.8
+    }
+  },
+  {
+    "id": "theatrocirco-dj-ahmet",
+    "title": "DJ Ahmet",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/dj-ahmet/",
+    "date_start": "2026-04-27",
+    "category": "Outro",
+    "dates_label": "27 Abril",
+    "sessions": [
+      {
+        "date": "2026-04-27",
+        "time": "21:30",
+        "weekday": "Seg"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/dj-ahmet/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "DJ Ahmetde Georgi M. Unkovski2025 | Macedónia do Norte | Drama, comédia | 1h39 Como muitos rapazes de 15 anos, Ahmet sonha com algo mais. A viver numa aldeia remota da Macedónia do Norte, cabe-lhe a tarefa de guardar o rebanho da família, enquanto o pai procura tratamento para o irmão mais novo, Nai…",
+    "ticket_url": "https://theatrocirco.bol.pt/Comprar/Bilhetes/174112-cinema_dj_ahmet-theatro_circo/",
+    "price_info": "4€",
+    "technical_sheet": {
+      "música": "e pede ajuda ao irmão para deslumbrar Aya, a rapariga por quem se apaixonou, já prometida a outro. DJ Ahmet retrata o choque entre a tradição e a modernidade, numa ode ao poder da"
+    },
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "Georgi M. Unkovski",
+    "schedule": "21h30",
+    "sala": "Pequeno Auditório",
+    "age_rating": "M/12",
+    "age_min": 12,
+    "price_min": 4.0,
+    "price_max": 4.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.62
+    }
+  },
+  {
+    "id": "theatrocirco-miguel-ara-jo",
+    "title": "Miguel Araújo",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/miguel-araujo/",
+    "date_start": "2026-04-29",
+    "category": "Música",
+    "dates_label": "29 e 30 Abril",
+    "sessions": [
+      {
+        "date": "2026-04-29",
+        "time": "21:30",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-04-30",
+        "time": "21:30",
+        "weekday": "Qui"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/miguel-araujo/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Miguel Araújo regressa ao Theatro Circo para apresentar o novo disco de originais,Por Fora Ninguém Diria, que chega “ao cantar do galo do primeiro dia do próximo ano (2026)”, como descreve o artista.…",
+    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/169516-miguel_araujo-theatro_circo/Sessoes",
+    "price_info": "40€",
+    "technical_sheet": {
+      "música": "Miguel Araújo Por Fora Ninguém Diria 21h30 Sala Principal 40€ M/6 Miguel Araújo regressa ao Theatro Circo para apresentar o novo disco de originais, Por Fora Ninguém Diria , que chega “ao cantar do ga",
+      "produção": "e vozes. O trabalho visual do álbum conta com",
+      "fotografia": "s captadas no Parque do Rio, em Ofir, lugar de infância e memória afetiva do artista. TheatroCirco Bilhetes Bilhetes Programação Sobre Informações Acessibilidade En Inscreva-se aqui na nossa Newslette"
+    },
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "Por Fora Ninguém Diria",
+    "date_end": "2026-04-30",
+    "schedule": "21h30",
+    "sala": "Sala Principal",
+    "age_rating": "M/6",
+    "age_min": 6,
+    "price_min": 40.0,
+    "price_max": 40.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.66
     }
   },
   {
@@ -1463,7 +2759,7 @@
       "produção": "– Tenda Produções Ana Delgado",
       "música": "Dan Gillespie Sells"
     },
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
@@ -1500,7 +2796,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -1537,7 +2833,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -1574,11 +2870,60 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
       "completeness": 0.45
+    }
+  },
+  {
+    "id": "theatrocirco-os-transparentes",
+    "title": "Os Transparentes",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/os-transparentes/",
+    "date_start": "2026-05-06",
+    "category": "Teatro",
+    "dates_label": "6 Maio",
+    "sessions": [
+      {
+        "date": "2026-05-06",
+        "time": "15:00",
+        "weekday": "Qua"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/os-transparentes/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Esta é a história do homem que se torna transparente, do prédio onde vive, da sua cidade pujante, poluída, desordenada e bela. Feita das histórias de tantas outras personagens que vivem no mesmo prédio e na cidade de contrastes que é Luanda, a obra escrita por Ondjaki em 2012, Prémio José Saramago, …",
+    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/174852-os_transparentes_companhia_cegada-theatro_circo/Sessoes",
+    "price_info": "10€",
+    "technical_sheet": {
+      "dramaturgia": "Marta Dias",
+      "encenação": "Manuela Paulo",
+      "cenografia": "e adereços Marta Fernandes da Silva",
+      "figurinos": "Simone Rodrigues",
+      "interpretação": "Anílson Eugénio, Eduarda Oliveira, Kássia Laureano, Kévin Cassule"
+    },
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "Ondjaki/Companhia Cegada",
+    "schedule": "15h00",
+    "sala": "Pequeno Auditório",
+    "duration": "80 min.",
+    "duration_min": 80,
+    "age_rating": "M/12",
+    "age_min": 12,
+    "price_min": 10.0,
+    "price_max": 10.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.75
     }
   },
   {
@@ -1666,7 +3011,7 @@
     "duration": "70 min",
     "duration_min": 70,
     "age_min": 14,
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
     "_meta": {
@@ -1713,11 +3058,357 @@
       "direção": "Luís Vieira e Rute Ribeiro",
       "coprodução": "LU.CA – Teatro Luís de Camões, Teatro Nacional D. Maria II, Centro Cultural de Belém e São Luiz Teatro Municipal /// A Tarumba é uma estrutura financiada por República Portuguesa – Cultura / Direção-Geral das Artes"
     },
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.59
+    }
+  },
+  {
+    "id": "theatrocirco-index",
+    "title": "INDEX",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/index-2026/",
+    "date_start": "2026-05-07",
+    "category": "Outro",
+    "dates_label": "7 a 17 Maio",
+    "sessions": [
+      {
+        "date": "2026-05-07",
+        "time": "",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-05-08",
+        "time": "",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-05-09",
+        "time": "",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-05-10",
+        "time": "",
+        "weekday": "Dom"
+      },
+      {
+        "date": "2026-05-11",
+        "time": "",
+        "weekday": "Seg"
+      },
+      {
+        "date": "2026-05-12",
+        "time": "",
+        "weekday": "Ter"
+      },
+      {
+        "date": "2026-05-13",
+        "time": "",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-05-14",
+        "time": "",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-05-15",
+        "time": "",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-05-16",
+        "time": "",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-05-17",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/index-2026/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "7 a 17 maio (qui a dom)→Multidisciplinar A par de um desenvolvimento ímpar, os exponenciais avanços tecnológicos levados a cabo nas últimas décadas têm também conduzido a uma maior fragmentação política e social, ao florescer de extremismos e desigualdade económica, a uma massiva vigilância algorítm…",
+    "ticket_url": "",
+    "price_info": "",
+    "technical_sheet": {},
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "Bienal de Arte e Tecnologia",
+    "date_end": "2026-05-17",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.45
+    }
+  },
+  {
+    "id": "theatrocirco-index-fanfictional-politics",
+    "title": "INDEX:Fanfictional Politics",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/index-fanfictional-politics-pedro-gossler/",
+    "date_start": "2026-05-07",
+    "category": "Outro",
+    "dates_label": "7 a 17 Maio",
+    "sessions": [
+      {
+        "date": "2026-05-07",
+        "time": "14:30",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-05-08",
+        "time": "14:30",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-05-09",
+        "time": "14:30",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-05-10",
+        "time": "14:30",
+        "weekday": "Dom"
+      },
+      {
+        "date": "2026-05-11",
+        "time": "14:30",
+        "weekday": "Seg"
+      },
+      {
+        "date": "2026-05-12",
+        "time": "14:30",
+        "weekday": "Ter"
+      },
+      {
+        "date": "2026-05-13",
+        "time": "14:30",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-05-14",
+        "time": "14:30",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-05-15",
+        "time": "14:30",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-05-16",
+        "time": "14:30",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-05-17",
+        "time": "14:30",
+        "weekday": "Dom"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/index-fanfictional-politics-pedro-gossler/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Descobre mais sobre a operação de exploração de mão-de-obra de Steve Bannon noWorld of Warcrafte como isso contribuiu para a vitória de Donald Trump nas eleições presidenciais.…",
+    "ticket_url": "",
+    "price_info": "Gratuito",
+    "technical_sheet": {},
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "Pedro Gossler",
+    "date_end": "2026-05-17",
+    "schedule": "14h30",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.5
+    }
+  },
+  {
+    "id": "theatrocirco-index-ther-poor-objects",
+    "title": "INDEX:ÆTHER (Poor Objects)",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/index-aether-poor-objects/",
+    "date_start": "2026-05-07",
+    "category": "Outro",
+    "dates_label": "7 a 17 Maio",
+    "sessions": [
+      {
+        "date": "2026-05-07",
+        "time": "14:30",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-05-08",
+        "time": "14:30",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-05-09",
+        "time": "14:30",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-05-10",
+        "time": "14:30",
+        "weekday": "Dom"
+      },
+      {
+        "date": "2026-05-11",
+        "time": "14:30",
+        "weekday": "Seg"
+      },
+      {
+        "date": "2026-05-12",
+        "time": "14:30",
+        "weekday": "Ter"
+      },
+      {
+        "date": "2026-05-13",
+        "time": "14:30",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-05-14",
+        "time": "14:30",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-05-15",
+        "time": "14:30",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-05-16",
+        "time": "14:30",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-05-17",
+        "time": "14:30",
+        "weekday": "Dom"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/index-aether-poor-objects/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Através do uso de uma ring light — um dispositivo de iluminação comumente usado por criadores de conteúdo — e de modelos, emÆTHER, Shuang Li reflete sobre a subjetividade do ser humano no envolvimento constante na cultura online cada vez mais omnipresente.…",
+    "ticket_url": "",
+    "price_info": "Gratuito",
+    "technical_sheet": {
+      "luz": "comumente usado por criadores de conteúdo — e de modelos, em ÆTHER , Shuang Li reflete sobre a subjetividade do ser humano no envolvimento constante na cultura online cada vez mais omnipresente. Neste"
+    },
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "Shuang Li",
+    "date_end": "2026-05-17",
+    "schedule": "14h30",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.52
+    }
+  },
+  {
+    "id": "theatrocirco-index-forensis-bill-kouligas",
+    "title": "INDEX: Forensis & Bill Kouligas",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/index-forensis-bill-kouligas/",
+    "date_start": "2026-05-07",
+    "category": "Performance",
+    "dates_label": "7 Maio",
+    "sessions": [
+      {
+        "date": "2026-05-07",
+        "time": "21:30",
+        "weekday": "Qui"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/index-forensis-bill-kouligas/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Que tipo de perda é transmutável a elementos como a fauna, a flora e a geologia num país altamente colonizado?The Drum and the Birdjunta o artista, designer e músico Bill Kouligas à organização Forensis num exercício multisensorial, partindo da investigação levada a cabo pelo coletivo Forensic Archi…",
+    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/173827-index_forensis_bill_kouligas_the_drum_and_the_bird-theatro_circo/Sessoes",
+    "price_info": "9€",
+    "technical_sheet": {
+      "música": "vivências em forma de testemunho e modelagem espacial-visual para destacar as vozes e os sons que foram apagados pelo tempo. Apesar de transcender, muitas vezes, o mundo físico, a peça apresentada n"
+    },
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "The Drum and the Bird",
+    "schedule": "21h30",
+    "sala": "Sala Principal",
+    "age_rating": "M/6",
+    "age_min": 6,
+    "price_min": 9.0,
+    "price_max": 9.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.62
+    }
+  },
+  {
+    "id": "theatrocirco-index-supersilent-lawrence-abu-hamdan",
+    "title": "INDEX: Supersilent + Lawrence Abu Hamdan",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/index-supersilent-lawrence-abu-hamdan/",
+    "date_start": "2026-05-08",
+    "category": "Performance",
+    "dates_label": "8 Maio",
+    "sessions": [
+      {
+        "date": "2026-05-08",
+        "time": "21:30",
+        "weekday": "Sex"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/index-supersilent-lawrence-abu-hamdan/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "INDEX: Supersilent + Lawrence Abu Hamdan Resultado de uma encomenda do INDEX e do festival neerlandês Rewire, o artista visual e investigador sonoro Lawrence Abu Hamdan e o coletivo norueguês Supersilent juntam-se em volta do trabalho desenvolvido pela Earshot — a primeira organização sem fins lucra…",
+    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/173828-index_supersilent_lawrence_abu_hamdan-theatro_circo/Sessoes",
+    "price_info": "9€",
+    "technical_sheet": {},
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "INDEX 2026: Supersilent + Lawrence Abu Hamdan",
+    "schedule": "21h30",
+    "sala": "Sala Principal",
+    "age_rating": "M/6",
+    "age_min": 6,
+    "price_min": 9.0,
+    "price_max": 9.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.6
     }
   },
   {
@@ -1750,11 +3441,112 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
       "completeness": 0.45
+    }
+  },
+  {
+    "id": "theatrocirco-index-arkadi-zaides",
+    "title": "INDEX: Arkadi Zaides",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/index-arkadi-zaides/",
+    "date_start": "2026-05-09",
+    "category": "Performance",
+    "dates_label": "9 Maio",
+    "sessions": [
+      {
+        "date": "2026-05-09",
+        "time": "21:30",
+        "weekday": "Sáb"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/index-arkadi-zaides/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "TALOSé o nome de um programa piloto colaborativo desenvolvido pela União Europeia que juntou catorze instituições para a conceção de um sistema de vigilância capaz de ser disparado de imediato para qualquer localização comunitária.…",
+    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/173832-index_arkadi_zaides_talos-theatro_circo/Sessoes",
+    "price_info": "9€",
+    "technical_sheet": {},
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "Talos",
+    "schedule": "21h30",
+    "sala": "Pequeno Auditório",
+    "age_rating": "M/6",
+    "age_min": 6,
+    "price_min": 9.0,
+    "price_max": 9.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.6
+    }
+  },
+  {
+    "id": "theatrocirco-american-blues",
+    "title": "American Blues",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/american-blues-mai/",
+    "date_start": "2026-05-12",
+    "category": "Teatro",
+    "dates_label": "12 a 14 Maio",
+    "sessions": [
+      {
+        "date": "2026-05-12",
+        "time": "21:30",
+        "weekday": "Ter"
+      },
+      {
+        "date": "2026-05-13",
+        "time": "21:30",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-05-14",
+        "time": "21:30",
+        "weekday": "Qui"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/american-blues-mai/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Quem não conhece Nova Orleães? A cidade onde, nas infames casas de Basin Street, nasceu o jazz; onde músicos negros, tão famosos como campeões de basebol, embriagados de fumo e vida, sopravam espasmos congestionados nas trompetes e saxofones, arrancando das notas um tilintar de existências queimadas…",
+    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/174866-american_blues_companhia_de_teatro_de_braga-theatro_circo/Sessoes",
+    "price_info": "10€",
+    "technical_sheet": {
+      "dramaturgia": "e",
+      "encenação": "Lelio Lecis",
+      "cenografia": "Lelio Lecis",
+      "figurinos": "Valentina Ena",
+      "luz": "Sérgio Lajas Som Sepehr Mousavi Montagem Fernando Gomes",
+      "interpretação": "André Laires, Eduarda Filipa, Jaime Mousanto, Rogerio Boane, Solange Sá",
+      "produção": "Akroama/Companhia de Teatro de Braga TheatroCirco Bilhetes Bilhetes Programação Sobre Informações Acessibilidade En Inscreva-se aqui na nossa Newsletter para não perder nenhum espetáculo. Inscreva-se"
+    },
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "Tennesse Williams",
+    "date_end": "2026-05-14",
+    "schedule": "21h30",
+    "sala": "Sala Principal",
+    "age_rating": "M/12",
+    "age_min": 12,
+    "price_min": 10.0,
+    "price_max": 10.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.74
     }
   },
   {
@@ -1791,11 +3583,108 @@
       "elenco": "João Vasco. Actualmente em itinerância, Sinédoque estreou em 2023 e foi apresentado em Portugal, Tunísia, Cabo Verde, Brasil, França e Angola. Avenida Frei Miguel Contreiras, 52, 1700-213, Lisboa Horário da Bilheteira Segunda – Sábado 17h30 às 21h30 Domingo — 15h30 às 18h30 *Horários em vigor em dia",
       "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
     },
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.68
+    }
+  },
+  {
+    "id": "theatrocirco-saber-ir-ao-fundo",
+    "title": "Saber ir ao fundo",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/saber-ir-ao-fundo/",
+    "date_start": "2026-05-15",
+    "category": "Teatro",
+    "dates_label": "15 e 16 Maio",
+    "sessions": [
+      {
+        "date": "2026-05-15",
+        "time": "14:30",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-05-16",
+        "time": "14:30",
+        "weekday": "Sáb"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/saber-ir-ao-fundo/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Um espetáculo para toda a família, onde som, imagem e movimento se fundem numa criação que combina eletrónica, voz e desenho. Aqui, descobre-se que é quando se vai ao fundo que se encontram as respostas que são perguntas.…",
+    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/171074-saber_ir_ao_fundo_frenesim-theatro_circo/Sessoes",
+    "price_info": "2,50€",
+    "technical_sheet": {},
+    "tags": [
+      "Infantojuvenil"
+    ],
+    "accessibility": [],
+    "subtitle": "Frenesim",
+    "date_end": "2026-05-16",
+    "schedule": "14h30",
+    "sala": "Pequeno Auditório",
+    "duration": "45 min.",
+    "duration_min": 45,
+    "age_rating": "M/3",
+    "age_min": 3,
+    "price_min": 2.5,
+    "price_max": 2.5,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.65
+    }
+  },
+  {
+    "id": "theatrocirco-mulheres-estrangeiras",
+    "title": "Mulheres Estrangeiras",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/mulheres-estrangeiras/",
+    "date_start": "2026-05-20",
+    "category": "Teatro",
+    "dates_label": "20 Maio",
+    "sessions": [
+      {
+        "date": "2026-05-20",
+        "time": "21:30",
+        "weekday": "Qua"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/mulheres-estrangeiras/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Olga Kozakou-Tsiara / Roi Theatre – Chipre Trata-se de uma obra fragmentada, tecida a partir de histórias reais de mulheres que, obrigadas pela guerra, pela pobreza e pela violência, tiveram de abandonar o lugar familiar — a casa, a terra natal — em busca de uma vida mais segura para si e para os se…",
+    "ticket_url": "",
+    "price_info": "10€",
+    "technical_sheet": {
+      "adaptação": "e",
+      "encenação": "Valentina Sofokleous",
+      "luz": "e som Dimitris Giannakou",
+      "interpretação": "Valentina Sofokleous, Loukia Michael Mousoulioti, Nafsika Apostratou"
+    },
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "Olga Kozakou-Tsiara / Roi Theatre – Chipre",
+    "schedule": "21h30",
+    "sala": "Pequeno Auditório",
+    "duration": "55 min.",
+    "duration_min": 55,
+    "price_min": 10.0,
+    "price_max": 10.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.63
     }
   },
   {
@@ -1840,11 +3729,58 @@
       "coprodução": "Má-Criação, Fundação Caixa Geral de Depósitos- Culturgest, Planetário do Porto – Centro Ciência Viva / U. Porto"
     },
     "sala": "",
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "culturgest",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.75
+    }
+  },
+  {
+    "id": "theatrocirco-xxxv-fitu-bracara-avgvsta",
+    "title": "XXXV FITU Bracara Avgvsta",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/xxxv-fitu-bracara-avgvsta/",
+    "date_start": "2026-05-22",
+    "category": "Música",
+    "dates_label": "22 e 23 Maio",
+    "sessions": [
+      {
+        "date": "2026-05-22",
+        "time": "21:00",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-05-23",
+        "time": "21:00",
+        "weekday": "Sáb"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/xxxv-fitu-bracara-avgvsta/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Festival Internacional de Tunas Universitárias A Tuna Universitária do Minho apresenta oXXXV FITU Bracara Avgvsta– Festival Internacional de Tunas Universitárias.…",
+    "ticket_url": "",
+    "price_info": "",
+    "technical_sheet": {
+      "música": "XXXV FITU Bracara Avgvsta Festival Internacional de Tunas Universitárias 21h00 Sala Principal M/6 1/4 1/4 2/4 3/4 4/4 A Tuna Universitária do Minho apresenta o XXXV FITU Bracara Avgvsta – Festival Int"
+    },
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "Festival Internacional de Tunas Universitárias",
+    "date_end": "2026-05-23",
+    "schedule": "21h00",
+    "sala": "Sala Principal",
+    "age_rating": "M/6",
+    "age_min": 6,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.52
     }
   },
   {
@@ -1877,7 +3813,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -1959,7 +3895,7 @@
       "luz": "Ângela Bismarck",
       "coprodução": "CCB/Fábrica das Artes Apoio Fundo Cultural da Sociedade Portuguesa de Autores Apoio à investigação Tribunal Constitucional Projeto criado no âmbito da parceria Centro Cultural de Belém/Fábrica das Artes e Assembleia da República. Imagem ©Assembleia da República Ilustração de Mantr"
     },
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
     "_meta": {
@@ -1996,7 +3932,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -2048,7 +3984,7 @@
     "duration": "50 min",
     "duration_min": 50,
     "age_min": 6,
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
     "_meta": {
@@ -2100,7 +4036,7 @@
     "duration": "50 min",
     "duration_min": 50,
     "age_min": 6,
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -2152,11 +4088,185 @@
       "luz": "Pedro Guimarães",
       "produção": "Xana Lagusi"
     },
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.59
+    }
+  },
+  {
+    "id": "theatrocirco-habitar",
+    "title": "Habitar",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/habitar-hotel-europa/",
+    "date_start": "2026-05-29",
+    "category": "Teatro",
+    "dates_label": "29 Maio",
+    "sessions": [
+      {
+        "date": "2026-05-29",
+        "time": "21:30",
+        "weekday": "Sex"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/habitar-hotel-europa/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Depois de a companhia Hotel Europa estar em janeiro de 2026 em Braga para recolher vários testemunhos e perspetivas sobre o tema da Habitação, regressam para apresentar o resultado desta residência artística no espetáculoHabitar.…",
+    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/174414-habitar_hotel_europa-theatro_circo/Sessoes",
+    "price_info": "9€",
+    "technical_sheet": {
+      "criação": "André Amálio e Tereza Havlíčková",
+      "dramaturgia": "André Amálio Movimento Tereza Havlíčková",
+      "interpretação": "André Amálio, Rute Ferreira, Paulo Quedas e Mariana Sardinha",
+      "direção": "técnica Pedro Guimarães",
+      "cenografia": "e",
+      "figurinos": "Ana Paula Rocha",
+      "luz": "Carlos Arroja",
+      "produção": "Hotel Europa"
+    },
+    "tags": [
+      "Acessibilidade"
+    ],
+    "accessibility": [
+      "LGP"
+    ],
+    "subtitle": "Hotel Europa",
+    "schedule": "21h30",
+    "sala": "Sala Principal",
+    "price_min": 9.0,
+    "price_max": 9.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.71
+    }
+  },
+  {
+    "id": "theatrocirco-contexto",
+    "title": "Contexto",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/contexto-antoniobritoguterres-mariamanueloliveira/",
+    "date_start": "2026-05-30",
+    "category": "Outro",
+    "dates_label": "30 Maio",
+    "sessions": [
+      {
+        "date": "2026-05-30",
+        "time": "",
+        "weekday": "Sáb"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/contexto-antoniobritoguterres-mariamanueloliveira/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "António Brito Guterres e Maria Manuel Oliveira No ciclo Contexto, propomos uma série de conversas mediadas entre dois convidados cujo percurso académico, político ou ativista se cruza com temas abordados num espetáculo da programação do Theatro Circo.…",
+    "ticket_url": "",
+    "price_info": "Gratuito",
+    "technical_sheet": {
+      "texto": "- António Brito Guterres e Maria Manuel Oliveira - Theatro Circo Saltar para o conteúdo principal En TheatroCirco Outros → Programação → Bilheteira → O Theatro → Acessibilidade TheatroCirco Programaçã",
+      "direção": "-Geral das Artes / Rede Portuguesa de Teatros e Cineteatros Portugueses (RTCP) TheatroCirco Programação Sobre Informações Acessibilidade En Inscreva-se aqui na nossa Newsletter para não perder nenhum"
+    },
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "António Brito Guterres e Maria Manuel Oliveira",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.54
+    }
+  },
+  {
+    "id": "theatrocirco-contraponto-john-luther-adams-philip-glass",
+    "title": "Contraponto: John Luther Adams & Philip Glass",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/contraponto-orquestra-do-algarve/",
+    "date_start": "2026-05-30",
+    "category": "Música",
+    "dates_label": "30 Maio",
+    "sessions": [
+      {
+        "date": "2026-05-30",
+        "time": "21:30",
+        "weekday": "Sáb"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/contraponto-orquestra-do-algarve/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Contraponto: John Luther Adams & Philip Glass Com direção e apresentação de Martim Sousa Tavares, a Orquestra do Algarve apresenta um espetáculo que estreará em solo nacional duas obras de dois dos maiores compositores do nosso tempo.…",
+    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/174417-contraponto_john_luther_adams_phillip_glass_por_orquestra_do_algarve-theatro_circo/Sessoes",
+    "price_info": "12€",
+    "technical_sheet": {
+      "música": "Contraponto: John Luther Adams & Philip Glass Por Orquestra do Algarve 21h30 Sala Principal 12€ / Cartão Pentágono 6€ M/6 1/4 1/4 2/4 3/4 4/4 Com",
+      "direção": "e apresentação de Martim Sousa Tavares, a Orquestra do Algarve apresenta um espetáculo que estreará em solo nacional duas obras de dois dos maiores compositores do nosso tempo. De John Luther Adams, c"
+    },
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "Por Orquestra do Algarve",
+    "schedule": "21h30",
+    "sala": "Sala Principal",
+    "age_rating": "M/6",
+    "age_min": 6,
+    "price_min": 12.0,
+    "price_max": 12.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.64
+    }
+  },
+  {
+    "id": "theatrocirco-a-winged-victory-for-the-sullen",
+    "title": "A Winged Victory for the Sullen",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/a-winged-victory-for-the-sullen/",
+    "date_start": "2026-05-31",
+    "category": "Música",
+    "dates_label": "31 Maio",
+    "sessions": [
+      {
+        "date": "2026-05-31",
+        "time": "21:30",
+        "weekday": "Dom"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/a-winged-victory-for-the-sullen/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "A Winged Victory for the Sullen regressa a Braga após o concerto no gnration em 2015. O projeto, que nasceu de um encontro fortuito em Itália entre os compositores Adam Wiltzie e Dustin O’Halloran, transcendeu a intenção original de um álbum único para se tornar numa referência global na música ambi…",
+    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/174428-a_winged_victory_for_the_sullen-theatro_circo/Sessoes",
+    "price_info": "12€",
+    "technical_sheet": {},
+    "tags": [],
+    "accessibility": [],
+    "schedule": "21h30",
+    "sala": "Sala Principal",
+    "age_rating": "M/6",
+    "age_min": 6,
+    "price_min": 12.0,
+    "price_max": 12.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.6
     }
   },
   {
@@ -2189,11 +4299,171 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
       "completeness": 0.45
+    }
+  },
+  {
+    "id": "theatrocirco-oru-kami",
+    "title": "ORU KAMI",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/oru-kami-garibambi/",
+    "date_start": "2026-06-01",
+    "category": "Outro",
+    "dates_label": "1 e 6 Junho",
+    "sessions": [
+      {
+        "date": "2026-06-01",
+        "time": "10:30",
+        "weekday": "Seg"
+      },
+      {
+        "date": "2026-06-02",
+        "time": "10:30",
+        "weekday": "Ter"
+      },
+      {
+        "date": "2026-06-03",
+        "time": "10:30",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-06-04",
+        "time": "10:30",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-06-05",
+        "time": "10:30",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-06-06",
+        "time": "10:30",
+        "weekday": "Sáb"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/oru-kami-garibambi/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "1, 2, 3 e 6 junho (seg a sáb)→Música, Teatro ORU KAMIparte do papel que se dobra, do gesto que ganha corpo, do som que o papel produz e da imagem que se manipula.…",
+    "ticket_url": "",
+    "price_info": "3€",
+    "technical_sheet": {
+      "música": "Teatro ORU KAMI GariBambi Seg a qua 10h30 e 11h30 (escolas) | Sáb 10h30 e 11h30 (público geral) Salão Nobre 3€ criança e 4€ adulto (Bilhetes disponíveis brevemente) | Gratuito para escolas mediante",
+      "interpretação": "Aurora Miranda e Joana Mafalda Araújo",
+      "cenografia": "Joana Mafalda Araújo e Maria Silva",
+      "figurinos": "Ana Peixoto",
+      "som": "Mário Tina",
+      "direção": "-Geral das Artes / Rede Portuguesa de Teatros e Cineteatros Portugueses (RTCP) TheatroCirco Reservas Reservas Programação Sobre Informações Acessibilidade En Inscreva-se aqui na nossa Newsletter para"
+    },
+    "tags": [
+      "Infantojuvenil"
+    ],
+    "accessibility": [],
+    "subtitle": "GariBambi",
+    "date_end": "2026-06-06",
+    "schedule": "10h30",
+    "duration": "35 min.",
+    "duration_min": 35,
+    "price_min": 3.0,
+    "price_max": 3.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.67
+    }
+  },
+  {
+    "id": "theatrocirco-chamada-aberta-ao-p-blico-do-theatro-circo",
+    "title": "Chamada aberta ao público do Theatro Circo",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/chamada-aberta-ao-publico-do-theatro-circo/",
+    "date_start": "2026-06-02",
+    "category": "Outro",
+    "dates_label": "2 Junho a 31 Outubro",
+    "sessions": [
+      {
+        "date": "2026-06-02",
+        "time": "",
+        "weekday": "Ter"
+      },
+      {
+        "date": "2026-10-31",
+        "time": "",
+        "weekday": "Sáb"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/chamada-aberta-ao-publico-do-theatro-circo/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Chamada aberta ao público do Theatro Circo Em 2026 assinalam-se os vinte anos da reabertura do Theatro Circo. Para celebrar esta data, a artista, criadora e performer Raquel André concebe um espetáculo de homenagem dedicado a este lugar e às histórias que nele habitam.…",
+    "ticket_url": "",
+    "price_info": "",
+    "technical_sheet": {},
+    "tags": [],
+    "accessibility": [],
+    "date_end": "2026-10-31",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.45
+    }
+  },
+  {
+    "id": "theatrocirco-laurie-anderson-com-sexmob",
+    "title": "Laurie Anderson com Sexmob",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/laurie-anderson/",
+    "date_start": "2026-06-02",
+    "category": "Música",
+    "dates_label": "2 Junho",
+    "sessions": [
+      {
+        "date": "2026-06-02",
+        "time": "21:30",
+        "weekday": "Ter"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/laurie-anderson/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Passados quase 20 anos, Laurie Anderson regressa ao Theatro Circo comRepublic of Love, espetáculo que surge de um convite para um festival em Vienado Vienna Festival focado na ascensão do fascismo na Europa.…",
+    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/173890-laurie_anderson_with_sexmob_the_republic_of_love-theatro_circo/Sessoes",
+    "price_info": "30€",
+    "technical_sheet": {
+      "música": "Laurie Anderson com Sexmob Republic of Love 21h30 Sala Principal 30€ / Cartão Pentágono 15€ M/6 1/3 1/3 2/3 3/3 Passados quase 20 anos, Laurie Anderson regressa ao Theatro Circo com Republic of Love ,",
+      "texto": "s em 2026. Integrando pensamentos de figuras como Allen Ginsberg e Bob Dylan, a obra afirma-se como uma celebração da liberdade. Desde o êxito de O Superman (1981), o percurso de Laurie Anderson tem s",
+      "direção": "-Geral das Artes / Rede Portuguesa de Teatros e Cineteatros Portugueses (RTCP) TheatroCirco Bilhetes Bilhetes Programação Sobre Informações Acessibilidade En Inscreva-se aqui na nossa Newsletter para"
+    },
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "Republic of Love",
+    "schedule": "21h30",
+    "sala": "Sala Principal",
+    "age_rating": "M/6",
+    "age_min": 6,
+    "price_min": 30.0,
+    "price_max": 30.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.66
     }
   },
   {
@@ -2236,7 +4506,7 @@
     "duration": "90 min",
     "duration_min": 90,
     "age_min": 351,
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
     "_meta": {
@@ -2328,11 +4598,62 @@
       "produção": "André Camilo",
       "coprodução": "Camarote Produções e São Luiz Teatro Municipal"
     },
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.74
+    }
+  },
+  {
+    "id": "theatrocirco-buluku",
+    "title": "Buluku",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/buluku/",
+    "date_start": "2026-06-05",
+    "category": "Dança",
+    "dates_label": "5 e 6 Junho",
+    "sessions": [
+      {
+        "date": "2026-06-05",
+        "time": "10:30",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-06-06",
+        "time": "10:30",
+        "weekday": "Sáb"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/buluku/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Bulukué um afronauta curioso que viaja pelo espaço-tempo para partilhar aventuras sobre a criação do Universo, transformando conhecimentos ancestrais africanos em experiências contemporâneas.…",
+    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/174431-buluku_djam_neguin-theatro_circo/Sessoes",
+    "price_info": "2,5€",
+    "technical_sheet": {},
+    "tags": [
+      "Infantojuvenil"
+    ],
+    "accessibility": [],
+    "subtitle": "Djam Neguin",
+    "date_end": "2026-06-06",
+    "schedule": "10h30",
+    "sala": "Pequeno Auditório",
+    "duration": "35 min.",
+    "duration_min": 35,
+    "age_rating": "M/6",
+    "age_min": 6,
+    "price_min": 2.5,
+    "price_max": 2.5,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.65
     }
   },
   {
@@ -2375,11 +4696,102 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
       "completeness": 0.45
+    }
+  },
+  {
+    "id": "theatrocirco-o-meu-astronauta-e-o-metaverso",
+    "title": "O meu astronauta e o metaverso",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/o-meu-astronauta-e-o-metaverso/",
+    "date_start": "2026-06-06",
+    "category": "Outro",
+    "dates_label": "6 Junho",
+    "sessions": [
+      {
+        "date": "2026-06-06",
+        "time": "",
+        "weekday": "Sáb"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/o-meu-astronauta-e-o-metaverso/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Neste workshop orientado por Djam Neguin, criador e intérprete do espetáculoBuluku, os participantes vão criar a sua própria versão do astronauta, incorporando elementos presentes no espetáculo apresentado na manhã do mesmo dia, bem como referências ao universo espacial e à cultura africana.…",
+    "ticket_url": "",
+    "price_info": "3€",
+    "technical_sheet": {
+      "direção": "-Geral das Artes / Rede Portuguesa de Teatros e Cineteatros Portugueses (RTCP) TheatroCirco Reservas Reservas Programação Sobre Informações Acessibilidade En Inscreva-se aqui na nossa Newsletter para"
+    },
+    "tags": [
+      "Infantojuvenil"
+    ],
+    "accessibility": [],
+    "subtitle": "Djam Neguin",
+    "duration": "90 min.",
+    "duration_min": 90,
+    "age_rating": "M/6",
+    "age_min": 6,
+    "price_min": 3.0,
+    "price_max": 3.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.62
+    }
+  },
+  {
+    "id": "theatrocirco-the-legendary-tigerman",
+    "title": "The Legendary Tigerman",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/the-legendary-tigerman-curtas-metragens/",
+    "date_start": "2026-06-06",
+    "category": "Outro",
+    "dates_label": "6 Junho",
+    "sessions": [
+      {
+        "date": "2026-06-06",
+        "time": "",
+        "weekday": "Sáb"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/the-legendary-tigerman-curtas-metragens/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Neste cineconcerto integrado no programa Crianças ao Poder, o Theatro Circo promove o encontro entre o génio surrealista de Charley Bowers e a versatilidade composicional de The Legendary Tigerman.…",
+    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/174435-the_legendary_tigerman_curtas_metragens_de_charley_bowers-theatro_circo/Sessoes",
+    "price_info": "2,5€",
+    "technical_sheet": {
+      "criação": "de bandas sonoras, assume a",
+      "interpretação": "ao vivo para duas curtas-metragens fundamentais: Uma Escorregadela (1927) e Aí Está (1928). Fugindo ao registo puramente rock, Tigerman explora aqui uma sonoridade híbrida, onde a guitarra dialoga com",
+      "direção": "-Geral das Artes / Rede Portuguesa de Teatros e Cineteatros Portugueses (RTCP) TheatroCirco Bilhetes Reservas Bilhetes Reservas Programação Sobre Informações Acessibilidade En Inscreva-se aqui na noss"
+    },
+    "tags": [
+      "Infantojuvenil"
+    ],
+    "accessibility": [],
+    "subtitle": "Curtas-metragens de Charley Bowers",
+    "sala": "Sala Principal",
+    "age_rating": "M/6",
+    "age_min": 6,
+    "price_min": 2.5,
+    "price_max": 2.5,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.66
     }
   },
   {
@@ -2420,9 +4832,53 @@
       "produção": "Inês Pinto",
       "coprodução": "A Oficina/Centro Cultural Vila Flor , RTP – Rádio e Televisão de Portugal , Teatro Diogo Bernardes e Teatro das Figuras"
     },
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.64
+    }
+  },
+  {
+    "id": "theatrocirco-lucrecia-dalt",
+    "title": "Lucrecia Dalt",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/lucrecia-dalt/",
+    "date_start": "2026-06-09",
+    "category": "Música",
+    "dates_label": "9 Junho",
+    "sessions": [
+      {
+        "date": "2026-06-09",
+        "time": "21:30",
+        "weekday": "Ter"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/lucrecia-dalt/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "O regresso de Lucrecia Dalt a Braga marca o encontro com uma das mentes mais fascinantes da música da atualidade. A artista colombiana, radicada em Berlim, consolidou o seu prestígio internacional com o aclamado¡Ay!…",
+    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/174529-lucrecia_dalt-theatro_circo/Sessoes",
+    "price_info": "12€",
+    "technical_sheet": {
+      "música": "Lucrecia Dalt A Danger to Ourselves 21h30 Sala Principal 12€ / Cartão Pentágono 6€ M/6 1/5 1/5 2/5 3/5 4/5 5/5 O regresso de Lucrecia Dalt a Braga marca o encontro com uma das mentes mais fascinantes",
+      "direção": "-Geral das Artes / Rede Portuguesa de Teatros e Cineteatros Portugueses (RTCP) TheatroCirco Bilhetes Reservas Bilhetes Reservas Programação Sobre Informações Acessibilidade En Inscreva-se aqui na noss"
+    },
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "A Danger to Ourselves",
+    "schedule": "21h30",
+    "sala": "Sala Principal",
+    "age_rating": "M/6",
+    "age_min": 6,
+    "price_min": 12.0,
+    "price_max": 12.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
     "_meta": {
       "completeness": 0.64
     }
@@ -2462,11 +4918,69 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
       "completeness": 0.45
+    }
+  },
+  {
+    "id": "theatrocirco-jos-afonso-ao-vivo-nos-coliseus-1983",
+    "title": "José Afonso, ao vivo nos Coliseus, 1983",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/jose-afonso-ao-vivo-nos-coliseus-1983/",
+    "date_start": "2026-06-13",
+    "category": "Teatro",
+    "dates_label": "13 Junho",
+    "sessions": [
+      {
+        "date": "2026-06-13",
+        "time": "",
+        "weekday": "Sáb"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/jose-afonso-ao-vivo-nos-coliseus-1983/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Gonçalo Amorim/Teatro Experimental do Porto Inspirado nos históricos concertos de despedida de José Afonso em 1983, este espetáculo multidisciplinar cruza música, teatro e poesia para celebrar o legado de um dos grandes da música de intervenção portuguesa.…",
+    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/174441-jose_afonso_ao_vivo_nos_coliseus_1983_goncalo_amorim_tep-theatro_circo/Sessoes",
+    "price_info": "12€",
+    "technical_sheet": {
+      "música": "teatro e poesia para celebrar o legado de um dos grandes da",
+      "direção": "de Gonçalo Amorim, a peça não procura a reconstituição histórica, mas uma reinvenção contemporânea sob a estética do Gig Theatre – um formato híbrido que funde a energia do concerto ao vivo com a narr",
+      "texto": "s originais de autores como Lígia Soares e Miguel Cardoso, evoca-se a coragem e a melancolia de um país em mudança. Mais do que uma homenagem, é uma experiência imersiva que reinterpreta o património",
+      "encenação": "Gonçalo Amorim Coordenação dramatúrgica Rui Pina Coelho",
+      "interpretação": "Catarina Chora, Catarina Carvalho Gomes, Inês Salvado, Hugo Inácio Banda Mariana Leite Soares, Pedro João, Josué, Saulo Giovannini, Teresa Costa",
+      "cenografia": "Catarina Barros",
+      "figurinos": "Cátia Barros",
+      "luz": "Nuno Meira Técnico de luz Renato Marinho",
+      "som": "Mariana Leite Soares Operação de som Miguel Serrão Vídeo José Freitas",
+      "produção": "Teatro Municipal do Porto, Teatro Experimental do Porto, Fundação Caixa Geral de Depósitos – Culturgest, Centro Dramático Galego, CineTeatro Louletano"
+    },
+    "tags": [
+      "Acessibilidade"
+    ],
+    "accessibility": [
+      "LGP",
+      "Audiodescrição"
+    ],
+    "subtitle": "Gonçalo Amorim/Teatro Experimental do Porto",
+    "sala": "Sala Principal",
+    "duration": "180 min.",
+    "duration_min": 180,
+    "age_rating": "M/12",
+    "age_min": 12,
+    "price_min": 12.0,
+    "price_max": 12.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.85
     }
   },
   {
@@ -2503,7 +5017,7 @@
       "encenação": "Diogo Infante 19 Fev - 05 Abr 2026 BROKEBACK MOUNTAIN",
       "música": "Dan Gillespie Sells"
     },
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
@@ -2598,7 +5112,7 @@
       "luz": "Leocádia Silva",
       "produção": "Alaíde Costa Assistente de"
     },
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
     "_meta": {
@@ -2635,7 +5149,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -2691,11 +5205,55 @@
       "direção_produção": "Maria João Garcia",
       "coprodução": "Fundação de Serralves/Serralves em Festa, Citemor, Festival End, Festival Paragem e São Luiz Teatro Municipal"
     },
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.67
+    }
+  },
+  {
+    "id": "theatrocirco-carminho",
+    "title": "Carminho",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/carminho-eu-vou-morrer-de-amor-ou-resistir/",
+    "date_start": "2026-06-19",
+    "category": "Música",
+    "dates_label": "19 Junho",
+    "sessions": [
+      {
+        "date": "2026-06-19",
+        "time": "21:30",
+        "weekday": "Sex"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/carminho-eu-vou-morrer-de-amor-ou-resistir/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "A voz incontornável de Carminho regressa ao Theatro Circo para apresentar o seu sétimo álbum,Eu vou Morrer de Amor ou Resistir(2025), um trabalho de profunda dedicação no qual a artista explora a plasticidade do género, no seu disco mais experimental até à data.…",
+    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/174445-carminho_eu_vou_morrer_de_amor_ou_resistir-theatro_circo/Sessoes",
+    "price_info": "25€",
+    "technical_sheet": {
+      "música": "Carminho Eu vou morrer de amor ou resistir 21h30 Sala Principal 25€ / Cartão Pentágono 12,5€ M/6 1/4 1/4 2/4 3/4 4/4 A voz incontornável de Carminho regressa ao Theatro Circo para apresentar o seu sét",
+      "direção": "-Geral das Artes / Rede Portuguesa de Teatros e Cineteatros Portugueses (RTCP) TheatroCirco Bilhetes Reservas Bilhetes Reservas Programação Sobre Informações Acessibilidade En Inscreva-se aqui na noss"
+    },
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "Eu vou morrer de amor ou resistir",
+    "schedule": "21h30",
+    "sala": "Sala Principal",
+    "age_rating": "M/6",
+    "age_min": 6,
+    "price_min": 25.0,
+    "price_max": 25.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.64
     }
   },
   {
@@ -2782,7 +5340,7 @@
       "produção": "Razões Pessoais Residência artística Casa de Gigante",
       "coprodução": "Teatro das Figuras e São Luiz Teatro Municipal"
     },
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -2836,7 +5394,7 @@
       "produção": "Trypas-Corassão Associação Cultural",
       "coprodução": "Es Tr3s Irms é o projeto vencedor da 5ª edição da Bolsa Amélia Rey Colaço, uma iniciativa promovida pelo Teatro Nacional D. Maria II (Lisboa), A Oficina / Centro Cultural Vila Flor (Guimarães), O Espaço do Tempo (Montemor-o-Novo), e o Teatro Viriato (Viseu)."
     },
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -2895,11 +5453,96 @@
       "coprodução": "Teatro Municipal do Porto – Rivoli / Campo Alegre A mala voadora é uma estrutura financiada pelo Governo de Portugal – Ministério da Cultura / Direção-Geral das Artes"
     },
     "sala": "Auditório Emílio Rui Vilar",
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "culturgest",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.85
+    }
+  },
+  {
+    "id": "theatrocirco-composi-o-e-improvisa-o-na-m-sica-contempor-nea",
+    "title": "Composição e Improvisação na Música Contemporânea",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/formas-de-fazer-pedro-melo-alves/",
+    "date_start": "2026-06-26",
+    "category": "Outro",
+    "dates_label": "26 Junho",
+    "sessions": [
+      {
+        "date": "2026-06-26",
+        "time": "",
+        "weekday": "Sex"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/formas-de-fazer-pedro-melo-alves/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Composição e Improvisação na Música Contemporânea Oficina dedicada à exploração de técnicas contemporâneas de composição e improvisação presentes na génese dos dois repertórios de Pedro Melo Alves ‘Omniae Large Ensemble’ (2020, 2026).…",
+    "ticket_url": "",
+    "price_info": "Gratuito",
+    "technical_sheet": {
+      "música": "Contemporânea, com Pedro Melo Alves - Theatro Circo Saltar para o conteúdo principal En TheatroCirco Outros → Programação → Bilheteira → O Theatro → Acessibilidade TheatroCirco Programação Este site u",
+      "direção": "-Geral das Artes / Rede Portuguesa de Teatros e Cineteatros Portugueses (RTCP) O dst group é mecenas do programa de Mediação e Participação. TheatroCirco Programação Sobre Informações Acessibilidade E"
+    },
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "Com Pedro Melo Alves",
+    "duration": "90 min.",
+    "duration_min": 90,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.59
+    }
+  },
+  {
+    "id": "theatrocirco-indigoquintet",
+    "title": "IndigoQuintet",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/indigo-quintet/",
+    "date_start": "2026-06-26",
+    "category": "Música",
+    "dates_label": "26 Junho",
+    "sessions": [
+      {
+        "date": "2026-06-26",
+        "time": "21:30",
+        "weekday": "Sex"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/indigo-quintet/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Criado em 2018, o Indigo Quintet, formado por Pedro Teixeira (saxofone soprano/oboé/corne inglês/duduk), Tiago Machado (guitarra), Ricardo Januário (violoncelo), Jorge Castro (contrabaixo) e Pedro Gonçalves de Oliveira (bateria) em 2018, tem-se afirmado como um dos projetos mais singulares da nova c…",
+    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/174450-indigo_quintet-theatro_circo/Sessoes",
+    "price_info": "9€",
+    "technical_sheet": {
+      "música": "Indigo Qu in t et 21h30 Pequeno Auditório 9€ / Cartão Pentágono 4,5€ M/6 Criado em 2018, o Indigo Quintet, formado por Pedro Teixeira (saxofone soprano/oboé/corne inglês/duduk), Tiago Machado (guitarr",
+      "criação": "conjunta e colaborativa em diálogo entre diferentes linguagens",
+      "direção": "-Geral das Artes / Rede Portuguesa de Teatros e Cineteatros Portugueses (RTCP) TheatroCirco Bilhetes Reservas Bilhetes Reservas Programação Sobre Informações Acessibilidade En Inscreva-se aqui na noss"
+    },
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "Indigo Quintet",
+    "schedule": "21h30",
+    "sala": "Pequeno Auditório",
+    "age_rating": "M/6",
+    "age_min": 6,
+    "price_min": 9.0,
+    "price_max": 9.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.66
     }
   },
   {
@@ -2941,7 +5584,7 @@
       "produção": "Henrique Mariano",
       "coprodução": "Centro Cultural de Belém (Lisboa-Portugal), Holland Festival (Amsterdão), Festival d’Avignon (França), Edinburgh International Festival (Escócia) e DeSingel (Bélgica) Apoio UCLA’s Center for the Art of Performance e Instituto Guimarães Rosa — IGR — Ministério das Relações Exteriores do Brasi"
     },
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
     "_meta": {
@@ -2983,7 +5626,7 @@
     "duration": "150 min",
     "duration_min": 150,
     "age_min": 6,
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -3024,7 +5667,7 @@
       "produção": "e Cena TdE Sílvia Moura",
       "texto": "de Ricardo Neves-Neves, o enredo é muito mais dramático, as causas mais profundas, as personagens uns canalhas desprezíveis, e o final trará o espanto. Querem ser cúmplices deste crime? Avenida Frei Miguel Contreiras, 52, 1700-213, Lisboa Horário da Bilheteira Segunda – Sábado 17h30 às 21h30 Domingo"
     },
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
@@ -3071,11 +5714,57 @@
       "interpretação": "João Reis, Margarida Carvalho, Daniel Silva, Joana Africano",
       "coprodução": "Centro Cultural de Belém, Casa das Artes de Vila Nova de Famalicão, Teatro Nacional São João"
     },
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.68
+    }
+  },
+  {
+    "id": "theatrocirco-cinema-play",
+    "title": "Cinema Play",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/cinema-play-possivel-e-impossivel/",
+    "date_start": "2026-07-11",
+    "category": "Outro",
+    "dates_label": "11 Julho",
+    "sessions": [
+      {
+        "date": "2026-07-11",
+        "time": "",
+        "weekday": "Sáb"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/cinema-play-possivel-e-impossivel/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Em julho, o Cinema Play regressa para uma sessão de cinema infantil no Theatro Circo. Ao longo da sessão, assistimos a ovos que vão à praia, sentimentos com cores, um barco que sonha voar, cabritos sozinhos em casa, ursos que engolem moscas e um pastor desafiado após uma queda de neve – sete curtas-…",
+    "ticket_url": "",
+    "price_info": "1,5€",
+    "technical_sheet": {
+      "direção": "-Geral das Artes / Rede Portuguesa de Teatros e Cineteatros Portugueses (RTCP) TheatroCirco Reservas Reservas Programação Sobre Informações Acessibilidade En Inscreva-se aqui na nossa Newsletter para"
+    },
+    "tags": [
+      "Infantojuvenil"
+    ],
+    "accessibility": [],
+    "subtitle": "Possível e impossível",
+    "sala": "Pequeno Auditório",
+    "duration": "45 min.",
+    "duration_min": 45,
+    "age_rating": "M/3",
+    "age_min": 3,
+    "price_min": 1.5,
+    "price_max": 1.5,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.62
     }
   },
   {
@@ -3116,7 +5805,7 @@
     "duration": "120 min",
     "duration_min": 120,
     "age_min": 16,
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -3175,11 +5864,83 @@
     "accessibility": "",
     "sala": "Sala Mário Viegas",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.55
+    }
+  },
+  {
+    "id": "theatrocirco-v-mit-mostra-internacional-de-teatro-sem-fronteira",
+    "title": "V MIT: Mostra Internacional de Teatro – Sem Fronteiras",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/v-mit-mostra-internacional-de-teatro-sem-fronteiras/",
+    "date_start": "2026-07-18",
+    "category": "Teatro",
+    "dates_label": "18 a 25 Julho",
+    "sessions": [
+      {
+        "date": "2026-07-18",
+        "time": "",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-07-19",
+        "time": "",
+        "weekday": "Dom"
+      },
+      {
+        "date": "2026-07-20",
+        "time": "",
+        "weekday": "Seg"
+      },
+      {
+        "date": "2026-07-21",
+        "time": "",
+        "weekday": "Ter"
+      },
+      {
+        "date": "2026-07-22",
+        "time": "",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-07-23",
+        "time": "",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-07-24",
+        "time": "",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-07-25",
+        "time": "",
+        "weekday": "Sáb"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/v-mit-mostra-internacional-de-teatro-sem-fronteiras/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "V MIT: Mostra Internacional de Teatro – Sem Fronteiras AMostra Internacional de Teatro – Sem Fronteirasestá de regresso para a sua V Edição em 2026. Resultante de uma parceria da Companhia de Teatro de Braga com a ETA – Eurasia Theater Association, estrutura com sede em Maltepe / Istambul que integr…",
+    "ticket_url": "",
+    "price_info": "",
+    "technical_sheet": {
+      "produção": "Akròama Teatro Stabile d’Innovazione/Companhia de Teatro de Braga, com o espetáculo American Blues ; Espanha,"
+    },
+    "tags": [],
+    "accessibility": [],
+    "date_end": "2026-07-25",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.47
     }
   },
   {
@@ -3237,11 +5998,239 @@
     "duration": "90 min",
     "duration_min": 90,
     "age_min": 351,
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.65
+    }
+  },
+  {
+    "id": "theatrocirco-hamlet",
+    "title": "Hamlet",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/hamlet-jul2026/",
+    "date_start": "2026-07-28",
+    "category": "Teatro",
+    "dates_label": "28 e 29 Julho",
+    "sessions": [
+      {
+        "date": "2026-07-28",
+        "time": "21:30",
+        "weekday": "Ter"
+      },
+      {
+        "date": "2026-07-29",
+        "time": "21:30",
+        "weekday": "Qua"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/hamlet-jul2026/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Esta é uma performance sobre a percepção da realidade moderna, logo sobre fronteiras. A peça é sobre a possibilidade de olhar essa realidade a partir de dois polos dessa percepção: 1. O mundo é virtual, 2. O mundo é real.…",
+    "ticket_url": "",
+    "price_info": "10€",
+    "technical_sheet": {
+      "encenação": "e",
+      "dramaturgia": "Alexej Schipenko Cenografi­a e",
+      "figurinos": "Lesja Chernish Construção de cenário Fernando Gomes",
+      "interpretação": "André Laires, Carlos Feio, Eduarda Filipa, Rogério Boane e Solange Sá TheatroCirco Programação Sobre Informações Acessibilidade En Inscreva-se aqui na nossa Newsletter para não perder nenhum espetácul"
+    },
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "A partir de William Shakespeare",
+    "date_end": "2026-07-29",
+    "schedule": "21h30",
+    "sala": "Sala Principal",
+    "age_rating": "M/12",
+    "age_min": 12,
+    "price_min": 10.0,
+    "price_max": 10.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.63
+    }
+  },
+  {
+    "id": "theatrocirco-as-correntes-de-jo-o-c-sar-monteiro",
+    "title": "As correntes de João César Monteiro",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/as-correntes-de-joao-cesar-monteiro/",
+    "date_start": "2026-08-03",
+    "category": "Outro",
+    "dates_label": "3 e 31 Agosto",
+    "sessions": [
+      {
+        "date": "2026-08-03",
+        "time": "21:30",
+        "weekday": "Seg"
+      },
+      {
+        "date": "2026-08-31",
+        "time": "21:30",
+        "weekday": "Seg"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/as-correntes-de-joao-cesar-monteiro/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Para o mês de agosto, o Lucky Star – Cineclube de Braga programou quatro filmes dedicados a João César Monteiro (1939–2003), um dos mais singulares e irreverentes cineastas portugueses.…",
+    "ticket_url": "https://theatrocirco.bol.pt/",
+    "price_info": "4€",
+    "technical_sheet": {
+      "direção": "-Geral das Artes / Rede Portuguesa de Teatros e Cineteatros Portugueses (RTCP) TheatroCirco Bilhetes Bilhetes Programação Sobre Informações Acessibilidade En Inscreva-se aqui na nossa Newsletter para"
+    },
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "Cinema de agosto",
+    "date_end": "2026-08-31",
+    "schedule": "21h30",
+    "sala": "Pequeno Auditório",
+    "price_min": 4.0,
+    "price_max": 4.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.57
+    }
+  },
+  {
+    "id": "theatrocirco-veredas",
+    "title": "Veredas",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/veredas/",
+    "date_start": "2026-08-03",
+    "category": "Outro",
+    "dates_label": "3 Agosto",
+    "sessions": [
+      {
+        "date": "2026-08-03",
+        "time": "21:30",
+        "weekday": "Seg"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/veredas/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Veredasde João César Monteiro1978 | Portugal | Cópia digital restaurada | 2h03 Obra marcante do cinema português, Veredas inspira-se numa série de lendas, mitos e canções populares para explorar as raízes culturais do nosso país.…",
+    "ticket_url": "",
+    "price_info": "4€",
+    "technical_sheet": {
+      "direção": "-Geral das Artes / Rede Portuguesa de Teatros e Cineteatros Portugueses (RTCP) TheatroCirco Programação Sobre Informações Acessibilidade En Inscreva-se aqui na nossa Newsletter para não perder nenhum"
+    },
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "João César Monteiro",
+    "schedule": "21h30",
+    "sala": "Pequeno Auditório",
+    "age_rating": "M/12",
+    "age_min": 12,
+    "price_min": 4.0,
+    "price_max": 4.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.57
+    }
+  },
+  {
+    "id": "theatrocirco-silvestre",
+    "title": "Silvestre",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/silvestre/",
+    "date_start": "2026-08-10",
+    "category": "Outro",
+    "dates_label": "10 Agosto",
+    "sessions": [
+      {
+        "date": "2026-08-10",
+        "time": "21:30",
+        "weekday": "Seg"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/silvestre/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Silvestrede João César Monteiro1981 | Portugal | Cópia digital restaurada | 1h58 A história do filme é tirada de dois romances portugueses tradicionais:A Donzela que Vai à Guerra(Séc XV?…",
+    "ticket_url": "",
+    "price_info": "4€",
+    "technical_sheet": {
+      "direção": "-Geral das Artes / Rede Portuguesa de Teatros e Cineteatros Portugueses (RTCP) TheatroCirco Programação Sobre Informações Acessibilidade En Inscreva-se aqui na nossa Newsletter para não perder nenhum"
+    },
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "João César Monteiro",
+    "schedule": "21h30",
+    "sala": "Pequeno Auditório",
+    "age_rating": "M/12",
+    "age_min": 12,
+    "price_min": 4.0,
+    "price_max": 4.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.57
+    }
+  },
+  {
+    "id": "theatrocirco-flor-do-mar",
+    "title": "À Flor do Mar",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/a-flor-do-mar/",
+    "date_start": "2026-08-17",
+    "category": "Outro",
+    "dates_label": "17 Agosto",
+    "sessions": [
+      {
+        "date": "2026-08-17",
+        "time": "21:30",
+        "weekday": "Seg"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/a-flor-do-mar/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "À Flor do Marde João César Monteiro1986 | Portugal | Cópia digital restaurada | 2h23 Quando Laura Rossellini decidiu, bruscamente, partir para Roma, levando consigo os filhos, estava por certo convencida que não mais voltaria a Portugal, que atrás de si deixara, para todo o sempre, “um país morto”.…",
+    "ticket_url": "",
+    "price_info": "4€",
+    "technical_sheet": {
+      "direção": "-Geral das Artes / Rede Portuguesa de Teatros e Cineteatros Portugueses (RTCP) TheatroCirco Programação Sobre Informações Acessibilidade En Inscreva-se aqui na nossa Newsletter para não perder nenhum"
+    },
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "João César Monteiro",
+    "schedule": "21h30",
+    "sala": "Pequeno Auditório",
+    "age_rating": "M/12",
+    "age_min": 12,
+    "price_min": 4.0,
+    "price_max": 4.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.57
     }
   },
   {
@@ -3284,11 +6273,98 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
       "completeness": 0.45
+    }
+  },
+  {
+    "id": "theatrocirco-o-ltimo-mergulho",
+    "title": "O Último Mergulho",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/o-ultimo-mergulho/",
+    "date_start": "2026-08-24",
+    "category": "Outro",
+    "dates_label": "24 Agosto",
+    "sessions": [
+      {
+        "date": "2026-08-24",
+        "time": "21:30",
+        "weekday": "Seg"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/o-ultimo-mergulho/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "O Último Mergulhode João César Monteiro1992| Portugal | Cópia digital restaurada | 1h28 O jovem Samuel contempla uma noite as águas do Tejo num cais deserto.…",
+    "ticket_url": "",
+    "price_info": "4€",
+    "technical_sheet": {
+      "produção": "participou a RTP. Subordinando-se ao elemento “água”, João César Monteiro assinou em 1992 esta deliciosa e mordaz história sobre uma inesperada amizade entre um jovem suicida, um velho marinheiro e tr",
+      "direção": "-Geral das Artes / Rede Portuguesa de Teatros e Cineteatros Portugueses (RTCP) TheatroCirco Programação Sobre Informações Acessibilidade En Inscreva-se aqui na nossa Newsletter para não perder nenhum"
+    },
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "João César Monteiro",
+    "schedule": "21h30",
+    "sala": "Pequeno Auditório",
+    "age_rating": "M/12",
+    "age_min": 12,
+    "price_min": 4.0,
+    "price_max": 4.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.59
+    }
+  },
+  {
+    "id": "theatrocirco-as-bodas-de-deus",
+    "title": "As Bodas de Deus",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/as-bodas-de-deus/",
+    "date_start": "2026-08-31",
+    "category": "Outro",
+    "dates_label": "31 Agosto",
+    "sessions": [
+      {
+        "date": "2026-08-31",
+        "time": "21:30",
+        "weekday": "Seg"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/as-bodas-de-deus/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "As Bodas de Deusde João César Monteiro1999 | Portugal | Cópia digital restaurada | 2h30 Longa-metragem que encerra a trilogia de João César Monteiro dedicada a João de Deus, figura central deRecordações da Casa Amarela(1989) eA Comédia de Deus(1995).…",
+    "ticket_url": "",
+    "price_info": "4€",
+    "technical_sheet": {
+      "direção": "-Geral das Artes / Rede Portuguesa de Teatros e Cineteatros Portugueses (RTCP) TheatroCirco Programação Sobre Informações Acessibilidade En Inscreva-se aqui na nossa Newsletter para não perder nenhum"
+    },
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "João César Monteiro",
+    "schedule": "21h30",
+    "sala": "Pequeno Auditório",
+    "age_rating": "M/16",
+    "age_min": 16,
+    "price_min": 4.0,
+    "price_max": 4.0,
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "_meta": {
+      "completeness": 0.57
     }
   },
   {
@@ -3331,7 +6407,7 @@
     "duration": "105 min",
     "duration_min": 105,
     "age_min": 351,
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -3367,7 +6443,7 @@
     "duration": "14h30",
     "duration_min": 870,
     "age_min": 351,
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
     "_meta": {
@@ -3391,7 +6467,7 @@
       }
     ],
     "schedule": "21h30",
-    "synopsis": "Teatro",
+    "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
     "image": {
       "url": "https://teatrodasfiguras.pt/uploads/Eventos/2027/02_FEV/Os_Quatro_e_Meia_MINIATURA.jpg?file=LWkQTzDQXp_0anvGZOd69A",
       "credit": null,
@@ -3404,7 +6480,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:22:45.808758+00:00",
+    "scraped_at": "2026-03-20T21:38:05.286370+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
