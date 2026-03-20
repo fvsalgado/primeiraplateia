@@ -811,7 +811,6 @@
     if (!m) return;
     const fu = document.getElementById('footer-updated');
     if (fu) fu.textContent = `Actualizado ${formatRelative(m.updated_at)}`;
-  }).catch(() =>
   }).catch(() => {});
 
   function formatRelative(iso) {
