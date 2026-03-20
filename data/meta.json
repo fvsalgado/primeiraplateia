@@ -1,10 +1,11 @@
 {
-  "updated_at": "2026-03-20T23:46:22.561136+00:00",
-  "build_version": "20260320-2346",
-  "total_events": 159,
-  "total_theaters": 10,
+  "updated_at": "2026-03-20T23:57:02.452019+00:00",
+  "build_version": "20260320-2357",
+  "total_events": 189,
+  "total_theaters": 11,
   "by_theater": {
     "Theatro Circo": 63,
+    "Teatro Viriato": 30,
     "Teatro Variedades": 6,
     "Teatro da Trindade INATEL": 7,
     "São Luiz Teatro Municipal": 30,
@@ -15,6 +16,6 @@
     "Teatro do Bairro": 1,
     "Culturgest": 3
   },
-  "completeness_avg": 0.612,
+  "completeness_avg": 0.617,
   "anomalies": []
 }

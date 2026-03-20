@@ -176,7 +176,10 @@
         "centro de artes do espectáculo de viseu",
         "centro de artes do espetaculo de viseu",
         "caev"
-      ]
+      ],
+      "logo_url": "https://www.teatroviriato.com/assets/images/logo.svg",
+      "favicon_url": "https://www.teatroviriato.com/assets/favicon/favicon.svg",
+      "facade_url": "https://www.teatroviriato.com/assets/images/teatro-viriato-fachada.jpg"
     },
     {
       "id": "theatrocirco",

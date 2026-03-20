@@ -38,11 +38,59 @@
     "subtitle": "Com Xullaji e Tiago Sampaio",
     "date_end": "2026-04-18",
     "schedule": "18h45",
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
       "completeness": 0.56
+    }
+  },
+  {
+    "id": "viriato-regenerar",
+    "title": "Regenerar",
+    "subtitle": "de Liliana Velho | Produção Teatro Viriato | Powered by Movecho",
+    "theater": "Teatro Viriato",
+    "category": "Outro",
+    "dates_label": "13 jan – 25 jul 2026",
+    "date_start": "2026-01-13",
+    "date_end": "2026-07-25",
+    "sessions": [
+      {
+        "date": "2026-01-13",
+        "time": "13:00",
+        "weekday": "Ter"
+      },
+      {
+        "date": "2026-07-25",
+        "time": "13:00",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "13h00",
+    "synopsis": "Inauguração no dia 13 de janeiro, às 20h30. Nesta data, excecionalmente, entrada com bilhete (5€) para os espetáculos da noite WARM-UP.  Autotomia. Um comportamento de autodefesa de certos animais que, quando se sentem em perigo, voluntariamente, partem a cauda.…",
+    "image": {
+      "url": "https://www.teatroviriato.com/contents/galleryimage/a1e02145a062b11d.webp",
+      "credit": "Liliana Velho Centro de Artes do Espectáculo de Viseu Viriato Teatro Municipal L",
+      "source": "https://www.teatroviriato.com/pt/programacao/espetaculo/regenerar",
+      "theater": "Teatro Viriato"
+    },
+    "source_url": "https://www.teatroviriato.com/pt/programacao/espetaculo/regenerar",
+    "ticket_url": "https://www.teatroviriato.com/pt/informacoes/bilheteira",
+    "price_info": "gratuito",
+    "duration": "",
+    "age_rating": "M/6",
+    "age_min": 6,
+    "sala": "Foyer do Teatro Viriato Inauguração no dia 13 de janeiro, às",
+    "director": "",
+    "cast": [],
+    "technical_sheet": {
+      "produção": "Teatro Viriato Powered by Movecho Esta exposição integra a programação da RTCP"
+    },
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "theater_id": "viriato",
+    "city": "Viseu",
+    "_meta": {
+      "completeness": 0.62
     }
   },
   {
@@ -83,7 +131,7 @@
     "duration": "60 min",
     "duration_min": 60,
     "age_min": 351,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
     "_meta": {
@@ -148,11 +196,203 @@
     "price_max": 22.0,
     "age_rating": "M/12",
     "age_min": 12,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.74
+    }
+  },
+  {
+    "id": "viriato-regenera",
+    "title": "Regenera",
+    "subtitle": "um projeto de criação do Teatro Viriato",
+    "theater": "Teatro Viriato",
+    "category": "Outro",
+    "dates_label": "2 fev – 30 jun 2026",
+    "date_start": "2026-02-02",
+    "date_end": "2026-06-30",
+    "sessions": [
+      {
+        "date": "2026-02-02",
+        "time": "",
+        "weekday": "Seg"
+      },
+      {
+        "date": "2026-06-30",
+        "time": "",
+        "weekday": "Ter"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "“Regenera” é o nome do novo projeto de criação colaborativa para as infâncias que o Teatro Viriato tem planeado para o quadriénio 2026-2029. Com foco na mediação artística e cultural, a partir da instalação “O Teatro também é a nossa casa”, esta iniciativa expande a relação deste objeto artístico co…",
+    "image": {
+      "url": "https://www.teatroviriato.com/contents/galleryimage/69d95c2e414a8997.webp",
+      "credit": "2026 Teatro Viriato Termos e condições Livro de reclamações Este site utiliza co",
+      "source": "https://www.teatroviriato.com/pt/programacao/espetaculo/regenera",
+      "theater": "Teatro Viriato"
+    },
+    "source_url": "https://www.teatroviriato.com/pt/programacao/espetaculo/regenera",
+    "ticket_url": "https://www.teatroviriato.com/pt/informacoes/bilheteira",
+    "price_info": "",
+    "duration": "",
+    "age_rating": "",
+    "sala": "",
+    "director": "",
+    "cast": [],
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "theater_id": "viriato",
+    "city": "Viseu",
+    "_meta": {
+      "completeness": 0.5
+    }
+  },
+  {
+    "id": "viriato-noite-fora-cria-o-dramat-rgica",
+    "title": "Noite Fora | Criação dramatúrgica",
+    "subtitle": "Orientação Inês Barahona e Sónia Barbosa",
+    "theater": "Teatro Viriato",
+    "category": "Outro",
+    "dates_label": "2 fev – 5 jun 2026",
+    "date_start": "2026-02-02",
+    "date_end": "2026-06-05",
+    "sessions": [
+      {
+        "date": "2026-02-02",
+        "time": "10:00",
+        "weekday": "Seg"
+      },
+      {
+        "date": "2026-06-05",
+        "time": "10:00",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "10h00",
+    "synopsis": "CANDIDATURAS Depois de revelar, no ano passado, uma nova vertente de criação dramatúrgica, o “Noite Fora” regressa para mais uma edição que trará à luz novos textos de dramaturgos emergentes.…",
+    "image": {
+      "url": "https://www.teatroviriato.com/contents/galleryimage/63569addfc9658e9.webp",
+      "credit": "Sofia Bernardo Foto Sónia Barbosa © Luís Belo Centro de Artes do Espectáculo de",
+      "source": "https://www.teatroviriato.com/pt/programacao/espetaculo/noite-fora-criacao-dramaturgica-938",
+      "theater": "Teatro Viriato"
+    },
+    "source_url": "https://www.teatroviriato.com/pt/programacao/espetaculo/noite-fora-criacao-dramaturgica-938",
+    "ticket_url": "https://www.teatroviriato.com/pt/informacoes/bilheteira",
+    "price_info": "40€",
+    "price_min": 40.0,
+    "price_max": 40.0,
+    "duration": "",
+    "age_rating": "M/18",
+    "age_min": 18,
+    "sala": "Teatro Viriato CANDIDATURAS Depois de revelar, no ano passad",
+    "director": "",
+    "cast": [],
+    "technical_sheet": {
+      "texto": "teatral (m/18 anos) Lotação limitada LOCAL Teatro Viriato CANDIDATURAS Depois de revelar, no ano passado, uma nova vertente de criação dramatúrgica, o “Noite Fora” regressa para mais uma edição que tr"
+    },
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "theater_id": "viriato",
+    "city": "Viseu",
+    "_meta": {
+      "completeness": 0.62
+    }
+  },
+  {
+    "id": "viriato-o-teatro-tamb-m-a-nossa-casa",
+    "title": "O teatro também é a nossa casa",
+    "subtitle": "Criação original Ângela Rocha",
+    "theater": "Teatro Viriato",
+    "category": "Outro",
+    "dates_label": "2 fev – 25 jul 2026",
+    "date_start": "2026-02-02",
+    "date_end": "2026-07-25",
+    "sessions": [
+      {
+        "date": "2026-02-02",
+        "time": "13:00",
+        "weekday": "Seg"
+      },
+      {
+        "date": "2026-07-25",
+        "time": "13:00",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "13h00",
+    "synopsis": "E se todos tivéssemos uma chave-mestra do nosso Teatro? Com esta ideia simples, mas simbólica, a artista e cenógrafa Ângela Rocha homenageia os 25 anos de cultura do Teatro Viriato, que continuamos a celebrar.…",
+    "image": {
+      "url": "https://www.teatroviriato.com/contents/galleryimage/c61503adb5fb4840.webp",
+      "credit": "Carlos Fernandes Centro de Artes do Espectáculo de Viseu Viriato Teatro Municipa",
+      "source": "https://www.teatroviriato.com/pt/programacao/espetaculo/o-teatro-tambem-e-a-nossa-casa-228",
+      "theater": "Teatro Viriato"
+    },
+    "source_url": "https://www.teatroviriato.com/pt/programacao/espetaculo/o-teatro-tambem-e-a-nossa-casa-228",
+    "ticket_url": "https://www.teatroviriato.com/pt/informacoes/bilheteira",
+    "price_info": "Gratuito",
+    "duration": "",
+    "age_rating": "M/6",
+    "age_min": 6,
+    "sala": "Foyer do Teatro Viriato E se todos tivéssemos uma chave-mest",
+    "director": "",
+    "cast": [],
+    "technical_sheet": {
+      "produção": "Teatro Viriato Esta exposição integra a programação da RTCP"
+    },
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "theater_id": "viriato",
+    "city": "Viseu",
+    "_meta": {
+      "completeness": 0.62
+    }
+  },
+  {
+    "id": "viriato-visitas-guiadas-ao-teatro-viriato",
+    "title": "Visitas Guiadas ao Teatro Viriato",
+    "subtitle": "Orientação Gi da Conceição",
+    "theater": "Teatro Viriato",
+    "category": "Outro",
+    "dates_label": "3 fev – 24 jul 2026",
+    "date_start": "2026-02-03",
+    "date_end": "2026-07-24",
+    "sessions": [
+      {
+        "date": "2026-02-03",
+        "time": "",
+        "weekday": "Ter"
+      },
+      {
+        "date": "2026-07-24",
+        "time": "",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "O Teatro é um espaço de criação, reflexão e liberdade. Um lugar onde se cruzam linguagens artísticas, ideias e pessoas. No Teatro Viriato, propomos uma visita que vai além do visível, revelando o que acontece antes e depois do momento em cena. Quem são as pessoas por detrás do espetáculo?…",
+    "image": {
+      "url": "https://www.teatroviriato.com/contents/galleryimage/5024f86b42799a6b.webp",
+      "credit": "Carlos Fernandes Centro de Artes do Espectáculo de Viseu Viriato Teatro Municipa",
+      "source": "https://www.teatroviriato.com/pt/programacao/espetaculo/visitas-guiadas-ao-teatro-viriato-671",
+      "theater": "Teatro Viriato"
+    },
+    "source_url": "https://www.teatroviriato.com/pt/programacao/espetaculo/visitas-guiadas-ao-teatro-viriato-671",
+    "ticket_url": "https://www.teatroviriato.com/pt/informacoes/bilheteira",
+    "price_info": "",
+    "duration": "90 min.",
+    "duration_min": 90,
+    "age_rating": "M/3",
+    "age_min": 3,
+    "sala": "Teatro Viriato O Teatro é um espaço de criação, reflexão e l",
+    "director": "",
+    "cast": [],
+    "technical_sheet": {
+      "fotografia": "© Carlos Fernandes Centro de Artes do Espectáculo de Viseu Viriato Teatro Municipal Largo Mouzinho de Albuquerque"
+    },
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "theater_id": "viriato",
+    "city": "Viseu",
+    "_meta": {
+      "completeness": 0.62
     }
   },
   {
@@ -211,11 +451,61 @@
     "age_min": 16,
     "duration": "90 min.",
     "duration_min": 90,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.81
+    }
+  },
+  {
+    "id": "viriato-summer-lab-programa-intensivo-de-forma-o-em-dan-a",
+    "title": "SUMMER LAB - Programa intensivo de formação em dança",
+    "subtitle": "Parceria Teatro Viriato e Play False | associação cultural",
+    "theater": "Teatro Viriato",
+    "category": "Outro",
+    "dates_label": "24 fev – 5 jun 2026",
+    "date_start": "2026-02-24",
+    "date_end": "2026-06-05",
+    "sessions": [
+      {
+        "date": "2026-02-24",
+        "time": "",
+        "weekday": "Ter"
+      },
+      {
+        "date": "2026-06-05",
+        "time": "",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "INSCRIÇÃO Antes de se inscrever, leia atentamente, por favor, o Regulamento do SUMMER LAB. Consulte abaixo os documentos para descarregar, preencher e enviar por e-mail após confirmação da inscrição.…",
+    "image": {
+      "url": "https://www.teatroviriato.com/contents/galleryimage/925aaed9300555c7.webp",
+      "credit": "Teresa Vale a partir de fotografia de António M Cabrita Centro de Artes do Espec",
+      "source": "https://www.teatroviriato.com/pt/programacao/espetaculo/summer-lab-programa-intensivo-de-formacao-em-danca",
+      "theater": "Teatro Viriato"
+    },
+    "source_url": "https://www.teatroviriato.com/pt/programacao/espetaculo/summer-lab-programa-intensivo-de-formacao-em-danca",
+    "ticket_url": "https://www.teatroviriato.com/pt/informacoes/bilheteira",
+    "price_info": "240€",
+    "price_min": 240.0,
+    "price_max": 240.0,
+    "duration": "",
+    "age_rating": "M/16",
+    "age_min": 16,
+    "sala": "Teatro Viriato INSCRIÇÃO Antes de se inscrever, leia atentam",
+    "director": "",
+    "cast": [],
+    "technical_sheet": {
+      "fotografia": "de António M Cabrita Centro de Artes do Espectáculo de Viseu Viriato Teatro Municipal Largo Mouzinho de Albuquerque"
+    },
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "theater_id": "viriato",
+    "city": "Viseu",
+    "_meta": {
+      "completeness": 0.62
     }
   },
   {
@@ -258,11 +548,59 @@
     "schedule": "18h00",
     "age_rating": "M/6",
     "age_min": 6,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
       "completeness": 0.59
+    }
+  },
+  {
+    "id": "viriato-oficina-de-cinema-de-anima-o",
+    "title": "Oficina de Cinema de Animação",
+    "subtitle": "Orientação Graça Gomes e Maria Pessanha",
+    "theater": "Teatro Viriato",
+    "category": "Outro",
+    "dates_label": "9 mar – 29 mai 2026",
+    "date_start": "2026-03-09",
+    "date_end": "2026-05-29",
+    "sessions": [
+      {
+        "date": "2026-03-09",
+        "time": "10:00",
+        "weekday": "Seg"
+      },
+      {
+        "date": "2026-05-29",
+        "time": "10:00",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "10h00",
+    "synopsis": "Num tempo dominado pelo digital e pela emergência de filmes gerados por inteligência artificial, o Teatro Viriato, em parceria com o Cine Clube de Viseu, reafirma o valor do analógico e da presença coletiva, apostando no manual e na partilha de processos.…",
+    "image": {
+      "url": "https://www.teatroviriato.com/contents/galleryimage/d2a64d8b3d5f97e2.webp",
+      "credit": "Pedro Pereira CALENDÁRIO 09 MAR a 29 MAI Fase de candidaturas 05 JUN Comunicação",
+      "source": "https://www.teatroviriato.com/pt/programacao/espetaculo/oficina-de-cinema-de-animacao",
+      "theater": "Teatro Viriato"
+    },
+    "source_url": "https://www.teatroviriato.com/pt/programacao/espetaculo/oficina-de-cinema-de-animacao",
+    "ticket_url": "https://www.teatroviriato.com/pt/informacoes/bilheteira",
+    "price_info": "30€",
+    "price_min": 30.0,
+    "price_max": 30.0,
+    "duration": "",
+    "age_rating": "M/14",
+    "age_min": 14,
+    "sala": "Teatro Viriato Num tempo dominado pelo digital e pela emergê",
+    "director": "",
+    "cast": [],
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "theater_id": "viriato",
+    "city": "Viseu",
+    "_meta": {
+      "completeness": 0.6
     }
   },
   {
@@ -365,7 +703,7 @@
       "interpretação": "Cucha Carvalheiro, David Esteves, Fernando Luís, Madalena Almeida, Manuela Couto, Virgílio Castelo e Duarte Romão e Laura Garnel (alunos finalistas da ESTC)",
       "coprodução": "Culturproject, Teatro Municipal Joaquim Benite e São Luiz Teatro Municipal Projeto apoiado por República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -419,11 +757,67 @@
       "interpretação": "Ana Guiomar, Cristóvão Campos, Ruben Madureira e Sandra Faleiro",
       "elenco": "Ana Guiomar, Cristóvão Campos, Ruben Madureira e Sandra Faleiro, “Uma Ideia Genial” conta a história hilariante de uma personagem que se multiplica em três, cada uma com as suas características e perplexidades. Atrações, ciúmes, suspeitas e destinos cruzados criam uma sucessão de mal-entendidos e um"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.8
+    }
+  },
+  {
+    "id": "viriato-aurora-ou-livro",
+    "title": "Aurora (ou Livro)",
+    "subtitle": "direção e criação Paula Diogo",
+    "theater": "Teatro Viriato",
+    "category": "Outro",
+    "dates_label": "19, 20 mar 2026",
+    "date_start": "2026-03-19",
+    "date_end": "2026-03-20",
+    "sessions": [
+      {
+        "date": "2026-03-19",
+        "time": "15:00",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-03-20",
+        "time": "15:00",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "15h00",
+    "synopsis": "> Neste evento podem ser captadas fotografias e/ou imagens de vídeo para fins de divulgação e promoção do Teatro Viriato e do espetáculo (site, redes sociais e materiais institucionais). Se não pretende que a sua imagem seja captada, por favor informe a bilheteira.…",
+    "image": {
+      "url": "https://www.teatroviriato.com/contents/galleryimage/cb9794fb5533f468.webp",
+      "credit": "DR Centro de Artes do Espectáculo de Viseu Viriato Teatro Municipal Largo Mouzin",
+      "source": "https://www.teatroviriato.com/pt/programacao/espetaculo/aurora-ou-livro-530",
+      "theater": "Teatro Viriato"
+    },
+    "source_url": "https://www.teatroviriato.com/pt/programacao/espetaculo/aurora-ou-livro-530",
+    "ticket_url": "https://www.teatroviriato.com/pt/informacoes/bilheteira",
+    "price_info": "2,50€",
+    "price_min": 2.5,
+    "price_max": 2.5,
+    "duration": "50 min.",
+    "duration_min": 50,
+    "age_rating": "M/12",
+    "age_min": 12,
+    "sala": "Palco SEX 21h00 Público-alvo m/12 anos Preços bilhetes 6€ //",
+    "director": "e criação Paula Diogo Cocriação João Lopes Pereira e Renato Linhares Intérpretes João Lopes Pereira, Paula Diogo (em rotatividade com Márcia Lança ) e Renato Linhares",
+    "cast": [],
+    "technical_sheet": {
+      "direção": "e criação Paula Diogo Cocriação João Lopes Pereira e Renato Linhares Intérpretes João Lopes Pereira, Paula Diogo (em rotatividade com Márcia Lança ) e Renato Linhares",
+      "luz": "Wilma Moutinho Operação em Torres Vedras Catarina Côdea",
+      "som": "Suse Ribeiro",
+      "música": "João Lopes Pereira em diálogo com Mariana Ricardo e Yaw Tembe Registo video e styling Masako Hattori Espaço e montagem Emanuel Santos",
+      "fotografia": "João Tuna Gestão de projeto Paula Diogo e Daniela Ribeiro",
+      "produção": "Ricardo Arenga e Má-Criação"
+    },
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "theater_id": "viriato",
+    "city": "Viseu",
+    "_meta": {
+      "completeness": 0.77
     }
   },
   {
@@ -456,7 +850,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -561,7 +955,7 @@
       "produção": "Fátima Santos Filipe Difusão João Vaz Silva",
       "coprodução": "O Fim do Teatro, Casa Varela, Teatro-Cine de Pombal e São Luiz Teatro Municipal Parceria RTP Palco Apoio Largo Residências Media partner Radar 97.8 FM AGRADECIMENTOS Chão de Oliva, Elsa Lago Matos e Luiz Quaresma"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -605,7 +999,7 @@
       "direção": "Luís Vieira e Rute Ribeiro",
       "coprodução": "LU.CA – Teatro Luís de Camões, Teatro Nacional D. Maria II, Centro Cultural de Belém e São Luiz Teatro Municipal /// A Tarumba é uma estrutura financiada por República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -648,7 +1042,7 @@
     "sala": "Pequeno Auditório",
     "age_rating": "M/6",
     "age_min": 6,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -691,7 +1085,7 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -732,7 +1126,7 @@
     "age_min": 14,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -772,7 +1166,7 @@
     "age_rating": "M1770",
     "age_min": 1770,
     "sala": "Sala Bernardo Sassetti",
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -808,7 +1202,7 @@
       "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
       "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
@@ -853,7 +1247,7 @@
     "age_min": 6,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -900,7 +1294,7 @@
     "duration": "120 min",
     "duration_min": 120,
     "age_min": 12,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
     "_meta": {
@@ -946,7 +1340,7 @@
       "produção": "Executiva Marisa Coelho Gestão Financeira Nuno Pratas",
       "coprodução": "Associação Bo Dixam Bai, Associação Palavrão, Centro Cultural de Belém, Cineteatro Louletano e Culturproject"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
     "_meta": {
@@ -986,7 +1380,7 @@
     "accessibility": [],
     "subtitle": "Celebração do Dia Mundial do Teatro",
     "schedule": "19h00",
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1023,7 +1417,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -1070,7 +1464,7 @@
     "duration": "120 min",
     "duration_min": 120,
     "age_min": 12,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -1118,7 +1512,7 @@
     "technical_sheet": {
       "produção": "São Luiz Teatro Municipal"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -1157,11 +1551,59 @@
     "duration_min": 1,
     "age_rating": "Consultar a classificação dos espetáculos",
     "sala": "Vários espaços do Teatro",
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.65
+    }
+  },
+  {
+    "id": "viriato-mem-rias-do-teatro-da-cornuc-pia",
+    "title": "Memórias do Teatro da Cornucópia",
+    "subtitle": "Realização Solveig Nordlund",
+    "theater": "Teatro Viriato",
+    "category": "Outro",
+    "dates_label": "27 mar 2026",
+    "date_start": "2026-03-27",
+    "date_end": "2026-03-27",
+    "sessions": [
+      {
+        "date": "2026-03-27",
+        "time": "21:00",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "21H00",
+    "synopsis": "Reputado emblema do teatro interventivo português, o rasgo do Teatro da Cornucópia surgia em 1973, através de Jorge Silva Melo e Luís Miguel Cintra, na obscuridade fascista, para combater no palco a ditadura.…",
+    "image": {
+      "url": "https://www.teatroviriato.com/contents/galleryimage/a1e348bb71530597.webp",
+      "credit": "2026 Teatro Viriato Termos e condições Livro de reclamações Este site utiliza co",
+      "source": "https://www.teatroviriato.com/pt/programacao/espetaculo/memorias-do-teatro-da-cornucopia",
+      "theater": "Teatro Viriato"
+    },
+    "source_url": "https://www.teatroviriato.com/pt/programacao/espetaculo/memorias-do-teatro-da-cornucopia",
+    "ticket_url": "https://www.teatroviriato.com/pt/informacoes/bilheteira",
+    "price_info": "3€",
+    "price_min": 3.0,
+    "price_max": 3.0,
+    "duration": "92 min.",
+    "duration_min": 92,
+    "age_rating": "M/12",
+    "age_min": 12,
+    "sala": "Sala de Espetáculos Reputado emblema do teatro interventivo",
+    "director": "de",
+    "cast": [],
+    "technical_sheet": {
+      "música": "Pedro Marques Coescrita de projeto Sabrina D. Marques Câmara Paulo Mil Homens Captação de som Duarte Ferreira e Olivier Blanc Correção de cor Francisco Costa Mistura de som Tiago Inuit Genérico e graf",
+      "direção": "de",
+      "produção": "Jacinta Barros Assistente de"
+    },
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "theater_id": "viriato",
+    "city": "Viseu",
+    "_meta": {
+      "completeness": 0.71
     }
   },
   {
@@ -1199,8 +1641,8 @@
       "produção": "Leonardo Garibaldi, Joana Silva"
     },
     "tags": [
-      "Acessibilidade",
-      "Dia Mundial do Teatro"
+      "Dia Mundial do Teatro",
+      "Acessibilidade"
     ],
     "accessibility": [
       "LGP",
@@ -1215,7 +1657,7 @@
     "age_min": 14,
     "price_min": 5.0,
     "price_max": 5.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1256,7 +1698,7 @@
     "accessibility": [],
     "subtitle": "Biografia e Autoficção",
     "schedule": "11h00",
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1295,7 +1737,7 @@
     "duration_min": 45,
     "price_min": 3.5,
     "price_max": 3.5,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1338,7 +1780,7 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1381,7 +1823,7 @@
     "age_min": 14,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1430,7 +1872,7 @@
     "age_min": 12,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1465,11 +1907,67 @@
       "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
       "produção": "90 Minutos aprox. M/16 Em Abril, o Dr. Love entra em modo cerimónia para o grande evento matrimonial, com direito a véu, grinalda, bouquet e ilustres convidados que irão apadrinhar a boda e ajudar-nos a responder, em tempo real, aos dilemas mais surpreendentes e inéditos de sempre. Breakups, makeout"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.49
+    }
+  },
+  {
+    "id": "viriato-tr-s-tempos",
+    "title": "Três Tempos",
+    "subtitle": "Com xullaji, Bruno Pinto e jovens de Viseu",
+    "theater": "Teatro Viriato",
+    "category": "Música",
+    "dates_label": "2 abr 2026",
+    "date_start": "2026-04-02",
+    "date_end": "2026-04-02",
+    "sessions": [
+      {
+        "date": "2026-04-02",
+        "time": "19:00",
+        "weekday": "Qui"
+      }
+    ],
+    "schedule": "19h00",
+    "synopsis": "Ao longo de seis meses, jovens de Viseu participaram no projeto “Três Tempos”. Na companhia dos músicos xullaji, referência do hip-hop português, e Bruno Pinto, músico local e corresponsável pela Gira Sol Azul, escreveram músicas, recolheram sons, partilharam ideias, exploraram a composição e a grav…",
+    "image": {
+      "url": "https://www.teatroviriato.com/contents/galleryimage/5246843dd0d2788d.webp",
+      "credit": "2026 Teatro Viriato Termos e condições Livro de reclamações Este site utiliza co",
+      "source": "https://www.teatroviriato.com/pt/programacao/espetaculo/tres-tempos-424",
+      "theater": "Teatro Viriato"
+    },
+    "source_url": "https://www.teatroviriato.com/pt/programacao/espetaculo/tres-tempos-424",
+    "ticket_url": "https://www.teatroviriato.com/pt/informacoes/bilheteira",
+    "price_info": "2,50€",
+    "price_min": 2.5,
+    "price_max": 2.5,
+    "duration": "",
+    "age_rating": "M/6",
+    "age_min": 6,
+    "sala": "Sala de Espetáculos Ao longo de seis meses, jovens de Viseu",
+    "director": "",
+    "cast": [
+      "e cocriação Bernardo Sousa",
+      "Eduardo Rolo",
+      "Guilherme Sanches",
+      "João Oliveira",
+      "João Alves",
+      "Margarida Lopes",
+      "Matilde Correia",
+      "Rafael Dias e Úrsula Pinto Projeto coproduzido por Teatro Viriato (Viseu)",
+      "The"
+    ],
+    "technical_sheet": {
+      "música": "ESTREIA QUI 19h00 Duração a definir Preços bilhetes 2,50€ // Descontos não aplicáveis LOCAL Sala de Espetáculos Ao longo de seis meses, jovens de Viseu participaram no projeto “Três Tempos”. Na compan",
+      "interpretação": "e cocriação Bernardo Sousa, Eduardo Rolo, Guilherme Sanches, João Oliveira, João Alves, Margarida Lopes, Matilde Correia, Rafael Dias e Úrsula Pinto Projeto coproduzido por Teatro Viriato (Viseu), The"
+    },
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "theater_id": "viriato",
+    "city": "Viseu",
+    "_meta": {
+      "completeness": 0.64
     }
   },
   {
@@ -1515,7 +2013,7 @@
       "luz": "Rui Seabra",
       "som": "Paulo Abelho; Costureira: RosÃ¡rio Balbi; ConstruÃ§Ã£o de cenÃ¡rio: FÃ¡bio Paulo; OperaÃ§Ã£o de luz: AntÃ³nio SerrÃ£o e JoÃ£o Madeira; OperaÃ§Ã£o de som: Vasco Maciel; Chefe de guarda roupa: InÃªs da Mata; Assistentes de guarda-roupa: Beatriz Dinis e Ema FalcÃ£o; IlustraÃ§Ã£o: Joana Villaverde; Foto"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "teatrodobairro",
     "city": "Lisboa",
     "_meta": {
@@ -1552,7 +2050,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -1593,7 +2091,7 @@
       "produção": "Janice Mayamona Apoio Técnico: Léo Emílio Contabilidade: Irene Gaspar Comunicação e Design Gráfico: Natacha Ventura Comunicação Digital: Miguel Durão Hilário Registo em vídeo: Bruno Canas Costureira: Teresa Matos Assessoria de imprensa: Canal Aberto – Márcia Marques, Daniele Valério e Carina Bordalo",
       "autor": "diz-nos que há algo de sinistro numa mulher que só usa roupa uma vez. Como haverá, dizemos nós, algo de identicamente sinistro em vestir sempre a mesma roupa. É igual com o amor. Há algo pecaminoso em vestir-nos de amor uma vez e de novamente repetir a dose. Ao entrar para dentro do círculo amoroso,"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
@@ -1642,7 +2140,7 @@
     "subtitle": "com Beatriz Valentim",
     "date_end": "2026-04-09",
     "schedule": "11h00",
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1679,7 +2177,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -1742,7 +2240,7 @@
       "produção": "Frederico Barata",
       "coprodução": "auéééu e São Luiz Teatro Municipal Apoios SPA, Junta de Freguesia de Santo António, Casa da Comarca de Arganil, MTC, os nossos putos Agradecimentos Eva Baudry, Filipe Andrade, Fernando Roussado, auéééu teatro"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -1789,7 +2287,7 @@
     "age_min": 6,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1826,7 +2324,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -1903,7 +2401,7 @@
       "produção": "Vanessa Amaral Produção Associação Orí – Negritudes em Convergência Espiralar",
       "coprodução": "Bolsa de Criação O Espaço do Tempo com apoio do Banco BPI e Fundação “la Caixa” /// Projeto financiado por República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes Apoios Biblioteca de Alcântara, Câmara Municipal de Almada, Câmara Municipal da Moita, RDP África, Buala"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -1944,7 +2442,7 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1981,7 +2479,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -2021,7 +2519,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Bernardo Sassetti",
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -2060,7 +2558,7 @@
     "sala": "Pequeno Auditório",
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2104,7 +2602,7 @@
       "produção": "Canário Bonacheirão",
       "coprodução": "Canário Bonacheirão e São Luiz Teatro Municipal"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -2137,7 +2635,7 @@
       "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
       "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
@@ -2172,11 +2670,82 @@
       "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
       "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.49
+    }
+  },
+  {
+    "id": "viriato-2062-k-cena-projeto-de-teatro-jovem",
+    "title": "2062 [K Cena - Projeto de Teatro Jovem]",
+    "subtitle": "direção artística João Branco",
+    "theater": "Teatro Viriato",
+    "category": "Teatro",
+    "dates_label": "15, 16, 17 abr 2026",
+    "date_start": "2026-04-15",
+    "date_end": "2026-04-17",
+    "sessions": [
+      {
+        "date": "2026-04-15",
+        "time": "10:30",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-04-16",
+        "time": "10:30",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-04-17",
+        "time": "10:30",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "10h30",
+    "synopsis": "“2062” mergulha num futuro distópico onde sentir é proibido. Inspirado no universo de “1984”, de George Orwell, o espetáculo projeta um mundo em que as emoções foram banidas, os gestos públicos são regulados por algoritmos e cada passo da existência é vigiado, catalogado e controlado pela tecnologia…",
+    "image": {
+      "url": "https://www.teatroviriato.com/contents/galleryimage/928b63fcdd6488fc.webp",
+      "credit": "2026 Teatro Viriato Termos e condições Livro de reclamações Este site utiliza co",
+      "source": "https://www.teatroviriato.com/pt/programacao/espetaculo/2062-k-cena-projeto-de-teatro-jovem",
+      "theater": "Teatro Viriato"
+    },
+    "source_url": "https://www.teatroviriato.com/pt/programacao/espetaculo/2062-k-cena-projeto-de-teatro-jovem",
+    "ticket_url": "https://www.teatroviriato.com/pt/informacoes/bilheteira",
+    "price_info": "2,50€",
+    "price_min": 2.5,
+    "price_max": 2.5,
+    "duration": "",
+    "age_rating": "M/12",
+    "age_min": 12,
+    "sala": "Sala de Espetáculos sex 19h00 Público-alvo m/12 anos Preços",
+    "director": "João Branco",
+    "cast": [
+      "e cocriação Ana Lúcia Duarte",
+      "André Fiúza",
+      "Bruna Augusto",
+      "Carlos Pereira",
+      "Diana Silva",
+      "Gabriela Santos",
+      "Helena Silva",
+      "Joaquim Lopes",
+      "José Duarte",
+      "Lucas Madeira",
+      "Madalena Alves",
+      "Madalena Rocha",
+      "Maria I"
+    ],
+    "technical_sheet": {
+      "direção": "João Branco",
+      "interpretação": "e cocriação Ana Lúcia Duarte, André Fiúza, Bruna Augusto, Carlos Pereira, Diana Silva, Gabriela Santos, Helena Silva, Joaquim Lopes, José Duarte, Lucas Madeira, Madalena Alves, Madalena Rocha, Maria I",
+      "produção": "Teatro Viriato Este projeto integra a programação da RTCP @ Carlos Fernandes > Neste espetáculo será feito um registo fotográfico e/ou de vídeo (com/sem som) para fins de promoção do mesmo e de arquiv"
+    },
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "theater_id": "viriato",
+    "city": "Viseu",
+    "_meta": {
+      "completeness": 0.66
     }
   },
   {
@@ -2209,7 +2778,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -2286,7 +2855,7 @@
     "date_end": "2026-04-24",
     "schedule": "21h30",
     "sala": "Pequeno Auditório",
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2337,7 +2906,7 @@
     "duration_min": 90,
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2370,15 +2939,15 @@
     "price_info": "",
     "technical_sheet": {},
     "tags": [
-      "Aniversário",
-      "Infantojuvenil"
+      "Infantojuvenil",
+      "Aniversário"
     ],
     "accessibility": [],
     "subtitle": "Livraria Aqui há Gato",
     "schedule": "11h30",
     "duration": "35 min.",
     "duration_min": 35,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2423,7 +2992,7 @@
     "age_min": 6,
     "price_min": 15.0,
     "price_max": 15.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2460,7 +3029,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -2500,7 +3069,7 @@
     "age_rating": "M1770",
     "age_min": 1770,
     "sala": "Sala Bernardo Sassetti",
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -2546,7 +3115,7 @@
     "age_min": 6,
     "price_min": 20.0,
     "price_max": 20.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2587,7 +3156,7 @@
     "age_min": 16,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2626,7 +3195,7 @@
       "figurinos": "Giovanna Moretto",
       "produção": "e"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
@@ -2672,7 +3241,7 @@
     "age_min": 6,
     "price_min": 25.0,
     "price_max": 25.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2738,7 +3307,7 @@
       "produção": "Loup Solitaire",
       "coprodução": "Teatro Virgínia, Casa das Artes de Vila Nova de Famalicão, Teatro Diogo Bernardes, Teatro Gil Vicente e São Luiz Teatro Municipal /// A Loup Solitaire é uma estrutura financiada pela República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -2773,7 +3342,7 @@
       "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
       "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
@@ -2819,7 +3388,7 @@
     "duration_min": 120,
     "age_rating": "M/16",
     "age_min": 16,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2861,7 +3430,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -2917,11 +3486,59 @@
       "coprodução": "Teatro-Cine Torres Vedras"
     },
     "sala": "Auditório Emílio Rui Vilar",
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "culturgest",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.79
+    }
+  },
+  {
+    "id": "viriato-archipelago",
+    "title": "Archipelago",
+    "subtitle": "De Luís Tinoco",
+    "theater": "Teatro Viriato",
+    "category": "Música",
+    "dates_label": "23 abr 2026",
+    "date_start": "2026-04-23",
+    "date_end": "2026-04-23",
+    "sessions": [
+      {
+        "date": "2026-04-23",
+        "time": "21:00",
+        "weekday": "Qui"
+      }
+    ],
+    "schedule": "21h00",
+    "synopsis": "“Archipelago” apresenta, ao vivo, obras gravadas no álbum homónimo que foi lançado, em 2019, pela editora norte-americana Odradek. Disco vencedor dos Prémios Play 2019 para Melhor álbum de música clássica/erudita, obteve as melhores críticas nacionais e internacionais.…",
+    "image": {
+      "url": "https://www.teatroviriato.com/contents/galleryimage/c344b5539572c60b.webp",
+      "credit": "2026 Teatro Viriato Termos e condições Livro de reclamações Este site utiliza co",
+      "source": "https://www.teatroviriato.com/pt/programacao/espetaculo/archipelago",
+      "theater": "Teatro Viriato"
+    },
+    "source_url": "https://www.teatroviriato.com/pt/programacao/espetaculo/archipelago",
+    "ticket_url": "https://www.teatroviriato.com/pt/informacoes/bilheteira",
+    "price_info": "6€",
+    "price_min": 6.0,
+    "price_max": 6.0,
+    "duration": "60 min.",
+    "duration_min": 60,
+    "age_rating": "M/6",
+    "age_min": 6,
+    "sala": "Sala de Espetáculos “Archipelago” apresenta, ao vivo, obras",
+    "director": "Miquel Bernat Percussão Miquel Bernat, André Dias, Pedro Góis, João Tiago e Pedro Oliveira Som Suse Ribeiro Luz Emanuel Pereira",
+    "cast": [],
+    "technical_sheet": {
+      "música": "qui 21h00 60 min. Preços bilhetes 6€ // Descontos não aplicáveis LOCAL Sala de Espetáculos “Archipelago” apresenta, ao vivo, obras gravadas no álbum homónimo que foi lançado, em",
+      "direção": "Miquel Bernat Percussão Miquel Bernat, André Dias, Pedro Góis, João Tiago e Pedro Oliveira Som Suse Ribeiro Luz Emanuel Pereira",
+      "produção": "ARTWAY > Neste espetáculo será feito um registo fotográfico e/ou de vídeo (com/sem som) para fins de promoção do mesmo e de arquivo pelo Teatro Viriato. Se não pretende que a sua imagem seja captada,"
+    },
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "theater_id": "viriato",
+    "city": "Viseu",
+    "_meta": {
+      "completeness": 0.71
     }
   },
   {
@@ -2979,7 +3596,7 @@
     "age_min": 12,
     "duration": "90 min.",
     "duration_min": 90,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
@@ -3034,7 +3651,7 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3077,7 +3694,7 @@
     "age_min": 12,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3141,7 +3758,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Luis Miguel Cintra e sala Bernardo Sassetti",
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -3177,7 +3794,7 @@
       "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
       "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
@@ -3228,11 +3845,72 @@
     "age_min": 6,
     "price_min": 40.0,
     "price_max": 40.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
       "completeness": 0.66
+    }
+  },
+  {
+    "id": "viriato-f-rs",
+    "title": "FΛRSΛ",
+    "subtitle": "Direção artística Catarina Miranda — Coprodução Teatro Viriato",
+    "theater": "Teatro Viriato",
+    "category": "Dança",
+    "dates_label": "30 abr 2026",
+    "date_start": "2026-04-30",
+    "date_end": "2026-04-30",
+    "sessions": [
+      {
+        "date": "2026-04-30",
+        "time": "21:00",
+        "weekday": "Qui"
+      }
+    ],
+    "schedule": "21h00",
+    "synopsis": "Farsa significa ilusão, artifício, dismorfia. Errol Morris, realizador, diz que “enganar não exige linguagem, apenas desvio de atenção. É a intenção de levar alguém a acreditar em algo diferente daquilo que se sabe ser verdade.…",
+    "image": {
+      "url": "https://www.teatroviriato.com/contents/galleryimage/ce681b79f8e2df21.webp",
+      "credit": "2026 Teatro Viriato Termos e condições Livro de reclamações Este site utiliza co",
+      "source": "https://www.teatroviriato.com/pt/programacao/espetaculo/frs",
+      "theater": "Teatro Viriato"
+    },
+    "source_url": "https://www.teatroviriato.com/pt/programacao/espetaculo/frs",
+    "ticket_url": "https://www.teatroviriato.com/pt/informacoes/bilheteira",
+    "price_info": "10€",
+    "price_min": 10.0,
+    "price_max": 10.0,
+    "duration": "60 min.",
+    "duration_min": 60,
+    "age_rating": "M/12",
+    "age_min": 12,
+    "sala": "Sala de Espetáculos Descontos aplicáveis 50% Mecenas e Amigo",
+    "director": "de luz, som e matéria que, enquanto estuda ilusão e manipulação, reflete sobre como a desinformação molda a nossa ideia da verdade e da realidade. Basta mudar a perspetiva e o enquadramento e os facto",
+    "cast": [
+      "Ángela Diaz Quintela",
+      "Beatriz Valentim e Bruno Brandolino Cocriação Ángela Diaz Quintela",
+      "Beatriz Valentim",
+      "Bruno Brandolino",
+      "Carlos Azevedo Mesquita",
+      "Catarina Miranda",
+      "João Brojo",
+      "João Ferreira",
+      "Jona"
+    ],
+    "technical_sheet": {
+      "coreografia": "de luz, som e matéria que, enquanto estuda ilusão e manipulação, reflete sobre como a desinformação molda a nossa ideia da verdade e da realidade. Basta mudar a perspetiva e o enquadramento e os facto",
+      "interpretação": "Ángela Diaz Quintela, Beatriz Valentim e Bruno Brandolino Cocriação Ángela Diaz Quintela, Beatriz Valentim, Bruno Brandolino, Carlos Azevedo Mesquita, Catarina Miranda, João Brojo, João Ferreira, Jona",
+      "luz": "Joana Mário Assistência de luz Rita Conde Composição musical Jonathan Saldanha e Artiaga Mirada Conceção do espaço Carlos Azeredo Mesquita, Catarina Miranda, Joana Mário, João Brojo, João Ferreira, Sé",
+      "cenografia": "Júlio Alves e Hugo Flores",
+      "figurinos": "Catarina Miranda",
+      "produção": "RÁRA Gestão de"
+    },
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "theater_id": "viriato",
+    "city": "Viseu",
+    "_meta": {
+      "completeness": 0.77
     }
   },
   {
@@ -3290,7 +3968,7 @@
     "age_min": 14,
     "duration": "90 min.",
     "duration_min": 90,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
@@ -3327,7 +4005,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -3364,7 +4042,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -3401,11 +4079,74 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
       "completeness": 0.45
+    }
+  },
+  {
+    "id": "viriato-a-m-sica-d-trabalho",
+    "title": "A Música dá Trabalho",
+    "subtitle": "Um projeto de   CCER Mais / Omnichord",
+    "theater": "Teatro Viriato",
+    "category": "Outro",
+    "dates_label": "5 – 8 mai 2026",
+    "date_start": "2026-05-05",
+    "date_end": "2026-05-08",
+    "sessions": [
+      {
+        "date": "2026-05-05",
+        "time": "10:00",
+        "weekday": "Ter"
+      },
+      {
+        "date": "2026-05-06",
+        "time": "10:00",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-05-07",
+        "time": "10:00",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-05-08",
+        "time": "10:00",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "10h00",
+    "synopsis": "“A Música dá Trabalho” é um projeto da editora musical Omnichord, de Leiria, baseado no livro homónimo sobre 22 profissões do setor da música, escrito por Patrícia Martins e Hugo Ferreira, com ilustração de Diogo Monteiro (Tenório).…",
+    "image": {
+      "url": "https://www.teatroviriato.com/contents/galleryimage/33aa72cc90ca9f76.webp",
+      "credit": "2026 Teatro Viriato Termos e condições Livro de reclamações Este site utiliza co",
+      "source": "https://www.teatroviriato.com/pt/programacao/espetaculo/a-musica-da-trabalho",
+      "theater": "Teatro Viriato"
+    },
+    "source_url": "https://www.teatroviriato.com/pt/programacao/espetaculo/a-musica-da-trabalho",
+    "ticket_url": "https://www.teatroviriato.com/pt/informacoes/bilheteira",
+    "price_info": "",
+    "duration": "45 min.",
+    "duration_min": 45,
+    "age_rating": "",
+    "sala": "Escolas de Viseu “A Música dá Trabalho” é um projeto da edit",
+    "director": "",
+    "cast": [
+      "em palco. Ao início da tarde",
+      "toda a escola — e não apenas as turmas envolvidas nas oficinas — terá a oportunidade de assistir a um concerto",
+      "com a participação de músicos locais. As escolas interessa"
+    ],
+    "technical_sheet": {
+      "música": "dá Trabalho - Espetaculo - Programação - Teatro Viriato Conteudo Programação O Teatro Sobre nós Equipa CAEV Arquivo Mediação Instituições Educativas Visitas guiadas Residências Conexões Amigos Mecenat",
+      "interpretação": "em palco. Ao início da tarde, toda a escola — e não apenas as turmas envolvidas nas oficinas — terá a oportunidade de assistir a um concerto, com a participação de músicos locais. As escolas interessa"
+    },
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "theater_id": "viriato",
+    "city": "Viseu",
+    "_meta": {
+      "completeness": 0.59
     }
   },
   {
@@ -3450,7 +4191,7 @@
     "age_min": 12,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3542,7 +4283,7 @@
     "duration": "70 min",
     "duration_min": 70,
     "age_min": 14,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
     "_meta": {
@@ -3589,7 +4330,7 @@
       "direção": "Luís Vieira e Rute Ribeiro",
       "coprodução": "LU.CA – Teatro Luís de Camões, Teatro Nacional D. Maria II, Centro Cultural de Belém e São Luiz Teatro Municipal /// A Tarumba é uma estrutura financiada por República Portuguesa – Cultura / Direção-Geral das Artes"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -3675,7 +4416,7 @@
     "accessibility": [],
     "subtitle": "Bienal de Arte e Tecnologia",
     "date_end": "2026-05-17",
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3762,7 +4503,7 @@
     "subtitle": "Pedro Gossler",
     "date_end": "2026-05-17",
     "schedule": "14h30",
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3851,7 +4592,7 @@
     "subtitle": "Shuang Li",
     "date_end": "2026-05-17",
     "schedule": "14h30",
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3894,7 +4635,7 @@
     "age_min": 6,
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3935,7 +4676,7 @@
     "age_min": 6,
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3972,7 +4713,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -4013,7 +4754,7 @@
     "age_min": 6,
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -4050,7 +4791,7 @@
       "elenco": "Zarko, que atingiu o top nacional e se tornou single de ouro.",
       "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
@@ -4110,7 +4851,7 @@
     "age_min": 12,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -4158,7 +4899,7 @@
     "price_max": 20.0,
     "age_rating": "M/6",
     "age_min": 6,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
@@ -4194,11 +4935,117 @@
       "elenco": "João Vasco. Actualmente em itinerância, Sinédoque estreou em 2023 e foi apresentado em Portugal, Tunísia, Cabo Verde, Brasil, França e Angola. Avenida Frei Miguel Contreiras, 52, 1700-213, Lisboa Horário da Bilheteira Segunda – Sábado 17h30 às 21h30 Domingo — 15h30 às 18h30 *Horários em vigor em dia",
       "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.48
+    }
+  },
+  {
+    "id": "viriato-mudar",
+    "title": "MUDAR",
+    "subtitle": "Cocriação Filipe Raposo, Ana Ventura e Marco Paiva",
+    "theater": "Teatro Viriato",
+    "category": "Teatro",
+    "dates_label": "15, 16 mai 2026",
+    "date_start": "2026-05-15",
+    "date_end": "2026-05-16",
+    "sessions": [
+      {
+        "date": "2026-05-15",
+        "time": "10:30",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-05-16",
+        "time": "10:30",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "10h30",
+    "synopsis": "Quando decidimos mudar, o que acontece dentro de nós? E à nossa volta? Será que uma língua pode transformar um corpo? E de quantas línguas precisamos para criar um novo lugar?…",
+    "image": {
+      "url": "https://www.teatroviriato.com/contents/galleryimage/7246f23c98cc21fd.webp",
+      "credit": "João Versos Roldão > Neste espetáculo será feito um registo fotográfico e/ou de",
+      "source": "https://www.teatroviriato.com/pt/programacao/espetaculo/mudar",
+      "theater": "Teatro Viriato"
+    },
+    "source_url": "https://www.teatroviriato.com/pt/programacao/espetaculo/mudar",
+    "ticket_url": "https://www.teatroviriato.com/pt/informacoes/bilheteira",
+    "price_info": "2,50€",
+    "price_min": 2.5,
+    "price_max": 2.5,
+    "duration": "40 min.",
+    "duration_min": 40,
+    "age_rating": "M/6",
+    "age_min": 6,
+    "sala": "Sala de Espetáculos 40 min. SÁB 17h00 Preços bilhetes 10€ Pl",
+    "director": "e operação técnica Nuno Samora",
+    "cast": [
+      "Filipe Raposo",
+      "Vasco Seromenho e Elisabeth Davis Vídeoarte Mário Melo Costa Espaço cénico Mário Melo Costa",
+      "Filipe Raposo",
+      "Ana Ventura e Marco Paiva"
+    ],
+    "technical_sheet": {
+      "interpretação": "Filipe Raposo, Vasco Seromenho e Elisabeth Davis Vídeoarte Mário Melo Costa Espaço cénico Mário Melo Costa, Filipe Raposo, Ana Ventura e Marco Paiva",
+      "figurinos": "Ana Ventura",
+      "música": "Filipe Raposo",
+      "luz": "Nuno Samora",
+      "direção": "e operação técnica Nuno Samora",
+      "produção": "e"
+    },
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "theater_id": "viriato",
+    "city": "Viseu",
+    "_meta": {
+      "completeness": 0.77
+    }
+  },
+  {
+    "id": "viriato-da-cor-dos-sons",
+    "title": "Da cor dos sons",
+    "subtitle": "Orientação Filipe Raposo",
+    "theater": "Teatro Viriato",
+    "category": "Outro",
+    "dates_label": "15 mai 2026",
+    "date_start": "2026-05-15",
+    "date_end": "2026-05-15",
+    "sessions": [
+      {
+        "date": "2026-05-15",
+        "time": "18:30",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "18h30",
+    "synopsis": "Será que os sons constroem novos países? Partindo do universo sonoro da peça “MUDAR”, o músico Filipe Raposo orienta no nosso palco uma oficina de exploração sonora. Os participantes são desafiados a descobrir a cor dos sons, a forma como os rececionamos e o que podemos fazer com eles.…",
+    "image": {
+      "url": "https://www.teatroviriato.com/contents/galleryimage/943090c16edded35.webp",
+      "credit": "2026 Teatro Viriato Termos e condições Livro de reclamações Este site utiliza co",
+      "source": "https://www.teatroviriato.com/pt/programacao/espetaculo/da-cor-dos-sons",
+      "theater": "Teatro Viriato"
+    },
+    "source_url": "https://www.teatroviriato.com/pt/programacao/espetaculo/da-cor-dos-sons",
+    "ticket_url": "https://www.teatroviriato.com/pt/informacoes/bilheteira",
+    "price_info": "5€",
+    "price_min": 5.0,
+    "price_max": 5.0,
+    "duration": "",
+    "age_rating": "M/12",
+    "age_min": 12,
+    "sala": "Palco Será que os sons constroem novos países? Partindo do u",
+    "director": "",
+    "cast": [],
+    "technical_sheet": {
+      "música": "portuguesa. Ao longo do seu percurso, já trabalhou com nomes como Sérgio Godinho, José Mário Branco, Janita Salomé ou Amélia Muge. Informação adicional +12 Maiores de Partilhar Orientação Filipe Rapos"
+    },
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "theater_id": "viriato",
+    "city": "Viseu",
+    "_meta": {
+      "completeness": 0.62
     }
   },
   {
@@ -4245,11 +5092,100 @@
     "age_min": 3,
     "price_min": 2.5,
     "price_max": 2.5,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
       "completeness": 0.65
+    }
+  },
+  {
+    "id": "viriato-para-desarrumar-ideias",
+    "title": "Para desarrumar ideias",
+    "subtitle": "Orientação Marco Paiva",
+    "theater": "Teatro Viriato",
+    "category": "Outro",
+    "dates_label": "16 mai 2026",
+    "date_start": "2026-05-16",
+    "date_end": "2026-05-16",
+    "sessions": [
+      {
+        "date": "2026-05-16",
+        "time": "10:30",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "10h30",
+    "synopsis": "A construção de um espaço comum é uma ação em constante movimento. Observar, escutar, pôr em contacto, transformar e agir sobre esse espaço é uma rotina saudável que nos une a um bem comum. E se a estratégia formal desta ação é preciosa, a sua dimensão criativa e poética não é menos importante.…",
+    "image": {
+      "url": "https://www.teatroviriato.com/contents/galleryimage/f9a8ed9b28bf026d.webp",
+      "credit": "2026 Teatro Viriato Termos e condições Livro de reclamações Este site utiliza co",
+      "source": "https://www.teatroviriato.com/pt/programacao/espetaculo/para-desarrumar-ideias",
+      "theater": "Teatro Viriato"
+    },
+    "source_url": "https://www.teatroviriato.com/pt/programacao/espetaculo/para-desarrumar-ideias",
+    "ticket_url": "https://www.teatroviriato.com/pt/informacoes/bilheteira",
+    "price_info": "5€",
+    "price_min": 5.0,
+    "price_max": 5.0,
+    "duration": "",
+    "age_rating": "M/12",
+    "age_min": 12,
+    "sala": "Estúdio A construção de um espaço comum é uma ação em consta",
+    "director": "",
+    "cast": [],
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "theater_id": "viriato",
+    "city": "Viseu",
+    "_meta": {
+      "completeness": 0.6
+    }
+  },
+  {
+    "id": "viriato-eu-capit-o",
+    "title": "Eu Capitão",
+    "subtitle": "Filme apresentado no âmbito da iniciativa “Cinema de inspiração”",
+    "theater": "Teatro Viriato",
+    "category": "Outro",
+    "dates_label": "19 mai 2026",
+    "date_start": "2026-05-19",
+    "date_end": "2026-05-19",
+    "sessions": [
+      {
+        "date": "2026-05-19",
+        "time": "20:30",
+        "weekday": "Ter"
+      }
+    ],
+    "schedule": "20h30",
+    "synopsis": "Antes de apresentarmos a peça de teatro “Suplicantes”, sobre a tragédia atual de migrações forçadas por motivos funestos, mostramos no grande ecrã uma das histórias que inspirou Sara Barros Leitão para a sua criação.…",
+    "image": {
+      "url": "https://www.teatroviriato.com/contents/galleryimage/7678bfa33edc2467.webp",
+      "credit": "2026 Teatro Viriato Termos e condições Livro de reclamações Este site utiliza co",
+      "source": "https://www.teatroviriato.com/pt/programacao/espetaculo/eu-capitao",
+      "theater": "Teatro Viriato"
+    },
+    "source_url": "https://www.teatroviriato.com/pt/programacao/espetaculo/eu-capitao",
+    "ticket_url": "https://www.teatroviriato.com/pt/informacoes/bilheteira",
+    "price_info": "5€",
+    "price_min": 5.0,
+    "price_max": 5.0,
+    "duration": "150 min.",
+    "duration_min": 150,
+    "age_rating": "M/12",
+    "age_min": 12,
+    "sala": "Sala de Espetáculos Antes de apresentarmos a peça de teatro",
+    "director": "",
+    "cast": [],
+    "technical_sheet": {
+      "produção": "Archimede, Tarantula, Pathé Pictures, Logical Content Ventures, Rai Cinema, CANAL+, CINÉ+, RTBF, VOO-BE TV e Proximus Distribuição NOS Audiovisuais Esta exibição integra a programação da RTCP @ DR Cen"
+    },
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "theater_id": "viriato",
+    "city": "Viseu",
+    "_meta": {
+      "completeness": 0.67
     }
   },
   {
@@ -4282,7 +5218,7 @@
       "luz": "Pedro Leston Jr. 90 min. M/6 Inês de Vasconcellos apresenta o seu novo álbum Entre Ontem e Agora, num espetáculo que reflete cinco anos de percurso artístico e um momento de afirmação enquanto intérprete da",
       "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
@@ -4328,7 +5264,7 @@
     "duration_min": 55,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -4377,7 +5313,7 @@
       "coprodução": "Má-Criação, Fundação Caixa Geral de Depósitos- Culturgest, Planetário do Porto – Centro Ciência Viva / U. Porto"
     },
     "sala": "",
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "culturgest",
     "city": "Lisboa",
     "_meta": {
@@ -4424,11 +5360,67 @@
     "sala": "Sala Principal",
     "age_rating": "M/6",
     "age_min": 6,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
       "completeness": 0.52
+    }
+  },
+  {
+    "id": "viriato-suplicantes",
+    "title": "Suplicantes",
+    "subtitle": "Texto e encenação Sara Barros Leitão",
+    "theater": "Teatro Viriato",
+    "category": "Teatro",
+    "dates_label": "23 mai 2026",
+    "date_start": "2026-05-23",
+    "date_end": "2026-05-23",
+    "sessions": [
+      {
+        "date": "2026-05-23",
+        "time": "17:00",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "17h00",
+    "synopsis": "Na tragédia grega “As Suplicantes”, Ésquilo conta-nos a história de 50 irmãs que, obrigadas a casar com 50 primos contra a sua vontade, fogem do Egito de barco, atravessando o Mediterrâneo e desaguando na Grécia, onde pedem asilo.…",
+    "image": {
+      "url": "https://www.teatroviriato.com/contents/galleryimage/75230d37a7f2c671.webp",
+      "credit": "2026 Teatro Viriato Termos e condições Livro de reclamações Este site utiliza co",
+      "source": "https://www.teatroviriato.com/pt/programacao/espetaculo/suplicantes",
+      "theater": "Teatro Viriato"
+    },
+    "source_url": "https://www.teatroviriato.com/pt/programacao/espetaculo/suplicantes",
+    "ticket_url": "https://www.teatroviriato.com/pt/informacoes/bilheteira",
+    "price_info": "10€",
+    "price_min": 10.0,
+    "price_max": 10.0,
+    "duration": "75 min.",
+    "duration_min": 75,
+    "age_rating": "M/14",
+    "age_min": 14,
+    "sala": "Sala de Espetáculos Descontos aplicáveis 50% Mecenas e Amigo",
+    "director": "Sara Barros Leitão Assistência de",
+    "cast": [
+      "Lígia Roque",
+      "Ricardo Vaz Trindade e Sandro Feliciano Coordenação de pesquisa Elizabeth Challinor"
+    ],
+    "technical_sheet": {
+      "encenação": "Sara Barros Leitão Assistência de",
+      "produção": "Inês Sincero",
+      "interpretação": "Lígia Roque, Ricardo Vaz Trindade e Sandro Feliciano Coordenação de pesquisa Elizabeth Challinor",
+      "cenografia": "F. Ribeiro Construção da",
+      "figurinos": "Jordann Santos Assistência de",
+      "luz": "Nuno Meira Operação de luz Diogo Marques",
+      "som": "e",
+      "texto": "de estágio curricular) Lau Robert Comunicação Mariana Dixe Imagens de divulgação Diogo Marques Fotografias de cena Teresa Pacheco Miranda Design Marta Ramos"
+    },
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "theater_id": "viriato",
+    "city": "Viseu",
+    "_meta": {
+      "completeness": 0.81
     }
   },
   {
@@ -4461,7 +5453,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -4543,11 +5535,71 @@
       "luz": "Ângela Bismarck",
       "coprodução": "CCB/Fábrica das Artes Apoio Fundo Cultural da Sociedade Portuguesa de Autores Apoio à investigação Tribunal Constitucional Projeto criado no âmbito da parceria Centro Cultural de Belém/Fábrica das Artes e Assembleia da República. Imagem ©Assembleia da República Ilustração de Mantr"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.73
+    }
+  },
+  {
+    "id": "viriato-n-s-sozinhas",
+    "title": "Nós, Sozinhas",
+    "subtitle": "produção Cassandra",
+    "theater": "Teatro Viriato",
+    "category": "Outro",
+    "dates_label": "25 – 28 mai 2026",
+    "date_start": "2026-05-25",
+    "date_end": "2026-05-28",
+    "sessions": [
+      {
+        "date": "2026-05-25",
+        "time": "",
+        "weekday": "Seg"
+      },
+      {
+        "date": "2026-05-26",
+        "time": "",
+        "weekday": "Ter"
+      },
+      {
+        "date": "2026-05-27",
+        "time": "",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-05-28",
+        "time": "",
+        "weekday": "Qui"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "“Nós, Sozinhas” é uma apropriação livre de um verso de Maria Teresa Horta que dá título ao próximo espetáculo da estrutura artística Cassandra, escrito, dirigido e interpretado por Sara Barros Leitão.…",
+    "image": {
+      "url": "https://www.teatroviriato.com/contents/galleryimage/b24f9ad812aa2245.webp",
+      "credit": "2026 Teatro Viriato Termos e condições Livro de reclamações Este site utiliza co",
+      "source": "https://www.teatroviriato.com/pt/programacao/espetaculo/nos-sozinhas",
+      "theater": "Teatro Viriato"
+    },
+    "source_url": "https://www.teatroviriato.com/pt/programacao/espetaculo/nos-sozinhas",
+    "ticket_url": "https://www.teatroviriato.com/pt/informacoes/bilheteira",
+    "price_info": "",
+    "duration": "",
+    "age_rating": "",
+    "sala": "",
+    "director": "",
+    "cast": [
+      "Sara Barros Leitão"
+    ],
+    "technical_sheet": {
+      "interpretação": "Sara Barros Leitão",
+      "produção": "Cassandra Centro de Artes do Espectáculo de Viseu Viriato Teatro Municipal Largo Mouzinho de Albuquerque"
+    },
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "theater_id": "viriato",
+    "city": "Viseu",
+    "_meta": {
+      "completeness": 0.54
     }
   },
   {
@@ -4589,11 +5641,57 @@
     "price_max": 20.0,
     "age_rating": "M/6",
     "age_min": 6,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.68
+    }
+  },
+  {
+    "id": "viriato-volta-de-n-s-sozinhas",
+    "title": "À volta de “Nós, Sozinhas”",
+    "subtitle": "Com Sara Barros Leitão",
+    "theater": "Teatro Viriato",
+    "category": "Outro",
+    "dates_label": "27, 28 mai 2026",
+    "date_start": "2026-05-27",
+    "date_end": "2026-05-28",
+    "sessions": [
+      {
+        "date": "2026-05-27",
+        "time": "10:30",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-05-28",
+        "time": "10:30",
+        "weekday": "Qui"
+      }
+    ],
+    "schedule": "10h30",
+    "synopsis": "Em residência no Teatro Viriato para desenvolver uma nova criação, “Nós, Sozinhas”, Sara Barros Leitão abre o seu espaço de pesquisa ao público escolar e à comunidade em geral para uma série de conversas orientadas sobre o tema do projeto.…",
+    "image": {
+      "url": "https://www.teatroviriato.com/contents/galleryimage/ee9deda3c49fb726.webp",
+      "credit": "2026 Teatro Viriato Termos e condições Livro de reclamações Este site utiliza co",
+      "source": "https://www.teatroviriato.com/pt/programacao/espetaculo/a-volta-de-nos-sozinhas",
+      "theater": "Teatro Viriato"
+    },
+    "source_url": "https://www.teatroviriato.com/pt/programacao/espetaculo/a-volta-de-nos-sozinhas",
+    "ticket_url": "https://www.teatroviriato.com/pt/informacoes/bilheteira",
+    "price_info": "",
+    "duration": "",
+    "age_rating": "M/16",
+    "age_min": 16,
+    "sala": "Estúdio QUI 18h30 às 20h30 Público-alvo m/16 anos Lotação 20",
+    "director": "",
+    "cast": [],
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "theater_id": "viriato",
+    "city": "Viseu",
+    "_meta": {
+      "completeness": 0.55
     }
   },
   {
@@ -4626,7 +5724,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -4678,7 +5776,7 @@
     "duration": "50 min",
     "duration_min": 50,
     "age_min": 6,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
     "_meta": {
@@ -4730,7 +5828,7 @@
     "duration": "50 min",
     "duration_min": 50,
     "age_min": 6,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -4782,11 +5880,54 @@
       "luz": "Pedro Guimarães",
       "produção": "Xana Lagusi"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.69
+    }
+  },
+  {
+    "id": "viriato-only-duos",
+    "title": "Only Duos",
+    "subtitle": "Um programa da Companhia Nacional de Bailado",
+    "theater": "Teatro Viriato",
+    "category": "Dança",
+    "dates_label": "29 mai 2026",
+    "date_start": "2026-05-29",
+    "date_end": "2026-05-29",
+    "sessions": [
+      {
+        "date": "2026-05-29",
+        "time": "21:00",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "21h00",
+    "synopsis": "“Only Duos” é um programa da Companhia Nacional de Bailado (CNB) exclusivo para a circulação nacional, que celebra a força e a intimidade do encontro entre duas presenças em palco.…",
+    "image": {
+      "url": "https://www.teatroviriato.com/contents/galleryimage/6a7031c22f99a9c8.webp",
+      "credit": "2026 Teatro Viriato Termos e condições Livro de reclamações Este site utiliza co",
+      "source": "https://www.teatroviriato.com/pt/programacao/espetaculo/only-duos",
+      "theater": "Teatro Viriato"
+    },
+    "source_url": "https://www.teatroviriato.com/pt/programacao/espetaculo/only-duos",
+    "ticket_url": "https://www.teatroviriato.com/pt/informacoes/bilheteira",
+    "price_info": "15€",
+    "price_min": 15.0,
+    "price_max": 15.0,
+    "duration": "",
+    "age_rating": "M/6",
+    "age_min": 6,
+    "sala": "Sala de Espetáculos Descontos aplicáveis 50% Mecenas e Amigo",
+    "director": "",
+    "cast": [],
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "theater_id": "viriato",
+    "city": "Viseu",
+    "_meta": {
+      "completeness": 0.6
     }
   },
   {
@@ -4834,7 +5975,7 @@
     "sala": "Sala Principal",
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -4872,7 +6013,7 @@
     "tags": [],
     "accessibility": [],
     "subtitle": "António Brito Guterres e Maria Manuel Oliveira",
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -4916,7 +6057,7 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -4956,7 +6097,7 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -4993,7 +6134,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -5068,11 +6209,89 @@
     "duration_min": 35,
     "price_min": 3.0,
     "price_max": 3.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
       "completeness": 0.67
+    }
+  },
+  {
+    "id": "viriato-teatro-para-so-palavra-ambulante",
+    "title": "Teatro Paraíso - Palavra Ambulante",
+    "subtitle": "Texto e encenação José Rui Martins  Produção Trigo Limpo Teatro ACERT",
+    "theater": "Teatro Viriato",
+    "category": "Teatro",
+    "dates_label": "2 – 6 jun 2026",
+    "date_start": "2026-06-02",
+    "date_end": "2026-06-06",
+    "sessions": [
+      {
+        "date": "2026-06-02",
+        "time": "10:30",
+        "weekday": "Ter"
+      },
+      {
+        "date": "2026-06-03",
+        "time": "10:30",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-06-04",
+        "time": "10:30",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-06-05",
+        "time": "10:30",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-06-06",
+        "time": "10:30",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "10h30",
+    "synopsis": "Um avô doou em testamento a sua carrinha de cinema/biblioteca ambulante aos três netos para que continuem o seu legado. Os três, artistas desempregados, cumprem a vontade do avô, ainda que não saibam todos os segredos do ofício. Entre muitas peripécias, darão conta do recado? Que fazer?…",
+    "image": {
+      "url": "https://www.teatroviriato.com/contents/galleryimage/b6637507e4377b2e.webp",
+      "credit": "2026 Teatro Viriato Termos e condições Livro de reclamações Este site utiliza co",
+      "source": "https://www.teatroviriato.com/pt/programacao/espetaculo/teatro-paraiso-palavra-ambulante",
+      "theater": "Teatro Viriato"
+    },
+    "source_url": "https://www.teatroviriato.com/pt/programacao/espetaculo/teatro-paraiso-palavra-ambulante",
+    "ticket_url": "https://www.teatroviriato.com/pt/informacoes/bilheteira",
+    "price_info": "2,50€",
+    "price_min": 2.5,
+    "price_max": 2.5,
+    "duration": "55 min.",
+    "duration_min": 55,
+    "age_rating": "M/12",
+    "age_min": 12,
+    "sala": "Escolas de Viseu 70 min. sex e sáb 21h30 Público-alvo m/12 a",
+    "director": "José Rui Martins Colaborações dramatúrgicas João Maria André, José Saramago e Michel Séonnet",
+    "cast": [
+      "Afonso Cortêz",
+      "José Abrantes",
+      "Maria Ferreira e Mia Henriques"
+    ],
+    "technical_sheet": {
+      "encenação": "José Rui Martins Colaborações dramatúrgicas João Maria André, José Saramago e Michel Séonnet",
+      "interpretação": "Afonso Cortêz, José Abrantes, Maria Ferreira e Mia Henriques",
+      "cenografia": "e desenho gráfico Zétavares",
+      "música": "de cena Mia Henriques",
+      "figurinos": "Eva Pereira Adereços José Abrantes e Eva Pereira",
+      "direção": "técnica Luís Viegas",
+      "luz": "e som Luís Viegas, Paulo Neto e Ricardo Leão Operação técnica José Abrantes",
+      "fotografia": "Daniel Nunes Comunicação Daniel Nunes, Liliana Rodrigues, Zétavares e Romana Martins (assessoria de imprensa) Estudos de arquitetura João Rei Construção Citroen HY Food Trucks Factory Protótipo de ban",
+      "produção": "geral Marta Costa e José Abrantes Coordenação do projeto “Palavra Ambulante” José Rui Martins Cooperação Coletivo ACERT Parceria especial Fundação José Saramago"
+    },
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "theater_id": "viriato",
+    "city": "Viseu",
+    "_meta": {
+      "completeness": 0.83
     }
   },
   {
@@ -5108,7 +6327,7 @@
     "tags": [],
     "accessibility": [],
     "date_end": "2026-10-31",
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -5153,7 +6372,7 @@
     "age_min": 6,
     "price_min": 30.0,
     "price_max": 30.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -5200,7 +6419,7 @@
     "duration": "90 min",
     "duration_min": 90,
     "age_min": 351,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
     "_meta": {
@@ -5292,7 +6511,7 @@
       "produção": "André Camilo",
       "coprodução": "Camarote Produções e São Luiz Teatro Municipal"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -5343,7 +6562,7 @@
     "age_min": 6,
     "price_min": 2.5,
     "price_max": 2.5,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -5390,7 +6609,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -5429,7 +6648,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Luis Miguel Cintra",
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -5474,7 +6693,7 @@
     "age_min": 6,
     "price_min": 3.0,
     "price_max": 3.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -5520,7 +6739,7 @@
     "age_min": 6,
     "price_min": 2.5,
     "price_max": 2.5,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -5565,7 +6784,7 @@
       "produção": "Inês Pinto",
       "coprodução": "A Oficina/Centro Cultural Vila Flor , RTP – Rádio e Televisão de Portugal , Teatro Diogo Bernardes e Teatro das Figuras"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
     "_meta": {
@@ -5605,7 +6824,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Bernardo Sassetti",
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -5649,7 +6868,7 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -5688,7 +6907,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Luis Miguel Cintra",
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -5730,11 +6949,59 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
       "completeness": 0.45
+    }
+  },
+  {
+    "id": "viriato-flow-deriva",
+    "title": "Flow - à deriva",
+    "subtitle": "no âmbito do projeto “Pequeno Cinema”",
+    "theater": "Teatro Viriato",
+    "category": "Outro",
+    "dates_label": "13 jun 2026",
+    "date_start": "2026-06-13",
+    "date_end": "2026-06-13",
+    "sessions": [
+      {
+        "date": "2026-06-13",
+        "time": "16:00",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "16h00",
+    "synopsis": "O mundo parece estar à beira do fim, submerso por água que cobre quase todos os vestígios da presença humana. Um gato preto — por natureza, solitário — faz de um barco à deriva a sua nova casa, juntando alguns companheiros de viagem: uma capivara, um cão, um lémure e um pássaro-secretário.…",
+    "image": {
+      "url": "https://www.teatroviriato.com/contents/galleryimage/c50024d084a1980a.webp",
+      "credit": "2026 Teatro Viriato Termos e condições Livro de reclamações Este site utiliza co",
+      "source": "https://www.teatroviriato.com/pt/programacao/espetaculo/flow-a-deriva",
+      "theater": "Teatro Viriato"
+    },
+    "source_url": "https://www.teatroviriato.com/pt/programacao/espetaculo/flow-a-deriva",
+    "ticket_url": "https://www.teatroviriato.com/pt/informacoes/bilheteira",
+    "price_info": "5€",
+    "price_min": 5.0,
+    "price_max": 5.0,
+    "duration": "85 min.",
+    "duration_min": 85,
+    "age_rating": "M/6",
+    "age_min": 6,
+    "sala": "Sala de Espetáculos O mundo parece estar à beira do fim, sub",
+    "director": "de animação Léo Silly-Pélissier",
+    "cast": [],
+    "technical_sheet": {
+      "música": "Gints Zilbalodis e Rihards Zalupe",
+      "direção": "de animação Léo Silly-Pélissier",
+      "produção": "Matīss Kaža, Gints Zilbalodis, Ron Dyens e Gregory Zalcman Apresentação no âmbito do projeto \" Pequeno Cinema\" Parceria Cine Clube de Viseu Esta exibição integra a programação da RTCP @ DR Centro de A"
+    },
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "theater_id": "viriato",
+    "city": "Viseu",
+    "_meta": {
+      "completeness": 0.71
     }
   },
   {
@@ -5788,7 +7055,7 @@
     "age_min": 12,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -5830,11 +7097,71 @@
     "technical_sheet": {
       "direção": "Pedro Carneiro Violoncelo Vasco Ferrão Maestros assistentes Vasco Ferrão, Jorge Leiria"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.67
+    }
+  },
+  {
+    "id": "viriato-funny-funny-bones",
+    "title": "Funny Funny Bones",
+    "subtitle": "de Rui Paixão",
+    "theater": "Teatro Viriato",
+    "category": "Outro",
+    "dates_label": "15 – 19 jun 2026",
+    "date_start": "2026-06-15",
+    "date_end": "2026-06-19",
+    "sessions": [
+      {
+        "date": "2026-06-15",
+        "time": "",
+        "weekday": "Seg"
+      },
+      {
+        "date": "2026-06-16",
+        "time": "",
+        "weekday": "Ter"
+      },
+      {
+        "date": "2026-06-17",
+        "time": "",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-06-18",
+        "time": "",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-06-19",
+        "time": "",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Nesta residência, Rui Paixão encontra o espaço para criar o seu novo espetáculo a solo. “Funny Funny Bones” será uma performance que explora, de forma visceral e inovadora, a essência do riso e a vulnerabilidade humana.…",
+    "image": {
+      "url": "https://www.teatroviriato.com/contents/galleryimage/781276bf6ee12b40.webp",
+      "credit": "2026 Teatro Viriato Termos e condições Livro de reclamações Este site utiliza co",
+      "source": "https://www.teatroviriato.com/pt/programacao/espetaculo/funny-funny-bones",
+      "theater": "Teatro Viriato"
+    },
+    "source_url": "https://www.teatroviriato.com/pt/programacao/espetaculo/funny-funny-bones",
+    "ticket_url": "https://www.teatroviriato.com/pt/informacoes/bilheteira",
+    "price_info": "",
+    "duration": "",
+    "age_rating": "",
+    "sala": "",
+    "director": "",
+    "cast": [],
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "theater_id": "viriato",
+    "city": "Viseu",
+    "_meta": {
+      "completeness": 0.5
     }
   },
   {
@@ -5873,7 +7200,7 @@
     "cast": [],
     "price_min": 16.0,
     "price_max": 20.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
@@ -5968,7 +7295,7 @@
       "luz": "Leocádia Silva",
       "produção": "Alaíde Costa Assistente de"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
     "_meta": {
@@ -6005,7 +7332,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -6061,7 +7388,7 @@
       "direção_produção": "Maria João Garcia",
       "coprodução": "Fundação de Serralves/Serralves em Festa, Citemor, Festival End, Festival Paragem e São Luiz Teatro Municipal"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -6105,11 +7432,54 @@
     "age_min": 6,
     "price_min": 25.0,
     "price_max": 25.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
       "completeness": 0.64
+    }
+  },
+  {
+    "id": "viriato-eis-um-urso-agora-devem-faz-lo-rir",
+    "title": "Eis um urso. Agora devem fazê-lo rir!",
+    "subtitle": "Orientação Rui Paixão",
+    "theater": "Teatro Viriato",
+    "category": "Outro",
+    "dates_label": "20 jun 2026",
+    "date_start": "2026-06-20",
+    "date_end": "2026-06-20",
+    "sessions": [
+      {
+        "date": "2026-06-20",
+        "time": "15:00",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "15h00",
+    "synopsis": "Nesta oficina, Rui Paixão, em residência no Teatro Viriato, desafia os participantes a uma exploração intensiva sobre a improvisação e o ato de criação espontânea.…",
+    "image": {
+      "url": "https://www.teatroviriato.com/contents/galleryimage/b37ddf691e182e52.webp",
+      "credit": "2026 Teatro Viriato Termos e condições Livro de reclamações Este site utiliza co",
+      "source": "https://www.teatroviriato.com/pt/programacao/espetaculo/eis-um-urso-agora-devem-faze-lo-rir",
+      "theater": "Teatro Viriato"
+    },
+    "source_url": "https://www.teatroviriato.com/pt/programacao/espetaculo/eis-um-urso-agora-devem-faze-lo-rir",
+    "ticket_url": "https://www.teatroviriato.com/pt/informacoes/bilheteira",
+    "price_info": "5€",
+    "price_min": 5.0,
+    "price_max": 5.0,
+    "duration": "",
+    "age_rating": "M/14",
+    "age_min": 14,
+    "sala": "Estúdio Nesta oficina, Rui Paixão, em residência no Teatro V",
+    "director": "",
+    "cast": [],
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "theater_id": "viriato",
+    "city": "Viseu",
+    "_meta": {
+      "completeness": 0.6
     }
   },
   {
@@ -6196,11 +7566,66 @@
       "produção": "Razões Pessoais Residência artística Casa de Gigante",
       "coprodução": "Teatro das Figuras e São Luiz Teatro Municipal"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.77
+    }
+  },
+  {
+    "id": "viriato-o-caminho-do-c-u",
+    "title": "O caminho do céu",
+    "subtitle": "de Rita Cabaço",
+    "theater": "Teatro Viriato",
+    "category": "Outro",
+    "dates_label": "24 – 27 jun 2026",
+    "date_start": "2026-06-24",
+    "date_end": "2026-06-27",
+    "sessions": [
+      {
+        "date": "2026-06-24",
+        "time": "",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-06-25",
+        "time": "",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-06-26",
+        "time": "",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-06-27",
+        "time": "",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Depois de ter criado uma relação com a comunidade de Viseu em duas oficinas — em julho e novembro do ano passado — a atriz e criadora Rita Cabaço regressa ao Teatro Viriato para um último momento de partilha, troca de ideias e interação com os participantes neste projeto, que integrarão o elenco da …",
+    "image": {
+      "url": "https://www.teatroviriato.com/contents/galleryimage/768e1f8900abcf9d.webp",
+      "credit": "2026 Teatro Viriato Termos e condições Livro de reclamações Este site utiliza co",
+      "source": "https://www.teatroviriato.com/pt/programacao/espetaculo/o-caminho-do-ceu",
+      "theater": "Teatro Viriato"
+    },
+    "source_url": "https://www.teatroviriato.com/pt/programacao/espetaculo/o-caminho-do-ceu",
+    "ticket_url": "https://www.teatroviriato.com/pt/informacoes/bilheteira",
+    "price_info": "",
+    "duration": "",
+    "age_rating": "",
+    "sala": "",
+    "director": "",
+    "cast": [],
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "theater_id": "viriato",
+    "city": "Viseu",
+    "_meta": {
+      "completeness": 0.5
     }
   },
   {
@@ -6251,7 +7676,7 @@
       "produção": "Trypas-Corassão Associação Cultural",
       "coprodução": "Es Tr3s Irms é o projeto vencedor da 5ª edição da Bolsa Amélia Rey Colaço, uma iniciativa promovida pelo Teatro Nacional D. Maria II (Lisboa), A Oficina / Centro Cultural Vila Flor (Guimarães), O Espaço do Tempo (Montemor-o-Novo), e o Teatro Viriato (Viseu)."
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -6310,11 +7735,60 @@
       "coprodução": "Teatro Municipal do Porto – Rivoli / Campo Alegre A mala voadora é uma estrutura financiada pelo Governo de Portugal – Ministério da Cultura / Direção-Geral das Artes"
     },
     "sala": "Auditório Emílio Rui Vilar",
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "culturgest",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.85
+    }
+  },
+  {
+    "id": "viriato-domte",
+    "title": "Domte",
+    "subtitle": "Parceria Teatro Viriato e Trengo Festival de Circo do Porto",
+    "theater": "Teatro Viriato",
+    "category": "Circo",
+    "dates_label": "26 jun 2026",
+    "date_start": "2026-06-26",
+    "date_end": "2026-06-26",
+    "sessions": [
+      {
+        "date": "2026-06-26",
+        "time": "21:00",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "21h00",
+    "synopsis": "Com música ao vivo e inspirado num imaginário mitológico, “Domte”, da companhia catalã Nacho Flores, convida-nos a acompanhar a jornada de transformação do seu protagonista que, com a cumplicidade de quem assiste, cavalga a estrutura que se vai construindo, fazendo equilíbrios com um minotauro.…",
+    "image": {
+      "url": "https://www.teatroviriato.com/contents/galleryimage/b279a89aabfd7ca2.webp",
+      "credit": "2026 Teatro Viriato Termos e condições Livro de reclamações Este site utiliza co",
+      "source": "https://www.teatroviriato.com/pt/programacao/espetaculo/domte",
+      "theater": "Teatro Viriato"
+    },
+    "source_url": "https://www.teatroviriato.com/pt/programacao/espetaculo/domte",
+    "ticket_url": "https://www.teatroviriato.com/pt/informacoes/bilheteira",
+    "price_info": "10€",
+    "price_min": 10.0,
+    "price_max": 10.0,
+    "duration": "45 min.",
+    "duration_min": 45,
+    "age_rating": "",
+    "sala": "Sala de Espetáculos Descontos aplicáveis 50% Mecenas e Amigo",
+    "director": "à liberdade mais delirante, o que começa como um jogo de submissão transforma-se numa celebração da cooperação, revelando, com humor e beleza, a força do coletivo frente ao poder individual. Uma exper",
+    "cast": [],
+    "technical_sheet": {
+      "música": "ao vivo e inspirado num imaginário mitológico, “Domte”, da companhia catalã Nacho Flores, convida-nos a acompanhar a jornada de transformação do seu protagonista que, com a cumplicidade de quem assist",
+      "direção": "à liberdade mais delirante, o que começa como um jogo de submissão transforma-se numa celebração da cooperação, revelando, com humor e beleza, a força do coletivo frente ao poder individual. Uma exper",
+      "produção": "Quim Aragó",
+      "cenografia": "Uli Weigel, Jeremias Fanjul Dominguez e Jaume Valls",
+      "figurinos": "Maite Martín Design gráfico Carla Aledo @ Mostra Arts Santa Eugènia Centro de Artes do Espectáculo de Viseu Viriato Teatro Municipal Largo Mouzinho de Albuquerque"
+    },
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "theater_id": "viriato",
+    "city": "Viseu",
+    "_meta": {
+      "completeness": 0.7
     }
   },
   {
@@ -6350,7 +7824,7 @@
     "subtitle": "Com Pedro Melo Alves",
     "duration": "90 min.",
     "duration_min": 90,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6395,7 +7869,7 @@
     "age_min": 6,
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6441,7 +7915,7 @@
       "produção": "Henrique Mariano",
       "coprodução": "Centro Cultural de Belém (Lisboa-Portugal), Holland Festival (Amsterdão), Festival d’Avignon (França), Edinburgh International Festival (Escócia) e DeSingel (Bélgica) Apoio UCLA’s Center for the Art of Performance e Instituto Guimarães Rosa — IGR — Ministério das Relações Exteriores do Brasi"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
     "_meta": {
@@ -6483,7 +7957,7 @@
     "duration": "150 min",
     "duration_min": 150,
     "age_min": 6,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -6537,7 +8011,7 @@
       "produção": "e Cena TdE Sílvia Moura",
       "texto": "de Ricardo Neves-Neves, o enredo é muito mais dramático, as causas mais profundas, as personagens uns canalhas desprezíveis, e o final trará o espanto. Querem ser cúmplices deste crime? Avenida Frei Miguel Contreiras, 52, 1700-213, Lisboa Horário da Bilheteira Segunda – Sábado 17h30 às 21h30 Domingo"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
@@ -6584,11 +8058,53 @@
       "interpretação": "João Reis, Margarida Carvalho, Daniel Silva, Joana Africano",
       "coprodução": "Centro Cultural de Belém, Casa das Artes de Vila Nova de Famalicão, Teatro Nacional São João"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.68
+    }
+  },
+  {
+    "id": "viriato-tarde-fora",
+    "title": "Tarde Fora",
+    "subtitle": "Com Inês Barahona e Sónia Barbosa e participantes no Laboratório de Escrita",
+    "theater": "Teatro Viriato",
+    "category": "Outro",
+    "dates_label": "11 jul 2026",
+    "date_start": "2026-07-11",
+    "date_end": "2026-07-11",
+    "sessions": [
+      {
+        "date": "2026-07-11",
+        "time": "16:30",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "16h30",
+    "synopsis": "Depois de uma semana em criação intensiva com Sónia Barbosa, Inês Barahona e dramaturgos convidados, no âmbito do Laboratório de escrita teatral do “Noite Fora”, os participantes do projeto apresentam ao público o resultado destes dias em formação.…",
+    "image": {
+      "url": "https://www.teatroviriato.com/contents/galleryimage/0eb0ed6ef3094999.webp",
+      "credit": "2026 Teatro Viriato Termos e condições Livro de reclamações Este site utiliza co",
+      "source": "https://www.teatroviriato.com/pt/programacao/espetaculo/tarde-fora-282",
+      "theater": "Teatro Viriato"
+    },
+    "source_url": "https://www.teatroviriato.com/pt/programacao/espetaculo/tarde-fora-282",
+    "ticket_url": "https://www.teatroviriato.com/pt/informacoes/bilheteira",
+    "price_info": "",
+    "duration": "",
+    "age_rating": "",
+    "sala": "Estúdio Depois de uma semana em criação intensiva com Sónia",
+    "director": "",
+    "cast": [],
+    "technical_sheet": {
+      "dramaturgia": "Preços bilhetes Entrada gratuita (mediante reserva de bilhete através de: bilheteira@teatroviriato.com ou 927 412 671) LOCAL Estúdio Depois de uma semana em criação intensiva com Sónia Barbosa, Inês B"
+    },
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "theater_id": "viriato",
+    "city": "Viseu",
+    "_meta": {
+      "completeness": 0.52
     }
   },
   {
@@ -6630,7 +8146,7 @@
     "age_min": 3,
     "price_min": 1.5,
     "price_max": 1.5,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6675,7 +8191,7 @@
     "duration": "120 min",
     "duration_min": 120,
     "age_min": 16,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -6734,11 +8250,62 @@
     "duration_min": 1,
     "age_rating": "A classificar pela CCE",
     "sala": "Sala Mário Viegas",
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.65
+    }
+  },
+  {
+    "id": "viriato-concerto-final-do-18-workshop-de-jazz-de-viseu",
+    "title": "Concerto Final do 18.º Workshop de Jazz de Viseu",
+    "subtitle": "Parceria Teatro Viriato e Que Jazz é Este?",
+    "theater": "Teatro Viriato",
+    "category": "Música",
+    "dates_label": "17 jul 2026",
+    "date_start": "2026-07-17",
+    "date_end": "2026-07-17",
+    "sessions": [
+      {
+        "date": "2026-07-17",
+        "time": "16:00",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "16h00",
+    "synopsis": "Ao longo de três dias de trabalho intenso, sob a orientação dos músicos Rita Maria e Nuno Costa, os participantes do 18.º Workshop de Jazz de Viseu — alunos dos Conservatórios de Música de Coimbra, Porto, Santa Comba Dão e Seia, entre outros — cruzam ideias, inspirações e procuram encontrar resposta…",
+    "image": {
+      "url": "https://www.teatroviriato.com/contents/galleryimage/0822830b8e982c71.webp",
+      "credit": "2026 Teatro Viriato Termos e condições Livro de reclamações Este site utiliza co",
+      "source": "https://www.teatroviriato.com/pt/programacao/espetaculo/concerto-final-do-18-workshop-de-jazz-de-viseu",
+      "theater": "Teatro Viriato"
+    },
+    "source_url": "https://www.teatroviriato.com/pt/programacao/espetaculo/concerto-final-do-18-workshop-de-jazz-de-viseu",
+    "ticket_url": "https://www.teatroviriato.com/pt/informacoes/bilheteira",
+    "price_info": "2.50€",
+    "price_min": 2.5,
+    "price_max": 2.5,
+    "duration": "45 min.",
+    "duration_min": 45,
+    "age_rating": "M/6",
+    "age_min": 6,
+    "sala": "Sala de Espetáculos Ao longo de três dias de trabalho intens",
+    "director": "",
+    "cast": [
+      "de conjunto",
+      "na construção de arranjos e na improvisação. Este concerto realiza-se no âmbito da parceria entre o Teatro Viriato e o Que Jazz é Este? – Festival de Jazz de Viseu",
+      "organizado pela associ"
+    ],
+    "technical_sheet": {
+      "música": "SEX 16h00 45 min. aprox. Preços bilhetes 2.50€ // Descontos não aplicáveis LOCAL Sala de Espetáculos Ao longo de três dias de trabalho intenso, sob a orientação dos músicos Rita Maria e Nuno Costa, os",
+      "interpretação": "de conjunto, na construção de arranjos e na improvisação. Este concerto realiza-se no âmbito da parceria entre o Teatro Viriato e o Que Jazz é Este? – Festival de Jazz de Viseu, organizado pela associ"
+    },
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "theater_id": "viriato",
+    "city": "Viseu",
+    "_meta": {
+      "completeness": 0.69
     }
   },
   {
@@ -6806,7 +8373,7 @@
     "tags": [],
     "accessibility": [],
     "date_end": "2026-07-25",
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6868,7 +8435,7 @@
     "duration": "90 min",
     "duration_min": 90,
     "age_min": 351,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -6920,7 +8487,7 @@
     "age_min": 12,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6967,7 +8534,7 @@
     "sala": "Pequeno Auditório",
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -7010,7 +8577,7 @@
     "age_min": 12,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -7053,7 +8620,7 @@
     "age_min": 12,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -7096,7 +8663,7 @@
     "age_min": 12,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -7143,7 +8710,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -7187,7 +8754,7 @@
     "age_min": 12,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -7230,7 +8797,7 @@
     "age_min": 16,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -7277,7 +8844,7 @@
     "duration": "105 min",
     "duration_min": 105,
     "age_min": 351,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -7310,7 +8877,7 @@
     "age_rating": "M1770",
     "age_min": 1770,
     "sala": "Vários espaços do Teatro",
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -7346,7 +8913,7 @@
     "duration": "14h30",
     "duration_min": 870,
     "age_min": 351,
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
     "_meta": {
@@ -7380,7 +8947,7 @@
       "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
       "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
@@ -7419,7 +8986,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Luis Miguel Cintra",
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -7458,7 +9025,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Luis Miguel Cintra",
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -7493,7 +9060,7 @@
       "elenco": "The Mo You Know , em 2026.",
       "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
@@ -7527,7 +9094,7 @@
     "age_rating": "M1770",
     "age_min": 1770,
     "sala": "Sala Bernardo Sassetti",
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -7567,7 +9134,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Bernardo Sassetti",
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -7612,7 +9179,7 @@
     "technical_sheet": {
       "produção": "São Luiz Teatro Municipal"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -7649,7 +9216,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -7693,7 +9260,7 @@
       "autor": "Suzie Miller é uma dramaturga e argumentista contemporânea, vencedora de diversos prémios internacionais. Gosta de histórias humanas complexas que frequentemente versam a injustiça. Trabalha em Londres, no Reino Unido, e em Sydney, na Austrália, mas a sua obra tem sido apresentada em todo o mundo. T",
       "dramaturgia": "no National Institute of Dramatic Art , na Austrália. Play Avenida Frei Miguel Contreiras, 52, 1700-213, Lisboa Horário da Bilheteira Segunda – Sábado 17h30 às 21h30 Domingo — 15h30 às 18h30 *Horários em vigor em dias de espectáculo. Horário sujeito a alterações. Reservas e informações de bilheteira"
     },
-    "scraped_at": "2026-03-20T23:46:22.419663+00:00",
+    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
