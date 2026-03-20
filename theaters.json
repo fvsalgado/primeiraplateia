@@ -281,6 +281,28 @@
       ],
       "description": "O Teatro Académico Gil Vicente (TAGV) é o principal espaço de artes performativas de Coimbra, gerido pela Universidade de Coimbra. Apresenta programação regular de teatro, dança, performance, música, cinema e outras formas artísticas.",
       "_overrides": []
+    },
+    {
+      "id": "cine-teatro-avenida",
+      "name": "Cine-Teatro Avenida",
+      "short": "C.T. Avenida",
+      "color": "#8B1A1A",
+      "city": "Castelo Branco",
+      "address": "Av. General Humberto Delgado, 6000-081 Castelo Branco",
+      "site": "https://www.ticketline.pt/salas/sala/139",
+      "programacao": "https://www.ticketline.pt/salas/sala/139",
+      "lat": 39.8237,
+      "lng": -7.4906,
+      "salas": [
+        "Grande Sala"
+      ],
+      "aliases": [
+        "cine-teatro avenida",
+        "cine teatro avenida",
+        "cine-teatro avenida castelo branco"
+      ],
+      "description": "O Cine-Teatro Avenida é o principal equipamento cultural de Castelo Branco, acolhendo espectáculos de teatro, dança, música e cinema. A sua programação é disponibilizada através da plataforma Ticketline.",
+      "_overrides": []
     }
   ]
 }
