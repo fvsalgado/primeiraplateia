@@ -234,7 +234,7 @@
       "city": "Lisboa",
       "address": "Rua Nova da Trindade, 9, 1200-301 Lisboa",
       "site": "https://teatrotrindade.inatel.pt",
-      "programacao": "https://teatrotrindade.inatel.pt/programacao/teatro",
+      "programacao": "https://teatrotrindade.inatel.pt/programacao/",
       "lat": 38.7107,
       "lng": -9.1414,
       "salas": [
@@ -248,7 +248,10 @@
         "trindade inatel"
       ],
       "description": "O Teatro da Trindade INATEL, inaugurado em 1867, é um dos mais emblemáticos teatros de Lisboa. A sua Sala Carmen Dolores é um dos mais bem preservados exemplares de teatro à italiana do país, com capacidade para 485 espectadores.",
-      "_overrides": []
+      "_overrides": [],
+      "logo_url": "https://teatrotrindade.inatel.pt/wp-content/themes/teatrodatrindade/assets/img/logo.svg",
+      "favicon_url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2020/03/cropped-fav-tt-192x192.png",
+      "facade_url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2020/03/fav-01.png"
     },
     {
       "id": "teatrodasfiguras",
