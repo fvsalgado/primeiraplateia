@@ -5,7 +5,7 @@
       "name": "CCB — Centro Cultural de Belém",
       "short": "CCB",
       "color": "#00695c",
-      "description": "O Centro Cultural de Belém é um dos maiores centros culturais de Portugal. Inaugurado em 1992, acolhe espetáculos de teatro, música, dança e ópera nas suas várias salas, incluindo o Grande Auditório, o Pequeno Auditório e a Black Box.",
+      "description": "O Centro Cultural de Belém é um dos maiores centros culturais de Portugal. Inaugurado em 1992, acolhe espetáculos de teatro, música, dança e ópera nas suas várias salas.",
       "address": "Praça do Império, 1449-003 Lisboa",
       "city": "Lisboa",
       "site": "https://www.ccb.pt",
@@ -22,8 +22,7 @@
         "centro cultural de belém",
         "centro cultural belem",
         "c.c.b.",
-        "ccb belém",
-        "ccb belem"
+        "ccb belém"
       ]
     },
     {
@@ -31,7 +30,7 @@
       "name": "São Luiz Teatro Municipal",
       "short": "São Luiz",
       "color": "#1a73e8",
-      "description": "O São Luiz Teatro Municipal é um dos mais emblemáticos teatros de Lisboa, com uma programação diversa de teatro, dança e performance. Situado no Chiado, é referência da vida cultural da cidade.",
+      "description": "O São Luiz Teatro Municipal é um dos mais emblemáticos teatros de Lisboa, com programação diversa de teatro, dança e performance. Situado no Chiado.",
       "address": "Rua António Maria Cardoso, 38, 1200-027 Lisboa",
       "city": "Lisboa",
       "site": "https://www.teatrosaoluiz.pt",
@@ -47,8 +46,6 @@
         "sao luiz",
         "teatro são luiz",
         "teatro municipal são luiz",
-        "teatro municipal sao luiz",
-        "sl teatro",
         "saoluiz"
       ]
     },
@@ -57,7 +54,7 @@
       "name": "Teatro Maria Matos",
       "short": "Maria Matos",
       "color": "#e65100",
-      "description": "O Teatro Maria Matos é um espaço de referência para as artes performativas contemporâneas em Lisboa, com uma programação inovadora de teatro, dança, música e performance.",
+      "description": "O Teatro Maria Matos é um espaço de referência para as artes performativas contemporâneas em Lisboa, com programação inovadora de teatro, dança, música e performance.",
       "address": "Avenida Frei Miguel Contreiras, 52, 1700-213 Lisboa",
       "city": "Lisboa",
       "site": "https://teatromariamatos.pt",
@@ -79,25 +76,21 @@
       "name": "Culturgest",
       "short": "Culturgest",
       "color": "#6d4c97",
-      "description": "A Culturgest — Fundação Caixa Geral de Depósitos dedica-se à criação contemporânea, com programação regular de teatro, dança, música, artes visuais e cinema em Lisboa e Porto.",
+      "description": "A Culturgest — Fundação Caixa Geral de Depósitos dedica-se à criação contemporânea, com programação regular de teatro, dança, música e artes visuais em Lisboa e Porto.",
       "address": "Rua Arco do Cego, 50, 1000-020 Lisboa",
       "city": "Lisboa",
       "site": "https://www.culturgest.pt",
-      "programacao": "https://www.culturgest.pt/pt/programacao/por-evento/?typology=1",
-      "lat": 38.7318,
-      "lng": -9.1397,
+      "programacao": "https://www.culturgest.pt/pt/programacao/",
+      "lat": 38.7316,
+      "lng": -9.1387,
       "salas": [
-        "Auditório Emílio Rui Vilar",
-        "Pequeno Auditório",
-        "Galeria 1",
-        "Galeria 2"
+        "Grande Auditório",
+        "Pequeno Auditório"
       ],
       "aliases": [
         "culturgest",
-        "culturgest lisboa",
         "fundação caixa geral de depósitos",
-        "fundacao caixa geral de depositos",
-        "fcgd"
+        "cgd culturgest"
       ]
     },
     {
