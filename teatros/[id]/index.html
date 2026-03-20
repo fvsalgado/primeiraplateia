@@ -13,14 +13,14 @@
 <meta property="og:url" id="og-url" content="https://www.primeiraplateia.pt/teatros/"/>
 <meta property="og:type" content="website"/>
 <meta property="og:locale" content="pt_PT"/>
-<link rel="manifest" href="/manifest.webmanifest"/>
-<link rel="apple-touch-icon" href="/icons/icon-192.png"/>
+<link rel="manifest" href="../../manifest.webmanifest"/>
+<link rel="apple-touch-icon" href="../../icons/icon-192.png"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link rel="preconnect" href="https://tile.openstreetmap.org"/>
-<link rel="stylesheet" href="/fonts/fonts.css"/>
-<link rel="stylesheet" href="/design/tokens.css"/>
-<link rel="stylesheet" href="/design/base.css"/>
+<link rel="stylesheet" href="../../fonts/fonts.css"/>
+<link rel="stylesheet" href="../../design/tokens.css"/>
+<link rel="stylesheet" href="../../design/base.css"/>
 <script>(function(){var s=localStorage.getItem('pp-theme');var sys=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',s||sys);})();</script>
 
 <!-- JSON-LD injectado via JS -->
@@ -376,16 +376,16 @@
 
 <!-- ── NAVEGAÇÃO ─────────────────────────────────────────────── -->
 <nav class="nav" role="navigation" aria-label="Navegação principal">
-  <a class="nav-brand" href="/" aria-label="Primeira Plateia — página inicial">
+  <a class="nav-brand" href="../../" aria-label="Primeira Plateia — página inicial">
     <span class="nav-brand-primeira">Primeira</span>
     <span class="nav-brand-plateia">Plateia</span>
   </a>
   <div class="nav-right">
     <ul class="nav-links" id="nav-menu" role="list">
-      <li><a href="/programacao/">Programação</a></li>
-      <li><a href="/calendario/">Calendário</a></li>
-      <li><a href="/teatros/" aria-current="page">Teatros</a></li>
-      <li><a href="/sobre/">Sobre</a></li>
+      <li><a href="../../programacao/">Programação</a></li>
+      <li><a href="../../calendario/">Calendário</a></li>
+      <li><a href="../../teatros/" aria-current="page">Teatros</a></li>
+      <li><a href="../../sobre/">Sobre</a></li>
     </ul>
     <button class="theme-btn" id="theme-toggle" aria-label="Mudar para modo escuro" data-tip="Modo escuro">
       <span class="i-moon" aria-hidden="true">🌙</span>
@@ -402,9 +402,9 @@
     <div class="theater-hero-inner">
       <div>
         <nav class="breadcrumb" aria-label="Localização na página">
-          <a href="/">Início</a>
+          <a href="../../">Início</a>
           <span class="breadcrumb-sep" aria-hidden="true">›</span>
-          <a href="/teatros/">Teatros</a>
+          <a href="../../teatros/">Teatros</a>
           <span class="breadcrumb-sep" aria-hidden="true">›</span>
           <span id="breadcrumb-name" aria-current="page">…</span>
         </nav>
@@ -431,7 +431,7 @@
 
       <div class="theater-prog-header">
         <h2 id="prog-heading">Em <em>cartaz</em></h2>
-        <a href="/programacao/" class="btn btn-outline btn-sm" id="prog-all-link">
+        <a href="../../programacao/" class="btn btn-outline btn-sm" id="prog-all-link">
           Ver toda a programação →
         </a>
       </div>
@@ -442,7 +442,7 @@
         <div class="state-empty-icon" aria-hidden="true">🎭</div>
         <h3 class="state-empty-title">Sem espectáculos actuais</h3>
         <p class="state-empty-text">Não há espectáculos em cartaz neste teatro neste momento. Consulta a programação completa.</p>
-        <a href="/programacao/" class="btn btn-outline">Ver programação completa</a>
+        <a href="../../programacao/" class="btn btn-outline">Ver programação completa</a>
       </div>
 
       <div class="state-empty" id="state-error" hidden>
@@ -483,24 +483,24 @@
     <div>
       <p class="footer-col-title">Explorar</p>
       <nav class="footer-col-links" aria-label="Explorar">
-        <a href="/programacao/">Programação</a>
-        <a href="/calendario/">Calendário</a>
-        <a href="/teatros/">Teatros</a>
+        <a href="../../programacao/">Programação</a>
+        <a href="../../calendario/">Calendário</a>
+        <a href="../../teatros/">Teatros</a>
       </nav>
     </div>
     <div>
       <p class="footer-col-title">Sobre</p>
       <nav class="footer-col-links" aria-label="Sobre">
-        <a href="/sobre/">O projecto</a>
+        <a href="../../sobre/">O projecto</a>
         <a href="mailto:fabio@primeiraplateia.pt">Contacto</a>
       </nav>
     </div>
     <div>
       <p class="footer-col-title">Legal</p>
       <nav class="footer-col-links" aria-label="Legal">
-        <a href="/privacidade/">Privacidade</a>
-        <a href="/aviso-legal/">Aviso legal</a>
-        <a href="/acessibilidade/">Acessibilidade</a>
+        <a href="../../privacidade/">Privacidade</a>
+        <a href="../../aviso-legal/">Aviso legal</a>
+        <a href="../../acessibilidade/">Acessibilidade</a>
       </nav>
     </div>
   </div>
@@ -584,7 +584,7 @@
   /* ── Carregar teatro ────────────────────────────────────── */
   async function loadTheater() {
     try {
-      const tr = await fetch('/theaters.json');
+      const tr = await fetch('../../theaters.json');
       if (!tr.ok) throw new Error();
       const theaters = await tr.json();
       const theater = theaters.find(t => t.id === theaterId);
@@ -724,20 +724,20 @@
 
       // 1. Tentar data/by-theater/[id].json (dados completos)
       try {
-        const r = await fetch(`/data/by-theater/${theaterId}.json`);
+        const r = await fetch(`../../data/by-theater/${theaterId}.json`);
         if (r.ok) { events = await r.json(); }
         else throw new Error();
       } catch (_) {
         // 2. Fallback: filtrar events.slim.json
         try {
-          const r2 = await fetch('/data/events.slim.json');
+          const r2 = await fetch('../../data/events.slim.json');
           if (r2.ok) {
             const all = await r2.json();
             events = all.filter(e => e.theater_id === theaterId);
           } else throw new Error();
         } catch (_2) {
           // 3. Último recurso: events.json na raiz
-          const r3 = await fetch('/events.json');
+          const r3 = await fetch('../../events.json');
           if (!r3.ok) throw new Error('Sem dados');
           const all = await r3.json();
           events = all.filter(e => e.theater_id === theaterId || e.theater === theater.name);
@@ -778,7 +778,7 @@
 
         return `
           <article class="ev-card" role="listitem">
-            <a href="/espetaculo/?id=${esc(ev.id)}" aria-label="${esc(ev.title)}">
+            <a href="../../espetaculo/?id=${esc(ev.id)}" aria-label="${esc(ev.title)}">
               <div class="ev-card-img">
                 ${ev.image_url || (ev.image && ev.image.url)
                   ? `<img src="${esc(ev.image_url || ev.image.url)}" alt="" loading="lazy" decoding="async"/>`
@@ -810,7 +810,7 @@
   loadTheater();
 
   // Meta footer
-  fetch('/data/meta.json').then(r => r.ok ? r.json() : null).then(m => {
+  fetch('../../data/meta.json').then(r => r.ok ? r.json() : null).then(m => {
     if (!m) return;
     const fu = document.getElementById('footer-updated');
     if (fu) fu.textContent = `Actualizado ${formatRelative(m.updated_at)}`;
@@ -819,11 +819,4 @@
   function formatRelative(iso) {
     const diff = Math.floor((Date.now() - new Date(iso)) / 3600000);
     if (diff < 1) return 'há menos de 1h';
-    if (diff < 24) return `há ${diff}h`;
-    return `há ${Math.floor(diff/24)} dia${Math.floor(diff/24)!==1?'s':''}`;
-  }
-
-})();
-</script>
-</body>
-</html>
+  

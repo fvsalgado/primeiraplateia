@@ -7,13 +7,13 @@
 <meta name="description" content="Esta página não existe. Mas há espectáculos acontecer por todo o Portugal."/>
 <meta name="theme-color" content="#1B2B4B"/>
 <meta name="robots" content="noindex, nofollow"/>
-<link rel="manifest" href="/manifest.webmanifest"/>
-<link rel="apple-touch-icon" href="/icons/icon-192.png"/>
+<link rel="manifest" href="manifest.webmanifest"/>
+<link rel="apple-touch-icon" href="icons/icon-192.png"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link rel="stylesheet" href="/fonts/fonts.css"/>
-<link rel="stylesheet" href="/design/tokens.css"/>
-<link rel="stylesheet" href="/design/base.css"/>
+<link rel="stylesheet" href="fonts/fonts.css"/>
+<link rel="stylesheet" href="design/tokens.css"/>
+<link rel="stylesheet" href="design/base.css"/>
 <script>(function(){var s=localStorage.getItem('pp-theme');var sys=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',s||sys);})();</script>
 
 <style>
@@ -313,16 +313,16 @@
 <a class="skip-link" href="#main-content">Saltar para o conteúdo principal</a>
 
 <nav class="nav" role="navigation" aria-label="Navegação principal">
-  <a class="nav-brand" href="/" aria-label="Primeira Plateia — página inicial">
+  <a class="nav-brand" href="./" aria-label="Primeira Plateia — página inicial">
     <span class="nav-brand-primeira">Primeira</span>
     <span class="nav-brand-plateia">Plateia</span>
   </a>
   <div class="nav-right">
     <ul class="nav-links" id="nav-menu" role="list">
-      <li><a href="/programacao/">Programação</a></li>
-      <li><a href="/calendario/">Calendário</a></li>
-      <li><a href="/teatros/">Teatros</a></li>
-      <li><a href="/sobre/">Sobre</a></li>
+      <li><a href="programacao/">Programação</a></li>
+      <li><a href="calendario/">Calendário</a></li>
+      <li><a href="teatros/">Teatros</a></li>
+      <li><a href="sobre/">Sobre</a></li>
     </ul>
     <button class="theme-btn" id="theme-toggle" aria-label="Mudar para modo escuro" data-tip="Modo escuro">
       <span class="i-moon" aria-hidden="true">🌙</span>
@@ -380,7 +380,7 @@
     <!-- Espectáculo aleatório -->
     <div class="random-section" id="random-section" hidden>
       <span class="random-label">🎲 Espectáculo aleatório para esta noite</span>
-      <a class="random-event" id="random-event-link" href="/programacao/">
+      <a class="random-event" id="random-event-link" href="programacao/">
         <div class="random-event-img" id="random-event-img">
           <div class="random-event-placeholder" aria-hidden="true">🎭</div>
         </div>
@@ -394,10 +394,10 @@
 
     <!-- Acções -->
     <div class="actions-404">
-      <a href="/" class="btn btn-primary btn-lg">
+      <a href="./" class="btn btn-primary btn-lg">
         <span aria-hidden="true">🏠</span> Página inicial
       </a>
-      <a href="/programacao/" class="btn btn-outline btn-lg">
+      <a href="programacao/" class="btn btn-outline btn-lg">
         Ver programação
       </a>
     </div>
@@ -405,22 +405,22 @@
     <!-- Sugestões -->
     <nav class="suggestions" aria-label="Sugestões de páginas">
       <p class="suggestions-title">Talvez estavas à procura de…</p>
-      <a href="/programacao/" class="suggestion-link">
+      <a href="programacao/" class="suggestion-link">
         <span class="suggestion-icon" aria-hidden="true">🎭</span>
         Programação — todos os espectáculos
         <span class="suggestion-arrow" aria-hidden="true">→</span>
       </a>
-      <a href="/calendario/" class="suggestion-link">
+      <a href="calendario/" class="suggestion-link">
         <span class="suggestion-icon" aria-hidden="true">📅</span>
         Calendário — o que há hoje
         <span class="suggestion-arrow" aria-hidden="true">→</span>
       </a>
-      <a href="/teatros/" class="suggestion-link">
+      <a href="teatros/" class="suggestion-link">
         <span class="suggestion-icon" aria-hidden="true">🏛️</span>
         Teatros — todos os espaços
         <span class="suggestion-arrow" aria-hidden="true">→</span>
       </a>
-      <a href="/sobre/" class="suggestion-link">
+      <a href="sobre/" class="suggestion-link">
         <span class="suggestion-icon" aria-hidden="true">ℹ️</span>
         Sobre o projecto
         <span class="suggestion-arrow" aria-hidden="true">→</span>
@@ -471,10 +471,10 @@
       let data;
 
       try {
-        const r = await fetch('/data/events.slim.json');
+        const r = await fetch('data/events.slim.json');
         if (r.ok) data = await r.json(); else throw new Error();
       } catch (_) {
-        const r2 = await fetch('/events.json');
+        const r2 = await fetch('events.json');
         if (!r2.ok) return;
         data = await r2.json();
       }
@@ -498,17 +498,6 @@
           `<img src="${ev.image_url}" alt="" loading="lazy" decoding="async"/>`;
       }
 
-      document.getElementById('random-event-link').href = `/espetaculo/?id=${ev.id}`;
+      document.getElementById('random-event-link').href=`espetaculo/?id=${ev.id}`;
       document.getElementById('random-event-link').setAttribute('aria-label', `${ev.title} — ${ev.theater || ''}`);
-      document.getElementById('random-section').hidden = false;
-    } catch (_) {
-      // Falha silenciosa — a secção fica oculta
-    }
-  }
-
-  loadRandom();
-
-})();
-</script>
-</body>
-</html>
+      document.get

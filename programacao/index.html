@@ -15,13 +15,13 @@
 <meta property="og:type" content="website"/>
 <meta property="og:locale" content="pt_PT"/>
 
-<link rel="manifest" href="/manifest.webmanifest"/>
-<link rel="apple-touch-icon" href="/icons/icon-192.png"/>
+<link rel="manifest" href="../manifest.webmanifest"/>
+<link rel="apple-touch-icon" href="../icons/icon-192.png"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link rel="stylesheet" href="/fonts/fonts.css"/>
-<link rel="stylesheet" href="/design/tokens.css"/>
-<link rel="stylesheet" href="/design/base.css"/>
+<link rel="stylesheet" href="../fonts/fonts.css"/>
+<link rel="stylesheet" href="../design/tokens.css"/>
+<link rel="stylesheet" href="../design/base.css"/>
 <script>(function(){var s=localStorage.getItem('pp-theme');var sys=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',s||sys);})();</script>
 
 <style>
@@ -463,16 +463,16 @@
 
 <!-- ── NAVEGAÇÃO ─────────────────────────────────────────────── -->
 <nav class="nav" role="navigation" aria-label="Navegação principal">
-  <a class="nav-brand" href="/" aria-label="Primeira Plateia — página inicial">
+  <a class="nav-brand" href="../" aria-label="Primeira Plateia — página inicial">
     <span class="nav-brand-primeira">Primeira</span>
     <span class="nav-brand-plateia">Plateia</span>
   </a>
   <div class="nav-right">
     <ul class="nav-links" id="nav-menu" role="list">
-      <li><a href="/programacao/" aria-current="page">Programação</a></li>
-      <li><a href="/calendario/">Calendário</a></li>
-      <li><a href="/teatros/">Teatros</a></li>
-      <li><a href="/sobre/">Sobre</a></li>
+      <li><a href="../programacao/" aria-current="page">Programação</a></li>
+      <li><a href="../calendario/">Calendário</a></li>
+      <li><a href="../teatros/">Teatros</a></li>
+      <li><a href="../sobre/">Sobre</a></li>
     </ul>
     <button class="theme-btn" id="theme-toggle" aria-label="Mudar para modo escuro" data-tip="Modo escuro">
       <span class="i-moon" aria-hidden="true">🌙</span>
@@ -625,24 +625,24 @@
     <div>
       <p class="footer-col-title">Explorar</p>
       <nav class="footer-col-links" aria-label="Explorar">
-        <a href="/programacao/">Programação</a>
-        <a href="/calendario/">Calendário</a>
-        <a href="/teatros/">Teatros</a>
+        <a href="../programacao/">Programação</a>
+        <a href="../calendario/">Calendário</a>
+        <a href="../teatros/">Teatros</a>
       </nav>
     </div>
     <div>
       <p class="footer-col-title">Sobre</p>
       <nav class="footer-col-links" aria-label="Sobre">
-        <a href="/sobre/">O projecto</a>
+        <a href="../sobre/">O projecto</a>
         <a href="mailto:fabio@primeiraplateia.pt">Contacto</a>
       </nav>
     </div>
     <div>
       <p class="footer-col-title">Legal</p>
       <nav class="footer-col-links" aria-label="Legal">
-        <a href="/privacidade/">Privacidade</a>
-        <a href="/aviso-legal/">Aviso legal</a>
-        <a href="/acessibilidade/">Acessibilidade</a>
+        <a href="../privacidade/">Privacidade</a>
+        <a href="../aviso-legal/">Aviso legal</a>
+        <a href="../acessibilidade/">Acessibilidade</a>
       </nav>
     </div>
   </div>
@@ -755,11 +755,11 @@
     try {
       let data;
       try {
-        const r = await fetch('/data/events.slim.json');
+        const r = await fetch('../data/events.slim.json');
         if (r.ok) { data = await r.json(); }
         else throw new Error();
       } catch (_) {
-        const r2 = await fetch('/events.json');
+        const r2 = await fetch('../events.json');
         if (!r2.ok) throw new Error('Sem dados');
         data = await r2.json();
       }
@@ -789,7 +789,7 @@
   /* ── Carregar meta ──────────────────────────────────────── */
   async function loadMeta() {
     try {
-      const r = await fetch('/data/meta.json');
+      const r = await fetch('../data/meta.json');
       if (!r.ok) return;
       const m = await r.json();
       document.getElementById('meta-count').textContent = m.total_events ?? '—';
@@ -885,7 +885,7 @@
       article.className = 'ev-card';
       article.setAttribute('role', 'listitem');
       article.innerHTML = `
-        <a href="/espetaculo/?id=${ev.id}" aria-label="${ev.title}${ev.theater ? ' — ' + ev.theater : ''}">
+        <a href="../espetaculo/?id=${ev.id}" aria-label="${ev.title}${ev.theater ? ' — ' + ev.theater : ''}">
           <div class="ev-card-img">
             ${ev.image_url
               ? `<img src="${ev.image_url}" alt="" loading="lazy" decoding="async"/>`
@@ -1005,11 +1005,4 @@
     if (first) first.querySelector('a').focus({ preventScroll: true });
   });
 
-  /* ── Init ───────────────────────────────────────────────── */
-  loadMeta();
-  loadData();
-
-})();
-</script>
-</body>
-</html>
+  /* ── Init ───────────────────

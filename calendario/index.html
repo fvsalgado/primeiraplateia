@@ -13,13 +13,13 @@
 <meta property="og:url" content="https://www.primeiraplateia.pt/calendario/"/>
 <meta property="og:type" content="website"/>
 <meta property="og:locale" content="pt_PT"/>
-<link rel="manifest" href="/manifest.webmanifest"/>
-<link rel="apple-touch-icon" href="/icons/icon-192.png"/>
+<link rel="manifest" href="../manifest.webmanifest"/>
+<link rel="apple-touch-icon" href="../icons/icon-192.png"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link rel="stylesheet" href="/fonts/fonts.css"/>
-<link rel="stylesheet" href="/design/tokens.css"/>
-<link rel="stylesheet" href="/design/base.css"/>
+<link rel="stylesheet" href="../fonts/fonts.css"/>
+<link rel="stylesheet" href="../design/tokens.css"/>
+<link rel="stylesheet" href="../design/base.css"/>
 <script>(function(){var s=localStorage.getItem('pp-theme');var sys=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',s||sys);})();</script>
 
 <style>
@@ -541,16 +541,16 @@
 
 <!-- ── NAVEGAÇÃO ─────────────────────────────────────────────── -->
 <nav class="nav" role="navigation" aria-label="Navegação principal">
-  <a class="nav-brand" href="/" aria-label="Primeira Plateia — página inicial">
+  <a class="nav-brand" href="../" aria-label="Primeira Plateia — página inicial">
     <span class="nav-brand-primeira">Primeira</span>
     <span class="nav-brand-plateia">Plateia</span>
   </a>
   <div class="nav-right">
     <ul class="nav-links" id="nav-menu" role="list">
-      <li><a href="/programacao/">Programação</a></li>
-      <li><a href="/calendario/" aria-current="page">Calendário</a></li>
-      <li><a href="/teatros/">Teatros</a></li>
-      <li><a href="/sobre/">Sobre</a></li>
+      <li><a href="../programacao/">Programação</a></li>
+      <li><a href="../calendario/" aria-current="page">Calendário</a></li>
+      <li><a href="../teatros/">Teatros</a></li>
+      <li><a href="../sobre/">Sobre</a></li>
     </ul>
     <button class="theme-btn" id="theme-toggle" aria-label="Mudar para modo escuro" data-tip="Modo escuro">
       <span class="i-moon" aria-hidden="true">🌙</span>
@@ -633,7 +633,7 @@
         <div class="state-empty-icon" aria-hidden="true">📅</div>
         <h3 class="state-empty-title">Sem espectáculos</h3>
         <p class="state-empty-text">Não há espectáculos marcados para este dia. Experimenta outro dia ou vê a programação completa.</p>
-        <a href="/programacao/" class="btn btn-outline">Ver toda a programação</a>
+        <a href="../programacao/" class="btn btn-outline">Ver toda a programação</a>
       </div>
 
       <div class="state-empty" id="state-error" hidden>
@@ -674,24 +674,24 @@
     <div>
       <p class="footer-col-title">Explorar</p>
       <nav class="footer-col-links" aria-label="Explorar">
-        <a href="/programacao/">Programação</a>
-        <a href="/calendario/">Calendário</a>
-        <a href="/teatros/">Teatros</a>
+        <a href="../programacao/">Programação</a>
+        <a href="../calendario/">Calendário</a>
+        <a href="../teatros/">Teatros</a>
       </nav>
     </div>
     <div>
       <p class="footer-col-title">Sobre</p>
       <nav class="footer-col-links" aria-label="Sobre">
-        <a href="/sobre/">O projecto</a>
+        <a href="../sobre/">O projecto</a>
         <a href="mailto:fabio@primeiraplateia.pt">Contacto</a>
       </nav>
     </div>
     <div>
       <p class="footer-col-title">Legal</p>
       <nav class="footer-col-links" aria-label="Legal">
-        <a href="/privacidade/">Privacidade</a>
-        <a href="/aviso-legal/">Aviso legal</a>
-        <a href="/acessibilidade/">Acessibilidade</a>
+        <a href="../privacidade/">Privacidade</a>
+        <a href="../aviso-legal/">Aviso legal</a>
+        <a href="../acessibilidade/">Acessibilidade</a>
       </nav>
     </div>
   </div>
@@ -804,10 +804,10 @@
     try {
       let data;
       try {
-        const r = await fetch('/data/events.slim.json');
+        const r = await fetch('../data/events.slim.json');
         if (r.ok) data = await r.json(); else throw new Error();
       } catch (_) {
-        const r2 = await fetch('/events.json');
+        const r2 = await fetch('../events.json');
         if (!r2.ok) throw new Error('Sem dados');
         data = await r2.json();
       }
@@ -1017,7 +1017,7 @@
       : '';
 
     return `
-      <a class="ev-row" href="/espetaculo/?id=${ev.id}" aria-label="${ev.title}${ev.theater ? ' — ' + ev.theater : ''}">
+      <a class="ev-row" href="../espetaculo/?id=${ev.id}" aria-label="${ev.title}${ev.theater ? ' — ' + ev.theater : ''}">
         <div class="ev-row-img">${imgHtml}</div>
         <div class="ev-row-body">
           <p class="ev-row-theater">${ev.theater || ''}</p>
@@ -1109,16 +1109,8 @@
   loadData();
 
   // Meta do footer
-  fetch('/data/meta.json').then(r => r.ok ? r.json() : null).then(m => {
+  fetch('../data/meta.json').then(r => r.ok ? r.json() : null).then(m => {
     if (!m) return;
     const fu = document.getElementById('footer-updated');
     if (fu) {
-      const diff = Math.floor((Date.now() - new Date(m.updated_at)) / 3600000);
-      fu.textContent = `Actualizado há ${diff < 1 ? 'menos de 1h' : diff + 'h'}`;
-    }
-  }).catch(() => {});
-
-})();
-</script>
-</body>
-</html>
+      const diff = Math.floor((Date.now() - new Date(m.updated_at)) /
