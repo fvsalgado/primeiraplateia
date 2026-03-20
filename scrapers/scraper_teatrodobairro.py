@@ -5,31 +5,31 @@ Cidade: Lisboa
 
 Estrutura do site (SPA — Single Page Application):
   - Toda a programação está numa única página (homepage).
-  - A barra de navegação, sob "Programação", lista links âncora para cada evento:
-      <a href="#slug-do-evento">Título</a>
-  - Estes links são a fonte autoritativa da lista de eventos actuais.
-  - Cada espetáculo é uma secção âncora: <section id="slug">.
-  - Não há páginas individuais de evento — todos os dados estão na homepage.
+  - A barra de navegação, sob "Programação", lista links âncora para cada evento.
+  - Cada espetáculo está numa <section class="module" id="slug">, com os dados
+    dentro de <div class="work-details">.
 
-  NOTA DE PARSING:
-  O HTML da homepage está frequentemente malformado (tags <div> e <ul> não fechadas),
-  o que faz parsers como lxml colapsarem secções subsequentes dentro da primeira.
-  Solução: usar html.parser (mais tolerante) E extrair cada secção pelo id
-  procurando directamente no HTML em bruto com um split por âncora, como fallback.
+  NOTAS DE PARSING:
+  1. O HTML está frequentemente malformado (tags <div> e <ul> não fechadas).
+     O lxml "adota" conteúdo das secções seguintes para a primeira, misturando
+     os h5 de todas as secções. Usar html.parser resolve o problema.
 
-  Estrutura de cada evento:
-      <h5>  → datas (ex: "5 a 15 Março")
+  2. Âncora de extracção: div.work-details (mais robusta que iterar <section>
+     directamente — está mais perto do conteúdo e menos afectada por tags
+     externas não fechadas). O slug é obtido do <section> ancestral via
+     find_parent().
+
+  Estrutura interna de cada work-details:
+      <h5>  → datas (começa com dígito, ex: "5 a 15 Março")
       <h3>  → título
-      <h5>  → categoria (ex: "Teatro Griot - Acolhimento" ou "Teatro")
-      lista → horários, preços, bilhetes, classificação etária, duração
-      <p>   → sinopse em parágrafos
-      texto → ficha técnica em texto corrido após a sinopse
+      <h5>  → categoria (ex: "Teatro Griot - Acolhimento")
+      <ul>  → horários, preços, bilhetes, classificação, duração
+      <p>   → sinopse (parágrafos longos)
+      <p>   → ficha técnica ("Texto: X | Encenação: Y | ...")
       <img> → imagem (assets/imagens/programa/<slug>.jpg)
-  - Bilhetes: link bol.pt dentro de cada secção.
 """
 
 import re
-import time
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
@@ -37,12 +37,12 @@ from urllib.parse import urljoin
 from scrapers.utils import (
     make_id, log, HEADERS, can_scrape,
     truncate_synopsis, build_image_object,
-    parse_date_range, parse_date, build_sessions,
+    build_sessions,
 )
 from scrapers.schema import normalize_category
 
 # ─────────────────────────────────────────────────────────────
-# Metadados do teatro — lidos pelo sync_scrapers.py
+# Metadados do teatro
 # ─────────────────────────────────────────────────────────────
 THEATER = {
     "id":          "teatrodobairro",
@@ -77,8 +77,14 @@ SOURCE_SLUG  = THEATER["id"]
 BASE         = "https://teatrodobairro.org"
 AGENDA       = BASE + "/"
 
-# Categorias a rejeitar — o site usa "Teatro", "Teatro - Acolhimento", etc.
 _REJECT_KEYWORDS = {"cinema", "dança", "danca", "música", "musica"}
+
+# IDs de secções da homepage que não são espetáculos
+_NON_EVENT_IDS = {
+    "home", "teatrodobairro", "cartaodeamigo", "acompanhia",
+    "alexandreoliveira", "antoniopires", "luisacostagomes",
+    "historicodacompanhia", "news", "contactos",
+}
 
 
 # ─────────────────────────────────────────────────────────────
@@ -97,124 +103,57 @@ def scrape() -> list[dict]:
         log(f"[{THEATER_NAME}] Erro ao carregar homepage: {e}")
         return []
 
-    raw_html = r.text
+    # CRÍTICO: usar html.parser, não lxml.
+    # O HTML do Teatro do Bairro tem <div>/<ul> não fechadas que fazem o lxml
+    # colapsar o conteúdo de secções subsequentes para dentro da primeira,
+    # misturando os h5 de todos os eventos. html.parser é mais tolerante.
+    soup = BeautifulSoup(r.text, "html.parser")
 
-    # Usar html.parser em vez de lxml: mais tolerante com HTML malformado.
-    # O HTML do Teatro do Bairro tem frequentemente <div>/<ul> não fechadas
-    # que fazem o lxml colapsar secções subsequentes dentro da primeira.
-    soup = BeautifulSoup(raw_html, "html.parser")
+    # Slugs válidos da nav — fonte autoritativa dos eventos actuais
+    valid_slugs = set(_collect_event_slugs_from_nav(soup))
+    log(f"[{THEATER_NAME}] Slugs na nav: {sorted(valid_slugs)}")
 
-    events    = []
+    events   = []
     seen_ids: set[str] = set()
 
-    # ── Recolher slugs da nav ──────────────────────────────────────────────
-    event_slugs = _collect_event_slugs_from_nav(soup)
+    # Iterar por div.work-details; obter slug do <section> ancestral.
+    # Ancorar em work-details é mais robusto do que iterar <section>
+    # directamente porque este div está mais próximo do conteúdo e menos
+    # afectado por tags externas não fechadas.
+    for wd in soup.select("div.work-details"):
+        section = wd.find_parent("section")
+        slug    = section.get("id", "") if section else ""
 
-    if not event_slugs:
-        log(f"[{THEATER_NAME}] Nenhum slug encontrado na nav — a usar fallback por <section>")
+        # Ignorar secções que não são espetáculos
+        if slug in _NON_EVENT_IDS:
+            continue
 
-    log(f"[{THEATER_NAME}] Slugs encontrados na nav: {event_slugs}")
-
-    for slug in event_slugs:
-        # Estratégia 1: encontrar <section id="slug"> no soup normal
-        section = soup.find("section", id=slug)
-        if not section:
-            section = soup.find("section", id=re.compile(f"^{re.escape(slug)}$", re.IGNORECASE))
-
-        # Estratégia 2 (fallback para HTML malformado): extrair fragmento do HTML em bruto
-        if not section:
-            section = _extract_section_from_raw(raw_html, slug)
-
-        if not section:
-            log(f"[{THEATER_NAME}] Secção não encontrada para slug '{slug}'")
+        # Se temos slugs da nav, só processar os que lá estão
+        if valid_slugs and slug not in valid_slugs:
             continue
 
         try:
-            ev = _parse_section(section, slug)
+            ev = _parse_work_details(wd, slug)
             if ev and ev["id"] not in seen_ids:
                 seen_ids.add(ev["id"])
                 events.append(ev)
         except Exception as e:
-            log(f"[{THEATER_NAME}] Erro na secção '{slug}': {e}")
-
-    # ── Fallback geral: percorrer <section id=...> se nav vazia ───────────
-    if not events:
-        log(f"[{THEATER_NAME}] A usar fallback por <section id=...>")
-        for section in soup.find_all("section", id=True):
-            slug = section.get("id", "")
-            if not slug or slug in ("home", "teatrodobairro", "cartaodeamigo",
-                                     "acompanhia", "alexandreoliveira", "antoniopires",
-                                     "luisacostagomes", "historicodacompanhia",
-                                     "news", "contactos"):
-                continue
-            try:
-                ev = _parse_section(section, slug)
-                if ev and ev["id"] not in seen_ids:
-                    seen_ids.add(ev["id"])
-                    events.append(ev)
-            except Exception as e:
-                log(f"[{THEATER_NAME}] Erro na secção '{slug}': {e}")
+            log(f"[{THEATER_NAME}] Erro em work-details (slug='{slug}'): {e}")
 
     log(f"[{THEATER_NAME}] {len(events)} eventos recolhidos")
     return events
 
 
 # ─────────────────────────────────────────────────────────────
-# Extracção de secção a partir de HTML em bruto (fallback)
-# ─────────────────────────────────────────────────────────────
-
-def _extract_section_from_raw(html: str, slug: str) -> BeautifulSoup | None:
-    """
-    Quando o HTML está malformado e o BeautifulSoup não consegue separar
-    as secções correctamente, extraímos o fragmento entre o id âncora e
-    o próximo id de secção de programação.
-
-    Procura o padrão: id="<slug"> ... até ao próximo <section
-    """
-    # Localizar o início da secção com este id
-    pattern = re.compile(
-        rf'<section[^>]+id=["\']?{re.escape(slug)}["\']?[^>]*>',
-        re.IGNORECASE,
-    )
-    m = pattern.search(html)
-    if not m:
-        return None
-
-    start = m.start()
-
-    # Encontrar o próximo <section depois deste
-    next_section = re.search(r'<section[\s>]', html[m.end():])
-    if next_section:
-        end = m.end() + next_section.start()
-    else:
-        end = len(html)
-
-    fragment = html[start:end]
-    # Fechar tags abertas para ajudar o parser
-    fragment += "</div></div></div></section>"
-
-    return BeautifulSoup(fragment, "html.parser")
-
-
-# ─────────────────────────────────────────────────────────────
-# Recolha de slugs a partir da navegação
+# Recolha de slugs da navegação
 # ─────────────────────────────────────────────────────────────
 
 def _collect_event_slugs_from_nav(soup) -> list[str]:
     """
-    Percorre a barra de navegação à procura do dropdown "Programação"
-    e recolhe os slugs de âncora de cada evento listado.
-
-    O site usa Bootstrap dropdown:
-        <li class="dropdown">
-            <a>Programação</a>
-            <ul class="dropdown-menu">
-                <li><a href="https://teatrodobairro.org/#slug">Título</a></li>
-            </ul>
-        </li>
+    Procura o dropdown "Programação" na navbar Bootstrap e recolhe
+    os slugs de âncora de cada evento listado.
     """
     slugs: list[str] = []
-
     nav = soup.find("nav") or soup.find("header") or soup
 
     for li in nav.find_all("li"):
@@ -222,138 +161,124 @@ def _collect_event_slugs_from_nav(soup) -> list[str]:
         label   = first_a.get_text(strip=True) if first_a else ""
         if not re.search(r"\bprograma[çc][aã]o\b", label, re.IGNORECASE):
             continue
-
         submenu = li.find("ul")
-        if not submenu:
-            continue
-
-        for a in submenu.find_all("a", href=True):
-            href = a["href"]
-            if "#" in href:
-                slug = href.split("#")[-1].strip()
-                if slug and slug not in slugs:
-                    slugs.append(slug)
-
+        if submenu:
+            for a in submenu.find_all("a", href=True):
+                href = a["href"]
+                if "#" in href:
+                    slug = href.split("#")[-1].strip()
+                    if slug and slug not in slugs:
+                        slugs.append(slug)
         break
 
     return slugs
 
 
 # ─────────────────────────────────────────────────────────────
-# Parsing de secção de evento
+# Parsing de um bloco work-details
 # ─────────────────────────────────────────────────────────────
 
-def _parse_section(section, section_id: str) -> dict | None:
+def _parse_work_details(wd, slug: str) -> dict | None:
     """
-    Extrai evento de uma <section> da homepage.
+    Extrai todos os campos de um <div class="work-details">.
     Devolve None se não for um espetáculo de teatro válido.
     """
     # ── Título ────────────────────────────────────────────────
-    h3 = section.find("h3")
+    h3 = wd.find("h3")
     if not h3:
         return None
     title = h3.get_text(strip=True)
     if not title or len(title) < 3:
         return None
 
-    full_text = section.get_text(" ", strip=True)
-
-    # ── Categoria ─────────────────────────────────────────────
-    # Segundo h5: não começa com dígito
+    # ── H5s: datas e categoria ────────────────────────────────
+    # Garantido pelo html.parser: só h5 DESTE bloco, não de outros.
+    h5s = wd.find_all("h5")
+    dates_raw    = ""
     category_raw = ""
-    subtitle      = ""
-    for h5 in section.find_all("h5"):
+    for h5 in h5s:
         t = h5.get_text(strip=True)
-        if t and not re.match(r"^\d", t):
+        if not t:
+            continue
+        if re.match(r"^\d", t) and not dates_raw:
+            dates_raw = t
+        elif not re.match(r"^\d", t) and not category_raw:
             category_raw = t
-            break
 
-    # Filtrar categorias não-teatro
+    # ── Filtro de categoria ───────────────────────────────────
     cat_lower = category_raw.lower()
     if any(kw in cat_lower for kw in _REJECT_KEYWORDS):
         return None
-    # Aceitar se contiver "teatro" ou se categoria for vazia
     if category_raw and "teatro" not in cat_lower:
         return None
 
-    # Normalizar categoria
     category = normalize_category(category_raw) if category_raw else "Teatro"
 
-    # Subtítulo: parte da categoria após " - " (ex: "Teatro Griot - Acolhimento" → "Teatro Griot")
-    # Ou extrair autor/companhia do texto da ficha técnica
-    if " - " in category_raw:
-        subtitle = category_raw.split(" - ", 1)[1].strip()
-    elif "–" in category_raw:
-        subtitle = category_raw.split("–", 1)[1].strip()
-
     # ── Datas ─────────────────────────────────────────────────
-    dates_raw = ""
-    for h5 in section.find_all("h5"):
-        t = h5.get_text(strip=True)
-        if re.match(r"^\d", t):
-            dates_raw = t
-            break
-
     dates_label, date_start, date_end = _parse_dates(dates_raw)
     if not date_start:
         return None
 
+    # ── Texto completo do bloco (para regexes) ────────────────
+    full = wd.get_text(" ", strip=True)
+
     # ── URL canónica ──────────────────────────────────────────
-    source_url = f"{BASE}/#{section_id}" if section_id else BASE + "/"
+    source_url = f"{BASE}/#{slug}" if slug else BASE + "/"
 
     # ── Imagem ────────────────────────────────────────────────
+    # A imagem está fora do work-details, na coluna irmã. Subir ao .row.
     image   = None
-    raw_img = ""
-    img_tag = section.find("img", src=re.compile(r"assets/imagens/programa"))
-    if img_tag:
-        src = img_tag.get("src", "")
-        raw_img = src if src.startswith("http") else urljoin(BASE, src)
-    if raw_img:
-        image = build_image_object(raw_img, section, THEATER_NAME, source_url)
+    row_div = wd.find_parent("div", class_=re.compile(r"\brow\b"))
+    if not row_div:
+        row_div = wd.find_parent("section")
+    if row_div:
+        img = row_div.find("img", src=re.compile(r"assets/imagens/programa"))
+        if img:
+            src = img.get("src", "")
+            raw_url = src if src.startswith("http") else urljoin(BASE, src)
+            image = build_image_object(raw_url, row_div, THEATER_NAME, source_url)
 
     # ── Bilhetes ──────────────────────────────────────────────
     ticket_url = ""
-    for a in section.find_all("a", href=True):
-        href_lower = a["href"].lower()
-        if any(kw in href_lower for kw in ("bol.pt", "ticketline", "bilhete", "comprar")):
+    for a in wd.find_all("a", href=True):
+        h = a["href"].lower()
+        if any(kw in h for kw in ("bol.pt", "ticketline", "bilhete", "comprar")):
             ticket_url = a["href"]
             break
 
     # ── Horários ──────────────────────────────────────────────
-    # Tentar capturar múltiplos horários (ex: "21h00" e "16h00")
-    schedule = ""
-    hora_matches = re.findall(r"\d{1,2}h\d{2}", full_text)
-    if hora_matches:
-        schedule = " / ".join(dict.fromkeys(hora_matches))  # deduplicar preservando ordem
+    horas = list(dict.fromkeys(re.findall(r"\d{1,2}h\d{2}", full)))
+    schedule = " / ".join(horas) if horas else ""
 
-    # ── Preço ─────────────────────────────────────────────────
-    price_info  = ""
-    price_min   = None
-    price_max   = None
+    # ── Preços ────────────────────────────────────────────────
+    price_info = ""
+    price_min  = None
+    price_max  = None
 
-    # Entrada livre / gratuito
-    if re.search(r"entrada\s+(?:livre|gratuita)|gratuito", full_text, re.IGNORECASE):
+    if re.search(r"entrada\s+(?:livre|gratuita)|gratuito", full, re.IGNORECASE):
         price_info = "Entrada livre"
         price_min  = 0.0
         price_max  = 0.0
     else:
-        # Extrair todos os preços em €
-        precos = re.findall(r"(\d+(?:[,\.]\d+)?)\s*€", full_text)
         valores = []
-        for p in precos:
+        for p in re.findall(r"(\d+(?:[,\.]\d+)?)\s*€", full):
             try:
                 valores.append(float(p.replace(",", ".")))
             except ValueError:
                 pass
         if valores:
-            price_min = min(valores)
-            price_max = max(valores)
-            price_info = f"{price_min:.0f}€" if price_min == price_max else f"{price_min:.0f}€ – {price_max:.0f}€"
+            price_min  = min(valores)
+            price_max  = max(valores)
+            price_info = (
+                f"{price_min:.2g}€"
+                if price_min == price_max
+                else f"{price_min:.2g}€ – {price_max:.2g}€"
+            )
 
     # ── Classificação etária ──────────────────────────────────
     age_rating = ""
     age_min    = None
-    age_m = re.search(r"\bM\s*/\s*(\d+)\b", full_text)
+    age_m = re.search(r"\bM\s*/\s*(\d+)\b", full)
     if age_m:
         age_min    = int(age_m.group(1))
         age_rating = f"M/{age_min}"
@@ -361,17 +286,16 @@ def _parse_section(section, section_id: str) -> dict | None:
     # ── Duração ───────────────────────────────────────────────
     duration     = ""
     duration_min = None
-    dur_m = re.search(r"(\d+)\s*min", full_text, re.IGNORECASE)
+    dur_m = re.search(r"(\d+)\s*min", full, re.IGNORECASE)
     if dur_m:
         duration_min = int(dur_m.group(1))
         duration     = f"{duration_min} min."
 
     # ── Sinopse e ficha técnica ───────────────────────────────
-    synopsis, technical_sheet = _extract_synopsis_and_ficha(section)
+    synopsis, technical_sheet = _extract_synopsis_and_ficha(wd)
 
-    # Tentar extrair subtítulo da ficha técnica se ainda não temos
-    if not subtitle:
-        subtitle = _extract_subtitle(technical_sheet, full_text)
+    # ── Subtítulo ─────────────────────────────────────────────
+    subtitle = _extract_subtitle(category_raw, technical_sheet, full)
 
     ev = {
         "id":              make_id(SOURCE_SLUG, title),
@@ -399,8 +323,8 @@ def _parse_section(section, section_id: str) -> dict | None:
         "technical_sheet": technical_sheet,
     }
 
-    # Limpar campos None/vazios opcionais para não poluir o schema
-    return {k: v for k, v in ev.items() if v is not None and v != ""}
+    # Remover campos vazios/None opcionais
+    return {k: v for k, v in ev.items() if v is not None and v != "" and v != []}
 
 
 # ─────────────────────────────────────────────────────────────
@@ -408,26 +332,25 @@ def _parse_section(section, section_id: str) -> dict | None:
 # ─────────────────────────────────────────────────────────────
 
 _PT_MONTHS = {
-    "janeiro": 1, "fevereiro": 2, "março": 3, "marco": 3,
-    "abril": 4, "maio": 5, "junho": 6, "julho": 7,
-    "agosto": 8, "setembro": 9, "outubro": 10,
-    "novembro": 11, "dezembro": 12,
+    "janeiro": 1,  "fevereiro": 2, "março": 3,    "marco": 3,
+    "abril": 4,    "maio": 5,      "junho": 6,     "julho": 7,
+    "agosto": 8,   "setembro": 9,  "outubro": 10,
+    "novembro": 11,"dezembro": 12,
     "jan": 1, "fev": 2, "mar": 3, "abr": 4, "mai": 5, "jun": 6,
-    "jul": 7, "ago": 8, "set": 9, "out": 10, "nov": 11, "dez": 12,
+    "jul": 7, "ago": 8, "set": 9, "out": 10,"nov": 11,"dez": 12,
 }
 
 
 def _parse_dates(text: str) -> tuple[str, str, str]:
     """
-    Formatos encontrados no Teatro do Bairro:
-      "5 a 15 Março"
-      "21 e 22 Março"
-      "3 a 26 Abril"
-      "5 a 15 Março 2026"
+    Suporta os formatos encontrados no Teatro do Bairro:
+      "5 a 15 Março"       →  range
+      "21 e 22 Março"      →  dois dias
+      "3 Abril"            →  data única
+      "5 a 15 Março 2026"  →  com ano explícito
     """
     if not text:
         return "", "", ""
-
     text = text.strip()
 
     # "DD a DD Mês [YYYY]"
@@ -437,7 +360,7 @@ def _parse_dates(text: str) -> tuple[str, str, str]:
     )
     if m:
         d1, d2, mon_s, yr = m.groups()
-        n = _mon(mon_s)
+        n = _PT_MONTHS.get(mon_s.lower())
         if n:
             y = int(yr) if yr else _infer_year(n, int(d2))
             return (
@@ -453,7 +376,7 @@ def _parse_dates(text: str) -> tuple[str, str, str]:
     )
     if m:
         d1, d2, mon_s, yr = m.groups()
-        n = _mon(mon_s)
+        n = _PT_MONTHS.get(mon_s.lower())
         if n:
             y = int(yr) if yr else _infer_year(n, int(d2))
             return (
@@ -469,17 +392,13 @@ def _parse_dates(text: str) -> tuple[str, str, str]:
     )
     if m:
         d, mon_s, yr = m.groups()
-        n = _mon(mon_s)
+        n = _PT_MONTHS.get(mon_s.lower())
         if n:
             y = int(yr) if yr else _infer_year(n, int(d))
             ds = f"{y}-{n:02d}-{int(d):02d}"
             return f"{d} {mon_s.capitalize()}", ds, ds
 
     return "", "", ""
-
-
-def _mon(s: str) -> int | None:
-    return _PT_MONTHS.get(s.lower().strip())
 
 
 def _infer_year(month: int, day: int) -> int:
@@ -491,51 +410,42 @@ def _infer_year(month: int, day: int) -> int:
 
 
 # ─────────────────────────────────────────────────────────────
-# Extracção de sinopse e ficha técnica
+# Sinopse e ficha técnica
 # ─────────────────────────────────────────────────────────────
 
-# Padrão para detectar início de ficha técnica
 _FICHA_START_RE = re.compile(
     r"^(Texto|Encena[çc][aã]o|Interpreta[çc][aã]o|Concep[çc][aã]o|"
     r"Tradu[çc][aã]o|Cenografia|Figurinos|M[úu]sica|Luz|Som|"
     r"Co-produ[çc][aã]o|Coprodu[çc][aã]o|Produ[çc][aã]o|"
     r"Coreografia|Dramaturgia|Dire[çc][aã]o|"
-    r"Apoios?|Agradecimentos)\s*[:\|]",
+    r"Composi[çc][aã]o|Apoios?)\s*[:\|]",
     re.IGNORECASE,
 )
 
 
-def _extract_synopsis_and_ficha(section) -> tuple[str, dict]:
-    """
-    Sinopse: parágrafos longos antes da ficha técnica.
-    Ficha técnica: parágrafo(s) com chaves conhecidas.
-    """
+def _extract_synopsis_and_ficha(wd) -> tuple[str, dict]:
     synopsis   = ""
     ficha_text = ""
     in_ficha   = False
 
-    for p in section.find_all("p"):
+    for p in wd.find_all("p"):
         t = p.get_text(" ", strip=True)
         if not t or len(t) < 5:
             continue
-
         if _FICHA_START_RE.match(t):
             in_ficha = True
-
         if in_ficha:
             ficha_text += (" " if ficha_text else "") + t
-        else:
-            if len(t) > 40:
-                synopsis += (" " if synopsis else "") + t
+        elif len(t) > 40:
+            synopsis += (" " if synopsis else "") + t
 
-    technical_sheet = _parse_ficha(ficha_text) if ficha_text else {}
-    return synopsis, technical_sheet
+    return synopsis, _parse_ficha(ficha_text) if ficha_text else {}
 
 
 def _parse_ficha(text: str) -> dict:
     """
-    Ficha técnica em texto corrido separado por " | " ou em linha própria.
-    Ex: "Texto: X | Encenação: Y | Interpretação: Z"
+    Analisa ficha técnica em texto corrido separado por " | ".
+    Ex: "Texto: X | Encenação: Y | Interpretação: A, B, C"
     """
     ficha = {}
 
@@ -543,15 +453,23 @@ def _parse_ficha(text: str) -> dict:
         ("texto",          r"[Tt]exto\s*[:\|]\s*"),
         ("encenação",      r"[Ee]ncena[çc][aã]o\s*[:\|]\s*"),
         ("dramaturgia",    r"[Dd]ramaturgia\s*[:\|]\s*"),
-        ("direção",        r"[Dd]ire[çc][aã]o\s+[Aa]rt[íi]stica\s*[:\|]\s*|[Dd]ire[çc][aã]o\s*[:\|]\s*"),
+        ("direção",        r"[Dd]ire[çc][aã]o\s+[Aa]rt[íi]stica\s*[:\|]\s*"
+                           r"|[Dd]ire[çc][aã]o\s*[:\|]\s*"),
         ("tradução",       r"[Tt]radu[çc][aã]o\s*[:\|]\s*"),
         ("cenografia",     r"[Cc]enografia\s*(?:e\s+[Ff]igurinos?)?\s*[:\|]\s*"),
         ("figurinos",      r"[Ff]igurinos?\s*[:\|]\s*"),
-        ("luz",            r"[Dd]esenho\s+de\s+[Ll]uz\s*[:\|]\s*|[Dd]esign\s+de\s+[Ll]uz\s*[:\|]\s*"),
-        ("som",            r"[Dd]esenho\s+de\s+[Ss]om\s*[:\|]\s*|[Dd]esign\s+de\s+[Ss]om\s*[:\|]\s*|[Ss]onoplastia\s*[:\|]\s*"),
-        ("música",         r"[Mm][úu]sica\s+e\s+[Dd]esign\s+de\s+[Ss]om\s*[:\|]\s*|[Mm][úu]sica\s*[:\|]\s*|[Cc]omposi[çc][aã]o\s+[Mm]usical\s*[:\|]\s*"),
-        ("interpretação",  r"[Ii]nterpreta[çc][aã]o\s*[:\|]\s*|[Cc]om\s*[:\|]\s*"),
-        ("concepção",      r"[Cc]oncep[çc][aã]o\s+e\s+[Ii]nterpreta[çc][aã]o\s*[:\|]\s*|[Cc]oncep[çc][aã]o\s*[:\|]\s*"),
+        ("luz",            r"[Dd]esenho\s+de\s+[Ll]uz\s*[:\|]\s*"
+                           r"|[Dd]esign\s+de\s+[Ll]uz\s*[:\|]\s*"),
+        ("som",            r"[Dd]esenho\s+de\s+[Ss]om\s*[:\|]\s*"
+                           r"|[Dd]esign\s+de\s+[Ss]om\s*[:\|]\s*"
+                           r"|[Ss]onoplastia\s*[:\|]\s*"),
+        ("música",         r"[Mm][úu]sica\s+e\s+[Dd]esign\s+de\s+[Ss]om\s*[:\|]\s*"
+                           r"|[Mm][úu]sica\s*[:\|]\s*"
+                           r"|[Cc]omposi[çc][aã]o\s+[Mm]usical\s*[:\|]\s*"),
+        ("interpretação",  r"[Ii]nterpreta[çc][aã]o\s*[:\|]\s*"
+                           r"|[Cc]om\s*[:\|]\s*"),
+        ("concepção",      r"[Cc]oncep[çc][aã]o\s+e\s+[Ii]nterpreta[çc][aã]o\s*[:\|]\s*"
+                           r"|[Cc]oncep[çc][aã]o\s*[:\|]\s*"),
         ("coreografia",    r"[Cc]oreografia\s*[:\|]\s*"),
         ("produção",       r"[Pp]rodu[çc][aã]o\s*[:\|]\s*"),
         ("coprodução",     r"[Cc]o-?[Pp]rodu[çc][aã]o\s*[:\|]\s*"),
@@ -566,30 +484,34 @@ def _parse_ficha(text: str) -> dict:
 
     for i, (start, end, key) in enumerate(positions):
         next_start = positions[i + 1][0] if i + 1 < len(positions) else end + 500
-        value      = re.sub(r"\s+", " ", text[end:next_start].strip())
-        value      = re.split(r"\s*(?:©)\s*", value, flags=re.IGNORECASE)[0]
-        value      = value.rstrip(" |;,").strip()[:300]
+        value = re.sub(r"\s+", " ", text[end:next_start].strip())
+        value = re.split(r"\s*©\s*", value)[0]
+        value = value.rstrip(" |;,").strip()[:300]
         if value and key not in ficha:
             ficha[key] = value
 
     return ficha
 
 
-def _extract_subtitle(technical_sheet: dict, full_text: str) -> str:
+def _extract_subtitle(category_raw: str, technical_sheet: dict, full_text: str) -> str:
     """
-    Tenta inferir subtítulo (autor/companhia) a partir da ficha técnica.
-    Prioridade: texto > encenação > companhia mencionada.
+    Subtítulo: autor (campo 'texto' da ficha), companhia na categoria,
+    ou companhia mencionada no texto.
     """
     if technical_sheet.get("texto"):
         return technical_sheet["texto"]
-    # Tentar extrair companhia — "Teatro GRIOT", "Companhia X"
-    m = re.search(
-        r"\b(Teatro\s+\w+|Companhia\s+[\w\s]+?)\b",
-        full_text,
-    )
+
+    # "Teatro Griot - Acolhimento" → subtítulo = "Teatro Griot"
+    if " - " in category_raw:
+        parte = category_raw.split(" - ")[0].strip()
+        if parte.lower() not in ("teatro", "dança", "música"):
+            return parte
+
+    # Companhia mencionada no texto corrido
+    m = re.search(r"\b(Teatro\s+\w+|Companhia\s+[\w\s]{3,20}?)\b", full_text)
     if m:
         candidate = m.group(1).strip()
-        # Evitar "Teatro do Bairro" como subtítulo
         if "bairro" not in candidate.lower():
             return candidate
+
     return ""
