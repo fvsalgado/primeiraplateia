@@ -242,9 +242,9 @@
       "city": "Faro",
       "address": "Rua Pedro Franque, 8000-281 Faro",
       "site": "https://teatrodasfiguras.pt",
-      "programacao": "https://teatrodasfiguras.pt/agenda?categories=3,15",
+      "programacao": "https://teatrodasfiguras.pt/agenda",
       "lat": 37.0179,
-      "lng": -7.9307,
+      "lng": -9.1336,
       "salas": [
         "Grande Auditório",
         "Pequeno Auditório"
@@ -255,7 +255,10 @@
         "teatro municipal de faro"
       ],
       "description": "O Teatro das Figuras é o principal equipamento cultural da cidade de Faro, com programação de teatro, dança, música e cinema.",
-      "_overrides": []
+      "_overrides": [],
+      "logo_url": "https://teatrodasfiguras.pt/assets/png/default.png",
+      "favicon_url": "https://teatrodasfiguras.pt/assets/favicon/apple-touch-icon.png",
+      "facade_url": "https://teatrodasfiguras.pt/assets/png/facade.png"
     },
     {
       "id": "tagv",
