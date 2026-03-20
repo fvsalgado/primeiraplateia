@@ -20,7 +20,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/251025_theatro_circo_tres_tempos_sessao_um_fotografia_lais_pereira-3-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/tres-tempos-2026/",
       "theater": "Theatro Circo"
@@ -38,7 +38,7 @@
     "subtitle": "Com Xullaji e Tiago Sampaio",
     "date_end": "2026-04-18",
     "schedule": "18h45",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -66,7 +66,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/Musica_de_camara_@Lais-Pereira-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/ciclo-musica-de-camara-universidade-do-minho/",
       "theater": "Theatro Circo"
@@ -85,7 +85,7 @@
     "schedule": "18h00",
     "age_rating": "M/6",
     "age_min": 6,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -108,7 +108,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/02/Untitled-design-2-1.png",
       "credit": null,
       "source": "https://theatrocirco.com/event/apresentacao-tres-tempos/",
       "theater": "Theatro Circo"
@@ -128,7 +128,7 @@
     "sala": "Pequeno Auditório",
     "age_rating": "M/6",
     "age_min": 6,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -151,7 +151,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/Yerai_Cortes_©Dani_Pujate.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/yerai-cortes/",
       "theater": "Theatro Circo"
@@ -171,7 +171,7 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -194,7 +194,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/02/MariaVitoria_03_2025-09-17-152548_kfvi-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/maria-vitoria/",
       "theater": "Theatro Circo"
@@ -212,7 +212,7 @@
     "age_min": 14,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -235,7 +235,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/FOTOGRAMA_4_0000000020281292.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/la-guitarra-flamenca-de-yerai-cortes/",
       "theater": "Theatro Circo"
@@ -257,7 +257,7 @@
     "age_min": 6,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -280,7 +280,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/Conversa-Jantar©Filipe-Ferreira2.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/conversa-jantar-sara-ines-gigante/",
       "theater": "Theatro Circo"
@@ -297,7 +297,7 @@
     "accessibility": [],
     "subtitle": "Celebração do Dia Mundial do Teatro",
     "schedule": "19h00",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -320,7 +320,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/Popular_1287_med©Filipe-Ferreira-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/popular/",
       "theater": "Theatro Circo"
@@ -339,8 +339,8 @@
       "produção": "Leonardo Garibaldi, Joana Silva"
     },
     "tags": [
-      "Acessibilidade",
-      "Dia Mundial do Teatro"
+      "Dia Mundial do Teatro",
+      "Acessibilidade"
     ],
     "accessibility": [
       "LGP",
@@ -355,7 +355,7 @@
     "age_min": 14,
     "price_min": 5.0,
     "price_max": 5.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -378,7 +378,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/250301_theatro_circo_companhia_de_espectadores_contos_de_kafka_fotografia_lais_pereira-35-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/companhia-de-espectadores-mar2026/",
       "theater": "Theatro Circo"
@@ -396,7 +396,7 @@
     "accessibility": [],
     "subtitle": "Biografia e Autoficção",
     "schedule": "11h00",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -419,7 +419,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/250828_theatro_circo_visita_guiada_lgp-25-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/visita-guiada-ao-theatro-circo-mar2026/",
       "theater": "Theatro Circo"
@@ -435,7 +435,7 @@
     "duration_min": 45,
     "price_min": 3.5,
     "price_max": 3.5,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -458,7 +458,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/Dora-Morelembaum2-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/dora-morelenbaum/",
       "theater": "Theatro Circo"
@@ -478,7 +478,7 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -501,7 +501,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/02/nprbrightspotcdn.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/blue-moon/",
       "theater": "Theatro Circo"
@@ -521,7 +521,7 @@
     "age_min": 14,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -544,7 +544,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/ROMEU-E-JULIETA-2-1-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/romeu-julieta-mar-2/",
       "theater": "Theatro Circo"
@@ -570,7 +570,7 @@
     "age_min": 12,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -603,7 +603,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/Open-call-Assimetrico-Beatriz-Valentim.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/supracasa-open-call-laboratorio-assimetrico/",
       "theater": "Theatro Circo"
@@ -619,7 +619,7 @@
     "subtitle": "com Beatriz Valentim",
     "date_end": "2026-04-09",
     "schedule": "11h00",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -642,7 +642,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/AMADEOS_Paulo-Pimenta-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/amadeos/",
       "theater": "Theatro Circo"
@@ -666,7 +666,7 @@
     "age_min": 6,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -689,7 +689,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/Rakhi-Singh-Press-Portrait-22-2-Robin-Clewley-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/contraponto-gorecki-adams/",
       "theater": "Theatro Circo"
@@ -707,7 +707,7 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -730,7 +730,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/entroncamento1.jpeg",
       "credit": null,
       "source": "https://theatrocirco.com/event/entroncamento/",
       "theater": "Theatro Circo"
@@ -746,7 +746,7 @@
     "sala": "Pequeno Auditório",
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -804,7 +804,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/TC_EfeitoImagem_Mobile_ANIVERSARIO_2026_V210.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/111-aniversario-theatro-circo/",
       "theater": "Theatro Circo"
@@ -823,7 +823,7 @@
     "date_end": "2026-04-24",
     "schedule": "21h30",
     "sala": "Pequeno Auditório",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -846,7 +846,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/TC_EfeitoImagem_Mobile_ANIVERSARIO_2026_V2-1.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/capra/",
       "theater": "Theatro Circo"
@@ -874,7 +874,7 @@
     "duration_min": 90,
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -897,7 +897,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/TC_ImagemWeb_Horizontal_ANIVERSARIO_2026_AF2-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/historias-de-sonho/",
       "theater": "Theatro Circo"
@@ -915,7 +915,7 @@
     "schedule": "11h30",
     "duration": "35 min.",
     "duration_min": 35,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -938,7 +938,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/TC_ImagemWeb_Horizontal_ANIVERSARIO_2026_AF3-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/elisabete-matos-maciej-pikulski-pedro-ribeiro/",
       "theater": "Theatro Circo"
@@ -960,7 +960,7 @@
     "age_min": 6,
     "price_min": 15.0,
     "price_max": 15.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -983,7 +983,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/09/TC_ImagemWeb_Horizontal_ANIVERSARIO_2026_AF4-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/tortoise/",
       "theater": "Theatro Circo"
@@ -1006,7 +1006,7 @@
     "age_min": 6,
     "price_min": 20.0,
     "price_max": 20.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1029,7 +1029,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/o-barqueiro-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/o-barqueiro/",
       "theater": "Theatro Circo"
@@ -1047,7 +1047,7 @@
     "age_min": 16,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1070,7 +1070,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/TC_ImagemWeb_Horizontal_ANIVERSARIO_2026_AF5-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/a-garota-nao/",
       "theater": "Theatro Circo"
@@ -1093,7 +1093,7 @@
     "age_min": 6,
     "price_min": 25.0,
     "price_max": 25.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1116,7 +1116,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/TC_ImagemWeb_Horizontal_ANIVERSARIO_2026_AF6-1-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/formas-de-fazer-nina-laisne/",
       "theater": "Theatro Circo"
@@ -1139,7 +1139,7 @@
     "duration_min": 120,
     "age_rating": "M/16",
     "age_min": 16,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1162,7 +1162,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/TC_ImagemWeb_Horizontal_ANIVERSARIO_2026_AF9-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/nina-laisne-nestor-pastorive/",
       "theater": "Theatro Circo"
@@ -1194,7 +1194,7 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1217,7 +1217,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/dj-ahmet-1.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/dj-ahmet/",
       "theater": "Theatro Circo"
@@ -1237,7 +1237,7 @@
     "age_min": 12,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1265,7 +1265,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/12/Miguel-Araujo_hor.png",
       "credit": null,
       "source": "https://theatrocirco.com/event/miguel-araujo/",
       "theater": "Theatro Circo"
@@ -1288,7 +1288,7 @@
     "age_min": 6,
     "price_min": 40.0,
     "price_max": 40.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1311,7 +1311,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/Os-Transparentes-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/os-transparentes/",
       "theater": "Theatro Circo"
@@ -1337,7 +1337,7 @@
     "age_min": 12,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1410,7 +1410,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/O34A3402.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/index-2026/",
       "theater": "Theatro Circo"
@@ -1423,7 +1423,7 @@
     "accessibility": [],
     "subtitle": "Bienal de Arte e Tecnologia",
     "date_end": "2026-05-17",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1496,7 +1496,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/credits-Helena-Roig-2-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/index-fanfictional-politics-pedro-gossler/",
       "theater": "Theatro Circo"
@@ -1510,7 +1510,7 @@
     "subtitle": "Pedro Gossler",
     "date_end": "2026-05-17",
     "schedule": "14h30",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1583,7 +1583,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/Video-Stills_Shuang-Li_AETHER_2-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/index-aether-poor-objects/",
       "theater": "Theatro Circo"
@@ -1599,7 +1599,7 @@
     "subtitle": "Shuang Li",
     "date_end": "2026-05-17",
     "schedule": "14h30",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1622,7 +1622,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/Cred-Aala-Nyman-Drifts-festival-4.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/index-forensis-bill-kouligas/",
       "theater": "Theatro Circo"
@@ -1642,7 +1642,7 @@
     "age_min": 6,
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1665,7 +1665,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/Supersilent-e-Lawrence_Horizontal-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/index-supersilent-lawrence-abu-hamdan/",
       "theater": "Theatro Circo"
@@ -1683,7 +1683,7 @@
     "age_min": 6,
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1706,7 +1706,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/06-cred-Dajana-Lothert_Tanz-im-August-HAU-Hebbel-am-Ufer.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/index-arkadi-zaides/",
       "theater": "Theatro Circo"
@@ -1724,7 +1724,7 @@
     "age_min": 6,
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1757,7 +1757,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/AMERICAN-BLUES.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/american-blues-mai/",
       "theater": "Theatro Circo"
@@ -1784,7 +1784,7 @@
     "age_min": 12,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1812,7 +1812,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/01/Frenesim-Saber-ir-ao-fundo-2-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/saber-ir-ao-fundo/",
       "theater": "Theatro Circo"
@@ -1835,7 +1835,7 @@
     "age_min": 3,
     "price_min": 2.5,
     "price_max": 2.5,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1858,7 +1858,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/MULHERES-ESTRANGEIRAS.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/mulheres-estrangeiras/",
       "theater": "Theatro Circo"
@@ -1881,7 +1881,7 @@
     "duration_min": 55,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1909,7 +1909,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/Fotografia-por-Joao-Cunha-4-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/xxxv-fitu-bracara-avgvsta/",
       "theater": "Theatro Circo"
@@ -1928,7 +1928,7 @@
     "sala": "Sala Principal",
     "age_rating": "M/6",
     "age_min": 6,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1951,7 +1951,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/HE_Habitar_cartaz_final_pub.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/habitar-hotel-europa/",
       "theater": "Theatro Circo"
@@ -1980,7 +1980,7 @@
     "sala": "Sala Principal",
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2003,7 +2003,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/MMO-DIREITOS-RESERVADOS.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/contexto-antoniobritoguterres-mariamanueloliveira/",
       "theater": "Theatro Circo"
@@ -2018,7 +2018,7 @@
     "tags": [],
     "accessibility": [],
     "subtitle": "António Brito Guterres e Maria Manuel Oliveira",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2041,7 +2041,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/Untitled-design-9.png",
       "credit": null,
       "source": "https://theatrocirco.com/event/contraponto-orquestra-do-algarve/",
       "theater": "Theatro Circo"
@@ -2062,7 +2062,7 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2085,7 +2085,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/CF006025_HIGH-RES-J_natan-Gr_tarsson-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/a-winged-victory-for-the-sullen/",
       "theater": "Theatro Circo"
@@ -2102,7 +2102,7 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2150,7 +2150,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/250207_theatro_circo_oru_kami_fotografia_lais_pereira-9-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/oru-kami-garibambi/",
       "theater": "Theatro Circo"
@@ -2177,7 +2177,7 @@
     "duration_min": 35,
     "price_min": 3.0,
     "price_max": 3.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2205,7 +2205,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/theatro-circo-sala-principal-6-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/chamada-aberta-ao-publico-do-theatro-circo/",
       "theater": "Theatro Circo"
@@ -2217,7 +2217,7 @@
     "tags": [],
     "accessibility": [],
     "date_end": "2026-10-31",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2240,7 +2240,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/20240524_LaurieAnderson_EbruYildiz_355_300DPI-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/laurie-anderson/",
       "theater": "Theatro Circo"
@@ -2262,7 +2262,7 @@
     "age_min": 6,
     "price_min": 30.0,
     "price_max": 30.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2290,7 +2290,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/5_BULUKU_©Marcio-Martins-_-MM-STUDIO-1024x683.png",
       "credit": null,
       "source": "https://theatrocirco.com/event/buluku/",
       "theater": "Theatro Circo"
@@ -2313,7 +2313,7 @@
     "age_min": 6,
     "price_min": 2.5,
     "price_max": 2.5,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2336,7 +2336,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/3_BULUKU_©Marcio-Martins-_-MM-STUDIO-1024x683.png",
       "credit": null,
       "source": "https://theatrocirco.com/event/o-meu-astronauta-e-o-metaverso/",
       "theater": "Theatro Circo"
@@ -2358,7 +2358,7 @@
     "age_min": 6,
     "price_min": 3.0,
     "price_max": 3.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2381,7 +2381,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/LTM-3-PC-Rita-Lino-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/the-legendary-tigerman-curtas-metragens/",
       "theater": "Theatro Circo"
@@ -2404,7 +2404,7 @@
     "age_min": 6,
     "price_min": 2.5,
     "price_max": 2.5,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2427,7 +2427,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/Lucrecia-Dalt-A-Danger-to-Ourselves-Photo-03-Louie-Perea-1-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/lucrecia-dalt/",
       "theater": "Theatro Circo"
@@ -2448,7 +2448,7 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2471,7 +2471,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/CRED-JOAO-OCTAVIO-PEIXOTO-2-1-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/jose-afonso-ao-vivo-nos-coliseus-1983/",
       "theater": "Theatro Circo"
@@ -2506,7 +2506,7 @@
     "age_min": 12,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2529,7 +2529,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/CRED-MARIANA-MALTONI-4-horizontal-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/carminho-eu-vou-morrer-de-amor-ou-resistir/",
       "theater": "Theatro Circo"
@@ -2550,7 +2550,7 @@
     "age_min": 6,
     "price_min": 25.0,
     "price_max": 25.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2573,7 +2573,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/Omniae-Large-Ensemble-horizontal-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/formas-de-fazer-pedro-melo-alves/",
       "theater": "Theatro Circo"
@@ -2590,7 +2590,7 @@
     "subtitle": "Com Pedro Melo Alves",
     "duration": "90 min.",
     "duration_min": 90,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2613,7 +2613,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/CRED-PORTA-253-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/indigo-quintet/",
       "theater": "Theatro Circo"
@@ -2635,7 +2635,7 @@
     "age_min": 6,
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2658,7 +2658,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/241122_theatro_circo_circuito_o_senhor_george_ph_lais_pereira-22-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/cinema-play-possivel-e-impossivel/",
       "theater": "Theatro Circo"
@@ -2681,7 +2681,7 @@
     "age_min": 3,
     "price_min": 1.5,
     "price_max": 1.5,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2739,7 +2739,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/MIT26-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/v-mit-mostra-internacional-de-teatro-sem-fronteiras/",
       "theater": "Theatro Circo"
@@ -2753,7 +2753,7 @@
     "tags": [],
     "accessibility": [],
     "date_end": "2026-07-25",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2781,7 +2781,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/CTB_-HAMLET-26-1.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/hamlet-jul2026/",
       "theater": "Theatro Circo"
@@ -2805,7 +2805,7 @@
     "age_min": 12,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2833,7 +2833,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/cr1000562-ab7ed8.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/as-correntes-de-joao-cesar-monteiro/",
       "theater": "Theatro Circo"
@@ -2852,7 +2852,7 @@
     "sala": "Pequeno Auditório",
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2875,7 +2875,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/Veredas-de-Joao-Cesar-Monteiro.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/veredas/",
       "theater": "Theatro Circo"
@@ -2895,7 +2895,7 @@
     "age_min": 12,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2918,7 +2918,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/Silvestre.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/silvestre/",
       "theater": "Theatro Circo"
@@ -2938,7 +2938,7 @@
     "age_min": 12,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2961,7 +2961,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/a-flor-do-mar.png",
       "credit": null,
       "source": "https://theatrocirco.com/event/a-flor-do-mar/",
       "theater": "Theatro Circo"
@@ -2981,7 +2981,7 @@
     "age_min": 12,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3004,7 +3004,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/o-ultimo-mergulho.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/o-ultimo-mergulho/",
       "theater": "Theatro Circo"
@@ -3025,7 +3025,7 @@
     "age_min": 12,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3048,7 +3048,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/as-bodas-de-deus.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/as-bodas-de-deus/",
       "theater": "Theatro Circo"
@@ -3068,7 +3068,7 @@
     "age_min": 16,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {

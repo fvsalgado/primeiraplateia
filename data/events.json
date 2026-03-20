@@ -20,7 +20,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/251025_theatro_circo_tres_tempos_sessao_um_fotografia_lais_pereira-3-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/tres-tempos-2026/",
       "theater": "Theatro Circo"
@@ -38,7 +38,7 @@
     "subtitle": "Com Xullaji e Tiago Sampaio",
     "date_end": "2026-04-18",
     "schedule": "18h45",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -83,7 +83,7 @@
     "duration": "60 min",
     "duration_min": 60,
     "age_min": 351,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
     "_meta": {
@@ -133,7 +133,7 @@
       "figurinos": "Filipe Faísca Desenho de luz Nuno Meira",
       "música": "original Artur Guimarães Sonoplastia Rui Santos Vídeo João Alves Assistência de"
     },
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
@@ -183,7 +183,7 @@
       "cenografia": "FPSolutions Fotografia de cartaz Pedro Macedo – Framed Photos Fotografia de cena Alípio Padilha",
       "produção": "executiva Teatro do Vão"
     },
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
@@ -246,7 +246,7 @@
       "autor": "Suzie Miller é uma dramaturga e argumentista contemporânea, vencedora de diversos prémios internacionais. Gosta de histórias humanas complexas que frequentemente versam a injustiça. Trabalha em Londres, no Reino Unido, e em Sydney, na Austrália, mas a sua obra tem sido apresentada em todo o mundo. T",
       "dramaturgia": "no National Institute of Dramatic Art , na Austrália. Play Avenida Frei Miguel Contreiras, 52, 1700-213, Lisboa Horário da Bilheteira Segunda – Sábado 17h30 às 21h30 Domingo — 15h30 às 18h30 *Horários em vigor em dias de espectáculo. Horário sujeito a alterações. Reservas e informações de bilheteira"
     },
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
@@ -274,7 +274,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/Musica_de_camara_@Lais-Pereira-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/ciclo-musica-de-camara-universidade-do-minho/",
       "theater": "Theatro Circo"
@@ -293,7 +293,7 @@
     "schedule": "18h00",
     "age_rating": "M/6",
     "age_min": 6,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -400,7 +400,7 @@
       "interpretação": "Cucha Carvalheiro, David Esteves, Fernando Luís, Madalena Almeida, Manuela Couto, Virgílio Castelo e Duarte Romão e Laura Garnel (alunos finalistas da ESTC)",
       "coprodução": "Culturproject, Teatro Municipal Joaquim Benite e São Luiz Teatro Municipal Projeto apoiado por República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes"
     },
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -447,7 +447,7 @@
       "interpretação": "Ana Guiomar, Cristóvão Campos, Ruben Madureira e Sandra Faleiro",
       "elenco": "Ana Guiomar, Cristóvão Campos, Ruben Madureira e Sandra Faleiro, “Uma Ideia Genial” conta a história hilariante de uma personagem que se multiplica em três, cada uma com as suas características e perplexidades. Atrações, ciúmes, suspeitas e destinos cruzados criam uma sucessão de mal-entendidos e um"
     },
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
@@ -484,7 +484,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -589,7 +589,7 @@
       "produção": "Fátima Santos Filipe Difusão João Vaz Silva",
       "coprodução": "O Fim do Teatro, Casa Varela, Teatro-Cine de Pombal e São Luiz Teatro Municipal Parceria RTP Palco Apoio Largo Residências Media partner Radar 97.8 FM AGRADECIMENTOS Chão de Oliva, Elsa Lago Matos e Luiz Quaresma"
     },
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -633,7 +633,7 @@
       "direção": "Luís Vieira e Rute Ribeiro",
       "coprodução": "LU.CA – Teatro Luís de Camões, Teatro Nacional D. Maria II, Centro Cultural de Belém e São Luiz Teatro Municipal /// A Tarumba é uma estrutura financiada por República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes"
     },
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -656,7 +656,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/02/Untitled-design-2-1.png",
       "credit": null,
       "source": "https://theatrocirco.com/event/apresentacao-tres-tempos/",
       "theater": "Theatro Circo"
@@ -676,7 +676,7 @@
     "sala": "Pequeno Auditório",
     "age_rating": "M/6",
     "age_min": 6,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -699,7 +699,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/Yerai_Cortes_©Dani_Pujate.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/yerai-cortes/",
       "theater": "Theatro Circo"
@@ -719,7 +719,7 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -742,7 +742,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/02/MariaVitoria_03_2025-09-17-152548_kfvi-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/maria-vitoria/",
       "theater": "Theatro Circo"
@@ -760,7 +760,7 @@
     "age_min": 14,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -800,7 +800,7 @@
     "age_rating": "M1770",
     "age_min": 1770,
     "sala": "Sala Bernardo Sassetti",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -823,7 +823,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/FOTOGRAMA_4_0000000020281292.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/la-guitarra-flamenca-de-yerai-cortes/",
       "theater": "Theatro Circo"
@@ -845,7 +845,7 @@
     "age_min": 6,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -892,7 +892,7 @@
     "duration": "120 min",
     "duration_min": 120,
     "age_min": 12,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
     "_meta": {
@@ -938,7 +938,7 @@
       "produção": "Executiva Marisa Coelho Gestão Financeira Nuno Pratas",
       "coprodução": "Associação Bo Dixam Bai, Associação Palavrão, Centro Cultural de Belém, Cineteatro Louletano e Culturproject"
     },
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
     "_meta": {
@@ -961,7 +961,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/Conversa-Jantar©Filipe-Ferreira2.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/conversa-jantar-sara-ines-gigante/",
       "theater": "Theatro Circo"
@@ -978,7 +978,7 @@
     "accessibility": [],
     "subtitle": "Celebração do Dia Mundial do Teatro",
     "schedule": "19h00",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1015,7 +1015,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -1062,7 +1062,7 @@
     "duration": "120 min",
     "duration_min": 120,
     "age_min": 12,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -1110,7 +1110,7 @@
     "technical_sheet": {
       "produção": "São Luiz Teatro Municipal"
     },
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -1149,7 +1149,7 @@
     "duration_min": 1,
     "age_rating": "Consultar a classificação dos espetáculos",
     "sala": "Vários espaços do Teatro",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -1172,7 +1172,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/Popular_1287_med©Filipe-Ferreira-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/popular/",
       "theater": "Theatro Circo"
@@ -1191,8 +1191,8 @@
       "produção": "Leonardo Garibaldi, Joana Silva"
     },
     "tags": [
-      "Acessibilidade",
-      "Dia Mundial do Teatro"
+      "Dia Mundial do Teatro",
+      "Acessibilidade"
     ],
     "accessibility": [
       "LGP",
@@ -1207,7 +1207,7 @@
     "age_min": 14,
     "price_min": 5.0,
     "price_max": 5.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1230,7 +1230,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/250301_theatro_circo_companhia_de_espectadores_contos_de_kafka_fotografia_lais_pereira-35-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/companhia-de-espectadores-mar2026/",
       "theater": "Theatro Circo"
@@ -1248,7 +1248,7 @@
     "accessibility": [],
     "subtitle": "Biografia e Autoficção",
     "schedule": "11h00",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1271,7 +1271,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/250828_theatro_circo_visita_guiada_lgp-25-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/visita-guiada-ao-theatro-circo-mar2026/",
       "theater": "Theatro Circo"
@@ -1287,7 +1287,7 @@
     "duration_min": 45,
     "price_min": 3.5,
     "price_max": 3.5,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1310,7 +1310,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/Dora-Morelembaum2-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/dora-morelenbaum/",
       "theater": "Theatro Circo"
@@ -1330,7 +1330,7 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1353,7 +1353,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/02/nprbrightspotcdn.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/blue-moon/",
       "theater": "Theatro Circo"
@@ -1373,7 +1373,7 @@
     "age_min": 14,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1396,7 +1396,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/ROMEU-E-JULIETA-2-1-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/romeu-julieta-mar-2/",
       "theater": "Theatro Circo"
@@ -1422,7 +1422,7 @@
     "age_min": 12,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1470,7 +1470,7 @@
       "luz": "Rui Seabra; Desenho de som: Paulo Abelho; Costureira: RosÃ¡rio Balbi; ConstruÃ§Ã£o de cenÃ¡rio: FÃ¡bio Paulo; OperaÃ§Ã£o de luz: AntÃ³nio SerrÃ£o e JoÃ£o Madeira; OperaÃ§Ã£o de som: Vasco Maciel; Chef",
       "dramaturgia": "LuÃ­sa Costa Gomes 2015 | QUATRO SANTOS EM TRÃS ACTOS libreto de Gertrude Stein e muÌsica de Virgil Thomson TraducÌ§aÌo e"
     },
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "teatrodobairro",
     "city": "Lisboa",
     "_meta": {
@@ -1507,7 +1507,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -1557,7 +1557,7 @@
       "produção": "Janice Mayamona Apoio Técnico: Léo Emílio Contabilidade: Irene Gaspar Comunicação e Design Gráfico: Natacha Ventura Comunicação Digital: Miguel Durão Hilário Registo em vídeo: Bruno Canas Costureira: Teresa Matos Assessoria de imprensa: Canal Aberto – Márcia Marques, Daniele Valério e Carina Bordalo",
       "autor": "diz-nos que há algo de sinistro numa mulher que só usa roupa uma vez. Como haverá, dizemos nós, algo de identicamente sinistro em vestir sempre a mesma roupa. É igual com o amor. Há algo pecaminoso em vestir-nos de amor uma vez e de novamente repetir a dose. Ao entrar para dentro do círculo amoroso,"
     },
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
@@ -1590,7 +1590,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/Open-call-Assimetrico-Beatriz-Valentim.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/supracasa-open-call-laboratorio-assimetrico/",
       "theater": "Theatro Circo"
@@ -1606,7 +1606,7 @@
     "subtitle": "com Beatriz Valentim",
     "date_end": "2026-04-09",
     "schedule": "11h00",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1643,7 +1643,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -1706,7 +1706,7 @@
       "produção": "Frederico Barata",
       "coprodução": "auéééu e São Luiz Teatro Municipal Apoios SPA, Junta de Freguesia de Santo António, Casa da Comarca de Arganil, MTC, os nossos putos Agradecimentos Eva Baudry, Filipe Andrade, Fernando Roussado, auéééu teatro"
     },
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -1729,7 +1729,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/AMADEOS_Paulo-Pimenta-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/amadeos/",
       "theater": "Theatro Circo"
@@ -1753,7 +1753,7 @@
     "age_min": 6,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1790,7 +1790,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -1867,7 +1867,7 @@
       "produção": "Vanessa Amaral Produção Associação Orí – Negritudes em Convergência Espiralar",
       "coprodução": "Bolsa de Criação O Espaço do Tempo com apoio do Banco BPI e Fundação “la Caixa” /// Projeto financiado por República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes Apoios Biblioteca de Alcântara, Câmara Municipal de Almada, Câmara Municipal da Moita, RDP África, Buala"
     },
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -1890,7 +1890,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/Rakhi-Singh-Press-Portrait-22-2-Robin-Clewley-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/contraponto-gorecki-adams/",
       "theater": "Theatro Circo"
@@ -1908,7 +1908,7 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -1945,7 +1945,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -1985,7 +1985,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Bernardo Sassetti",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -2008,7 +2008,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/entroncamento1.jpeg",
       "credit": null,
       "source": "https://theatrocirco.com/event/entroncamento/",
       "theater": "Theatro Circo"
@@ -2024,7 +2024,7 @@
     "sala": "Pequeno Auditório",
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2068,7 +2068,7 @@
       "produção": "Canário Bonacheirão",
       "coprodução": "Canário Bonacheirão e São Luiz Teatro Municipal"
     },
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -2105,7 +2105,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -2163,7 +2163,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/TC_EfeitoImagem_Mobile_ANIVERSARIO_2026_V210.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/111-aniversario-theatro-circo/",
       "theater": "Theatro Circo"
@@ -2182,7 +2182,7 @@
     "date_end": "2026-04-24",
     "schedule": "21h30",
     "sala": "Pequeno Auditório",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2205,7 +2205,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/TC_EfeitoImagem_Mobile_ANIVERSARIO_2026_V2-1.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/capra/",
       "theater": "Theatro Circo"
@@ -2233,7 +2233,7 @@
     "duration_min": 90,
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2256,7 +2256,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/TC_ImagemWeb_Horizontal_ANIVERSARIO_2026_AF2-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/historias-de-sonho/",
       "theater": "Theatro Circo"
@@ -2274,7 +2274,7 @@
     "schedule": "11h30",
     "duration": "35 min.",
     "duration_min": 35,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2297,7 +2297,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/TC_ImagemWeb_Horizontal_ANIVERSARIO_2026_AF3-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/elisabete-matos-maciej-pikulski-pedro-ribeiro/",
       "theater": "Theatro Circo"
@@ -2319,7 +2319,7 @@
     "age_min": 6,
     "price_min": 15.0,
     "price_max": 15.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2356,7 +2356,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -2396,7 +2396,7 @@
     "age_rating": "M1770",
     "age_min": 1770,
     "sala": "Sala Bernardo Sassetti",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -2419,7 +2419,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/09/TC_ImagemWeb_Horizontal_ANIVERSARIO_2026_AF4-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/tortoise/",
       "theater": "Theatro Circo"
@@ -2442,7 +2442,7 @@
     "age_min": 6,
     "price_min": 20.0,
     "price_max": 20.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2465,7 +2465,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/o-barqueiro-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/o-barqueiro/",
       "theater": "Theatro Circo"
@@ -2483,7 +2483,7 @@
     "age_min": 16,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2530,7 +2530,7 @@
       "figurinos": "Giovanna Moretto",
       "produção": "e"
     },
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
@@ -2553,7 +2553,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/TC_ImagemWeb_Horizontal_ANIVERSARIO_2026_AF5-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/a-garota-nao/",
       "theater": "Theatro Circo"
@@ -2576,7 +2576,7 @@
     "age_min": 6,
     "price_min": 25.0,
     "price_max": 25.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2642,7 +2642,7 @@
       "produção": "Loup Solitaire",
       "coprodução": "Teatro Virgínia, Casa das Artes de Vila Nova de Famalicão, Teatro Diogo Bernardes, Teatro Gil Vicente e São Luiz Teatro Municipal /// A Loup Solitaire é uma estrutura financiada pela República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes"
     },
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -2665,7 +2665,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/TC_ImagemWeb_Horizontal_ANIVERSARIO_2026_AF6-1-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/formas-de-fazer-nina-laisne/",
       "theater": "Theatro Circo"
@@ -2688,7 +2688,7 @@
     "duration_min": 120,
     "age_rating": "M/16",
     "age_min": 16,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2730,7 +2730,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -2786,7 +2786,7 @@
       "coprodução": "Teatro-Cine Torres Vedras"
     },
     "sala": "Auditório Emílio Rui Vilar",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "culturgest",
     "city": "Lisboa",
     "_meta": {
@@ -2835,7 +2835,7 @@
       "produção": "Martim Pedroso",
       "música": "Dan Gillespie Sells"
     },
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
@@ -2858,7 +2858,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/TC_ImagemWeb_Horizontal_ANIVERSARIO_2026_AF9-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/nina-laisne-nestor-pastorive/",
       "theater": "Theatro Circo"
@@ -2890,7 +2890,7 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2913,7 +2913,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/dj-ahmet-1.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/dj-ahmet/",
       "theater": "Theatro Circo"
@@ -2933,7 +2933,7 @@
     "age_min": 12,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -2997,7 +2997,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Luis Miguel Cintra e sala Bernardo Sassetti",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -3025,7 +3025,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/12/Miguel-Araujo_hor.png",
       "credit": null,
       "source": "https://theatrocirco.com/event/miguel-araujo/",
       "theater": "Theatro Circo"
@@ -3048,7 +3048,7 @@
     "age_min": 6,
     "price_min": 40.0,
     "price_max": 40.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3097,7 +3097,7 @@
       "produção": "– Tenda Produções Ana Delgado",
       "música": "Dan Gillespie Sells"
     },
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
@@ -3134,7 +3134,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -3171,7 +3171,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -3208,7 +3208,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -3231,7 +3231,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/Os-Transparentes-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/os-transparentes/",
       "theater": "Theatro Circo"
@@ -3257,7 +3257,7 @@
     "age_min": 12,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3349,7 +3349,7 @@
     "duration": "70 min",
     "duration_min": 70,
     "age_min": 14,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
     "_meta": {
@@ -3396,7 +3396,7 @@
       "direção": "Luís Vieira e Rute Ribeiro",
       "coprodução": "LU.CA – Teatro Luís de Camões, Teatro Nacional D. Maria II, Centro Cultural de Belém e São Luiz Teatro Municipal /// A Tarumba é uma estrutura financiada por República Portuguesa – Cultura / Direção-Geral das Artes"
     },
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -3469,7 +3469,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/O34A3402.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/index-2026/",
       "theater": "Theatro Circo"
@@ -3482,7 +3482,7 @@
     "accessibility": [],
     "subtitle": "Bienal de Arte e Tecnologia",
     "date_end": "2026-05-17",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3555,7 +3555,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/credits-Helena-Roig-2-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/index-fanfictional-politics-pedro-gossler/",
       "theater": "Theatro Circo"
@@ -3569,7 +3569,7 @@
     "subtitle": "Pedro Gossler",
     "date_end": "2026-05-17",
     "schedule": "14h30",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3642,7 +3642,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/Video-Stills_Shuang-Li_AETHER_2-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/index-aether-poor-objects/",
       "theater": "Theatro Circo"
@@ -3658,7 +3658,7 @@
     "subtitle": "Shuang Li",
     "date_end": "2026-05-17",
     "schedule": "14h30",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3681,7 +3681,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/Cred-Aala-Nyman-Drifts-festival-4.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/index-forensis-bill-kouligas/",
       "theater": "Theatro Circo"
@@ -3701,7 +3701,7 @@
     "age_min": 6,
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3724,7 +3724,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/Supersilent-e-Lawrence_Horizontal-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/index-supersilent-lawrence-abu-hamdan/",
       "theater": "Theatro Circo"
@@ -3742,7 +3742,7 @@
     "age_min": 6,
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3779,7 +3779,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -3802,7 +3802,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/06-cred-Dajana-Lothert_Tanz-im-August-HAU-Hebbel-am-Ufer.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/index-arkadi-zaides/",
       "theater": "Theatro Circo"
@@ -3820,7 +3820,7 @@
     "age_min": 6,
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3853,7 +3853,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/AMERICAN-BLUES.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/american-blues-mai/",
       "theater": "Theatro Circo"
@@ -3880,7 +3880,7 @@
     "age_min": 12,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3921,7 +3921,7 @@
       "elenco": "João Vasco. Actualmente em itinerância, Sinédoque estreou em 2023 e foi apresentado em Portugal, Tunísia, Cabo Verde, Brasil, França e Angola. Avenida Frei Miguel Contreiras, 52, 1700-213, Lisboa Horário da Bilheteira Segunda – Sábado 17h30 às 21h30 Domingo — 15h30 às 18h30 *Horários em vigor em dia",
       "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
     },
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
@@ -3949,7 +3949,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/01/Frenesim-Saber-ir-ao-fundo-2-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/saber-ir-ao-fundo/",
       "theater": "Theatro Circo"
@@ -3972,7 +3972,7 @@
     "age_min": 3,
     "price_min": 2.5,
     "price_max": 2.5,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -3995,7 +3995,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/MULHERES-ESTRANGEIRAS.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/mulheres-estrangeiras/",
       "theater": "Theatro Circo"
@@ -4018,7 +4018,7 @@
     "duration_min": 55,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -4067,7 +4067,7 @@
       "coprodução": "Má-Criação, Fundação Caixa Geral de Depósitos- Culturgest, Planetário do Porto – Centro Ciência Viva / U. Porto"
     },
     "sala": "",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "culturgest",
     "city": "Lisboa",
     "_meta": {
@@ -4095,7 +4095,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/Fotografia-por-Joao-Cunha-4-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/xxxv-fitu-bracara-avgvsta/",
       "theater": "Theatro Circo"
@@ -4114,7 +4114,7 @@
     "sala": "Sala Principal",
     "age_rating": "M/6",
     "age_min": 6,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -4151,7 +4151,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -4233,7 +4233,7 @@
       "luz": "Ângela Bismarck",
       "coprodução": "CCB/Fábrica das Artes Apoio Fundo Cultural da Sociedade Portuguesa de Autores Apoio à investigação Tribunal Constitucional Projeto criado no âmbito da parceria Centro Cultural de Belém/Fábrica das Artes e Assembleia da República. Imagem ©Assembleia da República Ilustração de Mantr"
     },
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
     "_meta": {
@@ -4270,7 +4270,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -4322,7 +4322,7 @@
     "duration": "50 min",
     "duration_min": 50,
     "age_min": 6,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
     "_meta": {
@@ -4374,7 +4374,7 @@
     "duration": "50 min",
     "duration_min": 50,
     "age_min": 6,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -4426,7 +4426,7 @@
       "luz": "Pedro Guimarães",
       "produção": "Xana Lagusi"
     },
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -4449,7 +4449,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/HE_Habitar_cartaz_final_pub.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/habitar-hotel-europa/",
       "theater": "Theatro Circo"
@@ -4478,7 +4478,7 @@
     "sala": "Sala Principal",
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -4501,7 +4501,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/MMO-DIREITOS-RESERVADOS.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/contexto-antoniobritoguterres-mariamanueloliveira/",
       "theater": "Theatro Circo"
@@ -4516,7 +4516,7 @@
     "tags": [],
     "accessibility": [],
     "subtitle": "António Brito Guterres e Maria Manuel Oliveira",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -4539,7 +4539,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/Untitled-design-9.png",
       "credit": null,
       "source": "https://theatrocirco.com/event/contraponto-orquestra-do-algarve/",
       "theater": "Theatro Circo"
@@ -4560,7 +4560,7 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -4583,7 +4583,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/CF006025_HIGH-RES-J_natan-Gr_tarsson-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/a-winged-victory-for-the-sullen/",
       "theater": "Theatro Circo"
@@ -4600,7 +4600,7 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -4637,7 +4637,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -4685,7 +4685,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/250207_theatro_circo_oru_kami_fotografia_lais_pereira-9-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/oru-kami-garibambi/",
       "theater": "Theatro Circo"
@@ -4712,7 +4712,7 @@
     "duration_min": 35,
     "price_min": 3.0,
     "price_max": 3.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -4740,7 +4740,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/theatro-circo-sala-principal-6-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/chamada-aberta-ao-publico-do-theatro-circo/",
       "theater": "Theatro Circo"
@@ -4752,7 +4752,7 @@
     "tags": [],
     "accessibility": [],
     "date_end": "2026-10-31",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -4775,7 +4775,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/20240524_LaurieAnderson_EbruYildiz_355_300DPI-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/laurie-anderson/",
       "theater": "Theatro Circo"
@@ -4797,7 +4797,7 @@
     "age_min": 6,
     "price_min": 30.0,
     "price_max": 30.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -4844,7 +4844,7 @@
     "duration": "90 min",
     "duration_min": 90,
     "age_min": 351,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
     "_meta": {
@@ -4936,7 +4936,7 @@
       "produção": "André Camilo",
       "coprodução": "Camarote Produções e São Luiz Teatro Municipal"
     },
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -4964,7 +4964,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/5_BULUKU_©Marcio-Martins-_-MM-STUDIO-1024x683.png",
       "credit": null,
       "source": "https://theatrocirco.com/event/buluku/",
       "theater": "Theatro Circo"
@@ -4987,7 +4987,7 @@
     "age_min": 6,
     "price_min": 2.5,
     "price_max": 2.5,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -5034,7 +5034,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -5073,7 +5073,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Luis Miguel Cintra",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -5096,7 +5096,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/3_BULUKU_©Marcio-Martins-_-MM-STUDIO-1024x683.png",
       "credit": null,
       "source": "https://theatrocirco.com/event/o-meu-astronauta-e-o-metaverso/",
       "theater": "Theatro Circo"
@@ -5118,7 +5118,7 @@
     "age_min": 6,
     "price_min": 3.0,
     "price_max": 3.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -5141,7 +5141,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/LTM-3-PC-Rita-Lino-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/the-legendary-tigerman-curtas-metragens/",
       "theater": "Theatro Circo"
@@ -5164,7 +5164,7 @@
     "age_min": 6,
     "price_min": 2.5,
     "price_max": 2.5,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -5209,7 +5209,7 @@
       "produção": "Inês Pinto",
       "coprodução": "A Oficina/Centro Cultural Vila Flor , RTP – Rádio e Televisão de Portugal , Teatro Diogo Bernardes e Teatro das Figuras"
     },
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
     "_meta": {
@@ -5249,7 +5249,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Bernardo Sassetti",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -5272,7 +5272,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/Lucrecia-Dalt-A-Danger-to-Ourselves-Photo-03-Louie-Perea-1-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/lucrecia-dalt/",
       "theater": "Theatro Circo"
@@ -5293,7 +5293,7 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -5332,7 +5332,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Luis Miguel Cintra",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -5374,7 +5374,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -5397,7 +5397,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/CRED-JOAO-OCTAVIO-PEIXOTO-2-1-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/jose-afonso-ao-vivo-nos-coliseus-1983/",
       "theater": "Theatro Circo"
@@ -5432,7 +5432,7 @@
     "age_min": 12,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -5474,7 +5474,7 @@
     "technical_sheet": {
       "direção": "Pedro Carneiro Violoncelo Vasco Ferrão Maestros assistentes Vasco Ferrão, Jorge Leiria"
     },
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -5515,7 +5515,7 @@
       "encenação": "Diogo Infante 19 Fev - 05 Abr 2026 BROKEBACK MOUNTAIN",
       "música": "Dan Gillespie Sells"
     },
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
@@ -5610,7 +5610,7 @@
       "luz": "Leocádia Silva",
       "produção": "Alaíde Costa Assistente de"
     },
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
     "_meta": {
@@ -5647,7 +5647,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -5703,7 +5703,7 @@
       "direção_produção": "Maria João Garcia",
       "coprodução": "Fundação de Serralves/Serralves em Festa, Citemor, Festival End, Festival Paragem e São Luiz Teatro Municipal"
     },
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -5726,7 +5726,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/CRED-MARIANA-MALTONI-4-horizontal-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/carminho-eu-vou-morrer-de-amor-ou-resistir/",
       "theater": "Theatro Circo"
@@ -5747,7 +5747,7 @@
     "age_min": 6,
     "price_min": 25.0,
     "price_max": 25.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -5838,7 +5838,7 @@
       "produção": "Razões Pessoais Residência artística Casa de Gigante",
       "coprodução": "Teatro das Figuras e São Luiz Teatro Municipal"
     },
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -5893,7 +5893,7 @@
       "produção": "Trypas-Corassão Associação Cultural",
       "coprodução": "Es Tr3s Irms é o projeto vencedor da 5ª edição da Bolsa Amélia Rey Colaço, uma iniciativa promovida pelo Teatro Nacional D. Maria II (Lisboa), A Oficina / Centro Cultural Vila Flor (Guimarães), O Espaço do Tempo (Montemor-o-Novo), e o Teatro Viriato (Viseu)."
     },
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -5952,7 +5952,7 @@
       "coprodução": "Teatro Municipal do Porto – Rivoli / Campo Alegre A mala voadora é uma estrutura financiada pelo Governo de Portugal – Ministério da Cultura / Direção-Geral das Artes"
     },
     "sala": "Auditório Emílio Rui Vilar",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "culturgest",
     "city": "Lisboa",
     "_meta": {
@@ -5975,7 +5975,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/Omniae-Large-Ensemble-horizontal-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/formas-de-fazer-pedro-melo-alves/",
       "theater": "Theatro Circo"
@@ -5992,7 +5992,7 @@
     "subtitle": "Com Pedro Melo Alves",
     "duration": "90 min.",
     "duration_min": 90,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6015,7 +6015,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/CRED-PORTA-253-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/indigo-quintet/",
       "theater": "Theatro Circo"
@@ -6037,7 +6037,7 @@
     "age_min": 6,
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6083,7 +6083,7 @@
       "produção": "Henrique Mariano",
       "coprodução": "Centro Cultural de Belém (Lisboa-Portugal), Holland Festival (Amsterdão), Festival d’Avignon (França), Edinburgh International Festival (Escócia) e DeSingel (Bélgica) Apoio UCLA’s Center for the Art of Performance e Instituto Guimarães Rosa — IGR — Ministério das Relações Exteriores do Brasi"
     },
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
     "_meta": {
@@ -6125,7 +6125,7 @@
     "duration": "150 min",
     "duration_min": 150,
     "age_min": 6,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -6166,7 +6166,7 @@
       "produção": "e Cena TdE Sílvia Moura",
       "texto": "de Ricardo Neves-Neves, o enredo é muito mais dramático, as causas mais profundas, as personagens uns canalhas desprezíveis, e o final trará o espanto. Querem ser cúmplices deste crime? Avenida Frei Miguel Contreiras, 52, 1700-213, Lisboa Horário da Bilheteira Segunda – Sábado 17h30 às 21h30 Domingo"
     },
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
@@ -6213,7 +6213,7 @@
       "interpretação": "João Reis, Margarida Carvalho, Daniel Silva, Joana Africano",
       "coprodução": "Centro Cultural de Belém, Casa das Artes de Vila Nova de Famalicão, Teatro Nacional São João"
     },
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
     "_meta": {
@@ -6236,7 +6236,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/241122_theatro_circo_circuito_o_senhor_george_ph_lais_pereira-22-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/cinema-play-possivel-e-impossivel/",
       "theater": "Theatro Circo"
@@ -6259,7 +6259,7 @@
     "age_min": 3,
     "price_min": 1.5,
     "price_max": 1.5,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6304,7 +6304,7 @@
     "duration": "120 min",
     "duration_min": 120,
     "age_min": 16,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -6363,7 +6363,7 @@
     "duration_min": 1,
     "age_rating": "A classificar pela CCE",
     "sala": "Sala Mário Viegas",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -6421,7 +6421,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/MIT26-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/v-mit-mostra-internacional-de-teatro-sem-fronteiras/",
       "theater": "Theatro Circo"
@@ -6435,7 +6435,7 @@
     "tags": [],
     "accessibility": [],
     "date_end": "2026-07-25",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6497,7 +6497,7 @@
     "duration": "90 min",
     "duration_min": 90,
     "age_min": 351,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -6525,7 +6525,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/CTB_-HAMLET-26-1.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/hamlet-jul2026/",
       "theater": "Theatro Circo"
@@ -6549,7 +6549,7 @@
     "age_min": 12,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6577,7 +6577,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/cr1000562-ab7ed8.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/as-correntes-de-joao-cesar-monteiro/",
       "theater": "Theatro Circo"
@@ -6596,7 +6596,7 @@
     "sala": "Pequeno Auditório",
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6619,7 +6619,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/Veredas-de-Joao-Cesar-Monteiro.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/veredas/",
       "theater": "Theatro Circo"
@@ -6639,7 +6639,7 @@
     "age_min": 12,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6662,7 +6662,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/Silvestre.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/silvestre/",
       "theater": "Theatro Circo"
@@ -6682,7 +6682,7 @@
     "age_min": 12,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6705,7 +6705,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/a-flor-do-mar.png",
       "credit": null,
       "source": "https://theatrocirco.com/event/a-flor-do-mar/",
       "theater": "Theatro Circo"
@@ -6725,7 +6725,7 @@
     "age_min": 12,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6772,7 +6772,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -6795,7 +6795,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/o-ultimo-mergulho.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/o-ultimo-mergulho/",
       "theater": "Theatro Circo"
@@ -6816,7 +6816,7 @@
     "age_min": 12,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6839,7 +6839,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/themes/theatrocirco/share-image.png",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/as-bodas-de-deus.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/as-bodas-de-deus/",
       "theater": "Theatro Circo"
@@ -6859,7 +6859,7 @@
     "age_min": 16,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "_meta": {
@@ -6906,7 +6906,7 @@
     "duration": "105 min",
     "duration_min": 105,
     "age_min": 351,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -6939,7 +6939,7 @@
     "age_rating": "M1770",
     "age_min": 1770,
     "sala": "Vários espaços do Teatro",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -6975,7 +6975,7 @@
     "duration": "14h30",
     "duration_min": 870,
     "age_min": 351,
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
     "_meta": {
@@ -7014,7 +7014,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Luis Miguel Cintra",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -7053,7 +7053,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Luis Miguel Cintra",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -7087,7 +7087,7 @@
     "age_rating": "M1770",
     "age_min": 1770,
     "sala": "Sala Bernardo Sassetti",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -7127,7 +7127,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Bernardo Sassetti",
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -7172,7 +7172,7 @@
     "technical_sheet": {
       "produção": "São Luiz Teatro Municipal"
     },
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -7209,7 +7209,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T21:47:40.634610+00:00",
+    "scraped_at": "2026-03-20T21:56:38.231260+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
