@@ -698,7 +698,7 @@
       <p class="footer-col-title">Sobre</p>
       <nav class="footer-col-links" aria-label="Sobre">
         <a href="../sobre/">O projecto</a>
-        <a href="mailto:fabio@primeiraplateia.pt">Contacto</a>
+        <a href="/cdn-cgi/l/email-protection#a9cfc8cbc0c6e9d9dbc0c4ccc0dbc8d9c5c8ddccc0c887d9dd">Contacto</a>
       </nav>
     </div>
     <div>
@@ -716,7 +716,7 @@
   </div>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 (function () {
   'use strict';
 
@@ -792,7 +792,8 @@
       try {
         const r = await fetch('../data/events.slim.json');
         if (r.ok) {
-          const all = await r.json();
+          const rawEv = await r.json();
+            const all = Array.isArray(rawEv) ? rawEv : (rawEv.events || rawEv);
           ev = all.find(e => e.id === eventId);
         }
       } catch (_) {}
@@ -802,7 +803,8 @@
         try {
           const r2 = await fetch('../events.json');
           if (r2.ok) {
-            const all = await r2.json();
+            const rawEv2 = await r2.json();
+            const all = Array.isArray(rawEv2) ? rawEv2 : (rawEv2.events || rawEv2);
             const found = all.find(e => e.id === eventId);
             if (found) ev = found;
           }
@@ -814,7 +816,8 @@
         try {
           const r3 = await fetch(`../data/by-theater/${ev.theater_id}.json`);
           if (r3.ok) {
-            const all = await r3.json();
+            const rawEv3 = await r3.json();
+            const all = Array.isArray(rawEv3) ? rawEv3 : (rawEv3.events || rawEv3);
             const found = all.find(e => e.id === eventId);
             if (found) ev = found;
           }
@@ -1106,7 +1109,16 @@
 
   // Footer meta
   fetch('../data/meta.json').then(r => r.ok ? r.json() : null).then(m => {
+    if
     if (!m) return;
     const fu = document.getElementById('footer-updated');
     if (fu) {
-      const diff = Math.floor((Date.now() - new Date(m.updated_at)) /
+      const diff = Math.floor((Date.now() - new Date(m.updated_at)) / 3600000);
+      fu.textContent = `Actualizado há ${diff < 1 ? 'menos de 1h' : diff + 'h'}`;
+    }
+  }).catch(() => {});
+
+})();
+</script>
+</body>
+</html>

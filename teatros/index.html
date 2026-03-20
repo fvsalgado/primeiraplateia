@@ -584,7 +584,7 @@
       <p class="footer-col-title">Sobre</p>
       <nav class="footer-col-links" aria-label="Sobre">
         <a href="../sobre/">O projecto</a>
-        <a href="mailto:fabio@primeiraplateia.pt">Contacto</a>
+        <a href="/cdn-cgi/l/email-protection#a7c1c6c5cec8e7d7d5cecac2ced5c6d7cbc6d3c2cec689d7d3">Contacto</a>
       </nav>
     </div>
     <div>
@@ -602,7 +602,7 @@
   </div>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 (function () {
   'use strict';
 
@@ -648,7 +648,8 @@
       // Teatros
       const tr = await fetch('../theaters.json');
       if (!tr.ok) throw new Error('Sem theaters.json');
-      allTheaters = await tr.json();
+      const trData = await tr.json();
+      allTheaters = Array.isArray(trData) ? trData : (trData.theaters || []);
 
       // Contagem de eventos por teatro (do meta.json)
       try {
@@ -674,7 +675,8 @@
       });
 
       applyFilters();
-    } catch (_) {
+    } catch (err) {
+      console.error('loadData error:', err);
       document.getElementById('state-error').hidden = false;
       document.getElementById('teatros-container').hidden = true;
     }
@@ -766,7 +768,7 @@
       : 'Sem espectáculos actuais';
 
     return `
-      <a class="theater-card" href="../teatros/${t.id}/" aria-label="${t.name} — ${t.city || ''}">
+      <a class="theater-card" href="${t.id}/" aria-label="${t.name} — ${t.city || ''}">
         <div class="theater-card-bar" style="background:${color}" aria-hidden="true"></div>
         <div class="theater-card-body">
           <h3 class="theater-card-name">${t.name}</h3>
@@ -786,7 +788,7 @@
     const countStr = evCount > 0 ? `${evCount} em cartaz` : '—';
 
     return `
-      <a class="theater-row" href="../teatros/${t.id}/" aria-label="${t.name} — ${t.city || ''}">
+      <a class="theater-row" href="${t.id}/" aria-label="${t.name} — ${t.city || ''}">
         <div class="theater-row-bar" style="background:${color}" aria-hidden="true"></div>
         <div class="theater-row-body">
           <span class="theater-row-name">${t.name}</span>
@@ -833,8 +835,14 @@
     currentView = 'list';
     this.classList.add('active'); this.setAttribute('aria-pressed', 'true');
     document.getElementById('view-grid').classList.remove('active');
-    document.getElementById('view-grid').setAttribute('aria-pressed', 'false');
+    document.getElementById('view-list').setAttribute('aria-pressed', 'false');
     render();
   });
 
-  /* ── Init ──────────────�
+  /* ── Init ───────────────────────────────────────────────── */
+  loadData();
+
+})();
+</script>
+</body>
+</html>

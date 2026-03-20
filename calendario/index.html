@@ -683,7 +683,7 @@
       <p class="footer-col-title">Sobre</p>
       <nav class="footer-col-links" aria-label="Sobre">
         <a href="../sobre/">O projecto</a>
-        <a href="mailto:fabio@primeiraplateia.pt">Contacto</a>
+        <a href="/cdn-cgi/l/email-protection#650304070c0a2515170c08000c170415090411000c044b1511">Contacto</a>
       </nav>
     </div>
     <div>
@@ -701,7 +701,7 @@
   </div>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 (function () {
   'use strict';
 
@@ -805,11 +805,11 @@
       let data;
       try {
         const r = await fetch('../data/events.slim.json');
-        if (r.ok) data = await r.json(); else throw new Error();
+        if (r.ok) { const raw = await r.json(); data = Array.isArray(raw) ? raw : (raw.events || raw); } else throw new Error();
       } catch (_) {
         const r2 = await fetch('../events.json');
         if (!r2.ok) throw new Error('Sem dados');
-        data = await r2.json();
+        const raw2 = await r2.json(); data = Array.isArray(raw2) ? raw2 : (raw2.events || raw2);
       }
 
       allEvents = data;
@@ -1110,7 +1110,16 @@
 
   // Meta do footer
   fetch('../data/meta.json').then(r => r.ok ? r.json() : null).then(m => {
+    if
     if (!m) return;
     const fu = document.getElementById('footer-updated');
     if (fu) {
-      const diff = Math.floor((Date.now() - new Date(m.updated_at)) /
+      const diff = Math.floor((Date.now() - new Date(m.updated_at)) / 3600000);
+      fu.textContent = `Actualizado há ${diff < 1 ? 'menos de 1h' : diff + 'h'}`;
+    }
+  }).catch(() => {});
+
+})();
+</script>
+</body>
+</html>

@@ -492,7 +492,7 @@
       <p class="footer-col-title">Sobre</p>
       <nav class="footer-col-links" aria-label="Sobre">
         <a href="../../sobre/">O projecto</a>
-        <a href="mailto:fabio@primeiraplateia.pt">Contacto</a>
+        <a href="/cdn-cgi/l/email-protection#1b7d7a7972745b6b6972767e72697a6b777a6f7e727a356b6f">Contacto</a>
       </nav>
     </div>
     <div>
@@ -510,7 +510,7 @@
   </div>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 (function () {
   'use strict';
 
@@ -586,7 +586,8 @@
     try {
       const tr = await fetch('../../theaters.json');
       if (!tr.ok) throw new Error();
-      const theaters = await tr.json();
+      const trData = await tr.json();
+      const theaters = Array.isArray(trData) ? trData : (trData.theaters || []);
       const theater = theaters.find(t => t.id === theaterId);
       if (!theater) {
         window.location.href = '/teatros/';
@@ -732,7 +733,8 @@
         try {
           const r2 = await fetch('../../data/events.slim.json');
           if (r2.ok) {
-            const all = await r2.json();
+            const raw2 = await r2.json();
+            const all = Array.isArray(raw2) ? raw2 : (raw2.events || raw2);
             events = all.filter(e => e.theater_id === theaterId);
           } else throw new Error();
         } catch (_2) {
@@ -814,9 +816,17 @@
     if (!m) return;
     const fu = document.getElementById('footer-updated');
     if (fu) fu.textContent = `Actualizado ${formatRelative(m.updated_at)}`;
+  }).catch(() =>
   }).catch(() => {});
 
   function formatRelative(iso) {
     const diff = Math.floor((Date.now() - new Date(iso)) / 3600000);
     if (diff < 1) return 'há menos de 1h';
-  
+    if (diff < 24) return `há ${diff}h`;
+    return `há ${Math.floor(diff/24)} dia${Math.floor(diff/24)!==1?'s':''}`;
+  }
+
+})();
+</script>
+</body>
+</html>
