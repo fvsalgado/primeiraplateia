@@ -205,11 +205,11 @@ def build(events_path: Path = EVENTS_PATH) -> None:
     try:
         raw = json.loads(events_path.read_text(encoding="utf-8"))
     except FileNotFoundError:
-        logger.error(f"events.json não encontrado em {events_path}")
-        sys.exit(1)
+        logger.warning(f"events.json não encontrado em {events_path} — a gerar data/ vazio")
+        raw = []
     except json.JSONDecodeError as e:
-        logger.error(f"JSON inválido: {e}")
-        sys.exit(1)
+        logger.warning(f"JSON inválido: {e} — a gerar data/ vazio")
+        raw = []
 
     # events.json pode ser lista ou dict com chave "events"
     if isinstance(raw, list):
@@ -217,8 +217,8 @@ def build(events_path: Path = EVENTS_PATH) -> None:
     elif isinstance(raw, dict):
         events = raw.get("events", [])
     else:
-        logger.error("Formato inesperado de events.json")
-        sys.exit(1)
+        logger.warning("Formato inesperado de events.json — a continuar com lista vazia")
+        events = []
 
     logger.info(f"  {len(events)} eventos lidos")
 

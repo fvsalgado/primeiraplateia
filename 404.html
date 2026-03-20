@@ -500,4 +500,25 @@
 
       document.getElementById('random-event-link').href=`espetaculo/?id=${ev.id}`;
       document.getElementById('random-event-link').setAttribute('aria-label', `${ev.title} — ${ev.theater || ''}`);
-      document.get
+      document.gett-link" href="../espetaculo/?id=${ev.id}" aria-label="${ev.title} — ${ev.theater || ''}">
+        <div class="random-event-img" id="random-event-img">
+          <div class="random-event-placeholder" aria-hidden="true">🎭</div>
+        </div>
+        <div class="random-event-info">
+          <span class="random-event-theater" id="random-theater">—</span>
+          <span class="random-event-title" id="random-title">A carregar…</span>
+          <span class="random-event-date" id="random-date"></span>
+        </div>
+      </a>`;
+      document.getElementById('random-event-link').href = `../espetaculo/?id=${ev.id}`;
+      document.getElementById('random-event-link').setAttribute('aria-label', `${ev.title} — ${ev.theater || ''}`);
+      document.getElementById('random-section').hidden = false;
+    } catch (_) {}
+  }
+
+  loadRandom();
+
+})();
+</script>
+</body>
+</html>

@@ -819,7 +819,7 @@
       <p class="footer-col-title">Sobre</p>
       <nav class="footer-col-links" aria-label="Links sobre o projecto">
         <a href="sobre/">O projecto</a>
-        <a href="mailto:fabio@primeiraplateia.pt">Contacto</a>
+        <a href="/cdn-cgi/l/email-protection#1f797e7d76705f6f6d76727a766d7e6f737e6b7a767e316f6b">Contacto</a>
       </nav>
     </div>
 
@@ -845,7 +845,7 @@
 </footer>
 
 <!-- ── SCRIPTS ─────────────────────────────────────────────────── -->
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 (function () {
   'use strict';
 
@@ -959,7 +959,8 @@
     }
 
     try {
-      const events = await fetchSlim();
+      let rawFetch = await fetchSlim();
+      const events = Array.isArray(rawFetch) ? rawFetch : (rawFetch.events || rawFetch);
       const today = new Date().toISOString().slice(0, 10);
 
       // Filtrar futuros, ordenar por next_session, pegar os primeiros 4
@@ -1014,4 +1015,11 @@
     }
   }
 
-  /* ── Init ────────────────────�
+  /* ── Init ───────────────────────────────────────────────── */
+  loadMeta();
+  loadDestaques();
+
+})();
+</script>
+</body>
+</html>
