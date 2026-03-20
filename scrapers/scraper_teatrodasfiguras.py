@@ -1,26 +1,24 @@
 """
 Scraper: Teatro das Figuras
-Fonte: https://teatrodasfiguras.pt/agenda?categories=3,15
+Fonte: https://teatrodasfiguras.pt/agenda
 Cidade: Faro
 
-Estrutura do site (HTML estático após JS render):
-  - Listagem em /agenda?categories=3,15 (categories=3 Teatro, 15 Teatro Educativo)
-  - Os eventos estão em div.events-card dentro de secções mensais
-    div.events-grid-content__month-section.
-  - Cada secção mensal tem spans com mês e ano — fonte do contexto de data.
+Estrutura do site (Next.js — HTML parcialmente renderizado no servidor):
+  - A listagem /agenda devolve HTML com os cards dos eventos.
+  - As imagens dos cards NÃO estão no HTML estático (carregadas por JS);
+    são sempre obtidas via og:image na página individual.
+  - Cada secção mensal tem spans com mês e ano.
   - Cada card tem:
-      a.events-card__link-wrapper      → URL do evento (/agenda/slug)
-      img.img--generic                 → imagem (src absoluto)
-      .events-card__body__date__start  → dia e (opcionalmente) mês abreviado
-      .events-card__body__date__schedule → horário (ex: "21h30")
-      .events-card__body__categories__main-category → categoria
-      .events-card__body__title__text  → título
-      .events-card__body__author__text → autor / subtítulo
-  - Categorias aceites: Teatro, Performance, Dança, Circo, Musical, Comédia
-  - Categorias rejeitadas na listagem: Música, Cinema, Multidisciplinar, etc.
-  - URL de bilhetes: extraída da página individual do evento.
-  - A listagem tem dados suficientes para a maioria dos campos.
-    Visita a página individual apenas para bilhetes, sinopse e ficha técnica.
+      a.events-card__link-wrapper          → URL do evento (/agenda/slug)
+      .events-card__body__date__start      → dia + mês (ex: "20" ou "05 mar")
+      .events-card__body__date__end        → dia de fim + mês (ex: "22 ago"), se existir
+      .events-card__body__date__schedule   → horário (ex: "21h30")
+      .events-card__body__categories__main-category → categoria raw
+      .events-card__body__title__text      → título
+      .events-card__body__author__text     → autor / subtítulo
+  - Sem filtro de categoria na listagem: importa-se tudo;
+    normalize_category() (schema.py) decide a categoria canónica.
+  - Página individual: og:image, sinopse, bilhetes, preço, duração, idade, ficha técnica.
 """
 
 import re
@@ -33,6 +31,7 @@ from scrapers.utils import (
     make_id, log, HEADERS, can_scrape,
     truncate_synopsis, build_image_object, build_sessions,
 )
+from scrapers.schema import normalize_category
 
 # ─────────────────────────────────────────────────────────────
 # Metadados do teatro
@@ -45,24 +44,25 @@ THEATER = {
     "city":        "Faro",
     "address":     "Rua Pedro Franque, 8000-281 Faro",
     "site":        "https://teatrodasfiguras.pt",
-    "programacao": "https://teatrodasfiguras.pt/agenda?categories=3,15",
+    "programacao": "https://teatrodasfiguras.pt/agenda",
     "lat":         37.0179,
-    "lng":         -7.9307,
+    "lng":         -9.1336,
     "salas":       ["Grande Auditório", "Pequeno Auditório"],
     "aliases":     ["teatro das figuras", "tdf", "teatro municipal de faro"],
     "description": (
         "O Teatro das Figuras é o principal equipamento cultural da cidade de Faro, "
         "com programação de teatro, dança, música e cinema."
     ),
+    # Activos visuais do teatro — obtidos uma vez, fixos
+    "logo_url":    "https://teatrodasfiguras.pt/assets/png/default.png",
+    "favicon_url": "https://teatrodasfiguras.pt/assets/favicon/apple-touch-icon.png",
+    "facade_url":  "https://teatrodasfiguras.pt/assets/png/facade.png",  # actualizar se necessário
 }
 
 THEATER_NAME = THEATER["name"]
 SOURCE_SLUG  = THEATER["id"]
 BASE         = "https://teatrodasfiguras.pt"
-AGENDA_URL   = f"{BASE}/agenda?categories=3,15"
-
-# Categorias aceites — filtradas na listagem antes de visitar páginas individuais
-THEATRE_CATEGORIES = {"teatro", "performance", "dança", "circo", "musical", "comédia"}
+AGENDA_URL   = f"{BASE}/agenda"
 
 _PT_MONTHS = {
     "jan": 1, "fev": 2, "mar": 3, "abr": 4, "mai": 5, "jun": 6,
@@ -89,7 +89,7 @@ def scrape() -> list[dict]:
         log(f"[{THEATER_NAME}] Erro na listagem: {e}")
         return []
 
-    soup     = BeautifulSoup(r.text, "lxml")
+    soup      = BeautifulSoup(r.text, "lxml")
     events:   list[dict] = []
     seen_ids: set[str]   = set()
 
@@ -97,21 +97,25 @@ def scrape() -> list[dict]:
         month_num, year_num = _parse_month_section_header(month_section)
 
         for card in month_section.select("div.events-card"):
-            ev = _parse_card(card, month_num, year_num)
-            if not ev:
-                continue
-            if ev["id"] in seen_ids:
-                continue
-            seen_ids.add(ev["id"])
+            try:
+                ev = _parse_card(card, month_num, year_num)
+                if not ev:
+                    continue
+                if ev["id"] in seen_ids:
+                    continue
+                seen_ids.add(ev["id"])
 
-            # Visitar página individual para enriquecer com bilhetes e sinopse
-            if ev["source_url"] and ev["source_url"] != BASE:
-                _enrich_from_event_page(ev)
-                time.sleep(0.3)
+                # Sempre vai à página individual:
+                # imagem (og:image), sinopse, bilhetes, preço, duração, idade, ficha
+                if ev["source_url"] and ev["source_url"] != BASE:
+                    _enrich_from_event_page(ev)
+                    time.sleep(0.4)
 
-            events.append(ev)
+                events.append(ev)
+            except Exception as exc:
+                log(f"[{THEATER_NAME}] Erro a processar card: {exc}")
 
-    log(f"[{THEATER_NAME}] {len(events)} eventos")
+    log(f"[{THEATER_NAME}] {len(events)} eventos recolhidos")
     return events
 
 
@@ -147,64 +151,76 @@ def _parse_month_section_header(section) -> tuple[int, int]:
 def _parse_card(card, section_month: int, section_year: int) -> dict | None:
     """
     Extrai evento a partir de um div.events-card.
-    Devolve None se não for categoria aceite ou faltar data.
+    Importa todas as categorias — normalize_category() decide depois.
+    Devolve None se faltar título ou data.
     """
-    # Categoria — filtrar antes de processar
-    cat_el   = card.select_one(".events-card__body__categories__main-category")
-    category = cat_el.get_text(strip=True) if cat_el else ""
-    if category.lower() not in THEATRE_CATEGORIES:
+    # Título
+    title_el = card.select_one(".events-card__body__title__text")
+    title    = title_el.get_text(strip=True) if title_el else ""
+    if not title or len(title) < 2:
         return None
 
     # URL
     url_el = card.select_one("a.events-card__link-wrapper")
-    href   = url_el["href"] if url_el else ""
+    href   = url_el["href"] if url_el and url_el.get("href") else ""
     url    = href if href.startswith("http") else urljoin(BASE, href)
 
-    # Título
-    title_el = card.select_one(".events-card__body__title__text")
-    title    = title_el.get_text(strip=True) if title_el else ""
-    if not title or len(title) < 3:
-        return None
+    # Categoria raw — será normalizada pelo harmonizer via normalize_category()
+    cat_el      = card.select_one(".events-card__body__categories__main-category")
+    category_raw = cat_el.get_text(strip=True) if cat_el else ""
 
     # Autor / subtítulo
     author_el = card.select_one(".events-card__body__author__text")
     subtitle  = author_el.get_text(strip=True) if author_el else ""
 
-    # Data: o card mostra apenas o dia de início (e às vezes o mês).
-    # O mês e o ano vêm do contexto da secção mensal.
-    date_el   = card.select_one(".events-card__body__date__start")
-    date_text = date_el.get_text(strip=True) if date_el else ""
-    date_start, dates_label = _parse_card_date(date_text, section_month, section_year)
+    # ── Datas ──────────────────────────────────────────────────
+    # O card pode ter dois padrões:
+    #   A) apenas início:  <div class="...date__start">19 mar</div>
+    #   B) intervalo:      <div class="...date__start">20</div>
+    #                      <div class="...date__separator">-</div>
+    #                      <div class="...date__end">22 ago</div>
+    start_el  = card.select_one(".events-card__body__date__start")
+    end_el    = card.select_one(".events-card__body__date__end")
+
+    start_text = start_el.get_text(strip=True) if start_el else ""
+    end_text   = end_el.get_text(strip=True)   if end_el   else ""
+
+    date_start, dates_label, card_month, card_year = _parse_start_date(
+        start_text, section_month, section_year
+    )
     if not date_start:
         return None
 
+    # Se há data de fim no card, extrair
+    date_end = date_start  # default: mesmo dia
+    if end_text:
+        date_end_candidate = _parse_end_date(end_text, card_month, card_year, date_start)
+        if date_end_candidate:
+            date_end = date_end_candidate
+            # Actualizar label para mostrar intervalo
+            end_label = _format_date_label(date_end)
+            dates_label = f"{dates_label} – {end_label}"
+
     # Horário
     sched_el = card.select_one(".events-card__body__date__schedule")
-    schedule = sched_el.get_text(strip=True) if sched_el else ""
-    # Limpar horários complexos (ex: "Dias 5 e 6 às 21h30 | Dia...") — guardar raw
-    # O campo schedule fica para uso directo na UI
+    schedule = sched_el.get_text(strip=True).strip() if sched_el else ""
 
-    # Imagem
-    image    = None
-    img_tag  = card.select_one("img.img--generic")
-    if img_tag:
-        src = img_tag.get("src", "")
-        if src and src.startswith("http"):
-            image = build_image_object(src, card, THEATER_NAME, url)
+    # Imagem: NÃO está no HTML estático (Next.js carrega por JS).
+    # Será obtida na página individual via og:image.
 
     return {
         "id":              make_id(SOURCE_SLUG, title),
         "title":           title,
         "subtitle":        subtitle,
         "theater":         THEATER_NAME,
-        "category":        category,
+        "category":        normalize_category(category_raw),
         "dates_label":     dates_label,
         "date_start":      date_start,
-        "date_end":        date_start,   # só temos data de início no card; enriquecido depois
-        "sessions":        build_sessions(date_start, date_start, schedule),
+        "date_end":        date_end,
+        "sessions":        build_sessions(date_start, date_end, schedule),
         "schedule":        schedule,
         "synopsis":        "",
-        "image":           image,
+        "image":           None,   # preenchido em _enrich_from_event_page
         "source_url":      url,
         "ticket_url":      "",
         "price_info":      "",
@@ -220,9 +236,15 @@ def _parse_card(card, section_month: int, section_year: int) -> dict | None:
 
 def _enrich_from_event_page(ev: dict) -> None:
     """
-    Visita a página individual do evento e preenche campos em falta:
-    ticket_url, synopsis, price_info, duration, age_rating, date_end,
-    e ficha técnica.
+    Visita a página individual e preenche:
+      - image        (og:image — a única fonte fiável)
+      - ticket_url
+      - synopsis
+      - price_info
+      - duration / duration_min
+      - age_rating / age_min
+      - date_end     (se houver intervalo na página)
+      - technical_sheet
     Modifica ev in-place.
     """
     try:
@@ -233,35 +255,57 @@ def _enrich_from_event_page(ev: dict) -> None:
         return
 
     soup      = BeautifulSoup(r.text, "lxml")
-    full_text = soup.get_text(" ")
+    full_text = soup.get_text(" ", strip=True)
 
-    # Bilhetes
+    # ── Imagem via og:image ────────────────────────────────────
+    og_img = soup.find("meta", property="og:image")
+    if og_img:
+        img_url = og_img.get("content", "").strip()
+        # Ignorar a imagem genérica do site (default.png)
+        if img_url and "default.png" not in img_url:
+            ev["image"] = build_image_object(img_url, soup, THEATER_NAME, ev["source_url"])
+
+    # Fallback: primeiro <img> relevante no main (se og:image falhou)
+    if not ev["image"]:
+        main_el = soup.find("main") or soup
+        for img in main_el.find_all("img", src=True):
+            src = img.get("src", "")
+            if src.startswith("http") and "default" not in src and "logo" not in src:
+                ev["image"] = build_image_object(src, img, THEATER_NAME, ev["source_url"])
+                break
+
+    # ── Bilhetes ───────────────────────────────────────────────
     for a in soup.find_all("a", href=True):
         href = a["href"]
         if any(x in href for x in ["ticketline", "bol.pt", "bilhete", "comprar"]):
             ev["ticket_url"] = href if href.startswith("http") else urljoin(BASE, href)
             break
 
-    # Sinopse — parágrafos longos do main
+    # ── Sinopse ────────────────────────────────────────────────
     synopsis = ""
-    main_el  = soup.find("main") or soup
-    for p in main_el.find_all("p"):
-        t = p.get_text(" ", strip=True)
-        if len(t) > 80 and not re.match(
-            r"^(Texto|Encena|Interpreta|Tradu|Cenografia|Figurinos|"
-            r"Música|Luz|Som|Produ|Coprodu|Dire[çc])",
-            t, re.IGNORECASE,
-        ):
-            synopsis += (" " if synopsis else "") + t
-            if len(synopsis) > 1500:
-                break
-    if not synopsis:
-        og_desc = soup.find("meta", property="og:description")
-        if og_desc:
-            synopsis = og_desc.get("content", "").strip()
+    # Tentar og:description primeiro (geralmente bom resumo)
+    og_desc = soup.find("meta", property="og:description")
+    if og_desc:
+        synopsis = og_desc.get("content", "").strip()
+
+    # Se for genérico ("Eventos de Teatro das Figuras"), descartar e ir ao main
+    if not synopsis or "Eventos de Teatro" in synopsis:
+        synopsis = ""
+        main_el = soup.find("main") or soup
+        for p in main_el.find_all("p"):
+            t = p.get_text(" ", strip=True)
+            if len(t) > 80 and not re.match(
+                r"^(Texto|Encena|Interpreta|Tradu|Cenografia|Figurinos|"
+                r"Música|Luz|Som|Produ|Coprodu|Dire[çc]|©|Apoio)",
+                t, re.IGNORECASE,
+            ):
+                synopsis += (" " if synopsis else "") + t
+                if len(synopsis) > 1500:
+                    break
+
     ev["synopsis"] = truncate_synopsis(synopsis)
 
-    # Preço
+    # ── Preço ──────────────────────────────────────────────────
     pm = re.search(
         r"(Entrada\s+(?:livre|gratuita)"
         r"|gratuito"
@@ -271,69 +315,109 @@ def _enrich_from_event_page(ev: dict) -> None:
     if pm:
         ev["price_info"] = pm.group(1).strip()
 
-    # Duração
+    # ── Duração ────────────────────────────────────────────────
     dm = re.search(r"(\d+)\s*min", full_text, re.IGNORECASE)
     if dm:
-        ev["duration"] = f"{dm.group(1)} min."
+        mins = int(dm.group(1))
+        ev["duration"]     = f"{mins} min."
+        ev["duration_min"] = mins
 
-    # Classificação etária
+    # ── Classificação etária ───────────────────────────────────
     am = re.search(r"\bM\s*/\s*(\d+)\b", full_text)
     if am:
-        ev["age_rating"] = f"M/{am.group(1)}"
+        age = int(am.group(1))
+        ev["age_rating"] = f"M/{age}"
+        ev["age_min"]    = age
 
-    # date_end — tentar extrair da página se houver intervalo
-    date_end = _extract_date_end(soup, full_text, ev["date_start"])
-    if date_end:
-        ev["date_end"]    = date_end
-        ev["dates_label"] = f"{ev['dates_label']} – {date_end}" if date_end != ev["date_start"] else ev["dates_label"]
-        ev["sessions"]    = build_sessions(ev["date_start"], date_end, ev.get("schedule", ""))
+    # ── date_end vinda da página (se não veio do card) ─────────
+    if ev["date_start"] == ev["date_end"]:
+        date_end = _extract_date_end_from_text(full_text, ev["date_start"])
+        if date_end:
+            ev["date_end"]    = date_end
+            ev["dates_label"] = (
+                f"{ev['dates_label']} – {_format_date_label(date_end)}"
+                if ev["dates_label"] else date_end
+            )
+            ev["sessions"] = build_sessions(
+                ev["date_start"], date_end, ev.get("schedule", "")
+            )
 
-    # Ficha técnica
+    # ── Ficha técnica ──────────────────────────────────────────
     ev["technical_sheet"] = _parse_ficha(full_text)
 
 
 # ─────────────────────────────────────────────────────────────
-# Parse de datas
+# Parsing de datas
 # ─────────────────────────────────────────────────────────────
 
-def _parse_card_date(
+def _parse_start_date(
     date_text: str,
     section_month: int,
     section_year: int,
-) -> tuple[str, str]:
+) -> tuple[str, str, int, int]:
     """
-    Converte o texto de data do card para YYYY-MM-DD.
+    Converte o texto de data de início do card para YYYY-MM-DD.
     O card mostra "19 mar", "05", "31 mai", etc.
     O mês/ano de contexto vêm da secção mensal.
-    Devolve (date_start, dates_label).
+    Devolve (date_iso, dates_label, month_used, year_used).
     """
     if not date_text:
-        return "", ""
+        return "", "", section_month, section_year
 
     day_m = re.match(r"(\d{1,2})", date_text.strip())
     if not day_m:
-        return "", ""
+        return "", "", section_month, section_year
     day = int(day_m.group(1))
 
     # O card pode conter o mês abreviado (ex: "19 mar") — tem precedência
     month_in_text = re.search(r"[a-záéíóúãç]{3,}", date_text, re.IGNORECASE)
     if month_in_text:
-        m = _PT_MONTHS.get(month_in_text.group().lower())
+        m = _PT_MONTHS.get(month_in_text.group().lower()[:3])
         if m:
             section_month = m
 
     if not section_month or not section_year or not day:
-        return "", ""
+        return "", "", section_month, section_year
 
-    date_iso   = f"{section_year}-{section_month:02d}-{day:02d}"
-    month_name = _month_name(section_month)
-    label      = f"{day} {month_name} {section_year}"
-    return date_iso, label
+    date_iso = f"{section_year}-{section_month:02d}-{day:02d}"
+    label    = f"{day} {_month_name(section_month)} {section_year}"
+    return date_iso, label, section_month, section_year
 
 
-def _extract_date_end(soup, text: str, date_start: str) -> str:
+def _parse_end_date(
+    end_text: str,
+    ref_month: int,
+    ref_year: int,
+    date_start: str,
+) -> str:
     """
-    Tenta extrair a data de fim a partir da página individual.
+    Converte o texto de data de fim do card para YYYY-MM-DD.
+    end_text exemplos: "22 ago", "15", "7 jun"
+    """
+    if not end_text:
+        return ""
+
+    day_m = re.match(r"(\d{1,2})", end_text.strip())
+    if not day_m:
+        return ""
+    day = int(day_m.group(1))
+
+    month_in_text = re.search(r"[a-záéíóúãç]{3,}", end_text, re.IGNORECASE)
+    if month_in_text:
+        m = _PT_MONTHS.get(month_in_text.group().lower()[:3])
+        if m:
+            ref_month = m
+
+    if not ref_month or not ref_year:
+        return ""
+
+    candidate = f"{ref_year}-{ref_month:02d}-{day:02d}"
+    return candidate if candidate >= date_start else ""
+
+
+def _extract_date_end_from_text(text: str, date_start: str) -> str:
+    """
+    Tenta extrair a data de fim a partir do texto da página individual.
     Procura padrões como "19 mar – 15 mai 2026" ou "até 15 de maio".
     """
     m = re.search(
@@ -349,6 +433,15 @@ def _extract_date_end(soup, text: str, date_start: str) -> str:
             if candidate >= date_start:
                 return candidate
     return ""
+
+
+def _format_date_label(date_iso: str) -> str:
+    """'2026-08-22' → '22 Ago 2026'"""
+    try:
+        y, mo, d = date_iso.split("-")
+        return f"{int(d)} {_month_name(int(mo))} {y}"
+    except Exception:
+        return date_iso
 
 
 def _month_name(n: int) -> str:
