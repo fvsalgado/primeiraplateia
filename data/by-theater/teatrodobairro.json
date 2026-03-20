@@ -1,0 +1,50 @@
+[
+  {
+    "id": "teatrodobairro-rei-lear",
+    "title": "Rei Lear",
+    "theater": "Teatro do Bairro",
+    "category": "Teatro",
+    "dates_label": "3 a 26 Abril",
+    "date_start": "2026-04-03",
+    "date_end": "2026-04-26",
+    "sessions": [
+      {
+        "date": "2026-04-03",
+        "time": "21:00",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-04-26",
+        "time": "21:00",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "21h00",
+    "synopsis": "10â¬ ( 65, profissionais do espectÃ¡culo) 8â¬ (Quarta-Feira - Dia do espectador e portadores do CartÃ£o de Amigo do Teatro do Bairro) Rei Lear, um dos textos maiores de William Shakespeare, conta-nos a histÃ³ria de um monarca envelhecido que decide dividir o reino entre as trÃªs filhas, esper…",
+    "image": {
+      "url": "https://teatrodobairro.org/assets/imagens/programa/reilear.jpg",
+      "credit": "Ramos, Carolina Campanela, ClÃ¡udio da Silva, Crista Alfaiate, Dinarte Branco, D",
+      "source": "https://teatrodobairro.org/#reilear",
+      "theater": "Teatro do Bairro"
+    },
+    "source_url": "https://teatrodobairro.org/#reilear",
+    "ticket_url": "https://teatrodobairro.bol.pt/Comprar/Bilhetes/174311-rei_lear-teatro_do_bairro/",
+    "price_info": "",
+    "duration": "150 min.",
+    "age_rating": "M/12",
+    "sala": "",
+    "technical_sheet": {
+      "texto": "William Shakespeare; TraduÃ§Ã£o: Ãlvaro Cunhal; EncenaÃ§Ã£o: AntÃ³nio Pires; Com: Adriano Luz, AndrÃ© Ramos, Carolina Campanela, ClÃ¡udio da Silva, Crista Alfaiate, Dinarte Branco, Dinis Gomes, Franc",
+      "cenografia": "JoÃ£o Mendes Ribeiro;",
+      "figurinos": "LuÃ­sa Pacheco; Assistente de encenaÃ§Ã£o: Carolina FerrÃ£o; MÃºsica: Daniel Bernardes;",
+      "luz": "Rui Seabra; Desenho de som: Paulo Abelho; Costureira: RosÃ¡rio Balbi; ConstruÃ§Ã£o de cenÃ¡rio: FÃ¡bio Paulo; OperaÃ§Ã£o de luz: AntÃ³nio SerrÃ£o e JoÃ£o Madeira; OperaÃ§Ã£o de som: Vasco Maciel; Chef",
+      "dramaturgia": "LuÃ­sa Costa Gomes 2015 | QUATRO SANTOS EM TRÃS ACTOS libreto de Gertrude Stein e muÌsica de Virgil Thomson TraducÌ§aÌo e"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "teatrodobairro",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.7
+    }
+  }
+]

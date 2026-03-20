@@ -1,0 +1,162 @@
+[
+  {
+    "id": "teatrodasfiguras-o-figurante",
+    "title": "O Figurante",
+    "subtitle": "Com Mateus Solano",
+    "theater": "Teatro das Figuras",
+    "category": "Teatro",
+    "dates_label": "20 Mar 2026",
+    "date_start": "2026-03-20",
+    "date_end": "2026-03-20",
+    "sessions": [
+      {
+        "date": "2026-03-20",
+        "time": "21:30",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "21h30",
+    "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+    "image": null,
+    "source_url": "https://teatrodasfiguras.pt/agenda/o-figurante",
+    "ticket_url": "",
+    "price_info": "",
+    "duration": "",
+    "age_rating": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "teatrodasfiguras",
+    "city": "Faro",
+    "_meta": {
+      "completeness": 0.35
+    }
+  },
+  {
+    "id": "teatrodasfiguras-para-so-meu-para-so",
+    "title": "Paraíso, Meu Paraíso",
+    "subtitle": "de Lígia Soares",
+    "theater": "Teatro das Figuras",
+    "category": "Performance",
+    "dates_label": "26 Mar 2026",
+    "date_start": "2026-03-26",
+    "date_end": "2026-03-26",
+    "sessions": [
+      {
+        "date": "2026-03-26",
+        "time": "21:30",
+        "weekday": "Qui"
+      }
+    ],
+    "schedule": "21h30",
+    "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+    "image": null,
+    "source_url": "https://teatrodasfiguras.pt/agenda/paraiso-meu-paraiso",
+    "ticket_url": "",
+    "price_info": "",
+    "duration": "",
+    "age_rating": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "teatrodasfiguras",
+    "city": "Faro",
+    "_meta": {
+      "completeness": 0.35
+    }
+  },
+  {
+    "id": "teatrodasfiguras-falsas-hist-rias-verdadeiras-uma-pina-colagem",
+    "title": "Falsas Histórias Verdadeiras: Uma Pina Colagem",
+    "subtitle": "de Victor Hugo Pontes",
+    "theater": "Teatro das Figuras",
+    "category": "Teatro",
+    "dates_label": "8 Mai 2026",
+    "date_start": "2026-05-08",
+    "date_end": "2026-05-08",
+    "sessions": [
+      {
+        "date": "2026-05-08",
+        "time": "21:30",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "21h30",
+    "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+    "image": null,
+    "source_url": "https://teatrodasfiguras.pt/agenda/falsas-historias-verdadeiras-uma-pina-colagem",
+    "ticket_url": "",
+    "price_info": "",
+    "duration": "",
+    "age_rating": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "teatrodasfiguras",
+    "city": "Faro",
+    "_meta": {
+      "completeness": 0.35
+    }
+  },
+  {
+    "id": "teatrodasfiguras-masha-e-o-urso",
+    "title": "Masha e o Urso",
+    "subtitle": "Missão no Circo",
+    "theater": "Teatro das Figuras",
+    "category": "Teatro",
+    "dates_label": "31 Mai 2026",
+    "date_start": "2026-05-31",
+    "date_end": "2026-05-31",
+    "sessions": [
+      {
+        "date": "2026-05-31",
+        "time": "11:00",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "11h00 e 15h00",
+    "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+    "image": null,
+    "source_url": "https://teatrodasfiguras.pt/agenda/masha-e-o-urso-2026",
+    "ticket_url": "",
+    "price_info": "",
+    "duration": "",
+    "age_rating": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "teatrodasfiguras",
+    "city": "Faro",
+    "_meta": {
+      "completeness": 0.35
+    }
+  },
+  {
+    "id": "teatrodasfiguras-quinteto-de-morte",
+    "title": "Quinteto de Morte",
+    "subtitle": "",
+    "theater": "Teatro das Figuras",
+    "category": "Teatro",
+    "dates_label": "5 Jun 2026",
+    "date_start": "2026-06-05",
+    "date_end": "2026-06-05",
+    "sessions": [
+      {
+        "date": "2026-06-05",
+        "time": "21:30",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "Dias 5 e 6 às 21h30 | Dia...",
+    "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+    "image": null,
+    "source_url": "https://teatrodasfiguras.pt/agenda/quinteto-de-morte",
+    "ticket_url": "",
+    "price_info": "",
+    "duration": "",
+    "age_rating": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "teatrodasfiguras",
+    "city": "Faro",
+    "_meta": {
+      "completeness": 0.35
+    }
+  }
+]

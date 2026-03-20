@@ -1,0 +1,128 @@
+[
+  {
+    "id": "teatro-capitolio-come-from-away",
+    "title": "Come From Away",
+    "theater": "Capitólio",
+    "category": "Teatro",
+    "dates_label": "25.03 – 03.05.2026",
+    "date_start": "2026-03-25",
+    "date_end": "2026-05-03",
+    "sessions": [
+      {
+        "date": "2026-03-25",
+        "time": "",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-05-03",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Come From Awayé um musical criado por Irene Sankoff e David Hein. A obra baseia-se nos acontecimentos ocorridos na cidade de Gander, em Terra Nova (Canadá), na semana seguinte aos atentados de 11 de setembro de 2001.…",
+    "image": {
+      "url": "https://teatrovariedades-capitolio.pt/wp-content/uploads/2026/01/1920x1080.jpg",
+      "credit": null,
+      "source": "https://teatrovariedades-capitolio.pt/evento/come-from-away/",
+      "theater": "Capitólio"
+    },
+    "source_url": "https://teatrovariedades-capitolio.pt/evento/come-from-away/",
+    "ticket_url": "https://teatrovariedades.bol.pt/Comprar/Bilhetes/168149-in_the_heights-teatro_variedades/",
+    "price_info": "25€",
+    "duration": "21h",
+    "age_rating": "",
+    "accessibility": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "capitolio",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.6
+    }
+  },
+  {
+    "id": "teatro-capitolio-evita",
+    "title": "Evita",
+    "theater": "Capitólio",
+    "category": "Teatro",
+    "dates_label": "25.03 – 03.05.2026",
+    "date_start": "2026-03-25",
+    "date_end": "2026-05-03",
+    "sessions": [
+      {
+        "date": "2026-03-25",
+        "time": "",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-05-03",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "O musical Evita, é uma das obras mais célebres de Andrew Lloyd Webber (música) e Tim Rice (letra).",
+    "image": {
+      "url": "https://teatrovariedades-capitolio.pt/wp-content/uploads/2025/11/2-scaled-e1762549074993.jpg",
+      "credit": null,
+      "source": "https://teatrovariedades-capitolio.pt/evento/evita/",
+      "theater": "Capitólio"
+    },
+    "source_url": "https://teatrovariedades-capitolio.pt/evento/evita/",
+    "ticket_url": "https://teatrovariedades.bol.pt/Comprar/Bilhetes/168149-in_the_heights-teatro_variedades/",
+    "price_info": "25€",
+    "duration": "21h",
+    "age_rating": "M/12",
+    "accessibility": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "capitolio",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.65
+    }
+  },
+  {
+    "id": "teatro-capitolio-macbeth",
+    "title": "MACBETH",
+    "theater": "Capitólio",
+    "category": "Teatro",
+    "dates_label": "25.03 – 03.05.2026",
+    "date_start": "2026-03-25",
+    "date_end": "2026-05-03",
+    "sessions": [
+      {
+        "date": "2026-03-25",
+        "time": "",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-05-03",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "MACBETHtransporta para a contemporaneidade os temas intemporais da ambição desmedida, da corrupção do poder e da erosão moral, recriando-os num universo onde a intimidade é constantemente exposta, julgada e consumida.…",
+    "image": {
+      "url": "https://teatrovariedades-capitolio.pt/wp-content/uploads/2026/01/nosso-site-4.jpg",
+      "credit": null,
+      "source": "https://teatrovariedades-capitolio.pt/evento/macbeth/",
+      "theater": "Capitólio"
+    },
+    "source_url": "https://teatrovariedades-capitolio.pt/evento/macbeth/",
+    "ticket_url": "https://teatrovariedades.bol.pt/Comprar/Bilhetes/168149-in_the_heights-teatro_variedades/",
+    "price_info": "10€",
+    "duration": "21h",
+    "age_rating": "",
+    "accessibility": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "capitolio",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.6
+    }
+  }
+]

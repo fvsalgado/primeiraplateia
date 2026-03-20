@@ -1,0 +1,128 @@
+[
+  {
+    "id": "teatro-variedades-in-the-heights",
+    "title": "In the Heights",
+    "theater": "Teatro Variedades",
+    "category": "Teatro",
+    "dates_label": "25.03 – 03.05.2026",
+    "date_start": "2026-03-25",
+    "date_end": "2026-05-03",
+    "sessions": [
+      {
+        "date": "2026-03-25",
+        "time": "",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-05-03",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Do criador deHamilton, Lin-Manuel Miranda,In the Heightsé um dos mais aclamados e premiados musicais da Broadway da atualidade, vencedor de 4 Tonys, incluindo de Melhor Musical, e de um Grammy.",
+    "image": {
+      "url": "https://teatrovariedades-capitolio.pt/wp-content/uploads/2025/11/In_The_Heights_1920x1080_v1.jpg",
+      "credit": null,
+      "source": "https://teatrovariedades-capitolio.pt/evento/in-the-heights/",
+      "theater": "Teatro Variedades"
+    },
+    "source_url": "https://teatrovariedades-capitolio.pt/evento/in-the-heights/",
+    "ticket_url": "https://teatrovariedades.bol.pt/Comprar/Bilhetes/168149-in_the_heights-teatro_variedades/",
+    "price_info": "20€",
+    "duration": "21h",
+    "age_rating": "M/12",
+    "accessibility": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "variedades",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.65
+    }
+  },
+  {
+    "id": "teatro-variedades-o-tamanho-das-coisas",
+    "title": "O Tamanho das Coisas",
+    "theater": "Teatro Variedades",
+    "category": "Teatro",
+    "dates_label": "25.03 – 03.05.2026",
+    "date_start": "2026-03-25",
+    "date_end": "2026-05-03",
+    "sessions": [
+      {
+        "date": "2026-03-25",
+        "time": "",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-05-03",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "A determinado momento numa geografia desconhecida e sem qualquer razão aparente, um homem interrompe o seu caminho parando em pleno oceano. Da comparação entre o seu corpo e a escala avassaladora do que o rodeia levanta a questão: será que devo continuar?…",
+    "image": {
+      "url": "https://teatrovariedades-capitolio.pt/wp-content/uploads/2026/01/tam-das-coisas_113_maximo窮ilipe-Ferreira.jpg",
+      "credit": null,
+      "source": "https://teatrovariedades-capitolio.pt/evento/o-tamanho-das-coisas/",
+      "theater": "Teatro Variedades"
+    },
+    "source_url": "https://teatrovariedades-capitolio.pt/evento/o-tamanho-das-coisas/",
+    "ticket_url": "https://teatrovariedades.bol.pt/Comprar/Bilhetes/168149-in_the_heights-teatro_variedades/",
+    "price_info": "12€",
+    "duration": "20h",
+    "age_rating": "M/14",
+    "accessibility": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "variedades",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.65
+    }
+  },
+  {
+    "id": "teatro-variedades-radojka",
+    "title": "Radojka",
+    "theater": "Teatro Variedades",
+    "category": "Teatro",
+    "dates_label": "25.03 – 03.05.2026",
+    "date_start": "2026-03-25",
+    "date_end": "2026-05-03",
+    "sessions": [
+      {
+        "date": "2026-03-25",
+        "time": "",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-05-03",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "RADOJKAé uma comédia escrita por Fernando Schmidt e Christian Ibarzabal.",
+    "image": {
+      "url": "https://teatrovariedades-capitolio.pt/wp-content/uploads/2026/02/IMG_0455-576x1024.png",
+      "credit": null,
+      "source": "https://teatrovariedades-capitolio.pt/evento/radojka/",
+      "theater": "Teatro Variedades"
+    },
+    "source_url": "https://teatrovariedades-capitolio.pt/evento/radojka/",
+    "ticket_url": "https://teatrovariedades.bol.pt/Comprar/Bilhetes/168149-in_the_heights-teatro_variedades/",
+    "price_info": "14€",
+    "duration": "21h30",
+    "age_rating": "",
+    "accessibility": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "variedades",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.6
+    }
+  }
+]

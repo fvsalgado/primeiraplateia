@@ -1,5 +1,105 @@
 [
   {
+    "id": "trindade-a-gaivota",
+    "title": "A GAIVOTA",
+    "theater": "Teatro da Trindade INATEL",
+    "category": "Teatro",
+    "dates_label": "29 Jan – 05 Abr 2026",
+    "date_start": "2026-01-29",
+    "date_end": "2026-04-05",
+    "sessions": [
+      {
+        "date": "2026-01-29",
+        "time": "",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-04-05",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Escrita em 1895,A Gaivotaé uma das mais emblemáticas peças de Tchékhov e é frequentemente considerada um comentário meta-teatral à natureza da arte e dos artistas.…",
+    "image": {
+      "url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2025/06/gaivota-pedromacedo-300x169.jpg",
+      "credit": "2026 Teatro da Trindade INATEL Mapa do site Política de privacidade Livro de Rec",
+      "source": "https://teatrotrindade.inatel.pt/espetaculo/a-gaivota/",
+      "theater": "Teatro da Trindade INATEL"
+    },
+    "source_url": "https://teatrotrindade.inatel.pt/espetaculo/a-gaivota/",
+    "ticket_url": "https://www.ticketline.pt/evento/a-gaivota-91586",
+    "price_info": "10€",
+    "duration": "",
+    "age_rating": "M/12",
+    "sala": "Sala Carmen Dolores",
+    "technical_sheet": {
+      "autor": "INATEL Saltar para o conteúdo principal Mapa do Website Ajuda de navegação e acessibilida",
+      "encenação": "Diogo Infante Ir para Sinopse Galeria Ficha Artística Comprar Bilhetes Partilhar no Twitter Partilhar no Facebook Copiar Link Sinopse Datas e Horários 29 JAN a 05 ABR Qua a Sáb 21:00 Dom 16:30 Duração",
+      "produção": "do Teatro da Graça, Alexandra Lencastre dá agora corpo e voz a Irina Arkadina, a diva do teatro clássico, cuja personalidade se impõe no palco e fora dele. Galeria Ficha artística",
+      "dramaturgia": "Margarida Tavares Com Alexandra Lencastre, André Leitão, António Melo, Flávio Gil, Guilherme Filipe, Ivo Canelas, Margarida Bakker, Pedro Laginha, Rita Rocha Silva e Rita Salema",
+      "cenografia": "Catarina Amaro",
+      "figurinos": "Filipe Faísca Desenho de luz Nuno Meira",
+      "música": "original Artur Guimarães Sonoplastia Rui Santos Vídeo João Alves Assistência de"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "trindade",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.74
+    }
+  },
+  {
+    "id": "trindade-brokeback-mountain",
+    "title": "BROKEBACK MOUNTAIN",
+    "theater": "Teatro da Trindade INATEL",
+    "category": "Teatro",
+    "dates_label": "19 Fev – 05 Abr 2026",
+    "date_start": "2026-02-19",
+    "date_end": "2026-04-05",
+    "sessions": [
+      {
+        "date": "2026-02-19",
+        "time": "",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-04-05",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "DeAshley Robinson, a partir do conto deAnnie ProulxMúsicaDan Gillespie SellsEncenaçãoDaniel Gorjão Dois homens atravessam o mesmo silêncio, sem saber que a ausência de palavras pode ser o início de tudo. Não se encontram: colidem.…",
+    "image": {
+      "url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2025/06/brokeback-300x169.jpg",
+      "credit": "Pedro Macedo - Framed Photos Ir para Sinopse Galeria Ficha Artística Comprar Bil",
+      "source": "https://teatrotrindade.inatel.pt/espetaculo/brokeback-mountain/",
+      "theater": "Teatro da Trindade INATEL"
+    },
+    "source_url": "https://teatrotrindade.inatel.pt/espetaculo/brokeback-mountain/",
+    "ticket_url": "https://ticketline.sapo.pt/evento/brokeback-mountain-97308",
+    "price_info": "10€",
+    "duration": "90 min.",
+    "age_rating": "M/16",
+    "sala": "Sala Estúdio",
+    "technical_sheet": {
+      "autor": "INATEL Saltar para o conteúdo principal Mapa do Website Ajuda de navegação e acessibilida",
+      "música": "Dan Gillespie Sells",
+      "encenação": "Daniel Gorjão",
+      "tradução": "Ana Sampaio",
+      "direção": "plástica Daniel Gorjão Assistente de",
+      "cenografia": "FPSolutions Fotografia de cartaz Pedro Macedo – Framed Photos Fotografia de cena Alípio Padilha",
+      "produção": "executiva Teatro do Vão"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "trindade",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.79
+    }
+  },
+  {
     "id": "mariamatos-primeira-vista",
     "title": "À PRIMEIRA VISTA",
     "theater": "Teatro Maria Matos",
@@ -55,8 +155,104 @@
       "autor": "Suzie Miller é uma dramaturga e argumentista contemporânea, vencedora de diversos prémios internacionais. Gosta de histórias humanas complexas que frequentemente versam a injustiça. Trabalha em Londres, no Reino Unido, e em Sydney, na Austrália, mas a sua obra tem sido apresentada em todo o mundo. T",
       "dramaturgia": "no National Institute of Dramatic Art , na Austrália. Play Avenida Frei Miguel Contreiras, 52, 1700-213, Lisboa Horário da Bilheteira Segunda – Sábado 17h30 às 21h30 Domingo — 15h30 às 18h30 *Horários em vigor em dias de espectáculo. Horário sujeito a alterações. Reservas e informações de bilheteira"
     },
-    "scraped_at": "2026-03-20T00:56:53.787799+00:00",
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
     "theater_id": "mariamatos",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.85
+    }
+  },
+  {
+    "id": "saoluiz-todos-p-ssaros",
+    "title": "Todos Pássaros",
+    "subtitle": "De Wajdi MouawadEncenaçãoÁlvaro Correia",
+    "theater": "São Luiz Teatro Municipal",
+    "category": "Teatro",
+    "dates_label": "18 a 29 março",
+    "date_start": "2026-03-18",
+    "date_end": "2026-03-29",
+    "sessions": [
+      {
+        "date": "2026-03-18",
+        "time": "20:00",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-03-19",
+        "time": "20:00",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-03-20",
+        "time": "20:00",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-03-21",
+        "time": "20:00",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-03-22",
+        "time": "17:30",
+        "weekday": "Dom"
+      },
+      {
+        "date": "2026-03-25",
+        "time": "20:00",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-03-26",
+        "time": "20:00",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-03-27",
+        "time": "20:00",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-03-28",
+        "time": "20:00",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-03-29",
+        "time": "17:30",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "quarta a sábado, 20h; domingo, 17h30",
+    "synopsis": "Um tema distintivo do trabalho de Wajdi Mouawad é que a grande História e as vidas individuais estão intimamente ligadas. Mostra-nos como pessoas de culturas diametralmente opostas tentam, ainda assim, viver juntas.…",
+    "image": {
+      "url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2025/07/a-favorita-todos-passaros-aguarda-credito.jpeg",
+      "credit": "Vitorino Coragem Comprar Bilhetes Datas e Horários 18 a 29 março quarta a sábado",
+      "source": "https://www.teatrosaoluiz.pt/espetaculo/todos-passaros/",
+      "theater": "São Luiz Teatro Municipal"
+    },
+    "source_url": "https://www.teatrosaoluiz.pt/espetaculo/todos-passaros/",
+    "ticket_url": "https://saoluiz.bol.pt/Comprar/Bilhetes/165912-todos_passaros_de_wajdi_mouawad-sao_luiz_teatro_municipal/Sessoes",
+    "price_info": "€12 a €15 (com descontos) | (Abrangido pelo Passe Cultura - disponível apenas na bilheteira do Teatro)\n+info",
+    "duration": "2h30 aprox.",
+    "age_rating": "M/14",
+    "accessibility": "22 março\ndomingo, 17h30\n27 e 29 março\nsexta, 20h00, domingo, 17h30",
+    "sala": "Sala Luis Miguel Cintra",
+    "technical_sheet": {
+      "encenação": "Álvaro Correia",
+      "texto": "Wajdi Mouawad",
+      "tradução": "João Paulo Esteves da Silva",
+      "cenografia": "André Guedes",
+      "figurinos": "Neusa Trovoada",
+      "música": "Vitória",
+      "luz": "Manuel Abrantes",
+      "ass_encenação": "Bruno Soares Nogueira",
+      "produção": "Nuno Pratas",
+      "interpretação": "Cucha Carvalheiro, David Esteves, Fernando Luís, Madalena Almeida, Manuela Couto, Virgílio Castelo e Duarte Romão e Laura Garnel (alunos finalistas da ESTC)",
+      "coprodução": "Culturproject, Teatro Municipal Joaquim Benite e São Luiz Teatro Municipal Projeto apoiado por República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.85
@@ -102,11 +298,707 @@
       "interpretação": "Ana Guiomar, Cristóvão Campos, Ruben Madureira e Sandra Faleiro",
       "elenco": "Ana Guiomar, Cristóvão Campos, Ruben Madureira e Sandra Faleiro, “Uma Ideia Genial” conta a história hilariante de uma personagem que se multiplica em três, cada uma com as suas características e perplexidades. Atrações, ciúmes, suspeitas e destinos cruzados criam uma sucessão de mal-entendidos e um"
     },
-    "scraped_at": "2026-03-20T00:56:53.787799+00:00",
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.8
+    }
+  },
+  {
+    "id": "teatrodasfiguras-o-figurante",
+    "title": "O Figurante",
+    "subtitle": "Com Mateus Solano",
+    "theater": "Teatro das Figuras",
+    "category": "Teatro",
+    "dates_label": "20 Mar 2026",
+    "date_start": "2026-03-20",
+    "date_end": "2026-03-20",
+    "sessions": [
+      {
+        "date": "2026-03-20",
+        "time": "21:30",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "21h30",
+    "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+    "image": null,
+    "source_url": "https://teatrodasfiguras.pt/agenda/o-figurante",
+    "ticket_url": "",
+    "price_info": "",
+    "duration": "",
+    "age_rating": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "teatrodasfiguras",
+    "city": "Faro",
+    "_meta": {
+      "completeness": 0.35
+    }
+  },
+  {
+    "id": "saoluiz-as-quatro-mortes-de-napole-o",
+    "title": "As Quatro Mortes de Napoleão",
+    "subtitle": "Pedro Saavedra",
+    "theater": "São Luiz Teatro Municipal",
+    "category": "Teatro",
+    "dates_label": "21 março a 4 abril",
+    "date_start": "2026-03-21",
+    "date_end": "2026-04-04",
+    "sessions": [
+      {
+        "date": "2026-03-21",
+        "time": "19:30",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-03-22",
+        "time": "16:00",
+        "weekday": "Dom"
+      },
+      {
+        "date": "2026-03-25",
+        "time": "19:30",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-03-26",
+        "time": "19:30",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-03-27",
+        "time": "19:30",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-03-28",
+        "time": "19:30",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-03-29",
+        "time": "16:00",
+        "weekday": "Dom"
+      },
+      {
+        "date": "2026-04-01",
+        "time": "19:30",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-04-02",
+        "time": "19:30",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-04-03",
+        "time": "19:30",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-04-04",
+        "time": "19:30",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "quarta a sábado, 19h30; domingo, 16h",
+    "synopsis": "A 5 de Maio de 1821, Napoleão Bonaparte profere as suas últimas palavras: “França, o exército, chefe do exército, Josefina.” O ex-imperador jaz morto no seu leito da Ilha de Santa Helena e quatro boatos nascem sobre a causa da sua morte: um estrangulamento encomendado, um envenenamento propositado, …",
+    "image": {
+      "url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2025/07/foto-para-cartaz-as-quatro-mortes-de-napoleaoandreia-mayer-scaled.jpg",
+      "credit": "Andreia Mayer Comprar Bilhetes Datas e Horários 21 março a 4 abril quarta a sába",
+      "source": "https://www.teatrosaoluiz.pt/espetaculo/as-quatro-mortes-de-napoleao/",
+      "theater": "São Luiz Teatro Municipal"
+    },
+    "source_url": "https://www.teatrosaoluiz.pt/espetaculo/as-quatro-mortes-de-napoleao/",
+    "ticket_url": "https://saoluiz.bol.pt/Comprar/Bilhetes/165923-as_quatro_mortes_de_napoleao-sao_luiz_teatro_municipal/Sessoes",
+    "price_info": "€12 (com descontos) | (Abrangido pelo Passe Cultura - disponível apenas na bilheteira do Teatro)\n+info",
+    "duration": "1h10",
+    "age_rating": "M/12",
+    "accessibility": "2 e 4 abril\nquinta e sábado, 19h30",
+    "sala": "Sala Mário Viegas",
+    "technical_sheet": {
+      "texto_encenação": "Pedro Saavedra Consultoria Histórica Daniel Alves",
+      "interpretação": "Ivo Alexandre, Paula Garcia",
+      "cenografia": "Luís Santos Carpintaria Luiz Quaresma Confecção de Adereços Rosário Balbi",
+      "figurinos": "Cláudia Ribeiro CONFECÇÃO DE FIGURINOS Aldina Jesus e Cristina Ferreira Aderecistas Ana Brandão e Catarina Brandão",
+      "luz": "Manuel Abrantes Fotografia Andreia Mayer Ilustração Rui Guerra Vídeo institucional Adriano Viçoso e Rafael Fonseca",
+      "som": "Nuno Veiga Operação de Luz e Som Janaina Gonçalves",
+      "direção_produção": "Sónia Rodrigues",
+      "produção": "Fátima Santos Filipe Difusão João Vaz Silva",
+      "coprodução": "O Fim do Teatro, Casa Varela, Teatro-Cine de Pombal e São Luiz Teatro Municipal Parceria RTP Palco Apoio Largo Residências Media partner Radar 97.8 FM AGRADECIMENTOS Chão de Oliva, Elsa Lago Matos e Luiz Quaresma"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "saoluiz",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.83
+    }
+  },
+  {
+    "id": "teatro-variedades-in-the-heights",
+    "title": "In the Heights",
+    "theater": "Teatro Variedades",
+    "category": "Teatro",
+    "dates_label": "25.03 – 03.05.2026",
+    "date_start": "2026-03-25",
+    "date_end": "2026-05-03",
+    "sessions": [
+      {
+        "date": "2026-03-25",
+        "time": "",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-05-03",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Do criador deHamilton, Lin-Manuel Miranda,In the Heightsé um dos mais aclamados e premiados musicais da Broadway da atualidade, vencedor de 4 Tonys, incluindo de Melhor Musical, e de um Grammy.",
+    "image": {
+      "url": "https://teatrovariedades-capitolio.pt/wp-content/uploads/2025/11/In_The_Heights_1920x1080_v1.jpg",
+      "credit": null,
+      "source": "https://teatrovariedades-capitolio.pt/evento/in-the-heights/",
+      "theater": "Teatro Variedades"
+    },
+    "source_url": "https://teatrovariedades-capitolio.pt/evento/in-the-heights/",
+    "ticket_url": "https://teatrovariedades.bol.pt/Comprar/Bilhetes/168149-in_the_heights-teatro_variedades/",
+    "price_info": "20€",
+    "duration": "21h",
+    "age_rating": "M/12",
+    "accessibility": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "variedades",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.65
+    }
+  },
+  {
+    "id": "teatro-variedades-o-tamanho-das-coisas",
+    "title": "O Tamanho das Coisas",
+    "theater": "Teatro Variedades",
+    "category": "Teatro",
+    "dates_label": "25.03 – 03.05.2026",
+    "date_start": "2026-03-25",
+    "date_end": "2026-05-03",
+    "sessions": [
+      {
+        "date": "2026-03-25",
+        "time": "",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-05-03",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "A determinado momento numa geografia desconhecida e sem qualquer razão aparente, um homem interrompe o seu caminho parando em pleno oceano. Da comparação entre o seu corpo e a escala avassaladora do que o rodeia levanta a questão: será que devo continuar?…",
+    "image": {
+      "url": "https://teatrovariedades-capitolio.pt/wp-content/uploads/2026/01/tam-das-coisas_113_maximo窮ilipe-Ferreira.jpg",
+      "credit": null,
+      "source": "https://teatrovariedades-capitolio.pt/evento/o-tamanho-das-coisas/",
+      "theater": "Teatro Variedades"
+    },
+    "source_url": "https://teatrovariedades-capitolio.pt/evento/o-tamanho-das-coisas/",
+    "ticket_url": "https://teatrovariedades.bol.pt/Comprar/Bilhetes/168149-in_the_heights-teatro_variedades/",
+    "price_info": "12€",
+    "duration": "20h",
+    "age_rating": "M/14",
+    "accessibility": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "variedades",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.65
+    }
+  },
+  {
+    "id": "teatro-variedades-radojka",
+    "title": "Radojka",
+    "theater": "Teatro Variedades",
+    "category": "Teatro",
+    "dates_label": "25.03 – 03.05.2026",
+    "date_start": "2026-03-25",
+    "date_end": "2026-05-03",
+    "sessions": [
+      {
+        "date": "2026-03-25",
+        "time": "",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-05-03",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "RADOJKAé uma comédia escrita por Fernando Schmidt e Christian Ibarzabal.",
+    "image": {
+      "url": "https://teatrovariedades-capitolio.pt/wp-content/uploads/2026/02/IMG_0455-576x1024.png",
+      "credit": null,
+      "source": "https://teatrovariedades-capitolio.pt/evento/radojka/",
+      "theater": "Teatro Variedades"
+    },
+    "source_url": "https://teatrovariedades-capitolio.pt/evento/radojka/",
+    "ticket_url": "https://teatrovariedades.bol.pt/Comprar/Bilhetes/168149-in_the_heights-teatro_variedades/",
+    "price_info": "14€",
+    "duration": "21h30",
+    "age_rating": "",
+    "accessibility": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "variedades",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.6
+    }
+  },
+  {
+    "id": "teatro-capitolio-come-from-away",
+    "title": "Come From Away",
+    "theater": "Capitólio",
+    "category": "Teatro",
+    "dates_label": "25.03 – 03.05.2026",
+    "date_start": "2026-03-25",
+    "date_end": "2026-05-03",
+    "sessions": [
+      {
+        "date": "2026-03-25",
+        "time": "",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-05-03",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Come From Awayé um musical criado por Irene Sankoff e David Hein. A obra baseia-se nos acontecimentos ocorridos na cidade de Gander, em Terra Nova (Canadá), na semana seguinte aos atentados de 11 de setembro de 2001.…",
+    "image": {
+      "url": "https://teatrovariedades-capitolio.pt/wp-content/uploads/2026/01/1920x1080.jpg",
+      "credit": null,
+      "source": "https://teatrovariedades-capitolio.pt/evento/come-from-away/",
+      "theater": "Capitólio"
+    },
+    "source_url": "https://teatrovariedades-capitolio.pt/evento/come-from-away/",
+    "ticket_url": "https://teatrovariedades.bol.pt/Comprar/Bilhetes/168149-in_the_heights-teatro_variedades/",
+    "price_info": "25€",
+    "duration": "21h",
+    "age_rating": "",
+    "accessibility": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "capitolio",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.6
+    }
+  },
+  {
+    "id": "teatro-capitolio-evita",
+    "title": "Evita",
+    "theater": "Capitólio",
+    "category": "Teatro",
+    "dates_label": "25.03 – 03.05.2026",
+    "date_start": "2026-03-25",
+    "date_end": "2026-05-03",
+    "sessions": [
+      {
+        "date": "2026-03-25",
+        "time": "",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-05-03",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "O musical Evita, é uma das obras mais célebres de Andrew Lloyd Webber (música) e Tim Rice (letra).",
+    "image": {
+      "url": "https://teatrovariedades-capitolio.pt/wp-content/uploads/2025/11/2-scaled-e1762549074993.jpg",
+      "credit": null,
+      "source": "https://teatrovariedades-capitolio.pt/evento/evita/",
+      "theater": "Capitólio"
+    },
+    "source_url": "https://teatrovariedades-capitolio.pt/evento/evita/",
+    "ticket_url": "https://teatrovariedades.bol.pt/Comprar/Bilhetes/168149-in_the_heights-teatro_variedades/",
+    "price_info": "25€",
+    "duration": "21h",
+    "age_rating": "M/12",
+    "accessibility": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "capitolio",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.65
+    }
+  },
+  {
+    "id": "teatro-capitolio-macbeth",
+    "title": "MACBETH",
+    "theater": "Capitólio",
+    "category": "Teatro",
+    "dates_label": "25.03 – 03.05.2026",
+    "date_start": "2026-03-25",
+    "date_end": "2026-05-03",
+    "sessions": [
+      {
+        "date": "2026-03-25",
+        "time": "",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-05-03",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "MACBETHtransporta para a contemporaneidade os temas intemporais da ambição desmedida, da corrupção do poder e da erosão moral, recriando-os num universo onde a intimidade é constantemente exposta, julgada e consumida.…",
+    "image": {
+      "url": "https://teatrovariedades-capitolio.pt/wp-content/uploads/2026/01/nosso-site-4.jpg",
+      "credit": null,
+      "source": "https://teatrovariedades-capitolio.pt/evento/macbeth/",
+      "theater": "Capitólio"
+    },
+    "source_url": "https://teatrovariedades-capitolio.pt/evento/macbeth/",
+    "ticket_url": "https://teatrovariedades.bol.pt/Comprar/Bilhetes/168149-in_the_heights-teatro_variedades/",
+    "price_info": "10€",
+    "duration": "21h",
+    "age_rating": "",
+    "accessibility": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "capitolio",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.6
+    }
+  },
+  {
+    "id": "culturgest-falta-de-ch-humor-tabus-e-censura",
+    "title": "Falta de Chá: Humor, Tabus e Censura",
+    "theater": "Culturgest",
+    "category": "Teatro",
+    "dates_label": "25 MAR 2026",
+    "date_start": "2026-03-25",
+    "date_end": "2026-03-25",
+    "sessions": [
+      {
+        "date": "2026-03-25",
+        "time": "19:00",
+        "weekday": "Qua"
+      }
+    ],
+    "schedule": "19:00",
+    "synopsis": "Será que o humor pode ser tão poderoso que precise de ser eliminado? Pode o humor abalar os pilares essenciais das nossas sociedades? Fazer estalar as chávenas de chá? Que perigo traz o humor descontrolado que leva alguns poderes censórios a querer proibi-lo? E é sequer possível proibir o humor?…",
+    "image": {
+      "url": "https://www.culturgest.pt/media/filer_public_thumbnails/filer_public/8a/f8/8af81ffc-6d23-4391-8831-75528dd66ab3/01_manuel_loureiro_moscanocha_horizontal.jpg__1200x630_q85_crop_subsampling-2_upscale.jpg",
+      "credit": "Manuel Loureiro. 25 MAR 2026 QUA 19:00 Garantir lugar Pequeno Auditório Entrada",
+      "source": "https://www.culturgest.pt/pt/programacao/falta-de-cha-humor-tabus-censura/",
+      "theater": "Culturgest"
+    },
+    "source_url": "https://www.culturgest.pt/pt/programacao/falta-de-cha-humor-tabus-censura/",
+    "ticket_url": "https://www.culturgest.pt/pt/bilheteira/",
+    "price_info": "Entrada gratuita",
+    "duration": "2h",
+    "age_rating": "",
+    "accessibility": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "culturgest",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.6
+    }
+  },
+  {
+    "id": "culturgest-diana-niepce",
+    "title": "Diana Niepce",
+    "theater": "Culturgest",
+    "category": "Teatro",
+    "dates_label": "26 MAR 2026",
+    "date_start": "2026-03-26",
+    "date_end": "2026-03-26",
+    "sessions": [
+      {
+        "date": "2026-03-26",
+        "time": "21:00",
+        "weekday": "Qui"
+      }
+    ],
+    "schedule": "21:00",
+    "synopsis": "Diana Niepce é autora de obras que questionam a existência de normas para o corpo humano, na sociedade e em palco. Espetáculos como Anda, Diana e O Outro Lado da Dança colocaram a coreógrafa portuguesa na vanguarda da criação nacional.…",
+    "image": {
+      "url": "https://www.culturgest.pt/media/filer_public_thumbnails/filer_public/5d/3e/5d3e77c7-f1a7-4f8a-84e9-8ef2c953e420/_pad0307-editaralipio_padilha.jpg__1200x630_q85_crop_subsampling-2_upscale.jpg",
+      "credit": "Alípio Padilha. © Alípio Padilha. Culturgest · O Projeto Invisível #10 - 3. Corp",
+      "source": "https://www.culturgest.pt/pt/programacao/diana-niepce-hornfuckers/",
+      "theater": "Culturgest"
+    },
+    "source_url": "https://www.culturgest.pt/pt/programacao/diana-niepce-hornfuckers/",
+    "ticket_url": "https://www.culturgest.pt/pt/bilheteira/",
+    "price_info": "16€",
+    "duration": "1h30",
+    "age_rating": "M/16",
+    "accessibility": "Audiodescrição",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "culturgest",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.65
+    }
+  },
+  {
+    "id": "ccb-a-valentina-e-a-valeria-n-o-est-o-mortas",
+    "title": "A Valentina e a Valeria não estão mortas",
+    "subtitle": "Flávia Gusmão e Jacinto Lucas Pires",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Teatro",
+    "dates_label": "2026-03-26",
+    "date_start": "2026-03-26",
+    "date_end": "2026-03-26",
+    "sessions": [
+      {
+        "date": "2026-03-26",
+        "time": "",
+        "weekday": "Qui"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Uma peça sobre as relações entre memória e imaginação, ficção e não-ficção, teatro e vida, morte e luto. Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB 27 de março de 202617:00 e 20:00 - Dia Mundial do Teatro (Entrada…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/07/2000x940_QueilaFernandes_Flavia.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/a-valentina-e-a-valeria-nao-estao-mortas/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/a-valentina-e-a-valeria-nao-estao-mortas/",
+    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/164864-exercicio_de_montagem_joana_craveiro-ccb/Sessoes",
+    "price_info": "15\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "criação": "Flávia Gusmão e Jacinto Lucas Pires",
+      "texto": "Jacinto Lucas Pires",
+      "interpretação": "Flávia Gusmão Apoio à",
+      "luz": "Nuno Meira",
+      "música": "e",
+      "som": "Xullaji Costureira Rosário Balbi",
+      "produção": "Executiva Marisa Coelho Gestão Financeira Nuno Pratas",
+      "coprodução": "Associação Bo Dixam Bai, Associação Palavrão, Centro Cultural de Belém, Cineteatro Louletano e Culturproject"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.71
+    }
+  },
+  {
+    "id": "teatrodasfiguras-para-so-meu-para-so",
+    "title": "Paraíso, Meu Paraíso",
+    "subtitle": "de Lígia Soares",
+    "theater": "Teatro das Figuras",
+    "category": "Performance",
+    "dates_label": "26 Mar 2026",
+    "date_start": "2026-03-26",
+    "date_end": "2026-03-26",
+    "sessions": [
+      {
+        "date": "2026-03-26",
+        "time": "21:30",
+        "weekday": "Qui"
+      }
+    ],
+    "schedule": "21h30",
+    "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+    "image": null,
+    "source_url": "https://teatrodasfiguras.pt/agenda/paraiso-meu-paraiso",
+    "ticket_url": "",
+    "price_info": "",
+    "duration": "",
+    "age_rating": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "teatrodasfiguras",
+    "city": "Faro",
+    "_meta": {
+      "completeness": 0.35
+    }
+  },
+  {
+    "id": "saoluiz-dia-mundial-do-teatro",
+    "title": "Dia Mundial do Teatro",
+    "subtitle": "É no São Luiz",
+    "theater": "São Luiz Teatro Municipal",
+    "category": "Teatro",
+    "dates_label": "27 março",
+    "date_start": "2026-03-27",
+    "date_end": "2026-03-27",
+    "sessions": [
+      {
+        "date": "2026-03-27",
+        "time": "17:00",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "sexta, a partir das 17h",
+    "synopsis": "Neste Dia Mundial do Teatro, convidamos a cidade a entrar na nossa casa. Inauguramos uma exposição,A Luz que Ficou – Um retrato íntimo do São Luiz, de Estelle Valente, que percorre a última década de vida do São Luiz e oferecemos uma programação especial com entrada gratuita.…",
+    "image": {
+      "url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2026/03/03-tmsl-multibanco-campanha-dia-mundial-teatro-multibanco-1024x677-1-scaled.jpg",
+      "credit": "São Luiz Teatro Municipal Newsletter Siga o Teatro São Luiz nas redes sociais Me",
+      "source": "https://www.teatrosaoluiz.pt/espetaculo/dia-mundial-do-teatro-2/",
+      "theater": "São Luiz Teatro Municipal"
+    },
+    "source_url": "https://www.teatrosaoluiz.pt/espetaculo/dia-mundial-do-teatro-2/",
+    "ticket_url": "",
+    "price_info": "Entrada livre sujeita à lotação da sala. Bilhetes disponíveis no próprio dia na bilheteira do Teatro a partir das 15h (até 2 por pessoa).",
+    "duration": "",
+    "age_rating": "Consultar a classificação dos espetáculos",
+    "accessibility": "",
+    "sala": "Vários espaços do Teatro",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "saoluiz",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.55
+    }
+  },
+  {
+    "id": "culturgest-do-ch-ao-iced-tea-humor-passado-e-presente",
+    "title": "Do Chá ao Iced Tea: Humor, passado e presente",
+    "theater": "Culturgest",
+    "category": "Teatro",
+    "dates_label": "01 ABR 2026",
+    "date_start": "2026-04-01",
+    "date_end": "2026-04-01",
+    "sessions": [
+      {
+        "date": "2026-04-01",
+        "time": "19:00",
+        "weekday": "Qua"
+      }
+    ],
+    "schedule": "19:00",
+    "synopsis": "Na teoria da evolução, o que apareceu primeiro? O chá ou a mosca? Será que o humor é um traçodistintivo da evolução humana, ou, pelo contrário, um resquício da sua natureza não civilizada?…",
+    "image": {
+      "url": "https://www.culturgest.pt/media/filer_public_thumbnails/filer_public/8a/f8/8af81ffc-6d23-4391-8831-75528dd66ab3/01_manuel_loureiro_moscanocha_horizontal.jpg__1200x630_q85_crop_subsampling-2_upscale.jpg",
+      "credit": "Manuel Loureiro. 01 ABR 2026 QUA 19:00 Garantir lugar Pequeno Auditório Entrada",
+      "source": "https://www.culturgest.pt/pt/programacao/do-cha-ao-ice-tea-humor-passado-e-presente/",
+      "theater": "Culturgest"
+    },
+    "source_url": "https://www.culturgest.pt/pt/programacao/do-cha-ao-ice-tea-humor-passado-e-presente/",
+    "ticket_url": "https://www.culturgest.pt/pt/bilheteira/",
+    "price_info": "Entrada gratuita",
+    "duration": "2h",
+    "age_rating": "",
+    "accessibility": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "culturgest",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.6
+    }
+  },
+  {
+    "id": "culturgest-hedera-4tet-x-vera-mantero",
+    "title": "Hedera 4tet x Vera Mantero",
+    "theater": "Culturgest",
+    "category": "Teatro",
+    "dates_label": "01 ABR 2026",
+    "date_start": "2026-04-01",
+    "date_end": "2026-04-01",
+    "sessions": [
+      {
+        "date": "2026-04-01",
+        "time": "21:00",
+        "weekday": "Qua"
+      }
+    ],
+    "schedule": "21:00",
+    "synopsis": "Desde 2024, e sobretudo durante o ano de 2025, Hedera 4tet tem estabelecido um projeto inovador no campo da criação sonora, procurando colocar a sua música em diálogo, ativada por outros artistas e disciplinas, trazendo questões e resultados para o corpo das suas composições e, em última análise, pa…",
+    "image": {
+      "url": "https://www.culturgest.pt/media/filer_public_thumbnails/filer_public/7c/f1/7cf1a3e2-e9e1-42cb-9526-442f03bfb561/hedera_-_1_photo_by_nuno_martins.jpg__1200x630_q85_crop_subsampling-2_upscale.jpg",
+      "credit": "Nuno Martins. 01 ABR 2026 QUA 21:00 02 ABR 2026 QUI 21:00 Comprar Bilhetes Palco",
+      "source": "https://www.culturgest.pt/pt/programacao/hedera-4tet-x-vera-mantero/",
+      "theater": "Culturgest"
+    },
+    "source_url": "https://www.culturgest.pt/pt/programacao/hedera-4tet-x-vera-mantero/",
+    "ticket_url": "https://www.culturgest.pt/pt/bilheteira/",
+    "price_info": "16€",
+    "duration": "",
+    "age_rating": "M/6",
+    "accessibility": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "culturgest",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.6
+    }
+  },
+  {
+    "id": "teatrodobairro-rei-lear",
+    "title": "Rei Lear",
+    "theater": "Teatro do Bairro",
+    "category": "Teatro",
+    "dates_label": "3 a 26 Abril",
+    "date_start": "2026-04-03",
+    "date_end": "2026-04-26",
+    "sessions": [
+      {
+        "date": "2026-04-03",
+        "time": "21:00",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-04-26",
+        "time": "21:00",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "21h00",
+    "synopsis": "10â¬ ( 65, profissionais do espectÃ¡culo) 8â¬ (Quarta-Feira - Dia do espectador e portadores do CartÃ£o de Amigo do Teatro do Bairro) Rei Lear, um dos textos maiores de William Shakespeare, conta-nos a histÃ³ria de um monarca envelhecido que decide dividir o reino entre as trÃªs filhas, esper…",
+    "image": {
+      "url": "https://teatrodobairro.org/assets/imagens/programa/reilear.jpg",
+      "credit": "Ramos, Carolina Campanela, ClÃ¡udio da Silva, Crista Alfaiate, Dinarte Branco, D",
+      "source": "https://teatrodobairro.org/#reilear",
+      "theater": "Teatro do Bairro"
+    },
+    "source_url": "https://teatrodobairro.org/#reilear",
+    "ticket_url": "https://teatrodobairro.bol.pt/Comprar/Bilhetes/174311-rei_lear-teatro_do_bairro/",
+    "price_info": "",
+    "duration": "150 min.",
+    "age_rating": "M/12",
+    "sala": "",
+    "technical_sheet": {
+      "texto": "William Shakespeare; TraduÃ§Ã£o: Ãlvaro Cunhal; EncenaÃ§Ã£o: AntÃ³nio Pires; Com: Adriano Luz, AndrÃ© Ramos, Carolina Campanela, ClÃ¡udio da Silva, Crista Alfaiate, Dinarte Branco, Dinis Gomes, Franc",
+      "cenografia": "JoÃ£o Mendes Ribeiro;",
+      "figurinos": "LuÃ­sa Pacheco; Assistente de encenaÃ§Ã£o: Carolina FerrÃ£o; MÃºsica: Daniel Bernardes;",
+      "luz": "Rui Seabra; Desenho de som: Paulo Abelho; Costureira: RosÃ¡rio Balbi; ConstruÃ§Ã£o de cenÃ¡rio: FÃ¡bio Paulo; OperaÃ§Ã£o de luz: AntÃ³nio SerrÃ£o e JoÃ£o Madeira; OperaÃ§Ã£o de som: Vasco Maciel; Chef",
+      "dramaturgia": "LuÃ­sa Costa Gomes 2015 | QUATRO SANTOS EM TRÃS ACTOS libreto de Gertrude Stein e muÌsica de Virgil Thomson TraducÌ§aÌo e"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "teatrodobairro",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.7
     }
   },
   {
@@ -152,11 +1044,261 @@
       "produção": "Janice Mayamona Apoio Técnico: Léo Emílio Contabilidade: Irene Gaspar Comunicação e Design Gráfico: Natacha Ventura Comunicação Digital: Miguel Durão Hilário Registo em vídeo: Bruno Canas Costureira: Teresa Matos Assessoria de imprensa: Canal Aberto – Márcia Marques, Daniele Valério e Carina Bordalo",
       "autor": "diz-nos que há algo de sinistro numa mulher que só usa roupa uma vez. Como haverá, dizemos nós, algo de identicamente sinistro em vestir sempre a mesma roupa. É igual com o amor. Há algo pecaminoso em vestir-nos de amor uma vez e de novamente repetir a dose. Ao entrar para dentro do círculo amoroso,"
     },
-    "scraped_at": "2026-03-20T00:56:53.787799+00:00",
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.81
+    }
+  },
+  {
+    "id": "saoluiz-os-contratos-do-comerciante",
+    "title": "Os Contratos do Comerciante",
+    "subtitle": "Uma Comédia BancocráticaUma criação dosauéééua partir do texto deElfriede Jelinek",
+    "theater": "São Luiz Teatro Municipal",
+    "category": "Teatro",
+    "dates_label": "8 a 12 abril",
+    "date_start": "2026-04-08",
+    "date_end": "2026-04-12",
+    "sessions": [
+      {
+        "date": "2026-04-08",
+        "time": "20:00",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-04-09",
+        "time": "20:00",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-04-10",
+        "time": "20:00",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-04-11",
+        "time": "20:00",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-04-12",
+        "time": "17:30",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "quarta a sábado, 20h, domingo, 17h30",
+    "synopsis": "Os pequenos investidores lamuriam tudo o que perderam e as figuras sem nome e sem cara do setor financeiro conspiram contra eles, cidadãos comuns, caídos, por culpa própria nas malhas dos poderosos.…",
+    "image": {
+      "url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2026/01/foto-de-cartaz-site-scaled.jpg",
+      "credit": "Guilherme Seabra Comprar Bilhetes Datas e Horários 8 a 12 abril quarta a sábado,",
+      "source": "https://www.teatrosaoluiz.pt/espetaculo/os-contratos-do-comerciante/",
+      "theater": "São Luiz Teatro Municipal"
+    },
+    "source_url": "https://www.teatrosaoluiz.pt/espetaculo/os-contratos-do-comerciante/",
+    "ticket_url": "https://wwhttps://saoluiz.bol.pt/Comprar/Bilhetes/173197-os_contratos_do_comerciante-sao_luiz_teatro_municipal/Sessoesw.bol.pt/Comprar/Bilhetes/173197-os_contratos_do_comerciante-sao_luiz_teatro_municipal/Sessoes",
+    "price_info": "€12 (com descontos) | (Abrangido pelo Passe Cultura - disponível apenas na bilheteira do Teatro)\n+info",
+    "duration": "3h",
+    "age_rating": "A classificar pela CCE",
+    "accessibility": "",
+    "sala": "Palco da Sala Luis Miguel Cintra",
+    "technical_sheet": {
+      "tradução": "Helena Topa Com Filipe Velez, Frederico Barata, Joana Manaças e Sérgio Coragem Cocriação e desenho de iluminação Daniel Worm d’Assumpção Co-criação, figurinos e espaço cénico Livia Lattanzio Construção Cenográfica Manuel Lobão",
+      "produção": "Frederico Barata",
+      "coprodução": "auéééu e São Luiz Teatro Municipal Apoios SPA, Junta de Freguesia de Santo António, Casa da Comarca de Arganil, MTC, os nossos putos Agradecimentos Eva Baudry, Filipe Andrade, Fernando Roussado, auéééu teatro"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "saoluiz",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.71
+    }
+  },
+  {
+    "id": "saoluiz-kabe-a-or",
+    "title": "Kabeça Orí",
+    "subtitle": "Aoaní e Joyce Souza",
+    "theater": "São Luiz Teatro Municipal",
+    "category": "Teatro",
+    "dates_label": "11 a 19 abril",
+    "date_start": "2026-04-11",
+    "date_end": "2026-04-19",
+    "sessions": [
+      {
+        "date": "2026-04-11",
+        "time": "19:30",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-04-12",
+        "time": "16:00",
+        "weekday": "Dom"
+      },
+      {
+        "date": "2026-04-15",
+        "time": "19:30",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-04-16",
+        "time": "19:30",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-04-17",
+        "time": "19:30",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-04-18",
+        "time": "19:30",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-04-19",
+        "time": "16:00",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "quarta a sábado 19h30; domingo, 16h",
+    "synopsis": "Começamos por pedir licença, “batemos cabeça” para quem veio antes, refizemos um caminho a fim de ritualizar o que a cidade tenta sistematicamente apagar.…",
+    "image": {
+      "url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2025/07/kabeca-ori-2-by-joniricos-scaled.jpg",
+      "credit": "Joniricos Comprar Bilhetes Datas e Horários 11 a 19 abril quarta a sábado 19h30;",
+      "source": "https://www.teatrosaoluiz.pt/espetaculo/kabeca-ori/",
+      "theater": "São Luiz Teatro Municipal"
+    },
+    "source_url": "https://www.teatrosaoluiz.pt/espetaculo/kabeca-ori/",
+    "ticket_url": "https://saoluiz.bol.pt/Comprar/Bilhetes/172205-kabeca_ori-sao_luiz_teatro_municipal/Sessoes",
+    "price_info": "€12 (com descontos) | (Abrangido pelo Passe Cultura - disponível apenas na bilheteira do Teatro)\n+info",
+    "duration": "",
+    "age_rating": "M/12",
+    "accessibility": "",
+    "sala": "Sala Mário Viegas",
+    "technical_sheet": {
+      "texto": "Aoaní, Joyce Souza e Monalisa Silva",
+      "dramaturgia": "Monalisa Silva",
+      "música": "Xullaji Design e operação de som Sara Marita Percussão Emile Pereira",
+      "luz": "Ariene Godoy Operação de luz Bee Barros Cenário e figurinos Neusa Trovoada Fotografia Joni Riccos Captação de imagens Letícia Diniz",
+      "produção": "Vanessa Amaral Produção Associação Orí – Negritudes em Convergência Espiralar",
+      "coprodução": "Bolsa de Criação O Espaço do Tempo com apoio do Banco BPI e Fundação “la Caixa” /// Projeto financiado por República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes Apoios Biblioteca de Alcântara, Câmara Municipal de Almada, Câmara Municipal da Moita, RDP África, Buala"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "saoluiz",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.72
+    }
+  },
+  {
+    "id": "culturgest-oneohtrix-point-never",
+    "title": "Oneohtrix Point Never",
+    "theater": "Culturgest",
+    "category": "Teatro",
+    "dates_label": "14 ABR 2026",
+    "date_start": "2026-04-14",
+    "date_end": "2026-04-14",
+    "sessions": [
+      {
+        "date": "2026-04-14",
+        "time": "21:00",
+        "weekday": "Ter"
+      }
+    ],
+    "schedule": "21:00",
+    "synopsis": "Como um idioma, a música de Tranquilizer não poderia pertencer a ninguém senão a Oneohtrix Point Never. Voltamos a ouvir relâmpagos de um passado cósmico, ecos de um arquivo de memória que se esboroa no tempo, algures entre o analógico e o advento do digital, ou talvez ambas as coisas ao mesmo tempo…",
+    "image": {
+      "url": "https://www.culturgest.pt/media/filer_public_thumbnails/filer_public/8f/e2/8fe23bbd-6c47-4c36-8065-8fc05e31b9a0/000011550024_1.jpg__1200x630_q85_crop_subsampling-2_upscale.jpg",
+      "credit": "Aidan Zamiri. 14 ABR 2026 TER 21:00 Comprar Bilhetes Auditório Emílio Rui Vilar",
+      "source": "https://www.culturgest.pt/pt/programacao/oneohtrix-point-never-tranquilizer/",
+      "theater": "Culturgest"
+    },
+    "source_url": "https://www.culturgest.pt/pt/programacao/oneohtrix-point-never-tranquilizer/",
+    "ticket_url": "https://www.culturgest.pt/pt/bilheteira/",
+    "price_info": "30€",
+    "duration": "",
+    "age_rating": "M/6",
+    "accessibility": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "culturgest",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.6
+    }
+  },
+  {
+    "id": "culturgest-tr-s-tempos",
+    "title": "TRÊS TEMPOS",
+    "theater": "Culturgest",
+    "category": "Teatro",
+    "dates_label": "18 ABR 2026",
+    "date_start": "2026-04-18",
+    "date_end": "2026-04-18",
+    "sessions": [
+      {
+        "date": "2026-04-18",
+        "time": "16:00",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "16:00",
+    "synopsis": "Nesta edição de Três Tempos, o músico e produtor Xullaji, nome central do hip-hop português, junta-se a Beatriz Pessoa, cantora e compositora que cruza jazz com a canção contemporânea.…",
+    "image": {
+      "url": "https://www.culturgest.pt/media/filer_public_thumbnails/filer_public/9b/9e/9b9e1454-5532-4378-9f25-1b8aa1e30c30/pl_trestempos_site_3000x3000_verde.jpg__1200x630_q85_crop_subsampling-2_upscale.jpg",
+      "credit": "2026 Culturgest. Website by Studio Macedo Cannatà & Queo Assine agora a newslett",
+      "source": "https://www.culturgest.pt/pt/programacao/tres-tempos/",
+      "theater": "Culturgest"
+    },
+    "source_url": "https://www.culturgest.pt/pt/programacao/tres-tempos/",
+    "ticket_url": "https://www.culturgest.pt/pt/bilheteira/",
+    "price_info": "Entrada gratuita",
+    "duration": "90min",
+    "age_rating": "M/6",
+    "accessibility": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "culturgest",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.65
+    }
+  },
+  {
+    "id": "culturgest-tortoise",
+    "title": "TORTOISE",
+    "theater": "Culturgest",
+    "category": "Teatro",
+    "dates_label": "20 ABR 2026",
+    "date_start": "2026-04-20",
+    "date_end": "2026-04-20",
+    "sessions": [
+      {
+        "date": "2026-04-20",
+        "time": "21:00",
+        "weekday": "Seg"
+      }
+    ],
+    "schedule": "21:00",
+    "synopsis": "Como um cometa, os Tortoise deixaram um rasto luminoso após o impacto da sua chegada, no início dos anos 90, do século XX. Do firmamento do rock de Chicago para o mundo, contribuíram de forma decisiva para a expansão do pós-rock, esse género musical que juntou o formalismo das bandas de guitarra à n…",
+    "image": {
+      "url": "https://www.culturgest.pt/media/filer_public_thumbnails/filer_public/dd/72/dd729ec9-4eb6-414a-9b18-4e7bca67ede6/tortoise_photo_by_yusuke_nagata.jpg__1200x630_q85_crop_subsampling-2_upscale.jpg",
+      "credit": "Yusuke Nagata. 20 ABR 2026 SEG 21:00 Comprar Bilhetes Auditório Emílio Rui Vilar",
+      "source": "https://www.culturgest.pt/pt/programacao/tortoise-touch/",
+      "theater": "Culturgest"
+    },
+    "source_url": "https://www.culturgest.pt/pt/programacao/tortoise-touch/",
+    "ticket_url": "https://www.culturgest.pt/pt/bilheteira/",
+    "price_info": "35€",
+    "duration": "",
+    "age_rating": "M/6",
+    "accessibility": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "culturgest",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.6
     }
   },
   {
@@ -199,11 +1341,439 @@
       "figurinos": "Giovanna Moretto",
       "produção": "e"
     },
-    "scraped_at": "2026-03-20T00:56:53.787799+00:00",
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.75
+    }
+  },
+  {
+    "id": "saoluiz-d-juan",
+    "title": "D. Juan",
+    "subtitle": "Elmano Sancho",
+    "theater": "São Luiz Teatro Municipal",
+    "category": "Teatro",
+    "dates_label": "22 a 26 abril",
+    "date_start": "2026-04-22",
+    "date_end": "2026-04-26",
+    "sessions": [
+      {
+        "date": "2026-04-22",
+        "time": "20:00",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-04-23",
+        "time": "20:00",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-04-24",
+        "time": "20:00",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-04-25",
+        "time": "20:00",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-04-26",
+        "time": "17:30",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "quarta a sábado, 20h; domingo, 17h30",
+    "synopsis": "O que é “um mito”, essa entidade que atravessa o tempo para se confrontar com um mundo em permanente mudança?EmDon Juan, as identidades deslocam-se, abrindo espaço.Don Juan regressa não como personagem, mas como força que atravessa os séculos.…",
+    "image": {
+      "url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2025/07/foto-promocional-leandrofernandes-scaled.jpg",
+      "credit": "São Luiz Teatro Municipal Newsletter Siga o Teatro São Luiz nas redes sociais Me",
+      "source": "https://www.teatrosaoluiz.pt/espetaculo/d-juan-ou-a-queda-de-um-mito/",
+      "theater": "São Luiz Teatro Municipal"
+    },
+    "source_url": "https://www.teatrosaoluiz.pt/espetaculo/d-juan-ou-a-queda-de-um-mito/",
+    "ticket_url": "https://saoluiz.bol.pt/Comprar/Bilhetes/165907-d_juan_ou_a_queda_de_um_mito-sao_luiz_teatro_municipal/Sessoes",
+    "price_info": "€12 a €15 (com descontos) | (Abrangido pelo Passe Cultura - disponível apenas na bilheteira do Teatro)\n+info",
+    "duration": "",
+    "age_rating": "A classificar pela CCE",
+    "accessibility": "",
+    "sala": "Sala Luis Miguel Cintra",
+    "technical_sheet": {
+      "interpretação": "Catarina Wallenstein, Elmano Sancho, Joana Bárcia, Maria José Paschoal e Paula Neves",
+      "cenografia": "Ana Paula Rocha ASSISTENTE DE CENOGRAFIA Madalena Caceres ASSISTENTE ESTAGIÁRIA DE CENOGRAFIA Vera Félix",
+      "figurinos": "José António Tenente",
+      "luz": "Pedro Nabais Espaço Sonoro Pedro Costa DIREÇÃO DE CENA Geraldo Junior",
+      "produção": "Loup Solitaire",
+      "coprodução": "Teatro Virgínia, Casa das Artes de Vila Nova de Famalicão, Teatro Diogo Bernardes, Teatro Gil Vicente e São Luiz Teatro Municipal /// A Loup Solitaire é uma estrutura financiada pela República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "saoluiz",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.72
+    }
+  },
+  {
+    "id": "culturgest-afetos-nacionais",
+    "title": "Afetos Nacionais",
+    "theater": "Culturgest",
+    "category": "Teatro",
+    "dates_label": "23 ABR 2026",
+    "date_start": "2026-04-23",
+    "date_end": "2026-04-23",
+    "sessions": [
+      {
+        "date": "2026-04-23",
+        "time": "19:00",
+        "weekday": "Qui"
+      }
+    ],
+    "schedule": "19:00",
+    "synopsis": "O que acontece quando entendemos a identidade nacional como resultado de forças afetivas que moldam as nossas relações? Com foco nos afetos, que nos constituem como pessoas e cidadãos, este encontro discute como as ideias sobre “nós e eles” se formam de maneiras profundas e quase impercetíveis.…",
+    "image": {
+      "url": "https://www.culturgest.pt/media/filer_public_thumbnails/filer_public/4e/f4/4ef4175f-7447-4ae8-abfd-1cdd8b7b066f/creditos_renatocruzsantos_copy.jpg__1200x630_q85_crop_subsampling-2_upscale.jpg",
+      "credit": "Renato Cruz Santos. 23 ABR 2026 QUI 19:00 Garantir lugar Pequeno Auditório Entra",
+      "source": "https://www.culturgest.pt/pt/programacao/afetos-nacionais-ana-pais-angharad-closs-stephens-isabel-costa-catarina-rolo-salgueiro/",
+      "theater": "Culturgest"
+    },
+    "source_url": "https://www.culturgest.pt/pt/programacao/afetos-nacionais-ana-pais-angharad-closs-stephens-isabel-costa-catarina-rolo-salgueiro/",
+    "ticket_url": "https://www.culturgest.pt/pt/bilheteira/",
+    "price_info": "Entrada gratuita",
+    "duration": "2h",
+    "age_rating": "",
+    "accessibility": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "culturgest",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.6
+    }
+  },
+  {
+    "id": "culturgest-catarina-r-lo-salgueiro-e-isabel-costa-os-possesso",
+    "title": "Catarina Rôlo Salgueiro e Isabel Costa / Os Possessos",
+    "theater": "Culturgest",
+    "category": "Teatro",
+    "dates_label": "23 ABR 2026",
+    "date_start": "2026-04-23",
+    "date_end": "2026-04-23",
+    "sessions": [
+      {
+        "date": "2026-04-23",
+        "time": "21:00",
+        "weekday": "Qui"
+      }
+    ],
+    "schedule": "21:00",
+    "synopsis": "Neste microsite revelamos mais detalhes sobre o que inspirou a nova criação da companhia Os Possessos. Numa biblioteca pública, um grupo de estranhos reúne-se para participar num clube de leitura.…",
+    "image": {
+      "url": "https://www.culturgest.pt/media/filer_public_thumbnails/filer_public/ed/44/ed44e7fd-e143-4f74-96de-117112fa4704/burn_1956_original_max_filipeferreira.jpg__1200x630_q85_crop_subsampling-2_upscale.jpg",
+      "credit": "Filipe Ferreira. © Filipe Ferreira. © Filipe Ferreira. © Filipe Ferreira. © Fili",
+      "source": "https://www.culturgest.pt/pt/programacao/catarina-rolo-salgueiro-e-isabel-costa-os-possessos-burn-burn-burn-2026/",
+      "theater": "Culturgest"
+    },
+    "source_url": "https://www.culturgest.pt/pt/programacao/catarina-rolo-salgueiro-e-isabel-costa-os-possessos-burn-burn-burn-2026/",
+    "ticket_url": "https://www.culturgest.pt/pt/bilheteira/",
+    "price_info": "15€",
+    "duration": "1h50",
+    "age_rating": "M/12",
+    "accessibility": "Audiodescrição",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "culturgest",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.65
+    }
+  },
+  {
+    "id": "trindade-verdadeiro-oeste",
+    "title": "Verdadeiro Oeste",
+    "theater": "Teatro da Trindade INATEL",
+    "category": "Teatro",
+    "dates_label": "23 Abr – 07 Jun 2026",
+    "date_start": "2026-04-23",
+    "date_end": "2026-06-07",
+    "sessions": [
+      {
+        "date": "2026-04-23",
+        "time": "",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-06-07",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Numwestern indoorcheio de humor e mordacidade, Shepardesconde o traço autobiográfico, desdobrando-se em dois irmãos antagonistas. Um irmão não sobreviverá sem o outro, pois são as duas faces da mesma moeda.…",
+    "image": {
+      "url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2025/06/verdadeiro-oestepedro-macedo-framed-photos-1-300x187.jpg",
+      "credit": "2026 Teatro da Trindade INATEL Mapa do site Política de privacidade Livro de Rec",
+      "source": "https://teatrotrindade.inatel.pt/espetaculo/verdadeiro-oeste/",
+      "theater": "Teatro da Trindade INATEL"
+    },
+    "source_url": "https://teatrotrindade.inatel.pt/espetaculo/verdadeiro-oeste/",
+    "ticket_url": "https://www.ticketline.pt/evento/true-west-91593",
+    "price_info": "10€",
+    "duration": "90 min.",
+    "age_rating": "M/12",
+    "sala": "Sala Estúdio",
+    "technical_sheet": {
+      "autor": "INATEL Saltar para o conteúdo principal Mapa do Website Ajuda de navegação e acessibilida",
+      "encenação": "Rita Lello Ir para Sinopse Ficha Artística Comprar Bilhetes Partilhar no Twitter Partilhar no Facebook Copiar Link Sinopse Datas e Horários 23 ABR a 07 JUN Qua a Dom 19:00 Duração: 90 min. Sala e Preç",
+      "cenografia": "Rita Lello Desenho de luz Ricardo Campos Sonoplastia Carlos Morgado Vídeo Rita Casaes",
+      "figurinos": "João Telmo – Besta",
+      "produção": "Martim Pedroso",
+      "música": "Dan Gillespie Sells"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "trindade",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.77
+    }
+  },
+  {
+    "id": "trindade-clube-dos-poetas-mortos",
+    "title": "CLUBE DOS POETAS MORTOS",
+    "theater": "Teatro da Trindade INATEL",
+    "category": "Teatro",
+    "dates_label": "30 Abr – 02 Ago 2026",
+    "date_start": "2026-04-30",
+    "date_end": "2026-08-02",
+    "sessions": [
+      {
+        "date": "2026-04-30",
+        "time": "",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-08-02",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Num colégio interno dos Estados Unidos, “Tradição, Disciplina, Honra e Excelência” são os pilares de um ensino rígido e espartilhado. Estes serão postos à prova pelo carismático professor de Literatura, John Keating, apenas porque os seus métodos são diferentes dostatus quo.…",
+    "image": {
+      "url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2025/06/clubepoetas-300x169.jpg",
+      "credit": "Pedro Macedo - Framed Photos Ir para Sinopse Ficha Artística Comprar Bilhetes Pa",
+      "source": "https://teatrotrindade.inatel.pt/espetaculo/clube-dos-poetas-mortos/",
+      "theater": "Teatro da Trindade INATEL"
+    },
+    "source_url": "https://teatrotrindade.inatel.pt/espetaculo/clube-dos-poetas-mortos/",
+    "ticket_url": "https://www.ticketline.pt/evento/clube-dos-poetas-mortos-94378",
+    "price_info": "10€",
+    "duration": "90 min.",
+    "age_rating": "M/14",
+    "sala": "Sala Carmen Dolores",
+    "technical_sheet": {
+      "autor": "INATEL Saltar para o conteúdo principal Mapa do Website Ajuda de navegação e acessibilida",
+      "encenação": "Hélder Gamboa",
+      "cenografia": "Fernando Ribeiro Adereços Rafaela Almeida Desenho de luz Nuno Meira Sonoplastia Luís Lucena",
+      "figurinos": "Maria Gonzaga Cabelos Rui Canento Assistência de",
+      "produção": "– Tenda Produções Ana Delgado",
+      "música": "Dan Gillespie Sells"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "trindade",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.77
+    }
+  },
+  {
+    "id": "culturgest-p-e-d-r-a",
+    "title": "P.E.D.R.A.",
+    "theater": "Culturgest",
+    "category": "Teatro",
+    "dates_label": "1 MAI 2026",
+    "date_start": "2026-05-01",
+    "date_end": "2026-05-01",
+    "sessions": [
+      {
+        "date": "2026-05-01",
+        "time": "10:00",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "10:00",
+    "synopsis": "P.E.D.R.A. é uma iniciativa de participação artística promovida pela Culturgest, o Centro Cultural de Lagos e o Teatro-Cine de Torres Vedras, dirigida a jovens entre os 15 e os 18 anos, idealmente com experiência prévia em dança.…",
+    "image": {
+      "url": "https://www.culturgest.pt/media/filer_public_thumbnails/filer_public/38/26/38268a64-114c-4f39-898a-bc9599c8ef32/pedra_cred_patricia_blazquez_1-copia.jpg__1200x630_q85_crop_subsampling-2_upscale.jpg",
+      "credit": "Patrícia Blázquez. 1 FEV – 1 MAI 2026 Inscrições Encerradas Culturgest Gratuit",
+      "source": "https://www.culturgest.pt/pt/programacao/pedra-projeto-educativo-em-danca-de-repertorio-para-adolescentes/",
+      "theater": "Culturgest"
+    },
+    "source_url": "https://www.culturgest.pt/pt/programacao/pedra-projeto-educativo-em-danca-de-repertorio-para-adolescentes/",
+    "ticket_url": "https://www.culturgest.pt/pt/bilheteira/",
+    "price_info": "",
+    "duration": "",
+    "age_rating": "",
+    "accessibility": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "culturgest",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.5
+    }
+  },
+  {
+    "id": "culturgest-joga-o-jogo-fugida",
+    "title": "Joga o Jogo: Fugida!",
+    "theater": "Culturgest",
+    "category": "Teatro",
+    "dates_label": "3 MAI 2026",
+    "date_start": "2026-05-03",
+    "date_end": "2026-05-03",
+    "sessions": [
+      {
+        "date": "2026-05-03",
+        "time": "18:00",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "18:00",
+    "synopsis": "Fugida! é a terceira e derradeira parte do ciclo Joga o Jogo. Trata-se do momento que corresponde ao tiro de partida, ao início da corrida, onde se lançam os dados e se dão as cartas para o futuro.…",
+    "image": {
+      "url": "https://www.culturgest.pt/media/filer_public_thumbnails/filer_public/62/cb/62cbd106-243e-4e03-83d0-4e6f6dfdab42/_rui_horta_pereira_agueda_horizontal.jpg__1200x630_q85_crop_subsampling-2_upscale.jpg",
+      "credit": "2026 Culturgest. Website by Studio Macedo Cannatà & Queo Assine agora a newslett",
+      "source": "https://www.culturgest.pt/pt/programacao/fugida-em-torno-da-colecao-da-cgd/",
+      "theater": "Culturgest"
+    },
+    "source_url": "https://www.culturgest.pt/pt/programacao/fugida-em-torno-da-colecao-da-cgd/",
+    "ticket_url": "https://www.culturgest.pt/pt/bilheteira/",
+    "price_info": "Entrada gratuita",
+    "duration": "",
+    "age_rating": "",
+    "accessibility": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "culturgest",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.55
+    }
+  },
+  {
+    "id": "saoluiz-fimfa-lx26",
+    "title": "FIMFA LX26",
+    "subtitle": "",
+    "theater": "São Luiz Teatro Municipal",
+    "category": "Teatro",
+    "dates_label": "7 a 24 maio",
+    "date_start": "2026-05-07",
+    "date_end": "2026-05-24",
+    "sessions": [
+      {
+        "date": "2026-05-07",
+        "time": "",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-05-24",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "horários e preços variam conforme o espetáculo",
+    "synopsis": "Abrir espaço, reinventar ou iluminar: são algumas das palavras que vão guiar a 26.ª edição do FIMFA Lx – Festival Internacional de Marionetas e Formas Animadas, consagrado como um evento de referência nacional e internacional, ao mostrar anualmente o que de melhor se produz nas artes da marioneta co…",
+    "image": {
+      "url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2023/11/dscf2709-peq-scaled.jpg",
+      "credit": "Estelle Valente Datas e Horários 7 a 24 maio horários e preços variam conforme o",
+      "source": "https://www.teatrosaoluiz.pt/espetaculo/fimfa-lx26/",
+      "theater": "São Luiz Teatro Municipal"
+    },
+    "source_url": "https://www.teatrosaoluiz.pt/espetaculo/fimfa-lx26/",
+    "ticket_url": "",
+    "price_info": "Consultar o preçário de cada espetáculo",
+    "duration": "",
+    "age_rating": "A classificar pela CCE",
+    "accessibility": "",
+    "sala": "Sala Luis Miguel Cintra, Sala Mário Viegas e Sala Bernardo Sassetti",
+    "technical_sheet": {
+      "direção": "Luís Vieira e Rute Ribeiro",
+      "coprodução": "LU.CA – Teatro Luís de Camões, Teatro Nacional D. Maria II, Centro Cultural de Belém e São Luiz Teatro Municipal /// A Tarumba é uma estrutura financiada por República Portuguesa – Cultura / Direção-Geral das Artes"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "saoluiz",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.59
+    }
+  },
+  {
+    "id": "teatrodasfiguras-falsas-hist-rias-verdadeiras-uma-pina-colagem",
+    "title": "Falsas Histórias Verdadeiras: Uma Pina Colagem",
+    "subtitle": "de Victor Hugo Pontes",
+    "theater": "Teatro das Figuras",
+    "category": "Teatro",
+    "dates_label": "8 Mai 2026",
+    "date_start": "2026-05-08",
+    "date_end": "2026-05-08",
+    "sessions": [
+      {
+        "date": "2026-05-08",
+        "time": "21:30",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "21h30",
+    "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+    "image": null,
+    "source_url": "https://teatrodasfiguras.pt/agenda/falsas-historias-verdadeiras-uma-pina-colagem",
+    "ticket_url": "",
+    "price_info": "",
+    "duration": "",
+    "age_rating": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "teatrodasfiguras",
+    "city": "Faro",
+    "_meta": {
+      "completeness": 0.35
+    }
+  },
+  {
+    "id": "culturgest-23-festival-internacional-de-cinema",
+    "title": "23.º Festival Internacional de Cinema",
+    "theater": "Culturgest",
+    "category": "Teatro",
+    "dates_label": "10 MAI 2026",
+    "date_start": "2026-05-10",
+    "date_end": "2026-05-10",
+    "sessions": [
+      {
+        "date": "2026-05-10",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "O IndieLisboa - Festival Internacional de Cinema avança para a sua 23.ª edição e regressa às principais salas de cinema da cidade. Há mais de duas décadas, o festival traz uma programação diversificada e inquieta, abrindo espaço para as mais recentes produções nacionais e internacionais, trabalhos e…",
+    "image": {
+      "url": "https://www.culturgest.pt/media/filer_public_thumbnails/filer_public/e1/c3/e1c33d2b-cb62-4774-baaf-8f3cf43250c1/large_sun_ra__do_the_impossible-clean-16x9-01.png__1200x630_q85_crop_subsampling-2_upscale.png",
+      "credit": "Still de Sun Ra: Do the Impossible, de Christine Turner. 30 ABR – 10 MAI 2026 Bi",
+      "source": "https://www.culturgest.pt/pt/programacao/indielisboa-23-festival-internacional-de-cinema/",
+      "theater": "Culturgest"
+    },
+    "source_url": "https://www.culturgest.pt/pt/programacao/indielisboa-23-festival-internacional-de-cinema/",
+    "ticket_url": "https://www.culturgest.pt/pt/bilheteira/",
+    "price_info": "5€",
+    "duration": "",
+    "age_rating": "M/16",
+    "accessibility": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "culturgest",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.6
     }
   },
   {
@@ -240,11 +1810,1223 @@
       "elenco": "João Vasco. Actualmente em itinerância, Sinédoque estreou em 2023 e foi apresentado em Portugal, Tunísia, Cabo Verde, Brasil, França e Angola. Avenida Frei Miguel Contreiras, 52, 1700-213, Lisboa Horário da Bilheteira Segunda – Sábado 17h30 às 21h30 Domingo — 15h30 às 18h30 *Horários em vigor em dia",
       "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
     },
-    "scraped_at": "2026-03-20T00:56:53.787799+00:00",
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.68
+    }
+  },
+  {
+    "id": "culturgest-meg-stuart",
+    "title": "Meg Stuart",
+    "theater": "Culturgest",
+    "category": "Teatro",
+    "dates_label": "13 MAI 2026",
+    "date_start": "2026-05-13",
+    "date_end": "2026-05-13",
+    "sessions": [
+      {
+        "date": "2026-05-13",
+        "time": "19:00",
+        "weekday": "Qua"
+      }
+    ],
+    "schedule": "19:00",
+    "synopsis": "Sulphur Edges é um encontro coreográfico moldado pela paisagem dos Açores. Criado durante a residência PACAP 8 / Mystery School do Forum Dança, o filme de 60 minutos emerge das zonas termais de São Miguel, piscinas à beira-mar, vestígios de uma mina e de um hotel abandonado.…",
+    "image": {
+      "url": "https://www.culturgest.pt/media/filer_public_thumbnails/filer_public/d7/22/d7225229-ba52-4f40-aef7-63cc5957206b/sulphur_edges_1_1.jpeg__1200x630_q85_crop_subsampling-2_upscale.jpg",
+      "credit": "2026 Culturgest. Website by Studio Macedo Cannatà & Queo Assine agora a newslett",
+      "source": "https://www.culturgest.pt/pt/programacao/meg-stuart-sulphur-edges/",
+      "theater": "Culturgest"
+    },
+    "source_url": "https://www.culturgest.pt/pt/programacao/meg-stuart-sulphur-edges/",
+    "ticket_url": "https://www.culturgest.pt/pt/bilheteira/",
+    "price_info": "Entrada gratuita",
+    "duration": "60 minutos",
+    "age_rating": "M/12",
+    "accessibility": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "culturgest",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.65
+    }
+  },
+  {
+    "id": "culturgest-lucy-railton-com-charlie-hope-rebecca-salvadori",
+    "title": "Lucy Railton com Charlie Hope & Rebecca Salvadori",
+    "theater": "Culturgest",
+    "category": "Teatro",
+    "dates_label": "15 MAI 2026",
+    "date_start": "2026-05-15",
+    "date_end": "2026-05-15",
+    "sessions": [
+      {
+        "date": "2026-05-15",
+        "time": "21:00",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "21:00",
+    "synopsis": "Estreado no CTM Festival de Berlim, em 2025, e nascido de uma encomenda de instituições e festivais europeus que incluiu o Semibreve, de Braga, Not A Word From Me é o novo trabalho de Lucy Railton para palco, desta vez em colaboração com Charlie Hope e Rebecca Salvadori, artistas visuais.…",
+    "image": {
+      "url": "https://www.culturgest.pt/media/filer_public_thumbnails/filer_public/e1/df/e1df4d57-9046-402d-9717-4e9833982182/ctm_live_show_screenshots_53.png__1200x630_q85_crop_subsampling-2_upscale.png",
+      "credit": "CTM Festival. 15 MAI 2026 SEX 21:00 Comprar Bilhetes Auditório Emílio Rui Vilar",
+      "source": "https://www.culturgest.pt/pt/programacao/lucy-railton-not-word-me/",
+      "theater": "Culturgest"
+    },
+    "source_url": "https://www.culturgest.pt/pt/programacao/lucy-railton-not-word-me/",
+    "ticket_url": "https://www.culturgest.pt/pt/bilheteira/",
+    "price_info": "16€",
+    "duration": "",
+    "age_rating": "M/6",
+    "accessibility": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "culturgest",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.6
+    }
+  },
+  {
+    "id": "culturgest-restaurar-o-futuro",
+    "title": "Restaurar o Futuro",
+    "theater": "Culturgest",
+    "category": "Teatro",
+    "dates_label": "19 MAI 2026",
+    "date_start": "2026-05-19",
+    "date_end": "2026-05-19",
+    "sessions": [
+      {
+        "date": "2026-05-19",
+        "time": "19:00",
+        "weekday": "Ter"
+      }
+    ],
+    "schedule": "19:00",
+    "synopsis": "Como as práticas de restituição de objetos, memórias e histórias se podem tornar gestos de reconfiguração de futuros? Scott propõe uma crítica pós-colonial que vai para além da reparação.…",
+    "image": {
+      "url": "https://www.culturgest.pt/media/filer_public_thumbnails/filer_public/0c/0c/0c0c7210-0a58-4db6-9fad-8a7ca09939c9/creditos_joana_linda.jpg__1200x630_q85_crop_subsampling-2_upscale.jpg",
+      "credit": "Joana Linda. 19 MAI 2026 TER 19:00 Garantir lugar Pequeno Auditório Entrada grat",
+      "source": "https://www.culturgest.pt/pt/programacao/restaurar-o-futuro-david-scott/",
+      "theater": "Culturgest"
+    },
+    "source_url": "https://www.culturgest.pt/pt/programacao/restaurar-o-futuro-david-scott/",
+    "ticket_url": "https://www.culturgest.pt/pt/bilheteira/",
+    "price_info": "Entrada gratuita",
+    "duration": "2h",
+    "age_rating": "",
+    "accessibility": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "culturgest",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.6
+    }
+  },
+  {
+    "id": "culturgest-alex-cassal-m-cria-o",
+    "title": "Alex Cassal / Má-Criação",
+    "theater": "Culturgest",
+    "category": "Teatro",
+    "dates_label": "21 MAI 2026",
+    "date_start": "2026-05-21",
+    "date_end": "2026-05-21",
+    "sessions": [
+      {
+        "date": "2026-05-21",
+        "time": "19:00",
+        "weekday": "Qui"
+      }
+    ],
+    "schedule": "19:00",
+    "synopsis": "Entre todos os destinos possíveis de uma hipotética viagem no tempo e no espaço, o protagonista de Hotel Paradoxo escolhe voltar ao verão de 2009, em Lisboa. Há conflitos na Faixa de Gaza e testes nucleares na Coreia. Um avião da Air France desaparece misteriosamente no Oceano Atlântico.…",
+    "image": {
+      "url": "https://www.culturgest.pt/media/filer_public_thumbnails/filer_public/21/6b/216bcc36-78b1-41ef-af37-1dc4b3f4209c/ma_ciracao-hparadoxo_promoout22c-9263.jpg__1200x630_q85_crop_subsampling-2_upscale.jpg",
+      "credit": "Má Criação. 21 MAI 2026 QUI 19:00, 22:00 22 MAI 2026 SEX 19:00, 22:00 23 MAI 202",
+      "source": "https://www.culturgest.pt/pt/programacao/alex-cassal-ma-criacao-hotel-paradoxo/",
+      "theater": "Culturgest"
+    },
+    "source_url": "https://www.culturgest.pt/pt/programacao/alex-cassal-ma-criacao-hotel-paradoxo/",
+    "ticket_url": "https://www.culturgest.pt/pt/bilheteira/",
+    "price_info": "10€",
+    "duration": "50min",
+    "age_rating": "M/14",
+    "accessibility": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "culturgest",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.65
+    }
+  },
+  {
+    "id": "ccb-constitui-o-8211-estreia",
+    "title": "Constituição – Estreia",
+    "subtitle": "Isabel Costa",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Teatro",
+    "dates_label": "2026-05-24 – 2026-05-31",
+    "date_start": "2026-05-24",
+    "date_end": "2026-05-31",
+    "sessions": [
+      {
+        "date": "2026-05-24",
+        "time": "",
+        "weekday": "Dom"
+      },
+      {
+        "date": "2026-05-25",
+        "time": "",
+        "weekday": "Seg"
+      },
+      {
+        "date": "2026-05-26",
+        "time": "",
+        "weekday": "Ter"
+      },
+      {
+        "date": "2026-05-27",
+        "time": "",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-05-28",
+        "time": "",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-05-29",
+        "time": "",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-05-30",
+        "time": "",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-05-31",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Tomando a forma de uma assembleia, convoca-se o espectador a fazer um percurso, passando por diferentes capítulos deste documento. Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB De que matéria somos feitos?…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/05/Missao-Democracia_A-Constituicao_creditoMantraste-scaled-e1748960403470.jpeg",
+      "credit": "Assembleia da República Ilustração de Mantraste, Voltas e Reviravoltas (2.º volu",
+      "source": "https://www.ccb.pt/evento/a-constituicao/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/a-constituicao/",
+    "ticket_url": "https://ccb.bol.pt/Comprar/Cartoes/5956-8627-0-missao_literacia_democratica-fundacao_ccb/Quantidade",
+    "price_info": "3,5\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "texto": "e",
+      "encenação": "Isabel Costa Apoio à Residência de",
+      "criação": "Anna Leppänen",
+      "interpretação": "Isabel Costa, Miguel Nicolau e Vasco Barroso",
+      "cenografia": "Joana Subtil",
+      "figurinos": "Nádia Henriques Composição Musical e",
+      "som": "Miguel Nicolau",
+      "luz": "Ângela Bismarck",
+      "coprodução": "CCB/Fábrica das Artes Apoio Fundo Cultural da Sociedade Portuguesa de Autores Apoio à investigação Tribunal Constitucional Projeto criado no âmbito da parceria Centro Cultural de Belém/Fábrica das Artes e Assembleia da República. Imagem ©Assembleia da República Ilustração de Mantr"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.73
+    }
+  },
+  {
+    "id": "culturgest-rui-agostinho-alex-cassal",
+    "title": "Rui Agostinho, Alex Cassal",
+    "theater": "Culturgest",
+    "category": "Teatro",
+    "dates_label": "26 MAI 2026",
+    "date_start": "2026-05-26",
+    "date_end": "2026-05-26",
+    "sessions": [
+      {
+        "date": "2026-05-26",
+        "time": "19:00",
+        "weekday": "Ter"
+      }
+    ],
+    "schedule": "19:00",
+    "synopsis": "O tempo existe ou é apenas uma invenção humana? Há tempo fora da Terra? Como o medimos? Pela rotação da Terra, pelas fases da Lua, ou pela bolsa de valores? Viagem no Planeta Tempo é um encontro que nos convida a refletir sobre esta dimensão que nos é essencial.…",
+    "image": {
+      "url": "https://www.culturgest.pt/media/filer_public_thumbnails/filer_public/cf/d6/cfd66319-2051-4781-b6ec-1a14ca6dc88c/ma_ciracao-hparadoxo_promoout22c-8687.jpg__1200x630_q85_crop_subsampling-2_upscale.jpg",
+      "credit": "Má Criação. 26 MAI 2026 TER 19:00 Garantir lugar Auditório Emílio Rui Vilar Entr",
+      "source": "https://www.culturgest.pt/pt/programacao/viagem-no-planeta-tempo-rui-agostinho-alex-cassal/",
+      "theater": "Culturgest"
+    },
+    "source_url": "https://www.culturgest.pt/pt/programacao/viagem-no-planeta-tempo-rui-agostinho-alex-cassal/",
+    "ticket_url": "https://www.culturgest.pt/pt/bilheteira/",
+    "price_info": "Entrada gratuita",
+    "duration": "2h",
+    "age_rating": "",
+    "accessibility": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "culturgest",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.6
+    }
+  },
+  {
+    "id": "saoluiz-hip-lito",
+    "title": "Hipólito",
+    "subtitle": "de Bruno Simão, a partir do texto de Mickael de OliveiraSUBSOLOS",
+    "theater": "São Luiz Teatro Municipal",
+    "category": "Teatro",
+    "dates_label": "29 a 31 maio",
+    "date_start": "2026-05-29",
+    "date_end": "2026-05-31",
+    "sessions": [
+      {
+        "date": "2026-05-29",
+        "time": "20:00",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-05-30",
+        "time": "20:00",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-05-31",
+        "time": "17:30",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "sexta e sábado, 20h; domingo, 17h30",
+    "synopsis": "Este espetáculo poderia ser apresentado no Palais de Tokyo em Paris.Olga Roriz Hipólito(texto original de Mickael de Oliveira), é um espetáculo sobre brutalidade nas relações familiares. Trata o mito de Fedra.…",
+    "image": {
+      "url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2025/07/hipolito-brunosimao-joaotuna-site.jpg",
+      "credit": "João Tuna Datas e Horários 29 a 31 maio sexta e sábado, 20h; domingo, 17h30 Loca",
+      "source": "https://www.teatrosaoluiz.pt/espetaculo/hipolito/",
+      "theater": "São Luiz Teatro Municipal"
+    },
+    "source_url": "https://www.teatrosaoluiz.pt/espetaculo/hipolito/",
+    "ticket_url": "",
+    "price_info": "€7 (com descontos) | (Abrangido pelo Passe Cultura - disponível apenas na bilheteira do Teatro)\n+info",
+    "duration": "",
+    "age_rating": "A classificar pela CCE",
+    "accessibility": "",
+    "sala": "Subpalco",
+    "technical_sheet": {
+      "luz": "Pedro Guimarães",
+      "produção": "Xana Lagusi"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "saoluiz",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.59
+    }
+  },
+  {
+    "id": "culturgest-a-winged-victory-for-the-sullen",
+    "title": "A Winged Victory For The Sullen",
+    "theater": "Culturgest",
+    "category": "Teatro",
+    "dates_label": "29 MAI 2026",
+    "date_start": "2026-05-29",
+    "date_end": "2026-05-29",
+    "sessions": [
+      {
+        "date": "2026-05-29",
+        "time": "21:00",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "21:00",
+    "synopsis": "Prometemo-lo para junho de 2020, mas não aconteceu, indo na enxurrada dos cancelamentos que a pandemia e o confinamento obrigaram. Ficou permanentemente sinalizado no nosso arquivo como “adiado” porque nunca quisemos assumir o seu desaparecimento definitivo: finalmente, eis que A Winged Victory For …",
+    "image": {
+      "url": "https://www.culturgest.pt/media/filer_public_thumbnails/filer_public/9c/29/9c294cc1-d62c-4c4f-bbbe-43fd27a3317f/_awvfts2023dublin_erica_coburn_vm8a4036_1.jpg__1200x630_q85_crop_subsampling-2_upscale.jpg",
+      "credit": "Erica Coburn. 29 MAI 2026 SEX 21:00 Comprar Bilhetes Auditório Emílio Rui Vilar",
+      "source": "https://www.culturgest.pt/pt/programacao/winged-victory-sullen/",
+      "theater": "Culturgest"
+    },
+    "source_url": "https://www.culturgest.pt/pt/programacao/winged-victory-sullen/",
+    "ticket_url": "https://www.culturgest.pt/pt/bilheteira/",
+    "price_info": "20€",
+    "duration": "",
+    "age_rating": "M/6",
+    "accessibility": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "culturgest",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.6
+    }
+  },
+  {
+    "id": "culturgest-projeto-educativo-em-dan-a-de-repert-rio-para-adol",
+    "title": "Projeto educativo em dança de repertório para adolescentes",
+    "theater": "Culturgest",
+    "category": "Teatro",
+    "dates_label": "30 MAI 2026",
+    "date_start": "2026-05-30",
+    "date_end": "2026-05-30",
+    "sessions": [
+      {
+        "date": "2026-05-30",
+        "time": "16:00",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "16:00",
+    "synopsis": "Nesta edição de P.E.D.R.A. , convidámos o coreógrafo Rui Horta a abrir o seu repertório a jovens de Lisboa, Loulé e Torres Vedras. O resultado é uma partilha intensa de um universo criativo repleto de ideias, materiais coreográficos e desafios sobre o que é dançar, pensar e reler um repertório.…",
+    "image": {
+      "url": "https://www.culturgest.pt/media/filer_public_thumbnails/filer_public/4d/6d/4d6da822-edd7-4c91-879a-dfe27464c5a8/pedra_para_site_creditos_patricia_blazquez_8.jpg__1200x630_q85_crop_subsampling-2_upscale.jpg",
+      "credit": "Patrícia Blasquez. 30 MAI 2026 SÁB 16:00 Pequeno Auditório Entrada gratuita Dura",
+      "source": "https://www.culturgest.pt/pt/programacao/pedra-projeto-educativo-em-danca-de-repertorio-para-adolescentes-26/",
+      "theater": "Culturgest"
+    },
+    "source_url": "https://www.culturgest.pt/pt/programacao/pedra-projeto-educativo-em-danca-de-repertorio-para-adolescentes-26/",
+    "ticket_url": "https://www.culturgest.pt/pt/bilheteira/",
+    "price_info": "Entrada gratuita",
+    "duration": "30min",
+    "age_rating": "M/6",
+    "accessibility": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "culturgest",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.65
+    }
+  },
+  {
+    "id": "teatrodasfiguras-masha-e-o-urso",
+    "title": "Masha e o Urso",
+    "subtitle": "Missão no Circo",
+    "theater": "Teatro das Figuras",
+    "category": "Teatro",
+    "dates_label": "31 Mai 2026",
+    "date_start": "2026-05-31",
+    "date_end": "2026-05-31",
+    "sessions": [
+      {
+        "date": "2026-05-31",
+        "time": "11:00",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "11h00 e 15h00",
+    "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+    "image": null,
+    "source_url": "https://teatrodasfiguras.pt/agenda/masha-e-o-urso-2026",
+    "ticket_url": "",
+    "price_info": "",
+    "duration": "",
+    "age_rating": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "teatrodasfiguras",
+    "city": "Faro",
+    "_meta": {
+      "completeness": 0.35
+    }
+  },
+  {
+    "id": "culturgest-lia-rodrigues",
+    "title": "Lia Rodrigues",
+    "theater": "Culturgest",
+    "category": "Teatro",
+    "dates_label": "02 JUN 2026",
+    "date_start": "2026-06-02",
+    "date_end": "2026-06-02",
+    "sessions": [
+      {
+        "date": "2026-06-02",
+        "time": "21:00",
+        "weekday": "Ter"
+      }
+    ],
+    "schedule": "21:00",
+    "synopsis": "A palavra “borda” significa fronteira, margem, limite, barreira. Existem fronteiras geográficas e políticas, representadas por muros, arames farpados, postos de controle, portões.…",
+    "image": {
+      "url": "https://www.culturgest.pt/media/filer_public_thumbnails/filer_public/b3/3c/b33c04db-229f-403d-b538-af05df0e7cb8/lia_rodrigues_borda_69205ba1a2f91_2409_3.png__1200x630_q85_crop_subsampling-2_upscale.png",
+      "credit": "Sammi Landweer. 02 JUN 2026 TER 21:00 03 JUN 2026 QUA 21:00 Comprar Bilhetes Aud",
+      "source": "https://www.culturgest.pt/pt/programacao/lia-rodrigues-borda/",
+      "theater": "Culturgest"
+    },
+    "source_url": "https://www.culturgest.pt/pt/programacao/lia-rodrigues-borda/",
+    "ticket_url": "https://www.culturgest.pt/pt/bilheteira/",
+    "price_info": "18€",
+    "duration": "70min",
+    "age_rating": "M/12",
+    "accessibility": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "culturgest",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.65
+    }
+  },
+  {
+    "id": "saoluiz-da-boca-pra-fora",
+    "title": "Da Boca Pra Fora",
+    "subtitle": "de Jonathan Lewis e Miranda FosterEncenaçãoFlávio Gil",
+    "theater": "São Luiz Teatro Municipal",
+    "category": "Teatro",
+    "dates_label": "3 a 14 junho (exceto 12 junho)",
+    "date_start": "2026-06-03",
+    "date_end": "2026-06-14",
+    "sessions": [
+      {
+        "date": "2026-06-03",
+        "time": "19:30",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-06-04",
+        "time": "19:30",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-06-05",
+        "time": "19:30",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-06-06",
+        "time": "19:30",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-06-07",
+        "time": "16:00",
+        "weekday": "Dom"
+      },
+      {
+        "date": "2026-06-10",
+        "time": "19:30",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-06-11",
+        "time": "19:30",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-06-12",
+        "time": "19:30",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-06-13",
+        "time": "19:30",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-06-14",
+        "time": "16:00",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "quarta a sábado, 19h30; domingo, 16h",
+    "synopsis": "António, Bia, Telma e Carlos…. Quatro atores que dividem apartamento no Bairro Alto, a viverem diferentes fases das suas vidas. António, o mais velho dos quatro, enfrenta o dilema de escolher as 8 músicas que marcam a sua vida, como se essa fosse a sua última esperança.…",
+    "image": {
+      "url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2025/07/cartaz-psaoluiz-dbpf-site-peq-1.jpg",
+      "credit": "André Piçarra Comprar Bilhetes Datas e Horários 3 a 14 junho (exceto 12 junho) q",
+      "source": "https://www.teatrosaoluiz.pt/espetaculo/da-boca-pra-fora/",
+      "theater": "São Luiz Teatro Municipal"
+    },
+    "source_url": "https://www.teatrosaoluiz.pt/espetaculo/da-boca-pra-fora/",
+    "ticket_url": "https://saoluiz.bol.pt/Comprar/Bilhetes/172943-da_boca_pra_fora-sao_luiz_teatro_municipal/Sessoes",
+    "price_info": "€12 (com descontos) | (Abrangido pelo Passe Cultura - disponível apenas na bilheteira do Teatro)\n+info",
+    "duration": "",
+    "age_rating": "A classificar pela CCE",
+    "accessibility": "",
+    "sala": "Sala Mário Viegas",
+    "technical_sheet": {
+      "interpretação": "Sara Barradas, Marta Gil, João Cabral, Diogo Martins, André Leitão e Mike11",
+      "texto": "Jonathan Lewis e Miranda Foster",
+      "encenação": "Flávio Gil Tradução, Adaptação e Assistência de Encenação João Soares dos Reis",
+      "cenografia": "Flávio Gil Fotografias e Design Gráfico André Piçarra",
+      "figurinos": "Dino Alves",
+      "produção": "André Camilo",
+      "coprodução": "Camarote Produções e São Luiz Teatro Municipal"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "saoluiz",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.74
+    }
+  },
+  {
+    "id": "teatrodasfiguras-quinteto-de-morte",
+    "title": "Quinteto de Morte",
+    "subtitle": "",
+    "theater": "Teatro das Figuras",
+    "category": "Teatro",
+    "dates_label": "5 Jun 2026",
+    "date_start": "2026-06-05",
+    "date_end": "2026-06-05",
+    "sessions": [
+      {
+        "date": "2026-06-05",
+        "time": "21:30",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "Dias 5 e 6 às 21h30 | Dia...",
+    "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+    "image": null,
+    "source_url": "https://teatrodasfiguras.pt/agenda/quinteto-de-morte",
+    "ticket_url": "",
+    "price_info": "",
+    "duration": "",
+    "age_rating": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "teatrodasfiguras",
+    "city": "Faro",
+    "_meta": {
+      "completeness": 0.35
+    }
+  },
+  {
+    "id": "ccb-o-direito-do-mais-fraco-liberdade",
+    "title": "O Direito do Mais Fraco à Liberdade",
+    "subtitle": "SillySeason - Temps d’Images",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Teatro",
+    "dates_label": "2026-06-07",
+    "date_start": "2026-06-07",
+    "date_end": "2026-06-07",
+    "sessions": [
+      {
+        "date": "2026-06-07",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Estamos em 1974 e Rainer Werner Fassbinder prepara-se para realizar mais um dos seus filmes. Provocador e enigmático como sempre, misturando e confundindo todas as funções dentro desse objeto artístico (atores que são encenadores, que são argumentistas, que são produtores e segundos assistente…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2026/03/2000x940_TempsDImages_Junho26_AP.jpg",
+      "credit": "Alípio Padilha Preços e Descontos Plateia - 13 € Laterais - 10,5 € Comprar Bilhe",
+      "source": "https://www.ccb.pt/evento/o-direito-do-mais-fraco-a-liberdade/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/o-direito-do-mais-fraco-a-liberdade/",
+    "ticket_url": "",
+    "price_info": "13\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "direção": "e",
+      "criação": "SillySeason ( Cátia Tomé , Ivo Saraiva e Silva e Ricardo Teixeira )",
+      "interpretação": "Cátia Tomé , Duarte Melo , Ivo Saraiva e Silva , Rafael Carvalho , Ricardo Teixeira e Soraia Chaves Vídeo Ricardo Branco Operadores de Câmara Ricardo Dias , Ricardo Machado",
+      "luz": "Tiago Coelho",
+      "música": "Ricardo Remédio Fotografia Alípio Padilha Design Gráfico Rui Miguel Rodrigues",
+      "produção": "Inês Pinto",
+      "coprodução": "A Oficina/Centro Cultural Vila Flor , RTP – Rádio e Televisão de Portugal , Teatro Diogo Bernardes e Teatro das Figuras"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.64
+    }
+  },
+  {
+    "id": "trindade-andr-de-freitas",
+    "title": "André de Freitas",
+    "theater": "Teatro da Trindade INATEL",
+    "category": "Teatro",
+    "dates_label": "16 Jun 2026",
+    "date_start": "2026-06-16",
+    "date_end": "2026-06-16",
+    "sessions": [
+      {
+        "date": "2026-06-16",
+        "time": "",
+        "weekday": "Ter"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "No seu segundo espetáculo de stand-up, André de Freitas está naquela fase estranha da vida em que supostamente devemos tornar-nos adultos. Os teus pais passam a ser pessoas, as relações tornam-se complicadas e nada parece ser apenas preto ou branco.…",
+    "image": {
+      "url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2026/03/andredefreitas-1920x1080-1-300x169.jpg",
+      "credit": "2026 Teatro da Trindade INATEL Mapa do site Política de privacidade Livro de Rec",
+      "source": "https://teatrotrindade.inatel.pt/espetaculo/andre-freitas/",
+      "theater": "Teatro da Trindade INATEL"
+    },
+    "source_url": "https://teatrotrindade.inatel.pt/espetaculo/andre-freitas/",
+    "ticket_url": "https://www.ticketline.pt/evento/andre-de-freitas-publicdisplay-of-affection-102676",
+    "price_info": "16€",
+    "duration": "",
+    "age_rating": "",
+    "sala": "Sala Carmen Dolores",
+    "technical_sheet": {
+      "autor": "Freitas | Teatro da Trinda",
+      "encenação": "Diogo Infante 19 Fev - 05 Abr 2026 BROKEBACK MOUNTAIN",
+      "música": "Dan Gillespie Sells"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "trindade",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.61
+    }
+  },
+  {
+    "id": "ccb-exerc-cio-de-montagem",
+    "title": "Exercício de Montagem",
+    "subtitle": "Um objeto multidisciplinar do Teatro do VestidoUm filme futuro",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Teatro",
+    "dates_label": "2026-06-18 – 2026-06-28",
+    "date_start": "2026-06-18",
+    "date_end": "2026-06-28",
+    "sessions": [
+      {
+        "date": "2026-06-18",
+        "time": "",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-06-19",
+        "time": "",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-06-20",
+        "time": "",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-06-21",
+        "time": "",
+        "weekday": "Dom"
+      },
+      {
+        "date": "2026-06-22",
+        "time": "",
+        "weekday": "Seg"
+      },
+      {
+        "date": "2026-06-23",
+        "time": "",
+        "weekday": "Ter"
+      },
+      {
+        "date": "2026-06-24",
+        "time": "",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-06-25",
+        "time": "",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-06-26",
+        "time": "",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-06-27",
+        "time": "",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-06-28",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Pode um filme em progresso ser uma performance? Joana Craveiro parte de um conjunto de imagens que captou na Palestina para ensaiar uma resposta a esta pergunta.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/07/2000x940_TeatroDoVestido.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/exercicio-de-montagem/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/exercicio-de-montagem/",
+    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/164864-exercicio_de_montagem_joana_craveiro-ccb/Sessoes",
+    "price_info": "15\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "música": "e espaço sonoro Francisco Madureira Cocriação e manipulação de objetos e arquivos Estêvão Antunes , Tânia Guerreiro Participação na",
+      "criação": "do projeto Bernardo Afonso",
+      "figurinos": "Tânia Guerreiro",
+      "cenografia": "Carla Martínez Cocriação e Operação de Vídeo Diana Ramalho Cocriação e Montagem Massimiliano Ferraina",
+      "tradução": "Shahd Wadi , Tarab",
+      "luz": "Leocádia Silva",
+      "produção": "Alaíde Costa Assistente de"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.69
+    }
+  },
+  {
+    "id": "saoluiz-a-cavalo",
+    "title": "A CAVALO",
+    "subtitle": "Sónia Baptista",
+    "theater": "São Luiz Teatro Municipal",
+    "category": "Teatro",
+    "dates_label": "19 a 21 junho",
+    "date_start": "2026-06-19",
+    "date_end": "2026-06-21",
+    "sessions": [
+      {
+        "date": "2026-06-19",
+        "time": "18:00",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-06-20",
+        "time": "15:00",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-06-21",
+        "time": "15:00",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "sexta, 18h; sábado e domingo, 15h e 18h",
+    "synopsis": "Partindo do capítulo das Viagens de Gulliver: A Voyage to the Land of the Houyhnhnmse de várias referências culturais e representações do Cavalo e da sua relação com os seres humanos – resultando num imaginário cheio de signos e significados, alguns problemáticos, outros idealizados – pretendemos re…",
+    "image": {
+      "url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2025/07/a-cavaloraquel-melgue-cort-site-scaled.jpg",
+      "credit": "Raquel Melgue Datas e Horários 19 a 21 junho sexta, 18h; sábado e domingo, 15h e",
+      "source": "https://www.teatrosaoluiz.pt/espetaculo/a-cavalo/",
+      "theater": "São Luiz Teatro Municipal"
+    },
+    "source_url": "https://www.teatrosaoluiz.pt/espetaculo/a-cavalo/",
+    "ticket_url": "",
+    "price_info": "€12 (com descontos) | (Abrangido pelo Passe Cultura - disponível apenas na bilheteira do Teatro)\n+info",
+    "duration": "",
+    "age_rating": "A classificar pela CCE",
+    "accessibility": "",
+    "sala": "Sala Bernardo Sassetti",
+    "technical_sheet": {
+      "direção": "Sónia Baptista",
+      "interpretação": "Sónia Baptista, Maria Abrantes, Joana Levi, Bruno Soares Nogueira",
+      "cenografia": "Raquel Melgue, Sónia Baptista SOM Margarida Magalhães",
+      "figurinos": "Lara Torres, Sónia Baptista",
+      "direção_produção": "Maria João Garcia",
+      "coprodução": "Fundação de Serralves/Serralves em Festa, Citemor, Festival End, Festival Paragem e São Luiz Teatro Municipal"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "saoluiz",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.67
+    }
+  },
+  {
+    "id": "culturgest-festival-art-explora",
+    "title": "FESTIVAL ART EXPLORA",
+    "theater": "Culturgest",
+    "category": "Teatro",
+    "dates_label": "19–29 JUN 2026",
+    "date_start": "2026-06-19",
+    "date_end": "2026-06-29",
+    "sessions": [
+      {
+        "date": "2026-06-19",
+        "time": "",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-06-20",
+        "time": "",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-06-21",
+        "time": "",
+        "weekday": "Dom"
+      },
+      {
+        "date": "2026-06-22",
+        "time": "",
+        "weekday": "Seg"
+      },
+      {
+        "date": "2026-06-23",
+        "time": "",
+        "weekday": "Ter"
+      },
+      {
+        "date": "2026-06-24",
+        "time": "",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-06-25",
+        "time": "",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-06-26",
+        "time": "",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-06-27",
+        "time": "",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-06-28",
+        "time": "",
+        "weekday": "Dom"
+      },
+      {
+        "date": "2026-06-29",
+        "time": "",
+        "weekday": "Seg"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "O catamarã Art Explorer , com 47m de comprimento, construído durante três anos pelo estaleiro PeriniNavi, já passou por várias cidades do Mediterrâneo, tais como Rabat, Tanger, Marselha, Veneza e Málaga.…",
+    "image": {
+      "url": "https://www.culturgest.pt/media/filer_public_thumbnails/filer_public/93/c3/93c3728e-3de0-478b-8988-25cf69148683/art_explora_friday_big_foto-filip_kovacevic_26_of_176.jpg__1200x630_q85_crop_subsampling-2_upscale.jpg",
+      "credit": "Filip Kovačević. 19–29 JUN 2026 Inscrições disponíveis brevemente Marina de Ca",
+      "source": "https://www.culturgest.pt/pt/programacao/art-explora/",
+      "theater": "Culturgest"
+    },
+    "source_url": "https://www.culturgest.pt/pt/programacao/art-explora/",
+    "ticket_url": "https://www.culturgest.pt/pt/bilheteira/",
+    "price_info": "Entrada gratuita",
+    "duration": "",
+    "age_rating": "M/6",
+    "accessibility": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "culturgest",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.6
+    }
+  },
+  {
+    "id": "culturgest-mater",
+    "title": "MATER",
+    "theater": "Culturgest",
+    "category": "Teatro",
+    "dates_label": "21 JUN 2026",
+    "date_start": "2026-06-21",
+    "date_end": "2026-06-21",
+    "sessions": [
+      {
+        "date": "2026-06-21",
+        "time": "10:00",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "10:00",
+    "synopsis": "A matriz é um espaço vital, do qual algo é gerado, que se relaciona com uma ordem uterina presente na raiz dos elementos. A partir desta dimensão matricial, a exposição MATER aborda a matriz como uma força de tecedura entre práticas e objetos.…",
+    "image": {
+      "url": "https://www.culturgest.pt/media/filer_public_thumbnails/filer_public/08/d7/08d7e53f-febe-4c86-bae4-e2f3a78e6396/franciscolopes.jpg__1200x630_q85_crop_subsampling-2_upscale.jpg",
+      "credit": "Francisco Lopes. 11 ABR – 21 JUN 2026 MIAA-Museu Ibérico de Arqueologia e Arte d",
+      "source": "https://www.culturgest.pt/pt/programacao/mater-partir-da-colecao-da-cgd/",
+      "theater": "Culturgest"
+    },
+    "source_url": "https://www.culturgest.pt/pt/programacao/mater-partir-da-colecao-da-cgd/",
+    "ticket_url": "https://www.culturgest.pt/pt/bilheteira/",
+    "price_info": "3€",
+    "duration": "",
+    "age_rating": "",
+    "accessibility": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "culturgest",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.55
+    }
+  },
+  {
+    "id": "saoluiz-deixar-o-karate",
+    "title": "DEIXAR O KARATE",
+    "subtitle": "Miguel Castro Caldas e Pedro Gil",
+    "theater": "São Luiz Teatro Municipal",
+    "category": "Teatro",
+    "dates_label": "24 junho a 5 julho",
+    "date_start": "2026-06-24",
+    "date_end": "2026-07-05",
+    "sessions": [
+      {
+        "date": "2026-06-24",
+        "time": "19:30",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-06-25",
+        "time": "19:30",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-06-26",
+        "time": "19:30",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-06-27",
+        "time": "19:30",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-06-28",
+        "time": "16:00",
+        "weekday": "Dom"
+      },
+      {
+        "date": "2026-07-01",
+        "time": "19:30",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-07-02",
+        "time": "19:30",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-07-03",
+        "time": "19:30",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-07-04",
+        "time": "19:30",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-07-05",
+        "time": "16:00",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "quarta a sábado, 19h30; domingo, 16h",
+    "synopsis": "Miguel Castro Caldas e Pedro Gil são artistas de teatro e foram, coincidentemente, artistas de karate. E decidiram fazer disso o princípio deDeixar o Karate. Uma pergunta que é costume fazer-se a quem pratica karate é: já alguma vez usaste o karate na vida?…",
+    "image": {
+      "url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2025/07/pixlr-image-generator-6807568dacc1f43db7ada897-e1752588285589.jpg",
+      "credit": "São Luiz Teatro Municipal Newsletter Siga o Teatro São Luiz nas redes sociais Me",
+      "source": "https://www.teatrosaoluiz.pt/espetaculo/deixar-o-karate/",
+      "theater": "São Luiz Teatro Municipal"
+    },
+    "source_url": "https://www.teatrosaoluiz.pt/espetaculo/deixar-o-karate/",
+    "ticket_url": "",
+    "price_info": "€12 (com descontos) | (Abrangido pelo Passe Cultura - disponível apenas na bilheteira do Teatro)\n+info",
+    "duration": "",
+    "age_rating": "A classificar pela CCE",
+    "accessibility": "",
+    "sala": "Sala Mário Viegas",
+    "technical_sheet": {
+      "direção": "Miguel Castro Caldas e Pedro Gil",
+      "direção_produção": "Ana Gusmão",
+      "cenografia": "André Guedes",
+      "luz": "Daniel Worm",
+      "produção": "Razões Pessoais Residência artística Casa de Gigante",
+      "coprodução": "Teatro das Figuras e São Luiz Teatro Municipal"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "saoluiz",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.67
+    }
+  },
+  {
+    "id": "saoluiz-es-tr3s-irms",
+    "title": "ES TR3S IRMS",
+    "subtitle": "Tita Maravilha",
+    "theater": "São Luiz Teatro Municipal",
+    "category": "Teatro",
+    "dates_label": "26 a 28 junho",
+    "date_start": "2026-06-26",
+    "date_end": "2026-06-28",
+    "sessions": [
+      {
+        "date": "2026-06-26",
+        "time": "20:00",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-06-27",
+        "time": "20:00",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-06-28",
+        "time": "17:30",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "sexta e sábado, 20h; domingo, 17h30",
+    "synopsis": "Es Tr3s Irms, Diogo, Macha e Irina, vivem numa cidade no interior da Rússia. Aborrecidas com o dia-a-dia da província, que as isola e castra os seus sonhos, desejam mais que tudo voltar a Moscou/Moscovo, a sua terra natal.…",
+    "image": {
+      "url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2025/07/es-tr3s-irms-divulgacao-filipe-ferreira-1-scaled-e1752588127306.jpg",
+      "credit": "Filipe Ferreira Datas e Horários 26 a 28 junho sexta e sábado, 20h; domingo, 17h",
+      "source": "https://www.teatrosaoluiz.pt/espetaculo/es-tr3s-irms/",
+      "theater": "São Luiz Teatro Municipal"
+    },
+    "source_url": "https://www.teatrosaoluiz.pt/espetaculo/es-tr3s-irms/",
+    "ticket_url": "",
+    "price_info": "€12 a €15 (com descontos) | (Abrangido pelo Passe Cultura - disponível apenas na bilheteira do Teatro)\n+info",
+    "duration": "",
+    "age_rating": "M/12",
+    "accessibility": "",
+    "sala": "Sala Luis Miguel Cintra",
+    "technical_sheet": {
+      "dramaturgia": "Keli Freitas e Tita Maravilha Desenho e Operação de luz Lui L´abbate",
+      "cenografia": "Marine Sigaut e Alex Simões AKA Xana Modas Confeção de figurinos Alex Simões Criação sonora Tita Maravilha",
+      "produção": "Trypas-Corassão Associação Cultural",
+      "coprodução": "Es Tr3s Irms é o projeto vencedor da 5ª edição da Bolsa Amélia Rey Colaço, uma iniciativa promovida pelo Teatro Nacional D. Maria II (Lisboa), A Oficina / Centro Cultural Vila Flor (Guimarães), O Espaço do Tempo (Montemor-o-Novo), e o Teatro Viriato (Viseu)."
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "saoluiz",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.63
+    }
+  },
+  {
+    "id": "culturgest-mala-voadora",
+    "title": "Mala voadora",
+    "theater": "Culturgest",
+    "category": "Teatro",
+    "dates_label": "26 JUN 2026",
+    "date_start": "2026-06-26",
+    "date_end": "2026-06-26",
+    "sessions": [
+      {
+        "date": "2026-06-26",
+        "time": "21:00",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "21:00",
+    "synopsis": "Em Polo Norte , a mala voadora demonstra que o Paraíso existiu na Terra e que se encontra hoje soterrado no gelo. O Paraíso não deixou de existir depois da expulsão de Adão e Eva, tornou-se apenas inacessível.…",
+    "image": {
+      "url": "https://www.culturgest.pt/media/filer_public_thumbnails/filer_public/1f/d9/1fd95457-91c4-42b4-9dc6-24e7c3a6d900/polo_norte_mala_voadora_science_history_images.jpg__1200x630_q85_crop_subsampling-2_upscale.jpg",
+      "credit": "Science History Images. 26 JUN 2026 SEX 21:00 27 JUN 2026 SÁB 19:00 30 JUN 2026",
+      "source": "https://www.culturgest.pt/pt/programacao/mala-voadora-polo-norte/",
+      "theater": "Culturgest"
+    },
+    "source_url": "https://www.culturgest.pt/pt/programacao/mala-voadora-polo-norte/",
+    "ticket_url": "https://www.culturgest.pt/pt/bilheteira/",
+    "price_info": "16€",
+    "duration": "1h30",
+    "age_rating": "M/16",
+    "accessibility": "Audiodescrição",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "culturgest",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.65
+    }
+  },
+  {
+    "id": "culturgest-um-silab-rio-por-reconstruir-iv",
+    "title": "Um Silabário por Reconstruir IV",
+    "theater": "Culturgest",
+    "category": "Teatro",
+    "dates_label": "28 JUN 2026",
+    "date_start": "2026-06-28",
+    "date_end": "2026-06-28",
+    "sessions": [
+      {
+        "date": "2026-06-28",
+        "time": "22:00",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "22:00",
+    "synopsis": "Pensado a partir do universo literário, Um Silabário por Reconstruir congrega e apresenta obras demonstrativas de um trânsito entre o visível e o dizível, abrindo espaço à presença da linguagem e do conceito de narratividade.…",
+    "image": {
+      "url": "https://www.culturgest.pt/media/filer_public_thumbnails/filer_public/8f/87/8f872547-c6c7-4e87-9f5a-9e578a3d4f64/cred_renato-cruz-santos_culturgest-silabario-iv-3293.jpg__1200x630_q85_crop_subsampling-2_upscale.jpg",
+      "credit": "Renato Cruz Santos. © Renato Cruz Santos. © Renato Cruz Santos. © Renato Cruz Sa",
+      "source": "https://www.culturgest.pt/pt/programacao/um-silabario-por-reconstruir-iv/",
+      "theater": "Culturgest"
+    },
+    "source_url": "https://www.culturgest.pt/pt/programacao/um-silabario-por-reconstruir-iv/",
+    "ticket_url": "https://www.culturgest.pt/pt/bilheteira/",
+    "price_info": "Entrada gratuita",
+    "duration": "",
+    "age_rating": "",
+    "accessibility": "",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "culturgest",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.55
+    }
+  },
+  {
+    "id": "ccb-um-julgamento",
+    "title": "UM JULGAMENTO",
+    "subtitle": "Depois do Inimigo do Povo, de Henrik Ibsen - um projeto de Christiane Jatahy e Wagner Moura",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Teatro",
+    "dates_label": "2026-07-03",
+    "date_start": "2026-07-03",
+    "date_end": "2026-07-03",
+    "sessions": [
+      {
+        "date": "2026-07-03",
+        "time": "",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Thomas Stockman, médico de um balneário numa pequena cidade cuja economia depende do turismo termal, descobre uma grave contaminação nas águas do local.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/11/Foto-Caio-Lirio_creditocaiolirio-Todos-os-Direitos-Reservados-021A7653.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/um-julgamento/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/um-julgamento/",
+    "ticket_url": "",
+    "price_info": "30\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "direção": "Christiane Jatahy",
+      "texto": "Christiane Jatahy, Lucas Paraizo e Wagner Moura",
+      "elenco": "Wagner Moura, Danilo Grangheia e Julia Bernat e no filme Marjorie Estiano, Jonas Bloch e Salvador Moura Participação Online Tatiana Henrique Crianças no filme Antonio Falcão, Henry Soares Paes Leme e José Moura Cenografia,",
+      "luz": "e Colaboração Artística Thomas Walgrave",
+      "criação": "de Sistema de Vídeo Julio Parente",
+      "som": "e Mixagem Pedro Vituri Coordenação de",
+      "produção": "Henrique Mariano",
+      "coprodução": "Centro Cultural de Belém (Lisboa-Portugal), Holland Festival (Amsterdão), Festival d’Avignon (França), Edinburgh International Festival (Escócia) e DeSingel (Bélgica) Apoio UCLA’s Center for the Art of Performance e Instituto Guimarães Rosa — IGR — Ministério das Relações Exteriores do Brasi"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.66
     }
   },
   {
@@ -281,11 +3063,154 @@
       "produção": "e Cena TdE Sílvia Moura",
       "texto": "de Ricardo Neves-Neves, o enredo é muito mais dramático, as causas mais profundas, as personagens uns canalhas desprezíveis, e o final trará o espanto. Querem ser cúmplices deste crime? Avenida Frei Miguel Contreiras, 52, 1700-213, Lisboa Horário da Bilheteira Segunda – Sábado 17h30 às 21h30 Domingo"
     },
-    "scraped_at": "2026-03-20T00:56:53.787799+00:00",
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
     "theater_id": "mariamatos",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.6
+    }
+  },
+  {
+    "id": "ccb-quem-tem-medo-de-virginia-woolf-de-edward-albee",
+    "title": "Quem tem medo de Virginia Woolf?, de Edward Albee",
+    "subtitle": "Simão do Vale Africano",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Teatro",
+    "dates_label": "2026-07-09",
+    "date_start": "2026-07-09",
+    "date_end": "2026-07-09",
+    "sessions": [
+      {
+        "date": "2026-07-09",
+        "time": "",
+        "weekday": "Qui"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Dois casais numa sala de estar durante uma longa madrugada: Martha e George são os anfitriões e têm cerca de 50 anos; Honey e Nick, bastante mais jovens, são os convidados.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/08/2000x940-Quem-tem-medo-de-Virginia-Woolf-e1756198999859.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/quem-tem-medo-de-virginia-woolf-de-edward-albee/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/quem-tem-medo-de-virginia-woolf-de-edward-albee/",
+    "ticket_url": "",
+    "price_info": "15\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "encenação": "Simão do Vale Africano",
+      "cenografia": "Nuno Carinhas",
+      "figurinos": "Bernardo Monteiro",
+      "luz": "Pedro Correia",
+      "som": "e",
+      "música": "original Daniel Martinho Assistência de",
+      "produção": "Inês Simões Pereira Confeção de",
+      "interpretação": "João Reis, Margarida Carvalho, Daniel Silva, Joana Africano",
+      "coprodução": "Centro Cultural de Belém, Casa das Artes de Vila Nova de Famalicão, Teatro Nacional São João"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.68
+    }
+  },
+  {
+    "id": "culturgest-jo-o-penalva",
+    "title": "João Penalva",
+    "theater": "Culturgest",
+    "category": "Teatro",
+    "dates_label": "12 JUL 2026",
+    "date_start": "2026-07-12",
+    "date_end": "2026-07-12",
+    "sessions": [
+      {
+        "date": "2026-07-12",
+        "time": "22:00",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "22:00",
+    "synopsis": "Em meados dos anos de 1990, João Penalva (Lisboa, 1949) iniciou uma categoria de obras absolutamente singular. Depois de estar anos dedicado à pintura, as suas peças começaram a ganhar escala e a compor-se de materiais diversos, como fotografias, vídeos, desenhos, documentos, diapositivos, cartas e …",
+    "image": {
+      "url": "https://www.culturgest.pt/media/filer_public_thumbnails/filer_public/be/cc/becc03f1-7e8b-4873-b1de-fe0f0d00084c/lm44-eb621995.png__1200x630_q85_crop_subsampling-2_upscale.jpg",
+      "credit": "S. Starling",
+      "source": "https://www.culturgest.pt/pt/programacao/joao-penalva-personagens-e-interpretes/",
+      "theater": "Culturgest"
+    },
+    "source_url": "https://www.culturgest.pt/pt/programacao/joao-penalva-personagens-e-interpretes/",
+    "ticket_url": "https://www.culturgest.pt/pt/bilheteira/",
+    "price_info": "gratuito",
+    "duration": "",
+    "age_rating": "",
+    "accessibility": "Língua Gestual",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "culturgest",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.55
+    }
+  },
+  {
+    "id": "saoluiz-escola-superior-de-teatro-e-cinema",
+    "title": "Escola Superior de Teatro e Cinema",
+    "subtitle": "Espetáculo dos Alunos Finalistas da Licenciatura em Teatro",
+    "theater": "São Luiz Teatro Municipal",
+    "category": "Teatro",
+    "dates_label": "15 a 19 julho",
+    "date_start": "2026-07-15",
+    "date_end": "2026-07-19",
+    "sessions": [
+      {
+        "date": "2026-07-15",
+        "time": "19:30",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-07-16",
+        "time": "19:30",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-07-17",
+        "time": "19:30",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-07-18",
+        "time": "19:30",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-07-19",
+        "time": "16:00",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "quarta a sábado, 19h30; domingo, 16h",
+    "synopsis": "O futuro do teatro passa por aqui. Dando continuidade à parceria estratégica com a Escola Superior de Teatro e Cinema (ESTC), o Teatro São Luiz reafirma o seu compromisso com o apoio ao talento emergente e à nova criação.…",
+    "image": {
+      "url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2025/07/73-estc-estelle-scaled.jpg",
+      "credit": "EGEAC – Teatro São Luiz, Estelle Valente Datas e Horários 15 a 19 julho quarta a",
+      "source": "https://www.teatrosaoluiz.pt/espetaculo/escola-superior-de-teatro-e-cinema-4/",
+      "theater": "São Luiz Teatro Municipal"
+    },
+    "source_url": "https://www.teatrosaoluiz.pt/espetaculo/escola-superior-de-teatro-e-cinema-4/",
+    "ticket_url": "",
+    "price_info": "Entrada livre sujeita à lotação da sala. Bilhetes disponíveis no próprio dia na bilheteira do Teatro a partir de uma hora antes do evento (até 2 por pessoa).",
+    "duration": "",
+    "age_rating": "A classificar pela CCE",
+    "accessibility": "",
+    "sala": "Sala Mário Viegas",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "saoluiz",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.55
     }
   }
 ]

@@ -1,0 +1,363 @@
+[
+  {
+    "id": "ccb-a-valentina-e-a-valeria-n-o-est-o-mortas",
+    "title": "A Valentina e a Valeria não estão mortas",
+    "subtitle": "Flávia Gusmão e Jacinto Lucas Pires",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Teatro",
+    "dates_label": "2026-03-26",
+    "date_start": "2026-03-26",
+    "date_end": "2026-03-26",
+    "sessions": [
+      {
+        "date": "2026-03-26",
+        "time": "",
+        "weekday": "Qui"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Uma peça sobre as relações entre memória e imaginação, ficção e não-ficção, teatro e vida, morte e luto. Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB 27 de março de 202617:00 e 20:00 - Dia Mundial do Teatro (Entrada…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/07/2000x940_QueilaFernandes_Flavia.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/a-valentina-e-a-valeria-nao-estao-mortas/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/a-valentina-e-a-valeria-nao-estao-mortas/",
+    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/164864-exercicio_de_montagem_joana_craveiro-ccb/Sessoes",
+    "price_info": "15\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "criação": "Flávia Gusmão e Jacinto Lucas Pires",
+      "texto": "Jacinto Lucas Pires",
+      "interpretação": "Flávia Gusmão Apoio à",
+      "luz": "Nuno Meira",
+      "música": "e",
+      "som": "Xullaji Costureira Rosário Balbi",
+      "produção": "Executiva Marisa Coelho Gestão Financeira Nuno Pratas",
+      "coprodução": "Associação Bo Dixam Bai, Associação Palavrão, Centro Cultural de Belém, Cineteatro Louletano e Culturproject"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.71
+    }
+  },
+  {
+    "id": "ccb-constitui-o-8211-estreia",
+    "title": "Constituição – Estreia",
+    "subtitle": "Isabel Costa",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Teatro",
+    "dates_label": "2026-05-24 – 2026-05-31",
+    "date_start": "2026-05-24",
+    "date_end": "2026-05-31",
+    "sessions": [
+      {
+        "date": "2026-05-24",
+        "time": "",
+        "weekday": "Dom"
+      },
+      {
+        "date": "2026-05-25",
+        "time": "",
+        "weekday": "Seg"
+      },
+      {
+        "date": "2026-05-26",
+        "time": "",
+        "weekday": "Ter"
+      },
+      {
+        "date": "2026-05-27",
+        "time": "",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-05-28",
+        "time": "",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-05-29",
+        "time": "",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-05-30",
+        "time": "",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-05-31",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Tomando a forma de uma assembleia, convoca-se o espectador a fazer um percurso, passando por diferentes capítulos deste documento. Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB De que matéria somos feitos?…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/05/Missao-Democracia_A-Constituicao_creditoMantraste-scaled-e1748960403470.jpeg",
+      "credit": "Assembleia da República Ilustração de Mantraste, Voltas e Reviravoltas (2.º volu",
+      "source": "https://www.ccb.pt/evento/a-constituicao/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/a-constituicao/",
+    "ticket_url": "https://ccb.bol.pt/Comprar/Cartoes/5956-8627-0-missao_literacia_democratica-fundacao_ccb/Quantidade",
+    "price_info": "3,5\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "texto": "e",
+      "encenação": "Isabel Costa Apoio à Residência de",
+      "criação": "Anna Leppänen",
+      "interpretação": "Isabel Costa, Miguel Nicolau e Vasco Barroso",
+      "cenografia": "Joana Subtil",
+      "figurinos": "Nádia Henriques Composição Musical e",
+      "som": "Miguel Nicolau",
+      "luz": "Ângela Bismarck",
+      "coprodução": "CCB/Fábrica das Artes Apoio Fundo Cultural da Sociedade Portuguesa de Autores Apoio à investigação Tribunal Constitucional Projeto criado no âmbito da parceria Centro Cultural de Belém/Fábrica das Artes e Assembleia da República. Imagem ©Assembleia da República Ilustração de Mantr"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.73
+    }
+  },
+  {
+    "id": "ccb-o-direito-do-mais-fraco-liberdade",
+    "title": "O Direito do Mais Fraco à Liberdade",
+    "subtitle": "SillySeason - Temps d’Images",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Teatro",
+    "dates_label": "2026-06-07",
+    "date_start": "2026-06-07",
+    "date_end": "2026-06-07",
+    "sessions": [
+      {
+        "date": "2026-06-07",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Estamos em 1974 e Rainer Werner Fassbinder prepara-se para realizar mais um dos seus filmes. Provocador e enigmático como sempre, misturando e confundindo todas as funções dentro desse objeto artístico (atores que são encenadores, que são argumentistas, que são produtores e segundos assistente…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2026/03/2000x940_TempsDImages_Junho26_AP.jpg",
+      "credit": "Alípio Padilha Preços e Descontos Plateia - 13 € Laterais - 10,5 € Comprar Bilhe",
+      "source": "https://www.ccb.pt/evento/o-direito-do-mais-fraco-a-liberdade/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/o-direito-do-mais-fraco-a-liberdade/",
+    "ticket_url": "",
+    "price_info": "13\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "direção": "e",
+      "criação": "SillySeason ( Cátia Tomé , Ivo Saraiva e Silva e Ricardo Teixeira )",
+      "interpretação": "Cátia Tomé , Duarte Melo , Ivo Saraiva e Silva , Rafael Carvalho , Ricardo Teixeira e Soraia Chaves Vídeo Ricardo Branco Operadores de Câmara Ricardo Dias , Ricardo Machado",
+      "luz": "Tiago Coelho",
+      "música": "Ricardo Remédio Fotografia Alípio Padilha Design Gráfico Rui Miguel Rodrigues",
+      "produção": "Inês Pinto",
+      "coprodução": "A Oficina/Centro Cultural Vila Flor , RTP – Rádio e Televisão de Portugal , Teatro Diogo Bernardes e Teatro das Figuras"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.64
+    }
+  },
+  {
+    "id": "ccb-exerc-cio-de-montagem",
+    "title": "Exercício de Montagem",
+    "subtitle": "Um objeto multidisciplinar do Teatro do VestidoUm filme futuro",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Teatro",
+    "dates_label": "2026-06-18 – 2026-06-28",
+    "date_start": "2026-06-18",
+    "date_end": "2026-06-28",
+    "sessions": [
+      {
+        "date": "2026-06-18",
+        "time": "",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-06-19",
+        "time": "",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-06-20",
+        "time": "",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-06-21",
+        "time": "",
+        "weekday": "Dom"
+      },
+      {
+        "date": "2026-06-22",
+        "time": "",
+        "weekday": "Seg"
+      },
+      {
+        "date": "2026-06-23",
+        "time": "",
+        "weekday": "Ter"
+      },
+      {
+        "date": "2026-06-24",
+        "time": "",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-06-25",
+        "time": "",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-06-26",
+        "time": "",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-06-27",
+        "time": "",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-06-28",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Pode um filme em progresso ser uma performance? Joana Craveiro parte de um conjunto de imagens que captou na Palestina para ensaiar uma resposta a esta pergunta.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/07/2000x940_TeatroDoVestido.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/exercicio-de-montagem/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/exercicio-de-montagem/",
+    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/164864-exercicio_de_montagem_joana_craveiro-ccb/Sessoes",
+    "price_info": "15\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "música": "e espaço sonoro Francisco Madureira Cocriação e manipulação de objetos e arquivos Estêvão Antunes , Tânia Guerreiro Participação na",
+      "criação": "do projeto Bernardo Afonso",
+      "figurinos": "Tânia Guerreiro",
+      "cenografia": "Carla Martínez Cocriação e Operação de Vídeo Diana Ramalho Cocriação e Montagem Massimiliano Ferraina",
+      "tradução": "Shahd Wadi , Tarab",
+      "luz": "Leocádia Silva",
+      "produção": "Alaíde Costa Assistente de"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.69
+    }
+  },
+  {
+    "id": "ccb-um-julgamento",
+    "title": "UM JULGAMENTO",
+    "subtitle": "Depois do Inimigo do Povo, de Henrik Ibsen - um projeto de Christiane Jatahy e Wagner Moura",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Teatro",
+    "dates_label": "2026-07-03",
+    "date_start": "2026-07-03",
+    "date_end": "2026-07-03",
+    "sessions": [
+      {
+        "date": "2026-07-03",
+        "time": "",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Thomas Stockman, médico de um balneário numa pequena cidade cuja economia depende do turismo termal, descobre uma grave contaminação nas águas do local.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/11/Foto-Caio-Lirio_creditocaiolirio-Todos-os-Direitos-Reservados-021A7653.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/um-julgamento/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/um-julgamento/",
+    "ticket_url": "",
+    "price_info": "30\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "direção": "Christiane Jatahy",
+      "texto": "Christiane Jatahy, Lucas Paraizo e Wagner Moura",
+      "elenco": "Wagner Moura, Danilo Grangheia e Julia Bernat e no filme Marjorie Estiano, Jonas Bloch e Salvador Moura Participação Online Tatiana Henrique Crianças no filme Antonio Falcão, Henry Soares Paes Leme e José Moura Cenografia,",
+      "luz": "e Colaboração Artística Thomas Walgrave",
+      "criação": "de Sistema de Vídeo Julio Parente",
+      "som": "e Mixagem Pedro Vituri Coordenação de",
+      "produção": "Henrique Mariano",
+      "coprodução": "Centro Cultural de Belém (Lisboa-Portugal), Holland Festival (Amsterdão), Festival d’Avignon (França), Edinburgh International Festival (Escócia) e DeSingel (Bélgica) Apoio UCLA’s Center for the Art of Performance e Instituto Guimarães Rosa — IGR — Ministério das Relações Exteriores do Brasi"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.66
+    }
+  },
+  {
+    "id": "ccb-quem-tem-medo-de-virginia-woolf-de-edward-albee",
+    "title": "Quem tem medo de Virginia Woolf?, de Edward Albee",
+    "subtitle": "Simão do Vale Africano",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Teatro",
+    "dates_label": "2026-07-09",
+    "date_start": "2026-07-09",
+    "date_end": "2026-07-09",
+    "sessions": [
+      {
+        "date": "2026-07-09",
+        "time": "",
+        "weekday": "Qui"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Dois casais numa sala de estar durante uma longa madrugada: Martha e George são os anfitriões e têm cerca de 50 anos; Honey e Nick, bastante mais jovens, são os convidados.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/08/2000x940-Quem-tem-medo-de-Virginia-Woolf-e1756198999859.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/quem-tem-medo-de-virginia-woolf-de-edward-albee/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/quem-tem-medo-de-virginia-woolf-de-edward-albee/",
+    "ticket_url": "",
+    "price_info": "15\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "encenação": "Simão do Vale Africano",
+      "cenografia": "Nuno Carinhas",
+      "figurinos": "Bernardo Monteiro",
+      "luz": "Pedro Correia",
+      "som": "e",
+      "música": "original Daniel Martinho Assistência de",
+      "produção": "Inês Simões Pereira Confeção de",
+      "interpretação": "João Reis, Margarida Carvalho, Daniel Silva, Joana Africano",
+      "coprodução": "Centro Cultural de Belém, Casa das Artes de Vila Nova de Famalicão, Teatro Nacional São João"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.68
+    }
+  }
+]

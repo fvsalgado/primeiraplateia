@@ -1,146 +1,84 @@
-2026-03-20 00:54:16 [INFO] primeiraplateia: =======================================================
-2026-03-20 00:54:16 [INFO] primeiraplateia: Primeira Plateia — início do scraping
-2026-03-20 00:54:16 [INFO] primeiraplateia: =======================================================
-2026-03-20 00:54:22 [ERROR] primeiraplateia:   ERRO Teatro Variedades: compile() takes from 1 to 2 positional arguments but 3 were given
-Traceback (most recent call last):
-  File "/home/runner/work/primeiraplateia/primeiraplateia/scraper.py", line 138, in run
-    evs = fn()
-          ^^^^
-  File "/home/runner/work/primeiraplateia/primeiraplateia/scrapers/scraper_teatro_variedades.py", line 16, in scrape
-    return scrape_theater(
-           ^^^^^^^^^^^^^^^
-  File "/home/runner/work/primeiraplateia/primeiraplateia/scrapers/base_variedades.py", line 69, in scrape_theater
-    ev = _scrape_event(url, theater_name, source_slug)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/primeiraplateia/primeiraplateia/scrapers/base_variedades.py", line 290, in _scrape_event
-    "sessions":        build_sessions(date_start, date_end, ""),
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/primeiraplateia/primeiraplateia/scrapers/utils.py", line 299, in build_sessions
-    seg_pat = _re.compile(
-              ^^^^^^^^^^^^
-TypeError: compile() takes from 1 to 2 positional arguments but 3 were given
-2026-03-20 00:54:28 [ERROR] primeiraplateia:   ERRO Capitólio: compile() takes from 1 to 2 positional arguments but 3 were given
-Traceback (most recent call last):
-  File "/home/runner/work/primeiraplateia/primeiraplateia/scraper.py", line 138, in run
-    evs = fn()
-          ^^^^
-  File "/home/runner/work/primeiraplateia/primeiraplateia/scrapers/scraper_teatro_capitolio.py", line 16, in scrape
-    return scrape_theater(
-           ^^^^^^^^^^^^^^^
-  File "/home/runner/work/primeiraplateia/primeiraplateia/scrapers/base_variedades.py", line 69, in scrape_theater
-    ev = _scrape_event(url, theater_name, source_slug)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/primeiraplateia/primeiraplateia/scrapers/base_variedades.py", line 290, in _scrape_event
-    "sessions":        build_sessions(date_start, date_end, ""),
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/primeiraplateia/primeiraplateia/scrapers/utils.py", line 299, in build_sessions
-    seg_pat = _re.compile(
-              ^^^^^^^^^^^^
-TypeError: compile() takes from 1 to 2 positional arguments but 3 were given
-2026-03-20 00:54:33 [ERROR] primeiraplateia:   ERRO São Luiz Teatro Municipal: compile() takes from 1 to 2 positional arguments but 3 were given
-Traceback (most recent call last):
-  File "/home/runner/work/primeiraplateia/primeiraplateia/scraper.py", line 138, in run
-    evs = fn()
-          ^^^^
-  File "/home/runner/work/primeiraplateia/primeiraplateia/scrapers/saoluiz.py", line 66, in scrape
-    ev = _scrape_event(full)
-         ^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/primeiraplateia/primeiraplateia/scrapers/saoluiz.py", line 213, in _scrape_event
-    "sessions":        build_sessions(date_start, date_end, schedule),
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/primeiraplateia/primeiraplateia/scrapers/utils.py", line 299, in build_sessions
-    seg_pat = _re.compile(
-              ^^^^^^^^^^^^
-TypeError: compile() takes from 1 to 2 positional arguments but 3 were given
-2026-03-20 00:54:44 [INFO] scrapers.utils: [Maria Matos] 6 eventos
-2026-03-20 00:54:44 [INFO] primeiraplateia:   OK   Teatro Maria Matos: 6 eventos raw
-2026-03-20 00:54:47 [INFO] scrapers.utils: [Culturgest] Listagem vazia (JS) — a usar seeds de fallback
-2026-03-20 00:55:31 [INFO] scrapers.utils: [Culturgest] Inacessível https://www.culturgest.pt/pt/programacao/falta-de-cha-humor-tabus-e-censura/: 404 Client Error: Not Found for url: https://www.culturgest.pt/pt/programacao/falta-de-cha-humor-tabus-e-censura/
-2026-03-20 00:55:44 [INFO] scrapers.utils: [Culturgest] 44 URLs descobertos
-2026-03-20 00:55:45 [ERROR] primeiraplateia:   ERRO Culturgest: compile() takes from 1 to 2 positional arguments but 3 were given
-Traceback (most recent call last):
-  File "/home/runner/work/primeiraplateia/primeiraplateia/scraper.py", line 138, in run
-    evs = fn()
-          ^^^^
-  File "/home/runner/work/primeiraplateia/primeiraplateia/scrapers/scraper_culturgest.py", line 87, in scrape
-    ev = _scrape_event(url)
-         ^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/primeiraplateia/primeiraplateia/scrapers/scraper_culturgest.py", line 323, in _scrape_event
-    "sessions":        build_sessions(date_start, date_end, schedule),
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/primeiraplateia/primeiraplateia/scrapers/utils.py", line 299, in build_sessions
-    seg_pat = _re.compile(
-              ^^^^^^^^^^^^
-TypeError: compile() takes from 1 to 2 positional arguments but 3 were given
-2026-03-20 00:55:48 [ERROR] primeiraplateia:   ERRO CCB — Centro Cultural de Belém: compile() takes from 1 to 2 positional arguments but 3 were given
-Traceback (most recent call last):
-  File "/home/runner/work/primeiraplateia/primeiraplateia/scraper.py", line 138, in run
-    evs = fn()
-          ^^^^
-  File "/home/runner/work/primeiraplateia/primeiraplateia/scrapers/ccb.py", line 48, in scrape
-    ev = _scrape_event(url)
-         ^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/primeiraplateia/primeiraplateia/scrapers/ccb.py", line 250, in _scrape_event
-    "sessions":        build_sessions(date_start, date_end, schedule),
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/primeiraplateia/primeiraplateia/scrapers/utils.py", line 299, in build_sessions
-    seg_pat = _re.compile(
-              ^^^^^^^^^^^^
-TypeError: compile() takes from 1 to 2 positional arguments but 3 were given
-2026-03-20 00:55:50 [INFO] scrapers.utils: [Teatro Viriato] 0 candidatos após filtragem da listagem
-2026-03-20 00:55:50 [INFO] scrapers.utils: [Teatro Viriato] 0 eventos de teatro
-2026-03-20 00:55:50 [INFO] primeiraplateia:   OK   Teatro Viriato: 0 eventos raw
-2026-03-20 00:55:55 [INFO] scrapers.utils: [Theatro Circo] 17 candidatos de teatro na listagem
-2026-03-20 00:56:37 [INFO] scrapers.utils: [Theatro Circo] 0 eventos de teatro
-2026-03-20 00:56:37 [INFO] primeiraplateia:   OK   Theatro Circo: 0 eventos raw
-2026-03-20 00:56:39 [INFO] scrapers.utils: [Teatro do Bairro] Nav sem links de evento — a usar fallback por <section>
-2026-03-20 00:56:39 [INFO] scrapers.utils: [Teatro do Bairro] Erro na secção 'reilear': name 'build_sessions' is not defined
-2026-03-20 00:56:39 [INFO] scrapers.utils: [Teatro do Bairro] 0 eventos de teatro
-2026-03-20 00:56:39 [INFO] primeiraplateia:   OK   Teatro do Bairro: 0 eventos raw
-2026-03-20 00:56:43 [INFO] scrapers.utils: [Teatro da Trindade INATEL] 5 candidatos na listagem
-2026-03-20 00:56:44 [INFO] scrapers.utils: [Teatro da Trindade INATEL] Erro em https://teatrotrindade.inatel.pt/espetaculo/a-gaivota/: compile() takes from 1 to 2 positional arguments but 3 were given
-2026-03-20 00:56:46 [INFO] scrapers.utils: [Teatro da Trindade INATEL] Erro em https://teatrotrindade.inatel.pt/espetaculo/brokeback-mountain/: compile() takes from 1 to 2 positional arguments but 3 were given
-2026-03-20 00:56:47 [INFO] scrapers.utils: [Teatro da Trindade INATEL] Erro em https://teatrotrindade.inatel.pt/espetaculo/verdadeiro-oeste/: compile() takes from 1 to 2 positional arguments but 3 were given
-2026-03-20 00:56:49 [INFO] scrapers.utils: [Teatro da Trindade INATEL] Erro em https://teatrotrindade.inatel.pt/espetaculo/clube-dos-poetas-mortos/: compile() takes from 1 to 2 positional arguments but 3 were given
-2026-03-20 00:56:51 [INFO] scrapers.utils: [Teatro da Trindade INATEL] Erro em https://teatrotrindade.inatel.pt/espetaculo/andre-freitas/: compile() takes from 1 to 2 positional arguments but 3 were given
-2026-03-20 00:56:51 [INFO] scrapers.utils: [Teatro da Trindade INATEL] 0 eventos de teatro
-2026-03-20 00:56:51 [INFO] primeiraplateia:   OK   Teatro da Trindade INATEL: 0 eventos raw
-2026-03-20 00:56:53 [ERROR] primeiraplateia:   ERRO Teatro das Figuras: name 'date_end' is not defined
-Traceback (most recent call last):
-  File "/home/runner/work/primeiraplateia/primeiraplateia/scraper.py", line 138, in run
-    evs = fn()
-          ^^^^
-  File "/home/runner/work/primeiraplateia/primeiraplateia/scrapers/scraper_teatrodasfiguras.py", line 100, in scrape
-    ev = _parse_card(card, month_num, year_num)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/primeiraplateia/primeiraplateia/scrapers/scraper_teatrodasfiguras.py", line 204, in _parse_card
-    "sessions":        build_sessions(date_start, date_end, schedule),
-                                                  ^^^^^^^^
-NameError: name 'date_end' is not defined. Did you mean: 'date_el'?
-2026-03-20 00:56:53 [INFO] primeiraplateia: 
-Total raw: 6
-2026-03-20 00:56:53 [INFO] primeiraplateia: Após deduplicação: 6 eventos
-2026-03-20 00:56:53 [INFO] scrapers.theater_registry: theater_registry: 11 teatros, 50 aliases carregados
-2026-03-20 00:56:53 [INFO] scrapers.harmonizer: harmonizer: 6 eventos harmonizados
-2026-03-20 00:56:53 [INFO] primeiraplateia: Após harmonização: 6 eventos
-2026-03-20 00:56:53 [INFO] scrapers.theater_registry: theater_registry: 11 teatros, 50 aliases carregados
-2026-03-20 00:56:53 [INFO] scrapers.validator: validação: 6 aceites | 0 rejeitados | 0 com avisos
-2026-03-20 00:56:53 [INFO] primeiraplateia: 
-events.json: 6 eventos válidos em 156.9s
-2026-03-20 00:56:53 [INFO] primeiraplateia: ────────────────────────────────────────
-2026-03-20 00:56:53 [INFO] primeiraplateia:   Teatro Variedades                     0 raw
-2026-03-20 00:56:53 [INFO] primeiraplateia:   Capitólio                             0 raw
-2026-03-20 00:56:53 [INFO] primeiraplateia:   São Luiz Teatro Municipal             0 raw
-2026-03-20 00:56:53 [INFO] primeiraplateia:   Teatro Maria Matos                    6 raw
-2026-03-20 00:56:53 [INFO] primeiraplateia:   Culturgest                            0 raw
-2026-03-20 00:56:53 [INFO] primeiraplateia:   CCB — Centro Cultural de Belém        0 raw
-2026-03-20 00:56:53 [INFO] primeiraplateia:   Teatro Viriato                        0 raw
-2026-03-20 00:56:53 [INFO] primeiraplateia:   Theatro Circo                         0 raw
-2026-03-20 00:56:53 [INFO] primeiraplateia:   Teatro do Bairro                      0 raw
-2026-03-20 00:56:53 [INFO] primeiraplateia:   Teatro da Trindade INATEL             0 raw
-2026-03-20 00:56:53 [INFO] primeiraplateia:   Teatro das Figuras                    0 raw
-2026-03-20 00:56:53 [INFO] primeiraplateia: 
+2026-03-20 01:01:03 [INFO] primeiraplateia: =======================================================
+2026-03-20 01:01:03 [INFO] primeiraplateia: Primeira Plateia — início do scraping
+2026-03-20 01:01:03 [INFO] primeiraplateia: =======================================================
+2026-03-20 01:01:13 [INFO] scrapers.utils: [Teatro Variedades] 3 eventos
+2026-03-20 01:01:13 [INFO] primeiraplateia:   OK   Teatro Variedades: 3 eventos raw
+2026-03-20 01:01:22 [INFO] scrapers.utils: [Capitólio] 3 eventos
+2026-03-20 01:01:22 [INFO] primeiraplateia:   OK   Capitólio: 3 eventos raw
+2026-03-20 01:01:26 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'espaço público'): https://www.teatrosaoluiz.pt/espetaculo/consultas-poeticas-2/
+2026-03-20 01:01:28 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'pensamento'): https://www.teatrosaoluiz.pt/espetaculo/dia-mundial-da-marioneta-apresentacao-do-fimfa-lx26/
+2026-03-20 01:01:28 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'pensamento'): https://www.teatrosaoluiz.pt/espetaculo/podia-ser-na-tate-mas-e-aqui/
+2026-03-20 01:01:28 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'pensamento'): https://www.teatrosaoluiz.pt/espetaculo/teatro-de-imagens/
+2026-03-20 01:01:28 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'exposição'): https://www.teatrosaoluiz.pt/espetaculo/a-luz-que-ficou/
+2026-03-20 01:01:30 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'visita'): https://www.teatrosaoluiz.pt/espetaculo/visitas-guiadas-2025-2026/
+2026-03-20 01:01:33 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'música'): https://www.teatrosaoluiz.pt/espetaculo/uma-viagem-pela-musica-com-o-teatro-nacional-de-sao-carlos/
+2026-03-20 01:01:33 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'música'): https://www.teatrosaoluiz.pt/espetaculo/jardim-aberto-cores-em-cinza-musica-francesa-da-grande-guerra/
+2026-03-20 01:01:33 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'literatura'): https://www.teatrosaoluiz.pt/espetaculo/coisas-de-teatro/
+2026-03-20 01:01:33 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'literatura'): https://www.teatrosaoluiz.pt/espetaculo/lancamento-livro-contra-corvos/
+2026-03-20 01:01:36 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'música'): https://www.teatrosaoluiz.pt/espetaculo/festival-musica-viva-2026-insurgencia/
+2026-03-20 01:01:41 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'música'): https://www.teatrosaoluiz.pt/espetaculo/lallegro-il-penseroso-ed-il-moderato/
+2026-03-20 01:01:41 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'música'): https://www.teatrosaoluiz.pt/espetaculo/jardim-aberto-musica-no-feminino/
+2026-03-20 01:01:41 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'música'): https://www.teatrosaoluiz.pt/espetaculo/a-reinvencao-de-vivaldi/
+2026-03-20 01:01:41 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'música'): https://www.teatrosaoluiz.pt/espetaculo/as-paixoes-da-alma/
+2026-03-20 01:01:46 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'literatura'): https://www.teatrosaoluiz.pt/espetaculo/disquiet-international-literary-program-2026/
+2026-03-20 01:01:46 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'música'): https://www.teatrosaoluiz.pt/espetaculo/integral-das-sinfonias-de-schumann/
+2026-03-20 01:01:46 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'ópera'): https://www.teatrosaoluiz.pt/espetaculo/a-laugh-to-cry-2/
+2026-03-20 01:01:47 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'música'): https://www.teatrosaoluiz.pt/espetaculo/pons-varolli/
+2026-03-20 01:01:47 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'música'): https://www.teatrosaoluiz.pt/espetaculo/raul-refree-maria-mazzotta/
+2026-03-20 01:01:47 [INFO] scrapers.utils: [São Luiz] Ignorado (categoria 'música'): https://www.teatrosaoluiz.pt/espetaculo/vincent-peirani/
+2026-03-20 01:01:47 [INFO] scrapers.utils: [São Luiz] 14 eventos
+2026-03-20 01:01:47 [INFO] primeiraplateia:   OK   São Luiz Teatro Municipal: 14 eventos raw
+2026-03-20 01:02:02 [INFO] scrapers.utils: [Maria Matos] 6 eventos
+2026-03-20 01:02:02 [INFO] primeiraplateia:   OK   Teatro Maria Matos: 6 eventos raw
+2026-03-20 01:02:05 [INFO] scrapers.utils: [Culturgest] Listagem vazia (JS) — a usar seeds de fallback
+2026-03-20 01:02:27 [INFO] scrapers.utils: [Culturgest] Inacessível https://www.culturgest.pt/pt/programacao/falta-de-cha-humor-tabus-e-censura/: 404 Client Error: Not Found for url: https://www.culturgest.pt/pt/programacao/falta-de-cha-humor-tabus-e-censura/
+2026-03-20 01:02:51 [INFO] scrapers.utils: [Culturgest] 44 URLs descobertos
+2026-03-20 01:03:35 [INFO] scrapers.utils: [Culturgest] 37 eventos
+2026-03-20 01:03:35 [INFO] primeiraplateia:   OK   Culturgest: 37 eventos raw
+2026-03-20 01:03:55 [INFO] scrapers.utils: [CCB] 6 eventos de 6 URLs
+2026-03-20 01:03:55 [INFO] primeiraplateia:   OK   CCB — Centro Cultural de Belém: 6 eventos raw
+2026-03-20 01:03:57 [INFO] scrapers.utils: [Teatro Viriato] 0 candidatos após filtragem da listagem
+2026-03-20 01:03:57 [INFO] scrapers.utils: [Teatro Viriato] 0 eventos de teatro
+2026-03-20 01:03:57 [INFO] primeiraplateia:   OK   Teatro Viriato: 0 eventos raw
+2026-03-20 01:04:01 [INFO] scrapers.utils: [Theatro Circo] 17 candidatos de teatro na listagem
+2026-03-20 01:04:42 [INFO] scrapers.utils: [Theatro Circo] 0 eventos de teatro
+2026-03-20 01:04:42 [INFO] primeiraplateia:   OK   Theatro Circo: 0 eventos raw
+2026-03-20 01:04:44 [INFO] scrapers.utils: [Teatro do Bairro] Nav sem links de evento — a usar fallback por <section>
+2026-03-20 01:04:44 [INFO] scrapers.utils: [Teatro do Bairro] 1 eventos de teatro
+2026-03-20 01:04:44 [INFO] primeiraplateia:   OK   Teatro do Bairro: 1 eventos raw
+2026-03-20 01:04:48 [INFO] scrapers.utils: [Teatro da Trindade INATEL] 5 candidatos na listagem
+2026-03-20 01:04:56 [INFO] scrapers.utils: [Teatro da Trindade INATEL] 5 eventos de teatro
+2026-03-20 01:04:56 [INFO] primeiraplateia:   OK   Teatro da Trindade INATEL: 5 eventos raw
+2026-03-20 01:05:07 [INFO] scrapers.utils: [Teatro das Figuras] 5 eventos
+2026-03-20 01:05:07 [INFO] primeiraplateia:   OK   Teatro das Figuras: 5 eventos raw
+2026-03-20 01:05:07 [INFO] primeiraplateia: 
+Total raw: 80
+2026-03-20 01:05:07 [INFO] primeiraplateia: Após deduplicação: 80 eventos
+2026-03-20 01:05:07 [INFO] scrapers.theater_registry: theater_registry: 11 teatros, 50 aliases carregados
+2026-03-20 01:05:07 [WARNING] scrapers.harmonizer: harmonizer: campo recomendado 'date_end' ausente em 1/80 eventos (1%)
+2026-03-20 01:05:07 [WARNING] scrapers.harmonizer: harmonizer: campo recomendado 'image' ausente em 5/80 eventos (6%)
+2026-03-20 01:05:07 [WARNING] scrapers.harmonizer: harmonizer: campo recomendado 'ticket_url' ausente em 15/80 eventos (19%)
+2026-03-20 01:05:07 [INFO] scrapers.harmonizer: harmonizer: 80 eventos harmonizados
+2026-03-20 01:05:07 [INFO] primeiraplateia: Após harmonização: 80 eventos
+2026-03-20 01:05:07 [INFO] scrapers.theater_registry: theater_registry: 11 teatros, 50 aliases carregados
+2026-03-20 01:05:07 [INFO] scrapers.validator: validação: 79 aceites | 1 rejeitados | 12 com avisos
+2026-03-20 01:05:07 [WARNING] scrapers.validator:   REJEITADO 'saoluiz-um-homem-e-o-seu-criado': ["'date_start' ausente ou vazio"]
+2026-03-20 01:05:07 [INFO] primeiraplateia: 
+events.json: 79 eventos válidos em 243.7s
+2026-03-20 01:05:07 [INFO] primeiraplateia: ────────────────────────────────────────
+2026-03-20 01:05:07 [INFO] primeiraplateia:   Teatro Variedades                     3 raw
+2026-03-20 01:05:07 [INFO] primeiraplateia:   Capitólio                             3 raw
+2026-03-20 01:05:07 [INFO] primeiraplateia:   São Luiz Teatro Municipal            14 raw
+2026-03-20 01:05:07 [INFO] primeiraplateia:   Teatro Maria Matos                    6 raw
+2026-03-20 01:05:07 [INFO] primeiraplateia:   Culturgest                           37 raw
+2026-03-20 01:05:07 [INFO] primeiraplateia:   CCB — Centro Cultural de Belém        6 raw
+2026-03-20 01:05:07 [INFO] primeiraplateia:   Teatro Viriato                        0 raw
+2026-03-20 01:05:07 [INFO] primeiraplateia:   Theatro Circo                         0 raw
+2026-03-20 01:05:07 [INFO] primeiraplateia:   Teatro do Bairro                      1 raw
+2026-03-20 01:05:07 [INFO] primeiraplateia:   Teatro da Trindade INATEL             5 raw
+2026-03-20 01:05:07 [INFO] primeiraplateia:   Teatro das Figuras                    5 raw
+2026-03-20 01:05:07 [INFO] primeiraplateia: 
   Duplicados removidos:      0
-2026-03-20 00:56:53 [INFO] primeiraplateia:   Rejeitados pela validação: 0
-2026-03-20 00:56:53 [INFO] primeiraplateia:   Com avisos:                0
-2026-03-20 00:56:53 [INFO] primeiraplateia: =======================================================
+2026-03-20 01:05:07 [INFO] primeiraplateia:   Rejeitados pela validação: 1
+2026-03-20 01:05:07 [INFO] primeiraplateia:   Com avisos:                12
+2026-03-20 01:05:07 [INFO] primeiraplateia: =======================================================

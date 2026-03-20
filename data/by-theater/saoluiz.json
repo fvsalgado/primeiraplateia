@@ -1,0 +1,892 @@
+[
+  {
+    "id": "saoluiz-todos-p-ssaros",
+    "title": "Todos Pássaros",
+    "subtitle": "De Wajdi MouawadEncenaçãoÁlvaro Correia",
+    "theater": "São Luiz Teatro Municipal",
+    "category": "Teatro",
+    "dates_label": "18 a 29 março",
+    "date_start": "2026-03-18",
+    "date_end": "2026-03-29",
+    "sessions": [
+      {
+        "date": "2026-03-18",
+        "time": "20:00",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-03-19",
+        "time": "20:00",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-03-20",
+        "time": "20:00",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-03-21",
+        "time": "20:00",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-03-22",
+        "time": "17:30",
+        "weekday": "Dom"
+      },
+      {
+        "date": "2026-03-25",
+        "time": "20:00",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-03-26",
+        "time": "20:00",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-03-27",
+        "time": "20:00",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-03-28",
+        "time": "20:00",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-03-29",
+        "time": "17:30",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "quarta a sábado, 20h; domingo, 17h30",
+    "synopsis": "Um tema distintivo do trabalho de Wajdi Mouawad é que a grande História e as vidas individuais estão intimamente ligadas. Mostra-nos como pessoas de culturas diametralmente opostas tentam, ainda assim, viver juntas.…",
+    "image": {
+      "url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2025/07/a-favorita-todos-passaros-aguarda-credito.jpeg",
+      "credit": "Vitorino Coragem Comprar Bilhetes Datas e Horários 18 a 29 março quarta a sábado",
+      "source": "https://www.teatrosaoluiz.pt/espetaculo/todos-passaros/",
+      "theater": "São Luiz Teatro Municipal"
+    },
+    "source_url": "https://www.teatrosaoluiz.pt/espetaculo/todos-passaros/",
+    "ticket_url": "https://saoluiz.bol.pt/Comprar/Bilhetes/165912-todos_passaros_de_wajdi_mouawad-sao_luiz_teatro_municipal/Sessoes",
+    "price_info": "€12 a €15 (com descontos) | (Abrangido pelo Passe Cultura - disponível apenas na bilheteira do Teatro)\n+info",
+    "duration": "2h30 aprox.",
+    "age_rating": "M/14",
+    "accessibility": "22 março\ndomingo, 17h30\n27 e 29 março\nsexta, 20h00, domingo, 17h30",
+    "sala": "Sala Luis Miguel Cintra",
+    "technical_sheet": {
+      "encenação": "Álvaro Correia",
+      "texto": "Wajdi Mouawad",
+      "tradução": "João Paulo Esteves da Silva",
+      "cenografia": "André Guedes",
+      "figurinos": "Neusa Trovoada",
+      "música": "Vitória",
+      "luz": "Manuel Abrantes",
+      "ass_encenação": "Bruno Soares Nogueira",
+      "produção": "Nuno Pratas",
+      "interpretação": "Cucha Carvalheiro, David Esteves, Fernando Luís, Madalena Almeida, Manuela Couto, Virgílio Castelo e Duarte Romão e Laura Garnel (alunos finalistas da ESTC)",
+      "coprodução": "Culturproject, Teatro Municipal Joaquim Benite e São Luiz Teatro Municipal Projeto apoiado por República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "saoluiz",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.85
+    }
+  },
+  {
+    "id": "saoluiz-as-quatro-mortes-de-napole-o",
+    "title": "As Quatro Mortes de Napoleão",
+    "subtitle": "Pedro Saavedra",
+    "theater": "São Luiz Teatro Municipal",
+    "category": "Teatro",
+    "dates_label": "21 março a 4 abril",
+    "date_start": "2026-03-21",
+    "date_end": "2026-04-04",
+    "sessions": [
+      {
+        "date": "2026-03-21",
+        "time": "19:30",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-03-22",
+        "time": "16:00",
+        "weekday": "Dom"
+      },
+      {
+        "date": "2026-03-25",
+        "time": "19:30",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-03-26",
+        "time": "19:30",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-03-27",
+        "time": "19:30",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-03-28",
+        "time": "19:30",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-03-29",
+        "time": "16:00",
+        "weekday": "Dom"
+      },
+      {
+        "date": "2026-04-01",
+        "time": "19:30",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-04-02",
+        "time": "19:30",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-04-03",
+        "time": "19:30",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-04-04",
+        "time": "19:30",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "quarta a sábado, 19h30; domingo, 16h",
+    "synopsis": "A 5 de Maio de 1821, Napoleão Bonaparte profere as suas últimas palavras: “França, o exército, chefe do exército, Josefina.” O ex-imperador jaz morto no seu leito da Ilha de Santa Helena e quatro boatos nascem sobre a causa da sua morte: um estrangulamento encomendado, um envenenamento propositado, …",
+    "image": {
+      "url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2025/07/foto-para-cartaz-as-quatro-mortes-de-napoleaoandreia-mayer-scaled.jpg",
+      "credit": "Andreia Mayer Comprar Bilhetes Datas e Horários 21 março a 4 abril quarta a sába",
+      "source": "https://www.teatrosaoluiz.pt/espetaculo/as-quatro-mortes-de-napoleao/",
+      "theater": "São Luiz Teatro Municipal"
+    },
+    "source_url": "https://www.teatrosaoluiz.pt/espetaculo/as-quatro-mortes-de-napoleao/",
+    "ticket_url": "https://saoluiz.bol.pt/Comprar/Bilhetes/165923-as_quatro_mortes_de_napoleao-sao_luiz_teatro_municipal/Sessoes",
+    "price_info": "€12 (com descontos) | (Abrangido pelo Passe Cultura - disponível apenas na bilheteira do Teatro)\n+info",
+    "duration": "1h10",
+    "age_rating": "M/12",
+    "accessibility": "2 e 4 abril\nquinta e sábado, 19h30",
+    "sala": "Sala Mário Viegas",
+    "technical_sheet": {
+      "texto_encenação": "Pedro Saavedra Consultoria Histórica Daniel Alves",
+      "interpretação": "Ivo Alexandre, Paula Garcia",
+      "cenografia": "Luís Santos Carpintaria Luiz Quaresma Confecção de Adereços Rosário Balbi",
+      "figurinos": "Cláudia Ribeiro CONFECÇÃO DE FIGURINOS Aldina Jesus e Cristina Ferreira Aderecistas Ana Brandão e Catarina Brandão",
+      "luz": "Manuel Abrantes Fotografia Andreia Mayer Ilustração Rui Guerra Vídeo institucional Adriano Viçoso e Rafael Fonseca",
+      "som": "Nuno Veiga Operação de Luz e Som Janaina Gonçalves",
+      "direção_produção": "Sónia Rodrigues",
+      "produção": "Fátima Santos Filipe Difusão João Vaz Silva",
+      "coprodução": "O Fim do Teatro, Casa Varela, Teatro-Cine de Pombal e São Luiz Teatro Municipal Parceria RTP Palco Apoio Largo Residências Media partner Radar 97.8 FM AGRADECIMENTOS Chão de Oliva, Elsa Lago Matos e Luiz Quaresma"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "saoluiz",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.83
+    }
+  },
+  {
+    "id": "saoluiz-dia-mundial-do-teatro",
+    "title": "Dia Mundial do Teatro",
+    "subtitle": "É no São Luiz",
+    "theater": "São Luiz Teatro Municipal",
+    "category": "Teatro",
+    "dates_label": "27 março",
+    "date_start": "2026-03-27",
+    "date_end": "2026-03-27",
+    "sessions": [
+      {
+        "date": "2026-03-27",
+        "time": "17:00",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "sexta, a partir das 17h",
+    "synopsis": "Neste Dia Mundial do Teatro, convidamos a cidade a entrar na nossa casa. Inauguramos uma exposição,A Luz que Ficou – Um retrato íntimo do São Luiz, de Estelle Valente, que percorre a última década de vida do São Luiz e oferecemos uma programação especial com entrada gratuita.…",
+    "image": {
+      "url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2026/03/03-tmsl-multibanco-campanha-dia-mundial-teatro-multibanco-1024x677-1-scaled.jpg",
+      "credit": "São Luiz Teatro Municipal Newsletter Siga o Teatro São Luiz nas redes sociais Me",
+      "source": "https://www.teatrosaoluiz.pt/espetaculo/dia-mundial-do-teatro-2/",
+      "theater": "São Luiz Teatro Municipal"
+    },
+    "source_url": "https://www.teatrosaoluiz.pt/espetaculo/dia-mundial-do-teatro-2/",
+    "ticket_url": "",
+    "price_info": "Entrada livre sujeita à lotação da sala. Bilhetes disponíveis no próprio dia na bilheteira do Teatro a partir das 15h (até 2 por pessoa).",
+    "duration": "",
+    "age_rating": "Consultar a classificação dos espetáculos",
+    "accessibility": "",
+    "sala": "Vários espaços do Teatro",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "saoluiz",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.55
+    }
+  },
+  {
+    "id": "saoluiz-os-contratos-do-comerciante",
+    "title": "Os Contratos do Comerciante",
+    "subtitle": "Uma Comédia BancocráticaUma criação dosauéééua partir do texto deElfriede Jelinek",
+    "theater": "São Luiz Teatro Municipal",
+    "category": "Teatro",
+    "dates_label": "8 a 12 abril",
+    "date_start": "2026-04-08",
+    "date_end": "2026-04-12",
+    "sessions": [
+      {
+        "date": "2026-04-08",
+        "time": "20:00",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-04-09",
+        "time": "20:00",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-04-10",
+        "time": "20:00",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-04-11",
+        "time": "20:00",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-04-12",
+        "time": "17:30",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "quarta a sábado, 20h, domingo, 17h30",
+    "synopsis": "Os pequenos investidores lamuriam tudo o que perderam e as figuras sem nome e sem cara do setor financeiro conspiram contra eles, cidadãos comuns, caídos, por culpa própria nas malhas dos poderosos.…",
+    "image": {
+      "url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2026/01/foto-de-cartaz-site-scaled.jpg",
+      "credit": "Guilherme Seabra Comprar Bilhetes Datas e Horários 8 a 12 abril quarta a sábado,",
+      "source": "https://www.teatrosaoluiz.pt/espetaculo/os-contratos-do-comerciante/",
+      "theater": "São Luiz Teatro Municipal"
+    },
+    "source_url": "https://www.teatrosaoluiz.pt/espetaculo/os-contratos-do-comerciante/",
+    "ticket_url": "https://wwhttps://saoluiz.bol.pt/Comprar/Bilhetes/173197-os_contratos_do_comerciante-sao_luiz_teatro_municipal/Sessoesw.bol.pt/Comprar/Bilhetes/173197-os_contratos_do_comerciante-sao_luiz_teatro_municipal/Sessoes",
+    "price_info": "€12 (com descontos) | (Abrangido pelo Passe Cultura - disponível apenas na bilheteira do Teatro)\n+info",
+    "duration": "3h",
+    "age_rating": "A classificar pela CCE",
+    "accessibility": "",
+    "sala": "Palco da Sala Luis Miguel Cintra",
+    "technical_sheet": {
+      "tradução": "Helena Topa Com Filipe Velez, Frederico Barata, Joana Manaças e Sérgio Coragem Cocriação e desenho de iluminação Daniel Worm d’Assumpção Co-criação, figurinos e espaço cénico Livia Lattanzio Construção Cenográfica Manuel Lobão",
+      "produção": "Frederico Barata",
+      "coprodução": "auéééu e São Luiz Teatro Municipal Apoios SPA, Junta de Freguesia de Santo António, Casa da Comarca de Arganil, MTC, os nossos putos Agradecimentos Eva Baudry, Filipe Andrade, Fernando Roussado, auéééu teatro"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "saoluiz",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.71
+    }
+  },
+  {
+    "id": "saoluiz-kabe-a-or",
+    "title": "Kabeça Orí",
+    "subtitle": "Aoaní e Joyce Souza",
+    "theater": "São Luiz Teatro Municipal",
+    "category": "Teatro",
+    "dates_label": "11 a 19 abril",
+    "date_start": "2026-04-11",
+    "date_end": "2026-04-19",
+    "sessions": [
+      {
+        "date": "2026-04-11",
+        "time": "19:30",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-04-12",
+        "time": "16:00",
+        "weekday": "Dom"
+      },
+      {
+        "date": "2026-04-15",
+        "time": "19:30",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-04-16",
+        "time": "19:30",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-04-17",
+        "time": "19:30",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-04-18",
+        "time": "19:30",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-04-19",
+        "time": "16:00",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "quarta a sábado 19h30; domingo, 16h",
+    "synopsis": "Começamos por pedir licença, “batemos cabeça” para quem veio antes, refizemos um caminho a fim de ritualizar o que a cidade tenta sistematicamente apagar.…",
+    "image": {
+      "url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2025/07/kabeca-ori-2-by-joniricos-scaled.jpg",
+      "credit": "Joniricos Comprar Bilhetes Datas e Horários 11 a 19 abril quarta a sábado 19h30;",
+      "source": "https://www.teatrosaoluiz.pt/espetaculo/kabeca-ori/",
+      "theater": "São Luiz Teatro Municipal"
+    },
+    "source_url": "https://www.teatrosaoluiz.pt/espetaculo/kabeca-ori/",
+    "ticket_url": "https://saoluiz.bol.pt/Comprar/Bilhetes/172205-kabeca_ori-sao_luiz_teatro_municipal/Sessoes",
+    "price_info": "€12 (com descontos) | (Abrangido pelo Passe Cultura - disponível apenas na bilheteira do Teatro)\n+info",
+    "duration": "",
+    "age_rating": "M/12",
+    "accessibility": "",
+    "sala": "Sala Mário Viegas",
+    "technical_sheet": {
+      "texto": "Aoaní, Joyce Souza e Monalisa Silva",
+      "dramaturgia": "Monalisa Silva",
+      "música": "Xullaji Design e operação de som Sara Marita Percussão Emile Pereira",
+      "luz": "Ariene Godoy Operação de luz Bee Barros Cenário e figurinos Neusa Trovoada Fotografia Joni Riccos Captação de imagens Letícia Diniz",
+      "produção": "Vanessa Amaral Produção Associação Orí – Negritudes em Convergência Espiralar",
+      "coprodução": "Bolsa de Criação O Espaço do Tempo com apoio do Banco BPI e Fundação “la Caixa” /// Projeto financiado por República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes Apoios Biblioteca de Alcântara, Câmara Municipal de Almada, Câmara Municipal da Moita, RDP África, Buala"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "saoluiz",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.72
+    }
+  },
+  {
+    "id": "saoluiz-d-juan",
+    "title": "D. Juan",
+    "subtitle": "Elmano Sancho",
+    "theater": "São Luiz Teatro Municipal",
+    "category": "Teatro",
+    "dates_label": "22 a 26 abril",
+    "date_start": "2026-04-22",
+    "date_end": "2026-04-26",
+    "sessions": [
+      {
+        "date": "2026-04-22",
+        "time": "20:00",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-04-23",
+        "time": "20:00",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-04-24",
+        "time": "20:00",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-04-25",
+        "time": "20:00",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-04-26",
+        "time": "17:30",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "quarta a sábado, 20h; domingo, 17h30",
+    "synopsis": "O que é “um mito”, essa entidade que atravessa o tempo para se confrontar com um mundo em permanente mudança?EmDon Juan, as identidades deslocam-se, abrindo espaço.Don Juan regressa não como personagem, mas como força que atravessa os séculos.…",
+    "image": {
+      "url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2025/07/foto-promocional-leandrofernandes-scaled.jpg",
+      "credit": "São Luiz Teatro Municipal Newsletter Siga o Teatro São Luiz nas redes sociais Me",
+      "source": "https://www.teatrosaoluiz.pt/espetaculo/d-juan-ou-a-queda-de-um-mito/",
+      "theater": "São Luiz Teatro Municipal"
+    },
+    "source_url": "https://www.teatrosaoluiz.pt/espetaculo/d-juan-ou-a-queda-de-um-mito/",
+    "ticket_url": "https://saoluiz.bol.pt/Comprar/Bilhetes/165907-d_juan_ou_a_queda_de_um_mito-sao_luiz_teatro_municipal/Sessoes",
+    "price_info": "€12 a €15 (com descontos) | (Abrangido pelo Passe Cultura - disponível apenas na bilheteira do Teatro)\n+info",
+    "duration": "",
+    "age_rating": "A classificar pela CCE",
+    "accessibility": "",
+    "sala": "Sala Luis Miguel Cintra",
+    "technical_sheet": {
+      "interpretação": "Catarina Wallenstein, Elmano Sancho, Joana Bárcia, Maria José Paschoal e Paula Neves",
+      "cenografia": "Ana Paula Rocha ASSISTENTE DE CENOGRAFIA Madalena Caceres ASSISTENTE ESTAGIÁRIA DE CENOGRAFIA Vera Félix",
+      "figurinos": "José António Tenente",
+      "luz": "Pedro Nabais Espaço Sonoro Pedro Costa DIREÇÃO DE CENA Geraldo Junior",
+      "produção": "Loup Solitaire",
+      "coprodução": "Teatro Virgínia, Casa das Artes de Vila Nova de Famalicão, Teatro Diogo Bernardes, Teatro Gil Vicente e São Luiz Teatro Municipal /// A Loup Solitaire é uma estrutura financiada pela República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "saoluiz",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.72
+    }
+  },
+  {
+    "id": "saoluiz-fimfa-lx26",
+    "title": "FIMFA LX26",
+    "subtitle": "",
+    "theater": "São Luiz Teatro Municipal",
+    "category": "Teatro",
+    "dates_label": "7 a 24 maio",
+    "date_start": "2026-05-07",
+    "date_end": "2026-05-24",
+    "sessions": [
+      {
+        "date": "2026-05-07",
+        "time": "",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-05-24",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "horários e preços variam conforme o espetáculo",
+    "synopsis": "Abrir espaço, reinventar ou iluminar: são algumas das palavras que vão guiar a 26.ª edição do FIMFA Lx – Festival Internacional de Marionetas e Formas Animadas, consagrado como um evento de referência nacional e internacional, ao mostrar anualmente o que de melhor se produz nas artes da marioneta co…",
+    "image": {
+      "url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2023/11/dscf2709-peq-scaled.jpg",
+      "credit": "Estelle Valente Datas e Horários 7 a 24 maio horários e preços variam conforme o",
+      "source": "https://www.teatrosaoluiz.pt/espetaculo/fimfa-lx26/",
+      "theater": "São Luiz Teatro Municipal"
+    },
+    "source_url": "https://www.teatrosaoluiz.pt/espetaculo/fimfa-lx26/",
+    "ticket_url": "",
+    "price_info": "Consultar o preçário de cada espetáculo",
+    "duration": "",
+    "age_rating": "A classificar pela CCE",
+    "accessibility": "",
+    "sala": "Sala Luis Miguel Cintra, Sala Mário Viegas e Sala Bernardo Sassetti",
+    "technical_sheet": {
+      "direção": "Luís Vieira e Rute Ribeiro",
+      "coprodução": "LU.CA – Teatro Luís de Camões, Teatro Nacional D. Maria II, Centro Cultural de Belém e São Luiz Teatro Municipal /// A Tarumba é uma estrutura financiada por República Portuguesa – Cultura / Direção-Geral das Artes"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "saoluiz",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.59
+    }
+  },
+  {
+    "id": "saoluiz-hip-lito",
+    "title": "Hipólito",
+    "subtitle": "de Bruno Simão, a partir do texto de Mickael de OliveiraSUBSOLOS",
+    "theater": "São Luiz Teatro Municipal",
+    "category": "Teatro",
+    "dates_label": "29 a 31 maio",
+    "date_start": "2026-05-29",
+    "date_end": "2026-05-31",
+    "sessions": [
+      {
+        "date": "2026-05-29",
+        "time": "20:00",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-05-30",
+        "time": "20:00",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-05-31",
+        "time": "17:30",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "sexta e sábado, 20h; domingo, 17h30",
+    "synopsis": "Este espetáculo poderia ser apresentado no Palais de Tokyo em Paris.Olga Roriz Hipólito(texto original de Mickael de Oliveira), é um espetáculo sobre brutalidade nas relações familiares. Trata o mito de Fedra.…",
+    "image": {
+      "url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2025/07/hipolito-brunosimao-joaotuna-site.jpg",
+      "credit": "João Tuna Datas e Horários 29 a 31 maio sexta e sábado, 20h; domingo, 17h30 Loca",
+      "source": "https://www.teatrosaoluiz.pt/espetaculo/hipolito/",
+      "theater": "São Luiz Teatro Municipal"
+    },
+    "source_url": "https://www.teatrosaoluiz.pt/espetaculo/hipolito/",
+    "ticket_url": "",
+    "price_info": "€7 (com descontos) | (Abrangido pelo Passe Cultura - disponível apenas na bilheteira do Teatro)\n+info",
+    "duration": "",
+    "age_rating": "A classificar pela CCE",
+    "accessibility": "",
+    "sala": "Subpalco",
+    "technical_sheet": {
+      "luz": "Pedro Guimarães",
+      "produção": "Xana Lagusi"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "saoluiz",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.59
+    }
+  },
+  {
+    "id": "saoluiz-da-boca-pra-fora",
+    "title": "Da Boca Pra Fora",
+    "subtitle": "de Jonathan Lewis e Miranda FosterEncenaçãoFlávio Gil",
+    "theater": "São Luiz Teatro Municipal",
+    "category": "Teatro",
+    "dates_label": "3 a 14 junho (exceto 12 junho)",
+    "date_start": "2026-06-03",
+    "date_end": "2026-06-14",
+    "sessions": [
+      {
+        "date": "2026-06-03",
+        "time": "19:30",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-06-04",
+        "time": "19:30",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-06-05",
+        "time": "19:30",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-06-06",
+        "time": "19:30",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-06-07",
+        "time": "16:00",
+        "weekday": "Dom"
+      },
+      {
+        "date": "2026-06-10",
+        "time": "19:30",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-06-11",
+        "time": "19:30",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-06-12",
+        "time": "19:30",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-06-13",
+        "time": "19:30",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-06-14",
+        "time": "16:00",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "quarta a sábado, 19h30; domingo, 16h",
+    "synopsis": "António, Bia, Telma e Carlos…. Quatro atores que dividem apartamento no Bairro Alto, a viverem diferentes fases das suas vidas. António, o mais velho dos quatro, enfrenta o dilema de escolher as 8 músicas que marcam a sua vida, como se essa fosse a sua última esperança.…",
+    "image": {
+      "url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2025/07/cartaz-psaoluiz-dbpf-site-peq-1.jpg",
+      "credit": "André Piçarra Comprar Bilhetes Datas e Horários 3 a 14 junho (exceto 12 junho) q",
+      "source": "https://www.teatrosaoluiz.pt/espetaculo/da-boca-pra-fora/",
+      "theater": "São Luiz Teatro Municipal"
+    },
+    "source_url": "https://www.teatrosaoluiz.pt/espetaculo/da-boca-pra-fora/",
+    "ticket_url": "https://saoluiz.bol.pt/Comprar/Bilhetes/172943-da_boca_pra_fora-sao_luiz_teatro_municipal/Sessoes",
+    "price_info": "€12 (com descontos) | (Abrangido pelo Passe Cultura - disponível apenas na bilheteira do Teatro)\n+info",
+    "duration": "",
+    "age_rating": "A classificar pela CCE",
+    "accessibility": "",
+    "sala": "Sala Mário Viegas",
+    "technical_sheet": {
+      "interpretação": "Sara Barradas, Marta Gil, João Cabral, Diogo Martins, André Leitão e Mike11",
+      "texto": "Jonathan Lewis e Miranda Foster",
+      "encenação": "Flávio Gil Tradução, Adaptação e Assistência de Encenação João Soares dos Reis",
+      "cenografia": "Flávio Gil Fotografias e Design Gráfico André Piçarra",
+      "figurinos": "Dino Alves",
+      "produção": "André Camilo",
+      "coprodução": "Camarote Produções e São Luiz Teatro Municipal"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "saoluiz",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.74
+    }
+  },
+  {
+    "id": "saoluiz-a-cavalo",
+    "title": "A CAVALO",
+    "subtitle": "Sónia Baptista",
+    "theater": "São Luiz Teatro Municipal",
+    "category": "Teatro",
+    "dates_label": "19 a 21 junho",
+    "date_start": "2026-06-19",
+    "date_end": "2026-06-21",
+    "sessions": [
+      {
+        "date": "2026-06-19",
+        "time": "18:00",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-06-20",
+        "time": "15:00",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-06-21",
+        "time": "15:00",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "sexta, 18h; sábado e domingo, 15h e 18h",
+    "synopsis": "Partindo do capítulo das Viagens de Gulliver: A Voyage to the Land of the Houyhnhnmse de várias referências culturais e representações do Cavalo e da sua relação com os seres humanos – resultando num imaginário cheio de signos e significados, alguns problemáticos, outros idealizados – pretendemos re…",
+    "image": {
+      "url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2025/07/a-cavaloraquel-melgue-cort-site-scaled.jpg",
+      "credit": "Raquel Melgue Datas e Horários 19 a 21 junho sexta, 18h; sábado e domingo, 15h e",
+      "source": "https://www.teatrosaoluiz.pt/espetaculo/a-cavalo/",
+      "theater": "São Luiz Teatro Municipal"
+    },
+    "source_url": "https://www.teatrosaoluiz.pt/espetaculo/a-cavalo/",
+    "ticket_url": "",
+    "price_info": "€12 (com descontos) | (Abrangido pelo Passe Cultura - disponível apenas na bilheteira do Teatro)\n+info",
+    "duration": "",
+    "age_rating": "A classificar pela CCE",
+    "accessibility": "",
+    "sala": "Sala Bernardo Sassetti",
+    "technical_sheet": {
+      "direção": "Sónia Baptista",
+      "interpretação": "Sónia Baptista, Maria Abrantes, Joana Levi, Bruno Soares Nogueira",
+      "cenografia": "Raquel Melgue, Sónia Baptista SOM Margarida Magalhães",
+      "figurinos": "Lara Torres, Sónia Baptista",
+      "direção_produção": "Maria João Garcia",
+      "coprodução": "Fundação de Serralves/Serralves em Festa, Citemor, Festival End, Festival Paragem e São Luiz Teatro Municipal"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "saoluiz",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.67
+    }
+  },
+  {
+    "id": "saoluiz-deixar-o-karate",
+    "title": "DEIXAR O KARATE",
+    "subtitle": "Miguel Castro Caldas e Pedro Gil",
+    "theater": "São Luiz Teatro Municipal",
+    "category": "Teatro",
+    "dates_label": "24 junho a 5 julho",
+    "date_start": "2026-06-24",
+    "date_end": "2026-07-05",
+    "sessions": [
+      {
+        "date": "2026-06-24",
+        "time": "19:30",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-06-25",
+        "time": "19:30",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-06-26",
+        "time": "19:30",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-06-27",
+        "time": "19:30",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-06-28",
+        "time": "16:00",
+        "weekday": "Dom"
+      },
+      {
+        "date": "2026-07-01",
+        "time": "19:30",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-07-02",
+        "time": "19:30",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-07-03",
+        "time": "19:30",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-07-04",
+        "time": "19:30",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-07-05",
+        "time": "16:00",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "quarta a sábado, 19h30; domingo, 16h",
+    "synopsis": "Miguel Castro Caldas e Pedro Gil são artistas de teatro e foram, coincidentemente, artistas de karate. E decidiram fazer disso o princípio deDeixar o Karate. Uma pergunta que é costume fazer-se a quem pratica karate é: já alguma vez usaste o karate na vida?…",
+    "image": {
+      "url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2025/07/pixlr-image-generator-6807568dacc1f43db7ada897-e1752588285589.jpg",
+      "credit": "São Luiz Teatro Municipal Newsletter Siga o Teatro São Luiz nas redes sociais Me",
+      "source": "https://www.teatrosaoluiz.pt/espetaculo/deixar-o-karate/",
+      "theater": "São Luiz Teatro Municipal"
+    },
+    "source_url": "https://www.teatrosaoluiz.pt/espetaculo/deixar-o-karate/",
+    "ticket_url": "",
+    "price_info": "€12 (com descontos) | (Abrangido pelo Passe Cultura - disponível apenas na bilheteira do Teatro)\n+info",
+    "duration": "",
+    "age_rating": "A classificar pela CCE",
+    "accessibility": "",
+    "sala": "Sala Mário Viegas",
+    "technical_sheet": {
+      "direção": "Miguel Castro Caldas e Pedro Gil",
+      "direção_produção": "Ana Gusmão",
+      "cenografia": "André Guedes",
+      "luz": "Daniel Worm",
+      "produção": "Razões Pessoais Residência artística Casa de Gigante",
+      "coprodução": "Teatro das Figuras e São Luiz Teatro Municipal"
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "saoluiz",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.67
+    }
+  },
+  {
+    "id": "saoluiz-es-tr3s-irms",
+    "title": "ES TR3S IRMS",
+    "subtitle": "Tita Maravilha",
+    "theater": "São Luiz Teatro Municipal",
+    "category": "Teatro",
+    "dates_label": "26 a 28 junho",
+    "date_start": "2026-06-26",
+    "date_end": "2026-06-28",
+    "sessions": [
+      {
+        "date": "2026-06-26",
+        "time": "20:00",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-06-27",
+        "time": "20:00",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-06-28",
+        "time": "17:30",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "sexta e sábado, 20h; domingo, 17h30",
+    "synopsis": "Es Tr3s Irms, Diogo, Macha e Irina, vivem numa cidade no interior da Rússia. Aborrecidas com o dia-a-dia da província, que as isola e castra os seus sonhos, desejam mais que tudo voltar a Moscou/Moscovo, a sua terra natal.…",
+    "image": {
+      "url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2025/07/es-tr3s-irms-divulgacao-filipe-ferreira-1-scaled-e1752588127306.jpg",
+      "credit": "Filipe Ferreira Datas e Horários 26 a 28 junho sexta e sábado, 20h; domingo, 17h",
+      "source": "https://www.teatrosaoluiz.pt/espetaculo/es-tr3s-irms/",
+      "theater": "São Luiz Teatro Municipal"
+    },
+    "source_url": "https://www.teatrosaoluiz.pt/espetaculo/es-tr3s-irms/",
+    "ticket_url": "",
+    "price_info": "€12 a €15 (com descontos) | (Abrangido pelo Passe Cultura - disponível apenas na bilheteira do Teatro)\n+info",
+    "duration": "",
+    "age_rating": "M/12",
+    "accessibility": "",
+    "sala": "Sala Luis Miguel Cintra",
+    "technical_sheet": {
+      "dramaturgia": "Keli Freitas e Tita Maravilha Desenho e Operação de luz Lui L´abbate",
+      "cenografia": "Marine Sigaut e Alex Simões AKA Xana Modas Confeção de figurinos Alex Simões Criação sonora Tita Maravilha",
+      "produção": "Trypas-Corassão Associação Cultural",
+      "coprodução": "Es Tr3s Irms é o projeto vencedor da 5ª edição da Bolsa Amélia Rey Colaço, uma iniciativa promovida pelo Teatro Nacional D. Maria II (Lisboa), A Oficina / Centro Cultural Vila Flor (Guimarães), O Espaço do Tempo (Montemor-o-Novo), e o Teatro Viriato (Viseu)."
+    },
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "saoluiz",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.63
+    }
+  },
+  {
+    "id": "saoluiz-escola-superior-de-teatro-e-cinema",
+    "title": "Escola Superior de Teatro e Cinema",
+    "subtitle": "Espetáculo dos Alunos Finalistas da Licenciatura em Teatro",
+    "theater": "São Luiz Teatro Municipal",
+    "category": "Teatro",
+    "dates_label": "15 a 19 julho",
+    "date_start": "2026-07-15",
+    "date_end": "2026-07-19",
+    "sessions": [
+      {
+        "date": "2026-07-15",
+        "time": "19:30",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-07-16",
+        "time": "19:30",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-07-17",
+        "time": "19:30",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-07-18",
+        "time": "19:30",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-07-19",
+        "time": "16:00",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "quarta a sábado, 19h30; domingo, 16h",
+    "synopsis": "O futuro do teatro passa por aqui. Dando continuidade à parceria estratégica com a Escola Superior de Teatro e Cinema (ESTC), o Teatro São Luiz reafirma o seu compromisso com o apoio ao talento emergente e à nova criação.…",
+    "image": {
+      "url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2025/07/73-estc-estelle-scaled.jpg",
+      "credit": "EGEAC – Teatro São Luiz, Estelle Valente Datas e Horários 15 a 19 julho quarta a",
+      "source": "https://www.teatrosaoluiz.pt/espetaculo/escola-superior-de-teatro-e-cinema-4/",
+      "theater": "São Luiz Teatro Municipal"
+    },
+    "source_url": "https://www.teatrosaoluiz.pt/espetaculo/escola-superior-de-teatro-e-cinema-4/",
+    "ticket_url": "",
+    "price_info": "Entrada livre sujeita à lotação da sala. Bilhetes disponíveis no próprio dia na bilheteira do Teatro a partir de uma hora antes do evento (até 2 por pessoa).",
+    "duration": "",
+    "age_rating": "A classificar pela CCE",
+    "accessibility": "",
+    "sala": "Sala Mário Viegas",
+    "technical_sheet": {},
+    "scraped_at": "2026-03-20T01:05:07.292323+00:00",
+    "theater_id": "saoluiz",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.55
+    }
+  }
+]
