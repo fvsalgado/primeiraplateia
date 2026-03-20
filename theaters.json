@@ -47,7 +47,10 @@
         "teatro são luiz",
         "teatro municipal são luiz",
         "saoluiz"
-      ]
+      ],
+      "logo_url": "https://www.teatrosaoluiz.pt/wp-content/themes/saoluiz/assets/images/logo.svg",
+      "favicon_url": "https://www.teatrosaoluiz.pt/wp-content/themes/saoluiz/assets/images/favicon.ico",
+      "facade_url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2022/01/teatro-sao-luiz-fachada.jpg"
     },
     {
       "id": "mariamatos",
