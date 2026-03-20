@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-20T01:08:55.608092+00:00",
-  "total": 79,
+  "updated_at": "2026-03-20T01:16:15.776256+00:00",
+  "total": 73,
   "by_theater": {
     "Teatro Variedades": 3,
     "Capitólio": 3,
     "São Luiz Teatro Municipal": 14,
-    "Teatro Maria Matos": 6,
+    "Teatro Maria Matos": 0,
     "Culturgest": 37,
     "CCB — Centro Cultural de Belém": 6,
     "Teatro Viriato": 0,
@@ -52,7 +52,7 @@
       "age_rating": "M/6",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-open-call-isto-n-o-um-cubo",
@@ -84,7 +84,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-tr-s-tempos-com-capicua-e-lu-s-montenegro",
@@ -116,7 +116,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-open-call",
@@ -148,7 +148,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-capicua-e-lu-s-montenegro",
@@ -180,7 +180,7 @@
       "age_rating": "M/6",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-coletivo-de-p-blico-residente-sess-es-abertas",
@@ -212,7 +212,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-tr-s-tempos-com-xullaji-e-beatriz-pessoa",
@@ -244,7 +244,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-osso",
@@ -276,7 +276,7 @@
       "age_rating": "M/6",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-teatro-do-frio",
@@ -308,7 +308,7 @@
       "age_rating": "M/3",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-casa-das-novidades",
@@ -340,7 +340,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "trindade-a-gaivota",
@@ -385,7 +385,7 @@
         "figurinos": "Filipe Faísca Desenho de luz Nuno Meira",
         "música": "original Artur Guimarães Sonoplastia Rui Santos Vídeo João Alves Assistência de"
       },
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "trindade-brokeback-mountain",
@@ -430,65 +430,7 @@
         "cenografia": "FPSolutions Fotografia de cartaz Pedro Macedo – Framed Photos Fotografia de cena Alípio Padilha",
         "produção": "executiva Teatro do Vão"
       },
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
-    },
-    {
-      "id": "mariamatos-primeira-vista",
-      "title": "À PRIMEIRA VISTA",
-      "theater": "Teatro Maria Matos",
-      "category": "Teatro",
-      "dates_label": "2026-03-03 – 2026-03-31",
-      "date_start": "2026-03-03",
-      "date_end": "2026-03-31",
-      "sessions": [
-        {
-          "date": "2026-03-03",
-          "time": "21:00",
-          "weekday": "Ter"
-        },
-        {
-          "date": "2026-03-23",
-          "time": "21:00",
-          "weekday": "Seg"
-        },
-        {
-          "date": "2026-03-30",
-          "time": "21:00",
-          "weekday": "Seg"
-        },
-        {
-          "date": "2026-03-31",
-          "time": "21:00",
-          "weekday": "Ter"
-        }
-      ],
-      "schedule": "2026-03-03 21:00 | 2026-03-23 21:00 | 2026-03-30 21:00 | 2026-03-31 21:00",
-      "synopsis": "Prima Facie —Expressão jurídica latina que significa: À primeira vista. Margarida Vila-Novasobe ao palco doTeatro Maria Matoscom a versão portuguesa deÀ PRIMEIRA VISTA(PRIMA FACIE), de Suzie Miller, com encenação deTiago Guedes.…",
-      "image": {
-        "url": "https://teatromariamatos.pt/wp-content/uploads/2025/03/2024_04_23_A_PRIMEIRA_VISTA_TL_1920x1080px_01.jpg",
-        "credit": "Filipe Ferreira 90 min. M/14 Prima Facie —Expressão jurídica latina que signific",
-        "source": "https://teatromariamatos.pt/espetaculos/a-primeira-vista/",
-        "theater": "Teatro Maria Matos"
-      },
-      "source_url": "https://teatromariamatos.pt/espetaculos/a-primeira-vista/",
-      "ticket_url": "https://ticketline.sapo.pt/salas/sala/2791",
-      "price_info": "20€",
-      "duration": "90 min.",
-      "age_rating": "M/14",
-      "technical_sheet": {
-        "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
-        "texto": "Suzie Miller",
-        "encenação": "Tiago Guedes",
-        "tradução": "Ana Sampaio",
-        "cenário": "Catarina Amaro",
-        "luz": "Nuno Meira",
-        "som": "Carincur",
-        "figurinos": "Rita Alves agradecimentos João Tavares",
-        "produção": "Força de",
-        "autor": "Suzie Miller é uma dramaturga e argumentista contemporânea, vencedora de diversos prémios internacionais. Gosta de histórias humanas complexas que frequentemente versam a injustiça. Trabalha em Londres, no Reino Unido, e em Sydney, na Austrália, mas a sua obra tem sido apresentada em todo o mundo. T",
-        "dramaturgia": "no National Institute of Dramatic Art , na Austrália. Play Avenida Frei Miguel Contreiras, 52, 1700-213, Lisboa Horário da Bilheteira Segunda – Sábado 17h30 às 21h30 Domingo — 15h30 às 18h30 *Horários em vigor em dias de espectáculo. Horário sujeito a alterações. Reservas e informações de bilheteira"
-      },
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-ch-tisana-e-kombucha-humor-e-diferen-as-culturais",
@@ -520,7 +462,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-formiga-at-mica",
@@ -552,7 +494,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "saoluiz-todos-p-ssaros",
@@ -643,49 +585,7 @@
         "interpretação": "Cucha Carvalheiro, David Esteves, Fernando Luís, Madalena Almeida, Manuela Couto, Virgílio Castelo e Duarte Romão e Laura Garnel (alunos finalistas da ESTC)",
         "coprodução": "Culturproject, Teatro Municipal Joaquim Benite e São Luiz Teatro Municipal Projeto apoiado por República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes"
       },
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
-    },
-    {
-      "id": "mariamatos-uma-ideia-genial",
-      "title": "UMA IDEIA GENIAL",
-      "theater": "Teatro Maria Matos",
-      "category": "Teatro",
-      "dates_label": "18 março – 17 maio",
-      "date_start": "2026-03-18",
-      "date_end": "2026-05-17",
-      "sessions": [
-        {
-          "date": "2026-03-17",
-          "time": "21:00",
-          "weekday": "Ter"
-        }
-      ],
-      "schedule": "Sessões especiais: 2026-03-17 21:00 | Domingos 17:00 | Quintas 21:00 | Sextas 21:00 | Sábados 21:00",
-      "synopsis": "Todos nós temos um sósia algures no mundo. E se encontrasse o seu? Uma comédia irresistível que explora uma série de coincidências inesperadas e o absurdo de uma ideia que parecia genial. Dizem que todos nós temos um sósia, mas podemos passar uma vida inteira sem o conhecer.…",
-      "image": {
-        "url": "https://teatromariamatos.pt/wp-content/uploads/2025/12/2025_12_15_UMA_IDEIA_GENIAL_MM_Site_1920x1080px_01.jpg",
-        "credit": null,
-        "source": "https://teatromariamatos.pt/espetaculos/uma-ideia-genial/",
-        "theater": "Teatro Maria Matos"
-      },
-      "source_url": "https://teatromariamatos.pt/espetaculos/uma-ideia-genial/",
-      "ticket_url": "https://ticketline.sapo.pt/salas/sala/2791",
-      "price_info": "20-22€",
-      "duration": "",
-      "age_rating": "M/12",
-      "technical_sheet": {
-        "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
-        "autor": "Sébastien Castro",
-        "encenação": "Ricardo Neves-Neves",
-        "tradução": "Ana Sampaio",
-        "cenário": "Catarina Amaro",
-        "figurinos": "Rafaela Mapril",
-        "luz": "Rui Seabra",
-        "produção": "Força de",
-        "interpretação": "Ana Guiomar, Cristóvão Campos, Ruben Madureira e Sandra Faleiro",
-        "elenco": "Ana Guiomar, Cristóvão Campos, Ruben Madureira e Sandra Faleiro, “Uma Ideia Genial” conta a história hilariante de uma personagem que se multiplica em três, cada uma com as suas características e perplexidades. Atrações, ciúmes, suspeitas e destinos cruzados criam uma sucessão de mal-entendidos e um"
-      },
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "teatrodasfiguras-o-figurante",
@@ -712,7 +612,7 @@
       "duration": "",
       "age_rating": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "saoluiz-as-quatro-mortes-de-napole-o",
@@ -806,7 +706,7 @@
         "produção": "Fátima Santos Filipe Difusão João Vaz Silva",
         "coprodução": "O Fim do Teatro, Casa Varela, Teatro-Cine de Pombal e São Luiz Teatro Municipal Parceria RTP Palco Apoio Largo Residências Media partner Radar 97.8 FM AGRADECIMENTOS Chão de Oliva, Elsa Lago Matos e Luiz Quaresma"
       },
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "teatro-variedades-in-the-heights",
@@ -843,7 +743,7 @@
       "age_rating": "M/12",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "teatro-variedades-o-tamanho-das-coisas",
@@ -880,7 +780,7 @@
       "age_rating": "M/14",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "teatro-variedades-radojka",
@@ -917,7 +817,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "teatro-capitolio-come-from-away",
@@ -954,7 +854,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "teatro-capitolio-evita",
@@ -991,7 +891,7 @@
       "age_rating": "M/12",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "teatro-capitolio-macbeth",
@@ -1028,7 +928,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-falta-de-ch-humor-tabus-e-censura",
@@ -1060,7 +960,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-diana-niepce",
@@ -1092,7 +992,7 @@
       "age_rating": "M/16",
       "accessibility": "Audiodescrição",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "ccb-a-valentina-e-a-valeria-n-o-est-o-mortas",
@@ -1133,7 +1033,7 @@
         "produção": "Executiva Marisa Coelho Gestão Financeira Nuno Pratas",
         "coprodução": "Associação Bo Dixam Bai, Associação Palavrão, Centro Cultural de Belém, Cineteatro Louletano e Culturproject"
       },
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "teatrodasfiguras-para-so-meu-para-so",
@@ -1160,7 +1060,7 @@
       "duration": "",
       "age_rating": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "saoluiz-dia-mundial-do-teatro",
@@ -1194,7 +1094,7 @@
       "accessibility": "",
       "sala": "Vários espaços do Teatro",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-do-ch-ao-iced-tea-humor-passado-e-presente",
@@ -1226,7 +1126,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-hedera-4tet-x-vera-mantero",
@@ -1258,7 +1158,7 @@
       "age_rating": "M/6",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "teatrodobairro-rei-lear",
@@ -1301,52 +1201,7 @@
         "luz": "Rui Seabra; Desenho de som: Paulo Abelho; Costureira: RosÃ¡rio Balbi; ConstruÃ§Ã£o de cenÃ¡rio: FÃ¡bio Paulo; OperaÃ§Ã£o de luz: AntÃ³nio SerrÃ£o e JoÃ£o Madeira; OperaÃ§Ã£o de som: Vasco Maciel; Chef",
         "dramaturgia": "LuÃ­sa Costa Gomes 2015 | QUATRO SANTOS EM TRÃS ACTOS libreto de Gertrude Stein e muÌsica de Virgil Thomson TraducÌ§aÌo e"
       },
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
-    },
-    {
-      "id": "mariamatos-o-amor-fodid",
-      "title": "O AMOR É FODID*",
-      "theater": "Teatro Maria Matos",
-      "category": "Teatro",
-      "dates_label": "2026-04-07 – 2026-04-08",
-      "date_start": "2026-04-07",
-      "date_end": "2026-04-08",
-      "sessions": [
-        {
-          "date": "2026-04-07",
-          "time": "21:00",
-          "weekday": "Ter"
-        },
-        {
-          "date": "2026-04-08",
-          "time": "21:00",
-          "weekday": "Qua"
-        }
-      ],
-      "schedule": "2026-04-07 21:00 | 2026-04-08 21:00",
-      "synopsis": "O que propomos é uma obra que trate do amor com todas as peças — uma espécie de Romeu e Julieta contemporâneo em que os amantes se enganam reciprocamente suicidando-se para o amor, continuando apesar de tudo: vivos. Há uma resistência, uma vontade de se começar o que ainda não se começou.…",
-      "image": {
-        "url": "https://teatromariamatos.pt/wp-content/uploads/2026/02/O_AMOR_E_FODIDO_TL_1920x1080px.jpg",
-        "credit": "Mário Rainha Campos e Natacha Ventura Assistência de direção: Paulo Oliveira, Gu",
-        "source": "https://teatromariamatos.pt/espetaculos/o-amor-e-fodid/",
-        "theater": "Teatro Maria Matos"
-      },
-      "source_url": "https://teatromariamatos.pt/espetaculos/o-amor-e-fodid/",
-      "ticket_url": "https://ticketline.sapo.pt/salas/sala/2791",
-      "price_info": "18€",
-      "duration": "90 min.",
-      "age_rating": "M/18",
-      "technical_sheet": {
-        "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
-        "texto": "Miguel Esteves Cardoso Adaptação, encenação, espaço cênico e",
-        "interpretação": "João Garcia Miguel Asistencia a",
-        "dramaturgia": "Michael Margota",
-        "direção": "executiva: Suzana Durão",
-        "figurinos": "Rute Osório de Castro Fotografia: Mário Rainha Campos e Natacha Ventura Assistência de",
-        "produção": "Janice Mayamona Apoio Técnico: Léo Emílio Contabilidade: Irene Gaspar Comunicação e Design Gráfico: Natacha Ventura Comunicação Digital: Miguel Durão Hilário Registo em vídeo: Bruno Canas Costureira: Teresa Matos Assessoria de imprensa: Canal Aberto – Márcia Marques, Daniele Valério e Carina Bordalo",
-        "autor": "diz-nos que há algo de sinistro numa mulher que só usa roupa uma vez. Como haverá, dizemos nós, algo de identicamente sinistro em vestir sempre a mesma roupa. É igual com o amor. Há algo pecaminoso em vestir-nos de amor uma vez e de novamente repetir a dose. Ao entrar para dentro do círculo amoroso,"
-      },
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "saoluiz-os-contratos-do-comerciante",
@@ -1404,7 +1259,7 @@
         "produção": "Frederico Barata",
         "coprodução": "auéééu e São Luiz Teatro Municipal Apoios SPA, Junta de Freguesia de Santo António, Casa da Comarca de Arganil, MTC, os nossos putos Agradecimentos Eva Baudry, Filipe Andrade, Fernando Roussado, auéééu teatro"
       },
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "saoluiz-kabe-a-or",
@@ -1475,7 +1330,7 @@
         "produção": "Vanessa Amaral Produção Associação Orí – Negritudes em Convergência Espiralar",
         "coprodução": "Bolsa de Criação O Espaço do Tempo com apoio do Banco BPI e Fundação “la Caixa” /// Projeto financiado por República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes Apoios Biblioteca de Alcântara, Câmara Municipal de Almada, Câmara Municipal da Moita, RDP África, Buala"
       },
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-oneohtrix-point-never",
@@ -1507,7 +1362,7 @@
       "age_rating": "M/6",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-tr-s-tempos",
@@ -1539,7 +1394,7 @@
       "age_rating": "M/6",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-tortoise",
@@ -1571,49 +1426,7 @@
       "age_rating": "M/6",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
-    },
-    {
-      "id": "mariamatos-pedro-cardoso-o-rec-m-nascido",
-      "title": "PEDRO CARDOSO | o recém nascido",
-      "theater": "Teatro Maria Matos",
-      "category": "Teatro",
-      "dates_label": "2026-04-21 – 2026-04-27",
-      "date_start": "2026-04-21",
-      "date_end": "2026-04-27",
-      "sessions": [
-        {
-          "date": "2026-04-21",
-          "time": "21:00",
-          "weekday": "Ter"
-        },
-        {
-          "date": "2026-04-27",
-          "time": "21:00",
-          "weekday": "Seg"
-        }
-      ],
-      "schedule": "2026-04-21 21:00 | 2026-04-27 21:00",
-      "synopsis": "Quem se lembra do próprio nascimento? Ninguém. Mas eu me lembro do meu.Lembro de todos os detalhes do meu nascimento e da minha infância. E posso garantir: eu era muito mais feliz antes de nascer! Vida boa era a minha quando eu estava guardado ainda dentro da minha mãe!…",
-      "image": {
-        "url": "https://teatromariamatos.pt/wp-content/uploads/2026/02/Banner-Site-Lisboa-1920x1080_TRATADA.jpg",
-        "credit": null,
-        "source": "https://teatromariamatos.pt/espetaculos/pedro-cardoso-o-recem-nascido/",
-        "theater": "Teatro Maria Matos"
-      },
-      "source_url": "https://teatromariamatos.pt/espetaculos/pedro-cardoso-o-recem-nascido/",
-      "ticket_url": "https://ticketline.sapo.pt/salas/sala/2791",
-      "price_info": "20€",
-      "duration": "75 min.",
-      "age_rating": "M/16",
-      "technical_sheet": {
-        "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
-        "texto": "e atuação: Pedro Cardoso",
-        "direção": "Pedro Cardoso",
-        "figurinos": "Giovanna Moretto",
-        "produção": "e"
-      },
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "saoluiz-d-juan",
@@ -1674,7 +1487,7 @@
         "produção": "Loup Solitaire",
         "coprodução": "Teatro Virgínia, Casa das Artes de Vila Nova de Famalicão, Teatro Diogo Bernardes, Teatro Gil Vicente e São Luiz Teatro Municipal /// A Loup Solitaire é uma estrutura financiada pela República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes"
       },
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-afetos-nacionais",
@@ -1706,7 +1519,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-catarina-r-lo-salgueiro-e-isabel-costa-os-possesso",
@@ -1738,7 +1551,7 @@
       "age_rating": "M/12",
       "accessibility": "Audiodescrição",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "trindade-verdadeiro-oeste",
@@ -1782,7 +1595,7 @@
         "produção": "Martim Pedroso",
         "música": "Dan Gillespie Sells"
       },
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "trindade-clube-dos-poetas-mortos",
@@ -1826,7 +1639,7 @@
         "produção": "– Tenda Produções Ana Delgado",
         "música": "Dan Gillespie Sells"
       },
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-p-e-d-r-a",
@@ -1858,7 +1671,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-joga-o-jogo-fugida",
@@ -1890,7 +1703,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "saoluiz-fimfa-lx26",
@@ -1932,7 +1745,7 @@
         "direção": "Luís Vieira e Rute Ribeiro",
         "coprodução": "LU.CA – Teatro Luís de Camões, Teatro Nacional D. Maria II, Centro Cultural de Belém e São Luiz Teatro Municipal /// A Tarumba é uma estrutura financiada por República Portuguesa – Cultura / Direção-Geral das Artes"
       },
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "teatrodasfiguras-falsas-hist-rias-verdadeiras-uma-pina-colagem",
@@ -1959,7 +1772,7 @@
       "duration": "",
       "age_rating": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-23-festival-internacional-de-cinema",
@@ -1991,43 +1804,7 @@
       "age_rating": "M/16",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
-    },
-    {
-      "id": "mariamatos-sin-doque-ivo-canelas-e-jo-o-vasco",
-      "title": "SINÉDOQUE | Ivo Canelas e João Vasco",
-      "theater": "Teatro Maria Matos",
-      "category": "Teatro",
-      "dates_label": "2026-05-13",
-      "date_start": "2026-05-13",
-      "date_end": "2026-05-13",
-      "sessions": [
-        {
-          "date": "2026-05-13",
-          "time": "21:00",
-          "weekday": "Qua"
-        }
-      ],
-      "schedule": "2026-05-13 21:00",
-      "synopsis": "Evocando a figura de estilo pela qual se exprime “a parte pelo todo” ou “o todo pela parte”, o espectáculo “Sinédoque” revisita e reinventa a obra de poetas portugueses dos séculos XX e XXI, entre os quais Alexandre O’Neill, Ruy Belo, Tiago Rodrigues ou Margarida Vale de Gato.…",
-      "image": {
-        "url": "https://teatromariamatos.pt/wp-content/uploads/2026/02/2025_11_25_SINEDOQUE_MM_Site_1920x1080px_01.jpg",
-        "credit": null,
-        "source": "https://teatromariamatos.pt/espetaculos/sinedoque-ivo-canelas-e-joao-vasco/",
-        "theater": "Teatro Maria Matos"
-      },
-      "source_url": "https://teatromariamatos.pt/espetaculos/sinedoque-ivo-canelas-e-joao-vasco/",
-      "ticket_url": "https://ticketline.sapo.pt/salas/sala/2791",
-      "price_info": "18€ - 22€",
-      "duration": "",
-      "age_rating": "M/12",
-      "technical_sheet": {
-        "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
-        "direção": "artística",
-        "elenco": "João Vasco. Actualmente em itinerância, Sinédoque estreou em 2023 e foi apresentado em Portugal, Tunísia, Cabo Verde, Brasil, França e Angola. Avenida Frei Miguel Contreiras, 52, 1700-213, Lisboa Horário da Bilheteira Segunda – Sábado 17h30 às 21h30 Domingo — 15h30 às 18h30 *Horários em vigor em dia",
-        "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
-      },
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-meg-stuart",
@@ -2059,7 +1836,7 @@
       "age_rating": "M/12",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-lucy-railton-com-charlie-hope-rebecca-salvadori",
@@ -2091,7 +1868,7 @@
       "age_rating": "M/6",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-restaurar-o-futuro",
@@ -2123,7 +1900,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-alex-cassal-m-cria-o",
@@ -2155,7 +1932,7 @@
       "age_rating": "M/14",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "ccb-constitui-o-8211-estreia",
@@ -2232,7 +2009,7 @@
         "luz": "Ângela Bismarck",
         "coprodução": "CCB/Fábrica das Artes Apoio Fundo Cultural da Sociedade Portuguesa de Autores Apoio à investigação Tribunal Constitucional Projeto criado no âmbito da parceria Centro Cultural de Belém/Fábrica das Artes e Assembleia da República. Imagem ©Assembleia da República Ilustração de Mantr"
       },
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-rui-agostinho-alex-cassal",
@@ -2264,7 +2041,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "saoluiz-hip-lito",
@@ -2311,7 +2088,7 @@
         "luz": "Pedro Guimarães",
         "produção": "Xana Lagusi"
       },
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-a-winged-victory-for-the-sullen",
@@ -2343,7 +2120,7 @@
       "age_rating": "M/6",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-projeto-educativo-em-dan-a-de-repert-rio-para-adol",
@@ -2375,7 +2152,7 @@
       "age_rating": "M/6",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "teatrodasfiguras-masha-e-o-urso",
@@ -2402,7 +2179,7 @@
       "duration": "",
       "age_rating": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-lia-rodrigues",
@@ -2434,7 +2211,7 @@
       "age_rating": "M/12",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "saoluiz-da-boca-pra-fora",
@@ -2521,7 +2298,7 @@
         "produção": "André Camilo",
         "coprodução": "Camarote Produções e São Luiz Teatro Municipal"
       },
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "teatrodasfiguras-quinteto-de-morte",
@@ -2548,7 +2325,7 @@
       "duration": "",
       "age_rating": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "ccb-o-direito-do-mais-fraco-liberdade",
@@ -2588,7 +2365,7 @@
         "produção": "Inês Pinto",
         "coprodução": "A Oficina/Centro Cultural Vila Flor , RTP – Rádio e Televisão de Portugal , Teatro Diogo Bernardes e Teatro das Figuras"
       },
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "trindade-andr-de-freitas",
@@ -2624,7 +2401,7 @@
         "encenação": "Diogo Infante 19 Fev - 05 Abr 2026 BROKEBACK MOUNTAIN",
         "música": "Dan Gillespie Sells"
       },
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "ccb-exerc-cio-de-montagem",
@@ -2714,7 +2491,7 @@
         "luz": "Leocádia Silva",
         "produção": "Alaíde Costa Assistente de"
       },
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "saoluiz-a-cavalo",
@@ -2765,7 +2542,7 @@
         "direção_produção": "Maria João Garcia",
         "coprodução": "Fundação de Serralves/Serralves em Festa, Citemor, Festival End, Festival Paragem e São Luiz Teatro Municipal"
       },
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-festival-art-explora",
@@ -2847,7 +2624,7 @@
       "age_rating": "M/6",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-mater",
@@ -2879,7 +2656,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "saoluiz-deixar-o-karate",
@@ -2965,7 +2742,7 @@
         "produção": "Razões Pessoais Residência artística Casa de Gigante",
         "coprodução": "Teatro das Figuras e São Luiz Teatro Municipal"
       },
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "saoluiz-es-tr3s-irms",
@@ -3014,7 +2791,7 @@
         "produção": "Trypas-Corassão Associação Cultural",
         "coprodução": "Es Tr3s Irms é o projeto vencedor da 5ª edição da Bolsa Amélia Rey Colaço, uma iniciativa promovida pelo Teatro Nacional D. Maria II (Lisboa), A Oficina / Centro Cultural Vila Flor (Guimarães), O Espaço do Tempo (Montemor-o-Novo), e o Teatro Viriato (Viseu)."
       },
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-mala-voadora",
@@ -3046,7 +2823,7 @@
       "age_rating": "M/16",
       "accessibility": "Audiodescrição",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-um-silab-rio-por-reconstruir-iv",
@@ -3078,7 +2855,7 @@
       "age_rating": "",
       "accessibility": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "ccb-um-julgamento",
@@ -3119,43 +2896,7 @@
         "produção": "Henrique Mariano",
         "coprodução": "Centro Cultural de Belém (Lisboa-Portugal), Holland Festival (Amsterdão), Festival d’Avignon (França), Edinburgh International Festival (Escócia) e DeSingel (Bélgica) Apoio UCLA’s Center for the Art of Performance e Instituto Guimarães Rosa — IGR — Ministério das Relações Exteriores do Brasi"
       },
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
-    },
-    {
-      "id": "mariamatos-swimming-pool-party",
-      "title": "SWIMMING POOL PARTY",
-      "theater": "Teatro Maria Matos",
-      "category": "Teatro",
-      "dates_label": "9 julho –  9 agosto",
-      "date_start": "2026-07-09",
-      "date_end": "2026-08-09",
-      "sessions": [],
-      "schedule": "Domingos 18:00 | Quintas 21:00 | Sextas 21:00 | Sábados 21:00",
-      "synopsis": "O estranho caso do assassinato no Teatro Maria Matos.Pode um grupo de amigos e familiares, em estranha party de fim de temporada, ao som da bossa nova e conversas presunçosas, levar a um desfecho mortal e suscitar a perguntawhodunit?…",
-      "image": {
-        "url": "https://teatromariamatos.pt/wp-content/uploads/2026/03/1920x1080.jpg",
-        "credit": null,
-        "source": "https://teatromariamatos.pt/espetaculos/swimming-pool-party/",
-        "theater": "Teatro Maria Matos"
-      },
-      "source_url": "https://teatromariamatos.pt/espetaculos/swimming-pool-party/",
-      "ticket_url": "https://ticketline.sapo.pt/salas/sala/2791",
-      "price_info": "20€ - 22€",
-      "duration": "",
-      "age_rating": "M/12",
-      "technical_sheet": {
-        "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
-        "encenação": "Ricardo Neves-Neves",
-        "elenco": "Ana Brito e Cunha, Ana Cloe, Ana Marta Contente, Filipe Vargas, José Leite, Marta Andrino, Ruben Madureira, Sandra Faleiro e Santiago Galvão",
-        "cenografia": "Catarina Amaro",
-        "figurinos": "Rafaela Mapril",
-        "luz": "Cristina Piedade",
-        "som": "Gonçalo Carlos",
-        "coreografia": "Marco Mercier Caracterização e cabelos Carlos Feio Assistente de Caracterização Inês Cotrim Fotografias e vídeo promocional Pedro Macedo / Framed Films Fotografias de cena Estelle Valente Ilustrações Promocionais Tiago Albuquerque Design Gráfico José Cruz Assistência de",
-        "produção": "e Cena TdE Sílvia Moura",
-        "texto": "de Ricardo Neves-Neves, o enredo é muito mais dramático, as causas mais profundas, as personagens uns canalhas desprezíveis, e o final trará o espanto. Querem ser cúmplices deste crime? Avenida Frei Miguel Contreiras, 52, 1700-213, Lisboa Horário da Bilheteira Segunda – Sábado 17h30 às 21h30 Domingo"
-      },
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "ccb-quem-tem-medo-de-virginia-woolf-de-edward-albee",
@@ -3197,7 +2938,7 @@
         "interpretação": "João Reis, Margarida Carvalho, Daniel Silva, Joana Africano",
         "coprodução": "Centro Cultural de Belém, Casa das Artes de Vila Nova de Famalicão, Teatro Nacional São João"
       },
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "culturgest-jo-o-penalva",
@@ -3229,7 +2970,7 @@
       "age_rating": "",
       "accessibility": "Língua Gestual",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     },
     {
       "id": "saoluiz-escola-superior-de-teatro-e-cinema",
@@ -3283,7 +3024,7 @@
       "accessibility": "",
       "sala": "Sala Mário Viegas",
       "technical_sheet": {},
-      "scraped_at": "2026-03-20T01:08:55.603654+00:00"
+      "scraped_at": "2026-03-20T01:16:15.771943+00:00"
     }
   ]
 }
