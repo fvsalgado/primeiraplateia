@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-20T20:18:39.017601Z",
-  "total_raw": 96,
-  "total_accepted": 95,
+  "generated_at": "2026-03-20T20:31:32.464935Z",
+  "total_raw": 59,
+  "total_accepted": 58,
   "total_rejected": 1,
-  "total_warnings": 12,
+  "total_warnings": 0,
   "rejected": [
     {
       "id": "saoluiz-um-homem-e-o-seu-criado",
@@ -13,92 +13,7 @@
       ]
     }
   ],
-  "warnings": [
-    {
-      "id": "culturgest-casa-das-novidades",
-      "title": "Casa das Novidades",
-      "warnings": [
-        "evento já terminou (2025-12-06)"
-      ]
-    },
-    {
-      "id": "culturgest-ch-tisana-e-kombucha-humor-e-diferen-as-culturais",
-      "title": "Chá, Tisana e Kombucha: Humor e Diferenças Culturais",
-      "warnings": [
-        "evento já terminou (2026-03-17)"
-      ]
-    },
-    {
-      "id": "culturgest-coletivo-de-p-blico-residente-sess-es-abertas",
-      "title": "Coletivo de Público Residente: Sessões Abertas",
-      "warnings": [
-        "evento já terminou (2025-09-20)"
-      ]
-    },
-    {
-      "id": "culturgest-formiga-at-mica",
-      "title": "Formiga Atómica",
-      "warnings": [
-        "evento já terminou (2026-03-17)"
-      ]
-    },
-    {
-      "id": "culturgest-isto-n-o-um-cubo",
-      "title": "Isto Não é Um Cubo",
-      "warnings": [
-        "evento já terminou (2024-12-01)"
-      ]
-    },
-    {
-      "id": "culturgest-open-call-isto-n-o-um-cubo",
-      "title": "OPEN CALL ISTO NÃO É UM CUBO",
-      "warnings": [
-        "evento já terminou (2024-12-08)"
-      ]
-    },
-    {
-      "id": "culturgest-open-call",
-      "title": "OPEN CALL",
-      "warnings": [
-        "evento já terminou (2024-12-18)"
-      ]
-    },
-    {
-      "id": "culturgest-osso",
-      "title": "OSSO",
-      "warnings": [
-        "evento já terminou (2025-11-21)"
-      ]
-    },
-    {
-      "id": "culturgest-teatro-do-frio",
-      "title": "Teatro do Frio",
-      "warnings": [
-        "evento já terminou (2025-11-28)"
-      ]
-    },
-    {
-      "id": "culturgest-tr-s-tempos-com-capicua-e-lu-s-montenegro",
-      "title": "Três Tempos com Capicua e Luís Montenegro",
-      "warnings": [
-        "evento já terminou (2024-12-10)"
-      ]
-    },
-    {
-      "id": "culturgest-capicua-e-lu-s-montenegro",
-      "title": "Capicua e Luís Montenegro",
-      "warnings": [
-        "evento já terminou (2025-04-12)"
-      ]
-    },
-    {
-      "id": "culturgest-tr-s-tempos-com-xullaji-e-beatriz-pessoa",
-      "title": "Três Tempos com Xullaji e Beatriz Pessoa",
-      "warnings": [
-        "evento já terminou (2025-10-01)"
-      ]
-    }
-  ],
+  "warnings": [],
   "total_duplicates_removed": 0,
   "duplicates_removed": []
 }
