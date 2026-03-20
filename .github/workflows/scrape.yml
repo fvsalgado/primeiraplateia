@@ -90,7 +90,7 @@ jobs:
 
           echo "--- a copiar paginas HTML ---"
           cp index.html 404.html _site/
-          for dir in programacao calendario teatros espetaculo sobre privacidade aviso-legal acessibilidade; do
+          for dir in programacao calendario teatros espetaculo sobre privacidade aviso-legal acessibilidade perto-de-mim; do
             if [ -d "$dir" ]; then
               cp -r "$dir" _site/
               echo "  copiado: $dir/"
