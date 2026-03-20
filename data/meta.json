@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-03-20T21:38:05.459181+00:00",
-  "build_version": "20260320-2138",
-  "total_events": 130,
+  "updated_at": "2026-03-20T21:47:40.815788+00:00",
+  "build_version": "20260320-2147",
+  "total_events": 147,
   "total_theaters": 10,
   "by_theater": {
     "Theatro Circo": 63,
     "Teatro Variedades": 6,
     "Teatro da Trindade INATEL": 5,
     "Teatro Maria Matos": 6,
-    "São Luiz Teatro Municipal": 13,
+    "São Luiz Teatro Municipal": 30,
     "Teatro das Figuras": 21,
     "CCB — Centro Cultural de Belém": 6,
     "Capitólio": 6,
     "Teatro do Bairro": 1,
     "Culturgest": 3
   },
-  "completeness_avg": 0.615,
+  "completeness_avg": 0.623,
   "anomalies": []
 }
