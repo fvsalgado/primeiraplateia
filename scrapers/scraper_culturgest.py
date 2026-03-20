@@ -2,27 +2,55 @@
 Scraper: Culturgest
 Site: https://www.culturgest.pt
 
-Estratégia:
-  1. Chamar a API JSON interna (/pt/programacao/schedule/events/) que alimenta
-     a listagem do site — devolve exactamente os eventos activos, com tipologia,
-     datas, horário e URL canónico. Isto resolve o problema de contagem (37 vs 28)
-     e o problema de categorias (vinhamos a ler atributos JS nunca populados).
-  2. Para cada evento, visitar a página individual para recolher: og:image,
-     sinopse, bilhetes, preço, duração, idade, ficha técnica.
-  3. Todos os eventos são importados — sem filtro de tipologia neste scraper.
-     A filtragem por categoria é da responsabilidade do harmonizer/validator.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ESTRATÉGIA DE DESCOBERTA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+A listagem /pt/programacao/por-evento/ é carregada por JavaScript
+(a div#events-section está sempre vazia no HTML). A API interna
+/pt/programacao/schedule/events/ requer sessão Django e não é
+acessível via requests simples.
 
-Notas sobre a API:
-  - A URL da API está embebida no HTML como:
-      window.event_list_url="/pt/programacao/schedule/events/"
-  - Pedimos sem parâmetro ?typology= para obter toda a programação.
-  - A API pode devolver paginação; tratamos via ?page=N.
-  - Se a API falhar (mudança de endpoint, auth, etc.), há fallback para o
-    endpoint /pt/programacao/filtrar/ que devolve HTML com os cards.
+Estratégia: crawl progressivo a partir de seeds, usando a secção
+"Próximos Eventos" presente no HTML estático de cada página de evento.
+Cada página lista 2–3 eventos futuros como links, o que permite
+encadear toda a programação activa.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CACHE DE URLs  (data/culturgest_urls.json)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Para acelerar execuções diárias, o scraper mantém um ficheiro de cache
+com os URLs já conhecidos e a sua date_end:
+
+    {
+      "https://.../polo-norte/": {"date_end": "2026-07-04"},
+      "https://.../burn-burn-burn/": {"date_end": "2026-04-25"},
+      ...
+    }
+
+Lógica de cache no arranque:
+  1. Carregar cache existente (se existir)
+  2. URLs com date_end >= hoje → incluir como seeds sem re-crawl de descoberta
+     (mas a página individual É sempre visitada para dados actualizados)
+  3. URLs com date_end < hoje → ignorar (evento terminado)
+  4. Novos URLs descobertos durante o crawl → guardar na cache
+
+O ficheiro é escrito em scrapers/data/culturgest_urls.json.
+O build.py não precisa de o conhecer — é interno ao scraper.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FILTRAGEM
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Nenhuma. Todos os eventos encontrados são devolvidos.
+A filtragem por categoria, data ou outra dimensão é da responsabilidade
+do harmonizer/validator a jusante.
 """
+import json
+import os
 import re
 import time
 import logging
+from datetime import date, datetime
+from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
@@ -36,8 +64,10 @@ from scrapers.schema import normalize_category
 logger = logging.getLogger(__name__)
 
 BASE        = "https://www.culturgest.pt"
-API_URL     = f"{BASE}/pt/programacao/schedule/events/"
 LISTING_URL = f"{BASE}/pt/programacao/por-evento/"
+
+# Cache de URLs conhecidos — relativo à raiz do projecto
+_CACHE_PATH = Path(__file__).parent / "data" / "culturgest_urls.json"
 
 THEATER = {
     "id":          "culturgest",
@@ -50,7 +80,7 @@ THEATER = {
     "programacao": "https://www.culturgest.pt/pt/programacao/por-evento/",
     "lat":         38.7316,
     "lng":         -9.1387,
-    "salas":       ["Grande Auditório", "Pequeno Auditório"],
+    "salas":       ["Grande Auditório", "Pequeno Auditório", "Auditório Emílio Rui Vilar"],
     "aliases":     ["culturgest", "fundação caixa geral de depósitos", "cgd culturgest"],
     "description": (
         "A Culturgest — Fundação Caixa Geral de Depósitos dedica-se à criação "
@@ -64,17 +94,18 @@ THEATER = {
 THEATER_NAME = THEATER["name"]
 SOURCE_SLUG  = THEATER["id"]
 
-# Mapa tipologia_id → string raw para normalize_category()
-# 1=Teatro  2=Dança  3=Performance  4=Artes Visuais
-# 5=Cinema  6=Conferências e Debates  8=Música
-_TYPOLOGY_TO_CATEGORY = {
-    "1": "Teatro",
-    "2": "Dança",
-    "3": "Performance",
-    "4": "Artes Visuais",
-    "5": "Cinema",
-    "6": "Conferências e Debates",
-    "8": "Música",
+# Seeds hardcoded de último recurso — só usadas se a cache estiver vazia.
+# Actualizar quando o crawl ficar sem entrada (basta 1 evento activo).
+_SEEDS_FALLBACK = [
+    "https://www.culturgest.pt/pt/programacao/catarina-rolo-salgueiro-e-isabel-costa-os-possessos-burn-burn-burn-2026/",
+    "https://www.culturgest.pt/pt/programacao/alex-cassal-ma-criacao-hotel-paradoxo/",
+    "https://www.culturgest.pt/pt/programacao/mala-voadora-polo-norte/",
+]
+
+_SKIP_SLUGS = {
+    "por-evento", "agenda-pdf", "archive", "schedule", "por-tipo",
+    "participacao", "convite", "open-call", "temporada-2025-26",
+    "temporada-2024-25", "concluido", "filtrar",
 }
 
 _PT_MONTHS = {
@@ -85,19 +116,32 @@ _PT_MONTHS = {
     "jul": 7, "ago": 8, "set": 9, "out": 10, "nov": 11, "dez": 12,
 }
 
-_MONTHS_ABBR = [
-    "", "Jan", "Fev", "Mar", "Abr", "Mai", "Jun",
-    "Jul", "Ago", "Set", "Out", "Nov", "Dez",
-]
+_MONTHS_ABBR = ["", "Jan", "Fev", "Mar", "Abr", "Mai", "Jun",
+                 "Jul", "Ago", "Set", "Out", "Nov", "Dez"]
+
+# Mapa nome-de-tipologia → string canónica (lida dos links ?typology= na página)
+_TYPOLOGY_MAP = {
+    "teatro":                 "Teatro",
+    "dança":                  "Dança",
+    "performance":            "Performance",
+    "música":                 "Música",
+    "artes visuais":          "Artes Visuais",
+    "cinema":                 "Cinema",
+    "conferências e debates": "Conferências e Debates",
+    "conferências":           "Conferências e Debates",
+    "escolas":                "Infanto-Juvenil",
+}
 
 # Campos reconhecidos na ficha técnica
-_TECH_FIELDS = [
+_TECH_FIELDS = {
     "texto", "encenação", "dramaturgia", "direção", "direção artística",
     "tradução", "cenografia", "figurinos", "luz", "iluminação", "som",
     "música", "interpretação", "elenco", "produção", "coprodução",
     "coreografia", "composição", "banda sonora", "desenho de luz",
-    "desenho de som", "espaço", "adereços",
-]
+    "desenho de som", "espaço", "adereços", "direção técnica",
+    "direção de produção", "com", "texto e encenação", "criação",
+    "assistência de encenação", "assistência de direção",
+}
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -109,227 +153,125 @@ def scrape() -> list[dict]:
         log(f"robots.txt: scraping bloqueado para {BASE}")
         return []
 
-    raw_events = _fetch_api_events()
-    log(f"[{THEATER_NAME}] {len(raw_events)} eventos recebidos da API")
+    today = date.today()
 
+    # 1. Carregar cache de URLs
+    cache = _load_cache()
+    log(f"[{THEATER_NAME}] Cache: {len(cache)} URLs conhecidos")
+
+    # 2. Seeds = URLs da cache ainda activos + seeds da listagem/hardcoded
+    seeds: set[str] = set()
+
+    # URLs da cache com date_end >= hoje (ou sem date_end conhecido)
+    for url, meta in cache.items():
+        de = meta.get("date_end", "")
+        if not de or _parse_iso(de) >= today:
+            seeds.add(url)
+
+    # Tentar extrair da listagem (normalmente vazio por JS, mas tentamos)
+    seeds.update(_seeds_from_listing())
+
+    # Último recurso: seeds hardcoded
+    if not seeds:
+        log(f"[{THEATER_NAME}] Cache vazia + listagem vazia — a usar seeds hardcoded")
+        seeds.update(_SEEDS_FALLBACK)
+
+    log(f"[{THEATER_NAME}] {len(seeds)} seeds para este crawl")
+
+    # 3. Crawl progressivo
     events:   list[dict] = []
     seen_ids: set[str]   = set()
+    visited:  set[str]   = set()
+    queue:    list[str]  = [_norm(u) for u in seeds]
 
-    for item in raw_events:
-        try:
-            ev = _build_event(item)
-            if ev:
-                eid = ev["id"]
-                if eid not in seen_ids:
-                    seen_ids.add(eid)
-                    events.append(ev)
-        except Exception as e:
-            log(f"[{THEATER_NAME}] Erro a processar evento {item.get('url','?')}: {e}")
+    while queue:
+        url = queue.pop(0)
+        if url in visited:
+            continue
+        visited.add(url)
+
+        ev = _scrape_event_page(url)
+        if ev:
+            # Actualizar cache com date_end do evento
+            cache[url] = {"date_end": ev.get("date_end", "")}
+
+            eid = ev["id"]
+            if eid not in seen_ids:
+                seen_ids.add(eid)
+                # Remover campo interno antes de guardar
+                next_urls = ev.pop("_next_urls", [])
+                events.append(ev)
+            else:
+                next_urls = ev.pop("_next_urls", [])
+
+            # Adicionar novos URLs ao crawl e à cache
+            for nxt in next_urls:
+                nxt = _norm(nxt)
+                if nxt not in visited:
+                    queue.append(nxt)
+                if nxt not in cache:
+                    cache[nxt] = {"date_end": ""}
+
         time.sleep(0.4)
 
-    log(f"[{THEATER_NAME}] {len(events)} eventos válidos após filtro de tipologia")
+    # 4. Guardar cache actualizada
+    _save_cache(cache)
+
+    log(f"[{THEATER_NAME}] {len(events)} eventos (visitadas {len(visited)} páginas, cache {len(cache)} URLs)")
     return events
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# API interna
+# Cache
 # ─────────────────────────────────────────────────────────────────────────────
 
-def _fetch_api_events() -> list[dict]:
-    """
-    Chama a API JSON interna do Culturgest com paginação.
-    A API está em /pt/programacao/schedule/events/ e é a mesma que o
-    frontend JS usa para popular a listagem.
-
-    Se a API não devolver JSON válido, faz fallback para HTML.
-    """
-    results = []
-    page    = 1
-
-    while True:
-        try:
-            params = {"page": page}
-            r = requests.get(
-                API_URL,
-                params=params,
-                headers={**HEADERS, "Accept": "application/json, */*"},
-                timeout=15,
-            )
-            r.raise_for_status()
-
-            # A API pode devolver HTML se não reconhecer o pedido JSON
-            ct = r.headers.get("content-type", "")
-            try:
-                data = r.json()
-            except Exception:
-                if page == 1:
-                    log(f"[{THEATER_NAME}] API não devolveu JSON — fallback para HTML")
-                    return _fallback_html_events()
-                break
-
-            # Normalizar estrutura da resposta
-            if isinstance(data, list):
-                batch = data
-            elif isinstance(data, dict):
-                batch = (
-                    data.get("results")
-                    or data.get("events")
-                    or data.get("items")
-                    or data.get("data")
-                    or []
-                )
-            else:
-                break
-
-            if not batch:
-                break
-
-            results.extend(batch)
-
-            # Paginação
-            has_next = (
-                isinstance(data, dict) and bool(data.get("next"))
-            ) or (
-                isinstance(data, list) and len(batch) >= 20  # heurística
-            )
-            if has_next:
-                page += 1
-            else:
-                break
-
-            time.sleep(0.3)
-
-        except Exception as e:
-            log(f"[{THEATER_NAME}] Erro na API (página {page}): {e}")
-            if not results:
-                return _fallback_html_events()
-            break
-
-    if not results:
-        log(f"[{THEATER_NAME}] API devolveu lista vazia — fallback para HTML")
-        return _fallback_html_events()
-
-    return results
+def _load_cache() -> dict:
+    """Carrega {url: {date_end: "YYYY-MM-DD"}} da cache persistente."""
+    try:
+        if _CACHE_PATH.exists():
+            with open(_CACHE_PATH, encoding="utf-8") as f:
+                data = json.load(f)
+            # Normalizar — garantir que todas as chaves têm "/"  no fim
+            return {_norm(k): v for k, v in data.items() if isinstance(v, dict)}
+    except Exception as e:
+        log(f"[{THEATER_NAME}] Erro a carregar cache: {e}")
+    return {}
 
 
-def _fallback_html_events() -> list[dict]:
-    """
-    Fallback: usa /pt/programacao/filtrar/ (fragmento HTML com cards activos)
-    para obter URLs. Sem crawl progressivo cego — apenas a listagem directa.
-    """
-    log(f"[{THEATER_NAME}] A usar fallback HTML para descoberta de eventos")
-    urls = set()
-
-    for endpoint in (
-        f"{BASE}/pt/programacao/filtrar/",
-        f"{BASE}/pt/programacao/por-evento/",
-    ):
-        try:
-            r = requests.get(endpoint, headers=HEADERS, timeout=15)
-            r.raise_for_status()
-            soup = BeautifulSoup(r.text, "lxml")
-            for a in soup.find_all("a", href=True):
-                full = a["href"] if a["href"].startswith("http") else urljoin(BASE, a["href"])
-                if _is_event_url(full):
-                    urls.add(full.rstrip("/") + "/")
-            if urls:
-                break
-        except Exception as e:
-            log(f"[{THEATER_NAME}] Fallback {endpoint} falhou: {e}")
-
-    log(f"[{THEATER_NAME}] Fallback encontrou {len(urls)} URLs")
-    return [{"url": u, "_from_fallback": True} for u in urls]
+def _save_cache(cache: dict) -> None:
+    """Persiste a cache. Cria o directório se necessário."""
+    try:
+        _CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
+        with open(_CACHE_PATH, "w", encoding="utf-8") as f:
+            json.dump(cache, f, ensure_ascii=False, indent=2, sort_keys=True)
+    except Exception as e:
+        log(f"[{THEATER_NAME}] Erro a guardar cache: {e}")
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# Construção do evento
+# Seeds da listagem
 # ─────────────────────────────────────────────────────────────────────────────
 
-def _build_event(item: dict) -> dict | None:
-    """Constrói o dict de evento a partir de um item da API + visita à página."""
-
-    # URL canónico
-    source_url = (
-        item.get("url")
-        or item.get("link")
-        or item.get("absolute_url")
-        or item.get("canonical_url")
-        or ""
-    )
-    if source_url and not source_url.startswith("http"):
-        source_url = urljoin(BASE, source_url)
-    if not source_url:
-        return None
-
-    # Tipologia — apenas para mapear para categoria, sem filtro
-    typology_id = str(item.get("typology_id") or item.get("typology") or "")
-
-    # Dados estruturados da API
-    title_api      = _clean_text(item.get("title") or item.get("name") or "")
-    subtitle_api   = _clean_text(item.get("subtitle") or item.get("author") or "")
-    date_start_api = _normalise_date(item.get("date_start") or item.get("start_date") or "")
-    date_end_api   = _normalise_date(item.get("date_end")   or item.get("end_date")   or "")
-    schedule_api   = _clean_text(item.get("schedule") or item.get("time") or "")
-
-    # Visita à página individual (sempre obrigatória — para imagem e detalhes)
-    page_data = _scrape_event_page(source_url)
-    if not page_data:
-        return None
-
-    # Merge: API tem prioridade
-    title      = title_api      or page_data.get("title", "")
-    subtitle   = subtitle_api   or page_data.get("subtitle", "")
-    date_start = date_start_api or page_data.get("date_start", "")
-    date_end   = date_end_api   or page_data.get("date_end",   "")
-    schedule   = schedule_api   or page_data.get("schedule",   "")
-
-    if not title:
-        log(f"[{THEATER_NAME}] Sem título: {source_url}")
-        return None
-    if not date_start:
-        log(f"[{THEATER_NAME}] Sem data: {title!r} — {source_url}")
-        return None
-
-    # Categoria
-    if typology_id in _TYPOLOGY_TO_CATEGORY:
-        raw_category = _TYPOLOGY_TO_CATEGORY[typology_id]
-    else:
-        raw_category = page_data.get("category_raw") or "Teatro"
-    category = normalize_category(raw_category)
-
-    # Dates label
-    dates_label = page_data.get("dates_label") or _make_dates_label(date_start, date_end)
-
-    return {
-        "id":              make_id(SOURCE_SLUG, title),
-        "title":           title,
-        "subtitle":        subtitle,
-        "theater":         THEATER_NAME,
-        "category":        category,
-        "dates_label":     dates_label,
-        "date_start":      date_start,
-        "date_end":        date_end,
-        "sessions":        build_sessions(date_start, date_end, schedule),
-        "schedule":        schedule,
-        "synopsis":        page_data.get("synopsis", ""),
-        "image":           page_data.get("image"),
-        "source_url":      source_url,
-        "ticket_url":      page_data.get("ticket_url", ""),
-        "price_info":      page_data.get("price_info", ""),
-        "price_min":       page_data.get("price_min"),
-        "price_max":       page_data.get("price_max"),
-        "duration":        page_data.get("duration", ""),
-        "duration_min":    page_data.get("duration_min"),
-        "age_rating":      page_data.get("age_rating", ""),
-        "age_min":         page_data.get("age_min"),
-        "accessibility":   page_data.get("accessibility", []),
-        "technical_sheet": page_data.get("technical_sheet", {}),
-        "sala":            page_data.get("sala", ""),
-    }
+def _seeds_from_listing() -> set[str]:
+    """Tenta extrair URLs da página de listagem (costuma estar vazia por JS)."""
+    seeds = set()
+    try:
+        r = requests.get(LISTING_URL, headers=HEADERS, timeout=15)
+        r.raise_for_status()
+        soup = BeautifulSoup(r.text, "lxml")
+        for a in soup.find_all("a", href=True):
+            full = _abs(a["href"])
+            if _is_event_url(full):
+                seeds.add(_norm(full))
+        if seeds:
+            log(f"[{THEATER_NAME}] {len(seeds)} seeds extraídas da listagem")
+    except Exception as e:
+        log(f"[{THEATER_NAME}] Listagem inacessível: {e}")
+    return seeds
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# Scraping da página individual
+# Scraping de uma página de evento
 # ─────────────────────────────────────────────────────────────────────────────
 
 def _scrape_event_page(url: str) -> dict | None:
@@ -344,7 +286,7 @@ def _scrape_event_page(url: str) -> dict | None:
     full_text = soup.get_text(" ", strip=True)
     main_el   = soup.find("main") or soup.find("article") or soup
 
-    # ── Título ───────────────────────────────────────────────────────────────
+    # ── Título ────────────────────────────────────────────────────────────────
     title = ""
     og_title = soup.find("meta", property="og:title")
     if og_title and og_title.get("content"):
@@ -355,30 +297,55 @@ def _scrape_event_page(url: str) -> dict | None:
         h1 = soup.find("h1")
         if h1:
             title = h1.get_text(strip=True)
+    if not title or len(title) < 3:
+        return None
 
     # ── Subtítulo ─────────────────────────────────────────────────────────────
+    # O Culturgest usa dois h1 por evento (mobile + desktop) com o título,
+    # e um h2 imediato para o subtítulo (ex: título="mala voadora", sub="Polo Norte").
+    # Há também casos onde o padrão é invertido: h1=companhia, h2=título.
     subtitle = ""
-    for cls in ("subtitle", "event-subtitle", "author", "company"):
-        el = soup.find(class_=re.compile(cls, re.IGNORECASE))
-        if el:
-            candidate = el.get_text(strip=True)
-            if candidate and candidate != title:
-                subtitle = candidate
-                break
+    all_h1_texts = []
+    seen_h1 = set()
+    for h in soup.find_all("h1"):
+        t = h.get_text(strip=True)
+        if t and t not in seen_h1:
+            seen_h1.add(t)
+            all_h1_texts.append(t)
+    # Se há dois h1 distintos, o segundo é o subtítulo
+    if len(all_h1_texts) >= 2 and all_h1_texts[1] != title:
+        subtitle = all_h1_texts[1]
+    # Fallback: h2 curto que não seja secção
     if not subtitle:
-        all_h1 = soup.find_all("h1")
-        if len(all_h1) > 1:
-            candidate = all_h1[1].get_text(strip=True)
-            if candidate and candidate != title:
+        h2 = main_el.find("h2")
+        if h2:
+            candidate = h2.get_text(strip=True)
+            if candidate and candidate != title and len(candidate) < 120:
                 subtitle = candidate
-        if not subtitle:
-            h2 = soup.find("h2")
-            if h2:
-                candidate = h2.get_text(strip=True)
-                if candidate and len(candidate) < 100 and candidate != title:
-                    subtitle = candidate
 
-    # ── Imagem (sempre via og:image) ─────────────────────────────────────────
+    # ── Categoria ─────────────────────────────────────────────────────────────
+    # Link de tipologia visível no header da página do evento:
+    # ex: <a href="/pt/programacao/por-evento/?typology=1">Teatro</a>
+    # precedido de "+ " nas versões mais antigas. Este link é HTML estático.
+    raw_category = ""
+    for a in soup.select("a[href*='typology=']"):
+        txt = a.get_text(strip=True).lstrip("+ ").strip()
+        if txt:
+            raw_category = txt
+            break
+    category = normalize_category(
+        _TYPOLOGY_MAP.get(raw_category.lower(), raw_category) or "Teatro"
+    )
+
+    # ── Datas ─────────────────────────────────────────────────────────────────
+    dates_label, date_start, date_end = _parse_dates(soup, full_text)
+
+    if not date_start:
+        log(f"[{THEATER_NAME}] Sem data: {title!r} — {url}")
+        return None
+
+    # ── Imagem ────────────────────────────────────────────────────────────────
+    # Sempre via og:image — as imagens inline são thumbnails de baixa resolução.
     image = None
     og_img = soup.find("meta", property="og:image")
     if og_img and og_img.get("content", "").startswith("http"):
@@ -386,14 +353,13 @@ def _scrape_event_page(url: str) -> dict | None:
     if not image:
         img_el = main_el.find("img", src=re.compile(r"/media/filer_public"))
         if img_el:
-            image = build_image_object(urljoin(BASE, img_el["src"]), soup, THEATER_NAME, url)
+            image = build_image_object(_abs(img_el["src"]), soup, THEATER_NAME, url)
 
     # ── Sinopse ───────────────────────────────────────────────────────────────
     synopsis = ""
     og_desc = soup.find("meta", property="og:description")
     if og_desc:
         desc = og_desc.get("content", "").strip()
-        # Rejeitar descrições genéricas
         if desc and len(desc) > 40 and desc not in ("Agenda | Culturgest", "Culturgest"):
             synopsis = desc
     if not synopsis:
@@ -406,31 +372,22 @@ def _scrape_event_page(url: str) -> dict | None:
             synopsis = " ".join(paras)[:2000]
     synopsis = truncate_synopsis(synopsis)
 
-    # ── Datas ─────────────────────────────────────────────────────────────────
-    dates_label, date_start, date_end = _parse_dates_from_page(soup, full_text)
-
-    # ── Categoria raw (fallback quando tipologia não vem da API) ──────────────
-    category_raw = ""
-    typ_el = soup.select_one('li.type[data-property="typology"]')
-    if typ_el:
-        category_raw = typ_el.get_text(strip=True)
-    if not category_raw:
-        # Tentar links de filtro na nav da página
-        for a in soup.select("ul li a[href*='typology']"):
-            txt = a.get_text(strip=True)
-            if txt:
-                category_raw = txt
-                break
-
     # ── Horário ───────────────────────────────────────────────────────────────
+    # O Culturgest lista sessões individuais no formato "SÁB 19:00" ou "SEX 21:00".
+    # Extrair a hora mais frequente como horário representativo.
     schedule = ""
-    m_sched = re.search(r"\b(\d{1,2}[h:]\d{2})\b", full_text)
-    if m_sched:
-        schedule = m_sched.group(1)
+    times_found = re.findall(r"\b(\d{1,2}[h:]\d{2})\b", full_text)
+    if times_found:
+        # A hora mais frequente é o horário principal
+        from collections import Counter
+        schedule = Counter(times_found).most_common(1)[0][0]
+
+    # ── Sessões individuais ───────────────────────────────────────────────────
+    sessions = build_sessions(date_start, date_end, schedule)
 
     # ── Sala ──────────────────────────────────────────────────────────────────
     sala = ""
-    for sala_name in ("Grande Auditório", "Pequeno Auditório"):
+    for sala_name in ("Auditório Emílio Rui Vilar", "Grande Auditório", "Pequeno Auditório"):
         if sala_name.lower() in full_text.lower():
             sala = sala_name
             break
@@ -442,10 +399,9 @@ def _scrape_event_page(url: str) -> dict | None:
         text_a = a.get_text(strip=True).lower()
         if (
             any(x in href for x in ("ticketline", "bol.pt", "bilhete", "comprar"))
-            or any(x in text_a for x in ("comprar bilhete", "bilheteira", "reservar"))
+            or any(x in text_a for x in ("comprar bilhete", "comprar bilhetes", "bilheteira"))
         ):
-            full_href = a["href"] if a["href"].startswith("http") else urljoin(BASE, a["href"])
-            ticket_url = full_href
+            ticket_url = a["href"] if a["href"].startswith("http") else _abs(a["href"])
             break
 
     # ── Preço ─────────────────────────────────────────────────────────────────
@@ -473,26 +429,22 @@ def _scrape_event_page(url: str) -> dict | None:
             )
 
     # ── Duração ───────────────────────────────────────────────────────────────
+    # Padrão no Culturgest: "Duração 1h30 apróx." ou "90 minutos" ou "1h30"
     duration     = ""
     duration_min = None
-    # Tenta "Duração: Xh Ymin", "Xh30min", "90 minutos", "1h30"
-    patterns_dur = [
-        r"[Dd]ura[çc][aã]o\s*[:\-]?\s*(\d+\s*h(?:oras?)?\s*\d*\s*(?:min(?:utos?)?)?)",
+    for pat in (
+        r"[Dd]ura[çc][aã]o\s*[:\-]?\s*(\d+\s*h\d*\s*(?:min(?:utos?)?)?(?:\s*ap[ró]{2}x\.?)?)",
         r"(\d+)\s*h\s*(\d+)\s*min(?:utos?)?",
         r"(\d+)\s*min(?:utos?)?(?!\s*\d)",
         r"(\d+)\s*h(?:oras?)?(?!\d)",
-    ]
-    for pat in patterns_dur:
+    ):
         m_dur = re.search(pat, full_text, re.IGNORECASE)
         if m_dur:
             duration = m_dur.group(0).strip()
-            # Calcular minutos totais
-            hm = re.search(r"(\d+)\s*h(?:oras?)?(?:\s*(\d+)\s*min)?", duration, re.IGNORECASE)
-            om = re.search(r"^(\d+)\s*min", duration, re.IGNORECASE)
+            hm = re.search(r"(\d+)\s*h(?:oras?)?(?:\s*(\d+))?", duration, re.IGNORECASE)
+            om = re.search(r"(\d+)\s*min", duration, re.IGNORECASE)
             if hm:
-                h = int(hm.group(1))
-                mn = int(hm.group(2)) if hm.group(2) else 0
-                duration_min = h * 60 + mn
+                duration_min = int(hm.group(1)) * 60 + (int(hm.group(2)) if hm.group(2) else 0)
             elif om:
                 duration_min = int(om.group(1))
             break
@@ -511,29 +463,37 @@ def _scrape_event_page(url: str) -> dict | None:
     # ── Acessibilidade ────────────────────────────────────────────────────────
     accessibility = []
     for pat, label in (
-        (r"audiodescri[çc][aã]o",          "Audiodescrição"),
-        (r"LGP|l[íi]ngua\s+gestual",       "LGP"),
-        (r"legendas\s+em\s+ingl[êe]s",     "Legendas EN"),
-        (r"legendas\s+em\s+portugu[êe]s",  "Legendas PT"),
-        (r"surtitula[çc][aã]o",            "Surtitulação"),
-        (r"acesso\s+cadeira\s+de\s+rodas", "Acesso cadeira de rodas"),
+        (r"audiodescri[çc][aã]o",           "Audiodescrição"),
+        (r"\bLGP\b|l[íi]ngua\s+gestual",    "LGP"),
+        (r"legendas\s+em\s+ingl[êe]s",      "Legendas EN"),
+        (r"legendas\s+em\s+portugu[êe]s",   "Legendas PT"),
+        (r"surtitula[çc][aã]o",             "Surtitulação"),
+        (r"acesso\s+cadeira\s+de\s+rodas",  "Acesso cadeira de rodas"),
+        (r"reconhecimento\s+de\s+palco",    "Reconhecimento de palco"),
     ):
         if re.search(pat, full_text, re.IGNORECASE):
             accessibility.append(label)
 
     # ── Ficha técnica ─────────────────────────────────────────────────────────
-    technical_sheet = _extract_technical_sheet(main_el, full_text)
+    technical_sheet = _extract_technical_sheet(soup, main_el)
+
+    # ── Links "Próximos Eventos" (para o crawl) ───────────────────────────────
+    next_urls = _extract_next_event_urls(soup)
 
     return {
+        "id":              make_id(SOURCE_SLUG, title),
         "title":           title,
         "subtitle":        subtitle,
-        "image":           image,
-        "synopsis":        synopsis,
+        "theater":         THEATER_NAME,
+        "category":        category,
         "dates_label":     dates_label,
         "date_start":      date_start,
         "date_end":        date_end,
+        "sessions":        sessions,
         "schedule":        schedule,
-        "sala":            sala,
+        "synopsis":        synopsis,
+        "image":           image,
+        "source_url":      url,
         "ticket_url":      ticket_url,
         "price_info":      price_info,
         "price_min":       price_min,
@@ -544,7 +504,8 @@ def _scrape_event_page(url: str) -> dict | None:
         "age_min":         age_min,
         "accessibility":   accessibility,
         "technical_sheet": technical_sheet,
-        "category_raw":    category_raw,
+        "sala":            sala,
+        "_next_urls":      next_urls,   # campo interno — removido em scrape()
     }
 
 
@@ -552,111 +513,161 @@ def _scrape_event_page(url: str) -> dict | None:
 # Ficha técnica
 # ─────────────────────────────────────────────────────────────────────────────
 
-def _extract_technical_sheet(main_el, full_text: str) -> dict:
+def _extract_technical_sheet(soup, main_el) -> dict:
     """
-    Extrai ficha técnica como dict {papel: valor}.
-    Estratégia em 3 níveis: <dl>, linhas "Campo: Valor" no texto, <li>/<p>.
+    Extrai a ficha técnica como dict {papel: valor}.
+
+    O Culturgest usa consistentemente o padrão:
+        <heading>Direção</heading>
+        <p>Jorge Andrade</p>
+    onde heading pode ser h4, h5, strong, ou b.
+
+    Fallback para <dl> estruturado se existir.
     """
     sheet = {}
 
-    # 1. <dl> estruturado
+    # 1. <dl> estruturado (mais fiável quando existe)
     for dl in main_el.find_all("dl"):
         for dt, dd in zip(dl.find_all("dt"), dl.find_all("dd")):
             key = dt.get_text(strip=True).rstrip(":").lower().strip()
             val = dd.get_text(" ", strip=True)
-            if key and val:
+            if key and val and key in _TECH_FIELDS:
                 sheet[key] = val
-
     if sheet:
         return sheet
 
-    # 2. Regex em texto livre: "Campo: Valor" (linha por linha)
-    field_re = re.compile(
-        r"^(" + "|".join(re.escape(f) for f in _TECH_FIELDS) + r")\s*[:–]\s*(.+)$",
-        re.IGNORECASE | re.MULTILINE,
-    )
-    for m in field_re.finditer(full_text):
-        key = m.group(1).strip().lower()
-        val = m.group(2).strip()
-        if key not in sheet:
+    # 2. Padrão Culturgest: heading seguido de parágrafo/span irmão
+    # Percorrer todos os elementos que possam ser rótulos de ficha técnica
+    for el in main_el.find_all(["h4", "h5", "strong", "b", "p", "span", "div"]):
+        raw = el.get_text(strip=True).rstrip(":")
+        key = raw.lower()
+        if key not in _TECH_FIELDS:
+            continue
+        # Procurar o valor no próximo elemento irmão ou filho adjacente
+        val_el = el.find_next_sibling()
+        if not val_el:
+            # Pode estar dentro do mesmo parágrafo com separador ":"
+            parent_text = el.find_parent()
+            if parent_text:
+                full = parent_text.get_text(" ", strip=True)
+                m = re.search(re.escape(raw) + r"\s*[:]\s*(.+)", full, re.IGNORECASE)
+                if m:
+                    val = m.group(1).strip()
+                    if val and key not in sheet:
+                        sheet[key] = val
+            continue
+        val = val_el.get_text(" ", strip=True)
+        # Rejeitar se o valor for outro rótulo da ficha
+        if val and val.lower().rstrip(":") not in _TECH_FIELDS and key not in sheet:
             sheet[key] = val
 
     if sheet:
         return sheet
 
-    # 3. Elementos inline <li>/<p> com "Palavra: texto"
-    for el in main_el.find_all(["li", "p", "span"]):
-        txt = el.get_text(" ", strip=True)
-        m   = re.match(r"^([A-Za-zÀ-ÿ\s]{2,30})\s*[:–]\s*(.{2,200})$", txt)
-        if m:
-            key_raw = m.group(1).strip().lower()
-            val     = m.group(2).strip()
-            if key_raw in _TECH_FIELDS and key_raw not in sheet:
-                sheet[key_raw] = val
+    # 3. Regex de último recurso — "Rótulo\n\nValor" no texto corrido
+    full_text = main_el.get_text("\n", strip=True)
+    field_re = re.compile(
+        r"^(" + "|".join(re.escape(f) for f in sorted(_TECH_FIELDS, key=len, reverse=True)) + r")\s*\n+(.+)$",
+        re.IGNORECASE | re.MULTILINE,
+    )
+    for m in field_re.finditer(full_text):
+        key = m.group(1).strip().lower()
+        val = m.group(2).strip()
+        if val and key not in sheet:
+            sheet[key] = val
 
     return sheet
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Links "Próximos Eventos"
+# ─────────────────────────────────────────────────────────────────────────────
+
+def _extract_next_event_urls(soup) -> list[str]:
+    """
+    Extrai os links da secção "Próximos Eventos" que aparece no rodapé de
+    cada página de evento. É o mecanismo principal de descoberta do crawl.
+    """
+    next_urls = []
+    for el in soup.find_all(string=re.compile(r"pr[óo]ximos\s+eventos", re.IGNORECASE)):
+        container = el.find_parent()
+        if not container:
+            continue
+        # Subir até encontrar um container com links de eventos
+        for _ in range(5):
+            links = [
+                _norm(_abs(a["href"]))
+                for a in container.find_all("a", href=True)
+                if _is_event_url(_abs(a["href"]))
+            ]
+            if links:
+                next_urls.extend(links)
+                break
+            container = container.find_parent()
+            if not container:
+                break
+    return list(dict.fromkeys(next_urls))  # deduplicar mantendo ordem
 
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Parse de datas
 # ─────────────────────────────────────────────────────────────────────────────
 
-def _parse_dates_from_page(soup, text: str) -> tuple[str, str, str]:
-    # 1. Elementos <time datetime="YYYY-MM-DD">
-    dates_iso = []
-    for t in soup.find_all("time", attrs={"datetime": True}):
-        m = re.match(r"(\d{4}-\d{2}-\d{2})", t["datetime"])
-        if m:
-            dates_iso.append(m.group(1))
+def _parse_dates(soup, text: str) -> tuple[str, str, str]:
+    # 1. Elementos <time datetime="YYYY-MM-DD"> (mais fiáveis)
+    dates_iso = sorted({
+        m.group(1)
+        for t in soup.find_all("time", attrs={"datetime": True})
+        for m in [re.match(r"(\d{4}-\d{2}-\d{2})", t.get("datetime", ""))]
+        if m
+    })
     if dates_iso:
-        dates_iso.sort()
         d_s, d_e = dates_iso[0], dates_iso[-1]
         return _make_dates_label(d_s, d_e), d_s, d_e
 
-    # 2. Texto livre
-    return _parse_dates_from_text(text)
+    # 2. Strings de data no HTML: "26 JUN 2026", "23–25 Abr 2026", etc.
+    # Recolher todos os nós de texto que contenham uma data
+    date_strings = [
+        el.strip()
+        for el in soup.find_all(string=re.compile(r"\b\d{1,2}\s+[A-Za-z]{3,}\s+\d{4}\b"))
+    ]
+    sources = date_strings + [text]
 
+    for src in sources:
+        # DD MMM [YYYY] – DD MMM YYYY  (meses distintos)
+        m = re.search(
+            r"(\d{1,2})\s+([A-Za-zÀ-ÿ]{3,})(?:\s+(\d{4}))?"
+            r"\s*[–—\-]+\s*"
+            r"(\d{1,2})\s+([A-Za-zÀ-ÿ]{3,})\s+(\d{4})",
+            src,
+        )
+        if m:
+            d1, mo1, y1_opt, d2, mo2, y2 = m.groups()
+            n1, n2 = _mon(mo1), _mon(mo2)
+            if n1 and n2:
+                y1 = y1_opt or y2
+                ds = f"{y1}-{n1:02d}-{int(d1):02d}"
+                de = f"{y2}-{n2:02d}-{int(d2):02d}"
+                return _make_dates_label(ds, de), ds, de
 
-def _parse_dates_from_text(text: str) -> tuple[str, str, str]:
-    # DD [de] MMMM [de] YYYY – DD [de] MMMM [de] YYYY
-    m = re.search(
-        r"(\d{1,2})\s+(?:de\s+)?([A-Za-zÀ-ÿ]+)\s+(?:de\s+)?(\d{4})"
-        r"\s*[–—\-]+\s*"
-        r"(\d{1,2})\s+(?:de\s+)?([A-Za-zÀ-ÿ]+)\s+(?:de\s+)?(\d{4})",
-        text,
-    )
-    if m:
-        d1, mo1, y1, d2, mo2, y2 = m.groups()
-        n1, n2 = _mon(mo1), _mon(mo2)
-        if n1 and n2:
-            ds = f"{y1}-{n1:02d}-{int(d1):02d}"
-            de = f"{y2}-{n2:02d}-{int(d2):02d}"
-            return _make_dates_label(ds, de), ds, de
+        # DD–DD MMM YYYY  (mesmo mês)
+        m = re.search(r"(\d{1,2})\s*[–—\-]\s*(\d{1,2})\s+([A-Za-zÀ-ÿ]{3,})\s+(\d{4})", src)
+        if m:
+            d1, d2, mo, y = m.groups()
+            n = _mon(mo)
+            if n:
+                ds = f"{y}-{n:02d}-{int(d1):02d}"
+                de = f"{y}-{n:02d}-{int(d2):02d}"
+                return _make_dates_label(ds, de), ds, de
 
-    # DD–DD [de] MMMM [de] YYYY
-    m = re.search(
-        r"(\d{1,2})\s*[–—\-]\s*(\d{1,2})\s+(?:de\s+)?([A-Za-zÀ-ÿ]+)\s+(?:de\s+)?(\d{4})",
-        text,
-    )
-    if m:
-        d1, d2, mo, y = m.groups()
-        n = _mon(mo)
-        if n:
-            ds = f"{y}-{n:02d}-{int(d1):02d}"
-            de = f"{y}-{n:02d}-{int(d2):02d}"
-            return _make_dates_label(ds, de), ds, de
-
-    # DD [de] MMMM [de] YYYY  (data única)
-    m = re.search(
-        r"(\d{1,2})\s+(?:de\s+)?([A-Za-zÀ-ÿ]+)\s+(?:de\s+)?(\d{4})",
-        text,
-    )
-    if m:
-        d, mo, y = m.groups()
-        n = _mon(mo)
-        if n:
-            ds = f"{y}-{n:02d}-{int(d):02d}"
-            return _make_dates_label(ds, ds), ds, ds
+        # DD MMM YYYY  (data única)
+        m = re.search(r"(\d{1,2})\s+([A-Za-zÀ-ÿ]{3,})\s+(\d{4})", src)
+        if m:
+            d, mo, y = m.groups()
+            n = _mon(mo)
+            if n:
+                ds = f"{y}-{n:02d}-{int(d):02d}"
+                return _make_dates_label(ds, ds), ds, ds
 
     return "", "", ""
 
@@ -672,35 +683,28 @@ def _is_event_url(url: str) -> bool:
     if not path.startswith("pt/programacao/"):
         return False
     parts = [p for p in path.split("/") if p]
-    if len(parts) < 3:
-        return False
-    skip = {
-        "por-evento", "agenda-pdf", "archive", "schedule", "por-tipo",
-        "participacao", "convite", "open-call", "temporada-2025-26",
-        "temporada-2024-25", "concluido", "filtrar",
-    }
-    return parts[2] not in skip
+    return len(parts) >= 3 and parts[2] not in _SKIP_SLUGS
 
 
-def _clean_text(s: str) -> str:
-    s = re.sub(r"<[^>]+>", " ", s)
-    return re.sub(r"\s+", " ", s).strip()
+def _norm(url: str) -> str:
+    """Canonicaliza URL: garante trailing slash."""
+    return url.rstrip("/") + "/"
 
 
-def _normalise_date(s: str) -> str:
-    if not s:
-        return ""
-    if re.match(r"\d{4}-\d{2}-\d{2}", s):
-        return s[:10]
-    m = re.match(r"(\d{1,2})[/\-](\d{1,2})[/\-](\d{4})", s)
-    if m:
-        d, mo, y = m.groups()
-        return f"{y}-{int(mo):02d}-{int(d):02d}"
-    return ""
+def _abs(href: str) -> str:
+    return href if href.startswith("http") else urljoin(BASE, href)
 
 
 def _mon(s: str) -> int | None:
     return _PT_MONTHS.get(s.lower()[:3]) or _PT_MONTHS.get(s.lower())
+
+
+def _parse_iso(s: str) -> date:
+    """Converte "YYYY-MM-DD" para date. Devolve date.min se inválido."""
+    try:
+        return datetime.strptime(s, "%Y-%m-%d").date()
+    except ValueError:
+        return date.min
 
 
 def _make_dates_label(date_start: str, date_end: str) -> str:
@@ -710,7 +714,6 @@ def _make_dates_label(date_start: str, date_end: str) -> str:
             return f"{int(day)} {_MONTHS_ABBR[int(mo)]} {y}"
         except Exception:
             return d
-
     if not date_start:
         return ""
     if not date_end or date_end == date_start:
