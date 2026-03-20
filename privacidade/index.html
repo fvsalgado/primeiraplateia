@@ -8,13 +8,13 @@
 <meta name="theme-color" content="#1B2B4B"/>
 <meta name="robots" content="noindex, follow"/>
 <link rel="canonical" href="https://www.primeiraplateia.pt/privacidade/"/>
-<link rel="manifest" href="/manifest.webmanifest"/>
-<link rel="apple-touch-icon" href="/icons/icon-192.png"/>
+<link rel="manifest" href="../manifest.webmanifest"/>
+<link rel="apple-touch-icon" href="../icons/icon-192.png"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link rel="stylesheet" href="/fonts/fonts.css"/>
-<link rel="stylesheet" href="/design/tokens.css"/>
-<link rel="stylesheet" href="/design/base.css"/>
+<link rel="stylesheet" href="../fonts/fonts.css"/>
+<link rel="stylesheet" href="../design/tokens.css"/>
+<link rel="stylesheet" href="../design/base.css"/>
 <script>(function(){var s=localStorage.getItem('pp-theme');var sys=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',s||sys);})();</script>
 <style>
 .legal-hero {
@@ -85,16 +85,16 @@
 <body>
 <a class="skip-link" href="#main-content">Saltar para o conteúdo principal</a>
 <nav class="nav" role="navigation" aria-label="Navegação principal">
-  <a class="nav-brand" href="/" aria-label="Primeira Plateia — página inicial">
+  <a class="nav-brand" href="../" aria-label="Primeira Plateia — página inicial">
     <span class="nav-brand-primeira">Primeira</span>
     <span class="nav-brand-plateia">Plateia</span>
   </a>
   <div class="nav-right">
     <ul class="nav-links" id="nav-menu" role="list">
-      <li><a href="/programacao/">Programação</a></li>
-      <li><a href="/calendario/">Calendário</a></li>
-      <li><a href="/teatros/">Teatros</a></li>
-      <li><a href="/sobre/">Sobre</a></li>
+      <li><a href="../programacao/">Programação</a></li>
+      <li><a href="../calendario/">Calendário</a></li>
+      <li><a href="../teatros/">Teatros</a></li>
+      <li><a href="../sobre/">Sobre</a></li>
     </ul>
     <button class="theme-btn" id="theme-toggle" aria-label="Mudar para modo escuro" data-tip="Modo escuro">
       <span class="i-moon" aria-hidden="true">🌙</span>
@@ -173,15 +173,15 @@
     </div>
     <div>
       <p class="footer-col-title">Explorar</p>
-      <nav class="footer-col-links" aria-label="Explorar"><a href="/programacao/">Programação</a><a href="/calendario/">Calendário</a><a href="/teatros/">Teatros</a></nav>
+      <nav class="footer-col-links" aria-label="Explorar"><a href="../programacao/">Programação</a><a href="../calendario/">Calendário</a><a href="../teatros/">Teatros</a></nav>
     </div>
     <div>
       <p class="footer-col-title">Sobre</p>
-      <nav class="footer-col-links" aria-label="Sobre"><a href="/sobre/">O projecto</a><a href="mailto:fabio@primeiraplateia.pt">Contacto</a></nav>
+      <nav class="footer-col-links" aria-label="Sobre"><a href="../sobre/">O projecto</a><a href="mailto:fabio@primeiraplateia.pt">Contacto</a></nav>
     </div>
     <div>
       <p class="footer-col-title">Legal</p>
-      <nav class="footer-col-links" aria-label="Legal"><a href="/privacidade/" aria-current="page">Privacidade</a><a href="/aviso-legal/">Aviso legal</a><a href="/acessibilidade/">Acessibilidade</a></nav>
+      <nav class="footer-col-links" aria-label="Legal"><a href="../privacidade/" aria-current="page">Privacidade</a><a href="../aviso-legal/">Aviso legal</a><a href="../acessibilidade/">Acessibilidade</a></nav>
     </div>
   </div>
   <div class="footer-bottom">
@@ -191,12 +191,4 @@
 <script>
 (function(){
   var themeBtn=document.getElementById('theme-toggle'),html=document.documentElement;
-  themeBtn.addEventListener('click',function(){var next=html.getAttribute('data-theme')==='dark'?'light':'dark';html.setAttribute('data-theme',next);localStorage.setItem('pp-theme',next);themeBtn.setAttribute('aria-label',next==='dark'?'Mudar para modo claro':'Mudar para modo escuro');});
-  var nt=document.getElementById('nav-toggle'),nm=document.getElementById('nav-menu');
-  nt.addEventListener('click',function(){var o=nm.classList.toggle('open');nt.setAttribute('aria-expanded',o);nt.textContent=o?'✕':'☰';});
-  document.addEventListener('click',function(e){if(!nm.contains(e.target)&&!nt.contains(e.target)){nm.classList.remove('open');nt.setAttribute('aria-expanded','false');nt.textContent='☰';}});
-  document.getElementById('footer-year').textContent=new Date().getFullYear();
-})();
-</script>
-</body>
-</html>
+  themeBtn.addEventListener('click',function(){var next=html.getAttribute('data-theme')==='dark'?'light':'dark';html.setAttribute('data-theme',next);localStorage.setItem('pp-theme',next);themeBtn.setAttribute('aria-label',next==='dark'

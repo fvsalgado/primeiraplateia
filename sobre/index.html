@@ -13,13 +13,13 @@
 <meta property="og:url" content="https://www.primeiraplateia.pt/sobre/"/>
 <meta property="og:type" content="website"/>
 <meta property="og:locale" content="pt_PT"/>
-<link rel="manifest" href="/manifest.webmanifest"/>
-<link rel="apple-touch-icon" href="/icons/icon-192.png"/>
+<link rel="manifest" href="../manifest.webmanifest"/>
+<link rel="apple-touch-icon" href="../icons/icon-192.png"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link rel="stylesheet" href="/fonts/fonts.css"/>
-<link rel="stylesheet" href="/design/tokens.css"/>
-<link rel="stylesheet" href="/design/base.css"/>
+<link rel="stylesheet" href="../fonts/fonts.css"/>
+<link rel="stylesheet" href="../design/tokens.css"/>
+<link rel="stylesheet" href="../design/base.css"/>
 <script>(function(){var s=localStorage.getItem('pp-theme');var sys=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',s||sys);})();</script>
 
 <script type="application/ld+json">
@@ -458,16 +458,16 @@
 
 <!-- ── NAVEGAÇÃO ─────────────────────────────────────────────── -->
 <nav class="nav" role="navigation" aria-label="Navegação principal">
-  <a class="nav-brand" href="/" aria-label="Primeira Plateia — página inicial">
+  <a class="nav-brand" href="../" aria-label="Primeira Plateia — página inicial">
     <span class="nav-brand-primeira">Primeira</span>
     <span class="nav-brand-plateia">Plateia</span>
   </a>
   <div class="nav-right">
     <ul class="nav-links" id="nav-menu" role="list">
-      <li><a href="/programacao/">Programação</a></li>
-      <li><a href="/calendario/">Calendário</a></li>
-      <li><a href="/teatros/">Teatros</a></li>
-      <li><a href="/sobre/" aria-current="page">Sobre</a></li>
+      <li><a href="../programacao/">Programação</a></li>
+      <li><a href="../calendario/">Calendário</a></li>
+      <li><a href="../teatros/">Teatros</a></li>
+      <li><a href="../sobre/" aria-current="page">Sobre</a></li>
     </ul>
     <button class="theme-btn" id="theme-toggle" aria-label="Mudar para modo escuro" data-tip="Modo escuro">
       <span class="i-moon" aria-hidden="true">🌙</span>
@@ -693,10 +693,10 @@
       <h2 id="cta-title">Pronto para <em>explorar?</em></h2>
       <p>Vê o que está em cena hoje, esta semana ou este mês. Em todo o Portugal.</p>
       <div class="sobre-cta-btns">
-        <a href="/programacao/" class="btn btn-primary btn-lg">
+        <a href="../programacao/" class="btn btn-primary btn-lg">
           <span aria-hidden="true">🎭</span> Ver programação
         </a>
-        <a href="/teatros/" class="btn btn-outline btn-lg">Ver teatros</a>
+        <a href="../teatros/" class="btn btn-outline btn-lg">Ver teatros</a>
       </div>
     </div>
   </section>
@@ -730,24 +730,24 @@
     <div>
       <p class="footer-col-title">Explorar</p>
       <nav class="footer-col-links" aria-label="Explorar">
-        <a href="/programacao/">Programação</a>
-        <a href="/calendario/">Calendário</a>
-        <a href="/teatros/">Teatros</a>
+        <a href="../programacao/">Programação</a>
+        <a href="../calendario/">Calendário</a>
+        <a href="../teatros/">Teatros</a>
       </nav>
     </div>
     <div>
       <p class="footer-col-title">Sobre</p>
       <nav class="footer-col-links" aria-label="Sobre">
-        <a href="/sobre/">O projecto</a>
+        <a href="../sobre/">O projecto</a>
         <a href="mailto:fabio@primeiraplateia.pt">Contacto</a>
       </nav>
     </div>
     <div>
       <p class="footer-col-title">Legal</p>
       <nav class="footer-col-links" aria-label="Legal">
-        <a href="/privacidade/">Privacidade</a>
-        <a href="/aviso-legal/">Aviso legal</a>
-        <a href="/acessibilidade/">Acessibilidade</a>
+        <a href="../privacidade/">Privacidade</a>
+        <a href="../aviso-legal/">Aviso legal</a>
+        <a href="../acessibilidade/">Acessibilidade</a>
       </nav>
     </div>
   </div>
@@ -789,20 +789,8 @@
   document.getElementById('footer-year').textContent = new Date().getFullYear();
 
   // Stats e footer meta
-  fetch('/data/meta.json').then(r => r.ok ? r.json() : null).then(m => {
+  fetch('../data/meta.json').then(r => r.ok ? r.json() : null).then(m => {
     if (!m) return;
     const te = document.getElementById('stat-theaters');
     const ee = document.getElementById('stat-events');
-    const fu = document.getElementById('footer-updated');
-    if (te) te.textContent = m.total_theaters ?? '—';
-    if (ee) ee.textContent = m.total_events ?? '—';
-    if (fu) {
-      const diff = Math.floor((Date.now() - new Date(m.updated_at)) / 3600000);
-      fu.textContent = `Actualizado há ${diff < 1 ? 'menos de 1h' : diff + 'h'}`;
-    }
-  }).catch(() => {});
-
-})();
-</script>
-</body>
-</html>
+    const fu = document.getElem
