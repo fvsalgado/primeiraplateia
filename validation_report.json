@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-20T23:46:22.426560Z",
-  "total_raw": 165,
-  "total_accepted": 159,
+  "generated_at": "2026-03-21T00:20:08.985450Z",
+  "total_raw": 329,
+  "total_accepted": 323,
   "total_rejected": 6,
-  "total_warnings": 1,
+  "total_warnings": 103,
   "rejected": [
     {
       "id": "saoluiz-um-homem-e-o-seu-criado",
@@ -54,6 +54,720 @@
       "title": "Teatro Variedades: 100 Anos, 100 Entradas na Wikipédia",
       "warnings": [
         "'date_end' (2026-06-20) < 'date_start' (2026-10-18) — corrigido"
+      ]
+    },
+    {
+      "id": "viriato-new-age-new-time",
+      "title": "NEW AGE, NEW TIME",
+      "warnings": [
+        "evento já terminou (2026-01-31)"
+      ]
+    },
+    {
+      "id": "viriato-warm-up",
+      "title": "WARM-UP",
+      "warnings": [
+        "evento já terminou (2026-01-13)"
+      ]
+    },
+    {
+      "id": "viriato-o-qu",
+      "title": "O Quê?",
+      "warnings": [
+        "evento já terminou (2026-01-13)"
+      ]
+    },
+    {
+      "id": "viriato-isto-n-o-para-gente-para-besta",
+      "title": "Isto não é para Gente, é para Besta!",
+      "warnings": [
+        "evento já terminou (2026-01-13)"
+      ]
+    },
+    {
+      "id": "viriato-sublinhar",
+      "title": "SubLinhar",
+      "warnings": [
+        "evento já terminou (2026-01-17)"
+      ]
+    },
+    {
+      "id": "viriato-reverbera-es",
+      "title": "Reverberações",
+      "warnings": [
+        "evento já terminou (2026-01-23)"
+      ]
+    },
+    {
+      "id": "viriato-sibela-e-digoo",
+      "title": "Sibela e Digoo",
+      "warnings": [
+        "evento já terminou (2026-01-21)"
+      ]
+    },
+    {
+      "id": "viriato-bull-s-heart",
+      "title": "Bull’s Heart",
+      "warnings": [
+        "evento já terminou (2026-01-22)"
+      ]
+    },
+    {
+      "id": "viriato-reverberando",
+      "title": "Reverberando",
+      "warnings": [
+        "evento já terminou (2026-01-23)"
+      ]
+    },
+    {
+      "id": "viriato-bright-horses",
+      "title": "Bright Horses",
+      "warnings": [
+        "evento já terminou (2026-01-24)"
+      ]
+    },
+    {
+      "id": "viriato-entre-um-abra-o-e-um-beijinho",
+      "title": "Entre um abraço e um beijinho",
+      "warnings": [
+        "evento já terminou (2026-01-27)"
+      ]
+    },
+    {
+      "id": "viriato-um-abra-o-ou-um-beijinho",
+      "title": "Um abraço ou um beijinho",
+      "warnings": [
+        "evento já terminou (2026-01-28)"
+      ]
+    },
+    {
+      "id": "viriato-wonderlandi",
+      "title": "WonderLandi",
+      "warnings": [
+        "evento já terminou (2026-01-31)"
+      ]
+    },
+    {
+      "id": "viriato-luca-argel",
+      "title": "Luca Argel",
+      "warnings": [
+        "evento já terminou (2026-02-06)"
+      ]
+    },
+    {
+      "id": "viriato-toshiib4",
+      "title": "TOSHiiB4",
+      "warnings": [
+        "evento já terminou (2026-02-21)"
+      ]
+    },
+    {
+      "id": "viriato-justi-a-cega",
+      "title": "Justiça Cega",
+      "warnings": [
+        "evento já terminou (2026-02-13)"
+      ]
+    },
+    {
+      "id": "viriato-tatabitato",
+      "title": "Tatabitato",
+      "warnings": [
+        "evento já terminou (2026-02-14)"
+      ]
+    },
+    {
+      "id": "viriato-primeira-pessoa-do-plural",
+      "title": "Primeira Pessoa do Plural",
+      "warnings": [
+        "evento já terminou (2026-02-27)"
+      ]
+    },
+    {
+      "id": "viriato-festival-amostra",
+      "title": "Festival AMOSTRA",
+      "warnings": [
+        "evento já terminou (2026-03-07)"
+      ]
+    },
+    {
+      "id": "viriato-bolsa-am-lia-rey-cola-o",
+      "title": "BOLSA AMÉLIA REY COLAÇO",
+      "warnings": [
+        "evento já terminou (2026-03-05)"
+      ]
+    },
+    {
+      "id": "viriato-pedras-de-parar-e-da-urg-ncia",
+      "title": "Pedras de parar e da urgência",
+      "warnings": [
+        "evento já terminou (2026-03-05)"
+      ]
+    },
+    {
+      "id": "viriato-aruna-e-a-arte-de-bordar-in-cios",
+      "title": "Aruna e a arte de bordar inícios",
+      "warnings": [
+        "evento já terminou (2026-03-07)"
+      ]
+    },
+    {
+      "id": "viriato-s-mais-uma-gaivota",
+      "title": "Só Mais Uma Gaivota",
+      "warnings": [
+        "evento já terminou (2026-03-13)"
+      ]
+    },
+    {
+      "id": "viriato-gaivotas-em-terra",
+      "title": "Gaivotas em Terra",
+      "warnings": [
+        "evento já terminou (2026-03-14)"
+      ]
+    },
+    {
+      "id": "viriato-aurora-ou-livro",
+      "title": "Aurora (ou Livro)",
+      "warnings": [
+        "evento já terminou (2026-03-20)"
+      ]
+    },
+    {
+      "id": "tagv-batalha-atr-s-de-batalha",
+      "title": "Batalha Atrás de Batalha",
+      "warnings": [
+        "evento já terminou (2025-12-11)"
+      ]
+    },
+    {
+      "id": "tagv-onde-aterrar",
+      "title": "Onde Aterrar",
+      "warnings": [
+        "evento já terminou (2026-01-10)"
+      ]
+    },
+    {
+      "id": "tagv-laguna",
+      "title": "Laguna",
+      "warnings": [
+        "evento já terminou (2025-11-11)"
+      ]
+    },
+    {
+      "id": "tagv-caminhada-salatina",
+      "title": "Caminhada Salatina",
+      "warnings": [
+        "evento já terminou (1939-02-02)"
+      ]
+    },
+    {
+      "id": "tagv-miroirs-no-3",
+      "title": "Miroirs No. 3",
+      "warnings": [
+        "evento já terminou (1939-02-02)"
+      ]
+    },
+    {
+      "id": "tagv-na-terra-dos-nossos-irm-os",
+      "title": "Na Terra dos Nossos Irmãos",
+      "warnings": [
+        "evento já terminou (1939-02-02)"
+      ]
+    },
+    {
+      "id": "tagv-amor-e-informa-o",
+      "title": "Amor e Informação",
+      "warnings": [
+        "evento já terminou (2026-01-13)"
+      ]
+    },
+    {
+      "id": "tagv-recorda-es-da-casa-amarela",
+      "title": "Recordações da Casa Amarela",
+      "warnings": [
+        "evento já terminou (1939-02-02)"
+      ]
+    },
+    {
+      "id": "tagv-salatinas-hist-rias-da-velha-alta-de-coimbra",
+      "title": "Salatinas. Histórias da Velha Alta de Coimbra",
+      "warnings": [
+        "evento já terminou (1939-02-02)"
+      ]
+    },
+    {
+      "id": "tagv-as-curtas",
+      "title": "As Curtas",
+      "warnings": [
+        "evento já terminou (2026-01-17)"
+      ]
+    },
+    {
+      "id": "tagv-silvestre",
+      "title": "Silvestre",
+      "warnings": [
+        "evento já terminou (1939-02-02)"
+      ]
+    },
+    {
+      "id": "tagv-viva-jo-o-c-sar-monteiro",
+      "title": "Viva João César Monteiro",
+      "warnings": [
+        "evento já terminou (1939-02-02)"
+      ]
+    },
+    {
+      "id": "tagv-o-av-tem-uma-borracha-na-cabe-a",
+      "title": "O Avô Tem Uma Borracha Na Cabeça",
+      "warnings": [
+        "evento já terminou (1974-04-25)"
+      ]
+    },
+    {
+      "id": "tagv-flor-do-mar",
+      "title": "À Flor do Mar",
+      "warnings": [
+        "evento já terminou (1939-02-02)"
+      ]
+    },
+    {
+      "id": "tagv-a-com-dia-de-deus",
+      "title": "A Comédia de Deus",
+      "warnings": [
+        "evento já terminou (2026-01-21)"
+      ]
+    },
+    {
+      "id": "tagv-sophia-de-melo-breyner-andresen-fragmentos-de-um-f",
+      "title": "Sophia de Melo Breyner Andresen + Fragmentos de Um Filme-Esmola",
+      "warnings": [
+        "evento já terminou (2026-01-22)"
+      ]
+    },
+    {
+      "id": "tagv-as-bodas-de-deus",
+      "title": "As Bodas de Deus",
+      "warnings": [
+        "evento já terminou (2026-01-23)"
+      ]
+    },
+    {
+      "id": "tagv-quem-espera-por-sapatos-de-defunto-morre-descal-o-",
+      "title": "Quem Espera Por Sapatos De Defunto Morre Descalço + Que Farei Eu Com Esta Espada?",
+      "warnings": [
+        "evento já terminou (2026-01-24)"
+      ]
+    },
+    {
+      "id": "tagv-thiago-ventura",
+      "title": "Thiago Ventura",
+      "warnings": [
+        "evento já terminou (1939-02-02)"
+      ]
+    },
+    {
+      "id": "tagv-ser-preciso-ser-aqui-conversas-com-pessoas-dotadas",
+      "title": "Ser Preciso, Ser Aqui: Conversas Com Pessoas Dotadas de Minúcia",
+      "warnings": [
+        "evento já terminou (1939-02-02)"
+      ]
+    },
+    {
+      "id": "tagv-portugal-n-o-um-pa-s-pequeno",
+      "title": "Portugal Não É Um País Pequeno",
+      "warnings": [
+        "evento já terminou (2026-01-29)"
+      ]
+    },
+    {
+      "id": "tagv-balletstudio-paula-santos",
+      "title": "BalletStudio Paula Santos",
+      "warnings": [
+        "evento já terminou (2026-01-31)"
+      ]
+    },
+    {
+      "id": "tagv-vai-e-vem",
+      "title": "Vai e Vem",
+      "warnings": [
+        "evento já terminou (2026-02-02)"
+      ]
+    },
+    {
+      "id": "tagv-veredas",
+      "title": "Veredas",
+      "warnings": [
+        "evento já terminou (2026-02-02)"
+      ]
+    },
+    {
+      "id": "tagv-declamar-poesia",
+      "title": "declAMAR Poesia",
+      "warnings": [
+        "evento já terminou (2026-02-03)"
+      ]
+    },
+    {
+      "id": "tagv-ouvido-absoluto",
+      "title": "Ouvido Absoluto",
+      "warnings": [
+        "evento já terminou (2026-02-06)"
+      ]
+    },
+    {
+      "id": "tagv-a-cronologia-da-gua",
+      "title": "A Cronologia da Água",
+      "warnings": [
+        "evento já terminou (2026-02-07)"
+      ]
+    },
+    {
+      "id": "tagv-a-casa-morreu-di-rio-de-uma-rep-blica-iii",
+      "title": "A Casa Morreu — Diário De Uma República III",
+      "warnings": [
+        "evento já terminou (2026-02-09)"
+      ]
+    },
+    {
+      "id": "tagv-whindersson-nunes-e-robson-sousa",
+      "title": "Whindersson Nunes e Robson Sousa",
+      "warnings": [
+        "evento já terminou (2026-02-09)"
+      ]
+    },
+    {
+      "id": "tagv-mulholland-drive",
+      "title": "Mulholland Drive",
+      "warnings": [
+        "evento já terminou (2026-02-09)"
+      ]
+    },
+    {
+      "id": "tagv-ii-beira-rio-festival-de-tunas",
+      "title": "II À Beira Rio — Festival de Tunas",
+      "warnings": [
+        "evento já terminou (2026-02-10)"
+      ]
+    },
+    {
+      "id": "tagv-pai-m-e-irm-irm-o",
+      "title": "Pai Mãe Irmã Irmão",
+      "warnings": [
+        "evento já terminou (2026-02-12)"
+      ]
+    },
+    {
+      "id": "tagv-living-the-land-o-vento-impar-vel",
+      "title": "Living the Land — O Vento é Imparável",
+      "warnings": [
+        "evento já terminou (2026-02-14)"
+      ]
+    },
+    {
+      "id": "tagv-aurora-ou-livro",
+      "title": "Aurora (ou Livro)",
+      "warnings": [
+        "evento já terminou (2026-02-16)"
+      ]
+    },
+    {
+      "id": "tagv-100paredes",
+      "title": "100PAREDES",
+      "warnings": [
+        "evento já terminou (2026-02-16)"
+      ]
+    },
+    {
+      "id": "tagv-xiii-panaceia-festival-de-tunas-femininas-cancelad",
+      "title": "XIII Panaceia — Festival de Tunas Femininas / Cancelado",
+      "warnings": [
+        "evento já terminou (2026-02-18)"
+      ]
+    },
+    {
+      "id": "tagv-a-caminhada-dos-elefantes",
+      "title": "A Caminhada dos Elefantes",
+      "warnings": [
+        "evento já terminou (2026-02-18)"
+      ]
+    },
+    {
+      "id": "tagv-labirinto-de-sombras",
+      "title": "Labirinto de Sombras",
+      "warnings": [
+        "evento já terminou (2026-02-19)"
+      ]
+    },
+    {
+      "id": "tagv-valor-sentimental",
+      "title": "Valor Sentimental",
+      "warnings": [
+        "evento já terminou (2026-02-20)"
+      ]
+    },
+    {
+      "id": "tagv-gilm-rio-vemba",
+      "title": "Gilmário Vemba",
+      "warnings": [
+        "evento já terminou (2026-02-20)"
+      ]
+    },
+    {
+      "id": "tagv-entre-cores-arte-e-ci-ncia",
+      "title": "Entre Cores: Arte e Ciência",
+      "warnings": [
+        "evento já terminou (2026-02-21)"
+      ]
+    },
+    {
+      "id": "tagv-cineeco",
+      "title": "CineEco",
+      "warnings": [
+        "evento já terminou (2026-02-23)"
+      ]
+    },
+    {
+      "id": "tagv-conversa-de-balc-o",
+      "title": "Conversa de Balcão",
+      "warnings": [
+        "evento já terminou (2026-02-23)"
+      ]
+    },
+    {
+      "id": "tagv-xxii-oito-badaladas-festival-de-tunas",
+      "title": "XXII Oito Badaladas — Festival de Tunas",
+      "warnings": [
+        "evento já terminou (2026-02-25)"
+      ]
+    },
+    {
+      "id": "tagv-raphael-ghanem",
+      "title": "Raphael Ghanem",
+      "warnings": [
+        "evento já terminou (2026-02-26)"
+      ]
+    },
+    {
+      "id": "tagv-hamnet",
+      "title": "Hamnet",
+      "warnings": [
+        "evento já terminou (2026-02-26)"
+      ]
+    },
+    {
+      "id": "tagv-o-agente-secreto",
+      "title": "O Agente Secreto",
+      "warnings": [
+        "evento já terminou (2026-02-26)"
+      ]
+    },
+    {
+      "id": "tagv-rui-sinel-de-cordes",
+      "title": "Rui Sinel de Cordes",
+      "warnings": [
+        "evento já terminou (2026-02-27)"
+      ]
+    },
+    {
+      "id": "tagv-jos-de-portugal-e-os-doce-da-casa-viver-melhor-que",
+      "title": "José de Portugal e os DOCE da Casa: Viver é Melhor Que Sonhar",
+      "warnings": [
+        "evento já terminou (2026-03-02)"
+      ]
+    },
+    {
+      "id": "tagv-atlas-gr-fico-de-coimbra",
+      "title": "Atlas Gráfico de Coimbra",
+      "warnings": [
+        "evento já terminou (2026-03-02)"
+      ]
+    },
+    {
+      "id": "tagv-open-call-bolsas-de-cria-o-locais",
+      "title": "Open Call: Bolsas de Criação Locais",
+      "warnings": [
+        "evento já terminou (2026-03-03)"
+      ]
+    },
+    {
+      "id": "tagv-pulchritudines-concerto-sinf-nico-de-abertura-da-x",
+      "title": "Pulchritudines — Concerto Sinfónico de Abertura da XXVIII Semana Cultural UC",
+      "warnings": [
+        "evento já terminou (2026-03-04)"
+      ]
+    },
+    {
+      "id": "tagv-dj-ahmet",
+      "title": "DJ Ahmet",
+      "warnings": [
+        "evento já terminou (2026-03-05)"
+      ]
+    },
+    {
+      "id": "tagv-os-amantes-regulares",
+      "title": "Os Amantes Regulares",
+      "warnings": [
+        "evento já terminou (2026-03-06)"
+      ]
+    },
+    {
+      "id": "tagv-ode-mar-tima-leitura-encenada",
+      "title": "Ode Marítima — Leitura Encenada",
+      "warnings": [
+        "evento já terminou (2026-03-07)"
+      ]
+    },
+    {
+      "id": "tagv-o-narrador",
+      "title": "O Narrador",
+      "warnings": [
+        "evento já terminou (2026-03-07)"
+      ]
+    },
+    {
+      "id": "tagv-nada-imposs-vel-de-mudar-po-tica-da-revolta",
+      "title": "Nada é Impossível de Mudar: Poética da Revolta",
+      "warnings": [
+        "evento já terminou (2026-03-09)"
+      ]
+    },
+    {
+      "id": "tagv-lan-amento-coreia-14-performance-the-erotic-clown",
+      "title": "Lançamento Coreia#14 + Performance The Erotic Clown",
+      "warnings": [
+        "evento já terminou (2026-03-09)"
+      ]
+    },
+    {
+      "id": "tagv-laborat-rio-do-tonus-ao-gestus-poder-afeto-e-resis",
+      "title": "Laboratório Do Tonus ao Gestus: Poder, Afeto e Resistência no Corpo",
+      "warnings": [
+        "evento já terminou (2026-03-12)"
+      ]
+    },
+    {
+      "id": "tagv-oficina-escutar-escrever-arquivar-cria-o-documenta",
+      "title": "Oficina Escutar / Escrever / Arquivar (Criação Documental)",
+      "warnings": [
+        "evento já terminou (2026-03-12)"
+      ]
+    },
+    {
+      "id": "tagv-as-minhas-namoradinhas",
+      "title": "As Minhas Namoradinhas",
+      "warnings": [
+        "evento já terminou (2026-03-13)"
+      ]
+    },
+    {
+      "id": "tagv-beleza-em-cena-um-espet-culo-de-bandas-sonoras-xxv",
+      "title": "Beleza em Cena: Um Espetáculo de Bandas Sonoras — XXVIII Semana Cultural UC",
+      "warnings": [
+        "evento já terminou (2026-03-14)"
+      ]
+    },
+    {
+      "id": "tagv-yunan",
+      "title": "Yunan",
+      "warnings": [
+        "evento já terminou (2026-03-14)"
+      ]
+    },
+    {
+      "id": "tagv-reenact-now",
+      "title": "REENACT NOW",
+      "warnings": [
+        "evento já terminou (2026-03-15)"
+      ]
+    },
+    {
+      "id": "tagv-xi-l-grimas-de-amores",
+      "title": "XI Lágrimas de Amores",
+      "warnings": [
+        "evento já terminou (1943-03-31)"
+      ]
+    },
+    {
+      "id": "tagv-banda-encantada-xxviii-semana-cultural-uc",
+      "title": "Banda EnCantada — XXVIII Semana Cultural UC",
+      "warnings": [
+        "evento já terminou (2026-03-16)"
+      ]
+    },
+    {
+      "id": "tagv-maria-vit-ria",
+      "title": "Maria Vitória",
+      "warnings": [
+        "evento já terminou (2026-03-17)"
+      ]
+    },
+    {
+      "id": "tagv-70-anos-do-coro-misto-da-universidade-de-coimbra-x",
+      "title": "70 Anos do Coro Misto da Universidade de Coimbra — XXVIII Semana Cultural UC",
+      "warnings": [
+        "evento já terminou (2026-03-17)"
+      ]
+    },
+    {
+      "id": "tagv-oficina-de-dramaturgia",
+      "title": "Oficina de Dramaturgia",
+      "warnings": [
+        "evento já terminou (2026-03-17)"
+      ]
+    },
+    {
+      "id": "tagv-blue-moon",
+      "title": "Blue Moon",
+      "warnings": [
+        "evento já terminou (2026-03-17)"
+      ]
+    },
+    {
+      "id": "tagv-doc-coimbra-concerto-filipe-furtado-trio-filme-de-",
+      "title": "DOC.Coimbra: Concerto Filipe Furtado Trio + Filme de Abertura",
+      "warnings": [
+        "evento já terminou (2026-03-18)"
+      ]
+    },
+    {
+      "id": "tagv-doc-coimbra-substrato",
+      "title": "DOC.Coimbra: Substrato",
+      "warnings": [
+        "evento já terminou (2023-10-07)"
+      ]
+    },
+    {
+      "id": "tagv-doc-coimbra-kikakui-renaissance",
+      "title": "DOC.Coimbra: Kikakui Renaissance",
+      "warnings": [
+        "evento já terminou (2026-03-18)"
+      ]
+    },
+    {
+      "id": "tagv-doc-coimbra-abele",
+      "title": "DOC.Coimbra: Abele",
+      "warnings": [
+        "evento já terminou (2026-03-19)"
+      ]
+    },
+    {
+      "id": "tagv-doc-coimbra-y-our-mother",
+      "title": "DOC.Coimbra: (Y)our Mother",
+      "warnings": [
+        "evento já terminou (2026-03-20)"
+      ]
+    },
+    {
+      "id": "tagv-festival-end-dramaturgia-contempor-nea-processos-d",
+      "title": "Festival END: Dramaturgia Contemporânea. Processos de Composição",
+      "warnings": [
+        "evento já terminou (2025-07-09)"
+      ]
+    },
+    {
+      "id": "tagv-hist-rias-do-vale-bom",
+      "title": "Histórias do Vale Bom",
+      "warnings": [
+        "evento já terminou (1929-10-21)"
       ]
     }
   ],
