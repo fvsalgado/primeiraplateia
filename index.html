@@ -6,12 +6,12 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
   <title>Primeira Plateia — Agenda de Teatro e Artes Performativas em Portugal</title>
-  <meta name="description" content="Teatro, dança, ópera e performance em todo o país — actualizado diariamente."/>
+  <meta name="description" content="Teatro, música, dança, ópera, circo e performance — toda a cultura ao vivo em Portugal, actualizada todos os dias."/>
   <meta name="theme-color" content="#1B2B4B"/>
   <meta name="robots" content="index, follow"/>
   <link rel="canonical" href="https://www.primeiraplateia.pt/"/>
   <meta property="og:title" content="Primeira Plateia — Agenda de Artes Performativas em Portugal"/>
-  <meta property="og:description" content="Teatro, dança, ópera e performance em todo o país — actualizado diariamente."/>
+  <meta property="og:description" content="Teatro, música, dança, ópera, circo e performance — toda a cultura ao vivo em Portugal, actualizada todos os dias."/>
   <meta property="og:image" content="https://www.primeiraplateia.pt/og-image.jpg"/>
   <meta property="og:url" content="https://www.primeiraplateia.pt/"/>
   <meta property="og:type" content="website"/>
@@ -33,34 +33,53 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Primeira Plateia","url":"https://www.primeiraplateia.pt","description":"A agenda nacional de teatro, dança, ópera e artes performativas em Portugal.","inLanguage":"pt-PT","publisher":{"@type":"Organization","name":"Primeira Plateia","url":"https://www.primeiraplateia.pt","email":"fabio@primeiraplateia.pt","sameAs":["https://instagram.com/primeiraplateia","https://facebook.com/primeiraplateia","https://linkedin.com/company/primeiraplateia","https://youtube.com/@primeiraplateia"]},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.primeiraplateia.pt/programacao/?q={search_term_string}"},"query-input":"required name=search_term_string"}}</script>
   <script type="application/ld+json" id="ld-itemlist">{"@context":"https://schema.org","@type":"ItemList","name":"Espectáculos em destaque","itemListElement":[]}</script>
 <style>
-/* ── NAV ──────────────────────────────────────────────────────── */
+/* NAV */
 .nav{display:flex;align-items:center;justify-content:space-between;padding:0 var(--space-8);height:var(--nav-h);position:fixed;top:0;left:0;right:0;z-index:100;background:var(--surface-bg);border-bottom:1px solid var(--surface-divider)}
 .nav-brand{display:flex;align-items:baseline;gap:4px;text-decoration:none}
 .nav-right{display:flex;align-items:center;gap:var(--space-3)}
 
-/* ── FAB ──────────────────────────────────────────────────────── */
+/* FAB */
 .fab-menu-btn{position:fixed;bottom:28px;right:24px;z-index:200;display:flex;align-items:center;gap:8px;background:var(--color-primary);color:#fff;border:none;border-radius:var(--radius-full);padding:12px 20px;cursor:pointer;font-size:13px;font-weight:700;letter-spacing:.04em;box-shadow:0 4px 24px rgba(27,43,75,.35);transition:all var(--transition-fast);font-family:inherit}
 .fab-menu-btn:hover{transform:translateY(-2px);box-shadow:0 8px 32px rgba(27,43,75,.4)}
 .fab-menu-btn:focus-visible{outline:2px solid var(--color-accent);outline-offset:3px}
 .fab-menu-icon{font-size:15px;line-height:1;transition:transform var(--transition-fast)}
-.fab-menu-btn[aria-expanded="true"] .fab-menu-icon{transform:rotate(90deg)}
-.fab-overlay{display:none;position:fixed;inset:0;z-index:190;background:rgba(0,0,0,.18);backdrop-filter:blur(2px)}
+.fab-menu-btn[aria-expanded="true"] .fab-menu-icon{transform:rotate(45deg)}
+.fab-overlay{display:none;position:fixed;inset:0;z-index:190;background:rgba(0,0,0,.22);backdrop-filter:blur(3px)}
 .fab-overlay.open{display:block}
-.fab-popover{position:fixed;bottom:80px;right:24px;z-index:195;width:min(340px,calc(100vw - 32px));background:var(--surface-card);border:1px solid var(--surface-card-border);border-radius:var(--radius-lg);box-shadow:0 8px 48px rgba(0,0,0,.18);overflow:hidden;opacity:0;transform:translateY(12px) scale(.97);transition:opacity .18s ease,transform .18s ease;pointer-events:none}
+.fab-popover{position:fixed;bottom:80px;right:24px;z-index:195;width:min(420px,calc(100vw - 32px));background:var(--surface-card);border:1px solid var(--surface-card-border);border-radius:var(--radius-lg);box-shadow:0 12px 56px rgba(0,0,0,.2);overflow:hidden;opacity:0;transform:translateY(14px) scale(.96);transition:opacity .2s ease,transform .2s ease;pointer-events:none}
 .fab-popover.open{opacity:1;transform:translateY(0) scale(1);pointer-events:auto}
-.fab-popover-header{padding:14px 18px 10px;border-bottom:1px solid var(--surface-divider);font-size:11px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--text-muted)}
-.fab-popover-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--surface-divider)}
-.fab-popover-item{display:flex;flex-direction:column;gap:3px;padding:14px 16px;text-decoration:none;background:var(--surface-card);color:var(--text-primary);transition:background var(--transition-fast)}
-.fab-popover-item:hover{background:var(--surface-bg-2)}
-.fab-popover-item:focus-visible{outline:2px solid var(--color-accent);outline-offset:-2px}
-.fab-popover-item-icon{font-size:18px;line-height:1;margin-bottom:2px}
-.fab-popover-item-label{font-size:13px;font-weight:700}
-.fab-popover-item-desc{font-size:11px;color:var(--text-muted);line-height:1.4}
-.fab-popover-footer{padding:10px 18px;border-top:1px solid var(--surface-divider);display:flex;gap:var(--space-4)}
-.fab-popover-footer a{font-size:11px;font-weight:600;color:var(--text-muted);text-decoration:none;transition:color var(--transition-fast)}
-.fab-popover-footer a:hover{color:var(--color-primary)}
+.fab-header{padding:14px 18px 12px;border-bottom:1px solid var(--surface-divider);display:flex;align-items:center;justify-content:space-between;gap:16px}
+.fab-header-brand{font-size:13px;font-weight:700;color:var(--text-primary)}
+.fab-header-brand span{color:var(--color-accent)}
+.fab-stats{display:flex;gap:20px}
+.fab-stat{text-align:center}
+.fab-stat-num{display:block;font-family:var(--ff-display);font-size:17px;font-weight:900;color:var(--color-primary);line-height:1;letter-spacing:-.02em}
+.fab-stat-label{display:block;font-size:9px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--text-muted);margin-top:1px}
+.fab-nav{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--surface-divider)}
+.fab-nav-item{display:flex;align-items:center;gap:10px;padding:12px 16px;text-decoration:none;background:var(--surface-card);color:var(--text-primary);transition:background var(--transition-fast)}
+.fab-nav-item:hover{background:var(--surface-bg-2)}
+.fab-nav-item:focus-visible{outline:2px solid var(--color-accent);outline-offset:-2px}
+.fab-nav-icon{font-size:16px;line-height:1;flex-shrink:0}
+.fab-nav-label{font-size:13px;font-weight:700}
+.fab-nav-desc{font-size:10px;color:var(--text-muted);line-height:1.3;margin-top:1px}
+.fab-tonight-row{display:none;grid-column:1/-1;align-items:center;gap:10px;padding:9px 16px;background:rgba(217,31,31,.06);border-top:1px solid rgba(217,31,31,.12);text-decoration:none;color:var(--color-accent);transition:background var(--transition-fast)}
+.fab-tonight-row:hover{background:rgba(217,31,31,.1)}
+.fab-tonight-row.visible{display:flex}
+.fab-tonight-dot{width:7px;height:7px;border-radius:50%;background:var(--color-accent);animation:pulse 1.8s ease-in-out infinite;flex-shrink:0}
+.fab-tonight-text{font-size:12px;font-weight:700}
+.fab-section{padding:10px 16px;border-top:1px solid var(--surface-divider)}
+.fab-section-title{font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--text-muted);margin-bottom:7px}
+.fab-chips{display:flex;flex-wrap:wrap;gap:5px}
+.fab-chip{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:600;color:var(--text-muted);background:var(--surface-bg-2);border:1px solid var(--surface-divider);border-radius:var(--radius-full);padding:3px 9px;text-decoration:none;transition:all var(--transition-fast);white-space:nowrap}
+.fab-chip:hover{color:var(--color-primary);border-color:var(--color-primary)}
+.fab-chip strong{color:var(--text-primary);font-weight:700;margin-left:2px}
+.fab-footer{padding:9px 16px;border-top:1px solid var(--surface-divider);display:flex;justify-content:space-between;align-items:center}
+.fab-footer-links{display:flex;gap:16px}
+.fab-footer-links a{font-size:11px;font-weight:600;color:var(--text-muted);text-decoration:none;transition:color var(--transition-fast)}
+.fab-footer-links a:hover{color:var(--color-primary)}
+.fab-footer-tagline{font-size:10px;color:var(--text-muted);font-style:italic}
 
-/* ── HERO ─────────────────────────────────────────────────────── */
+/* HERO */
 .hero{padding:calc(var(--nav-h) + var(--space-14)) var(--space-12) var(--space-14);position:relative;overflow:hidden;background:var(--surface-bg)}
 .hero-curtain{position:absolute;top:0;right:0;bottom:0;width:42%;background:var(--gradient-hero);clip-path:polygon(18% 0,100% 0,100% 100%,0% 100%);z-index:0}
 [data-theme="dark"] .hero-curtain{opacity:.5}
@@ -93,7 +112,7 @@
 .hero-updated{margin-top:var(--space-3);font-size:var(--text-xs);color:var(--text-muted);opacity:.65;display:flex;align-items:center;gap:var(--space-2)}
 .hero-updated-dot{width:6px;height:6px;border-radius:50%;background:var(--color-accent);opacity:.7;flex-shrink:0}
 
-/* ── DESTAQUES ────────────────────────────────────────────────── */
+/* DESTAQUES */
 .section-destaques{padding:var(--space-16) var(--space-12);background:var(--surface-bg-2);border-top:1px solid var(--surface-card-border)}
 .destaques-header{max-width:var(--max-w);margin:0 auto var(--space-5);display:flex;align-items:flex-end;justify-content:space-between;gap:var(--space-6);flex-wrap:wrap}
 .destaques-title-link{text-decoration:none;color:inherit;display:block}
@@ -146,7 +165,7 @@
 .cat-empty-icon{font-size:36px;margin-bottom:var(--space-3)}
 .cat-empty-text{font-size:var(--text-sm)}
 
-/* ── EXPLORAR ─────────────────────────────────────────────────── */
+/* EXPLORAR */
 .section-explorar{padding:var(--space-16) var(--space-12);background:var(--surface-bg);border-top:1px solid var(--surface-card-border)}
 .explorar-inner{max-width:var(--max-w);margin:0 auto}
 .explorar-block{margin-bottom:var(--space-12)}
@@ -191,7 +210,7 @@
   .hero-actions{opacity:0;animation:fadeUp .5s .42s ease forwards}
 }
 
-/* ── RESPONSIVE ───────────────────────────────────────────────── */
+/* RESPONSIVE */
 @media(max-width:1200px){
   .destaques-grid{grid-template-columns:repeat(3,1fr)}
   .hero-cats-grid{grid-template-columns:repeat(4,1fr)}
@@ -244,37 +263,30 @@
 <!-- FAB -->
 <div class="fab-overlay" id="fab-overlay" aria-hidden="true"></div>
 <div class="fab-popover" id="fab-popover" role="dialog" aria-modal="true" aria-label="Menu de navegação" hidden>
-  <div class="fab-popover-header">Explorar</div>
-  <div class="fab-popover-grid">
-    <a class="fab-popover-item" href="programacao/">
-      <span class="fab-popover-item-icon">📅</span>
-      <span class="fab-popover-item-label">Programação</span>
-      <span class="fab-popover-item-desc">Agenda completa com filtros</span>
-    </a>
-    <a class="fab-popover-item" href="calendario/">
-      <span class="fab-popover-item-icon">🗓</span>
-      <span class="fab-popover-item-label">Calendário</span>
-      <span class="fab-popover-item-desc">Hoje, fim-de-semana, esta semana</span>
-    </a>
-    <a class="fab-popover-item" href="teatros/">
-      <span class="fab-popover-item-icon">🏛</span>
-      <span class="fab-popover-item-label">Teatros</span>
-      <span class="fab-popover-item-desc">Todos os palcos cobertos</span>
-    </a>
-    <a class="fab-popover-item" href="perto-de-mim/">
-      <span class="fab-popover-item-icon">📍</span>
-      <span class="fab-popover-item-label">Perto de mim</span>
-      <span class="fab-popover-item-desc">Espectáculos na tua cidade</span>
-    </a>
+  <div class="fab-header">
+    <div class="fab-header-brand">Primeira <span>Plateia</span></div>
+    <div class="fab-stats">
+      <div class="fab-stat"><span class="fab-stat-num" id="fab-stat-events">—</span><span class="fab-stat-label">Em cartaz</span></div>
+      <div class="fab-stat"><span class="fab-stat-num" id="fab-stat-today">—</span><span class="fab-stat-label">Hoje</span></div>
+      <div class="fab-stat"><span class="fab-stat-num" id="fab-stat-theaters">—</span><span class="fab-stat-label">Teatros</span></div>
+    </div>
   </div>
-  <div class="fab-popover-footer">
-    <a href="sobre/">Sobre</a>
-    <a href="privacidade/">Privacidade</a>
-    <a href="mailto:fabio@primeiraplateia.pt">Contacto</a>
+  <div class="fab-nav">
+    <a class="fab-nav-item" href="programacao/"><span class="fab-nav-icon">&#128197;</span><div><div class="fab-nav-label">Programação</div><div class="fab-nav-desc">Agenda completa com filtros</div></div></a>
+    <a class="fab-nav-item" href="calendario/"><span class="fab-nav-icon">&#128467;</span><div><div class="fab-nav-label">Calendário</div><div class="fab-nav-desc">Hoje, fim-de-semana, esta semana</div></div></a>
+    <a class="fab-nav-item" href="teatros/"><span class="fab-nav-icon">&#127963;</span><div><div class="fab-nav-label">Teatros</div><div class="fab-nav-desc">Todos os palcos cobertos</div></div></a>
+    <a class="fab-nav-item" href="perto-de-mim/"><span class="fab-nav-icon">&#128205;</span><div><div class="fab-nav-label">Perto de mim</div><div class="fab-nav-desc">Espectáculos na tua cidade</div></div></a>
+    <a class="fab-tonight-row" id="fab-tonight-row" href="calendario/"><span class="fab-tonight-dot" aria-hidden="true"></span><span class="fab-tonight-text" id="fab-tonight-text"></span><span style="margin-left:auto;font-size:11px;font-weight:700">→</span></a>
+  </div>
+  <div class="fab-section"><div class="fab-section-title">Por categoria</div><div class="fab-chips" id="fab-chips-cats"></div></div>
+  <div class="fab-section"><div class="fab-section-title">Por cidade</div><div class="fab-chips" id="fab-chips-cities"></div></div>
+  <div class="fab-footer">
+    <div class="fab-footer-links"><a href="sobre/">Sobre</a><a href="privacidade/">Privacidade</a><a href="mailto:fabio@primeiraplateia.pt">Contacto</a></div>
+    <span class="fab-footer-tagline">O espectáculo começa aqui.</span>
   </div>
 </div>
 <button class="fab-menu-btn" id="fab-menu-btn" aria-expanded="false" aria-controls="fab-popover" aria-haspopup="dialog">
-  <span class="fab-menu-icon" aria-hidden="true">☰</span>Menu
+  <span class="fab-menu-icon" aria-hidden="true">&#9776;</span>Menu
 </button>
 
 <main id="main-content">
@@ -283,9 +295,9 @@
   <section class="hero" aria-label="Apresentação">
     <div class="hero-curtain" aria-hidden="true"></div>
     <div class="hero-inner">
-      <p class="hero-kicker" aria-hidden="true">Primeira Plateia</p>
-      <h1 class="hero-title">O palco<br><em class="hero-title-em">começa aqui.</em></h1>
-      <p class="hero-sub">Teatro, dança, ópera e performance em todo o país — actualizado diariamente.</p>
+      <p class="hero-kicker" aria-hidden="true">Agenda de artes performativas</p>
+      <h1 class="hero-title">Primeira<br><em class="hero-title-em">Plateia.</em></h1>
+      <p class="hero-sub">Teatro, música, dança, ópera, circo e performance — toda a cultura ao vivo em Portugal, actualizada todos os dias.</p>
       <div class="hero-actions">
         <a href="programacao/" class="btn btn-primary btn-lg">Ver o que está em cena →</a>
         <a href="calendario/" class="hero-tonight" id="hero-tonight" hidden>
@@ -365,7 +377,7 @@
   <div class="footer-inner">
     <div class="footer-brand-col">
       <div class="footer-brand"><span class="footer-brand-primeira">Primeira</span><span class="footer-brand-plateia">Plateia</span></div>
-      <p class="footer-tagline">A agenda nacional de teatro, dança e artes performativas em Portugal.</p>
+      <p class="footer-tagline">O lugar certo para ver cultura ao vivo.</p>
       <nav class="footer-social" aria-label="Redes sociais">
         <a href="https://instagram.com/primeiraplateia" target="_blank" rel="noopener" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
         <a href="https://facebook.com/primeiraplateia" target="_blank" rel="noopener" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
@@ -394,7 +406,7 @@
     </div>
   </div>
   <div class="footer-bottom">
-    <p class="footer-legal">© <span id="footer-year"></span> Primeira Plateia. Conteúdo © dos respectivos teatros. Feito por <a href="https://linkedin.com/in/fvsalgado" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-decoration-color:var(--color-accent)">Fábio Salgado</a> — <em>que prefere o lugar da plateia ao da ribalta, mas às vezes confunde-se.</em></p>
+    <p class="footer-legal">© <span id="footer-year"></span> Primeira Plateia. Conteúdo © dos respectivos teatros. O espectáculo começa na Primeira Plateia. Feito por <a href="https://linkedin.com/in/fvsalgado" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-decoration-color:var(--color-accent)">Fábio Salgado</a> — <em>que prefere o lugar da plateia ao da ribalta, mas às vezes confunde-se.</em></p>
     <p class="footer-meta" id="footer-meta" aria-live="polite"><span class="footer-meta-dot" aria-hidden="true"></span><span id="footer-updated">A carregar…</span></p>
   </div>
 </footer>
@@ -659,6 +671,7 @@ async function init(){
   renderCatSelector(byCat);
   renderCities(byTheater,theaters);
   renderTheaters(byTheater,theaters);
+  populateFab(meta,theaters);
 
   // Activar a categoria com mais eventos por defeito
   var topCat='';
@@ -668,6 +681,38 @@ async function init(){
 }
 
 document.getElementById('footer-year').textContent=new Date().getFullYear();
+
+function populateFab(meta,theaters){
+  var fe=document.getElementById('fab-stat-events');
+  var ft=document.getElementById('fab-stat-today');
+  var fth=document.getElementById('fab-stat-theaters');
+  if(fe)fe.textContent=meta.total_events!=null?meta.total_events:'—';
+  if(ft)ft.textContent=meta.events_today!=null?meta.events_today:'—';
+  if(fth)fth.textContent=meta.total_theaters!=null?meta.total_theaters:'—';
+  var tr=document.getElementById('fab-tonight-row');
+  var tt=document.getElementById('fab-tonight-text');
+  if(tr&&tt&&meta.events_today>0){
+    tt.textContent='Hoje há '+meta.events_today+' espectáculo'+(meta.events_today!==1?'s':'')+' em cena';
+    tr.classList.add('visible');
+  }
+  var ICONS={'Teatro':'&#127917;','Dança':'&#128131;','Música':'&#127925;','Ópera':'&#127932;','Teatro Musical':'&#127908;','Circo':'&#127937;','Infanto-Juvenil':'&#129512;','Performance':'&#127775;'};
+  var cc=document.getElementById('fab-chips-cats');
+  if(cc&&meta.by_category){
+    var cats=Object.entries(meta.by_category).filter(function(c){return c[0]!=='Outro'&&c[1]>0;}).sort(function(a,b){return b[1]-a[1];});
+    cc.innerHTML=cats.map(function(c){
+      return '<a class="fab-chip" href="programacao/?categoria='+encodeURIComponent(c[0])+'">'+(ICONS[c[0]]||'')+' '+c[0]+' <strong>'+c[1]+'</strong></a>';
+    }).join('');
+  }
+  var ci=document.getElementById('fab-chips-cities');
+  if(ci&&theaters.length&&meta.by_theater){
+    var cd={};
+    theaters.forEach(function(t){var n=meta.by_theater[t.name]||0;if(n>0)cd[t.city]=(cd[t.city]||0)+n;});
+    ci.innerHTML=Object.entries(cd).sort(function(a,b){return b[1]-a[1];}).map(function(c){
+      return '<a class="fab-chip" href="programacao/?cidade='+encodeURIComponent(c[0])+'">' +c[0]+' <strong>'+c[1]+'</strong></a>';
+    }).join('');
+  }
+}
+
 init();
 
 })();
