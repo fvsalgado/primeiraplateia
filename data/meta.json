@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-21T02:23:14.944370+00:00",
+  "updated_at": "2026-03-21T02:23:20.659555+00:00",
   "build_version": "20260321-0223",
-  "total_events": 221,
+  "total_events": 206,
   "total_theaters": 12,
   "events_today": 7,
   "events_this_weekend": 7,
@@ -12,20 +12,20 @@
     "Lisboa",
     "Viseu"
   ],
-  "stale_theaters": 42,
+  "stale_theaters": 0,
   "by_theater": {
     "Theatro Circo": 63,
     "Teatro Viriato": 29,
-    "Teatro Variedades": 6,
+    "Teatro Variedades": 3,
     "Teatro da Trindade INATEL": 7,
-    "São Luiz Teatro Municipal": 30,
+    "São Luiz Teatro Municipal": 21,
     "Teatro Maria Matos": 16,
     "TAGV — Teatro Académico Gil Vicente": 34,
     "CCB — Centro Cultural de Belém": 6,
     "Teatro das Figuras": 20,
-    "Capitólio": 6,
     "Teatro do Bairro": 1,
-    "Culturgest": 3
+    "Culturgest": 3,
+    "Capitólio": 3
   },
   "completeness_avg": 0.638,
   "anomalies": [],
