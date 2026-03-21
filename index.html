@@ -51,6 +51,10 @@
 .stat-sep{width:1px;height:48px;background:var(--surface-divider);flex-shrink:0;margin-top:4px}
 .hero-updated{margin-top:var(--space-5);font-size:var(--text-xs);color:var(--text-muted);opacity:.65;display:flex;align-items:center;gap:var(--space-2)}
 .hero-updated-dot{width:6px;height:6px;border-radius:50%;background:var(--color-accent);opacity:.7;flex-shrink:0;display:inline-block}
+.hero-cats{display:flex;flex-wrap:wrap;gap:var(--space-2);margin-top:var(--space-4)}
+.hero-cat-pill{display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:600;letter-spacing:.04em;color:var(--text-muted);background:var(--surface-bg-2);border:1px solid var(--surface-divider);border-radius:var(--radius-full);padding:3px 10px;text-decoration:none;transition:border-color var(--transition-fast),color var(--transition-fast)}
+.hero-cat-pill:hover{color:var(--color-primary);border-color:var(--color-primary)}
+.hero-cat-pill strong{color:var(--text-primary);font-weight:700}
 .section-destaques{padding:var(--space-24) var(--space-12);background:var(--surface-bg)}
 .destaques-header{max-width:var(--max-w);margin:0 auto var(--space-8);display:flex;align-items:flex-end;justify-content:space-between;gap:var(--space-6);flex-wrap:wrap}
 .destaques-tabs{display:flex;gap:var(--space-2);align-items:center;margin-bottom:var(--space-3)}
@@ -194,6 +198,7 @@
         <span class="hero-updated-dot" aria-hidden="true"></span>
         <span id="hero-updated-text"></span>
       </p>
+      <div class="hero-cats" id="hero-cats" aria-label="Espectáculos por categoria" hidden></div>
     </div>
   </section>
 
@@ -290,7 +295,7 @@
       <p class="footer-col-title">Sobre</p>
       <nav class="footer-col-links" aria-label="Links sobre o projecto">
         <a href="sobre/">O projecto</a>
-        <a href="/cdn-cgi/l/email-protection#5f393e3d36301f2f2d36323a362d3e2f333e2b3a363e712f2b"><span class="__cf_email__" data-cfemail="cea8afaca7a18ebebca7a3aba7bcafbea2afbaaba7afe0beba">[email&#160;protected]</span></a>
+        <a href="mailto:fabio@primeiraplateia.pt">fabio@primeiraplateia.pt</a>
       </nav>
     </div>
     <div>
@@ -473,4 +478,29 @@ async function loadMeta(){
     var mt=document.getElementById('meta-teatros');
     if(mt&&m.total_theaters!=null){
       var h='<a class="nav-card-meta-pill" href="teatros/"><strong>'+m.total_theaters+'</strong> teatros</a>';
-      if(m.cities&&m.cities.length)m.cities.forEach(function(c){h+='<a class="nav-card-meta
+      if(m.cities&&m.cities.length)m.cities.forEach(function(c){h+='<a class="nav-card-meta-pill" href="programacao/?cidade='+encodeURIComponent(c)+'">'+c+'</a>';});
+      mt.innerHTML=h;
+    }
+    // Pills de categoria
+    var catsEl=document.getElementById('hero-cats');
+    if(catsEl&&m.by_category&&Object.keys(m.by_category).length){
+      var cats=Object.entries(m.by_category).sort(function(a,b){return b[1]-a[1];});
+      var MAX_CATS=5;
+      var shown=cats.slice(0,MAX_CATS);
+      var rest=cats.slice(MAX_CATS);
+      var restTotal=rest.reduce(function(s,c){return s+c[1];},0);
+      var catHtml=shown.map(function(c){
+        return '<a class="hero-cat-pill" href="programacao/?categoria='+encodeURIComponent(c[0])+'">'+c[0]+' <strong>'+c[1]+'</strong></a>';
+      }).join('');
+      if(restTotal>0)catHtml+='<span class="hero-cat-pill" style="cursor:default">+'+restTotal+'</span>';
+      catsEl.innerHTML=catHtml;
+      catsEl.hidden=false;
+    }
+  }catch(e){var fu=document.getElementById('footer-updated');if(fu)fu.textContent='';}
+}
+
+loadMeta();loadDestaques();
+})();
+</script>
+</body>
+</html>
