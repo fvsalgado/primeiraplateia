@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-03-21T02:28:54.407439Z",
-  "total_raw": 329,
-  "total_accepted": 323,
-  "total_rejected": 6,
+  "generated_at": "2026-03-21T03:02:06.500112Z",
+  "total_raw": 325,
+  "total_accepted": 320,
+  "total_rejected": 5,
   "total_warnings": 103,
   "rejected": [
     {
@@ -36,13 +36,6 @@
     {
       "id": "saoluiz-pons-varolii",
       "title": "PONS VAROLII",
-      "errors": [
-        "'date_start' ausente ou vazio"
-      ]
-    },
-    {
-      "id": "mariamatos-lap-laborat-rio-de-artes-performativas-para-crian-",
-      "title": "LAP | Laboratório de Artes Performativas para crianças",
       "errors": [
         "'date_start' ausente ou vazio"
       ]
@@ -788,7 +781,7 @@
     },
     "Teatro Maria Matos": {
       "status": "ok",
-      "events_collected": 17
+      "events_collected": 13
     },
     "Culturgest": {
       "status": "ok",
