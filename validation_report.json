@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-21T01:00:35.299832Z",
-  "total_raw": 328,
-  "total_accepted": 322,
+  "generated_at": "2026-03-21T01:15:19.698833Z",
+  "total_raw": 329,
+  "total_accepted": 323,
   "total_rejected": 6,
   "total_warnings": 103,
   "rejected": [
@@ -820,7 +820,7 @@
     },
     "TAGV — Teatro Académico Gil Vicente": {
       "status": "ok",
-      "events_collected": 110
+      "events_collected": 111
     },
     "Cine-Teatro Avenida": {
       "status": "empty",
