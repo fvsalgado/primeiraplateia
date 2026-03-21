@@ -33,10 +33,10 @@ logging.basicConfig(
 )
 logger = logging.getLogger("build")
 
-ROOT         = Path(__file__).parent.parent
-DATA_DIR     = ROOT / "data"
-EVENTS_PATH  = ROOT / "events.json"
-THEATERS_PATH = ROOT / "theaters.json"
+ROOT           = Path(__file__).parent.parent
+DATA_DIR       = ROOT / "data"
+EVENTS_PATH    = ROOT / "events.json"
+THEATERS_PATH  = ROOT / "theaters.json"
 BY_THEATER_DIR = DATA_DIR / "by-theater"
 
 
@@ -66,7 +66,6 @@ def compute_completeness(ev: dict) -> float:
                 score += weight
         elif field == "technical_sheet":
             if val and isinstance(val, dict) and len(val) > 0:
-                # Proporcional ao nº de chaves (max útil: 10)
                 score += weight * min(len(val) / 10, 1.0)
         elif field == "people":
             if val and len(val) > 0:
@@ -90,7 +89,34 @@ def get_next_session(ev: dict, today: str) -> str | None:
         future = [s for s in sessions if s.get("date", "") >= today]
         if future:
             return min(future, key=lambda s: s["date"])["date"]
-    return ev.get("date_start") if ev.get("date_start", "") >= today else None
+    date_start = ev.get("date_start", "")
+    return date_start if date_start >= today else None
+
+
+# ─────────────────────────────────────────────────────────────
+# Filtro de eventos futuros/activos
+# Um evento é considerado activo se:
+#   - tiver sessões futuras, OU
+#   - date_end >= hoje (está ainda em exibição), OU
+#   - não tiver date_end mas date_start >= hoje (estreia futura)
+# ─────────────────────────────────────────────────────────────
+
+def is_active(ev: dict, today: str) -> bool:
+    # 1. Tem sessões futuras
+    sessions = ev.get("sessions", [])
+    if sessions:
+        if any(s.get("date", "") >= today for s in sessions):
+            return True
+
+    date_end   = ev.get("date_end", "")
+    date_start = ev.get("date_start", "")
+
+    # 2. Ainda em exibição (tem date_end e ainda não terminou)
+    if date_end:
+        return date_end >= today
+
+    # 3. Sem date_end — usa date_start como proxy
+    return bool(date_start) and date_start >= today
 
 
 # ─────────────────────────────────────────────────────────────
@@ -105,6 +131,7 @@ SLIM_FIELDS = {
     "source_url", "ticket_url",
     "price_info", "price_min",
     "age_rating", "accessibility", "sessions",
+    "_stale", "_stale_since",  # propagados para o frontend poder identificar dados em cache
 }
 
 
@@ -189,7 +216,7 @@ def detect_anomalies(current_by_theater: dict[str, int], prev_meta_path: Path) -
 # ─────────────────────────────────────────────────────────────
 
 def build(events_path: Path = EVENTS_PATH) -> None:
-    t0 = datetime.now(timezone.utc)
+    t0    = datetime.now(timezone.utc)
     today = t0.date().isoformat()
 
     logger.info("=" * 55)
@@ -202,6 +229,7 @@ def build(events_path: Path = EVENTS_PATH) -> None:
 
     # ── Ler events.json ───────────────────────────────────────
     logger.info(f"A ler {events_path}…")
+    scraper_health: dict = {}
     try:
         raw = json.loads(events_path.read_text(encoding="utf-8"))
     except FileNotFoundError:
@@ -211,11 +239,11 @@ def build(events_path: Path = EVENTS_PATH) -> None:
         logger.warning(f"JSON inválido: {e} — a gerar data/ vazio")
         raw = []
 
-    # events.json pode ser lista ou dict com chave "events"
     if isinstance(raw, list):
         events = raw
     elif isinstance(raw, dict):
-        events = raw.get("events", [])
+        events        = raw.get("events", [])
+        scraper_health = raw.get("scraper_health", {})  # preservado do scraper.py se existir
     else:
         logger.warning("Formato inesperado de events.json — a continuar com lista vazia")
         events = []
@@ -223,7 +251,7 @@ def build(events_path: Path = EVENTS_PATH) -> None:
     logger.info(f"  {len(events)} eventos lidos")
 
     # ── Ler theaters.json ─────────────────────────────────────
-    theater_id_map: dict[str, str] = {}  # name → id
+    theater_id_map:   dict[str, str] = {}  # name → id
     theater_city_map: dict[str, str] = {}
     try:
         th_data = json.loads(THEATERS_PATH.read_text(encoding="utf-8"))
@@ -232,7 +260,7 @@ def build(events_path: Path = EVENTS_PATH) -> None:
             tid  = t.get("id", "")
             city = t.get("city", "")
             if name and tid:
-                theater_id_map[name] = tid
+                theater_id_map[name]   = tid
                 theater_city_map[name] = city
     except Exception as e:
         logger.warning(f"Não foi possível ler theaters.json: {e}")
@@ -250,13 +278,10 @@ def build(events_path: Path = EVENTS_PATH) -> None:
             ev["_meta"] = {}
         ev["_meta"]["completeness"] = compute_completeness(ev)
 
-    # ── Filtrar eventos futuros para artefactos slim/search ───
-    future_events = [
-        ev for ev in events
-        if (ev.get("next_session") or ev.get("date_start", "")) >= today
-        or (ev.get("date_end", "") >= today)
-    ]
-    logger.info(f"  {len(future_events)} eventos futuros/activos")
+    # ── Filtrar eventos futuros/activos ───────────────────────
+    future_events = [ev for ev in events if is_active(ev, today)]
+    stale_count   = sum(1 for ev in future_events if ev.get("_stale"))
+    logger.info(f"  {len(future_events)} eventos futuros/activos ({stale_count} em cache stale)")
 
     # ── data/events.json (cópia completa) ────────────────────
     out_events = DATA_DIR / "events.json"
@@ -268,7 +293,7 @@ def build(events_path: Path = EVENTS_PATH) -> None:
 
     # ── data/events.slim.json ─────────────────────────────────
     slim_events = [to_slim(ev, today) for ev in future_events]
-    out_slim = DATA_DIR / "events.slim.json"
+    out_slim    = DATA_DIR / "events.slim.json"
     out_slim.write_text(
         json.dumps(slim_events, ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
@@ -277,7 +302,7 @@ def build(events_path: Path = EVENTS_PATH) -> None:
 
     # ── data/search.json ──────────────────────────────────────
     search_index = [to_search(ev, today) for ev in future_events]
-    out_search = DATA_DIR / "search.json"
+    out_search   = DATA_DIR / "search.json"
     out_search.write_text(
         json.dumps(search_index, ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
@@ -288,9 +313,7 @@ def build(events_path: Path = EVENTS_PATH) -> None:
     by_theater: dict[str, list] = {}
     for ev in future_events:
         tid = ev.get("theater_id") or ev.get("theater", "unknown").lower().replace(" ", "-")
-        if tid not in by_theater:
-            by_theater[tid] = []
-        by_theater[tid].append(ev)
+        by_theater.setdefault(tid, []).append(ev)
 
     for tid, evs in by_theater.items():
         out_th = BY_THEATER_DIR / f"{tid}.json"
@@ -298,20 +321,16 @@ def build(events_path: Path = EVENTS_PATH) -> None:
             json.dumps(evs, ensure_ascii=False, indent=2),
             encoding="utf-8",
         )
-
     logger.info(f"  → {BY_THEATER_DIR}/ ({len(by_theater)} ficheiros)")
 
     # ── Estatísticas by_theater para meta.json ────────────────
-    by_theater_count = {
-        tid: len(evs) for tid, evs in by_theater.items()
-    }
+    by_theater_count = {tid: len(evs) for tid, evs in by_theater.items()}
 
-    # Nome do teatro em vez de ID para leitura humana
-    by_theater_named = {}
-    id_to_name = {v: k for k, v in theater_id_map.items()}
-    for tid, count in by_theater_count.items():
-        name = id_to_name.get(tid, tid)
-        by_theater_named[name] = count
+    id_to_name       = {v: k for k, v in theater_id_map.items()}
+    by_theater_named = {
+        id_to_name.get(tid, tid): count
+        for tid, count in by_theater_count.items()
+    }
 
     # ── Completeness médio ────────────────────────────────────
     completeness_avg = 0.0
@@ -330,6 +349,18 @@ def build(events_path: Path = EVENTS_PATH) -> None:
         for a in anomalies:
             logger.warning(f"     • {a}")
 
+    # ── Resumo de saúde dos scrapers (do validation_report.json) ──
+    # O scraper_health é lido directamente do events.json produzido pelo scraper.py.
+    # Aqui apenas o propagamos para o meta.json para consulta rápida no frontend.
+    health_summary = {
+        name: {
+            "status":      h.get("status"),
+            "stale_since": h.get("stale_since"),
+        }
+        for name, h in scraper_health.items()
+        if h.get("status") != "ok"
+    }
+
     # ── data/meta.json ────────────────────────────────────────
     build_version = t0.strftime("%Y%m%d-%H%M")
     meta = {
@@ -337,9 +368,11 @@ def build(events_path: Path = EVENTS_PATH) -> None:
         "build_version":    build_version,
         "total_events":     len(future_events),
         "total_theaters":   len(by_theater),
+        "stale_theaters":   stale_count,
         "by_theater":       by_theater_named,
         "completeness_avg": completeness_avg,
         "anomalies":        anomalies,
+        "scraper_health":   health_summary,  # apenas scrapers não-OK
     }
     out_meta = DATA_DIR / "meta.json"
     out_meta.write_text(
@@ -354,6 +387,7 @@ def build(events_path: Path = EVENTS_PATH) -> None:
     logger.info(f"Build concluído em {elapsed}s")
     logger.info(f"  Teatros:          {len(by_theater)}")
     logger.info(f"  Espectáculos:     {len(future_events)}")
+    logger.info(f"  Em cache (stale): {stale_count}")
     logger.info(f"  Completeness avg: {completeness_avg}")
     logger.info(f"  Anomalias:        {len(anomalies)}")
     logger.info("=" * 55)
