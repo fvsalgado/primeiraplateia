@@ -123,7 +123,7 @@
 .destaques-header .section-label{font-size:var(--text-xs);font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--text-muted);cursor:pointer;white-space:nowrap}
 .cat-selector{max-width:var(--max-w);margin:0 auto var(--space-4);display:flex;align-items:center;gap:var(--space-2);overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding-bottom:2px}
 .cat-selector::-webkit-scrollbar{display:none}
-.cat-selector-btn{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:var(--space-2) var(--space-4);border-radius:var(--radius-full);border:1.5px solid var(--surface-divider);background:var(--surface-card);color:var(--text-muted);cursor:pointer;transition:all var(--transition-fast);white-space:nowrap;font-family:inherit;flex-shrink:0}
+.cat-selector-btn{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:var(--space-2) var(--space-4);border-radius:var(--radius-full);border:1.5px solid var(--surface-divider);background:var(--surface-card);color:var(--text-primary);cursor:pointer;transition:all var(--transition-fast);white-space:nowrap;font-family:inherit;flex-shrink:0}
 .cat-selector-btn:hover{border-color:var(--color-primary);color:var(--color-primary)}
 .cat-selector-btn.active{color:#fff;border-color:transparent}
 .cat-selector-btn .cat-icon{font-size:14px;line-height:1}
@@ -597,16 +597,20 @@ window._scrollToDestaques=function(){
 };
 
 // ── Render selector de categorias ────────────────────────────
-function renderCatSelector(byCat){
+function renderCatSelector(todayEvents){
   var sel=document.getElementById('cat-selector');if(!sel)return;
-  var cats=Object.entries(byCat).filter(function(c){return c[0]!=='Outro'&&c[1]>0;}).sort(function(a,b){return b[1]-a[1];});
-  // Botão "Todos" + uma por categoria
+  // Contar categorias presentes hoje (excluir Outro)
+  var todayCats={};
+  todayEvents.forEach(function(e){
+    if(e.category&&e.category!=='Outro')todayCats[e.category]=(todayCats[e.category]||0)+1;
+  });
+  var cats=Object.entries(todayCats).sort(function(a,b){return b[1]-a[1];});
+  if(!cats.length){sel.hidden=true;return;}
   var html='<button class="cat-selector-btn active" data-cat="" role="tab" aria-selected="true" style="background:var(--color-primary);border-color:var(--color-primary);color:#fff">Todos</button>';
   html+=cats.map(function(c){
     var m=CAT_META[c[0]]||{icon:'\uD83C\uDF9F',color:'#6B7280'};
     return '<button class="cat-selector-btn" data-cat="'+c[0]+'" role="tab" aria-selected="false"><span class="cat-icon">'+m.icon+'</span>'+c[0]+'</button>';
   }).join('');
-  html+='<a class="cat-selector-ver-todos" href="programacao/" id="cat-sel-ver-todos">Ver todos →</a>';
   sel.innerHTML=html;
   sel.querySelectorAll('.cat-selector-btn').forEach(function(b){
     b.addEventListener('click',function(){selectCat(b.dataset.cat);});
@@ -669,7 +673,15 @@ async function init(){
 
   // Render tudo
   renderHeroCats(byCat);
-  renderCatSelector(byCat);
+  // Calcular eventos de hoje para o selector
+  var todayStr=new Date().toISOString().slice(0,10);
+  var eventsToday=allEventsRaw.filter(function(e){
+    var ss=e.sessions||[];
+    if(ss.length)return ss.some(function(s){return s.date===todayStr;});
+    var ds=e.date_start||'',de=e.date_end||ds;
+    return ds<=todayStr&&todayStr<=de;
+  });
+  renderCatSelector(eventsToday);
   renderCities(byTheater,theaters);
   renderTheaters(byTheater,theaters);
   populateFab(meta,theaters);
