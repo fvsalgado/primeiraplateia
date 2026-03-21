@@ -1,42 +1,5 @@
 [
   {
-    "id": "teatrodasfiguras-o-figurante",
-    "title": "O Figurante",
-    "subtitle": "Com Mateus Solano",
-    "theater": "Teatro das Figuras",
-    "category": "Teatro",
-    "dates_label": "20 Mar 2026",
-    "date_start": "2026-03-20",
-    "date_end": "2026-03-20",
-    "sessions": [
-      {
-        "date": "2026-03-20",
-        "time": "21:30",
-        "weekday": "Sex"
-      }
-    ],
-    "schedule": "21h30",
-    "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
-    "image": {
-      "url": "https://teatrodasfiguras.pt/uploads/Eventos/2026/Mar%C3%A7o/O_Figurante_MINIATURA.jpg?file=vgdJ_74-VPsYQj70TdFUYQ",
-      "credit": null,
-      "source": "https://teatrodasfiguras.pt/agenda/o-figurante",
-      "theater": "Teatro das Figuras"
-    },
-    "source_url": "https://teatrodasfiguras.pt/agenda/o-figurante",
-    "ticket_url": "",
-    "price_info": "",
-    "duration": "",
-    "age_rating": "",
-    "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
-    "theater_id": "teatrodasfiguras",
-    "city": "Faro",
-    "_meta": {
-      "completeness": 0.45
-    }
-  },
-  {
     "id": "teatrodasfiguras-para-so-meu-para-so",
     "title": "Paraíso, Meu Paraíso",
     "subtitle": "de Lígia Soares",
@@ -66,7 +29,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "scraped_at": "2026-03-21T00:05:20.224952+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -103,7 +66,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "scraped_at": "2026-03-21T00:05:20.224952+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -140,7 +103,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "scraped_at": "2026-03-21T00:05:20.224952+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -177,7 +140,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "scraped_at": "2026-03-21T00:05:20.224952+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -214,7 +177,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "scraped_at": "2026-03-21T00:05:20.224952+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -251,7 +214,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "scraped_at": "2026-03-21T00:05:20.224952+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -288,7 +251,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "scraped_at": "2026-03-21T00:05:20.224952+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -330,7 +293,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "scraped_at": "2026-03-21T00:05:20.224952+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -367,7 +330,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "scraped_at": "2026-03-21T00:05:20.224952+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -404,7 +367,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "scraped_at": "2026-03-21T00:05:20.224952+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -441,7 +404,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "scraped_at": "2026-03-21T00:05:20.224952+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -478,7 +441,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "scraped_at": "2026-03-21T00:05:20.224952+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -515,7 +478,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "scraped_at": "2026-03-21T00:05:20.224952+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -552,7 +515,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "scraped_at": "2026-03-21T00:05:20.224952+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -589,7 +552,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "scraped_at": "2026-03-21T00:05:20.224952+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -636,7 +599,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "scraped_at": "2026-03-21T00:05:20.224952+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -678,7 +641,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "scraped_at": "2026-03-21T00:05:20.224952+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -715,7 +678,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "scraped_at": "2026-03-21T00:05:20.224952+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -762,7 +725,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "scraped_at": "2026-03-21T00:05:20.224952+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
@@ -799,7 +762,7 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-20T23:57:02.275642+00:00",
+    "scraped_at": "2026-03-21T00:05:20.224952+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
     "_meta": {
