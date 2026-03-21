@@ -114,12 +114,12 @@
 
 /* DESTAQUES */
 .section-destaques{padding:var(--space-10) var(--space-12);background:var(--surface-bg-2);border-top:1px solid var(--surface-card-border)}
-.destaques-header{max-width:var(--max-w);margin:0 auto var(--space-4);display:flex;align-items:center;justify-content:space-between;gap:var(--space-4);flex-wrap:wrap}
+.destaques-header{max-width:var(--max-w);margin:0 auto var(--space-3);display:flex;align-items:center;justify-content:space-between;gap:var(--space-4);flex-wrap:nowrap}
 .destaques-title-link{text-decoration:none;color:inherit;display:block}
 .destaques-title-link:hover .section-h2 em{text-decoration:underline;text-decoration-color:var(--color-accent)}
 
 /* Selector de categoria */
-.cat-selector{max-width:var(--max-w);margin:0 auto var(--space-6);display:flex;align-items:center;gap:var(--space-2);overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding-bottom:2px}
+.cat-selector{max-width:var(--max-w);margin:0 auto var(--space-4);display:flex;align-items:center;gap:var(--space-2);overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding-bottom:2px}
 .cat-selector::-webkit-scrollbar{display:none}
 .cat-selector-btn{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:var(--space-2) var(--space-4);border-radius:var(--radius-full);border:1.5px solid var(--surface-divider);background:var(--surface-card);color:var(--text-muted);cursor:pointer;transition:all var(--transition-fast);white-space:nowrap;font-family:inherit;flex-shrink:0}
 .cat-selector-btn:hover{border-color:var(--color-primary);color:var(--color-primary)}
@@ -320,12 +320,11 @@
   <!-- DESTAQUES POR CATEGORIA -->
   <section class="section-destaques" aria-labelledby="destaques-title">
     <div class="destaques-header">
-      <p class="section-label" aria-hidden="true">Em cena</p>
-      <a href="programacao/" class="btn btn-outline" id="destaques-ver-todos" aria-label="Ver toda a programação">Ver tudo →</a>
+      <a href="programacao/" style="text-decoration:none;flex-shrink:0" aria-label="Ver programação">
+        <p class="section-label" style="cursor:pointer">Em cena →</p>
+      </a>
+      <div class="cat-selector" id="cat-selector" role="tablist" aria-label="Filtrar por categoria" style="margin:0;max-width:none;flex:1;min-width:0"></div>
     </div>
-
-    <!-- Selector de categoria -->
-    <div class="cat-selector" id="cat-selector" role="tablist" aria-label="Filtrar por categoria"></div>
 
     <div class="destaques-grid" id="destaques-grid" role="list" aria-live="polite" aria-label="Espectáculos em destaque">
       <div class="ev-card ev-card-skeleton" aria-hidden="true"><div class="ev-card-img skeleton"></div><div class="ev-card-body" style="gap:var(--space-2)"><div class="skeleton" style="height:10px;width:60%;border-radius:var(--radius-full)"></div><div class="skeleton" style="height:18px;width:90%;border-radius:var(--radius-sm)"></div><div class="skeleton" style="height:12px;width:80%;border-radius:var(--radius-sm)"></div></div></div>
@@ -671,8 +670,7 @@ async function init(){
   // Activar a categoria com mais eventos por defeito
   var topCat='';
   var cats=Object.entries(byCat).filter(function(c){return c[0]!=='Outro'&&c[1]>0;}).sort(function(a,b){return b[1]-a[1];});
-  if(cats.length)topCat=cats[0][0];
-  selectCat(topCat);
+  selectCat('');
 }
 
 document.getElementById('footer-year').textContent=new Date().getFullYear();
