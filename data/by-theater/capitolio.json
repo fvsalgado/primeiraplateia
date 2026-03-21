@@ -40,6 +40,8 @@
     "duration_min": 120,
     "age_min": 12,
     "scraped_at": "2026-03-21T01:59:10.019518+00:00",
+    "_stale": true,
+    "_stale_since": "2026-03-21",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -92,6 +94,8 @@
     "duration_min": 50,
     "age_min": 6,
     "scraped_at": "2026-03-21T01:59:10.019518+00:00",
+    "_stale": true,
+    "_stale_since": "2026-03-21",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -134,6 +138,8 @@
     "duration_min": 150,
     "age_min": 6,
     "scraped_at": "2026-03-21T01:59:10.019518+00:00",
+    "_stale": true,
+    "_stale_since": "2026-03-21",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -179,6 +185,8 @@
     "duration_min": 120,
     "age_min": 16,
     "scraped_at": "2026-03-21T01:59:10.019518+00:00",
+    "_stale": true,
+    "_stale_since": "2026-03-21",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -241,6 +249,8 @@
     "duration_min": 90,
     "age_min": 351,
     "scraped_at": "2026-03-21T01:59:10.019518+00:00",
+    "_stale": true,
+    "_stale_since": "2026-03-21",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -288,6 +298,8 @@
     "duration_min": 105,
     "age_min": 351,
     "scraped_at": "2026-03-21T01:59:10.019518+00:00",
+    "_stale": true,
+    "_stale_since": "2026-03-21",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
