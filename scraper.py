@@ -12,12 +12,19 @@ Fallback de cache:
     são descartados mesmo que ainda não tenham expirado.
   - Eventos expirados (date_end ou date_start < hoje) são sempre descartados
     do cache, independentemente de qualquer outro critério.
+
+Paralelismo:
+  - Os scrapers correm em paralelo via ThreadPoolExecutor (max_workers=4).
+  - O acesso a raw_events é protegido por um threading.Lock.
+  - O logging é thread-safe por design (stdlib).
 """
 import hashlib
 import json
 import logging
 import sys
 import time
+import threading
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date, datetime, timezone, timedelta
 from pathlib import Path
 
@@ -41,7 +48,8 @@ logger = logging.getLogger("primeiraplateia")
 # Constantes
 # ─────────────────────────────────────────────────────────────
 
-STALE_MAX_DAYS = 120  # dias máximos de cache antes de descartar
+STALE_MAX_DAYS  = 120   # dias máximos de cache antes de descartar
+SCRAPER_WORKERS = 4     # scrapers em paralelo (conservador — respeita servidores)
 
 # ─────────────────────────────────────────────────────────────
 # Scrapers activos
@@ -123,7 +131,7 @@ def filter_cache_for_theater(
 
     Devolve (eventos_válidos, n_descartados).
     """
-    kept   = []
+    kept    = []
     dropped = 0
 
     for ev in cached_events:
@@ -144,14 +152,12 @@ def filter_cache_for_theater(
                     dropped += 1
                     continue
             except ValueError:
-                pass  # formato inesperado — mantém o evento
+                pass
 
         # 3. Marcar como stale (preserva _stale_since se já existir)
-        ev = dict(ev)  # cópia para não mutar o original
+        ev = dict(ev)
         ev["_stale"] = True
         if not ev.get("_stale_since"):
-            # Primeira vez que fica stale — regista hoje como último sucesso conhecido
-            # (aproximação conservadora: não sabemos exactamente quando foi o último sucesso)
             ev["_stale_since"] = today.isoformat()
 
         kept.append(ev)
@@ -212,6 +218,69 @@ def deduplicate(events: list[dict]) -> tuple[list[dict], list[dict]]:
 
 
 # ─────────────────────────────────────────────────────────────
+# Execução de um scraper individual (usado pelo executor)
+# ─────────────────────────────────────────────────────────────
+
+def _run_scraper(
+    name: str,
+    fn: callable,
+    previous_by_theater: dict[str, list[dict]],
+    today: date,
+) -> tuple[str, list[dict], dict]:
+    """
+    Corre um scraper e devolve (name, eventos, health_dict).
+    Nunca lança excepção — erros são capturados e transformados em cache/empty.
+    """
+    try:
+        evs = fn()
+    except Exception as e:
+        logger.error(f"  ERRO {name}: {e}", exc_info=True)
+        evs = []
+        exception_msg = str(e)
+    else:
+        exception_msg = None
+
+    if len(evs) > 0:
+        for ev in evs:
+            ev.pop("_stale", None)
+            ev.pop("_stale_since", None)
+        health = {
+            "status":           "ok",
+            "events_collected": len(evs),
+        }
+        logger.info(f"  OK   {name}: {len(evs)} eventos raw")
+        return name, evs, health
+
+    # Scraper falhou ou devolveu 0 — tentar cache
+    reason = "exception" if exception_msg else "zero_results"
+    cached = previous_by_theater.get(name, [])
+
+    if cached:
+        kept, dropped = filter_cache_for_theater(cached, today)
+        health = {
+            "status":                   "stale",
+            "reason":                   reason,
+            "exception":                exception_msg,
+            "events_from_cache":        len(kept),
+            "events_expired_discarded": dropped,
+            "stale_since":              kept[0].get("_stale_since") if kept else None,
+        }
+        logger.warning(
+            f"  STALE {name}: {reason} — {len(kept)} eventos de cache "
+            f"({dropped} expirados descartados)"
+        )
+        return name, kept, health
+    else:
+        health = {
+            "status":    "empty",
+            "reason":    reason,
+            "exception": exception_msg,
+        }
+        logger.warning(f"  VAZIO {name}: {reason} — sem cache disponível")
+        return name, [], health
+
+
+# ─────────────────────────────────────────────────────────────
 # Pipeline principal
 # ─────────────────────────────────────────────────────────────
 
@@ -221,72 +290,50 @@ def run() -> None:
 
     logger.info("=" * 55)
     logger.info("Primeira Plateia — início do scraping")
+    logger.info(f"  Scrapers: {len(SCRAPERS)} | Workers: {SCRAPER_WORKERS}")
     logger.info("=" * 55)
 
     # ── 0. Carregar cache (events.json anterior) ───────────────
     previous_by_theater = load_previous_events()
 
-    # ── 1. Recolha ────────────────────────────────────────────
-    raw_events: list[dict] = []
-
-    # Estado de saúde por scraper (para o relatório final)
+    # ── 1. Recolha em paralelo ────────────────────────────────
+    raw_events: list[dict]       = []
     scraper_health: dict[str, dict] = {}
     scraper_stats:  dict[str, int]  = {}
 
+    # Lock para proteger raw_events (acesso de múltiplas threads)
+    lock = threading.Lock()
+
+    # Preservar a ordem de inserção dos resultados (para o sumário)
+    # usando um índice por nome
+    results_by_name: dict[str, tuple[list[dict], dict]] = {}
+
+    with ThreadPoolExecutor(max_workers=SCRAPER_WORKERS) as executor:
+        futures = {
+            executor.submit(_run_scraper, name, fn, previous_by_theater, today): name
+            for name, fn in SCRAPERS
+        }
+
+        for future in as_completed(futures):
+            name = futures[future]
+            try:
+                returned_name, evs, health = future.result()
+            except Exception as e:
+                # Segurança extra — _run_scraper nunca devia lançar, mas por via das dúvidas
+                logger.error(f"  ERRO INESPERADO {name}: {e}", exc_info=True)
+                evs    = []
+                health = {"status": "empty", "reason": "unexpected_exception", "exception": str(e)}
+                returned_name = name
+
+            with lock:
+                results_by_name[returned_name] = (evs, health)
+
+    # Reconstruir raw_events na ordem original de SCRAPERS (para deduplicação determinística)
     for name, fn in SCRAPERS:
-        try:
-            evs = fn()
-        except Exception as e:
-            logger.error(f"  ERRO {name}: {e}", exc_info=True)
-            evs = []
-            exception_msg = str(e)
-        else:
-            exception_msg = None
-
-        if len(evs) > 0:
-            # Scraper bem-sucedido — limpa flag stale nos eventos novos
-            for ev in evs:
-                ev.pop("_stale", None)
-                ev.pop("_stale_since", None)
-            raw_events.extend(evs)
-            scraper_stats[name] = len(evs)
-            scraper_health[name] = {
-                "status":           "ok",
-                "events_collected": len(evs),
-            }
-            logger.info(f"  OK   {name}: {len(evs)} eventos raw")
-
-        else:
-            # Scraper falhou ou devolveu 0 — tentar cache
-            reason = "exception" if exception_msg else "zero_results"
-            cached = previous_by_theater.get(name, [])
-
-            if cached:
-                kept, dropped = filter_cache_for_theater(cached, today)
-                raw_events.extend(kept)
-                scraper_stats[name] = len(kept)
-                scraper_health[name] = {
-                    "status":                  "stale",
-                    "reason":                  reason,
-                    "exception":               exception_msg,
-                    "events_from_cache":       len(kept),
-                    "events_expired_discarded": dropped,
-                    "stale_since":             (
-                        kept[0].get("_stale_since") if kept else None
-                    ),
-                }
-                logger.warning(
-                    f"  STALE {name}: {reason} — {len(kept)} eventos de cache "
-                    f"({dropped} expirados descartados)"
-                )
-            else:
-                scraper_stats[name] = 0
-                scraper_health[name] = {
-                    "status":    "empty",
-                    "reason":    reason,
-                    "exception": exception_msg,
-                }
-                logger.warning(f"  VAZIO {name}: {reason} — sem cache disponível")
+        evs, health = results_by_name.get(name, ([], {"status": "empty", "reason": "missing"}))
+        raw_events.extend(evs)
+        scraper_health[name] = health
+        scraper_stats[name]  = len(evs)
 
     logger.info(f"\nTotal raw: {len(raw_events)}")
 
@@ -333,21 +380,24 @@ def run() -> None:
     )
 
     # ── 8. Sumário final ──────────────────────────────────────
-    elapsed      = round(time.time() - t0, 1)
-    stale_count  = sum(1 for h in scraper_health.values() if h["status"] == "stale")
-    empty_count  = sum(1 for h in scraper_health.values() if h["status"] == "empty")
+    elapsed     = round(time.time() - t0, 1)
+    stale_count = sum(1 for h in scraper_health.values() if h["status"] == "stale")
+    empty_count = sum(1 for h in scraper_health.values() if h["status"] == "empty")
 
     logger.info(f"\nevents.json: {len(valid_events)} eventos válidos em {elapsed}s")
     logger.info("─" * 40)
     for name, count in scraper_stats.items():
-        health  = scraper_health.get(name, {})
-        status  = health.get("status", "ok")
-        suffix  = f" [STALE — {health.get('reason', '')}]" if status == "stale" else \
-                  f" [VAZIO — {health.get('reason', '')}]" if status == "empty" else ""
+        health = scraper_health.get(name, {})
+        status = health.get("status", "ok")
+        suffix = (
+            f" [STALE — {health.get('reason', '')}]" if status == "stale" else
+            f" [VAZIO — {health.get('reason', '')}]" if status == "empty" else ""
+        )
         logger.info(f"  {name:<40} {count:>3} eventos{suffix}")
     logger.info(f"\n  Scrapers OK:               {len(scraper_health) - stale_count - empty_count}")
     logger.info(f"  Scrapers em cache (stale): {stale_count}")
     logger.info(f"  Scrapers sem dados:        {empty_count}")
+    logger.info(f"  Workers usados:            {SCRAPER_WORKERS}")
     logger.info(f"  Duplicados removidos:      {len(duplicates)}")
     logger.info(f"  Rejeitados pela validação: {report['total_rejected']}")
     logger.info(f"  Com avisos:                {report['total_warnings']}")
