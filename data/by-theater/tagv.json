@@ -45,7 +45,7 @@
         "weekday": "Sáb"
       }
     ],
-    "scraped_at": "2026-03-21T15:34:31.002870+00:00",
+    "scraped_at": "2026-03-21T21:54:21.630858+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "_meta": {
@@ -90,7 +90,7 @@
         "weekday": "Sáb"
       }
     ],
-    "scraped_at": "2026-03-21T15:34:31.002870+00:00",
+    "scraped_at": "2026-03-21T21:54:21.630858+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "_meta": {
@@ -131,7 +131,7 @@
       "com programação na cidade de Aveiro. Data 24 - 27",
       "Março 2026 Horário — Duração — Faixa etária — Preço — Local Coimbra"
     ],
-    "scraped_at": "2026-03-21T15:34:31.002870+00:00",
+    "scraped_at": "2026-03-21T21:54:21.630858+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "_meta": {
@@ -187,7 +187,7 @@
         "weekday": "Ter"
       }
     ],
-    "scraped_at": "2026-03-21T15:34:31.002870+00:00",
+    "scraped_at": "2026-03-21T21:54:21.630858+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "_meta": {
@@ -245,180 +245,11 @@
         "weekday": "Ter"
       }
     ],
-    "scraped_at": "2026-03-21T15:34:31.002870+00:00",
+    "scraped_at": "2026-03-21T21:54:21.630858+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "_meta": {
       "completeness": 0.92
-    }
-  },
-  {
-    "id": "tagv-kik-nightshift",
-    "title": "KIK: Nightshift",
-    "theater": "TAGV — Teatro Académico Gil Vicente",
-    "category": "Teatro",
-    "date_start": "2026-03-24",
-    "source_url": "https://tagv.pt/agenda/festival-end-souvenir/",
-    "dates_label": "24 mar 2026",
-    "synopsis": "Em SOUVENIR Tiago Cadete parte dos movimentos de migração portuguesa para França, na segunda metade do século XX, para investigar a história pouco conhecida da migração da sua família paterna. O que não esperava era que SOUVENIR se tornasse num confronto consigo mesmo e com o seu próprio passado.",
-    "image": {
-      "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-festival-end-souvenir-souvenir-divulgacao-horizontal-2026-dr.jpg",
-      "credit": null,
-      "source": "https://tagv.pt/agenda/festival-end-souvenir/",
-      "theater": "TAGV — Teatro Académico Gil Vicente"
-    },
-    "ticket_url": "https://tagv.bol.pt",
-    "duration": "16h00",
-    "duration_min": 960,
-    "technical_sheet": {
-      "música": "KIK: Nightshift Cinema La Cicatrice Intérieure + Athanor Teatro Festival END Teatro Festival END:",
-      "dramaturgia": "Contemporânea. Processos de",
-      "produção": "com o Teatro Académico de Gil Vicente, e Aveiro, com o Teatro Aveirense. O festival assinala o Dia Mundial do Teatro, a 27 de março, com programação na cidade de Aveiro. Data 24, Março 2026 Horário 16H00 Duração 1h30 Faixa etária M12 Preço entrada gratuita Local Teatro da Cerca de São Bernardo Criaç",
-      "apoio": "à",
-      "som": "Lurdes Osswald",
-      "figurinos": "Carlota Lagido",
-      "direção": "artística Mickaël de Oliveira Assistente de"
-    },
-    "people": [
-      "artística Mickaël de Oliveira Assistente de",
-      "Contemporânea. Processos de",
-      "Carlota Lagido",
-      "Lurdes Osswald",
-      "KIK: Nightshift Cinema La Cicatrice Intérieure + Athanor Teatro Festival END Teatro Festival END:",
-      "com o Teatro Académico de Gil Vicente",
-      "Aveiro",
-      "com o Teatro Aveirense. O festival assinala o Dia Mundial do Teatro",
-      "a 27 de março",
-      "com programação na cidade de Aveiro. Data 24",
-      "Março 2026 Horário 16H00 Duração 1h30 Faixa etária M12 Preço entrada gratuita Local Teatro da Cerca de São Bernardo Criaç"
-    ],
-    "sessions": [
-      {
-        "date": "2026-03-24",
-        "time": "16:00",
-        "weekday": "Ter"
-      }
-    ],
-    "scraped_at": "2026-03-21T15:34:31.002870+00:00",
-    "theater_id": "tagv",
-    "city": "Coimbra",
-    "_meta": {
-      "completeness": 0.84
-    }
-  },
-  {
-    "id": "tagv-festival-end",
-    "title": "Festival END",
-    "theater": "TAGV — Teatro Académico Gil Vicente",
-    "category": "Teatro",
-    "date_start": "2026-03-24",
-    "source_url": "https://tagv.pt/agenda/festival-end-partes-sensiveis/",
-    "dates_label": "24 mar 2026",
-    "synopsis": "Aos primeiros anfiteatros, onde se estudou o corpo humano, na Europa, deu-se o nome de teatro anatómico. Ali, onde se deram a ver as primeiras dissecações, revelaram-se maravilhas sobre o interior do corpo.…",
-    "image": {
-      "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-festival-end-partes-sensiveis-partes-sensiveis-beatriz-pequeno.jpg",
-      "credit": null,
-      "source": "https://tagv.pt/agenda/festival-end-partes-sensiveis/",
-      "theater": "TAGV — Teatro Académico Gil Vicente"
-    },
-    "ticket_url": "https://tagv.bol.pt",
-    "duration": "21h30",
-    "duration_min": 1290,
-    "technical_sheet": {
-      "dramaturgia": "Contemporânea. Processos de",
-      "música": "Teatro Festival END: Souvenir Teatro Festival END: ESTALEIRO Almada/Oroz Teatro Festival END: Partes Sensíveis Teatro Festival END: Reparations Baby! Teatro Festival END: Julieta & Romeu. Uma Peça Para Um Par de Desditos Amantes Teatro Festival END: A Cavalo Dado Clube de Leitura Leituras Indiscipli",
-      "produção": "com o Teatro Académico de Gil Vicente, e Aveiro, com o Teatro Aveirense. O festival assinala o Dia Mundial do Teatro, a 27 de março, com programação na cidade de Aveiro. Data 24, Março 2026 Horário 21H30 Duração 1h10 Faixa etária M12 Preço €5 Local TAGV Criação",
-      "texto": "e",
-      "interpretação": "David Marques e Nuno Pinheiro Assistência de ensaios Francisco Rolo Espaço cenográfico e luzes Tiago Cadete",
-      "som": "Gonçalo Alegria",
-      "figurinos": "Marisa Escaleira Fotografias para impressão em tecidos Tamara Seilman",
-      "direção": "técnica Ricardo Pimentel Acompanhamento crítico João Manuel de Oliveira Olhar exterior (Campus Paulo Cunha e Silva) José Maria Vieira Mendes",
-      "apoio": "à comunicação Inês Melo"
-    },
-    "cast": [
-      "David Marques",
-      "Nuno Pinheiro Assistência de ensaios Francisco Rolo Espaço cenográfico",
-      "luzes Tiago Cadete"
-    ],
-    "people": [
-      "técnica Ricardo Pimentel Acompanhamento crítico João Manuel de Oliveira Olhar exterior (Campus Paulo Cunha",
-      "Silva) José Maria Vieira Mendes",
-      "Contemporânea. Processos de",
-      "Marisa Escaleira Fotografias para impressão em tecidos Tamara Seilman",
-      "Gonçalo Alegria",
-      "Teatro Festival END: Souvenir Teatro Festival END: ESTALEIRO Almada/Oroz Teatro Festival END: Partes Sensíveis Teatro Festival END: Reparations Baby! Teatro Festival END: Julieta & Romeu. Uma Peça Para Um Par de Desditos Amantes Teatro Festival END: A Cavalo Dado Clube de Leitura Leituras Indiscipli",
-      "David Marques",
-      "Nuno Pinheiro Assistência de ensaios Francisco Rolo Espaço cenográfico",
-      "luzes Tiago Cadete",
-      "com o Teatro Académico de Gil Vicente",
-      "Aveiro",
-      "com o Teatro Aveirense. O festival assinala o Dia Mundial do Teatro",
-      "a 27 de março",
-      "com programação na cidade de Aveiro. Data 24",
-      "Março 2026 Horário 21H30 Duração 1h10 Faixa etária M12 Preço €5 Local TAGV Criação"
-    ],
-    "sessions": [
-      {
-        "date": "2026-03-24",
-        "time": "21:30",
-        "weekday": "Ter"
-      }
-    ],
-    "scraped_at": "2026-03-21T15:34:31.002870+00:00",
-    "theater_id": "tagv",
-    "city": "Coimbra",
-    "_meta": {
-      "completeness": 0.88
-    }
-  },
-  {
-    "id": "tagv-festival-end-julieta-romeu-uma-pe-a-para-um-par-de",
-    "title": "Festival END: Julieta & Romeu. Uma Peça Para Um Par de Desditos Amantes",
-    "theater": "TAGV — Teatro Académico Gil Vicente",
-    "category": "Teatro",
-    "date_start": "2026-03-25",
-    "source_url": "https://tagv.pt/agenda/festival-end-dramaturgia-contemporanea-processo-de-composicao/",
-    "dates_label": "25 mar 2026",
-    "synopsis": "Pensados como espaços de partilha e escuta ativa, estes encontros tomam os processos de composição dramatúrgica como ponto de partida para a conversa, privilegiando a reflexão sobre modos de escrita, decisões formais, contextos de criação e relações com a cena.…",
-    "image": {
-      "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-festival-end-dramaturgia-contemporanea-processo-de-composicao-seminariopatricia-portelathomaslangdon.jpg",
-      "credit": null,
-      "source": "https://tagv.pt/agenda/festival-end-dramaturgia-contemporanea-processo-de-composicao/",
-      "theater": "TAGV — Teatro Académico Gil Vicente"
-    },
-    "ticket_url": "https://tagv.bol.pt",
-    "duration": "11h00",
-    "duration_min": 660,
-    "technical_sheet": {
-      "dramaturgia": "Contemporânea. Processo de",
-      "música": "| TAGV Menu Início Agenda O TAGV Laboratório LIPA Aluguer Espaços Bilheteira Praça da República 3000-343 Coimbra | Bilheteira Online: tagv.bol.pt | 239 855 636 (Chamada para a rede fixa nacional) teatro@tagv.uc.pt Teatro Festival END: Julieta & Romeu. Uma Peça Para Um Par de Desditos Amantes Teatro",
-      "produção": "com o Teatro Académico de Gil Vicente, e Aveiro, com o Teatro Aveirense. O festival assinala o Dia Mundial do Teatro, a 27 de março, com programação na cidade de Aveiro. Data 25, Março 2026 Horário 11H00 Duração 1h30 Faixa etária M12 Preço entrada gratuita Local Teatro-Estúdio CITAC Fotografia Thoma",
-      "direção": "artística Mickaël de Oliveira Assistente de",
-      "apoio": "à comunicação Inês Melo"
-    },
-    "people": [
-      "artística Mickaël de Oliveira Assistente de",
-      "Contemporânea. Processo de",
-      "| TAGV Menu Início Agenda O TAGV Laboratório LIPA Aluguer Espaços Bilheteira Praça da República 3000-343 Coimbra | Bilheteira Online: tagv.bol.pt | 239 855 636 (Chamada para a rede fixa nacional) teatro@tagv.uc.pt Teatro Festival END: Julieta & Romeu. Uma Peça Para Um Par de Desditos Amantes Teatro",
-      "com o Teatro Académico de Gil Vicente",
-      "Aveiro",
-      "com o Teatro Aveirense. O festival assinala o Dia Mundial do Teatro",
-      "a 27 de março",
-      "com programação na cidade de Aveiro. Data 25",
-      "Março 2026 Horário 11H00 Duração 1h30 Faixa etária M12 Preço entrada gratuita Local Teatro-Estúdio CITAC Fotografia Thoma"
-    ],
-    "sessions": [
-      {
-        "date": "2026-03-25",
-        "time": "11:00",
-        "weekday": "Qua"
-      }
-    ],
-    "scraped_at": "2026-03-21T15:34:31.002870+00:00",
-    "theater_id": "tagv",
-    "city": "Coimbra",
-    "_meta": {
-      "completeness": 0.8
     }
   },
   {
@@ -482,7 +313,7 @@
         "weekday": "Qua"
       }
     ],
-    "scraped_at": "2026-03-21T15:34:31.002870+00:00",
+    "scraped_at": "2026-03-21T21:54:21.630858+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "_meta": {
@@ -538,7 +369,7 @@
         "weekday": "Qua"
       }
     ],
-    "scraped_at": "2026-03-21T15:34:31.002870+00:00",
+    "scraped_at": "2026-03-21T21:54:21.630858+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "_meta": {
@@ -588,7 +419,7 @@
         "weekday": "Qua"
       }
     ],
-    "scraped_at": "2026-03-21T15:34:31.002870+00:00",
+    "scraped_at": "2026-03-21T21:54:21.630858+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "_meta": {
@@ -655,7 +486,7 @@
         "weekday": "Qua"
       }
     ],
-    "scraped_at": "2026-03-21T15:34:31.002870+00:00",
+    "scraped_at": "2026-03-21T21:54:21.630858+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "_meta": {
@@ -706,7 +537,7 @@
         "weekday": "Qui"
       }
     ],
-    "scraped_at": "2026-03-21T15:34:31.002870+00:00",
+    "scraped_at": "2026-03-21T21:54:21.630858+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "_meta": {
@@ -758,7 +589,7 @@
         "weekday": "Qui"
       }
     ],
-    "scraped_at": "2026-03-21T15:34:31.002870+00:00",
+    "scraped_at": "2026-03-21T21:54:21.630858+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "_meta": {
@@ -825,7 +656,7 @@
         "weekday": "Qui"
       }
     ],
-    "scraped_at": "2026-03-21T15:34:31.002870+00:00",
+    "scraped_at": "2026-03-21T21:54:21.630858+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "_meta": {
@@ -871,7 +702,7 @@
         "weekday": "Qui"
       }
     ],
-    "scraped_at": "2026-03-21T15:34:31.002870+00:00",
+    "scraped_at": "2026-03-21T21:54:21.630858+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "_meta": {
@@ -912,7 +743,7 @@
         "weekday": "Sex"
       }
     ],
-    "scraped_at": "2026-03-21T15:34:31.002870+00:00",
+    "scraped_at": "2026-03-21T21:54:21.630858+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "_meta": {
@@ -953,7 +784,7 @@
         "weekday": "Sáb"
       }
     ],
-    "scraped_at": "2026-03-21T15:34:31.002870+00:00",
+    "scraped_at": "2026-03-21T21:54:21.630858+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "_meta": {
@@ -994,7 +825,7 @@
         "weekday": "Sáb"
       }
     ],
-    "scraped_at": "2026-03-21T15:34:31.002870+00:00",
+    "scraped_at": "2026-03-21T21:54:21.630858+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "_meta": {
@@ -1035,7 +866,7 @@
         "weekday": "Seg"
       }
     ],
-    "scraped_at": "2026-03-21T15:34:31.002870+00:00",
+    "scraped_at": "2026-03-21T21:54:21.630858+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "_meta": {
@@ -1070,7 +901,7 @@
         "weekday": "Seg"
       }
     ],
-    "scraped_at": "2026-03-21T15:34:31.002870+00:00",
+    "scraped_at": "2026-03-21T21:54:21.630858+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "_meta": {
@@ -1126,7 +957,7 @@
         "weekday": "Seg"
       }
     ],
-    "scraped_at": "2026-03-21T15:34:31.002870+00:00",
+    "scraped_at": "2026-03-21T21:54:21.630858+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "_meta": {
@@ -1161,7 +992,7 @@
         "weekday": "Seg"
       }
     ],
-    "scraped_at": "2026-03-21T15:34:31.002870+00:00",
+    "scraped_at": "2026-03-21T21:54:21.630858+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "_meta": {
@@ -1241,7 +1072,7 @@
         "weekday": "Ter"
       }
     ],
-    "scraped_at": "2026-03-21T15:34:31.002870+00:00",
+    "scraped_at": "2026-03-21T21:54:21.630858+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "_meta": {
@@ -1283,7 +1114,7 @@
         "weekday": "Qua"
       }
     ],
-    "scraped_at": "2026-03-21T15:34:31.002870+00:00",
+    "scraped_at": "2026-03-21T21:54:21.630858+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "_meta": {
@@ -1358,7 +1189,7 @@
         "weekday": "Sex"
       }
     ],
-    "scraped_at": "2026-03-21T15:34:31.002870+00:00",
+    "scraped_at": "2026-03-21T21:54:21.630858+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "_meta": {
@@ -1398,7 +1229,7 @@
         "weekday": "Sáb"
       }
     ],
-    "scraped_at": "2026-03-21T15:34:31.002870+00:00",
+    "scraped_at": "2026-03-21T21:54:21.630858+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "_meta": {
@@ -1433,7 +1264,7 @@
         "weekday": "Seg"
       }
     ],
-    "scraped_at": "2026-03-21T15:34:31.002870+00:00",
+    "scraped_at": "2026-03-21T21:54:21.630858+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "_meta": {
@@ -1468,7 +1299,7 @@
         "weekday": "Seg"
       }
     ],
-    "scraped_at": "2026-03-21T15:34:31.002870+00:00",
+    "scraped_at": "2026-03-21T21:54:21.630858+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "_meta": {
@@ -1517,7 +1348,7 @@
         "weekday": "Seg"
       }
     ],
-    "scraped_at": "2026-03-21T15:34:31.002870+00:00",
+    "scraped_at": "2026-03-21T21:54:21.630858+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "_meta": {
@@ -1561,7 +1392,7 @@
         "weekday": "Ter"
       }
     ],
-    "scraped_at": "2026-03-21T15:34:31.002870+00:00",
+    "scraped_at": "2026-03-21T21:54:21.630858+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "_meta": {
@@ -1602,7 +1433,7 @@
         "weekday": "Qua"
       }
     ],
-    "scraped_at": "2026-03-21T15:34:31.002870+00:00",
+    "scraped_at": "2026-03-21T21:54:21.630858+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "_meta": {
@@ -1643,7 +1474,7 @@
         "weekday": "Sex"
       }
     ],
-    "scraped_at": "2026-03-21T15:34:31.002870+00:00",
+    "scraped_at": "2026-03-21T21:54:21.630858+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "_meta": {
@@ -1676,7 +1507,7 @@
       "Linha de Fuga",
       "Teatro Académico de Gil Vicente Fotografia Paulo Abrantes Clique ou faça scroll para ver o próximo evento. Toque para ver o próximo evento."
     ],
-    "scraped_at": "2026-03-21T15:34:31.002870+00:00",
+    "scraped_at": "2026-03-21T21:54:21.630858+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "_meta": {

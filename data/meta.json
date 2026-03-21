@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-21T15:34:36.326755+00:00",
-  "build_version": "20260321-1534",
-  "total_events": 221,
+  "updated_at": "2026-03-21T21:54:28.272457+00:00",
+  "build_version": "20260321-2154",
+  "total_events": 223,
   "total_theaters": 12,
   "events_today": 7,
   "events_this_weekend": 7,
@@ -14,8 +14,8 @@
   ],
   "by_category": {
     "Outro": 99,
-    "Teatro": 62,
-    "Música": 43,
+    "Teatro": 63,
+    "Música": 44,
     "Dança": 8,
     "Performance": 7,
     "Circo": 1,
@@ -27,16 +27,16 @@
     "Teatro Viriato": 29,
     "Teatro Variedades": 6,
     "Teatro da Trindade INATEL": 7,
-    "São Luiz Teatro Municipal": 30,
+    "São Luiz Teatro Municipal": 35,
     "Teatro Maria Matos": 16,
-    "TAGV — Teatro Académico Gil Vicente": 34,
+    "TAGV — Teatro Académico Gil Vicente": 31,
     "CCB — Centro Cultural de Belém": 6,
     "Teatro das Figuras": 20,
     "Capitólio": 6,
     "Teatro do Bairro": 1,
     "Culturgest": 3
   },
-  "completeness_avg": 0.638,
+  "completeness_avg": 0.637,
   "anomalies": [],
   "scraper_health": {}
 }
