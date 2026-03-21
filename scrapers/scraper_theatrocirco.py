@@ -5,42 +5,16 @@ Cidade: Braga
 
 Estrutura do site (HTML estático, WordPress / The Events Calendar):
   - Listagem: /programa/ — página única com TODOS os eventos (sem paginação).
-    Cada evento é um div.highlight-card com:
-      • p.highlight-meta.desktop  → "DD mês (dia) <span>→</span> Categoria[, Categoria]"
-        (existe versão .desktop e versão .mobile com a mesma info; usar .desktop para evitar
-        duplicados; o separador "→" está dentro de um <span>, mas get_text() une tudo)
-      • div.highlight-image > a[href]  → URL do evento (contém <img> ou <video>,
-        NÃO texto — bug do scraper antigo: chamava a.get_text() aqui)
-      • ATENÇÃO: h3.line-one e h3.line-two estão VAZIOS — o texto está nos <p> irmãos
-        seguintes: h3.line-one + p seguinte = título; h3.line-two + p seguinte = subtítulo
-      • a.tag (dentro de div.highlight-tags) → tags (Infantojuvenil, Acessibilidade, etc.)
-        NÃO usar a.highlight-tag (não existe); tags aparecem duplicadas (desktop+mobile),
-        deduplicar com set()
-      • div.highlight-ticket > a[href]  → ticket_url directo da listagem
+  - Pedidos de detalhe correm em paralelo via ThreadPoolExecutor.
 
-  - Página de evento individual (sempre visitada):
-      • og:image        → imagem principal (mais fiável que a da listagem)
-      • og:description  → synopsis de fallback
-      • h1              → título
-      • h2              → subtítulo / companhia
-      • texto logo após h2: hora (21h30), sala (Sala Principal / Pequeno Auditório)
-      • preço, M/X, duração  em texto livre antes/após h2
-      • parágrafos de sinopse antes de "Ficha técnica"
-      • ficha técnica: padrão <strong>Campo</strong> Valor
-
-Estratégia de categoria:
-  - Recolher a raw_category da listagem (ex: "Música, Teatro")
-  - Passar para normalize_category() — a filtragem é feita a jusante
-  - NÃO rejeitar nenhum evento na fase de scraping
-
-Campos adicionais no THEATER:
-  - logo_url   → URL absoluto do logo PNG/SVG no wp-content
-  - favicon_url→ /favicon.ico do domínio
-  - facade_url → imagem da fachada em og:image da homepage
+[Ver docstring original para detalhes da estrutura HTML]
 """
 
 import re
 import time
+import threading
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
@@ -59,7 +33,10 @@ from scrapers.schema import normalize_category
 _BASE    = "https://theatrocirco.com"
 _AGENDA  = f"{_BASE}/programa/"
 
-# Meses em português → número
+# Paralelismo
+_DETAIL_WORKERS = 5
+_DETAIL_SLEEP   = 0.1   # segundos por worker entre pedidos
+
 _PT_MONTHS = {
     "janeiro": 1,  "fevereiro": 2,  "março": 3,   "marco": 3,
     "abril": 4,    "maio": 5,       "junho": 6,    "julho": 7,
@@ -68,12 +45,6 @@ _PT_MONTHS = {
     "jan": 1, "fev": 2, "mar": 3, "abr": 4, "mai": 5, "jun": 6,
     "jul": 7, "ago": 8, "set": 9, "out": 10, "nov": 11, "dez": 12,
 }
-
-# ─────────────────────────────────────────────────────────────
-# Metadados do teatro  (lidos pelo sync_scrapers.py)
-# NOTA: não executar pedidos HTTP aqui — este dict é avaliado
-#       no momento do import pelo sync_scrapers.py e pelo orquestrador.
-# ─────────────────────────────────────────────────────────────
 
 THEATER = {
     "id":          "theatrocirco",
@@ -119,20 +90,42 @@ def scrape() -> list[dict]:
     candidates = _collect_candidates()
     log(f"[{THEATER_NAME}] {len(candidates)} candidatos na listagem")
 
-    events:   list[dict] = []
-    seen_ids: set[str]   = set()
+    # ── Pedidos de detalhe em paralelo ────────────────────────
+    results_raw: list[tuple[int, dict]] = []
+    lock = threading.Lock()
 
-    for item in candidates:
+    def fetch_candidate(idx_item: tuple[int, dict]) -> tuple[int, dict | None]:
+        idx, item = idx_item
+        time.sleep(_DETAIL_SLEEP)
         try:
             ev = _scrape_event(item)
-            if ev:
-                eid = ev["id"]
-                if eid not in seen_ids:
-                    seen_ids.add(eid)
-                    events.append(ev)
+            return idx, ev
         except Exception as e:
             log(f"[{THEATER_NAME}] Erro em {item['url']}: {e}")
-        time.sleep(0.4)
+            return idx, None
+
+    with ThreadPoolExecutor(max_workers=_DETAIL_WORKERS) as executor:
+        futures = {
+            executor.submit(fetch_candidate, (idx, item)): idx
+            for idx, item in enumerate(candidates)
+        }
+        for future in as_completed(futures):
+            idx, ev = future.result()
+            if ev is not None:
+                with lock:
+                    results_raw.append((idx, ev))
+
+    # Ordenar pela ordem original da listagem
+    results_raw.sort(key=lambda x: x[0])
+
+    # Deduplicar por ID
+    seen_ids: set[str] = set()
+    events: list[dict] = []
+    for _, ev in results_raw:
+        eid = ev["id"]
+        if eid not in seen_ids:
+            seen_ids.add(eid)
+            events.append(ev)
 
     log(f"[{THEATER_NAME}] {len(events)} eventos recolhidos")
     return events
@@ -143,45 +136,6 @@ def scrape() -> list[dict]:
 # ─────────────────────────────────────────────────────────────
 
 def _collect_candidates() -> list[dict]:
-    """
-    Percorre /programa/ e devolve todos os eventos encontrados.
-
-    Estrutura HTML de cada evento (confirmada com HTML real):
-      <div class="highlight-card">
-        <div class="text-decoration-none text-dark">
-          <p class="highlight-meta small desktop">
-            DD mês (dia) <span>→</span> Categoria
-          </p>
-        </div>
-        <div class="highlight-image">
-          <a href="https://theatrocirco.com/event/slug/">
-            <img ...>  <!-- OU <video> — NÃO tem texto -->
-          </a>
-          <div class="highlight-tags">          <!-- tags opcionais -->
-            <a class="tag" href="/event_tag/...">Tag</a>
-          </div>
-          <div class="highlight-ticket">        <!-- ticket opcional -->
-            <a href="https://www.bol.pt/...">Bilhetes</a>
-          </div>
-        </div>
-        <p class="highlight-meta small only-mobile mobile">...</p>
-        <h3 class="line-one"></h3>   <!-- VAZIO — texto no <p> seguinte -->
-        <p><em>Título</em></p>
-        <h3 class="line-two"></h3>   <!-- VAZIO — texto no <p> seguinte -->
-        <p>Subtítulo / Companhia</p>
-        <div class="mobile mobile-buttons">
-          <div class="highlight-tags">          <!-- tags duplicadas (mobile) -->
-            <a class="tag" href="/event_tag/...">Tag</a>
-          </div>
-        </div>
-      </div>
-
-    Bugs corrigidos vs. versão anterior:
-      1. Títulos: h3.select() dava strings vazias — texto está nos <p> irmãos.
-      2. Tags: selector era "a.highlight-tag" (não existe) → deve ser "a.tag";
-         deduplicar porque aparecem em versão desktop e mobile.
-      3. Ticket: selector correcto é "div.highlight-ticket a[href]".
-    """
     try:
         r = requests.get(_AGENDA, headers=HEADERS, timeout=20)
         r.raise_for_status()
@@ -195,7 +149,6 @@ def _collect_candidates() -> list[dict]:
 
     for card in soup.select("div.highlight-card"):
 
-        # ── URL ────────────────────────────────────────────────
         a_img = card.select_one("div.highlight-image a[href]")
         if not a_img:
             continue
@@ -206,12 +159,9 @@ def _collect_candidates() -> list[dict]:
             continue
         seen_urls.add(url)
 
-        # ── Categoria raw + datas_label da listagem ────────────
-        # Preferir a versão .desktop para evitar texto duplicado
-        meta_el = card.select_one("p.highlight-meta.desktop") or card.select_one("p.highlight-meta")
+        meta_el   = card.select_one("p.highlight-meta.desktop") or card.select_one("p.highlight-meta")
         meta_text = meta_el.get_text(" ", strip=True) if meta_el else ""
 
-        # Formato: "27 março (sex) → Teatro" ou "1, 2, 3 e 6 junho (seg a sáb) → Música, Teatro"
         raw_category = ""
         dates_raw    = ""
         if "→" in meta_text:
@@ -219,9 +169,6 @@ def _collect_candidates() -> list[dict]:
             dates_raw    = parts[0].strip()
             raw_category = parts[1].strip()
 
-        # ── Título e subtítulo ─────────────────────────────────
-        # ATENÇÃO: h3.line-one e h3.line-two estão VAZIOS no HTML.
-        # O texto está no elemento <p> irmão imediatamente a seguir a cada h3.
         title    = ""
         subtitle = ""
         h3_one = card.select_one("h3.line-one")
@@ -235,27 +182,19 @@ def _collect_candidates() -> list[dict]:
             if nxt:
                 subtitle = nxt.get_text(strip=True)
 
-        # ── Tags ───────────────────────────────────────────────
-        # Selector correcto: "a.tag" (não "a.highlight-tag" que não existe).
-        # As tags aparecem duplicadas (versão desktop + mobile) — deduplicar.
         tags = list({a.get_text(strip=True) for a in card.select("a.tag")})
 
-        # ── Ticket URL da listagem ─────────────────────────────
-        # Está dentro de div.highlight-ticket > a
         ticket_url = ""
         t = card.select_one("div.highlight-ticket a[href]")
         if t:
             ticket_url = t["href"]
 
-        # ── Imagem thumbnail da listagem ───────────────────────
-        # Guardamos para fallback — a imagem definitiva vem da página individual
         thumb_url = ""
         img_el = card.select_one("div.highlight-image img[src]")
         if img_el:
             src = img_el.get("src", "")
             thumb_url = src if src.startswith("http") else urljoin(_BASE, src)
 
-        # ── Parsing de datas ───────────────────────────────────
         dates_label, date_start, date_end = _parse_date_text(dates_raw or meta_text)
 
         candidates.append({
@@ -291,8 +230,6 @@ def _scrape_event(item: dict) -> dict | None:
     soup      = BeautifulSoup(r.text, "lxml")
     full_text = soup.get_text(" ", strip=True)
 
-    # ── Título ─────────────────────────────────────────────────
-    # Preferir o h1 da página; fallback: título da listagem
     h1 = soup.find("h1")
     title = h1.get_text(strip=True) if h1 else ""
     if not title:
@@ -300,37 +237,23 @@ def _scrape_event(item: dict) -> dict | None:
     if not title or len(title) < 2:
         return None
 
-    # ── Subtítulo / companhia ──────────────────────────────────
     subtitle = item.get("subtitle", "")
     h2 = soup.find("h2")
     if h2:
         h2_text = h2.get_text(strip=True)
-        # Aceitar só se for curto e diferente do título (evitar headings de secção)
         if h2_text and len(h2_text) < 150 and h2_text != title:
             subtitle = h2_text
 
-    # ── Categoria ──────────────────────────────────────────────
-    raw_cat = item.get("raw_category", "")
-    # Tags da página individual (mais completas)
+    raw_cat   = item.get("raw_category", "")
     page_tags = [a.get_text(strip=True) for a in soup.find_all("a", href=re.compile(r"/event_tag/"))]
     all_tags  = list({t for t in (item.get("tags", []) + page_tags) if t})
+    category  = normalize_category(raw_cat) if raw_cat else "Outro"
 
-    # normalize_category recebe a raw string; a filtragem é feita a jusante
-    category = normalize_category(raw_cat) if raw_cat else "Outro"
-
-    # Override: se tag Infantojuvenil presente e categoria não é já Infanto-Juvenil
-    if any("infantojuvenil" in t.lower() for t in all_tags) and category not in ("Infanto-Juvenil",):
-        # Manter a categoria original — o harmonizer pode decidir a classificação final
-        pass
-
-    # ── Datas ──────────────────────────────────────────────────
     dates_label = item.get("dates_label", "")
     date_start  = item.get("date_start", "")
     date_end    = item.get("date_end", "")
 
-    # Se não vieram da listagem, tentar extrair da página
     if not date_start:
-        # Procurar padrões de data no texto da página
         for el in soup.find_all(string=re.compile(
             r"\d{1,2}\s+(?:janeiro|fevereiro|março|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro)",
             re.IGNORECASE,
@@ -344,14 +267,11 @@ def _scrape_event(item: dict) -> dict | None:
         log(f"[{THEATER_NAME}] Sem data: {url}")
         return None
 
-    # ── Hora e sala ────────────────────────────────────────────
-    # Texto logo após h2: "21h30\nSala Principal"
     schedule = ""
     sala     = ""
-
-    hora_m = re.search(r"\b(\d{1,2}[hH]\d{2})\b", full_text)
+    hora_m   = re.search(r"\b(\d{1,2}[hH]\d{2})\b", full_text)
     if hora_m:
-        schedule = hora_m.group(1).lower()  # normalizar "21H30" → "21h30"
+        schedule = hora_m.group(1).lower()
 
     sala_m = re.search(
         r"(Sala\s+Principal|Pequeno\s+Audit[oó]rio|Grande\s+Audit[oó]rio|Foyer)",
@@ -360,25 +280,21 @@ def _scrape_event(item: dict) -> dict | None:
     if sala_m:
         sala = sala_m.group(1)
 
-    # ── Preço ──────────────────────────────────────────────────
     price_info = ""
     price_min  = None
     price_max  = None
-
     preco_m = re.search(
         r"(Entrada\s+(?:livre|gratuita)|Gratuito|\d+(?:[,\.]\d+)?\s*€(?:\s*[-–]\s*\d+(?:[,\.]\d+)?\s*€)?)",
         full_text, re.IGNORECASE,
     )
     if preco_m:
         price_info = preco_m.group(1).strip()
-        # Extrair valores numéricos
-        nums = re.findall(r"\d+(?:[,\.]\d+)?", price_info)
+        nums   = re.findall(r"\d+(?:[,\.]\d+)?", price_info)
         floats = [float(n.replace(",", ".")) for n in nums]
         if floats:
             price_min = min(floats)
             price_max = max(floats)
 
-    # ── Classificação etária ────────────────────────────────────
     age_rating = ""
     age_min    = None
     age_m = re.search(r"\bM\s*/\s*(\d+)\b", full_text)
@@ -386,7 +302,6 @@ def _scrape_event(item: dict) -> dict | None:
         age_min    = int(age_m.group(1))
         age_rating = f"M/{age_min}"
 
-    # ── Duração ────────────────────────────────────────────────
     duration     = ""
     duration_min = None
     dur_m = re.search(r"[Dd]ura[çc][aã]o\D{0,10}?(\d+)\s*minutos?", full_text)
@@ -396,76 +311,54 @@ def _scrape_event(item: dict) -> dict | None:
         duration_min = int(dur_m.group(1))
         duration     = f"{duration_min} min."
 
-    # ── Imagem ─────────────────────────────────────────────────
     image   = None
     raw_img = ""
-
-    # og:image — o WordPress emite DOIS: primeiro o genérico do tema
-    # (share-image.png) e depois o correcto do evento (wp-content/uploads).
-    # soup.find() apanharia sempre o primeiro (errado); usar find_all() e
-    # iterar ao contrário para apanhar o último que aponte para uploads.
     og_tags = soup.find_all("meta", property="og:image")
     for og in reversed(og_tags):
         candidate = og.get("content", "").strip()
         if candidate and "wp-content/uploads" in candidate:
             raw_img = candidate
             break
-    # Fallback: último og:image disponível
     if not raw_img and og_tags:
         raw_img = og_tags[-1].get("content", "").strip()
-
-    # Fallback: thumbnail da listagem (já específico por evento)
     if not raw_img or "share-image" in raw_img:
         thumb = item.get("thumb_url", "")
         if thumb:
             raw_img = thumb
-
-    # Fallback: primeira <img> de wp-content/uploads na página
     if not raw_img or "share-image" in raw_img:
         for img in soup.find_all("img", src=re.compile(r"/wp-content/uploads/")):
             src = img.get("src", "")
             if src and "logo" not in src.lower() and "cropped" not in src.lower():
                 raw_img = src if src.startswith("http") else urljoin(_BASE, src)
                 break
-
     if raw_img and raw_img.startswith("http"):
         image = build_image_object(raw_img, soup, THEATER_NAME, url)
 
-    # ── Ticket URL ─────────────────────────────────────────────
     ticket_url = item.get("ticket_url", "")
     if not ticket_url:
         for a in soup.find_all("a", href=True):
             h = a["href"]
-            # Só domínios externos de bilheteira — evitar apanhar links internos
-            # como /informacoes/bilheteira que contém a palavra "bilhete"
             if any(k in h for k in ("bol.pt", "ticketline.pt")):
                 ticket_url = h if h.startswith("http") else urljoin(_BASE, h)
                 break
 
-    # ── Sinopse ────────────────────────────────────────────────
-    synopsis = _extract_synopsis(soup)
-
-    # ── Ficha técnica ───────────────────────────────────────────
+    synopsis        = _extract_synopsis(soup)
     technical_sheet = _parse_ficha(soup, full_text)
 
-    # ── Acessibilidade ──────────────────────────────────────────
     accessibility = []
     if re.search(r"L[Gg][Pp]|L[íi]ngua\s+[Gg]estual", full_text):
         accessibility.append("LGP")
     if re.search(r"[Aa]udiodes[ck]ri[çc][aã]o", full_text):
         accessibility.append("Audiodescrição")
 
-    # ── Sessions ───────────────────────────────────────────────
     sessions = build_sessions(date_start, date_end, schedule)
 
-    # ── Montar evento ───────────────────────────────────────────
     ev = {
         "id":               make_id(SOURCE_SLUG, title),
         "title":            title,
         "theater":          THEATER_NAME,
         "source_url":       url,
         "date_start":       date_start,
-        # Campos recomendados
         "category":         category,
         "dates_label":      dates_label,
         "sessions":         sessions,
@@ -478,7 +371,6 @@ def _scrape_event(item: dict) -> dict | None:
         "accessibility":    accessibility,
     }
 
-    # Campos opcionais — só incluir se tiverem valor
     if subtitle:
         ev["subtitle"] = subtitle
     if date_end and date_end != date_start:
@@ -506,26 +398,12 @@ def _scrape_event(item: dict) -> dict | None:
 # ─────────────────────────────────────────────────────────────
 
 def _parse_date_text(text: str) -> tuple[str, str, str]:
-    """
-    Converte texto de data para (dates_label, date_start, date_end).
-
-    Formatos suportados:
-      "27 março (sex)"                          → data única
-      "15 e 16 maio (sex e sáb)"               → duas datas mesmo mês
-      "1, 2, 3 e 6 junho (seg a sáb)"          → múltiplas datas mesmo mês
-      "17 a 24 abril"                           → intervalo mesmo mês
-      "12 janeiro a 18 abril"                   → intervalo meses distintos
-      "Sessões de 7 a 9 abril (ter a qui)"      → prefixo "Sessões de"
-      "2 junho a 31 outubro"                    → intervalo longo
-    """
     if not text:
         return "", "", ""
 
     text = text.strip()
-    # Remover prefixos comuns
     text = re.sub(r"^[Ss]ess[õo]es\s+de\s+", "", text)
 
-    # ── "DD mês a DD mês [YYYY]" — intervalo meses distintos ──
     m = re.search(
         r"(\d{1,2})\s+([a-záéíóúçã]{3,})\s+[aà]\s+(\d{1,2})\s+([a-záéíóúçã]{3,})(?:\s+(\d{4}))?",
         text, re.IGNORECASE,
@@ -534,8 +412,6 @@ def _parse_date_text(text: str) -> tuple[str, str, str]:
         d1, mo1, d2, mo2, yr = m.groups()
         n1, n2 = _mon(mo1), _mon(mo2)
         if n1 and n2:
-            # Inferir o ano pelo FIM do intervalo; calcular o início com base nele.
-            # Evita o bug "12 jan a 18 abr" → jan=2027, abr=2026 quando jan já passou.
             y2 = int(yr) if yr else _infer_year(n2, int(d2))
             y1 = _infer_year_start(n1, n2, y2)
             label = f"{d1} {mo1.capitalize()} a {d2} {mo2.capitalize()}"
@@ -543,7 +419,6 @@ def _parse_date_text(text: str) -> tuple[str, str, str]:
                     f"{y1}-{n1:02d}-{int(d1):02d}",
                     f"{y2}-{n2:02d}-{int(d2):02d}")
 
-    # ── "DD a DD mês [YYYY]" — intervalo mesmo mês ─────────────
     m = re.search(
         r"(\d{1,2})\s+[aà]\s+(\d{1,2})\s+([a-záéíóúçã]{3,})(?:\s+(\d{4}))?",
         text, re.IGNORECASE,
@@ -558,7 +433,6 @@ def _parse_date_text(text: str) -> tuple[str, str, str]:
                     f"{y}-{n:02d}-{int(d1):02d}",
                     f"{y}-{n:02d}-{int(d2):02d}")
 
-    # ── "DD, DD e DD mês" ou "DD e DD mês" — múltiplas datas ───
     m = re.search(
         r"((?:\d{1,2}[,\s]+)+(?:e\s+)?\d{1,2})\s+([a-záéíóúçã]{3,})(?:\s+(\d{4}))?",
         text, re.IGNORECASE,
@@ -575,7 +449,6 @@ def _parse_date_text(text: str) -> tuple[str, str, str]:
                     f"{y}-{n:02d}-{d1:02d}",
                     f"{y}-{n:02d}-{d2:02d}")
 
-    # ── "DD mês [YYYY]" — data única ────────────────────────────
     m = re.search(
         r"(\d{1,2})\s+([a-záéíóúçã]{3,})(?:\s+(\d{4}))?",
         text, re.IGNORECASE,
@@ -604,11 +477,6 @@ def _infer_year(month: int, day: int) -> int:
 
 
 def _infer_year_start(ini_month: int, end_month: int, end_year: int) -> int:
-    """
-    Dado o ano de fim de um intervalo, calcula o ano de início.
-    Se início <= fim no calendário → mesmo ano.
-    Se início > fim (ex: Dez→Jan) → end_year - 1.
-    """
     return end_year if ini_month <= end_month else end_year - 1
 
 
@@ -617,13 +485,7 @@ def _infer_year_start(ini_month: int, end_month: int, end_year: int) -> int:
 # ─────────────────────────────────────────────────────────────
 
 def _extract_synopsis(soup) -> str:
-    """
-    Sinopse: parágrafos substantivos antes da ficha técnica.
-    Fallback: og:description se não genérico.
-    """
     synopsis = ""
-
-    # Encontrar elemento de início da ficha técnica
     ficha_start = None
     for el in soup.find_all(["strong", "b"]):
         if "ficha técnica" in el.get_text(strip=True).lower():
@@ -631,7 +493,6 @@ def _extract_synopsis(soup) -> str:
             break
 
     if ficha_start:
-        # Pegar todos os elementos antes da ficha técnica
         all_descendants = list(soup.descendants)
         try:
             fic_pos = all_descendants.index(ficha_start)
@@ -644,16 +505,15 @@ def _extract_synopsis(soup) -> str:
         t = p.get_text(strip=True)
         if len(t) < 40:
             continue
-        # Ignorar boilerplate
         if re.match(
             r"^(Este site|Inscreva|Pretende receber|campos de preenchimento"
             r"|A reserva|Os seus dados|Ao submeter)",
             t, re.IGNORECASE,
         ):
             continue
-        # Parar ao chegar à zona da ficha técnica
         if fic_pos is not None:
             try:
+                all_descendants = list(soup.descendants)
                 p_pos = all_descendants.index(p)
                 if p_pos > fic_pos:
                     break
@@ -664,12 +524,10 @@ def _extract_synopsis(soup) -> str:
         if len(synopsis) > 800:
             break
 
-    # Fallback og:description
     if not synopsis:
         og = soup.find("meta", property="og:description")
         if og:
             desc = og.get("content", "").strip()
-            # Rejeitar descrições genéricas do site
             if desc and "theatrocirco.com" not in desc.lower() and len(desc) > 40:
                 synopsis = desc
 
@@ -681,13 +539,6 @@ def _extract_synopsis(soup) -> str:
 # ─────────────────────────────────────────────────────────────
 
 def _parse_ficha(soup, full_text: str) -> dict:
-    """
-    Ficha técnica no Theatro Circo:
-      <strong>Campo</strong> Valor  (tudo dentro do mesmo bloco de texto)
-    Estratégia: localizar o bloco após "Ficha técnica" e extrair
-    pares chave→valor por posição dos <strong>.
-    """
-    # Campos conhecidos e os seus padrões de label
     _KNOWN = [
         ("criação",        r"[Cc]ria[çc][aã]o(?:\s*,\s*texto\s*e\s*interpreta[çc][aã]o)?(?:\s*e\s*\w+)*"),
         ("texto",          r"[Tt]exto(?:\s+e\s+[Ee]ncena[çc][aã]o)?"),
@@ -709,36 +560,29 @@ def _parse_ficha(soup, full_text: str) -> dict:
         ("design",         r"[Dd]esign\s+[Gg]ráfico"),
     ]
 
-    ficha = {}
-
-    # Tentar localizar o bloco da ficha técnica
+    ficha    = {}
     ficha_el = None
     for el in soup.find_all(["strong", "b"]):
         if "ficha técnica" in el.get_text(strip=True).lower():
-            # Subir ao container que inclui toda a ficha
             ficha_el = el.find_parent(["div", "section", "article", "p"]) or el.find_parent()
             break
 
     text = ficha_el.get_text(" ", strip=True) if ficha_el else full_text
 
-    # Encontrar posições de cada label no texto
     positions = []
     for key, pattern in _KNOWN:
         for m in re.finditer(pattern, text):
             positions.append((m.start(), m.end(), key))
     positions.sort()
 
-    # Extrair valor entre cada label e o seguinte
     for i, (start, end, key) in enumerate(positions):
         next_start = positions[i + 1][0] if i + 1 < len(positions) else end + 300
         value      = re.sub(r"\s+", " ", text[end:next_start]).strip()
-        # Cortar antes de palavras de paragem
         value = re.split(
             r"\s+(?:Apoio|Agradecimentos|Duração|©|Parcerias|Residências|Agradecimento)",
             value, flags=re.IGNORECASE,
         )[0]
         value = value[:200].strip()
-        # Remover pontuação inicial
         value = re.sub(r"^[\s:,;]+", "", value).strip()
         if value and key not in ficha:
             ficha[key] = value

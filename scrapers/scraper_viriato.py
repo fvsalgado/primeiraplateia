@@ -3,27 +3,21 @@ Scraper: Teatro Viriato
 Fonte: https://www.teatroviriato.com/pt/programacao
 Cidade: Viseu
 
-Estrutura do site:
-  - A página de programação é HTML estático — todos os eventos do ano estão
-    renderizados no HTML de uma só vez, agrupados por mês dentro de
-    #calendar > .panel[data-month].
-  - Cada evento é um <a class="show-card"> com divs .dates, .title, .subtitle,
-    .category e .hour-info.
-  - Página individual: /pt/programacao/espetaculo/<slug>
-
 Estratégia:
   1. Parsear a listagem estática (sem pedidos extra por item).
-  2. Visitar cada página individual para obter image (og:image), synopsis,
-     ticket_url, price_info, duration, age_rating, ficha técnica e
-     confirmação/correcção de datas.
+  2. Visitar cada página individual em paralelo (ThreadPoolExecutor)
+     para obter image, synopsis, ticket_url, price_info, duration,
+     age_rating, ficha técnica e confirmação/correcção de datas.
   3. Aceitar TODOS os eventos (sem filtragem por categoria).
-     A normalização de categoria é feita via normalize_category().
   4. Ignorar apenas eventos CMV e CANCELADO.
 """
 
 import re
 import time
 import logging
+import threading
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
@@ -74,7 +68,10 @@ SOURCE_SLUG  = THEATER["id"]
 BASE         = "https://www.teatroviriato.com"
 AGENDA       = f"{BASE}/pt/programacao"
 
-# Categorias a ignorar (CMV = eventos da Câmara Municipal, sem interesse editorial)
+# Paralelismo
+_DETAIL_WORKERS = 5
+_DETAIL_SLEEP   = 0.1   # segundos por worker entre pedidos
+
 _SKIP_CATEGORIES = {"cmv"}
 
 _PT_MONTHS = {
@@ -101,27 +98,46 @@ def scrape() -> list[dict]:
         log(f"[{THEATER_NAME}] Erro ao carregar listagem: {e}")
         return []
 
-    soup = BeautifulSoup(r.text, "lxml")
+    soup  = BeautifulSoup(r.text, "lxml")
     stubs = _parse_listing(soup)
     log(f"[{THEATER_NAME}] {len(stubs)} candidatos na listagem")
 
-    events:   list[dict] = []
-    seen_ids: set[str]   = set()
+    # ── Pedidos de detalhe em paralelo ────────────────────────
+    results_raw: list[tuple[int, dict]] = []
+    lock = threading.Lock()
 
-    for stub in stubs:
+    def fetch_stub(idx_stub: tuple[int, dict]) -> tuple[int, dict | None]:
+        idx, stub = idx_stub
+        time.sleep(_DETAIL_SLEEP)
         try:
             ev = _scrape_event(stub)
+            return idx, ev
         except Exception as e:
-            log(f"[{THEATER_NAME}] Erro inesperado em {stub.get('url','?')}: {e}")
-            ev = None
+            log(f"[{THEATER_NAME}] Erro inesperado em {stub.get('url', '?')}: {e}")
+            return idx, None
 
-        if ev:
-            eid = ev["id"]
-            if eid not in seen_ids:
-                seen_ids.add(eid)
-                events.append(ev)
+    with ThreadPoolExecutor(max_workers=_DETAIL_WORKERS) as executor:
+        futures = {
+            executor.submit(fetch_stub, (idx, stub)): idx
+            for idx, stub in enumerate(stubs)
+        }
+        for future in as_completed(futures):
+            idx, ev = future.result()
+            if ev is not None:
+                with lock:
+                    results_raw.append((idx, ev))
 
-        time.sleep(0.4)
+    # Ordenar pela ordem original da listagem
+    results_raw.sort(key=lambda x: x[0])
+
+    # Deduplicar por ID
+    seen_ids: set[str] = set()
+    events: list[dict] = []
+    for _, ev in results_raw:
+        eid = ev["id"]
+        if eid not in seen_ids:
+            seen_ids.add(eid)
+            events.append(ev)
 
     log(f"[{THEATER_NAME}] {len(events)} eventos recolhidos")
     return events
@@ -132,13 +148,11 @@ def scrape() -> list[dict]:
 # ─────────────────────────────────────────────────────────────
 
 def _parse_listing(soup: BeautifulSoup) -> list[dict]:
-    """Extrai stubs de todos os eventos do #calendar sem pedidos HTTP."""
     cal = soup.find("section", id="calendar")
     if not cal:
         log(f"[{THEATER_NAME}] Secção #calendar não encontrada")
         return []
 
-    # Ano corrente da programação
     year_div = cal.find("div", class_=re.compile(r"is-year"))
     year_m   = re.search(r"\d{4}", year_div.get_text()) if year_div else None
     listing_year = int(year_m.group()) if year_m else datetime.now().year
@@ -157,18 +171,15 @@ def _parse_listing(soup: BeautifulSoup) -> list[dict]:
             if url in seen_urls:
                 continue
 
-            # Texto do card — ignorar cancelados
             card_text = card.get_text(" ", strip=True)
             if "CANCELADO" in card_text.upper():
                 continue
 
-            # Categoria
             cat_div      = card.find("div", class_="category")
             category_raw = cat_div.get_text(strip=True) if cat_div else ""
             if category_raw.lower().strip() in _SKIP_CATEGORIES:
                 continue
 
-            # Título e subtitle
             title_div    = card.find("div", class_="title")
             subtitle_div = card.find("div", class_="subtitle")
             title        = title_div.get_text(strip=True) if title_div else ""
@@ -176,20 +187,17 @@ def _parse_listing(soup: BeautifulSoup) -> list[dict]:
             if not title:
                 continue
 
-            # Datas da listagem
             dates_div  = card.find("div", class_="dates")
             dates_raw  = dates_div.get_text(strip=True) if dates_div else ""
             date_start, date_end, dates_label = _parse_listing_dates(
                 dates_raw, month_num, listing_year
             )
 
-            # Horário
             hour_div = card.find("div", class_="hour-info")
             schedule = _extract_schedule(hour_div.get_text(" ", strip=True) if hour_div else "")
 
-            # Imagem da listagem (baixa qualidade — usada como fallback)
-            img_tag      = card.find("img", class_="image")
-            listing_img  = ""
+            img_tag     = card.find("img", class_="image")
+            listing_img = ""
             if img_tag:
                 src = img_tag.get("src") or img_tag.get("data-src") or ""
                 if src:
@@ -216,21 +224,10 @@ def _parse_listing(soup: BeautifulSoup) -> list[dict]:
 def _parse_listing_dates(
     raw: str, month_num: int, year: int
 ) -> tuple[str, str, str]:
-    """
-    Formatos encontrados na listagem:
-      "03"                     → dia único no mês corrente
-      "01, 02"                 → múltiplos dias → usar o primeiro como date_start
-      "13 - 31"                → range de dias no mês corrente
-      "05 - 08"                → idem
-      "13 jan - 25 jul"        → range com meses explícitos
-      "02 fev - 30 jun"        → idem
-    Retorna (date_start, date_end, dates_label).
-    """
     raw = raw.strip()
     if not raw:
         return "", "", ""
 
-    # ── Padrão com meses explícitos: "DD MMM - DD MMM" (mesmo ano) ──────────
     m = re.match(
         r"^(\d{1,2})\s+([a-záéíóú]{3})\s*[-–]\s*(\d{1,2})\s+([a-záéíóú]{3})\s*(\d{4})?$",
         raw, re.IGNORECASE,
@@ -244,7 +241,6 @@ def _parse_listing_dates(
             de = f"{y}-{n2:02d}-{int(d2):02d}"
             return ds, de, f"{int(d1)} {mo1} – {int(d2)} {mo2} {y}"
 
-    # ── Range de dias no mesmo mês: "DD - DD" ────────────────────────────────
     m = re.match(r"^(\d{1,2})\s*[-–]\s*(\d{1,2})$", raw)
     if m:
         d1, d2 = int(m.group(1)), int(m.group(2))
@@ -253,7 +249,6 @@ def _parse_listing_dates(
         de = f"{year}-{month_num:02d}-{d2:02d}"
         return ds, de, f"{d1} – {d2} {mo_s} {year}"
 
-    # ── Dias separados por vírgula: "01, 02" → data_start = primeiro ────────
     m = re.match(r"^(\d{1,2})(?:\s*,\s*\d{1,2})+$", raw)
     if m:
         days = [int(x) for x in re.findall(r"\d{1,2}", raw)]
@@ -264,7 +259,6 @@ def _parse_listing_dates(
         label = ", ".join(str(d) for d in days) + f" {mo_s} {year}"
         return ds, de, label
 
-    # ── Dia único ─────────────────────────────────────────────────────────────
     m = re.match(r"^(\d{1,2})$", raw)
     if m:
         d = int(m.group(1))
@@ -276,9 +270,7 @@ def _parse_listing_dates(
 
 
 def _extract_schedule(text: str) -> str:
-    """Extrai horário legível de strings como 'SÁB 21h00' ou 'SEG a SEX 13h00 às 19h00'."""
     text = re.sub(r"\s+", " ", text).strip()
-    # Normalizar 'h' → ':' para consistência
     m = re.search(r"(\d{1,2}[h:]\d{2})", text, re.IGNORECASE)
     return m.group(1) if m else ""
 
@@ -303,12 +295,10 @@ def _scrape_event(stub: dict) -> dict | None:
     if not title or len(title) < 2:
         return None
 
-    # ── Datas ────────────────────────────────────────────────────────────────
     date_start  = stub["date_start"]
     date_end    = stub["date_end"]
     dates_label = stub["dates_label"]
 
-    # Tentar afinar datas a partir da página individual se não vieram da listagem
     if not date_start:
         date_start, date_end, dates_label = _extract_dates_from_page(
             soup, full_text, stub["month_num"], stub["listing_year"]
@@ -317,26 +307,21 @@ def _scrape_event(stub: dict) -> dict | None:
         log(f"[{THEATER_NAME}] '{title}' sem date_start — ignorado")
         return None
 
-    # ── Categoria ────────────────────────────────────────────────────────────
     category = normalize_category(stub["category_raw"])
 
-    # ── Horário ──────────────────────────────────────────────────────────────
     schedule = stub["schedule"]
     if not schedule:
         m = re.search(r"(\d{1,2}[h:]\d{2})", full_text)
         if m:
             schedule = m.group(1)
 
-    # ── Synopsis ─────────────────────────────────────────────────────────────
     synopsis = _extract_synopsis(soup)
 
-    # ── Imagem (og:image prioritário) ────────────────────────────────────────
     raw_img = ""
     og = soup.find("meta", property="og:image")
     if og:
         raw_img = og.get("content", "").strip()
     if not raw_img or raw_img == BASE + "/" or raw_img == BASE:
-        # og:image genérico → tentar imagem no conteúdo
         for img in soup.find_all("img", src=re.compile(r"/contents/")):
             src = img.get("src", "")
             if src:
@@ -346,7 +331,6 @@ def _scrape_event(stub: dict) -> dict | None:
         raw_img = stub["listing_img"]
     image = build_image_object(raw_img, soup, THEATER_NAME, url) if raw_img else None
 
-    # ── Bilhetes ─────────────────────────────────────────────────────────────
     ticket_url = ""
     for a in soup.find_all("a", href=True):
         href = a["href"]
@@ -354,7 +338,6 @@ def _scrape_event(stub: dict) -> dict | None:
             ticket_url = href if href.startswith("http") else urljoin(BASE, href)
             break
 
-    # ── Preço ─────────────────────────────────────────────────────────────────
     price_info = ""
     price_min  = None
     price_max  = None
@@ -364,13 +347,11 @@ def _scrape_event(stub: dict) -> dict | None:
     )
     if m_p:
         price_info = m_p.group(1).strip()
-        # Extrair valores numéricos
         prices = [float(p.replace(",", ".")) for p in re.findall(r"\d+(?:[,.]\d+)?(?=\s*€)", price_info)]
         if prices:
             price_min = min(prices)
             price_max = max(prices)
 
-    # ── Duração ───────────────────────────────────────────────────────────────
     duration     = ""
     duration_min = None
     m_d = re.search(r"(\d+)\s*min\.?", full_text, re.IGNORECASE)
@@ -379,7 +360,6 @@ def _scrape_event(stub: dict) -> dict | None:
         duration     = f"{mins} min."
         duration_min = mins
 
-    # ── Classificação etária ──────────────────────────────────────────────────
     age_rating = ""
     age_min    = None
     m_a = re.search(r"M\s*/\s*(\d+)", full_text) or re.search(r"\+\s*(\d+)", full_text)
@@ -388,7 +368,6 @@ def _scrape_event(stub: dict) -> dict | None:
         age_rating = f"M/{age_num}"
         age_min    = age_num
 
-    # ── Sala ──────────────────────────────────────────────────────────────────
     sala = ""
     m_sala = re.search(r"LOCAL\s*[:\-]?\s*([^\n]{3,60})", full_text, re.IGNORECASE)
     if m_sala:
@@ -399,10 +378,8 @@ def _scrape_event(stub: dict) -> dict | None:
                 sala = s
                 break
 
-    # ── Ficha técnica ─────────────────────────────────────────────────────────
     technical_sheet = _parse_ficha(full_text)
 
-    # Preencher director e pessoas a partir da ficha
     director = (
         technical_sheet.get("encenação")
         or technical_sheet.get("direção")
@@ -459,11 +436,8 @@ def _mon(s: str) -> int | None:
 def _extract_dates_from_page(
     soup: BeautifulSoup, text: str, month_num: int, year: int
 ) -> tuple[str, str, str]:
-    """Extrai datas da página individual quando a listagem não forneceu."""
-    # Tentar h2 ou qualquer elemento com data formatada
     for el in soup.find_all(["h2", "h3", "p", "span"], limit=30):
         t = el.get_text(" ", strip=True)
-        # DD MMM [YYYY] – DD MMM [YYYY]
         m = re.search(
             r"(\d{1,2})\s+([a-záéíóú]{3,})(?:\s+(\d{4}))?\s*[-–]\s*(\d{1,2})\s+([a-záéíóú]{3,})\s*(\d{4})?",
             t, re.IGNORECASE,
@@ -479,7 +453,6 @@ def _extract_dates_from_page(
                     f"{yr2}-{n2:02d}-{int(d2):02d}",
                     f"{int(d1)} {mo1} – {int(d2)} {mo2} {yr2}",
                 )
-        # DD MMM [YYYY]
         m = re.search(r"(\d{1,2})\s+([a-záéíóú]{3,})\s*(\d{4})?", t, re.IGNORECASE)
         if m:
             d, mon_s, yr_s = m.groups()
@@ -493,11 +466,9 @@ def _extract_dates_from_page(
 
 
 def _extract_synopsis(soup: BeautifulSoup) -> str:
-    """Prefere og:description; se genérico, usa parágrafos do <main>."""
     og_desc = soup.find("meta", property="og:description")
     og_text = og_desc.get("content", "").strip() if og_desc else ""
 
-    # og:description é genérica quando é igual à da homepage
     _GENERIC = "casa cultural em Viseu"
     if og_text and _GENERIC not in og_text:
         return og_text
@@ -521,7 +492,6 @@ def _extract_synopsis(soup: BeautifulSoup) -> str:
 
 
 def _parse_ficha(text: str) -> dict:
-    """Extrai ficha técnica via posições de regex."""
     ficha      = {}
     known_keys = [
         ("texto",          r"[Tt]exto(?:\s+e\s+[Ee]ncena[çc][aã]o)?\s+"),
