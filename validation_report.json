@@ -1,10 +1,45 @@
 {
-  "generated_at": "2026-03-21T03:26:28.008520Z",
-  "total_raw": 301,
-  "total_accepted": 300,
-  "total_rejected": 1,
-  "total_warnings": 79,
+  "generated_at": "2026-03-21T03:29:30.757655Z",
+  "total_raw": 329,
+  "total_accepted": 323,
+  "total_rejected": 6,
+  "total_warnings": 103,
   "rejected": [
+    {
+      "id": "saoluiz-um-homem-e-o-seu-criado",
+      "title": "Um Homem e o seu Criado",
+      "errors": [
+        "'date_start' ausente ou vazio"
+      ]
+    },
+    {
+      "id": "saoluiz-disquiet-international-literary-program-2026",
+      "title": "DISQUIET – INTERNATIONAL LITERARY PROGRAM 2026",
+      "errors": [
+        "'date_start' ausente ou vazio"
+      ]
+    },
+    {
+      "id": "saoluiz-integral-das-sinfonias-de-schumann",
+      "title": "INTEGRAL DAS SINFONIAS DE SCHUMANN",
+      "errors": [
+        "'date_start' ausente ou vazio"
+      ]
+    },
+    {
+      "id": "saoluiz-a-laugh-to-cry",
+      "title": "A LAUGH TO CRY",
+      "errors": [
+        "'date_start' ausente ou vazio"
+      ]
+    },
+    {
+      "id": "saoluiz-pons-varolii",
+      "title": "PONS VAROLII",
+      "errors": [
+        "'date_start' ausente ou vazio"
+      ]
+    },
     {
       "id": "mariamatos-lap-laborat-rio-de-artes-performativas-para-crian-",
       "title": "LAP | Laboratório de Artes Performativas para crianças",
@@ -14,6 +49,13 @@
     }
   ],
   "warnings": [
+    {
+      "id": "variedades-teatro-variedades-100-anos-100-entradas-na-wikip-d",
+      "title": "Teatro Variedades: 100 Anos, 100 Entradas na Wikipédia",
+      "warnings": [
+        "'date_end' (2026-06-20) < 'date_start' (2026-10-18) — corrigido"
+      ]
+    },
     {
       "id": "viriato-new-age-new-time",
       "title": "NEW AGE, NEW TIME",
@@ -302,10 +344,185 @@
       ]
     },
     {
+      "id": "tagv-as-bodas-de-deus",
+      "title": "As Bodas de Deus",
+      "warnings": [
+        "evento já terminou (2026-01-23)"
+      ]
+    },
+    {
+      "id": "tagv-quem-espera-por-sapatos-de-defunto-morre-descal-o-",
+      "title": "Quem Espera Por Sapatos De Defunto Morre Descalço + Que Farei Eu Com Esta Espada?",
+      "warnings": [
+        "evento já terminou (2026-01-24)"
+      ]
+    },
+    {
+      "id": "tagv-thiago-ventura",
+      "title": "Thiago Ventura",
+      "warnings": [
+        "evento já terminou (1939-02-02)"
+      ]
+    },
+    {
+      "id": "tagv-ser-preciso-ser-aqui-conversas-com-pessoas-dotadas",
+      "title": "Ser Preciso, Ser Aqui: Conversas Com Pessoas Dotadas de Minúcia",
+      "warnings": [
+        "evento já terminou (1939-02-02)"
+      ]
+    },
+    {
+      "id": "tagv-portugal-n-o-um-pa-s-pequeno",
+      "title": "Portugal Não É Um País Pequeno",
+      "warnings": [
+        "evento já terminou (2026-01-29)"
+      ]
+    },
+    {
+      "id": "tagv-balletstudio-paula-santos",
+      "title": "BalletStudio Paula Santos",
+      "warnings": [
+        "evento já terminou (2026-01-31)"
+      ]
+    },
+    {
+      "id": "tagv-vai-e-vem",
+      "title": "Vai e Vem",
+      "warnings": [
+        "evento já terminou (2026-02-02)"
+      ]
+    },
+    {
+      "id": "tagv-veredas",
+      "title": "Veredas",
+      "warnings": [
+        "evento já terminou (2026-02-02)"
+      ]
+    },
+    {
+      "id": "tagv-declamar-poesia",
+      "title": "declAMAR Poesia",
+      "warnings": [
+        "evento já terminou (2026-02-03)"
+      ]
+    },
+    {
+      "id": "tagv-ouvido-absoluto",
+      "title": "Ouvido Absoluto",
+      "warnings": [
+        "evento já terminou (2026-02-06)"
+      ]
+    },
+    {
+      "id": "tagv-a-cronologia-da-gua",
+      "title": "A Cronologia da Água",
+      "warnings": [
+        "evento já terminou (2026-02-07)"
+      ]
+    },
+    {
+      "id": "tagv-a-casa-morreu-di-rio-de-uma-rep-blica-iii",
+      "title": "A Casa Morreu — Diário De Uma República III",
+      "warnings": [
+        "evento já terminou (2026-02-09)"
+      ]
+    },
+    {
+      "id": "tagv-whindersson-nunes-e-robson-sousa",
+      "title": "Whindersson Nunes e Robson Sousa",
+      "warnings": [
+        "evento já terminou (2026-02-09)"
+      ]
+    },
+    {
+      "id": "tagv-mulholland-drive",
+      "title": "Mulholland Drive",
+      "warnings": [
+        "evento já terminou (2026-02-09)"
+      ]
+    },
+    {
+      "id": "tagv-ii-beira-rio-festival-de-tunas",
+      "title": "II À Beira Rio — Festival de Tunas",
+      "warnings": [
+        "evento já terminou (2026-02-10)"
+      ]
+    },
+    {
+      "id": "tagv-pai-m-e-irm-irm-o",
+      "title": "Pai Mãe Irmã Irmão",
+      "warnings": [
+        "evento já terminou (2026-02-12)"
+      ]
+    },
+    {
+      "id": "tagv-living-the-land-o-vento-impar-vel",
+      "title": "Living the Land — O Vento é Imparável",
+      "warnings": [
+        "evento já terminou (2026-02-14)"
+      ]
+    },
+    {
+      "id": "tagv-aurora-ou-livro",
+      "title": "Aurora (ou Livro)",
+      "warnings": [
+        "evento já terminou (2026-02-16)"
+      ]
+    },
+    {
+      "id": "tagv-100paredes",
+      "title": "100PAREDES",
+      "warnings": [
+        "evento já terminou (2026-02-16)"
+      ]
+    },
+    {
+      "id": "tagv-xiii-panaceia-festival-de-tunas-femininas-cancelad",
+      "title": "XIII Panaceia — Festival de Tunas Femininas / Cancelado",
+      "warnings": [
+        "evento já terminou (2026-02-18)"
+      ]
+    },
+    {
+      "id": "tagv-a-caminhada-dos-elefantes",
+      "title": "A Caminhada dos Elefantes",
+      "warnings": [
+        "evento já terminou (2026-02-18)"
+      ]
+    },
+    {
       "id": "tagv-labirinto-de-sombras",
       "title": "Labirinto de Sombras",
       "warnings": [
         "evento já terminou (2026-02-19)"
+      ]
+    },
+    {
+      "id": "tagv-valor-sentimental",
+      "title": "Valor Sentimental",
+      "warnings": [
+        "evento já terminou (2026-02-20)"
+      ]
+    },
+    {
+      "id": "tagv-gilm-rio-vemba",
+      "title": "Gilmário Vemba",
+      "warnings": [
+        "evento já terminou (2026-02-20)"
+      ]
+    },
+    {
+      "id": "tagv-entre-cores-arte-e-ci-ncia",
+      "title": "Entre Cores: Arte e Ciência",
+      "warnings": [
+        "evento já terminou (2026-02-21)"
+      ]
+    },
+    {
+      "id": "tagv-cineeco",
+      "title": "CineEco",
+      "warnings": [
+        "evento já terminou (2026-02-23)"
       ]
     },
     {
@@ -348,20 +565,6 @@
       "title": "Rui Sinel de Cordes",
       "warnings": [
         "evento já terminou (2026-02-27)"
-      ]
-    },
-    {
-      "id": "tagv-declamar-poesia",
-      "title": "declAMAR Poesia",
-      "warnings": [
-        "evento já terminou (2026-02-28)"
-      ]
-    },
-    {
-      "id": "tagv-ser-preciso-ser-aqui-conversas-com-pessoas-dotadas",
-      "title": "Ser Preciso, Ser Aqui: Conversas Com Pessoas Dotadas de Minúcia",
-      "warnings": [
-        "evento já terminou (2026-03-01)"
       ]
     },
     {
@@ -572,28 +775,16 @@
   "duplicates_removed": [],
   "scraper_health": {
     "Teatro Variedades": {
-      "status": "stale",
-      "reason": "zero_results",
-      "exception": null,
-      "events_from_cache": 6,
-      "events_expired_discarded": 0,
-      "stale_since": "2026-03-21"
+      "status": "ok",
+      "events_collected": 6
     },
     "Capitólio": {
-      "status": "stale",
-      "reason": "zero_results",
-      "exception": null,
-      "events_from_cache": 6,
-      "events_expired_discarded": 0,
-      "stale_since": "2026-03-21"
+      "status": "ok",
+      "events_collected": 6
     },
     "São Luiz Teatro Municipal": {
-      "status": "stale",
-      "reason": "zero_results",
-      "exception": null,
-      "events_from_cache": 30,
-      "events_expired_discarded": 0,
-      "stale_since": "2026-03-21"
+      "status": "ok",
+      "events_collected": 35
     },
     "Teatro Maria Matos": {
       "status": "ok",
@@ -629,7 +820,7 @@
     },
     "TAGV — Teatro Académico Gil Vicente": {
       "status": "ok",
-      "events_collected": 88
+      "events_collected": 111
     },
     "Cine-Teatro Avenida": {
       "status": "empty",
