@@ -1,8 +1,9 @@
 {
-  "updated_at": "2026-03-21T00:30:18.073376+00:00",
+  "updated_at": "2026-03-21T00:30:19.759375+00:00",
   "build_version": "20260321-0030",
   "total_events": 221,
   "total_theaters": 12,
+  "stale_theaters": 0,
   "by_theater": {
     "Theatro Circo": 63,
     "Teatro Viriato": 29,
@@ -18,5 +19,6 @@
     "Culturgest": 3
   },
   "completeness_avg": 0.638,
-  "anomalies": []
+  "anomalies": [],
+  "scraper_health": {}
 }
