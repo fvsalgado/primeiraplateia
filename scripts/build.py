@@ -22,7 +22,7 @@ import json
 import logging
 import re
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 logging.basicConfig(
@@ -95,10 +95,6 @@ def get_next_session(ev: dict, today: str) -> str | None:
 
 # ─────────────────────────────────────────────────────────────
 # Filtro de eventos futuros/activos
-# Um evento é considerado activo se:
-#   - tiver sessões futuras, OU
-#   - date_end >= hoje (está ainda em exibição), OU
-#   - não tiver date_end mas date_start >= hoje (estreia futura)
 # ─────────────────────────────────────────────────────────────
 
 def is_active(ev: dict, today: str) -> bool:
@@ -120,6 +116,62 @@ def is_active(ev: dict, today: str) -> bool:
 
 
 # ─────────────────────────────────────────────────────────────
+# Contagem de eventos com sessão numa data específica
+# ─────────────────────────────────────────────────────────────
+
+def count_events_on_date(events: list[dict], date: str) -> int:
+    """Conta eventos que têm pelo menos uma sessão (ou date_start) na data indicada."""
+    count = 0
+    for ev in events:
+        sessions = ev.get("sessions", [])
+        if sessions:
+            if any(s.get("date", "") == date for s in sessions):
+                count += 1
+        else:
+            # Sem sessões detalhadas: usa date_start/date_end
+            date_start = ev.get("date_start", "")
+            date_end   = ev.get("date_end", "") or date_start
+            if date_start <= date <= date_end:
+                count += 1
+    return count
+
+
+def count_events_in_date_range(events: list[dict], date_from: str, date_to: str) -> int:
+    """Conta eventos com pelo menos uma sessão no intervalo [date_from, date_to]."""
+    count = 0
+    for ev in events:
+        sessions = ev.get("sessions", [])
+        if sessions:
+            if any(date_from <= s.get("date", "") <= date_to for s in sessions):
+                count += 1
+        else:
+            date_start = ev.get("date_start", "")
+            date_end   = ev.get("date_end", "") or date_start
+            # Overlap: evento não terminou antes de date_from e não começa depois de date_to
+            if date_start <= date_to and date_end >= date_from:
+                count += 1
+    return count
+
+
+# ─────────────────────────────────────────────────────────────
+# Fim-de-semana seguinte (Sábado + Domingo)
+# ─────────────────────────────────────────────────────────────
+
+def get_next_weekend(today_dt: datetime) -> tuple[str, str]:
+    """Devolve (sábado, domingo) do fim-de-semana mais próximo (pode ser este ou o próximo)."""
+    weekday = today_dt.weekday()  # 0=Segunda … 5=Sábado, 6=Domingo
+    if weekday == 5:   # hoje é sábado
+        sat = today_dt
+    elif weekday == 6: # hoje é domingo
+        sat = today_dt - timedelta(days=1)
+    else:
+        days_until_sat = 5 - weekday
+        sat = today_dt + timedelta(days=days_until_sat)
+    sun = sat + timedelta(days=1)
+    return sat.date().isoformat(), sun.date().isoformat()
+
+
+# ─────────────────────────────────────────────────────────────
 # Slim fields (Architecture §8)
 # ─────────────────────────────────────────────────────────────
 
@@ -131,7 +183,7 @@ SLIM_FIELDS = {
     "source_url", "ticket_url",
     "price_info", "price_min",
     "age_rating", "accessibility", "sessions",
-    "_stale", "_stale_since",  # propagados para o frontend poder identificar dados em cache
+    "_stale", "_stale_since",
 }
 
 
@@ -216,8 +268,9 @@ def detect_anomalies(current_by_theater: dict[str, int], prev_meta_path: Path) -
 # ─────────────────────────────────────────────────────────────
 
 def build(events_path: Path = EVENTS_PATH) -> None:
-    t0    = datetime.now(timezone.utc)
-    today = t0.date().isoformat()
+    t0     = datetime.now(timezone.utc)
+    today  = t0.date().isoformat()
+    today_dt = datetime.now(timezone.utc)
 
     logger.info("=" * 55)
     logger.info("Primeira Plateia — build.py")
@@ -243,7 +296,7 @@ def build(events_path: Path = EVENTS_PATH) -> None:
         events = raw
     elif isinstance(raw, dict):
         events        = raw.get("events", [])
-        scraper_health = raw.get("scraper_health", {})  # preservado do scraper.py se existir
+        scraper_health = raw.get("scraper_health", {})
     else:
         logger.warning("Formato inesperado de events.json — a continuar com lista vazia")
         events = []
@@ -349,9 +402,7 @@ def build(events_path: Path = EVENTS_PATH) -> None:
         for a in anomalies:
             logger.warning(f"     • {a}")
 
-    # ── Resumo de saúde dos scrapers (do validation_report.json) ──
-    # O scraper_health é lido directamente do events.json produzido pelo scraper.py.
-    # Aqui apenas o propagamos para o meta.json para consulta rápida no frontend.
+    # ── Saúde dos scrapers ────────────────────────────────────
     health_summary = {
         name: {
             "status":      h.get("status"),
@@ -361,18 +412,42 @@ def build(events_path: Path = EVENTS_PATH) -> None:
         if h.get("status") != "ok"
     }
 
+    # ── Contagens por data (novo) ─────────────────────────────
+    events_today = count_events_on_date(future_events, today)
+
+    weekend_sat, weekend_sun = get_next_weekend(today_dt)
+    events_this_weekend = count_events_in_date_range(future_events, weekend_sat, weekend_sun)
+
+    logger.info(f"  Hoje ({today}): {events_today} espectáculos")
+    logger.info(f"  Fim-de-semana ({weekend_sat}/{weekend_sun}): {events_this_weekend} espectáculos")
+
+    # ── Cidades com teatros activos (novo) ────────────────────
+    # Usa os teatros que têm pelo menos 1 evento futuro
+    active_theater_names = {ev.get("theater", "") for ev in future_events}
+    cities_set = set()
+    for name in active_theater_names:
+        city = theater_city_map.get(name, "")
+        if city:
+            cities_set.add(city)
+    cities = sorted(cities_set)
+
+    logger.info(f"  Cidades activas: {', '.join(cities)}")
+
     # ── data/meta.json ────────────────────────────────────────
     build_version = t0.strftime("%Y%m%d-%H%M")
     meta = {
-        "updated_at":       t0.isoformat(),
-        "build_version":    build_version,
-        "total_events":     len(future_events),
-        "total_theaters":   len(by_theater),
-        "stale_theaters":   stale_count,
-        "by_theater":       by_theater_named,
-        "completeness_avg": completeness_avg,
-        "anomalies":        anomalies,
-        "scraper_health":   health_summary,  # apenas scrapers não-OK
+        "updated_at":           t0.isoformat(),
+        "build_version":        build_version,
+        "total_events":         len(future_events),
+        "total_theaters":       len(by_theater),
+        "events_today":         events_today,           # NOVO
+        "events_this_weekend":  events_this_weekend,    # NOVO
+        "cities":               cities,                 # NOVO
+        "stale_theaters":       stale_count,
+        "by_theater":           by_theater_named,
+        "completeness_avg":     completeness_avg,
+        "anomalies":            anomalies,
+        "scraper_health":       health_summary,
     }
     out_meta = DATA_DIR / "meta.json"
     out_meta.write_text(
@@ -387,6 +462,9 @@ def build(events_path: Path = EVENTS_PATH) -> None:
     logger.info(f"Build concluído em {elapsed}s")
     logger.info(f"  Teatros:          {len(by_theater)}")
     logger.info(f"  Espectáculos:     {len(future_events)}")
+    logger.info(f"  Hoje:             {events_today}")
+    logger.info(f"  Fim-de-semana:    {events_this_weekend}")
+    logger.info(f"  Cidades:          {len(cities)}")
     logger.info(f"  Em cache (stale): {stale_count}")
     logger.info(f"  Completeness avg: {completeness_avg}")
     logger.info(f"  Anomalias:        {len(anomalies)}")
