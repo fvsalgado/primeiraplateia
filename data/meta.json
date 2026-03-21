@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-21T03:02:12.488464+00:00",
-  "build_version": "20260321-0302",
-  "total_events": 218,
+  "updated_at": "2026-03-21T03:09:00.275961+00:00",
+  "build_version": "20260321-0309",
+  "total_events": 221,
   "total_theaters": 12,
   "events_today": 7,
   "events_this_weekend": 7,
@@ -12,6 +12,15 @@
     "Lisboa",
     "Viseu"
   ],
+  "by_category": {
+    "Outro": 99,
+    "Teatro": 62,
+    "Música": 43,
+    "Dança": 8,
+    "Performance": 7,
+    "Circo": 1,
+    "Teatro Musical": 1
+  },
   "stale_theaters": 0,
   "by_theater": {
     "Theatro Circo": 63,
@@ -19,7 +28,7 @@
     "Teatro Variedades": 6,
     "Teatro da Trindade INATEL": 7,
     "São Luiz Teatro Municipal": 30,
-    "Teatro Maria Matos": 13,
+    "Teatro Maria Matos": 16,
     "TAGV — Teatro Académico Gil Vicente": 34,
     "CCB — Centro Cultural de Belém": 6,
     "Teatro das Figuras": 20,
@@ -27,7 +36,7 @@
     "Teatro do Bairro": 1,
     "Culturgest": 3
   },
-  "completeness_avg": 0.639,
+  "completeness_avg": 0.638,
   "anomalies": [],
   "scraper_health": {}
 }
