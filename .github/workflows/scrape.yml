@@ -137,7 +137,16 @@ jobs:
               print('| Campo | Valor |')
               print('|---|---|')
               print(f'| Teatros | {m.get(\"total_theaters\", \"?\")} |')
-              print(f'| Espectaculos | {m.get(\"total_events\", \"?\")} |')
+              print(f'| Em cartaz | {m.get(\"total_events\", \"?\")} |')
+              print(f'| Em cena hoje | {m.get(\"events_today\", \"?\")} |')
+              print(f'| Este fim-de-semana | {m.get(\"events_this_weekend\", \"?\")} |')
+              cidades = m.get(\"cities\", [])
+              print(f'| Cidades | {\" · \".join(cidades) if cidades else \"?\"} |')
+              anomalias = m.get(\"anomalies\", [])
+              print(f'| Anomalias | {len(anomalias)} |')
+              if anomalias:
+                  for a in anomalias:
+                      print(f'| ⚠️ | {a} |')
               print(f'| Actualizado | {m.get(\"updated_at\", \"?\")} |')
           except Exception as e:
               print(f'Erro: {e}')
