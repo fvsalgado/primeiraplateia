@@ -1,13 +1,41 @@
 {
-  "generated_at": "2026-03-21T15:34:31.016158Z",
-  "total_raw": 329,
-  "total_accepted": 323,
-  "total_rejected": 6,
-  "total_warnings": 103,
+  "generated_at": "2026-03-21T21:54:21.645724Z",
+  "total_raw": 334,
+  "total_accepted": 324,
+  "total_rejected": 10,
+  "total_warnings": 102,
   "rejected": [
     {
       "id": "saoluiz-um-homem-e-o-seu-criado",
       "title": "Um Homem e o seu Criado",
+      "errors": [
+        "'date_start' ausente ou vazio"
+      ]
+    },
+    {
+      "id": "saoluiz-a-sensitive-case",
+      "title": "A Sensitive Case",
+      "errors": [
+        "'date_start' ausente ou vazio"
+      ]
+    },
+    {
+      "id": "saoluiz-transport-tipping-point",
+      "title": "Transport: Tipping Point",
+      "errors": [
+        "'date_start' ausente ou vazio"
+      ]
+    },
+    {
+      "id": "saoluiz-dark-circus",
+      "title": "Dark Circus",
+      "errors": [
+        "'date_start' ausente ou vazio"
+      ]
+    },
+    {
+      "id": "saoluiz-transport-departure",
+      "title": "Transport: Departure",
       "errors": [
         "'date_start' ausente ou vazio"
       ]
@@ -757,13 +785,6 @@
       ]
     },
     {
-      "id": "tagv-festival-end-dramaturgia-contempor-nea-processos-d",
-      "title": "Festival END: Dramaturgia Contemporânea. Processos de Composição",
-      "warnings": [
-        "evento já terminou (2025-07-09)"
-      ]
-    },
-    {
       "id": "tagv-hist-rias-do-vale-bom",
       "title": "Histórias do Vale Bom",
       "warnings": [
@@ -784,7 +805,7 @@
     },
     "São Luiz Teatro Municipal": {
       "status": "ok",
-      "events_collected": 35
+      "events_collected": 44
     },
     "Teatro Maria Matos": {
       "status": "ok",
@@ -820,7 +841,7 @@
     },
     "TAGV — Teatro Académico Gil Vicente": {
       "status": "ok",
-      "events_collected": 111
+      "events_collected": 107
     },
     "Cine-Teatro Avenida": {
       "status": "empty",
