@@ -1,5 +1,52 @@
 [
   {
+    "id": "capitolio-evita",
+    "title": "Evita",
+    "theater": "Capitólio",
+    "category": "Teatro",
+    "dates_label": "27.03 – 28.06.2026",
+    "date_start": "2026-03-27",
+    "date_end": "2026-06-28",
+    "sessions": [
+      {
+        "date": "2026-03-27",
+        "time": "21:00",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-06-28",
+        "time": "21:00",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "21h",
+    "synopsis": "O musical Evita, é uma das obras mais célebres de Andrew Lloyd Webber (música) e Tim Rice (letra).",
+    "image": {
+      "url": "https://teatrovariedades-capitolio.pt/wp-content/uploads/2025/11/2-scaled-e1762549074993.jpg",
+      "credit": null,
+      "source": "https://teatrovariedades-capitolio.pt/evento/evita/",
+      "theater": "Capitólio"
+    },
+    "source_url": "https://teatrovariedades-capitolio.pt/evento/evita/",
+    "ticket_url": "https://teatrovariedades-capitolio.pt/visite-nos/bilheteira-e-horarios/",
+    "price_info": "25€",
+    "age_rating": "M/12",
+    "accessibility": "",
+    "technical_sheet": {},
+    "subtitle": "Entre 25€ e 35€",
+    "price_min": 25.0,
+    "price_max": 25.0,
+    "duration": "120 min",
+    "duration_min": 120,
+    "age_min": 12,
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
+    "theater_id": "capitolio",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.65
+    }
+  },
+  {
     "id": "capitolio-around-classic",
     "title": "Around Classic",
     "theater": "Capitólio",
@@ -44,7 +91,7 @@
     "duration": "50 min",
     "duration_min": 50,
     "age_min": 6,
-    "scraped_at": "2026-03-21T02:23:20.487959+00:00",
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -86,7 +133,114 @@
     "duration": "150 min",
     "duration_min": 150,
     "age_min": 6,
-    "scraped_at": "2026-03-21T02:23:20.487959+00:00",
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
+    "theater_id": "capitolio",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.65
+    }
+  },
+  {
+    "id": "capitolio-gongada-drag",
+    "title": "Gongada Drag",
+    "theater": "Capitólio",
+    "category": "Performance",
+    "dates_label": "15.07 – 16.07.2026",
+    "date_start": "2026-07-15",
+    "date_end": "2026-07-16",
+    "sessions": [
+      {
+        "date": "2026-07-15",
+        "time": "21:00",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-07-16",
+        "time": "21:00",
+        "weekday": "Qui"
+      }
+    ],
+    "schedule": "21h",
+    "synopsis": "Depois de passar por várias cidades no Brasil, oGongada Dragchega agora a Portugal pelas mãos do humorista Bruno Motta. O espetáculo cruza comédia e arte drag, num formato marcado pelo humor e pelas suas alfinetadas.",
+    "image": {
+      "url": "https://teatrovariedades-capitolio.pt/wp-content/uploads/2026/03/3840x2160_IMG-1024x576.png",
+      "credit": null,
+      "source": "https://teatrovariedades-capitolio.pt/evento/gongada-drag/",
+      "theater": "Capitólio"
+    },
+    "source_url": "https://teatrovariedades-capitolio.pt/evento/gongada-drag/",
+    "ticket_url": "https://teatrovariedades-capitolio.pt/visite-nos/bilheteira-e-horarios/",
+    "price_info": "",
+    "age_rating": "M/16",
+    "accessibility": "",
+    "technical_sheet": {},
+    "subtitle": "120 min.",
+    "duration": "120 min",
+    "duration_min": 120,
+    "age_min": 16,
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
+    "theater_id": "capitolio",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.6
+    }
+  },
+  {
+    "id": "capitolio-macbeth",
+    "title": "MACBETH",
+    "theater": "Capitólio",
+    "category": "Teatro",
+    "dates_label": "21.07 – 25.07.2026",
+    "date_start": "2026-07-21",
+    "date_end": "2026-07-25",
+    "sessions": [
+      {
+        "date": "2026-07-21",
+        "time": "21:00",
+        "weekday": "Ter"
+      },
+      {
+        "date": "2026-07-22",
+        "time": "21:00",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-07-23",
+        "time": "21:00",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-07-24",
+        "time": "21:00",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-07-25",
+        "time": "21:00",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "21h",
+    "synopsis": "MACBETHtransporta para a contemporaneidade os temas intemporais da ambição desmedida, da corrupção do poder e da erosão moral, recriando-os num universo onde a intimidade é constantemente exposta, julgada e consumida.…",
+    "image": {
+      "url": "https://teatrovariedades-capitolio.pt/wp-content/uploads/2026/01/nosso-site-4.jpg",
+      "credit": null,
+      "source": "https://teatrovariedades-capitolio.pt/evento/macbeth/",
+      "theater": "Capitólio"
+    },
+    "source_url": "https://teatrovariedades-capitolio.pt/evento/macbeth/",
+    "ticket_url": "https://teatrovariedades-capitolio.pt/visite-nos/bilheteira-e-horarios/",
+    "price_info": "10€",
+    "age_rating": "+351",
+    "accessibility": "",
+    "technical_sheet": {},
+    "subtitle": "A partir de 10€",
+    "price_min": 10.0,
+    "price_max": 10.0,
+    "duration": "90 min",
+    "duration_min": 90,
+    "age_min": 351,
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {
@@ -133,7 +287,7 @@
     "duration": "105 min",
     "duration_min": 105,
     "age_min": 351,
-    "scraped_at": "2026-03-21T02:23:20.487959+00:00",
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
     "_meta": {

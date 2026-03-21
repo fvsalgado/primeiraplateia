@@ -99,7 +99,7 @@
       "interpretação": "Cucha Carvalheiro, David Esteves, Fernando Luís, Madalena Almeida, Manuela Couto, Virgílio Castelo e Duarte Romão e Laura Garnel (alunos finalistas da ESTC)",
       "coprodução": "Culturproject, Teatro Municipal Joaquim Benite e São Luiz Teatro Municipal Projeto apoiado por República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes"
     },
-    "scraped_at": "2026-03-21T02:23:20.487959+00:00",
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -204,7 +204,7 @@
       "produção": "Fátima Santos Filipe Difusão João Vaz Silva",
       "coprodução": "O Fim do Teatro, Casa Varela, Teatro-Cine de Pombal e São Luiz Teatro Municipal Parceria RTP Palco Apoio Largo Residências Media partner Radar 97.8 FM AGRADECIMENTOS Chão de Oliva, Elsa Lago Matos e Luiz Quaresma"
     },
-    "scraped_at": "2026-03-21T02:23:20.487959+00:00",
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -248,7 +248,358 @@
       "direção": "Luís Vieira e Rute Ribeiro",
       "coprodução": "LU.CA – Teatro Luís de Camões, Teatro Nacional D. Maria II, Centro Cultural de Belém e São Luiz Teatro Municipal /// A Tarumba é uma estrutura financiada por República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes"
     },
-    "scraped_at": "2026-03-21T02:23:20.487959+00:00",
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
+    "theater_id": "saoluiz",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.69
+    }
+  },
+  {
+    "id": "saoluiz-teatro-de-imagens",
+    "title": "Teatro de Imagens",
+    "theater": "São Luiz Teatro Municipal",
+    "category": "Outro",
+    "source_url": "https://www.teatrosaoluiz.pt/espetaculo/teatro-de-imagens/",
+    "date_start": "2026-03-24",
+    "subtitle": "Uma homenagem a Bob Wilson",
+    "date_end": "2026-03-24",
+    "dates_label": "24 março",
+    "schedule": "terça, 19h",
+    "sessions": [
+      {
+        "date": "2026-03-24",
+        "time": "19:00",
+        "weekday": "Ter"
+      }
+    ],
+    "synopsis": "Um ano após a apresentação no São Luiz Teatro Municipal, do espetáculo Pessoa - Since I´ve been me recordamos a notável obra daquele que foi um dos mais",
+    "image": {
+      "url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2026/02/20250306-pessoa-pedrorosarionunes-54-recuperado-scaled-e1773835331261.jpg",
+      "credit": "EGEAC – Teatro São Luiz, Pedro Rosário Nunes Datas e Horários 24 março terça, 19",
+      "source": "https://www.teatrosaoluiz.pt/espetaculo/teatro-de-imagens/",
+      "theater": "São Luiz Teatro Municipal"
+    },
+    "ticket_url": "https://www.teatrosaoluiz.pt/bilheteira/",
+    "price_info": "Entrada livre sujeita à lotação da sala. Bilhetes disponíveis no próprio dia na bilheteira do Teatro a partir de uma hora antes do evento (até 2 por pessoa).",
+    "price_min": 0.0,
+    "duration": "3 min",
+    "duration_min": 3,
+    "age_rating": "M1770",
+    "age_min": 1770,
+    "sala": "Sala Bernardo Sassetti",
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
+    "theater_id": "saoluiz",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.65
+    }
+  },
+  {
+    "id": "saoluiz-a-luz-que-ficou",
+    "title": "A Luz que Ficou",
+    "theater": "São Luiz Teatro Municipal",
+    "category": "Outro",
+    "source_url": "https://www.teatrosaoluiz.pt/espetaculo/a-luz-que-ficou/",
+    "date_start": "2026-03-27",
+    "subtitle": "Um retrato íntimo do São Luiz",
+    "date_end": "2026-07-19",
+    "dates_label": "27 março a 19 julho",
+    "schedule": "Exposição visitável em dias de espetáculo\ninauguração 27 março, Dia Mundial do Teatro\nsexta, das 17h às 19h\nVisitas guiadas por Estelle Valente\nDatas: 12 abril, 16 maio, 23 maio, 13 junho, 28 junho, 11 julho, 18 julho\nAs visitas guiadas são gratuitas mediante marcação (a partir de 27 março), para:\npublicos@teatrosaoluiz.pt",
+    "sessions": [
+      {
+        "date": "2026-03-27",
+        "time": "17:00",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-07-19",
+        "time": "17:00",
+        "weekday": "Dom"
+      }
+    ],
+    "synopsis": "Em setembro de 2025, assinala-se uma década desde que Estelle Valente iniciou o seu trabalho no Teatro São Luiz. O que começou de forma intuitiva evoluiu",
+    "image": {
+      "url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2025/07/unassono-victor-hugo-pontes-2017-1-scaled.jpg",
+      "credit": "EGEAC – Teatro São Luiz, Estelle Valente. Uníssono, Victor Hugo Pontes, 2016 Dat",
+      "source": "https://www.teatrosaoluiz.pt/espetaculo/a-luz-que-ficou/",
+      "theater": "São Luiz Teatro Municipal"
+    },
+    "ticket_url": "https://www.teatrosaoluiz.pt/bilheteira/",
+    "price_info": "Entrada livre sujeita à lotação do espaço.",
+    "price_min": 0.0,
+    "duration": "6 min",
+    "duration_min": 6,
+    "age_rating": "M1770",
+    "age_min": 1770,
+    "sala": "Vários espaços do Teatro",
+    "technical_sheet": {
+      "produção": "São Luiz Teatro Municipal"
+    },
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
+    "theater_id": "saoluiz",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.67
+    }
+  },
+  {
+    "id": "saoluiz-dia-mundial-do-teatro",
+    "title": "Dia Mundial do Teatro",
+    "theater": "São Luiz Teatro Municipal",
+    "category": "Teatro",
+    "source_url": "https://www.teatrosaoluiz.pt/espetaculo/dia-mundial-do-teatro-2/",
+    "date_start": "2026-03-27",
+    "subtitle": "É no São Luiz",
+    "date_end": "2026-03-27",
+    "dates_label": "27 março",
+    "schedule": "sexta, a partir das 17h",
+    "sessions": [
+      {
+        "date": "2026-03-27",
+        "time": "17:00",
+        "weekday": "Sex"
+      }
+    ],
+    "synopsis": "Neste Dia Mundial do Teatro, convidamos a cidade a entrar na nossa casa. Inauguramos uma exposição, A Luz que Ficou - Um retrato íntimo do São Luiz, de",
+    "image": {
+      "url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2026/03/03-tmsl-multibanco-campanha-dia-mundial-teatro-multibanco-1024x677-1-scaled.jpg",
+      "credit": "São Luiz Teatro Municipal Newsletter Siga o Teatro São Luiz nas redes sociais Me",
+      "source": "https://www.teatrosaoluiz.pt/espetaculo/dia-mundial-do-teatro-2/",
+      "theater": "São Luiz Teatro Municipal"
+    },
+    "ticket_url": "https://www.teatrosaoluiz.pt/bilheteira/",
+    "price_info": "Entrada livre sujeita à lotação da sala. Bilhetes disponíveis no próprio dia na bilheteira do Teatro a partir das 15h (até 2 por pessoa).",
+    "price_min": 0.0,
+    "duration": "1 min",
+    "duration_min": 1,
+    "age_rating": "Consultar a classificação dos espetáculos",
+    "sala": "Vários espaços do Teatro",
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
+    "theater_id": "saoluiz",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.65
+    }
+  },
+  {
+    "id": "saoluiz-os-contratos-do-comerciante",
+    "title": "Os Contratos do Comerciante",
+    "theater": "São Luiz Teatro Municipal",
+    "category": "Teatro",
+    "source_url": "https://www.teatrosaoluiz.pt/espetaculo/os-contratos-do-comerciante/",
+    "date_start": "2026-04-08",
+    "subtitle": "Uma Comédia Bancocrática",
+    "date_end": "2026-04-12",
+    "dates_label": "8 a 12 abril",
+    "schedule": "quarta a sábado, 20h, domingo, 17h30",
+    "sessions": [
+      {
+        "date": "2026-04-08",
+        "time": "20:00",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-04-09",
+        "time": "20:00",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-04-10",
+        "time": "20:00",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-04-11",
+        "time": "20:00",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-04-12",
+        "time": "17:30",
+        "weekday": "Dom"
+      }
+    ],
+    "synopsis": "Os pequenos investidores lamuriam tudo o que perderam e as figuras sem nome e sem cara do setor financeiro conspiram contra eles, cidadãos comuns, caídos,",
+    "image": {
+      "url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2026/01/foto-de-cartaz-site-scaled.jpg",
+      "credit": "Guilherme Seabra Comprar Bilhetes Datas e Horários 8 a 12 abril quarta a sábado,",
+      "source": "https://www.teatrosaoluiz.pt/espetaculo/os-contratos-do-comerciante/",
+      "theater": "São Luiz Teatro Municipal"
+    },
+    "ticket_url": "https://www.teatrosaoluiz.pt/bilheteira/",
+    "price_info": "€12 (com descontos) | (Abrangido pelo Passe Cultura - disponível apenas na bilheteira do Teatro)\n+info",
+    "duration": "3h",
+    "duration_min": 2,
+    "age_rating": "A classificar pela CCE",
+    "sala": "Palco da Sala Luis Miguel Cintra",
+    "technical_sheet": {
+      "tradução": "Helena Topa Com Filipe Velez, Frederico Barata, Joana Manaças e Sérgio Coragem Cocriação e desenho de iluminação Daniel Worm d’Assumpção Co-criação, figurinos e espaço cénico Livia Lattanzio Construção Cenográfica Manuel Lobão",
+      "produção": "Frederico Barata",
+      "coprodução": "auéééu e São Luiz Teatro Municipal Apoios SPA, Junta de Freguesia de Santo António, Casa da Comarca de Arganil, MTC, os nossos putos Agradecimentos Eva Baudry, Filipe Andrade, Fernando Roussado, auéééu teatro"
+    },
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
+    "theater_id": "saoluiz",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.71
+    }
+  },
+  {
+    "id": "saoluiz-kabe-a-or",
+    "title": "Kabeça Orí",
+    "theater": "São Luiz Teatro Municipal",
+    "category": "Teatro",
+    "source_url": "https://www.teatrosaoluiz.pt/espetaculo/kabeca-ori/",
+    "date_start": "2026-04-11",
+    "subtitle": "Aoaní e Joyce Souza",
+    "date_end": "2026-04-19",
+    "dates_label": "11 a 19 abril",
+    "schedule": "quarta a sábado 19h30; domingo, 16h",
+    "sessions": [
+      {
+        "date": "2026-04-11",
+        "time": "19:30",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-04-12",
+        "time": "16:00",
+        "weekday": "Dom"
+      },
+      {
+        "date": "2026-04-15",
+        "time": "19:30",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-04-16",
+        "time": "19:30",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-04-17",
+        "time": "19:30",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-04-18",
+        "time": "19:30",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-04-19",
+        "time": "16:00",
+        "weekday": "Dom"
+      }
+    ],
+    "synopsis": "Começamos por pedir licença, “batemos cabeça” para quem veio antes, refizemos um caminho a fim de ritualizar o que a cidade tenta sistematicamente apagar.",
+    "image": {
+      "url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2025/07/kabeca-ori-2-by-joniricos-scaled.jpg",
+      "credit": "Joniricos Comprar Bilhetes Datas e Horários 11 a 19 abril quarta a sábado 19h30;",
+      "source": "https://www.teatrosaoluiz.pt/espetaculo/kabeca-ori/",
+      "theater": "São Luiz Teatro Municipal"
+    },
+    "ticket_url": "https://www.teatrosaoluiz.pt/bilheteira/",
+    "price_info": "€12 (com descontos) | (Abrangido pelo Passe Cultura - disponível apenas na bilheteira do Teatro)\n+info",
+    "duration": "3 min",
+    "duration_min": 3,
+    "age_rating": "M/12",
+    "age_min": 12,
+    "sala": "Sala Mário Viegas",
+    "technical_sheet": {
+      "texto": "Aoaní, Joyce Souza e Monalisa Silva",
+      "dramaturgia": "Monalisa Silva",
+      "música": "Xullaji Design e operação de som Sara Marita Percussão Emile Pereira",
+      "luz": "Ariene Godoy Operação de luz Bee Barros Cenário e figurinos Neusa Trovoada Fotografia Joni Riccos Captação de imagens Letícia Diniz",
+      "produção": "Vanessa Amaral Produção Associação Orí – Negritudes em Convergência Espiralar",
+      "coprodução": "Bolsa de Criação O Espaço do Tempo com apoio do Banco BPI e Fundação “la Caixa” /// Projeto financiado por República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes Apoios Biblioteca de Alcântara, Câmara Municipal de Almada, Câmara Municipal da Moita, RDP África, Buala"
+    },
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
+    "theater_id": "saoluiz",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.77
+    }
+  },
+  {
+    "id": "saoluiz-jardim-aberto-cores-em-cinza-m-sica-francesa-da-gr",
+    "title": "Jardim Aberto | Cores em cinza – Música Francesa da Grande Guerra",
+    "theater": "São Luiz Teatro Municipal",
+    "category": "Música",
+    "source_url": "https://www.teatrosaoluiz.pt/espetaculo/jardim-aberto-cores-em-cinza-musica-francesa-da-grande-guerra/",
+    "date_start": "2026-04-13",
+    "subtitle": "TEATRO NACIONAL DE SÃO CARLOS",
+    "date_end": "2026-04-13",
+    "dates_label": "13 abril",
+    "schedule": "segunda, 18h30",
+    "sessions": [
+      {
+        "date": "2026-04-13",
+        "time": "18:30",
+        "weekday": "Seg"
+      }
+    ],
+    "synopsis": "O São Luiz Teatro Municipal acolhe alguns espetáculos da programação do Teatro Nacional de São Carlos, nomeadamente nas temporadas de ópera e de música de",
+    "image": {
+      "url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2026/01/tmsl-jardim-aberto-imagem-website-abr26-scaled.jpg",
+      "credit": "Estelle Valente | Estúdio João Campos Datas e Horários 13 abril segunda, 18h30 L",
+      "source": "https://www.teatrosaoluiz.pt/espetaculo/jardim-aberto-cores-em-cinza-musica-francesa-da-grande-guerra/",
+      "theater": "São Luiz Teatro Municipal"
+    },
+    "ticket_url": "https://www.teatrosaoluiz.pt/bilheteira/",
+    "price_info": "Entrada livre sujeita à lotação da sala. Bilhetes disponíveis no próprio dia na bilheteira do Teatro a partir de uma hora antes do evento (até 2 por pessoa).",
+    "price_min": 0.0,
+    "duration": "3 min",
+    "duration_min": 3,
+    "age_rating": "M/6",
+    "age_min": 6,
+    "sala": "Sala Bernardo Sassetti",
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
+    "theater_id": "saoluiz",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.65
+    }
+  },
+  {
+    "id": "saoluiz-coisas-de-teatro",
+    "title": "Coisas de Teatro",
+    "theater": "São Luiz Teatro Municipal",
+    "category": "Outro",
+    "source_url": "https://www.teatrosaoluiz.pt/espetaculo/coisas-de-teatro/",
+    "date_start": "2026-04-14",
+    "subtitle": "André Murraças",
+    "date_end": "2026-04-14",
+    "dates_label": "14 abril",
+    "schedule": "terça, 18h30",
+    "sessions": [
+      {
+        "date": "2026-04-14",
+        "time": "18:30",
+        "weekday": "Ter"
+      }
+    ],
+    "synopsis": "Coisas de Teatro traduz-se numa coleção de livros sobre temas associados ao universo teatral, com edição de André Murraças, reconhecido encenador,",
+    "image": {
+      "url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2025/07/andremurracas-ilustracao-coisasdeteatro-scaled.jpeg",
+      "credit": "André Murraças Datas e Horários 14 abril terça, 18h30 Local Sala Bernardo Sasset",
+      "source": "https://www.teatrosaoluiz.pt/espetaculo/coisas-de-teatro/",
+      "theater": "São Luiz Teatro Municipal"
+    },
+    "ticket_url": "https://www.teatrosaoluiz.pt/bilheteira/",
+    "price_info": "Entrada livre sujeita à lotação da sala. Bilhetes disponíveis no próprio dia na bilheteira do Teatro a partir de uma hora antes do evento (até 2 por pessoa).",
+    "price_min": 0.0,
+    "duration": "2 min",
+    "duration_min": 2,
+    "age_rating": "M1770",
+    "age_min": 1770,
+    "sala": "Sala Bernardo Sassetti",
+    "technical_sheet": {
+      "produção": "Canário Bonacheirão",
+      "coprodução": "Canário Bonacheirão e São Luiz Teatro Municipal"
+    },
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -288,7 +639,7 @@
     "age_rating": "M1770",
     "age_min": 1770,
     "sala": "Sala Bernardo Sassetti",
-    "scraped_at": "2026-03-21T02:23:20.487959+00:00",
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -354,7 +705,7 @@
       "produção": "Loup Solitaire",
       "coprodução": "Teatro Virgínia, Casa das Artes de Vila Nova de Famalicão, Teatro Diogo Bernardes, Teatro Gil Vicente e São Luiz Teatro Municipal /// A Loup Solitaire é uma estrutura financiada pela República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes"
     },
-    "scraped_at": "2026-03-21T02:23:20.487959+00:00",
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -418,7 +769,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Luis Miguel Cintra e sala Bernardo Sassetti",
-    "scraped_at": "2026-03-21T02:23:20.487959+00:00",
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -465,7 +816,7 @@
       "direção": "Luís Vieira e Rute Ribeiro",
       "coprodução": "LU.CA – Teatro Luís de Camões, Teatro Nacional D. Maria II, Centro Cultural de Belém e São Luiz Teatro Municipal /// A Tarumba é uma estrutura financiada por República Portuguesa – Cultura / Direção-Geral das Artes"
     },
-    "scraped_at": "2026-03-21T02:23:20.487959+00:00",
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -517,7 +868,7 @@
       "luz": "Pedro Guimarães",
       "produção": "Xana Lagusi"
     },
-    "scraped_at": "2026-03-21T02:23:20.487959+00:00",
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -609,7 +960,7 @@
       "produção": "André Camilo",
       "coprodução": "Camarote Produções e São Luiz Teatro Municipal"
     },
-    "scraped_at": "2026-03-21T02:23:20.487959+00:00",
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -648,7 +999,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Luis Miguel Cintra",
-    "scraped_at": "2026-03-21T02:23:20.487959+00:00",
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -688,7 +1039,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Bernardo Sassetti",
-    "scraped_at": "2026-03-21T02:23:20.487959+00:00",
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -727,7 +1078,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Luis Miguel Cintra",
-    "scraped_at": "2026-03-21T02:23:20.487959+00:00",
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -769,7 +1120,7 @@
     "technical_sheet": {
       "direção": "Pedro Carneiro Violoncelo Vasco Ferrão Maestros assistentes Vasco Ferrão, Jorge Leiria"
     },
-    "scraped_at": "2026-03-21T02:23:20.487959+00:00",
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -825,7 +1176,7 @@
       "direção_produção": "Maria João Garcia",
       "coprodução": "Fundação de Serralves/Serralves em Festa, Citemor, Festival End, Festival Paragem e São Luiz Teatro Municipal"
     },
-    "scraped_at": "2026-03-21T02:23:20.487959+00:00",
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -916,7 +1267,7 @@
       "produção": "Razões Pessoais Residência artística Casa de Gigante",
       "coprodução": "Teatro das Figuras e São Luiz Teatro Municipal"
     },
-    "scraped_at": "2026-03-21T02:23:20.487959+00:00",
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -971,7 +1322,7 @@
       "produção": "Trypas-Corassão Associação Cultural",
       "coprodução": "Es Tr3s Irms é o projeto vencedor da 5ª edição da Bolsa Amélia Rey Colaço, uma iniciativa promovida pelo Teatro Nacional D. Maria II (Lisboa), A Oficina / Centro Cultural Vila Flor (Guimarães), O Espaço do Tempo (Montemor-o-Novo), e o Teatro Viriato (Viseu)."
     },
-    "scraped_at": "2026-03-21T02:23:20.487959+00:00",
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -1030,11 +1381,44 @@
     "duration_min": 1,
     "age_rating": "A classificar pela CCE",
     "sala": "Sala Mário Viegas",
-    "scraped_at": "2026-03-21T02:23:20.487959+00:00",
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.65
+    }
+  },
+  {
+    "id": "saoluiz-visitas-guiadas-2025-2026",
+    "title": "Visitas Guiadas 2025-2026",
+    "theater": "São Luiz Teatro Municipal",
+    "category": "Outro",
+    "source_url": "https://www.teatrosaoluiz.pt/espetaculo/visitas-guiadas-2025-2026/",
+    "date_start": "2026-09-27",
+    "subtitle": "Uma visita guiada ao Teatro pela equipa do São Luiz",
+    "dates_label": "27 setembro (por Miguel Loureiro – Direção Artística)",
+    "schedule": "18 outubro (por Maria Beatriz Pinto – Produção)\n15 novembro (por Maria Tavora – Direção de Cena)\n20 dezembro (por Marta Azenha – Produção)\n17 janeiro 2026 (por Sofia Teixeira – Produção)\n28 fevereiro 2026 (por Miguel Loureiro – Direção Artística)\n28 março 2026 (por Maria Tavora – Direção de Cena)\n11 abril 2026  (por Maria Tavora – Direção de Cena)\n30 maio 2026 (por Maria Beatriz Pinto – Produção)\n27 junho 2026 (por Miguel Loureiro – Direção Artística)\n4 julho 2026 (por Maria Tavora – Direção de Cena)\nsábado, 15h\nPercurso pelo Teatro",
+    "sessions": [],
+    "synopsis": "Um percurso envolvente pelos bastidores, camarins, salas de espetáculo e espaços de trabalho que revelam o dia a dia desta casa centenária. Ao longo da",
+    "image": {
+      "url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2025/06/dscf3144-estelle-valente-scaled.jpg",
+      "credit": "Estelle Valente Comprar Bilhetes Datas e Horários 27 setembro (por Miguel Lourei",
+      "source": "https://www.teatrosaoluiz.pt/espetaculo/visitas-guiadas-2025-2026/",
+      "theater": "São Luiz Teatro Municipal"
+    },
+    "ticket_url": "https://www.teatrosaoluiz.pt/bilheteira/",
+    "price_info": "€2; Cartão São Luiz: entrada livre | lotação máx. 20 lugares",
+    "price_min": 0.0,
+    "duration": "1 min",
+    "duration_min": 1,
+    "age_rating": "M1770",
+    "age_min": 1770,
+    "sala": "Vários espaços do Teatro",
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
+    "theater_id": "saoluiz",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.45
     }
   },
   {
@@ -1069,7 +1453,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Luis Miguel Cintra",
-    "scraped_at": "2026-03-21T02:23:20.487959+00:00",
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -1108,7 +1492,7 @@
     "age_rating": "M/6",
     "age_min": 6,
     "sala": "Sala Luis Miguel Cintra",
-    "scraped_at": "2026-03-21T02:23:20.487959+00:00",
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
@@ -1142,11 +1526,51 @@
     "age_rating": "M1770",
     "age_min": 1770,
     "sala": "Sala Bernardo Sassetti",
-    "scraped_at": "2026-03-21T02:23:20.487959+00:00",
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
       "completeness": 0.45
+    }
+  },
+  {
+    "id": "saoluiz-uma-viagem-pela-m-sica-com-o-teatro-nacional-de-s-",
+    "title": "Uma viagem pela música com o Teatro Nacional de São Carlos",
+    "theater": "São Luiz Teatro Municipal",
+    "category": "Música",
+    "source_url": "https://www.teatrosaoluiz.pt/espetaculo/uma-viagem-pela-musica-com-o-teatro-nacional-de-sao-carlos/",
+    "date_start": "2027-01-19",
+    "subtitle": "Concertos Comentados para Escolas",
+    "date_end": "2027-01-19",
+    "dates_label": "19 janeiro, 10 fevereiro, 13 abril e 9 junho",
+    "schedule": "segunda e terça, 15h (exceto 10 fevereiro, 17h)",
+    "sessions": [
+      {
+        "date": "2027-01-19",
+        "time": "15:00",
+        "weekday": "Ter"
+      }
+    ],
+    "synopsis": "O Teatro Nacional de São Carlos, em parceria com o São Luiz Teatro Municipal, apresenta um ciclo de concertos comentados especialmente dirigido ao público",
+    "image": {
+      "url": "https://www.teatrosaoluiz.pt/wp-content/uploads/2025/09/tmsl-jardim-aberto-imagem-website-nov25-scaled.jpg",
+      "credit": "Estelle Valente | Estúdio João Campos Datas e Horários 19 janeiro, 10 fevereiro,",
+      "source": "https://www.teatrosaoluiz.pt/espetaculo/uma-viagem-pela-musica-com-o-teatro-nacional-de-sao-carlos/",
+      "theater": "São Luiz Teatro Municipal"
+    },
+    "ticket_url": "https://www.teatrosaoluiz.pt/bilheteira/",
+    "price_info": "Gratuito mediante inscrição para publicos@teatrosaoluiz.pt.",
+    "price_min": 0.0,
+    "duration": "45 min",
+    "duration_min": 45,
+    "age_rating": "M/6",
+    "age_min": 6,
+    "sala": "Sala Bernardo Sassetti",
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
+    "theater_id": "saoluiz",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.65
     }
   },
   {
@@ -1187,7 +1611,7 @@
     "technical_sheet": {
       "produção": "São Luiz Teatro Municipal"
     },
-    "scraped_at": "2026-03-21T02:23:20.487959+00:00",
+    "scraped_at": "2026-03-21T02:23:21.242078+00:00",
     "theater_id": "saoluiz",
     "city": "Lisboa",
     "_meta": {
