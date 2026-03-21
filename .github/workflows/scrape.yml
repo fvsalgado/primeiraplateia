@@ -45,6 +45,26 @@ jobs:
       - name: Correr scraper
         run: python scraper.py
 
+      - name: Instalar dependências de stats
+        run: |
+          pip install \
+            google-analytics-data \
+            google-api-python-client \
+            google-auth \
+            --break-system-packages
+        continue-on-error: true
+
+      - name: Fetch stats
+        env:
+          GA4_PROPERTY_ID:        ${{ secrets.GA4_PROPERTY_ID }}
+          GOOGLE_SERVICE_ACCOUNT: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
+          GSC_SITE_URL:           ${{ secrets.GSC_SITE_URL }}
+          META_PAGE_ACCESS_TOKEN: ${{ secrets.META_PAGE_ACCESS_TOKEN }}
+          META_PAGE_ID:           ${{ secrets.META_PAGE_ID }}
+          META_IG_USER_ID:        ${{ secrets.META_IG_USER_ID }}
+        run: python scripts/fetch_stats.py
+        continue-on-error: true
+
       - name: Debug — verificar events.json
         run: |
           echo "=== events.json existe? ==="
@@ -90,7 +110,7 @@ jobs:
 
           echo "--- a copiar paginas HTML ---"
           cp index.html 404.html _site/
-          for dir in programacao calendario teatros espetaculo sobre privacidade aviso-legal acessibilidade perto-de-mim; do
+          for dir in programacao calendario teatros espetaculo sobre privacidade aviso-legal acessibilidade perto-de-mim stats; do
             if [ -d "$dir" ]; then
               cp -r "$dir" _site/
               echo "  copiado: $dir/"
@@ -142,7 +162,7 @@ jobs:
               print(f'| Este fim-de-semana | {m.get(\"events_this_weekend\", \"?\")} |')
               cidades = m.get(\"cities\", [])
               print(f'| Cidades | {\" · \".join(cidades) if cidades else \"?\"} |')
-              anomalias = m.get(\"anomalies\", [])
+              anomalias = m.get(\"anomalias\", [])
               print(f'| Anomalias | {len(anomalias)} |')
               if anomalias:
                   for a in anomalias:
