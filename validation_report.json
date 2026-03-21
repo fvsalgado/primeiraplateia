@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-21T03:02:06.500112Z",
-  "total_raw": 325,
-  "total_accepted": 320,
-  "total_rejected": 5,
-  "total_warnings": 103,
+  "generated_at": "2026-03-21T03:10:04.635884Z",
+  "total_raw": 321,
+  "total_accepted": 315,
+  "total_rejected": 6,
+  "total_warnings": 102,
   "rejected": [
     {
       "id": "saoluiz-um-homem-e-o-seu-criado",
@@ -36,6 +36,13 @@
     {
       "id": "saoluiz-pons-varolii",
       "title": "PONS VAROLII",
+      "errors": [
+        "'date_start' ausente ou vazio"
+      ]
+    },
+    {
+      "id": "mariamatos-lap-laborat-rio-de-artes-performativas-para-crian-",
+      "title": "LAP | Laboratório de Artes Performativas para crianças",
       "errors": [
         "'date_start' ausente ou vazio"
       ]
@@ -755,13 +762,6 @@
       "warnings": [
         "evento já terminou (2025-07-09)"
       ]
-    },
-    {
-      "id": "tagv-hist-rias-do-vale-bom",
-      "title": "Histórias do Vale Bom",
-      "warnings": [
-        "evento já terminou (1929-10-21)"
-      ]
     }
   ],
   "total_duplicates_removed": 0,
@@ -781,7 +781,7 @@
     },
     "Teatro Maria Matos": {
       "status": "ok",
-      "events_collected": 13
+      "events_collected": 17
     },
     "Culturgest": {
       "status": "ok",
@@ -813,7 +813,7 @@
     },
     "TAGV — Teatro Académico Gil Vicente": {
       "status": "ok",
-      "events_collected": 111
+      "events_collected": 103
     },
     "Cine-Teatro Avenida": {
       "status": "empty",
