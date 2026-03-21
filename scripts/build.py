@@ -433,6 +433,15 @@ def build(events_path: Path = EVENTS_PATH) -> None:
 
     logger.info(f"  Cidades activas: {', '.join(cities)}")
 
+    # ── Contagem por categoria ────────────────────────────────
+    by_category: dict[str, int] = {}
+    for ev in future_events:
+        cat = ev.get("category") or "Outro"
+        by_category[cat] = by_category.get(cat, 0) + 1
+    # Ordenar por contagem descendente
+    by_category = dict(sorted(by_category.items(), key=lambda x: x[1], reverse=True))
+    logger.info(f"  Categorias: {', '.join(f'{k}:{v}' for k,v in by_category.items())}")
+
     # ── data/meta.json ────────────────────────────────────────
     build_version = t0.strftime("%Y%m%d-%H%M")
     meta = {
@@ -443,6 +452,7 @@ def build(events_path: Path = EVENTS_PATH) -> None:
         "events_today":         events_today,           # NOVO
         "events_this_weekend":  events_this_weekend,    # NOVO
         "cities":               cities,                 # NOVO
+        "by_category":          by_category,            # NOVO
         "stale_theaters":       stale_count,
         "by_theater":           by_theater_named,
         "completeness_avg":     completeness_avg,
