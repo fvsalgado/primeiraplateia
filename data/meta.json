@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-21T07:59:52.177105+00:00",
-  "build_version": "20260321-0759",
+  "updated_at": "2026-03-21T12:44:47.240991+00:00",
+  "build_version": "20260321-1244",
   "total_events": 221,
   "total_theaters": 12,
   "events_today": 7,
@@ -21,7 +21,7 @@
     "Circo": 1,
     "Teatro Musical": 1
   },
-  "stale_theaters": 0,
+  "stale_theaters": 34,
   "by_theater": {
     "Theatro Circo": 63,
     "Teatro Viriato": 29,

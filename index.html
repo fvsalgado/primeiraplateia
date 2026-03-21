@@ -33,45 +33,106 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Primeira Plateia","url":"https://www.primeiraplateia.pt","description":"A agenda nacional de teatro, dança, ópera e artes performativas em Portugal.","inLanguage":"pt-PT","publisher":{"@type":"Organization","name":"Primeira Plateia","url":"https://www.primeiraplateia.pt","email":"fabio@primeiraplateia.pt","sameAs":["https://instagram.com/primeiraplateia","https://facebook.com/primeiraplateia","https://linkedin.com/company/primeiraplateia","https://youtube.com/@primeiraplateia"]},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.primeiraplateia.pt/programacao/?q={search_term_string}"},"query-input":"required name=search_term_string"}}</script>
   <script type="application/ld+json" id="ld-itemlist">{"@context":"https://schema.org","@type":"ItemList","name":"Espectáculos em destaque","itemListElement":[]}</script>
 <style>
-.hero{min-height:100svh;display:flex;flex-direction:column;justify-content:center;padding:calc(var(--nav-h) + var(--space-20)) var(--space-12) var(--space-20);position:relative;overflow:hidden;background:var(--surface-bg)}
+/* ── NAV ──────────────────────────────────────────────────────── */
+/* Substituir hamburger por links sempre visíveis */
+.nav{display:flex;align-items:center;justify-content:space-between;padding:0 var(--space-8);height:var(--nav-h);position:fixed;top:0;left:0;right:0;z-index:100;background:var(--surface-bg);border-bottom:1px solid var(--surface-divider)}
+.nav-brand{display:flex;align-items:baseline;gap:4px;text-decoration:none}
+.nav-right{display:flex;align-items:center;gap:var(--space-1)}
+.nav-links{display:flex;list-style:none;margin:0;padding:0;gap:2px}
+.nav-links li a{font-size:var(--text-sm);font-weight:500;color:var(--text-muted);text-decoration:none;padding:var(--space-2) var(--space-3);border-radius:var(--radius-md);transition:all var(--transition-fast);white-space:nowrap}
+.nav-links li a:hover{color:var(--text-primary);background:var(--surface-bg-2)}
+.nav-links li a[aria-current="page"]{color:var(--color-primary);background:var(--surface-bg-2)}
+.nav-toggle{display:none}
+/* Em mobile, links ficam em linha compacta abaixo da marca */
+@media (max-width:640px){
+  .nav{flex-wrap:wrap;height:auto;padding:var(--space-3) var(--space-4)}
+  .nav-brand{flex:1}
+  .nav-right{width:100%;justify-content:flex-start;padding-top:var(--space-2);padding-bottom:var(--space-1);overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .nav-right::-webkit-scrollbar{display:none}
+  .nav-links{gap:2px;flex-shrink:0}
+  .nav-links li a{font-size:11px;padding:4px 8px}
+  .theme-btn{flex-shrink:0;margin-left:auto}
+  .hero{padding-top:calc(var(--nav-h) + 52px + var(--space-8)) !important}
+}
+
+/* ── HERO ─────────────────────────────────────────────────────── */
+.hero{padding:calc(var(--nav-h) + var(--space-16)) var(--space-12) var(--space-16);position:relative;overflow:hidden;background:var(--surface-bg)}
 .hero-curtain{position:absolute;top:0;right:0;bottom:0;width:42%;background:var(--gradient-hero);clip-path:polygon(18% 0,100% 0,100% 100%,0% 100%);z-index:0}
 [data-theme="dark"] .hero-curtain{opacity:.5}
 .hero-curtain::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(168deg,rgba(255,255,255,.03) 0px,rgba(255,255,255,.03) 1px,transparent 1px,transparent 40px)}
 .hero-curtain::after{content:'';position:absolute;top:30%;left:20%;width:300px;height:300px;background:radial-gradient(ellipse,rgba(217,31,31,.25) 0%,transparent 70%);pointer-events:none}
 .hero-inner{position:relative;z-index:1;max-width:var(--max-w);margin:0 auto;width:100%}
-.hero-kicker{display:inline-flex;align-items:center;gap:var(--space-3);font-size:var(--text-xs);font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--color-accent);margin-bottom:var(--space-6)}
+.hero-kicker{display:inline-flex;align-items:center;gap:var(--space-3);font-size:var(--text-xs);font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--color-accent);margin-bottom:var(--space-5)}
 .hero-kicker::before{content:'';width:24px;height:2px;background:var(--color-accent);display:block;flex-shrink:0}
-.hero-title{font-family:var(--ff-display);font-size:clamp(52px,9vw,120px);font-weight:900;line-height:.92;letter-spacing:-.04em;color:var(--text-primary);margin-bottom:0}
-.hero-title-em{display:block;font-style:italic;font-weight:700;color:var(--color-primary);font-size:clamp(44px,7.5vw,100px);letter-spacing:-.03em;line-height:.95;margin-top:var(--space-1)}
-.hero-sub{margin-top:var(--space-8);font-size:clamp(15px,1.5vw,18px);font-weight:400;line-height:1.75;color:var(--text-muted);max-width:420px}
-.hero-actions{display:flex;flex-wrap:wrap;gap:var(--space-3);margin-top:var(--space-10)}
-.hero-stats{display:flex;align-items:flex-start;gap:var(--space-12);flex-wrap:wrap;margin-top:var(--space-16);padding-top:var(--space-8);border-top:1px solid var(--surface-divider)}
-.stat-num{font-family:var(--ff-display);font-size:clamp(36px,4vw,52px);font-weight:900;color:var(--color-primary);line-height:1;display:block;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
-.stat-label{font-size:var(--text-xs);font-weight:600;letter-spacing:.15em;text-transform:uppercase;color:var(--text-muted);display:block;margin-top:var(--space-1)}
-.stat-sep{width:1px;height:48px;background:var(--surface-divider);flex-shrink:0;margin-top:4px}
-.hero-updated{margin-top:var(--space-5);font-size:var(--text-xs);color:var(--text-muted);opacity:.65;display:flex;align-items:center;gap:var(--space-2)}
-.hero-updated-dot{width:6px;height:6px;border-radius:50%;background:var(--color-accent);opacity:.7;flex-shrink:0;display:inline-block}
-.hero-cats{display:flex;flex-wrap:wrap;gap:var(--space-2);margin-top:var(--space-4)}
-.hero-cat-pill{display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:600;letter-spacing:.04em;color:var(--text-muted);background:var(--surface-bg-2);border:1px solid var(--surface-divider);border-radius:var(--radius-full);padding:3px 10px;text-decoration:none;transition:border-color var(--transition-fast),color var(--transition-fast)}
+.hero-title{font-family:var(--ff-display);font-size:clamp(44px,8vw,120px);font-weight:900;line-height:.92;letter-spacing:-.04em;color:var(--text-primary);margin-bottom:0}
+.hero-title-em{display:block;font-style:italic;font-weight:700;color:var(--color-primary);font-size:clamp(38px,6.5vw,100px);letter-spacing:-.03em;line-height:.95;margin-top:var(--space-1)}
+.hero-sub{margin-top:var(--space-6);font-size:clamp(14px,1.4vw,17px);font-weight:400;line-height:1.7;color:var(--text-muted);max-width:400px}
+.hero-actions{display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-3);margin-top:var(--space-8)}
+
+/* Teaser "esta noite" */
+.hero-tonight{display:inline-flex;align-items:center;gap:var(--space-2);font-size:var(--text-sm);font-weight:600;color:var(--color-accent);text-decoration:none;padding:var(--space-2) var(--space-4);border:1.5px solid var(--color-accent);border-radius:var(--radius-full);transition:all var(--transition-fast)}
+.hero-tonight:hover{background:var(--color-accent);color:#fff}
+.hero-tonight-dot{width:7px;height:7px;border-radius:50%;background:var(--color-accent);animation:pulse 1.8s ease-in-out infinite;flex-shrink:0}
+.hero-tonight:hover .hero-tonight-dot{background:#fff}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.75)}}
+
+/* Stats */
+.hero-stats{display:flex;align-items:flex-start;gap:var(--space-10);flex-wrap:wrap;margin-top:var(--space-12);padding-top:var(--space-6);border-top:1px solid var(--surface-divider)}
+.stat-num{font-family:var(--ff-display);font-size:clamp(32px,3.5vw,48px);font-weight:900;color:var(--color-primary);line-height:1;display:block;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.stat-label{font-size:var(--text-xs);font-weight:600;letter-spacing:.15em;text-transform:uppercase;color:var(--text-muted);display:block;margin-top:2px}
+.stat-sep{width:1px;height:44px;background:var(--surface-divider);flex-shrink:0;margin-top:2px}
+.hero-updated{margin-top:var(--space-4);font-size:var(--text-xs);color:var(--text-muted);opacity:.65;display:flex;align-items:center;gap:var(--space-2)}
+.hero-updated-dot{width:6px;height:6px;border-radius:50%;background:var(--color-accent);opacity:.7;flex-shrink:0}
+
+/* Chips de cidade */
+.hero-cities{display:flex;flex-wrap:wrap;gap:var(--space-2);margin-top:var(--space-4)}
+.hero-city-chip{font-size:11px;font-weight:600;color:var(--text-muted);background:var(--surface-bg-2);border:1px solid var(--surface-divider);border-radius:var(--radius-full);padding:3px 10px;text-decoration:none;transition:all var(--transition-fast);white-space:nowrap}
+.hero-city-chip:hover{color:var(--color-primary);border-color:var(--color-primary);background:var(--surface-bg)}
+
+/* Pills de categoria — scroll horizontal em mobile */
+.hero-cats{display:flex;flex-wrap:wrap;gap:var(--space-2);margin-top:var(--space-3)}
+.hero-cat-pill{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:600;color:var(--text-muted);background:var(--surface-bg-2);border:1px solid var(--surface-divider);border-radius:var(--radius-full);padding:3px 10px;text-decoration:none;transition:all var(--transition-fast);white-space:nowrap}
 .hero-cat-pill:hover{color:var(--color-primary);border-color:var(--color-primary)}
 .hero-cat-pill strong{color:var(--text-primary);font-weight:700}
-.section-destaques{padding:var(--space-24) var(--space-12);background:var(--surface-bg)}
-.destaques-header{max-width:var(--max-w);margin:0 auto var(--space-8);display:flex;align-items:flex-end;justify-content:space-between;gap:var(--space-6);flex-wrap:wrap}
-.destaques-tabs{display:flex;gap:var(--space-2);align-items:center;margin-bottom:var(--space-3)}
+@media(max-width:640px){
+  .hero-cats,.hero-cities{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding-bottom:2px}
+  .hero-cats::-webkit-scrollbar,.hero-cities::-webkit-scrollbar{display:none}
+}
+
+/* ── FAIXA DE TEATROS ─────────────────────────────────────────── */
+.section-teatros-strip{padding:var(--space-8) var(--space-12);background:var(--surface-bg-2);border-top:1px solid var(--surface-card-border);border-bottom:1px solid var(--surface-card-border)}
+.teatros-strip-header{max-width:var(--max-w);margin:0 auto var(--space-5);display:flex;align-items:center;justify-content:space-between}
+.teatros-strip-label{font-size:var(--text-xs);font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--text-muted)}
+.teatros-strip-grid{max-width:var(--max-w);margin:0 auto;display:flex;gap:var(--space-3);overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding-bottom:4px}
+.teatros-strip-grid::-webkit-scrollbar{display:none}
+.teatro-chip{display:flex;flex-direction:column;align-items:center;gap:var(--space-2);text-decoration:none;color:var(--text-muted);flex-shrink:0;padding:var(--space-3) var(--space-4);background:var(--surface-card);border:1px solid var(--surface-card-border);border-radius:var(--radius-md);transition:all var(--transition-fast);min-width:80px;max-width:100px}
+.teatro-chip:hover{border-color:var(--color-primary);color:var(--color-primary);transform:translateY(-2px);box-shadow:var(--shadow-sm)}
+.teatro-chip-logo{height:28px;width:auto;max-width:64px;object-fit:contain;filter:grayscale(1) opacity(.6);transition:filter var(--transition-fast)}
+.teatro-chip:hover .teatro-chip-logo{filter:grayscale(0) opacity(1)}
+.teatro-chip-name{font-size:9.5px;font-weight:600;letter-spacing:.04em;text-align:center;line-height:1.2}
+.teatro-chip-count{font-size:9px;color:var(--text-muted);font-weight:500}
+.teatro-chip-initial{width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:800;color:#fff;flex-shrink:0}
+
+/* ── DESTAQUES ────────────────────────────────────────────────── */
+.section-destaques{padding:var(--space-16) var(--space-12);background:var(--surface-bg)}
+.destaques-header{max-width:var(--max-w);margin:0 auto var(--space-6);display:flex;align-items:flex-end;justify-content:space-between;gap:var(--space-6);flex-wrap:wrap}
+.destaques-tabs{display:flex;gap:var(--space-2);align-items:center;margin-bottom:var(--space-2)}
 .destaques-tab{font-size:var(--text-xs);font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:var(--space-2) var(--space-4);border-radius:var(--radius-full);border:1px solid var(--surface-divider);background:transparent;color:var(--text-muted);cursor:pointer;transition:all var(--transition-fast)}
 .destaques-tab:hover{color:var(--text-primary);border-color:var(--color-primary)}
 .destaques-tab.active{background:var(--color-primary);color:#fff;border-color:var(--color-primary)}
 .destaques-title-link{text-decoration:none;color:inherit;display:block}
 .destaques-title-link:hover .section-h2 em{text-decoration:underline;text-decoration-color:var(--color-accent)}
-.destaques-grid{max-width:var(--max-w);margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:var(--space-5)}
-.carousel-nav{max-width:var(--max-w);margin:var(--space-8) auto 0;display:flex;align-items:center;justify-content:center;gap:var(--space-4)}
+.destaques-grid{max-width:var(--max-w);margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:var(--space-4)}
+.carousel-nav{max-width:var(--max-w);margin:var(--space-6) auto 0;display:flex;align-items:center;justify-content:center;gap:var(--space-4)}
 .carousel-btn{width:40px;height:40px;border-radius:50%;border:1px solid var(--surface-divider);background:var(--surface-card);color:var(--text-primary);cursor:pointer;font-size:18px;display:flex;align-items:center;justify-content:center;transition:all var(--transition-fast)}
 .carousel-btn:hover:not(:disabled){border-color:var(--color-primary);background:var(--color-primary);color:#fff}
 .carousel-btn:disabled{opacity:.3;cursor:default}
 .carousel-dots{display:flex;gap:var(--space-2)}
 .carousel-dot{width:6px;height:6px;border-radius:50%;background:var(--surface-divider);cursor:pointer;transition:background var(--transition-fast);border:none}
 .carousel-dot.active{background:var(--color-primary)}
-.carousel-info{font-size:var(--text-xs);color:var(--text-muted);font-weight:600;letter-spacing:.05em;min-width:40px;text-align:center}
+.carousel-info{font-size:var(--text-xs);color:var(--text-muted);font-weight:600;min-width:36px;text-align:center}
+
+/* Ev card */
 .ev-card{display:flex;flex-direction:column;background:var(--surface-card);border:1px solid var(--surface-card-border);border-radius:var(--radius-lg);overflow:hidden;text-decoration:none;color:var(--text-primary);transition:border-color var(--transition-base),box-shadow var(--transition-base),transform var(--transition-fast);position:relative}
 .ev-card:hover{border-color:rgba(27,43,75,.18);box-shadow:var(--shadow-primary);transform:translateY(-4px)}
 .ev-card:focus-visible{box-shadow:var(--focus-ring-offset),var(--shadow-primary);outline:none}
@@ -79,18 +140,24 @@
 .ev-card-img img{width:100%;height:100%;object-fit:cover;transition:transform var(--transition-slow)}
 .ev-card:hover .ev-card-img img{transform:scale(1.04)}
 .ev-card-img-placeholder{width:100%;height:100%;min-height:120px;display:flex;align-items:center;justify-content:center;font-size:48px;opacity:.15;background:linear-gradient(135deg,var(--color-primary-light),var(--surface-bg-2))}
-.ev-card-photo-credit{position:absolute;bottom:0;left:0;right:0;padding:var(--space-2) var(--space-3);background:linear-gradient(transparent,rgba(0,0,0,.55));font-size:10px;color:rgba(255,255,255,.75);font-weight:400;letter-spacing:.02em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;opacity:0;transition:opacity var(--transition-fast);pointer-events:none}
+.ev-card-photo-credit{position:absolute;bottom:0;left:0;right:0;padding:var(--space-2) var(--space-3);background:linear-gradient(transparent,rgba(0,0,0,.55));font-size:10px;color:rgba(255,255,255,.75);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;opacity:0;transition:opacity var(--transition-fast);pointer-events:none}
 .ev-card:hover .ev-card-photo-credit,.ev-card:focus-within .ev-card-photo-credit{opacity:1}
 .ev-card-category{position:absolute;top:var(--space-3);left:var(--space-3)}
-.ev-card-body{padding:var(--space-4) var(--space-5) var(--space-5);display:flex;flex-direction:column;flex:1}
+/* Badge "Esta noite" no card */
+.ev-card-tonight{position:absolute;top:var(--space-3);right:var(--space-3);background:var(--color-accent);color:#fff;font-size:9px;font-weight:700;letter-spacing:.06em;padding:2px 7px;border-radius:var(--radius-full);text-transform:uppercase}
+.ev-card-body{padding:var(--space-4) var(--space-4) var(--space-5);display:flex;flex-direction:column;flex:1}
 .ev-card-theater{font-size:var(--text-xs);font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--color-primary);margin-bottom:var(--space-2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .ev-card-title{font-family:var(--ff-display);font-size:var(--text-lg);font-weight:700;line-height:1.2;color:var(--text-primary);margin-bottom:var(--space-2);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .ev-card-synopsis{font-size:var(--text-sm);color:var(--text-muted);line-height:1.55;flex:1;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;margin-bottom:var(--space-3)}
 .ev-card-footer{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:var(--space-2);flex-wrap:wrap}
 .ev-card-date{font-size:var(--text-xs);font-weight:600;color:var(--color-accent);letter-spacing:.04em}
+/* Countdown */
+.ev-card-countdown{font-size:var(--text-xs);font-weight:700;color:var(--color-accent);letter-spacing:.03em}
 .ev-card-skeleton .ev-card-img{aspect-ratio:3/4;background:var(--surface-bg-2);min-height:120px}
 .ev-card-skeleton .ev-card-body{gap:var(--space-2)}
-.section-navegar{padding:var(--space-24) var(--space-12);background:var(--surface-bg-2);border-top:1px solid var(--surface-card-border)}
+
+/* ── NAV CARDS ────────────────────────────────────────────────── */
+.section-navegar{padding:var(--space-16) var(--space-12);background:var(--surface-bg-2);border-top:1px solid var(--surface-card-border)}
 .navegar-grid{max-width:var(--max-w);margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-5)}
 .nav-card{display:flex;flex-direction:column;padding:var(--space-8);background:var(--surface-card);border:1px solid var(--surface-card-border);border-radius:var(--radius-lg);text-decoration:none;color:var(--text-primary);position:relative;overflow:hidden;transition:border-color var(--transition-base),box-shadow var(--transition-base),transform var(--transition-fast)}
 .nav-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--color-accent);transform:scaleX(0);transform-origin:left;transition:transform var(--transition-base)}
@@ -102,18 +169,20 @@
 .nav-card-title em{font-style:italic;color:var(--color-primary)}
 .nav-card-desc{font-size:var(--text-sm);color:var(--text-muted);line-height:1.65;flex:1}
 .nav-card-meta{display:flex;flex-wrap:wrap;gap:var(--space-2);margin-top:var(--space-5)}
-.nav-card-meta-pill{display:inline-flex;align-items:center;gap:var(--space-1);font-size:11px;font-weight:600;letter-spacing:.04em;color:var(--text-muted);background:var(--surface-bg-2);border:1px solid var(--surface-divider);border-radius:var(--radius-full);padding:2px 10px;white-space:nowrap;text-decoration:none;transition:border-color var(--transition-fast),color var(--transition-fast)}
+.nav-card-meta-pill{display:inline-flex;align-items:center;gap:var(--space-1);font-size:11px;font-weight:600;color:var(--text-muted);background:var(--surface-bg-2);border:1px solid var(--surface-divider);border-radius:var(--radius-full);padding:2px 10px;white-space:nowrap;text-decoration:none;transition:all var(--transition-fast)}
 .nav-card-meta-pill:hover{color:var(--color-primary);border-color:var(--color-primary)}
 .nav-card-meta-pill strong{color:var(--color-primary);font-weight:700}
 .nav-card-cta{display:inline-flex;align-items:center;gap:var(--space-2);margin-top:var(--space-6);font-size:var(--text-xs);font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--color-accent);opacity:0;transform:translateX(-6px);transition:opacity var(--transition-fast),transform var(--transition-fast)}
 .nav-card:hover .nav-card-cta,.nav-card:focus-visible .nav-card-cta{opacity:1;transform:translateX(0)}
+
+/* Analytics */
 .analytics-consent{display:flex;align-items:center;gap:var(--space-2);margin-top:var(--space-2)}
 .analytics-consent a{color:var(--text-muted);font-size:var(--text-xs)}
 .analytics-consent a:hover{color:var(--color-primary)}
 .analytics-btn{background:none;border:none;cursor:pointer;font-size:13px;color:var(--text-muted);padding:0;line-height:1;transition:color var(--transition-fast);display:inline-flex;align-items:center}
-.analytics-btn:hover{color:var(--text-primary)}
-.analytics-btn-accept:hover{color:var(--color-accent)}
-.analytics-btn-decline:hover{color:var(--color-accent)}
+.analytics-btn:hover{color:var(--color-accent)}
+
+/* ── ANIMAÇÕES ────────────────────────────────────────────────── */
 @media (prefers-reduced-motion:no-preference){
   .anim-fade-up{opacity:0;transform:translateY(20px);animation:fadeUp .6s ease forwards}
   .anim-fade-up:nth-child(1){animation-delay:.05s}
@@ -123,32 +192,34 @@
   @keyframes fadeUp{to{opacity:1;transform:translateY(0)}}
   .hero-kicker{opacity:0;animation:fadeUp .5s .1s ease forwards}
   .hero-title{opacity:0;animation:fadeUp .6s .2s ease forwards}
-  .hero-sub{opacity:0;animation:fadeUp .6s .38s ease forwards}
-  .hero-actions{opacity:0;animation:fadeUp .6s .52s ease forwards}
-  .hero-stats{opacity:0;animation:fadeUp .6s .68s ease forwards}
+  .hero-sub{opacity:0;animation:fadeUp .6s .35s ease forwards}
+  .hero-actions{opacity:0;animation:fadeUp .6s .48s ease forwards}
+  .hero-stats{opacity:0;animation:fadeUp .6s .62s ease forwards}
 }
-@media (max-width:1200px){.destaques-grid{grid-template-columns:repeat(3,1fr)}}
-@media (max-width:900px){
-  .hero{padding:calc(var(--nav-h) + var(--space-12)) var(--space-5) var(--space-16)}
+
+/* ── RESPONSIVE ───────────────────────────────────────────────── */
+@media(max-width:1200px){.destaques-grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:900px){
+  .hero{padding:calc(var(--nav-h) + var(--space-12)) var(--space-5) var(--space-12)}
   .hero-curtain{width:28%}
-  .section-destaques,.section-navegar{padding:var(--space-16) var(--space-5)}
+  .section-destaques,.section-navegar,.section-teatros-strip{padding-left:var(--space-5);padding-right:var(--space-5)}
   .destaques-grid{grid-template-columns:repeat(2,1fr)}
   .navegar-grid{grid-template-columns:1fr;gap:var(--space-4)}
-  .hero-stats{gap:var(--space-8)}
+  .hero-stats{gap:var(--space-6)}
   .stat-sep{display:none}
-
 }
-@media (max-width:600px){
+@media(max-width:600px){
   .hero-curtain{display:none}
   .destaques-grid{grid-template-columns:1fr 1fr;gap:var(--space-3)}
   .destaques-header{flex-direction:column;align-items:flex-start}
-
 }
-@media (max-width:400px){.destaques-grid{grid-template-columns:1fr}}
+@media(max-width:400px){.destaques-grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
 <a class="skip-link" href="#main-content">Saltar para o conteúdo principal</a>
+
+<!-- ── NAVEGAÇÃO ─────────────────────────────────────────────── -->
 <nav class="nav" role="navigation" aria-label="Navegação principal">
   <a class="nav-brand" href="./" aria-label="Primeira Plateia — página inicial">
     <span class="nav-brand-primeira">Primeira</span>
@@ -159,16 +230,20 @@
       <li><a href="programacao/">Programação</a></li>
       <li><a href="calendario/">Calendário</a></li>
       <li><a href="teatros/">Teatros</a></li>
+      <li><a href="perto-de-mim/">Perto de mim</a></li>
       <li><a href="sobre/">Sobre</a></li>
     </ul>
     <button class="theme-btn" id="theme-toggle" aria-label="Mudar para modo escuro" data-tip="Modo escuro">
       <span class="i-moon" aria-hidden="true">🌙</span>
       <span class="i-sun" aria-hidden="true">☀️</span>
     </button>
-    <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-menu">☰</button>
   </div>
 </nav>
+
+<!-- ── MAIN ──────────────────────────────────────────────────── -->
 <main id="main-content">
+
+  <!-- HERO -->
   <section class="hero" aria-label="Apresentação">
     <div class="hero-curtain" aria-hidden="true"></div>
     <div class="hero-inner">
@@ -177,6 +252,10 @@
       <p class="hero-sub">Teatro, dança, ópera e performance em todo o país — actualizado diariamente.</p>
       <div class="hero-actions">
         <a href="programacao/" class="btn btn-primary btn-lg">Ver o que está em cena →</a>
+        <a href="calendario/" class="hero-tonight" id="hero-tonight" hidden>
+          <span class="hero-tonight-dot" aria-hidden="true"></span>
+          <span id="hero-tonight-text"></span>
+        </a>
       </div>
       <div class="hero-stats" aria-label="Em números">
         <div class="stat">
@@ -198,10 +277,21 @@
         <span class="hero-updated-dot" aria-hidden="true"></span>
         <span id="hero-updated-text"></span>
       </p>
+      <div class="hero-cities" id="hero-cities" aria-label="Filtrar por cidade" hidden></div>
       <div class="hero-cats" id="hero-cats" aria-label="Espectáculos por categoria" hidden></div>
     </div>
   </section>
 
+  <!-- FAIXA DE TEATROS -->
+  <section class="section-teatros-strip" aria-labelledby="teatros-strip-label">
+    <div class="teatros-strip-header">
+      <span class="teatros-strip-label" id="teatros-strip-label">Espaços cobertos</span>
+      <a href="teatros/" style="font-size:var(--text-xs);color:var(--text-muted);text-decoration:none;font-weight:600">Ver todos →</a>
+    </div>
+    <div class="teatros-strip-grid" id="teatros-strip" role="list" aria-label="Teatros"></div>
+  </section>
+
+  <!-- DESTAQUES -->
   <section class="section-destaques" aria-labelledby="destaques-title">
     <div class="destaques-header">
       <div class="destaques-header-text">
@@ -235,9 +325,10 @@
     </div>
   </section>
 
+  <!-- NAVEGAÇÃO POR SECÇÕES -->
   <section class="section-navegar" aria-labelledby="navegar-title">
     <div class="container">
-      <div style="max-width:var(--max-w);margin:0 auto var(--space-10)">
+      <div style="max-width:var(--max-w);margin:0 auto var(--space-8)">
         <p class="section-label" aria-hidden="true">Explorar</p>
         <h2 class="section-h2" id="navegar-title">O que queres <em>ver hoje?</em></h2>
       </div>
@@ -245,29 +336,31 @@
         <a href="programacao/" class="nav-card" aria-label="Ver programação completa">
           <span class="nav-card-tag">Agenda</span>
           <h3 class="nav-card-title">Programa<em>ção</em></h3>
-          <p class="nav-card-desc">Todos os espectáculos em cartaz, num único lugar. Filtra por cidade, data, categoria ou preço e encontra o que procuras em segundos.</p>
+          <p class="nav-card-desc">Todos os espectáculos em cartaz, num único lugar. Filtra por cidade, data, categoria ou preço.</p>
           <div class="nav-card-meta" id="meta-programacao" aria-label="Estatísticas da programação"></div>
           <span class="nav-card-cta" aria-hidden="true">Ver programação →</span>
         </a>
         <a href="calendario/" class="nav-card" aria-label="Ver calendário de espectáculos">
           <span class="nav-card-tag">Datas</span>
           <h3 class="nav-card-title">Calen<em>dário</em></h3>
-          <p class="nav-card-desc">Navega dia a dia e descobre o que há hoje à noite, este fim-de-semana ou em qualquer data que escolheres.</p>
+          <p class="nav-card-desc">Navega dia a dia e descobre o que há hoje à noite, este fim-de-semana ou noutra data.</p>
           <div class="nav-card-meta" id="meta-calendario" aria-label="Espectáculos por data"></div>
           <span class="nav-card-cta" aria-hidden="true">Ver calendário →</span>
         </a>
         <a href="teatros/" class="nav-card" aria-label="Ver lista de teatros">
           <span class="nav-card-tag">Espaços</span>
           <h3 class="nav-card-title"><em>Tea</em>tros</h3>
-          <p class="nav-card-desc">Todos os palcos cobertos pela Primeira Plateia, de Faro a Braga. Consulta a programação completa de cada espaço.</p>
+          <p class="nav-card-desc">Todos os palcos cobertos, de Faro a Braga. Programação completa de cada espaço.</p>
           <div class="nav-card-meta" id="meta-teatros" aria-label="Teatros por cidade"></div>
           <span class="nav-card-cta" aria-hidden="true">Ver teatros →</span>
         </a>
       </div>
     </div>
   </section>
+
 </main>
 
+<!-- ── RODAPÉ ─────────────────────────────────────────────────── -->
 <footer class="footer" role="contentinfo">
   <div class="footer-inner">
     <div class="footer-brand-col">
@@ -289,6 +382,7 @@
         <a href="programacao/">Programação</a>
         <a href="calendario/">Calendário</a>
         <a href="teatros/">Teatros</a>
+        <a href="perto-de-mim/">Perto de mim</a>
       </nav>
     </div>
     <div>
@@ -325,44 +419,52 @@
   </div>
 </footer>
 
-
-
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+<script>
 (function(){
 'use strict';
 var PER_PAGE=4,MAX_EVENTS=20;
 var allEvents=[],currentPage=0,activeTab='hoje';
 var eventsHoje=[],eventsRecent=[];
 
-// Tema
+// ── Tema ──────────────────────────────────────────────────────
 var themeBtn=document.getElementById('theme-toggle');
 var html=document.documentElement;
 function applyTheme(t){html.setAttribute('data-theme',t);localStorage.setItem('pp-theme',t);var d=t==='dark';themeBtn.setAttribute('aria-label',d?'Mudar para modo claro':'Mudar para modo escuro');themeBtn.setAttribute('data-tip',d?'Modo claro':'Modo escuro');}
 themeBtn.addEventListener('click',function(){applyTheme(html.getAttribute('data-theme')==='dark'?'light':'dark');});
 
-// Menu
-var navToggle=document.getElementById('nav-toggle');
-var navMenu=document.getElementById('nav-menu');
-navToggle.addEventListener('click',function(){var o=navMenu.classList.toggle('open');navToggle.setAttribute('aria-expanded',o);navToggle.setAttribute('aria-label',o?'Fechar menu':'Abrir menu');navToggle.textContent=o?'✕':'☰';});
-document.addEventListener('click',function(e){if(!navMenu.contains(e.target)&&!navToggle.contains(e.target)){navMenu.classList.remove('open');navToggle.setAttribute('aria-expanded','false');navToggle.setAttribute('aria-label','Abrir menu');navToggle.textContent='☰';}});
-
-// Ano
+// ── Ano ───────────────────────────────────────────────────────
 document.getElementById('footer-year').textContent=new Date().getFullYear();
 
-// Cookies
+// ── Analytics consent ─────────────────────────────────────────
 var ac=document.getElementById('analytics-consent');
 var ck='pp-cookie-consent';
 if(localStorage.getItem(ck)&&ac)ac.style.display='none';
 document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(ck,'accepted');if(ac)ac.style.display='none';});
 document.getElementById('cookie-decline').addEventListener('click',function(){localStorage.setItem(ck,'declined');if(ac)ac.style.display='none';});
 
-// Utils
+// ── Utils ─────────────────────────────────────────────────────
 function fmtRel(s){var d=new Date(s),ms=Date.now()-d.getTime(),h=Math.floor(ms/3600000),m=Math.floor(ms/60000);if(m<60)return'há '+m+' min';if(h<24)return'há '+h+' hora'+(h!==1?'s':'');var dd=Math.floor(h/24);return'há '+dd+' dia'+(dd!==1?'s':'');}
 function fmtDate(s){return new Date(s).toLocaleDateString('pt-PT',{day:'numeric',month:'short'});}
 function catCls(c){return({'Teatro':'teatro','Dança':'danca','Ópera':'opera','Teatro Musical':'musical','Circo':'circo','Infanto-Juvenil':'infantil','Performance':'performance','Música':'musica'})[c]||'outro';}
 function trunc(s,n){if(!s)return'';return s.length<=n?s:s.slice(0,n).replace(/\s\S*$/,'')+'\u2026';}
 
-// Carrossel
+// Countdown: dado uma hora "21:30", devolve "começa em 2h15" ou "" se já passou
+function countdown(timeStr){
+  if(!timeStr)return'';
+  var parts=timeStr.replace('h',':').split(':');
+  if(parts.length<2)return'';
+  var now=new Date();
+  var ev=new Date(now.getFullYear(),now.getMonth(),now.getDate(),+parts[0],+parts[1],0);
+  var diff=ev-now;
+  if(diff<0||diff>8*3600000)return'';
+  var h=Math.floor(diff/3600000);
+  var m=Math.floor((diff%3600000)/60000);
+  if(h>0)return'começa em '+h+'h'+(m>0?m+'':'');
+  if(m>0)return'começa em '+m+'min';
+  return'a começar';
+}
+
+// ── Carrossel ─────────────────────────────────────────────────
 var grid=document.getElementById('destaques-grid');
 var errorEl=document.getElementById('destaques-error');
 var titleEl=document.getElementById('destaques-title');
@@ -378,33 +480,48 @@ function renderPage(page){
   var total=allEvents.length,pages=Math.ceil(total/PER_PAGE);
   var slice=allEvents.slice(page*PER_PAGE,page*PER_PAGE+PER_PAGE);
   var isToday=activeTab==='hoje';
+  var today=new Date().toISOString().slice(0,10);
+
   grid.innerHTML=slice.map(function(ev){
     var cc=catCls(ev.category);
     var credit=ev.image_credit||'';
     var imgH=ev.image_url
       ?'<img src="'+ev.image_url+'" alt="" loading="lazy" decoding="async"/>'+(credit?'<span class="ev-card-photo-credit" aria-hidden="true">\u00a9 '+credit+'</span>':'')
-      :'<div class="ev-card-img-placeholder" aria-hidden="true">🎭</div>';
-    var ds=isToday?'Hoje':ev.next_session?fmtDate(ev.next_session):ev.dates_label?ev.dates_label:fmtDate(ev.date_start);
+      :'<div class="ev-card-img-placeholder" aria-hidden="true">\uD83C\uDFAD</div>';
+
+    // Countdown: procurar sessão de hoje com hora
+    var cdText='';
+    var tonightBadge='';
+    if(isToday&&ev.sessions&&ev.sessions.length){
+      var todaySess=ev.sessions.filter(function(s){return s.date===today&&s.time;});
+      if(todaySess.length){
+        var cd=countdown(todaySess[0].time);
+        if(cd)cdText=cd;
+        else tonightBadge='<span class="ev-card-tonight">Esta noite</span>';
+      }
+    }
+
+    var ds=isToday?(cdText?cdText:'Hoje'):ev.next_session?fmtDate(ev.next_session):ev.dates_label?ev.dates_label:fmtDate(ev.date_start);
     var syn=trunc(ev.synopsis||'',110);
-    return '<article class="ev-card anim-fade-up" role="listitem"><a href="espetaculo/?id='+ev.id+'" aria-label="'+ev.title+' — '+ev.theater+'"><div class="ev-card-img">'+imgH+'<span class="ev-card-category"><span class="pill pill-'+cc+'">'+(ev.category||'Teatro')+'</span></span></div><div class="ev-card-body"><p class="ev-card-theater">'+ev.theater+'</p><h3 class="ev-card-title">'+ev.title+'</h3>'+(syn?'<p class="ev-card-synopsis">'+syn+'</p>':'')+'<div class="ev-card-footer"><span class="ev-card-date">'+ds+'</span></div></div></a></article>';
+
+    return '<article class="ev-card anim-fade-up" role="listitem"><a href="espetaculo/?id='+ev.id+'" aria-label="'+ev.title+' \u2014 '+ev.theater+'"><div class="ev-card-img">'+imgH+'<span class="ev-card-category"><span class="pill pill-'+cc+'">'+(ev.category||'Teatro')+'</span></span>'+tonightBadge+'</div><div class="ev-card-body"><p class="ev-card-theater">'+ev.theater+'</p><h3 class="ev-card-title">'+ev.title+'</h3>'+(syn?'<p class="ev-card-synopsis">'+syn+'</p>':'')+'<div class="ev-card-footer"><span class="'+(cdText?'ev-card-countdown':'ev-card-date')+'">'+ds+'</span></div></div></a></article>';
   }).join('');
 
-  dotsEl.innerHTML=Array.from({length:pages},function(_,i){return'<button class="carousel-dot'+(i===page?' active':'')+'" role="listitem" aria-label="Página '+(i+1)+'" data-page="'+i+'"></button>';}).join('');
+  dotsEl.innerHTML=Array.from({length:pages},function(_,i){return'<button class="carousel-dot'+(i===page?' active':'')+'" role="listitem" aria-label="P\u00e1gina '+(i+1)+'" data-page="'+i+'"></button>';}).join('');
   dotsEl.querySelectorAll('.carousel-dot').forEach(function(d){d.addEventListener('click',function(){renderPage(+d.dataset.page);});});
   infoEl.textContent=(page+1)+' / '+pages;
   prevBtn.disabled=page===0;
   nextBtn.disabled=page>=pages-1;
   carNav.hidden=total<=PER_PAGE;
 
-  // JSON-LD ItemList
   var ldEl=document.getElementById('ld-itemlist');
-  if(ldEl){var il={};il['@context']='https://schema.org';il['@type']='ItemList';il.name=isToday?'Em cena hoje':'Recém adicionados';il.itemListElement=allEvents.slice(0,10).map(function(ev,i){return{'@type':'ListItem',position:i+1,url:'https://www.primeiraplateia.pt/espetaculo/?id='+ev.id,name:ev.title};});ldEl.textContent=JSON.stringify(il);}
+  if(ldEl){var il={};il['@context']='https://schema.org';il['@type']='ItemList';il.name=isToday?'Em cena hoje':'Rec\u00e9m adicionados';il.itemListElement=allEvents.slice(0,10).map(function(ev,i){return{'@type':'ListItem',position:i+1,url:'https://www.primeiraplateia.pt/espetaculo/?id='+ev.id,name:ev.title};});ldEl.textContent=JSON.stringify(il);}
 }
 
 prevBtn.addEventListener('click',function(){if(currentPage>0)renderPage(currentPage-1);});
 nextBtn.addEventListener('click',function(){if(currentPage<Math.ceil(allEvents.length/PER_PAGE)-1)renderPage(currentPage+1);});
 
-// Tabs
+// ── Tabs ──────────────────────────────────────────────────────
 var tabHoje=document.getElementById('tab-hoje');
 var tabRecent=document.getElementById('tab-recent');
 
@@ -414,21 +531,45 @@ function setTab(tab){
   tabHoje.classList.toggle('active',isH);tabHoje.setAttribute('aria-selected',isH);
   tabRecent.classList.toggle('active',!isH);tabRecent.setAttribute('aria-selected',!isH);
   if(titleEl)titleEl.innerHTML=isH?'Hoje<br><em>nos palcos</em>':'Rec\u00e9m<br><em>adicionados</em>';
-  if(titleLink){titleLink.href=isH?'calendario/':'programacao/';titleLink.setAttribute('aria-label',isH?'Ver calendário de hoje':'Ver programação completa');}
+  if(titleLink){titleLink.href=isH?'calendario/':'programacao/';titleLink.setAttribute('aria-label',isH?'Ver calend\u00e1rio de hoje':'Ver programa\u00e7\u00e3o completa');}
   allEvents=(isH?eventsHoje:eventsRecent).slice(0,MAX_EVENTS);
   currentPage=0;renderPage(0);
 }
-
 tabHoje.addEventListener('click',function(){setTab('hoje');});
 tabRecent.addEventListener('click',function(){setTab('recent');});
 
-// Carregar dados
+// ── Fetch ─────────────────────────────────────────────────────
 async function fetchSlim(){
   var r=await fetch('data/events.slim.json');if(r.ok)return r.json();
   var r2=await fetch('events.json');if(r2.ok)return r2.json();
   throw new Error('sem dados');
 }
 
+// ── Teatros strip ─────────────────────────────────────────────
+async function loadTeatros(byTheaterCounts){
+  var strip=document.getElementById('teatros-strip');
+  if(!strip)return;
+  try{
+    var r=await fetch('theaters.json');
+    if(!r.ok)return;
+    var d=await r.json();
+    var theaters=d.theaters||[];
+    strip.innerHTML=theaters.map(function(t){
+      var count=byTheaterCounts?byTheaterCounts[t.name]||0:0;
+      var logoHtml=t.logo_url
+        ?'<img class="teatro-chip-logo" src="'+t.logo_url+'" alt="'+t.short+'" loading="lazy" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\'">'
+          +'<span class="teatro-chip-initial" style="background:'+t.color+';display:none">'+t.short.charAt(0)+'</span>'
+        :'<span class="teatro-chip-initial" style="background:'+t.color+'">'+t.short.charAt(0)+'</span>';
+      return '<a class="teatro-chip" href="teatros/?id='+t.id+'" role="listitem" aria-label="'+t.name+(count?' — '+count+' espect\u00e1culos':'')+'">'
+        +logoHtml
+        +'<span class="teatro-chip-name">'+t.short+'</span>'
+        +(count?'<span class="teatro-chip-count">'+count+' espect.</span>':'')
+        +'</a>';
+    }).join('');
+  }catch(e){}
+}
+
+// ── loadDestaques ─────────────────────────────────────────────
 async function loadDestaques(){
   try{
     var raw=await fetchSlim();
@@ -447,24 +588,65 @@ async function loadDestaques(){
   }catch(e){grid.hidden=true;errorEl.hidden=false;}
 }
 
+// ── loadMeta ──────────────────────────────────────────────────
 async function loadMeta(){
   try{
     var r=await fetch('data/meta.json');if(!r.ok)throw new Error();
     var m=await r.json();
+
+    // Stats
     var tEl=document.getElementById('stat-theaters');
     var todEl=document.getElementById('stat-today');
     var eEl=document.getElementById('stat-events');
     if(tEl)tEl.textContent=m.total_theaters!=null?m.total_theaters:'—';
     if(todEl)todEl.textContent=m.events_today!=null?m.events_today:'—';
     if(eEl)eEl.textContent=m.total_events!=null?m.total_events:'—';
-    var hu=document.getElementById('hero-updated'),ht=document.getElementById('hero-updated-text');
-    if(hu&&ht&&m.updated_at){ht.textContent='Programação actualizada '+fmtRel(m.updated_at);hu.hidden=false;}
-    var fu=document.getElementById('footer-updated');
-    if(fu&&m.updated_at)fu.textContent='Programação actualizada '+fmtRel(m.updated_at);
 
+    // Teaser "esta noite"
+    var tn=document.getElementById('hero-tonight');
+    var tnt=document.getElementById('hero-tonight-text');
+    if(tn&&tnt&&m.events_today>0){
+      tnt.textContent='Hoje h\u00e1 '+m.events_today+' espect\u00e1culo'+(m.events_today!==1?'s':'')+' em cena \u2192';
+      tn.hidden=false;
+    }
+
+    // Timestamp actualização
+    var hu=document.getElementById('hero-updated'),ht=document.getElementById('hero-updated-text');
+    if(hu&&ht&&m.updated_at){ht.textContent='Programa\u00e7\u00e3o actualizada '+fmtRel(m.updated_at);hu.hidden=false;}
+    var fu=document.getElementById('footer-updated');
+    if(fu&&m.updated_at)fu.textContent='Programa\u00e7\u00e3o actualizada '+fmtRel(m.updated_at);
+
+    // Chips de cidade
+    var citiesEl=document.getElementById('hero-cities');
+    if(citiesEl&&m.cities&&m.cities.length){
+      citiesEl.innerHTML=m.cities.map(function(c){
+        return '<a class="hero-city-chip" href="programacao/?cidade='+encodeURIComponent(c)+'">'+c+'</a>';
+      }).join('');
+      citiesEl.hidden=false;
+    }
+
+    // Pills de categoria (sem "Outro")
+    var catsEl=document.getElementById('hero-cats');
+    if(catsEl&&m.by_category&&Object.keys(m.by_category).length){
+      var cats=Object.entries(m.by_category)
+        .filter(function(c){return c[0]!=='Outro';})
+        .sort(function(a,b){return b[1]-a[1];});
+      var MAX_CATS=5;
+      var shown=cats.slice(0,MAX_CATS);
+      var rest=cats.slice(MAX_CATS);
+      var restTotal=rest.reduce(function(s,c){return s+c[1];},0);
+      var catHtml=shown.map(function(c){
+        return '<a class="hero-cat-pill" href="programacao/?categoria='+encodeURIComponent(c[0])+'">'+c[0]+' <strong>'+c[1]+'</strong></a>';
+      }).join('');
+      if(restTotal>0)catHtml+='<span class="hero-cat-pill" style="cursor:default">+'+restTotal+'</span>';
+      catsEl.innerHTML=catHtml;
+      catsEl.hidden=false;
+    }
+
+    // Pills nav-cards
     var mp=document.getElementById('meta-programacao');
     if(mp&&m.total_events!=null){
-      var h='<a class="nav-card-meta-pill" href="programacao/"><strong>'+m.total_events+'</strong> espectáculos</a>';
+      var h='<a class="nav-card-meta-pill" href="programacao/"><strong>'+m.total_events+'</strong> espect\u00e1culos</a>';
       if(m.cities&&m.cities.length)m.cities.forEach(function(c){h+='<a class="nav-card-meta-pill" href="programacao/?cidade='+encodeURIComponent(c)+'">'+c+'</a>';});
       mp.innerHTML=h;
     }
@@ -481,25 +663,20 @@ async function loadMeta(){
       if(m.cities&&m.cities.length)m.cities.forEach(function(c){h+='<a class="nav-card-meta-pill" href="programacao/?cidade='+encodeURIComponent(c)+'">'+c+'</a>';});
       mt.innerHTML=h;
     }
-    // Pills de categoria
-    var catsEl=document.getElementById('hero-cats');
-    if(catsEl&&m.by_category&&Object.keys(m.by_category).length){
-      var cats=Object.entries(m.by_category).sort(function(a,b){return b[1]-a[1];});
-      var MAX_CATS=5;
-      var shown=cats.slice(0,MAX_CATS);
-      var rest=cats.slice(MAX_CATS);
-      var restTotal=rest.reduce(function(s,c){return s+c[1];},0);
-      var catHtml=shown.map(function(c){
-        return '<a class="hero-cat-pill" href="programacao/?categoria='+encodeURIComponent(c[0])+'">'+c[0]+' <strong>'+c[1]+'</strong></a>';
-      }).join('');
-      if(restTotal>0)catHtml+='<span class="hero-cat-pill" style="cursor:default">+'+restTotal+'</span>';
-      catsEl.innerHTML=catHtml;
-      catsEl.hidden=false;
-    }
-  }catch(e){var fu=document.getElementById('footer-updated');if(fu)fu.textContent='';}
+
+    // Carregar teatros strip com contagens
+    loadTeatros(m.by_theater||{});
+
+  }catch(e){
+    var fu=document.getElementById('footer-updated');if(fu)fu.textContent='';
+    loadTeatros({});
+  }
 }
 
-loadMeta();loadDestaques();
+// ── Init ──────────────────────────────────────────────────────
+loadMeta();
+loadDestaques();
+
 })();
 </script>
 </body>
