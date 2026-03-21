@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-21T00:20:08.985450Z",
+  "generated_at": "2026-03-21T00:30:19.627124Z",
   "total_raw": 329,
   "total_accepted": 323,
   "total_rejected": 6,
@@ -772,5 +772,60 @@
     }
   ],
   "total_duplicates_removed": 0,
-  "duplicates_removed": []
+  "duplicates_removed": [],
+  "scraper_health": {
+    "Teatro Variedades": {
+      "status": "ok",
+      "events_collected": 6
+    },
+    "Capitólio": {
+      "status": "ok",
+      "events_collected": 6
+    },
+    "São Luiz Teatro Municipal": {
+      "status": "ok",
+      "events_collected": 35
+    },
+    "Teatro Maria Matos": {
+      "status": "ok",
+      "events_collected": 17
+    },
+    "Culturgest": {
+      "status": "ok",
+      "events_collected": 3
+    },
+    "CCB — Centro Cultural de Belém": {
+      "status": "ok",
+      "events_collected": 6
+    },
+    "Teatro Viriato": {
+      "status": "ok",
+      "events_collected": 54
+    },
+    "Theatro Circo": {
+      "status": "ok",
+      "events_collected": 63
+    },
+    "Teatro do Bairro": {
+      "status": "ok",
+      "events_collected": 1
+    },
+    "Teatro da Trindade INATEL": {
+      "status": "ok",
+      "events_collected": 7
+    },
+    "Teatro das Figuras": {
+      "status": "ok",
+      "events_collected": 20
+    },
+    "TAGV — Teatro Académico Gil Vicente": {
+      "status": "ok",
+      "events_collected": 111
+    },
+    "Cine-Teatro Avenida": {
+      "status": "empty",
+      "reason": "zero_results",
+      "exception": null
+    }
+  }
 }
