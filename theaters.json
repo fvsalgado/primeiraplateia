@@ -292,7 +292,7 @@
       "id": "tagv",
       "name": "TAGV — Teatro Académico Gil Vicente",
       "short": "TAGV",
-      "color": "#c0392b",
+      "color": "#000000",
       "city": "Coimbra",
       "address": "Praça da República, 3000-343 Coimbra",
       "site": "https://tagv.pt",
@@ -310,8 +310,11 @@
         "gil vicente",
         "tagv coimbra"
       ],
-      "description": "O Teatro Académico Gil Vicente (TAGV) é o principal espaço de artes performativas de Coimbra, gerido pela Universidade de Coimbra. Apresenta programação regular de teatro, dança, performance, música, cinema e outras formas artísticas.",
-      "_overrides": []
+      "description": "O Teatro Académico Gil Vicente (TAGV) é uma estrutura da Universidade de Coimbra. Inaugurado em 1961, remodelado em 2003, é um polo de conhecimento, formação e programação artísticos em Coimbra.",
+      "_overrides": [],
+      "logo_url": "https://tagv.pt/public/imgs/id/favicon-32x32.png",
+      "favicon_url": "https://tagv.pt/public/imgs/id/favicon-32x32.png",
+      "facade_url": "https://tagv.pt/public/uploads/2020/05/tagv.pt-estamos-de-volta-ivotavares-05.jpg"
     },
     {
       "id": "cine-teatro-avenida",

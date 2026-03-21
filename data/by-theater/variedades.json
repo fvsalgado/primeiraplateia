@@ -1,0 +1,321 @@
+[
+  {
+    "id": "variedades-clube-de-leitura-do-teatro-variedades",
+    "title": "Clube de Leitura do Teatro Variedades",
+    "theater": "Teatro Variedades",
+    "category": "Outro",
+    "dates_label": "19.01 – 14.12.2026",
+    "date_start": "2026-01-19",
+    "date_end": "2026-12-14",
+    "sessions": [
+      {
+        "date": "2026-01-19",
+        "time": "18:30",
+        "weekday": "Seg"
+      },
+      {
+        "date": "2026-12-14",
+        "time": "18:30",
+        "weekday": "Seg"
+      }
+    ],
+    "schedule": "18h30",
+    "synopsis": "Neste Clube de Leitura,  os encontros são dedicados ao teatro: desde sessões sobre autores, à leitura de peças de teatro, adaptações, críticas e, também, encontros especiais com artistas. O objetivo é ler, conversar e partilhar sobre teatro.…",
+    "image": {
+      "url": "https://teatrovariedades-capitolio.pt/wp-content/uploads/2025/12/EstelleValente-6708-scaled.jpg",
+      "credit": null,
+      "source": "https://teatrovariedades-capitolio.pt/evento/clube-de-leitura-do-teatro-variedades/",
+      "theater": "Teatro Variedades"
+    },
+    "source_url": "https://teatrovariedades-capitolio.pt/evento/clube-de-leitura-do-teatro-variedades/",
+    "ticket_url": "https://teatrovariedades-capitolio.pt/visite-nos/bilheteira-e-horarios/",
+    "price_info": "",
+    "age_rating": "+351",
+    "accessibility": "",
+    "technical_sheet": {},
+    "subtitle": "60 min.",
+    "duration": "60 min",
+    "duration_min": 60,
+    "age_min": 351,
+    "scraped_at": "2026-03-21T00:20:08.970839+00:00",
+    "theater_id": "variedades",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.6
+    }
+  },
+  {
+    "id": "variedades-in-the-heights",
+    "title": "In the Heights",
+    "theater": "Teatro Variedades",
+    "category": "Teatro",
+    "dates_label": "25.03 – 03.05.2026",
+    "date_start": "2026-03-25",
+    "date_end": "2026-05-03",
+    "sessions": [
+      {
+        "date": "2026-03-25",
+        "time": "21:00",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-05-03",
+        "time": "21:00",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "21h",
+    "synopsis": "Do criador deHamilton, Lin-Manuel Miranda,In the Heightsé um dos mais aclamados e premiados musicais da Broadway da atualidade, vencedor de 4 Tonys, incluindo de Melhor Musical, e de um Grammy.",
+    "image": {
+      "url": "https://teatrovariedades-capitolio.pt/wp-content/uploads/2025/11/In_The_Heights_1920x1080_v1.jpg",
+      "credit": null,
+      "source": "https://teatrovariedades-capitolio.pt/evento/in-the-heights/",
+      "theater": "Teatro Variedades"
+    },
+    "source_url": "https://teatrovariedades-capitolio.pt/evento/in-the-heights/",
+    "ticket_url": "https://teatrovariedades-capitolio.pt/visite-nos/bilheteira-e-horarios/",
+    "price_info": "20€",
+    "age_rating": "M/12",
+    "accessibility": "",
+    "technical_sheet": {},
+    "subtitle": "A partir de 20€",
+    "price_min": 20.0,
+    "price_max": 20.0,
+    "duration": "120 min",
+    "duration_min": 120,
+    "age_min": 12,
+    "scraped_at": "2026-03-21T00:20:08.970839+00:00",
+    "theater_id": "variedades",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.65
+    }
+  },
+  {
+    "id": "variedades-o-tamanho-das-coisas",
+    "title": "O Tamanho das Coisas",
+    "theater": "Teatro Variedades",
+    "category": "Teatro",
+    "dates_label": "07.05 – 17.05.2026",
+    "date_start": "2026-05-07",
+    "date_end": "2026-05-17",
+    "sessions": [
+      {
+        "date": "2026-05-07",
+        "time": "20:00",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-05-08",
+        "time": "20:00",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-05-09",
+        "time": "20:00",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-05-10",
+        "time": "20:00",
+        "weekday": "Dom"
+      },
+      {
+        "date": "2026-05-11",
+        "time": "20:00",
+        "weekday": "Seg"
+      },
+      {
+        "date": "2026-05-12",
+        "time": "20:00",
+        "weekday": "Ter"
+      },
+      {
+        "date": "2026-05-13",
+        "time": "20:00",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-05-14",
+        "time": "20:00",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-05-15",
+        "time": "20:00",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-05-16",
+        "time": "20:00",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-05-17",
+        "time": "20:00",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "20h",
+    "synopsis": "A determinado momento numa geografia desconhecida e sem qualquer razão aparente, um homem interrompe o seu caminho parando em pleno oceano. Da comparação entre o seu corpo e a escala avassaladora do que o rodeia levanta a questão: será que devo continuar?…",
+    "image": {
+      "url": "https://teatrovariedades-capitolio.pt/wp-content/uploads/2026/01/tam-das-coisas_113_maximo窮ilipe-Ferreira.jpg",
+      "credit": null,
+      "source": "https://teatrovariedades-capitolio.pt/evento/o-tamanho-das-coisas/",
+      "theater": "Teatro Variedades"
+    },
+    "source_url": "https://teatrovariedades-capitolio.pt/evento/o-tamanho-das-coisas/",
+    "ticket_url": "https://teatrovariedades-capitolio.pt/visite-nos/bilheteira-e-horarios/",
+    "price_info": "12€",
+    "age_rating": "M/14",
+    "accessibility": "",
+    "technical_sheet": {},
+    "subtitle": "Entre 12€ e 17€",
+    "price_min": 12.0,
+    "price_max": 12.0,
+    "duration": "70 min",
+    "duration_min": 70,
+    "age_min": 14,
+    "scraped_at": "2026-03-21T00:20:08.970839+00:00",
+    "theater_id": "variedades",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.65
+    }
+  },
+  {
+    "id": "variedades-around-classic",
+    "title": "Around Classic",
+    "theater": "Teatro Variedades",
+    "category": "Música",
+    "dates_label": "29.05 – 31.05.2026",
+    "date_start": "2026-05-29",
+    "date_end": "2026-05-31",
+    "sessions": [
+      {
+        "date": "2026-05-29",
+        "time": "16:00",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-05-30",
+        "time": "16:00",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-05-31",
+        "time": "16:00",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "16h",
+    "synopsis": "Around Classic é um festival que contribui para a difusão da música erudita em todas as suas vertentes, unindo o passado e o moderno através da música e estabelecendo ligações entre pessoas com interesses comuns.…",
+    "image": {
+      "url": "https://teatrovariedades-capitolio.pt/wp-content/uploads/2026/01/Wolfgang-amadeus-mozart_1-scaled-e1769531533747.jpg",
+      "credit": null,
+      "source": "https://teatrovariedades-capitolio.pt/evento/around-classic-2/",
+      "theater": "Teatro Variedades"
+    },
+    "source_url": "https://teatrovariedades-capitolio.pt/evento/around-classic-2/",
+    "ticket_url": "https://teatrovariedades-capitolio.pt/visite-nos/bilheteira-e-horarios/",
+    "price_info": "20€",
+    "age_rating": "M/6",
+    "accessibility": "",
+    "technical_sheet": {},
+    "subtitle": "A partir de 20€",
+    "price_min": 20.0,
+    "price_max": 20.0,
+    "duration": "50 min",
+    "duration_min": 50,
+    "age_min": 6,
+    "scraped_at": "2026-03-21T00:20:08.970839+00:00",
+    "theater_id": "variedades",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.65
+    }
+  },
+  {
+    "id": "variedades-radojka",
+    "title": "Radojka",
+    "theater": "Teatro Variedades",
+    "category": "Teatro",
+    "dates_label": "03.06 – 28.06.2026",
+    "date_start": "2026-06-03",
+    "date_end": "2026-06-28",
+    "sessions": [
+      {
+        "date": "2026-06-03",
+        "time": "21:30",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-06-28",
+        "time": "21:30",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "21h30",
+    "synopsis": "RADOJKAé uma comédia escrita por Fernando Schmidt e Christian Ibarzabal.",
+    "image": {
+      "url": "https://teatrovariedades-capitolio.pt/wp-content/uploads/2026/02/IMG_0455-576x1024.png",
+      "credit": null,
+      "source": "https://teatrovariedades-capitolio.pt/evento/radojka/",
+      "theater": "Teatro Variedades"
+    },
+    "source_url": "https://teatrovariedades-capitolio.pt/evento/radojka/",
+    "ticket_url": "https://teatrovariedades-capitolio.pt/visite-nos/bilheteira-e-horarios/",
+    "price_info": "14€",
+    "age_rating": "+351",
+    "accessibility": "",
+    "technical_sheet": {},
+    "subtitle": "Entre 14€ e 20€",
+    "price_min": 14.0,
+    "price_max": 14.0,
+    "duration": "90 min",
+    "duration_min": 90,
+    "age_min": 351,
+    "scraped_at": "2026-03-21T00:20:08.970839+00:00",
+    "theater_id": "variedades",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.65
+    }
+  },
+  {
+    "id": "variedades-teatro-variedades-100-anos-100-entradas-na-wikip-d",
+    "title": "Teatro Variedades: 100 Anos, 100 Entradas na Wikipédia",
+    "theater": "Teatro Variedades",
+    "category": "Outro",
+    "dates_label": "18.10 – 20.06.2026",
+    "date_start": "2026-10-18",
+    "date_end": "2026-10-18",
+    "sessions": [],
+    "schedule": "14h30",
+    "synopsis": "OTeatro Variedadesvai comemorar o seucentenário em 2026e, no âmbito das celebrações, destaca-se o projetoTeatro Variedades: 100 Anos 100 Entradas na Wikipédia, que visa preservar e divulgar a história deste espaço doParque Mayeratravés da criação e atualização de conteúdos na Wikipédia.",
+    "image": {
+      "url": "https://teatrovariedades-capitolio.pt/wp-content/uploads/2025/10/Banner-CML-Wikipedia.jpg",
+      "credit": null,
+      "source": "https://teatrovariedades-capitolio.pt/evento/teatro-variedades-100-anos-100-entradas-na-wikipedia/",
+      "theater": "Teatro Variedades"
+    },
+    "source_url": "https://teatrovariedades-capitolio.pt/evento/teatro-variedades-100-anos-100-entradas-na-wikipedia/",
+    "ticket_url": "https://teatrovariedades-capitolio.pt/visite-nos/bilheteira-e-horarios/",
+    "price_info": "Entrada livre",
+    "age_rating": "+351",
+    "accessibility": "",
+    "technical_sheet": {},
+    "subtitle": "Entrada livre mediante inscrição prévia",
+    "price_min": 0.0,
+    "price_max": 0.0,
+    "duration": "14h30",
+    "duration_min": 870,
+    "age_min": 351,
+    "scraped_at": "2026-03-21T00:20:08.970839+00:00",
+    "theater_id": "variedades",
+    "city": "Lisboa",
+    "_meta": {
+      "completeness": 0.45
+    }
+  }
+]
