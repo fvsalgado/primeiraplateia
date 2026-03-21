@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-21T03:10:04.635884Z",
-  "total_raw": 321,
-  "total_accepted": 315,
+  "generated_at": "2026-03-21T03:11:27.618353Z",
+  "total_raw": 329,
+  "total_accepted": 323,
   "total_rejected": 6,
-  "total_warnings": 102,
+  "total_warnings": 103,
   "rejected": [
     {
       "id": "saoluiz-um-homem-e-o-seu-criado",
@@ -762,6 +762,13 @@
       "warnings": [
         "evento já terminou (2025-07-09)"
       ]
+    },
+    {
+      "id": "tagv-hist-rias-do-vale-bom",
+      "title": "Histórias do Vale Bom",
+      "warnings": [
+        "evento já terminou (1929-10-21)"
+      ]
     }
   ],
   "total_duplicates_removed": 0,
@@ -813,7 +820,7 @@
     },
     "TAGV — Teatro Académico Gil Vicente": {
       "status": "ok",
-      "events_collected": 103
+      "events_collected": 111
     },
     "Cine-Teatro Avenida": {
       "status": "empty",
