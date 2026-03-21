@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-21T02:29:28.240481+00:00",
-  "build_version": "20260321-0229",
-  "total_events": 221,
+  "updated_at": "2026-03-21T03:02:12.488464+00:00",
+  "build_version": "20260321-0302",
+  "total_events": 218,
   "total_theaters": 12,
   "events_today": 7,
   "events_this_weekend": 7,
@@ -19,7 +19,7 @@
     "Teatro Variedades": 6,
     "Teatro da Trindade INATEL": 7,
     "São Luiz Teatro Municipal": 30,
-    "Teatro Maria Matos": 16,
+    "Teatro Maria Matos": 13,
     "TAGV — Teatro Académico Gil Vicente": 34,
     "CCB — Centro Cultural de Belém": 6,
     "Teatro das Figuras": 20,
@@ -27,7 +27,7 @@
     "Teatro do Bairro": 1,
     "Culturgest": 3
   },
-  "completeness_avg": 0.638,
+  "completeness_avg": 0.639,
   "anomalies": [],
   "scraper_health": {}
 }

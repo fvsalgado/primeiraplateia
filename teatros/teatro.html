@@ -10,6 +10,7 @@
 <link rel="canonical" id="page-canonical" href="https://www.primeiraplateia.pt/teatros/"/>
 <meta property="og:title" id="og-title" content="Teatro — Primeira Plateia"/>
 <meta property="og:description" id="og-desc" content="Programação completa deste teatro."/>
+<meta property="og:image" id="og-image" content=""/>
 <meta property="og:url" id="og-url" content="https://www.primeiraplateia.pt/teatros/"/>
 <meta property="og:type" content="website"/>
 <meta property="og:locale" content="pt_PT"/>
@@ -22,68 +23,142 @@
 <link rel="stylesheet" href="../design/tokens.css"/>
 <link rel="stylesheet" href="../design/base.css"/>
 <script>(function(){var s=localStorage.getItem('pp-theme');var sys=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',s||sys);})();</script>
-
-<!-- JSON-LD injectado via JS -->
 <script id="ld-json" type="application/ld+json">{}</script>
 
 <style>
-/* ── HERO DO TEATRO ─────────────────────────────────────────── */
+/* ── HERO ───────────────────────────────────────────────────── */
 .theater-hero {
-  padding: calc(var(--nav-h) + var(--space-12)) var(--space-12) var(--space-12);
-  background: var(--surface-bg);
-  border-bottom: 1px solid var(--surface-card-border);
   position: relative;
   overflow: hidden;
+  min-height: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-bottom: 1px solid var(--surface-card-border);
 }
 
-/* Barra de cor do teatro */
-.theater-hero::before {
-  content: '';
+/* Imagem de fachada (fundo do hero) */
+.hero-facade {
   position: absolute;
-  top: 0; left: 0; right: 0;
-  height: 4px;
-  background: var(--theater-color, var(--color-primary));
+  inset: 0;
+  z-index: 0;
+}
+.hero-facade img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  object-position: center 25%;
+  display: block;
 }
 
-.theater-hero-inner {
+/* Overlay que tinta o hero com a cor do teatro */
+.hero-tint {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  /* cor definida via JS com --theater-color */
+  background: linear-gradient(
+    160deg,
+    color-mix(in srgb, var(--theater-color, #1B2B4B) 85%, transparent) 0%,
+    color-mix(in srgb, var(--theater-color, #1B2B4B) 55%, transparent) 60%,
+    transparent 100%
+  );
+}
+
+/* Fallback quando não há imagem: fundo sólido na cor do teatro */
+.hero-no-facade .hero-tint {
+  background: color-mix(in srgb, var(--theater-color, #1B2B4B) 92%, transparent);
+}
+
+/* Padrão de linhas subtil */
+.hero-pattern {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background: repeating-linear-gradient(
+    170deg,
+    rgba(255,255,255,.03) 0px,
+    rgba(255,255,255,.03) 1px,
+    transparent 1px,
+    transparent 44px
+  );
+  pointer-events: none;
+}
+
+/* Conteúdo sobre o hero */
+.hero-content {
+  position: relative;
+  z-index: 3;
+  padding: calc(var(--nav-h) + var(--space-16)) var(--space-12) var(--space-10);
+}
+
+.hero-inner {
   max-width: var(--max-w);
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr auto;
   gap: var(--space-8);
-  align-items: start;
+  align-items: end;
 }
 
-/* Breadcrumb */
+/* Breadcrumb sobre fundo escuro */
 .breadcrumb {
   display: flex;
   align-items: center;
   gap: var(--space-2);
   font-size: var(--text-xs);
   font-weight: 500;
-  color: var(--text-muted);
+  color: rgba(255,255,255,.65);
   margin-bottom: var(--space-5);
   flex-wrap: wrap;
 }
-
 .breadcrumb a {
-  color: var(--text-muted);
+  color: rgba(255,255,255,.65);
   text-decoration: none;
   transition: color var(--transition-fast);
 }
-
-.breadcrumb a:hover { color: var(--color-primary); }
-
+.breadcrumb a:hover { color: #fff; }
 .breadcrumb-sep { opacity: .4; }
+
+/* Logo do teatro */
+.theater-logo-wrap {
+  margin-bottom: var(--space-5);
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+.theater-logo {
+  height: 52px;
+  max-width: 200px;
+  object-fit: contain;
+  filter: brightness(0) invert(1) drop-shadow(0 2px 6px rgba(0,0,0,.35));
+}
+/* Monograma fallback */
+.theater-monogram {
+  width: 52px; height: 52px;
+  border-radius: var(--radius-md);
+  background: rgba(255,255,255,.18);
+  border: 1px solid rgba(255,255,255,.3);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--ff-display);
+  font-size: var(--text-xl);
+  font-weight: 900;
+  color: #fff;
+  letter-spacing: -.02em;
+  flex-shrink: 0;
+}
 
 /* Nome do teatro */
 .theater-name {
   font-family: var(--ff-display);
   font-size: clamp(var(--text-3xl), 5vw, var(--text-5xl));
   font-weight: 900;
-  letter-spacing: -.03em;
-  line-height: 1;
-  color: var(--text-primary);
+  letter-spacing: -.04em;
+  line-height: .95;
+  color: #fff;
+  text-shadow: 0 2px 16px rgba(0,0,0,.2);
   margin-bottom: var(--space-3);
 }
 
@@ -93,115 +168,407 @@
   gap: var(--space-2);
   font-size: var(--text-sm);
   font-weight: 600;
-  color: var(--text-muted);
+  color: rgba(255,255,255,.8);
   margin-bottom: var(--space-5);
 }
 
 .theater-desc {
   font-size: var(--text-base);
-  color: var(--text-secondary);
-  line-height: 1.75;
-  max-width: 640px;
+  color: rgba(255,255,255,.82);
+  line-height: 1.7;
+  max-width: 580px;
   margin-bottom: var(--space-6);
 }
 
-/* Acções do hero */
+/* Acções */
 .theater-actions {
   display: flex;
   align-items: center;
   gap: var(--space-3);
   flex-wrap: wrap;
 }
-
-/* Metadados laterais */
-.theater-meta-card {
-  background: var(--surface-card);
-  border: 1px solid var(--surface-card-border);
-  border-radius: var(--radius-lg);
-  padding: var(--space-6);
-  min-width: 260px;
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-4);
-  flex-shrink: 0;
+/* Botões sobre o hero escuro */
+.theater-actions .btn-primary {
+  background: #fff;
+  color: var(--theater-color, var(--color-primary));
+  border-color: #fff;
+}
+.theater-actions .btn-primary:hover { background: rgba(255,255,255,.9); }
+.theater-actions .btn-outline {
+  border-color: rgba(255,255,255,.5);
+  color: #fff;
+}
+.theater-actions .btn-outline:hover {
+  background: rgba(255,255,255,.12);
+  border-color: #fff;
 }
 
-.meta-item {
+/* ── STATS STRIP ────────────────────────────────────────────── */
+.theater-stats-strip {
+  position: relative;
+  z-index: 3;
+  padding: 0 var(--space-12);
+  margin-top: calc(-1px); /* cola com o hero */
+}
+.theater-stats-inner {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  display: flex;
+  gap: 0;
+  background: var(--surface-card);
+  border: 1px solid var(--surface-card-border);
+  border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+  overflow: hidden;
+}
+.stat-block {
+  flex: 1;
+  padding: var(--space-5) var(--space-6);
   display: flex;
   flex-direction: column;
   gap: var(--space-1);
+  border-right: 1px solid var(--surface-card-border);
+  position: relative;
 }
-
-.meta-label {
+.stat-block:last-child { border-right: none; }
+.stat-block-num {
+  font-family: var(--ff-display);
+  font-size: var(--text-2xl);
+  font-weight: 900;
+  letter-spacing: -.03em;
+  color: var(--theater-color, var(--color-primary));
+  line-height: 1;
+}
+.stat-block-label {
   font-size: var(--text-xs);
-  font-weight: 700;
-  letter-spacing: .12em;
+  font-weight: 600;
+  letter-spacing: .1em;
   text-transform: uppercase;
   color: var(--text-muted);
 }
 
-.meta-value {
-  font-size: var(--text-sm);
-  color: var(--text-secondary);
-  font-weight: 500;
-  line-height: 1.5;
+/* ── CARD LATERAL DE META ───────────────────────────────────── */
+.hero-meta-card {
+  background: rgba(255,255,255,.12);
+  border: 1px solid rgba(255,255,255,.2);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  min-width: 240px;
+  max-width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  flex-shrink: 0;
 }
 
-.meta-value a {
-  color: var(--color-primary);
-  text-decoration: none;
+.meta-row {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.meta-row-label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.5);
+}
+.meta-row-value {
+  font-size: var(--text-sm);
+  color: rgba(255,255,255,.9);
+  font-weight: 500;
+  line-height: 1.4;
+  word-break: break-word;
+}
+.meta-row-value a {
+  color: rgba(255,255,255,.9);
+  text-decoration: underline;
+  text-decoration-color: rgba(255,255,255,.35);
   word-break: break-all;
 }
+.meta-row-value a:hover { color: #fff; text-decoration-color: rgba(255,255,255,.7); }
 
-.meta-value a:hover {
-  text-decoration: underline;
-}
-
-[data-theme="dark"] .meta-value a {
-  color: var(--color-primary);
-}
-
-/* Salas */
 .salas-list {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--space-2);
+  gap: var(--space-1);
+}
+.sala-pill {
+  display: inline-flex;
+  padding: 2px 8px;
+  background: rgba(255,255,255,.15);
+  border: 1px solid rgba(255,255,255,.2);
+  border-radius: var(--radius-full);
+  font-size: 11px;
+  font-weight: 600;
+  color: rgba(255,255,255,.9);
+  white-space: nowrap;
 }
 
-/* ── MAPA ────────────────────────────────────────────────────── */
-.theater-map {
+/* Mapa no card lateral */
+.meta-map {
   width: 100%;
-  height: 180px;
-  border-radius: var(--radius-md);
+  height: 130px;
+  border-radius: var(--radius-sm);
   overflow: hidden;
+  border: 1px solid rgba(255,255,255,.2);
+}
+.meta-map iframe {
+  width: 100%; height: 100%;
+  border: none; display: block;
+}
+.meta-map-link {
+  font-size: 11px;
+  color: rgba(255,255,255,.7);
+  text-decoration: none;
+  margin-top: var(--space-1);
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  transition: color var(--transition-fast);
+}
+.meta-map-link:hover { color: #fff; }
+
+/* ── SEPARADOR ──────────────────────────────────────────────── */
+.section-divider { border-top: 1px solid var(--surface-card-border); margin: 0; }
+
+/* ── SECÇÃO "EM CENA HOJE" ──────────────────────────────────── */
+.section-hoje {
+  padding: var(--space-10) var(--space-12) var(--space-8);
+  background: color-mix(in srgb, var(--theater-color, var(--color-primary)) 4%, var(--surface-bg));
+  border-bottom: 1px solid var(--surface-card-border);
+}
+.section-hoje-inner {
+  max-width: var(--max-w);
+  margin: 0 auto;
+}
+.section-hoje-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+  flex-wrap: wrap;
+}
+.hoje-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-4);
+  background: rgba(16,185,129,.12);
+  border: 1px solid rgba(16,185,129,.25);
+  border-radius: var(--radius-full);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: #059669;
+}
+[data-theme="dark"] .hoje-badge { color: #34d399; background: rgba(16,185,129,.15); }
+.hoje-dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: #10b981;
+  flex-shrink: 0;
+  animation: pulse 2s ease-in-out infinite;
+}
+@keyframes pulse {
+  0%,100% { opacity: 1; transform: scale(1); }
+  50%      { opacity: .6; transform: scale(.85); }
+}
+.section-hoje-header h2 {
+  font-family: var(--ff-display);
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  letter-spacing: -.02em;
+  color: var(--text-primary);
+}
+.section-hoje-header h2 em {
+  font-style: italic;
+  color: var(--theater-color, var(--color-accent));
+}
+
+.hoje-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: var(--space-4);
+}
+
+/* ── MINI-CALENDÁRIO ────────────────────────────────────────── */
+.calendar-section {
+  padding: var(--space-10) var(--space-12);
+  border-bottom: 1px solid var(--surface-card-border);
+}
+.calendar-section-inner {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: var(--space-10);
+  align-items: start;
+}
+.calendar-section h2 {
+  font-family: var(--ff-display);
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  letter-spacing: -.02em;
+  color: var(--text-primary);
+  margin-bottom: var(--space-6);
+}
+.calendar-section h2 em {
+  font-style: italic;
+  color: var(--theater-color, var(--color-accent));
+}
+
+/* Mini-calendário */
+.mini-cal {
+  width: 280px;
+  flex-shrink: 0;
+}
+.mini-cal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-3);
+}
+.mini-cal-month {
+  font-family: var(--ff-display);
+  font-size: var(--text-base);
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -.01em;
+}
+.mini-cal-nav {
+  display: flex;
+  gap: var(--space-1);
+}
+.mini-cal-btn {
+  width: 28px; height: 28px;
+  border-radius: var(--radius-sm);
   border: 1px solid var(--surface-card-border);
-  background: var(--surface-bg-2);
+  background: var(--surface-card);
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 14px;
+  display: flex; align-items: center; justify-content: center;
+  transition: border-color var(--transition-fast), color var(--transition-fast);
+}
+.mini-cal-btn:hover { border-color: var(--theater-color, var(--color-primary)); color: var(--theater-color, var(--color-primary)); }
+
+.mini-cal-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2px;
+}
+.mini-cal-dow {
+  text-align: center;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  padding: var(--space-1) 0 var(--space-2);
+}
+.mini-cal-day {
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--text-xs);
+  font-weight: 500;
+  border-radius: var(--radius-sm);
+  cursor: default;
+  color: var(--text-secondary);
+  position: relative;
+  transition: background var(--transition-fast);
+}
+.mini-cal-day.empty { visibility: hidden; }
+.mini-cal-day.other-month { color: var(--text-muted); opacity: .4; }
+.mini-cal-day.past { color: var(--text-muted); opacity: .5; }
+.mini-cal-day.has-event {
+  background: color-mix(in srgb, var(--theater-color, var(--color-primary)) 14%, transparent);
+  color: var(--theater-color, var(--color-primary));
+  font-weight: 700;
+  cursor: pointer;
+}
+.mini-cal-day.has-event:hover {
+  background: color-mix(in srgb, var(--theater-color, var(--color-primary)) 22%, transparent);
+}
+.mini-cal-day.today {
+  background: var(--theater-color, var(--color-primary)) !important;
+  color: #fff !important;
+  font-weight: 900;
+}
+.mini-cal-day.today.has-event::after {
+  content: '';
+  position: absolute;
+  bottom: 3px;
+  left: 50%; transform: translateX(-50%);
+  width: 4px; height: 4px;
+  border-radius: 50%;
+  background: rgba(255,255,255,.7);
 }
 
-.theater-map iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
-  display: block;
+/* Sessões do dia seleccionado */
+.cal-day-sessions {
+  flex: 1;
+  min-width: 0;
+}
+.cal-day-sessions-title {
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--text-muted);
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  margin-bottom: var(--space-4);
+}
+.cal-session-item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  padding: var(--space-3) 0;
+  border-bottom: 1px solid var(--surface-card-border);
+  text-decoration: none;
+  color: var(--text-primary);
+  transition: opacity var(--transition-fast);
+}
+.cal-session-item:last-child { border-bottom: none; }
+.cal-session-item:hover { opacity: .75; }
+.cal-session-time {
+  font-family: var(--ff-display);
+  font-size: var(--text-base);
+  font-weight: 700;
+  color: var(--theater-color, var(--color-primary));
+  min-width: 52px;
+  flex-shrink: 0;
+}
+.cal-session-title {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.3;
+}
+.cal-session-sala {
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+.cal-empty {
+  color: var(--text-muted);
+  font-size: var(--text-sm);
+  font-style: italic;
+  padding: var(--space-4) 0;
 }
 
-/* ── SEPARADOR DE SECÇÃO ────────────────────────────────────── */
-.section-divider {
-  border-top: 1px solid var(--surface-card-border);
-  margin: 0;
-}
-
-/* ── PROGRAMAÇÃO DO TEATRO ──────────────────────────────────── */
+/* ── PROGRAMAÇÃO ────────────────────────────────────────────── */
 .theater-programacao {
-  padding: var(--space-12) var(--space-12) var(--space-24);
+  padding: var(--space-10) var(--space-12) var(--space-24);
 }
-
 .theater-prog-inner {
   max-width: var(--max-w);
   margin: 0 auto;
 }
-
-.theater-prog-header {
+.prog-header {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -209,28 +576,22 @@
   margin-bottom: var(--space-8);
   flex-wrap: wrap;
 }
-
-.theater-prog-header h2 {
+.prog-header h2 {
   font-family: var(--ff-display);
   font-size: var(--text-3xl);
   font-weight: 700;
   letter-spacing: -.02em;
   color: var(--text-primary);
 }
+.prog-header h2 em { font-style: italic; color: var(--theater-color, var(--color-accent)); }
 
-.theater-prog-header h2 em {
-  font-style: italic;
-  color: var(--color-accent);
-}
-
-/* Grelha de espectáculos */
+/* ── GRELHA DE ESPECTÁCULOS ─────────────────────────────────── */
 .events-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: var(--space-5);
 }
 
-/* Card de espectáculo */
 .ev-card {
   display: flex;
   flex-direction: column;
@@ -240,21 +601,22 @@
   overflow: hidden;
   text-decoration: none;
   color: var(--text-primary);
-  transition:
-    border-color var(--transition-base),
-    box-shadow var(--transition-base),
-    transform var(--transition-fast);
+  transition: border-color var(--transition-base), box-shadow var(--transition-base), transform var(--transition-fast);
 }
-
 .ev-card:hover {
   border-color: rgba(27,43,75,.18);
   box-shadow: var(--shadow-primary);
   transform: translateY(-3px);
 }
+.ev-card:focus-visible { outline: none; box-shadow: var(--focus-ring-offset), var(--shadow-primary); }
 
-.ev-card:focus-visible {
-  outline: none;
-  box-shadow: var(--focus-ring-offset), var(--shadow-primary);
+/* Acento de cor do teatro no card */
+.ev-card::before {
+  content: '';
+  display: block;
+  height: 3px;
+  background: var(--theater-color, var(--color-primary));
+  flex-shrink: 0;
 }
 
 .ev-card-img {
@@ -264,22 +626,18 @@
   position: relative;
   flex-shrink: 0;
 }
-
 .ev-card-img img {
   width: 100%; height: 100%;
   object-fit: cover;
   transition: transform var(--transition-slow);
 }
-
 .ev-card:hover .ev-card-img img { transform: scale(1.04); }
-
 .ev-card-img-placeholder {
   width: 100%; height: 100%;
   display: flex; align-items: center; justify-content: center;
-  font-size: 40px; opacity: .12;
-  background: linear-gradient(135deg, var(--color-primary-light), var(--surface-bg-2));
+  font-size: 40px; opacity: .1;
+  background: linear-gradient(135deg, color-mix(in srgb, var(--theater-color, var(--color-primary)) 20%, transparent), var(--surface-bg-2));
 }
-
 .ev-card-category {
   position: absolute;
   top: var(--space-3); left: var(--space-3);
@@ -287,23 +645,36 @@
 
 .ev-card-body {
   padding: var(--space-4) var(--space-4) var(--space-5);
-  display: flex; flex-direction: column; flex: 1; gap: var(--space-1);
+  display: flex; flex-direction: column; flex: 1;
 }
-
 .ev-card-title {
   font-family: var(--ff-display);
   font-size: var(--text-lg);
   font-weight: 700; line-height: 1.2;
   color: var(--text-primary);
+  margin-bottom: var(--space-1);
   display: -webkit-box;
   -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
 }
-
 .ev-card-subtitle {
-  font-size: var(--text-sm); color: var(--text-muted);
-  font-style: italic;
+  font-size: var(--text-sm); color: var(--text-muted); font-style: italic;
+  margin-bottom: var(--space-2);
   display: -webkit-box;
   -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden;
+}
+
+/* Próximas sessões */
+.ev-card-sessions {
+  display: flex; flex-wrap: wrap; gap: var(--space-1);
+  margin-top: auto; margin-bottom: var(--space-3);
+}
+.session-pill {
+  display: inline-flex; align-items: center;
+  padding: 2px 8px;
+  background: color-mix(in srgb, var(--theater-color, var(--color-primary)) 12%, transparent);
+  color: var(--theater-color, var(--color-primary));
+  font-size: 10px; font-weight: 600;
+  border-radius: var(--radius-full); white-space: nowrap;
 }
 
 .ev-card-footer {
@@ -312,69 +683,38 @@
   gap: var(--space-2); flex-wrap: wrap;
   border-top: 1px solid var(--surface-card-border);
 }
-
-.ev-card-date {
-  font-size: var(--text-xs); font-weight: 700;
-  color: var(--color-accent); letter-spacing: .02em;
-}
-
-.ev-card-price {
-  font-size: var(--text-xs); color: var(--text-muted); font-weight: 500;
-}
-
-/* Sessões compactas */
-.ev-card-sessions {
-  display: flex; flex-wrap: wrap; gap: var(--space-1);
-  margin-top: var(--space-2);
-}
-
-.session-pill {
-  display: inline-flex; align-items: center;
-  padding: 2px 8px;
-  background: var(--color-primary-light);
-  color: var(--color-primary);
-  font-size: 10px; font-weight: 600;
-  border-radius: var(--radius-full);
-  white-space: nowrap;
-}
-
-[data-theme="dark"] .session-pill {
-  background: rgba(74,111,165,.2);
-}
-
-/* ── ESTADO: sem espectáculos ───────────────────────────────── */
-/* usa .state-empty do base.css */
+.ev-card-date { font-size: var(--text-xs); font-weight: 700; color: var(--color-accent); letter-spacing: .02em; }
+.ev-card-price { font-size: var(--text-xs); color: var(--text-muted); font-weight: 500; }
 
 /* ── RESPONSIVE ─────────────────────────────────────────────── */
 @media (max-width: 1024px) {
-  .theater-hero-inner {
-    grid-template-columns: 1fr;
-  }
-  .theater-meta-card {
-    min-width: unset;
-    width: 100%;
-    max-width: 480px;
-  }
-  .theater-map { height: 200px; }
+  .hero-inner { grid-template-columns: 1fr; }
+  .hero-meta-card { min-width: unset; width: 100%; max-width: 480px; }
+  .calendar-section-inner { grid-template-columns: 1fr; }
+  .mini-cal { width: 100%; }
 }
-
 @media (max-width: 768px) {
-  .theater-hero,
+  .hero-content,
+  .theater-stats-strip,
+  .section-hoje,
+  .calendar-section,
   .theater-programacao { padding-left: var(--space-5); padding-right: var(--space-5); }
   .theater-programacao { padding-bottom: var(--space-16); }
-  .theater-prog-header { flex-direction: column; align-items: flex-start; }
-  .events-grid { grid-template-columns: repeat(2, 1fr); gap: var(--space-3); }
+  .prog-header { flex-direction: column; align-items: flex-start; }
+  .events-grid { grid-template-columns: repeat(2,1fr); gap: var(--space-3); }
+  .theater-stats-inner { overflow-x: auto; }
+  .stat-block { min-width: 100px; }
+  .hoje-grid { grid-template-columns: repeat(2,1fr); }
 }
-
 @media (max-width: 480px) {
-  .events-grid { grid-template-columns: 1fr; }
+  .events-grid, .hoje-grid { grid-template-columns: 1fr; }
+  .theater-name { font-size: clamp(var(--text-2xl), 8vw, var(--text-3xl)); }
 }
 </style>
 </head>
 <body>
 <a class="skip-link" href="#main-content">Saltar para o conteúdo principal</a>
 
-<!-- ── NAVEGAÇÃO ─────────────────────────────────────────────── -->
 <nav class="nav" role="navigation" aria-label="Navegação principal">
   <a class="nav-brand" href="../" aria-label="Primeira Plateia — página inicial">
     <span class="nav-brand-primeira">Primeira</span>
@@ -397,64 +737,107 @@
 
 <main id="main-content">
 
-  <!-- Hero do teatro — preenchido via JS -->
-  <div class="theater-hero" id="theater-hero" style="--theater-color: var(--color-primary)">
-    <div class="theater-hero-inner">
-      <div>
-        <nav class="breadcrumb" aria-label="Localização na página">
-          <a href="../">Início</a>
-          <span class="breadcrumb-sep" aria-hidden="true">›</span>
-          <a href="./">Teatros</a>
-          <span class="breadcrumb-sep" aria-hidden="true">›</span>
-          <span id="breadcrumb-name" aria-current="page">…</span>
-        </nav>
+  <!-- ── HERO ──────────────────────────────────────────────── -->
+  <div class="theater-hero hero-no-facade" id="theater-hero" style="--theater-color:var(--color-primary)">
+    <!-- Imagem de fachada (inserida via JS quando disponível) -->
+    <div class="hero-facade" id="hero-facade" hidden>
+      <img id="hero-facade-img" src="" alt="" loading="eager"/>
+    </div>
+    <!-- Tint e padrão -->
+    <div class="hero-tint" aria-hidden="true"></div>
+    <div class="hero-pattern" aria-hidden="true"></div>
 
-        <h1 class="theater-name" id="theater-name">A carregar…</h1>
-        <p class="theater-city-badge" id="theater-city"></p>
-        <p class="theater-desc" id="theater-desc"></p>
+    <div class="hero-content">
+      <div class="hero-inner">
+        <div>
+          <nav class="breadcrumb" aria-label="Localização na página">
+            <a href="../">Início</a>
+            <span class="breadcrumb-sep" aria-hidden="true">›</span>
+            <a href="./">Teatros</a>
+            <span class="breadcrumb-sep" aria-hidden="true">›</span>
+            <span id="breadcrumb-name" aria-current="page">…</span>
+          </nav>
 
-        <div class="theater-actions" id="theater-actions"></div>
+          <!-- Logo / monograma -->
+          <div class="theater-logo-wrap" id="theater-logo-wrap">
+            <div class="theater-monogram" id="theater-monogram" aria-hidden="true"></div>
+          </div>
+
+          <h1 class="theater-name" id="theater-name">A carregar…</h1>
+          <p class="theater-city-badge" id="theater-city"></p>
+          <p class="theater-desc" id="theater-desc" hidden></p>
+          <div class="theater-actions" id="theater-actions"></div>
+        </div>
+
+        <!-- Card lateral de metadados -->
+        <aside class="hero-meta-card" id="hero-meta-card" aria-label="Informações do teatro">
+        </aside>
       </div>
+    </div>
+  </div>
 
-      <!-- Card lateral de metadados -->
-      <aside class="theater-meta-card" id="theater-meta-card" aria-label="Informações do teatro">
-        <!-- Preenchido via JS -->
-      </aside>
+  <!-- Stats strip -->
+  <div class="theater-stats-strip" id="stats-strip" style="--theater-color:var(--color-primary)" hidden>
+    <div class="theater-stats-inner" id="stats-inner" role="list" aria-label="Estatísticas do teatro">
     </div>
   </div>
 
   <hr class="section-divider"/>
 
-  <!-- Programação -->
+  <!-- ── EM CENA HOJE ───────────────────────────────────────── -->
+  <section class="section-hoje" id="section-hoje" style="--theater-color:var(--color-primary)" hidden aria-labelledby="hoje-heading">
+    <div class="section-hoje-inner">
+      <div class="section-hoje-header">
+        <span class="hoje-badge">
+          <span class="hoje-dot" aria-hidden="true"></span>
+          Em cena hoje
+        </span>
+        <h2 id="hoje-heading">Hoje <em>no palco</em></h2>
+      </div>
+      <div class="hoje-grid" id="hoje-grid" role="list" aria-label="Espectáculos hoje"></div>
+    </div>
+  </section>
+
+  <hr class="section-divider" id="cal-divider" hidden/>
+
+  <!-- ── CALENDÁRIO DO MÊS ──────────────────────────────────── -->
+  <section class="calendar-section" id="calendar-section" style="--theater-color:var(--color-primary)" hidden aria-labelledby="cal-heading">
+    <div class="calendar-section-inner">
+      <div>
+        <h2 id="cal-heading">Próximas <em>datas</em></h2>
+        <div class="mini-cal" id="mini-cal" aria-label="Mini-calendário"></div>
+      </div>
+      <div class="cal-day-sessions" id="cal-day-sessions">
+        <p class="cal-day-sessions-title" id="cal-day-title">Selecciona um dia</p>
+        <div id="cal-sessions-list"></div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="section-divider"/>
+
+  <!-- ── PROGRAMAÇÃO COMPLETA ───────────────────────────────── -->
   <section class="theater-programacao" aria-labelledby="prog-heading">
     <div class="theater-prog-inner">
-
-      <div class="theater-prog-header">
-        <h2 id="prog-heading">Em <em>cena agora</em></h2>
-        <a href="../programacao/" class="btn btn-outline btn-sm" id="prog-all-link">
-          Ver toda a programação →
-        </a>
+      <div class="prog-header">
+        <h2 id="prog-heading">Toda a <em>programação</em></h2>
+        <a href="../programacao/" class="btn btn-outline btn-sm" id="prog-all-link">Ver programação geral →</a>
       </div>
-
       <div id="events-grid" class="events-grid" role="list" aria-live="polite" aria-label="Espectáculos em cartaz"></div>
-
       <div class="state-empty" id="state-empty" hidden>
-        <h3 class="state-empty-title">Nenhum espectáculo em cartaz agora</h3>
+        <h3 class="state-empty-title">Nenhum espectáculo em cartaz</h3>
         <p class="state-empty-text">Vê a programação completa ou explora outros teatros.</p>
         <a href="../programacao/" class="btn btn-outline">Ver programação completa</a>
       </div>
-
       <div class="state-empty" id="state-error" hidden>
         <h3 class="state-empty-title">Programação indisponível</h3>
-        <p class="state-empty-text">Não foi possível carregar os espectáculos. Tenta novamente em breve.</p>
+        <p class="state-empty-text">Não foi possível carregar os espectáculos. Tenta novamente.</p>
       </div>
-
     </div>
   </section>
 
 </main>
 
-<!-- ── RODAPÉ ─────────────────────────────────────────────────── -->
 <footer class="footer" role="contentinfo">
   <div class="footer-inner">
     <div class="footer-brand-col">
@@ -490,7 +873,7 @@
       <p class="footer-col-title">Sobre</p>
       <nav class="footer-col-links" aria-label="Sobre">
         <a href="../sobre/">O projecto</a>
-        <a href="/cdn-cgi/l/email-protection#1b7d7a7972745b6b6972767e72697a6b777a6f7e727a356b6f">Contacto</a>
+        <a href="mailto:fabio@primeiraplateia.pt">Contacto</a>
       </nav>
     </div>
     <div>
@@ -541,27 +924,15 @@
 
   document.getElementById('footer-year').textContent = new Date().getFullYear();
 
-  /* ── Ler ID do teatro a partir do URL ───────────────────── */
-  // URL: /teatros/viriato/ → id = "viriato"
-  const theaterId = new URLSearchParams(window.location.search).get('id');
-
-  if (!theaterId) {
-    window.location.href = '../teatros/';
-    return;
-  }
-
   /* ── Utils ──────────────────────────────────────────────── */
   const today = new Date().toISOString().slice(0, 10);
 
-  function formatDate(iso) {
-    return new Date(iso).toLocaleDateString('pt-PT', { day: 'numeric', month: 'short' });
+  function esc(str) {
+    return String(str || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
   }
 
-  function formatRelative(iso) {
-    const diff = Math.floor((Date.now() - new Date(iso)) / 3600000);
-    if (diff < 1) return 'há menos de 1 hora';
-    if (diff < 24) return `há ${diff}h`;
-    return `há ${Math.floor(diff / 24)} dia${Math.floor(diff / 24) !== 1 ? 's' : ''}`;
+  function formatDate(iso, opts) {
+    return new Date(iso + 'T00:00:00').toLocaleDateString('pt-PT', opts || { day: 'numeric', month: 'short' });
   }
 
   function getCategoryClass(cat) {
@@ -570,9 +941,22 @@
       'Performance':'performance','Música':'musica' }[cat] || 'outro';
   }
 
-  function esc(str) {
-    return String(str || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  function getInitials(name) {
+    if (!name) return '?';
+    const clean = name.replace(/^(teatro|theatro|cine-teatro|centro cultural|sala)\s+/i, '');
+    const words = clean.trim().split(/[\s\-–]+/).filter(Boolean);
+    if (words.length === 1) return words[0].slice(0, 2).toUpperCase();
+    return (words[0][0] + (words[1][0] || '')).toUpperCase();
   }
+
+  /* ── Ler ID do URL ──────────────────────────────────────── */
+  const theaterId = new URLSearchParams(window.location.search).get('id');
+  if (!theaterId) { window.location.href = '../teatros/'; return; }
+
+  /* ── Estado do calendário ───────────────────────────────── */
+  let calEvents = [];   // todos os eventos com sessões futuras
+  let calViewDate = new Date();  // mês visível no calendário
+  let selectedCalDay = today;
 
   /* ── Carregar teatro ────────────────────────────────────── */
   async function loadTheater() {
@@ -582,10 +966,8 @@
       const trData = await tr.json();
       const theaters = Array.isArray(trData) ? trData : (trData.theaters || []);
       const theater = theaters.find(t => t.id === theaterId);
-      if (!theater) {
-        window.location.href = '../teatros/';
-        return;
-      }
+      if (!theater) { window.location.href = '../teatros/'; return; }
+
       renderHero(theater);
       injectLdJson(theater);
       await loadEvents(theater);
@@ -597,103 +979,116 @@
   /* ── Renderizar hero ────────────────────────────────────── */
   function renderHero(t) {
     const color = t.color || 'var(--color-primary)';
+    const heroEl = document.getElementById('theater-hero');
 
-    // CSS custom property para a barra de cor
-    document.getElementById('theater-hero').style.setProperty('--theater-color', color);
+    // Aplicar cor do teatro
+    heroEl.style.setProperty('--theater-color', color);
+    document.getElementById('stats-strip').style.setProperty('--theater-color', color);
+    document.getElementById('section-hoje').style.setProperty('--theater-color', color);
+    document.getElementById('calendar-section').style.setProperty('--theater-color', color);
 
-    // Meta tags dinâmicas
-    document.getElementById('page-title').textContent = `${t.name} — Primeira Plateia`;
+    // Meta tags
+    document.getElementById('page-title').textContent       = `${t.name} — Primeira Plateia`;
     document.getElementById('page-desc').setAttribute('content', `Programação completa do ${t.name} em ${t.city || 'Portugal'}.`);
     document.getElementById('page-canonical').setAttribute('href', `https://www.primeiraplateia.pt/teatros/${t.id}/`);
     document.getElementById('og-title').setAttribute('content', `${t.name} — Primeira Plateia`);
     document.getElementById('og-desc').setAttribute('content', `Programação completa do ${t.name}.`);
     document.getElementById('og-url').setAttribute('content', `https://www.primeiraplateia.pt/teatros/${t.id}/`);
 
-    // Breadcrumb
-    document.getElementById('breadcrumb-name').textContent = t.short || t.name;
+    // Fachada
+    if (t.facade) {
+      const facadeEl = document.getElementById('hero-facade');
+      const imgEl    = document.getElementById('hero-facade-img');
+      imgEl.src = t.facade;
+      imgEl.alt = `Fachada de ${t.name}`;
+      facadeEl.hidden = false;
+      heroEl.classList.remove('hero-no-facade');
+      // OG image
+      document.getElementById('og-image').setAttribute('content', t.facade);
+    }
 
-    // Nome e cidade
+    // Logo ou monograma
+    const logoWrap = document.getElementById('theater-logo-wrap');
+    const monogram = document.getElementById('theater-monogram');
+    monogram.textContent = getInitials(t.name);
+
+    if (t.logo) {
+      const logoImg = document.createElement('img');
+      logoImg.className = 'theater-logo';
+      logoImg.src = t.logo;
+      logoImg.alt = t.name;
+      logoImg.loading = 'eager';
+      logoImg.onerror = function() { this.style.display = 'none'; monogram.style.display = 'flex'; };
+      monogram.style.display = 'none';
+      logoWrap.insertBefore(logoImg, monogram);
+    }
+
+    // Breadcrumb e textos
+    document.getElementById('breadcrumb-name').textContent = t.short || t.name;
     document.getElementById('theater-name').textContent = t.name;
     document.getElementById('theater-city').innerHTML =
       `<span aria-hidden="true">📍</span> ${esc(t.city || '')}${t.address ? ' · ' + esc(t.address) : ''}`;
 
-    // Descrição
     const descEl = document.getElementById('theater-desc');
-    if (t.description) { descEl.textContent = t.description; }
-    else { descEl.hidden = true; }
+    if (t.description) { descEl.textContent = t.description; descEl.hidden = false; }
 
     // Acções
     const actionsEl = document.getElementById('theater-actions');
     const btns = [];
     if (t.programacao) {
-      btns.push(`<a href="${esc(t.programacao)}" class="btn btn-primary" target="_blank" rel="noopener" aria-label="Programação oficial do ${esc(t.name)}">
+      btns.push(`<a href="${esc(t.programacao)}" class="btn btn-primary" target="_blank" rel="noopener">
         <span aria-hidden="true">🔗</span> Site oficial
       </a>`);
+    } else if (t.site) {
+      btns.push(`<a href="${esc(t.site)}" class="btn btn-primary" target="_blank" rel="noopener">
+        <span aria-hidden="true">🔗</span> Site do teatro
+      </a>`);
     }
-    if (t.site && t.site !== t.programacao) {
-      btns.push(`<a href="${esc(t.site)}" class="btn btn-outline" target="_blank" rel="noopener" aria-label="Site do ${esc(t.name)}">Site do teatro</a>`);
+    if (t.site && t.programacao && t.site !== t.programacao) {
+      btns.push(`<a href="${esc(t.site)}" class="btn btn-outline" target="_blank" rel="noopener">Site do teatro</a>`);
     }
     actionsEl.innerHTML = btns.join('');
 
     // Card lateral de metadados
-    const metaCard = document.getElementById('theater-meta-card');
+    const metaCard = document.getElementById('hero-meta-card');
     const metaItems = [];
 
     if (t.address) {
-      metaItems.push(`
-        <div class="meta-item">
-          <span class="meta-label">Morada</span>
-          <span class="meta-value">${esc(t.address)}</span>
-        </div>`);
+      metaItems.push(`<div class="meta-row">
+        <span class="meta-row-label">Morada</span>
+        <span class="meta-row-value">${esc(t.address)}</span>
+      </div>`);
     }
-
     if (t.site) {
-      metaItems.push(`
-        <div class="meta-item">
-          <span class="meta-label">Website</span>
-          <span class="meta-value"><a href="${esc(t.site)}" target="_blank" rel="noopener">${esc(t.site.replace(/^https?:\/\//, '').replace(/\/$/, ''))}</a></span>
-        </div>`);
+      const siteDisplay = t.site.replace(/^https?:\/\//, '').replace(/\/$/, '');
+      metaItems.push(`<div class="meta-row">
+        <span class="meta-row-label">Website</span>
+        <span class="meta-row-value"><a href="${esc(t.site)}" target="_blank" rel="noopener">${esc(siteDisplay)}</a></span>
+      </div>`);
     }
-
     if (t.salas && t.salas.length) {
-      metaItems.push(`
-        <div class="meta-item">
-          <span class="meta-label">Sala${t.salas.length > 1 ? 's' : ''}</span>
-          <div class="salas-list" role="list">
-            ${t.salas.map(s => `<span class="pill pill-neutral" role="listitem">${esc(s)}</span>`).join('')}
-          </div>
-        </div>`);
+      metaItems.push(`<div class="meta-row">
+        <span class="meta-row-label">Sala${t.salas.length > 1 ? 's' : ''}</span>
+        <div class="salas-list">${t.salas.map(s => `<span class="sala-pill">${esc(s)}</span>`).join('')}</div>
+      </div>`);
     }
-
-    // Mapa OpenStreetMap se tiver coordenadas
     if (t.lat && t.lng) {
-      const zoom = 16;
       const bbox = `${t.lng - 0.005},${t.lat - 0.003},${t.lng + 0.005},${t.lat + 0.003}`;
       const mapUrl = `https://www.openstreetmap.org/export/embed.html?bbox=${bbox}&layer=mapnik&marker=${t.lat},${t.lng}`;
-      metaItems.push(`
-        <div class="meta-item">
-          <span class="meta-label">Localização</span>
-          <div class="theater-map">
-            <iframe
-              src="${mapUrl}"
-              title="Mapa de localização de ${esc(t.name)}"
-              loading="lazy"
-              allowfullscreen
-              aria-label="Mapa mostrando a localização de ${esc(t.name)} em ${esc(t.city || 'Portugal')}">
-            </iframe>
-          </div>
-          <a href="https://www.openstreetmap.org/?mlat=${t.lat}&mlon=${t.lng}#map=${zoom}/${t.lat}/${t.lng}"
-             class="btn btn-ghost btn-sm" target="_blank" rel="noopener"
-             style="margin-top:var(--space-2);font-size:var(--text-xs)">
-            Abrir no mapa →
-          </a>
-        </div>`);
+      metaItems.push(`<div class="meta-row">
+        <span class="meta-row-label">Localização</span>
+        <div class="meta-map">
+          <iframe src="${esc(mapUrl)}" title="Mapa de ${esc(t.name)}" loading="lazy" allowfullscreen></iframe>
+        </div>
+        <a class="meta-map-link" href="https://www.openstreetmap.org/?mlat=${t.lat}&mlon=${t.lng}#map=16/${t.lat}/${t.lng}" target="_blank" rel="noopener">
+          ↗ Abrir no mapa
+        </a>
+      </div>`);
     }
-
     metaCard.innerHTML = metaItems.join('');
   }
 
-  /* ── JSON-LD do teatro ──────────────────────────────────── */
+  /* ── JSON-LD ────────────────────────────────────────────── */
   function injectLdJson(t) {
     const ld = {
       "@context": "https://schema.org",
@@ -704,34 +1099,30 @@
     };
     if (t.address) ld.address = { "@type": "PostalAddress", "streetAddress": t.address, "addressLocality": t.city || '', "addressCountry": "PT" };
     if (t.lat && t.lng) ld.geo = { "@type": "GeoCoordinates", "latitude": t.lat, "longitude": t.lng };
+    if (t.logo) ld.logo = t.logo;
     document.getElementById('ld-json').textContent = JSON.stringify(ld);
   }
 
-  /* ── Carregar espectáculos do teatro ────────────────────── */
+  /* ── Carregar espectáculos ──────────────────────────────── */
   async function loadEvents(theater) {
     const grid   = document.getElementById('events-grid');
-    const empty  = document.getElementById('state-empty');
+    const emptyEl = document.getElementById('state-empty');
     const errEl  = document.getElementById('state-error');
 
     try {
       let events;
-
-      // 1. Tentar data/by-theater/[id].json (dados completos)
       try {
         const r = await fetch(`../data/by-theater/${theaterId}.json`);
-        if (r.ok) { events = await r.json(); }
-        else throw new Error();
+        if (r.ok) { events = await r.json(); } else throw new Error();
       } catch (_) {
-        // 2. Fallback: filtrar events.slim.json
         try {
           const r2 = await fetch('../data/events.slim.json');
           if (r2.ok) {
-            const raw2 = await r2.json();
-            const all = Array.isArray(raw2) ? raw2 : (raw2.events || raw2);
-            events = all.filter(e => e.theater_id === theaterId);
+            const raw = await r2.json();
+            const all = Array.isArray(raw) ? raw : (raw.events || raw);
+            events = all.filter(e => e.theater_id === theaterId || e.theater === theater.name);
           } else throw new Error();
         } catch (_2) {
-          // 3. Último recurso: events.json na raiz
           const r3 = await fetch('../events.json');
           if (!r3.ok) throw new Error('Sem dados');
           const all = await r3.json();
@@ -739,61 +1130,44 @@
         }
       }
 
-      // Filtrar futuros e ordenar
-      events = (events || [])
-        .filter(e => (e.next_session || e.date_start) >= today)
-        .sort((a, b) => {
-          const da = a.next_session || a.date_start;
-          const db = b.next_session || b.date_start;
-          return da < db ? -1 : da > db ? 1 : 0;
-        });
+      const allFuture = (events || []).filter(e => (e.next_session || e.date_start) >= today
+        || (e.date_end && e.date_end >= today));
 
-      if (events.length === 0) {
-        grid.hidden = true;
-        empty.hidden = false;
-        return;
+      allFuture.sort((a, b) => {
+        const da = a.next_session || a.date_start;
+        const db = b.next_session || b.date_start;
+        return da < db ? -1 : da > db ? 1 : 0;
+      });
+
+      // Guardar para o calendário
+      calEvents = allFuture;
+
+      // Stats strip
+      renderStats(allFuture, theater);
+
+      // Em cena hoje
+      const eventsHoje = allFuture.filter(ev => {
+        const ss = ev.sessions || [];
+        if (ss.length) return ss.some(s => s.date === today);
+        const de = ev.date_end || ev.date_start || '';
+        return ev.date_start <= today && today <= de;
+      });
+      if (eventsHoje.length > 0) {
+        renderHoje(eventsHoje, theater.color);
       }
 
-      grid.innerHTML = events.map(ev => {
-        const catClass = getCategoryClass(ev.category);
-        const ns = ev.next_session || ev.date_start;
+      // Calendário do mês
+      if (allFuture.length > 0) {
+        renderCalendar(theater.color);
+      }
 
-        // Próximas 3 sessões (se disponíveis)
-        const upcomingSessions = (ev.sessions || [])
-          .filter(s => s.date >= today)
-          .slice(0, 3);
-
-        const sessionsHtml = upcomingSessions.length > 1
-          ? `<div class="ev-card-sessions" aria-label="Próximas sessões">
-              ${upcomingSessions.map(s =>
-                `<span class="session-pill">${s.date ? new Date(s.date+'T00:00:00').toLocaleDateString('pt-PT',{day:'numeric',month:'short'}) : ''} ${s.time || ''}</span>`
-              ).join('')}
-             </div>`
-          : '';
-
-        return `
-          <article class="ev-card" role="listitem">
-            <a href="../espetaculo/?id=${esc(ev.id)}" aria-label="${esc(ev.title)}">
-              <div class="ev-card-img">
-                ${ev.image_url || (ev.image && ev.image.url)
-                  ? `<img src="${esc(ev.image_url || ev.image.url)}" alt="" loading="lazy" decoding="async"/>`
-                  : `<div class="ev-card-img-placeholder" aria-hidden="true">🎭</div>`}
-                <span class="ev-card-category">
-                  <span class="pill pill-${catClass}">${esc(ev.category || 'Teatro')}</span>
-                </span>
-              </div>
-              <div class="ev-card-body">
-                <h3 class="ev-card-title">${esc(ev.title)}</h3>
-                ${ev.subtitle ? `<p class="ev-card-subtitle">${esc(ev.subtitle)}</p>` : ''}
-                ${sessionsHtml}
-                <div class="ev-card-footer">
-                  <span class="ev-card-date">${formatDate(ns)}</span>
-                  ${ev.price_info ? `<span class="ev-card-price">${esc(ev.price_info)}</span>` : ''}
-                </div>
-              </div>
-            </a>
-          </article>`;
-      }).join('');
+      // Programação completa
+      if (allFuture.length === 0) {
+        grid.hidden = true;
+        emptyEl.hidden = false;
+        return;
+      }
+      grid.innerHTML = allFuture.map(ev => renderEvCard(ev, theater.color)).join('');
 
     } catch (_) {
       grid.hidden = true;
@@ -801,22 +1175,243 @@
     }
   }
 
-  /* ── Init ───────────────────────────────────────────────── */
-  loadTheater();
+  /* ── Stats strip ────────────────────────────────────────── */
+  function renderStats(events, theater) {
+    if (!events.length) return;
 
-  // Meta footer
+    const statsStrip = document.getElementById('stats-strip');
+    const statsInner = document.getElementById('stats-inner');
+
+    const todayEvs = events.filter(ev => {
+      const ss = ev.sessions || [];
+      if (ss.length) return ss.some(s => s.date === today);
+      return ev.date_start <= today && today <= (ev.date_end || ev.date_start);
+    });
+
+    const categories = [...new Set(events.map(e => e.category).filter(Boolean))];
+    const nextDate = events[0] ? (events[0].next_session || events[0].date_start) : null;
+
+    const stats = [
+      { num: events.length, label: 'Em cartaz' },
+      { num: todayEvs.length > 0 ? todayEvs.length : null, label: 'Hoje em cena', badge: true },
+      { num: categories.length, label: categories.length > 1 ? 'Categorias' : 'Categoria' },
+      nextDate ? { num: null, label: 'Próxima sessão', text: formatDate(nextDate, { day: 'numeric', month: 'long' }) } : null,
+    ].filter(Boolean);
+
+    statsInner.innerHTML = stats.map(s => `
+      <div class="stat-block" role="listitem">
+        <span class="stat-block-num">${s.text || (s.num != null ? s.num : '—')}</span>
+        <span class="stat-block-label">${esc(s.label)}</span>
+      </div>`).join('');
+
+    statsStrip.hidden = false;
+  }
+
+  /* ── Em cena hoje ───────────────────────────────────────── */
+  function renderHoje(events, color) {
+    const sectionEl = document.getElementById('section-hoje');
+    const grid = document.getElementById('hoje-grid');
+    grid.innerHTML = events.map(ev => renderEvCard(ev, color)).join('');
+    sectionEl.hidden = false;
+    document.getElementById('cal-divider').hidden = false;
+  }
+
+  /* ── Card de espectáculo ────────────────────────────────── */
+  function renderEvCard(ev, color) {
+    const catClass = getCategoryClass(ev.category);
+    const ns = ev.next_session || ev.date_start;
+    const imgSrc = ev.image_url || (ev.image && ev.image.url) || '';
+
+    const upcomingSessions = (ev.sessions || [])
+      .filter(s => s.date >= today)
+      .slice(0, 3);
+
+    const sessionsHtml = upcomingSessions.length > 1
+      ? `<div class="ev-card-sessions" aria-label="Próximas sessões">
+          ${upcomingSessions.map(s =>
+            `<span class="session-pill">${s.date ? formatDate(s.date) : ''} ${s.time || ''}</span>`
+          ).join('')}
+         </div>`
+      : '';
+
+    return `
+      <article class="ev-card" role="listitem" style="--theater-color:${esc(color || 'var(--color-primary)')}">
+        <a href="../espetaculo/?id=${esc(ev.id)}" aria-label="${esc(ev.title)}">
+          <div class="ev-card-img">
+            ${imgSrc
+              ? `<img src="${esc(imgSrc)}" alt="" loading="lazy" decoding="async"/>`
+              : `<div class="ev-card-img-placeholder" aria-hidden="true">🎭</div>`}
+            <span class="ev-card-category">
+              <span class="pill pill-${catClass}">${esc(ev.category || 'Teatro')}</span>
+            </span>
+          </div>
+          <div class="ev-card-body">
+            <h3 class="ev-card-title">${esc(ev.title)}</h3>
+            ${ev.subtitle ? `<p class="ev-card-subtitle">${esc(ev.subtitle)}</p>` : ''}
+            ${sessionsHtml}
+            <div class="ev-card-footer">
+              <span class="ev-card-date">${formatDate(ns)}</span>
+              ${ev.price_info ? `<span class="ev-card-price">${esc(ev.price_info)}</span>` : ''}
+            </div>
+          </div>
+        </a>
+      </article>`;
+  }
+
+  /* ── Mini-calendário ────────────────────────────────────── */
+  function renderCalendar(color) {
+    document.getElementById('calendar-section').hidden = false;
+    document.getElementById('cal-divider').hidden = false;
+    renderMonth();
+    showDaySessions(today);
+  }
+
+  function renderMonth() {
+    const year  = calViewDate.getFullYear();
+    const month = calViewDate.getMonth();
+
+    // Nome do mês
+    const monthName = new Date(year, month, 1).toLocaleDateString('pt-PT', { month: 'long', year: 'numeric' });
+
+    // Dias com eventos
+    const daysWithEvents = new Set();
+    calEvents.forEach(ev => {
+      (ev.sessions || []).forEach(s => {
+        if (s.date && s.date.startsWith(`${year}-${String(month+1).padStart(2,'0')}`)) {
+          daysWithEvents.add(parseInt(s.date.slice(8)));
+        }
+      });
+      // Eventos sem sessões: marcar todos os dias do range no mês
+      if (!ev.sessions || !ev.sessions.length) {
+        const ds = ev.date_start || '';
+        const de = ev.date_end   || ds;
+        const mStr = `${year}-${String(month+1).padStart(2,'0')}`;
+        if (ds <= mStr + '-31' && de >= mStr + '-01') {
+          const firstDay = Math.max(1, parseInt(ds.slice(8)) || 1);
+          const lastDay  = Math.min(31, parseInt(de.slice(8)) || 31);
+          for (let d = firstDay; d <= lastDay; d++) daysWithEvents.add(d);
+        }
+      }
+    });
+
+    // Calcular grid
+    const firstWeekday = new Date(year, month, 1).getDay(); // 0=Dom
+    const firstMon = (firstWeekday === 0 ? 6 : firstWeekday - 1); // 0=Seg
+    const daysInMonth = new Date(year, month + 1, 0).getDate();
+    const todayD  = parseInt(today.slice(8));
+    const todayM  = parseInt(today.slice(5, 7)) - 1;
+    const todayY  = parseInt(today.slice(0, 4));
+
+    const dowLabels = ['Seg','Ter','Qua','Qui','Sex','Sáb','Dom'];
+
+    let cells = '';
+    // DOW labels
+    dowLabels.forEach(d => { cells += `<div class="mini-cal-dow">${d}</div>`; });
+    // Empty cells before
+    for (let i = 0; i < firstMon; i++) cells += `<div class="mini-cal-day empty"></div>`;
+    // Days
+    for (let d = 1; d <= daysInMonth; d++) {
+      const dateStr = `${year}-${String(month+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
+      const isToday    = d === todayD && month === todayM && year === todayY;
+      const isPast     = dateStr < today;
+      const hasEvent   = daysWithEvents.has(d);
+      const isSelected = dateStr === selectedCalDay;
+
+      const classes = ['mini-cal-day'];
+      if (isToday)    classes.push('today');
+      if (isPast)     classes.push('past');
+      if (hasEvent)   classes.push('has-event');
+      if (isSelected && !isToday) classes.push('selected');
+
+      const onclick = hasEvent ? ` onclick="window.ppCalSelect('${dateStr}')"` : '';
+      const title   = hasEvent ? ` title="${formatDate(dateStr)}"` : '';
+
+      cells += `<div class="${classes.join(' ')}"${onclick}${title} ${hasEvent ? 'role="button" tabindex="0"' : ''}>${d}</div>`;
+    }
+
+    document.getElementById('mini-cal').innerHTML = `
+      <div class="mini-cal-header">
+        <span class="mini-cal-month">${monthName}</span>
+        <div class="mini-cal-nav">
+          <button class="mini-cal-btn" onclick="window.ppCalPrev()" aria-label="Mês anterior">‹</button>
+          <button class="mini-cal-btn" onclick="window.ppCalNext()" aria-label="Mês seguinte">›</button>
+        </div>
+      </div>
+      <div class="mini-cal-grid">${cells}</div>`;
+  }
+
+  function showDaySessions(dateStr) {
+    selectedCalDay = dateStr;
+    const titleEl   = document.getElementById('cal-day-title');
+    const listEl    = document.getElementById('cal-sessions-list');
+
+    const label = dateStr === today
+      ? 'Hoje'
+      : new Date(dateStr + 'T00:00:00').toLocaleDateString('pt-PT', { weekday: 'long', day: 'numeric', month: 'long' });
+
+    titleEl.textContent = label;
+
+    // Encontrar sessões neste dia
+    const sessions = [];
+    calEvents.forEach(ev => {
+      const daySessions = (ev.sessions || []).filter(s => s.date === dateStr);
+      if (daySessions.length) {
+        daySessions.forEach(s => sessions.push({ ev, session: s }));
+      } else if (!ev.sessions || !ev.sessions.length) {
+        // Evento sem sessões: mostrar se está dentro do range
+        if (ev.date_start <= dateStr && dateStr <= (ev.date_end || ev.date_start)) {
+          sessions.push({ ev, session: { date: dateStr, time: null } });
+        }
+      }
+    });
+
+    sessions.sort((a, b) => {
+      const ta = a.session.time || '23:59';
+      const tb = b.session.time || '23:59';
+      return ta < tb ? -1 : ta > tb ? 1 : 0;
+    });
+
+    if (!sessions.length) {
+      listEl.innerHTML = `<p class="cal-empty">Sem sessões neste dia.</p>`;
+      return;
+    }
+
+    listEl.innerHTML = sessions.map(({ ev, session }) => `
+      <a class="cal-session-item" href="../espetaculo/?id=${esc(ev.id)}" aria-label="${esc(ev.title)}${session.time ? ' às ' + session.time : ''}">
+        <span class="cal-session-time">${session.time || '—'}</span>
+        <div>
+          <div class="cal-session-title">${esc(ev.title)}</div>
+          ${ev.sala ? `<div class="cal-session-sala">${esc(ev.sala)}</div>` : ''}
+        </div>
+      </a>`).join('');
+
+    // Actualizar highlight no calendário
+    renderMonth();
+  }
+
+  // Handlers globais para o calendário (onclick inline)
+  window.ppCalSelect = function(dateStr) { showDaySessions(dateStr); };
+  window.ppCalPrev   = function() {
+    calViewDate = new Date(calViewDate.getFullYear(), calViewDate.getMonth() - 1, 1);
+    renderMonth();
+  };
+  window.ppCalNext   = function() {
+    calViewDate = new Date(calViewDate.getFullYear(), calViewDate.getMonth() + 1, 1);
+    renderMonth();
+  };
+
+  /* ── Footer meta ────────────────────────────────────────── */
   fetch('../data/meta.json').then(r => r.ok ? r.json() : null).then(m => {
     if (!m) return;
     const fu = document.getElementById('footer-updated');
-    if (fu) fu.textContent = `Actualizado ${formatRelative(m.updated_at)}`;
+    if (fu && m.updated_at) {
+      const h = Math.floor((Date.now() - new Date(m.updated_at)) / 3600000);
+      fu.textContent = `Actualizado há ${h < 1 ? 'menos de 1h' : h + 'h'}`;
+    }
   }).catch(() => {});
 
-  function formatRelative(iso) {
-    const diff = Math.floor((Date.now() - new Date(iso)) / 3600000);
-    if (diff < 1) return 'há menos de 1h';
-    if (diff < 24) return `há ${diff}h`;
-    return `há ${Math.floor(diff/24)} dia${Math.floor(diff/24)!==1?'s':''}`;
-  }
+  /* ── Init ───────────────────────────────────────────────── */
+  loadTheater();
 
 })();
 </script>
