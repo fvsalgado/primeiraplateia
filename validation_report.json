@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-21T21:54:21.645724Z",
-  "total_raw": 334,
-  "total_accepted": 324,
+  "generated_at": "2026-03-21T22:11:46.065375Z",
+  "total_raw": 338,
+  "total_accepted": 328,
   "total_rejected": 10,
-  "total_warnings": 102,
+  "total_warnings": 103,
   "rejected": [
     {
       "id": "saoluiz-um-homem-e-o-seu-criado",
@@ -785,6 +785,13 @@
       ]
     },
     {
+      "id": "tagv-festival-end-dramaturgia-contempor-nea-processos-d",
+      "title": "Festival END: Dramaturgia Contemporânea. Processos de Composição",
+      "warnings": [
+        "evento já terminou (2025-07-09)"
+      ]
+    },
+    {
       "id": "tagv-hist-rias-do-vale-bom",
       "title": "Histórias do Vale Bom",
       "warnings": [
@@ -841,7 +848,7 @@
     },
     "TAGV — Teatro Académico Gil Vicente": {
       "status": "ok",
-      "events_collected": 107
+      "events_collected": 111
     },
     "Cine-Teatro Avenida": {
       "status": "empty",
