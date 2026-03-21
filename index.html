@@ -119,6 +119,8 @@
 .destaques-title-link:hover .section-h2 em{text-decoration:underline;text-decoration-color:var(--color-accent)}
 
 /* Selector de categoria */
+.destaques-header .section-label{font-size:var(--text-xs);font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--text-muted);cursor:pointer;white-space:nowrap}
+.destaques-header .section-label{font-size:var(--text-xs);font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--text-muted);cursor:pointer;white-space:nowrap}
 .cat-selector{max-width:var(--max-w);margin:0 auto var(--space-4);display:flex;align-items:center;gap:var(--space-2);overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding-bottom:2px}
 .cat-selector::-webkit-scrollbar{display:none}
 .cat-selector-btn{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:var(--space-2) var(--space-4);border-radius:var(--radius-full);border:1.5px solid var(--surface-divider);background:var(--surface-card);color:var(--text-muted);cursor:pointer;transition:all var(--transition-fast);white-space:nowrap;font-family:inherit;flex-shrink:0}
@@ -166,14 +168,14 @@
 .cat-empty-text{font-size:var(--text-sm)}
 
 /* EXPLORAR */
-.section-explorar{padding:var(--space-16) var(--space-12);background:var(--surface-bg);border-top:1px solid var(--surface-card-border)}
+.section-explorar{padding:var(--space-10) var(--space-12);background:var(--surface-bg);border-top:1px solid var(--surface-card-border)}
 .explorar-inner{max-width:var(--max-w);margin:0 auto}
-.explorar-block{margin-bottom:var(--space-12)}
+.explorar-block{margin-bottom:var(--space-8)}
 .explorar-block:last-child{margin-bottom:0}
-.explorar-block-header{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:var(--space-5)}
-.explorar-block-title{font-family:var(--ff-display);font-size:var(--text-2xl);font-weight:700;color:var(--text-primary);line-height:1.1}
-.explorar-block-title em{font-style:italic;color:var(--color-primary)}
-.explorar-block-link{font-size:var(--text-xs);font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--text-muted);text-decoration:none;transition:color var(--transition-fast)}
+.explorar-block-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:var(--space-4)}
+.explorar-block-title{font-size:var(--text-xs);font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--text-muted)}
+.explorar-block-title em{font-style:normal;color:var(--text-muted)}
+.explorar-block-link{font-size:var(--text-xs);font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--text-muted);text-decoration:none;transition:color var(--transition-fast);white-space:nowrap}
 .explorar-block-link:hover{color:var(--color-primary)}
 .explorar-grid{display:grid;gap:var(--space-3)}
 .explorar-grid--cities{grid-template-columns:repeat(5,1fr)}
@@ -318,10 +320,10 @@
   </section>
 
   <!-- DESTAQUES POR CATEGORIA -->
-  <section class="section-destaques" aria-labelledby="destaques-title">
+  <section class="section-destaques" id="section-destaques" aria-labelledby="destaques-title" hidden>
     <div class="destaques-header">
       <a href="programacao/" style="text-decoration:none;flex-shrink:0" aria-label="Ver programação">
-        <p class="section-label" style="cursor:pointer">Em cena →</p>
+        <p class="section-label" style="cursor:pointer">Em cena hoje →</p>
       </a>
       <div class="cat-selector" id="cat-selector" role="tablist" aria-label="Filtrar por categoria" style="margin:0;max-width:none;flex:1;min-width:0"></div>
     </div>
@@ -349,14 +351,14 @@
     <div class="explorar-inner">
       <div class="explorar-block">
         <div class="explorar-block-header">
-          <h2 class="explorar-block-title">Onde <em>queres ir?</em></h2>
+          <span class="explorar-block-title">ONDE QUERES IR?</span>
           <a class="explorar-block-link" href="perto-de-mim/">Perto de mim →</a>
         </div>
         <div class="explorar-grid explorar-grid--cities" id="grid-cities" role="list" aria-label="Cidades"></div>
       </div>
       <div class="explorar-block">
         <div class="explorar-block-header">
-          <h2 class="explorar-block-title">Por <em>espaço</em></h2>
+          <span class="explorar-block-title">POR ESPAÇO</span>
           <a class="explorar-block-link" href="teatros/">Ver todos →</a>
         </div>
         <div class="explorar-grid explorar-grid--theaters" id="grid-theaters" role="list" aria-label="Teatros"></div>
@@ -487,7 +489,12 @@ var verTodosBtn=document.getElementById('destaques-ver-todos');
 
 function getFilteredEvents(){
   var today=new Date().toISOString().slice(0,10);
-  var pool=allEventsRaw.filter(function(e){return(e.next_session||e.date_start)>=today;});
+  var pool=allEventsRaw.filter(function(e){
+    var ss=e.sessions||[];
+    if(ss.length)return ss.some(function(s){return s.date===today;});
+    var ds=e.date_start||'',de=e.date_end||ds;
+    return ds<=today&&today<=de;
+  });
   if(activeCat){pool=pool.filter(function(e){return e.category===activeCat;});}
   return pool.slice(0,MAX_EVENTS);
 }
@@ -668,8 +675,7 @@ async function init(){
   populateFab(meta,theaters);
 
   // Activar a categoria com mais eventos por defeito
-  var topCat='';
-  var cats=Object.entries(byCat).filter(function(c){return c[0]!=='Outro'&&c[1]>0;}).sort(function(a,b){return b[1]-a[1];});
+  if(meta.events_today>0){var sd=document.getElementById('section-destaques');if(sd)sd.hidden=false;}
   selectCat('');
 }
 
