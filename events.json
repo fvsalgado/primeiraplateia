@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-21T13:05:04.500013+00:00",
-  "total": 314,
+  "updated_at": "2026-03-21T13:18:30.221198+00:00",
+  "total": 323,
   "by_theater": {
     "Teatro Variedades": 6,
     "Capitólio": 6,
@@ -13,7 +13,7 @@
     "Teatro do Bairro": 1,
     "Teatro da Trindade INATEL": 7,
     "Teatro das Figuras": 20,
-    "TAGV — Teatro Académico Gil Vicente": 102,
+    "TAGV — Teatro Académico Gil Vicente": 111,
     "Cine-Teatro Avenida": 0
   },
   "meta": {
@@ -24,6 +24,65 @@
     "takedown_sla": "Remoção em 48h mediante pedido."
   },
   "events": [
+    {
+      "id": "tagv-hist-rias-do-vale-bom",
+      "title": "Histórias do Vale Bom",
+      "theater": "TAGV — Teatro Académico Gil Vicente",
+      "category": "Outro",
+      "date_start": "1929-10-21",
+      "source_url": "https://tagv.pt/agenda/uma-onda-na-mente-dois-dias-com-ursula-k-le-guin-no-tagv/",
+      "dates_label": "21 outubro 1929",
+      "synopsis": "“As palavras são acontecimentos.” Partindo desta citação de Ursula K. Le Guin (1929-2018), propomo-nos trazer ao TAGV uma amostra do universo intelectual desta escritora que, nas suas reflexões sobre a escrita, a cultura, os outros, a vida em sociedade e os mecanismos do mundo, nos recalibra o pensa…",
+      "image": {
+        "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-uma-onda-na-mente-dois-dias-com-ursula-k-le-guin-no-tagv-2026040708-uma-onda-na-mente-joao-duarte.png",
+        "credit": null,
+        "source": "https://tagv.pt/agenda/uma-onda-na-mente-dois-dias-com-ursula-k-le-guin-no-tagv/",
+        "theater": "TAGV — Teatro Académico Gil Vicente"
+      },
+      "ticket_url": "https://tagv.bol.pt",
+      "price_info": "Entrada livre",
+      "price_min": 0.0,
+      "price_max": 0.0,
+      "duration": "18h30",
+      "duration_min": 1110,
+      "age_rating": "Livre",
+      "age_min": 0,
+      "technical_sheet": {
+        "autor": "prolífica, tanto em poesia como em prosa, destacando-se sobretudo nos géneros da ficção realista, ficção científica e fantasia. Escreveu 22 livros, bem como dezenas de volumes de contos, poemas, livros infantis, livros para jovens adultos, guiões, ensaios e traduções. Faleceu a 22 de janeiro de 2018",
+        "som": "e o ritmo, leremos alguns excertos em voz alta, que serão gravados; posteriormente, na sequência de desafios lançados aos escritores, teremos um período de escrita. No final, lemos alto o resultado para que possam também ficar gravadas as nossas palavras, os nossos acontecimentos: “A língua viva que",
+        "apoio": "do National Endowment for the Humanities, da California Humanities, da Berkeley Film Foundation e de 3185 apoiantes através do Kickstarter. Desde a sua estreia, em Agosto de 2019, foi selecionado e distinguido por dezenas de festivais de cinema. De Arwen Curry Origem EUA, Canadá (Doc.), 2018 duração"
+      },
+      "people": [
+        "prolífica",
+        "tanto em poesia como em prosa",
+        "destacando-se sobretudo nos géneros da ficção realista",
+        "ficção científica",
+        "fantasia. Escreveu 22 livros",
+        "bem como dezenas de volumes de contos",
+        "poemas",
+        "livros infantis",
+        "livros para jovens adultos",
+        "guiões",
+        "ensaios",
+        "traduções. Faleceu a 22 de janeiro de 2018",
+        "e o ritmo",
+        "leremos alguns excertos em voz alta",
+        "que serão gravados",
+        "posteriormente",
+        "na sequência de desafios lançados aos escritores",
+        "teremos um período de escrita. No final",
+        "lemos alto o resultado para que possam também ficar gravadas as nossas palavras",
+        "os nossos acontecimentos: “A língua viva que"
+      ],
+      "sessions": [
+        {
+          "date": "1929-10-21",
+          "time": "18:30",
+          "weekday": "Seg"
+        }
+      ],
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
+    },
     {
       "id": "tagv-caminhada-salatina",
       "title": "Caminhada Salatina",
@@ -67,7 +126,7 @@
           "weekday": "Qui"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-miroirs-no-3",
@@ -112,7 +171,7 @@
           "weekday": "Qui"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-na-terra-dos-nossos-irm-os",
@@ -144,7 +203,7 @@
           "weekday": "Qui"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-recorda-es-da-casa-amarela",
@@ -185,7 +244,7 @@
           "weekday": "Qui"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-salatinas-hist-rias-da-velha-alta-de-coimbra",
@@ -215,7 +274,7 @@
           "weekday": "Qui"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-silvestre",
@@ -245,7 +304,7 @@
           "weekday": "Qui"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-viva-jo-o-c-sar-monteiro",
@@ -284,7 +343,7 @@
           "weekday": "Qui"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-flor-do-mar",
@@ -314,7 +373,7 @@
           "weekday": "Qui"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-thiago-ventura",
@@ -351,7 +410,7 @@
           "weekday": "Qui"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-ser-preciso-ser-aqui-conversas-com-pessoas-dotadas",
@@ -398,7 +457,7 @@
           "weekday": "Qui"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-xi-l-grimas-de-amores",
@@ -434,7 +493,7 @@
           "weekday": "Qua"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-o-av-tem-uma-borracha-na-cabe-a",
@@ -464,7 +523,7 @@
           "weekday": "Qui"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-doc-coimbra-substrato",
@@ -504,7 +563,7 @@
           "weekday": "Sáb"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-festival-end-dramaturgia-contempor-nea-processos-d",
@@ -567,7 +626,7 @@
           "weekday": "Qua"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-laguna",
@@ -594,7 +653,7 @@
           "weekday": "Ter"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-batalha-atr-s-de-batalha",
@@ -638,7 +697,7 @@
           "weekday": "Qui"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-onde-aterrar",
@@ -675,7 +734,7 @@
           "weekday": "Sáb"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-tr-s-tempos",
@@ -716,7 +775,7 @@
       "subtitle": "Com Xullaji e Tiago Sampaio",
       "date_end": "2026-04-18",
       "schedule": "18h45",
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-new-age-new-time",
@@ -765,7 +824,7 @@
         "direção": "e",
         "coreografia": "Carminda Soares e Maria R Soares 27 JAN // OFICINA Entre um abraço e um beijinho Orientação João Cardoso e Ricardo Machado 28 JAN Um abraço ou um beijinho"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-regenerar",
@@ -808,7 +867,7 @@
       "technical_sheet": {
         "produção": "Teatro Viriato Powered by Movecho Esta exposição integra a programação da RTCP"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-warm-up",
@@ -852,7 +911,7 @@
       "technical_sheet": {
         "interpretação": "Pedro de Aires Isto não é para Gente, é para Besta! Criação e"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-o-qu",
@@ -893,7 +952,7 @@
       "technical_sheet": {
         "interpretação": "Pedro de Aires Design de luz Sara Nogueira Este espetáculo integra a programação da RTCP"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-isto-n-o-para-gente-para-besta",
@@ -938,7 +997,7 @@
         "figurinos": "Magda e Margarida Magalhães",
         "produção": "Instável - Centro Coreográfico, Teatro Municipal do Porto"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-amor-e-informa-o",
@@ -978,7 +1037,7 @@
           "weekday": "Ter"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-sublinhar",
@@ -1029,7 +1088,7 @@
         "figurinos": "Benedetta Maxia",
         "produção": "LU.CA Teatro Luís de Camões, Materiais Diversos e Teatro Municipal do Porto/ Festival DDD - Dias da Dança Residências artísticas e espaços de ensaio Estúdios Victor Córdon/ Em Trânsito, Teatro Maria M"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-as-curtas",
@@ -1088,7 +1147,7 @@
           "weekday": "Sáb"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "variedades-clube-de-leitura-do-teatro-variedades",
@@ -1128,7 +1187,7 @@
       "duration": "60 min",
       "duration_min": 60,
       "age_min": 351,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-reverbera-es",
@@ -1183,7 +1242,7 @@
       "director": "",
       "cast": [],
       "technical_sheet": {},
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-sibela-e-digoo",
@@ -1227,7 +1286,7 @@
         "figurinos": "Tânia Carvalho Pintura do",
         "produção": "Dançando com a Diferença"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-a-com-dia-de-deus",
@@ -1264,7 +1323,7 @@
           "weekday": "Qua"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-bull-s-heart",
@@ -1306,7 +1365,7 @@
         "fotografia": "Eva Stefani Com Dimitris Papaioannou, Breanna O’Mara, Tina Papanikolaou, Damiano Ottavio Bigi, Šuka Horn, Jan Möllmer, Łukasz Przytarski, Christos Strinopoulos, Michalis Theophanous",
         "produção": "Afroditi Panagiotakou, Dimitris Theodoropoulos"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-sophia-de-melo-breyner-andresen-fragmentos-de-um-f",
@@ -1338,7 +1397,7 @@
           "weekday": "Qui"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-reverberando",
@@ -1376,7 +1435,7 @@
       "director": "",
       "cast": [],
       "technical_sheet": {},
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-as-bodas-de-deus",
@@ -1433,7 +1492,7 @@
           "weekday": "Sex"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-bright-horses",
@@ -1485,7 +1544,7 @@
         "figurinos": "Jordann Santos Assistência de",
         "produção": "O Espaço do Tempo, A Oficina e Cineteatro Louletano [no âmbito do Projeto CASA], Teatro Municipal do Porto e Cine-Teatro São Pedro de Alcanena"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-quem-espera-por-sapatos-de-defunto-morre-descal-o-",
@@ -1524,7 +1583,7 @@
           "weekday": "Sáb"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-entre-um-abra-o-e-um-beijinho",
@@ -1565,7 +1624,7 @@
       "technical_sheet": {
         "música": "Pimba e os seus códigos culturais podem ser questionados, desconstruídos e reinventados através da dança. Partindo das noções de masculinidade, afeto e pertença, os participantes são convidados a colo"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-um-abra-o-ou-um-beijinho",
@@ -1616,7 +1675,7 @@
         "luz": "Carin Geada Olhar externo Piny",
         "produção": "Outro Vento"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "trindade-a-gaivota",
@@ -1676,7 +1735,7 @@
       "price_max": 22.0,
       "age_rating": "M/12",
       "age_min": 12,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-portugal-n-o-um-pa-s-pequeno",
@@ -1715,7 +1774,7 @@
           "weekday": "Qui"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-wonderlandi",
@@ -1771,7 +1830,7 @@
         "som": "Mestre André Assistência técnica e de",
         "produção": "Fábio Rocha de Carvalho Casa de"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-balletstudio-paula-santos",
@@ -1825,7 +1884,7 @@
           "weekday": "Sáb"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-regenera",
@@ -1865,7 +1924,7 @@
       "director": "",
       "cast": [],
       "technical_sheet": {},
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-noite-fora-cria-o-dramat-rgica",
@@ -1910,7 +1969,7 @@
       "technical_sheet": {
         "texto": "teatral (m/18 anos) Lotação limitada LOCAL Teatro Viriato CANDIDATURAS Depois de revelar, no ano passado, uma nova vertente de criação dramatúrgica, o “Noite Fora” regressa para mais uma edição que tr"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-o-teatro-tamb-m-a-nossa-casa",
@@ -1953,7 +2012,7 @@
       "technical_sheet": {
         "produção": "Teatro Viriato Esta exposição integra a programação da RTCP"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-vai-e-vem",
@@ -1990,7 +2049,7 @@
           "weekday": "Seg"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-veredas",
@@ -2040,7 +2099,7 @@
           "weekday": "Seg"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-visitas-guiadas-ao-teatro-viriato",
@@ -2084,7 +2143,7 @@
       "technical_sheet": {
         "fotografia": "© Carlos Fernandes Centro de Artes do Espectáculo de Viseu Viriato Teatro Municipal Largo Mouzinho de Albuquerque"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-declamar-poesia",
@@ -2123,7 +2182,7 @@
           "weekday": "Ter"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-luca-argel",
@@ -2165,7 +2224,7 @@
         "música": "sex 21h00 75 min. Preços bilhetes 10€ Plateia 10€ Camarotes 7.5€ Frisas frontais 5€ Frisas Laterais 5€ Preço Jovem LOCAL Sala de Espetáculos Descontos aplicáveis 50% Mecenas e Amigos ( Adágio a Appass",
         "produção": "de Moreno Veloso, um dos nomes mais influentes da"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-ouvido-absoluto",
@@ -2228,7 +2287,7 @@
           "weekday": "Sex"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-a-cronologia-da-gua",
@@ -2271,7 +2330,7 @@
           "weekday": "Sáb"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-toshiib4",
@@ -2368,7 +2427,7 @@
       "technical_sheet": {
         "dramaturgia": "e na experimentação de dispositivos cénicos. Passando da escrita para o espaço, o objetivo é começar a dar corpo às ideias que emergiram da pesquisa: a intimidade digital, a curiosidade adolescente, a"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-a-casa-morreu-di-rio-de-uma-rep-blica-iii",
@@ -2401,7 +2460,7 @@
         "Mariana Ricardo O espetáculo Aurora (ou Liv",
         "100PAREDES Teatro A Caminhada dos Elefantes academia XIII Panaceia — Festival de Tunas Femininas / Cancelado Cinema Labirinto de Sombras Cinema Valor Sentimental Scroll Residência Artística 09 Fev 15 Fev Seg Ver Preços Agenda > Temporada 2025/26 > jan-jul Aurora (ou Livro) Residência num espaço habi"
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-whindersson-nunes-e-robson-sousa",
@@ -2437,7 +2496,7 @@
           "weekday": "Seg"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-mulholland-drive",
@@ -2473,7 +2532,7 @@
           "weekday": "Seg"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-ii-beira-rio-festival-de-tunas",
@@ -2517,7 +2576,7 @@
           "weekday": "Ter"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-pai-m-e-irm-irm-o",
@@ -2582,7 +2641,7 @@
           "weekday": "Qui"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-justi-a-cega",
@@ -2637,7 +2696,7 @@
         "direção": "de",
         "produção": "Luna Rebelo"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-tatabitato",
@@ -2678,7 +2737,7 @@
       "technical_sheet": {
         "música": "é veículo de expressão, descoberta e construção de felicidade em conjunto. Estas oficinas são desenhadas pelos músicos Ana Bento e Bruno Pinto, que se inspiram na programação do Teatro Viriato para, a"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-living-the-land-o-vento-impar-vel",
@@ -2720,7 +2779,7 @@
           "weekday": "Sáb"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-aurora-ou-livro",
@@ -2773,7 +2832,7 @@
           "weekday": "Seg"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-100paredes",
@@ -2810,7 +2869,7 @@
           "weekday": "Seg"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-xiii-panaceia-festival-de-tunas-femininas-cancelad",
@@ -2857,7 +2916,7 @@
           "weekday": "Qua"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-a-caminhada-dos-elefantes",
@@ -2894,7 +2953,7 @@
           "weekday": "Qua"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "trindade-brokeback-mountain",
@@ -2952,7 +3011,7 @@
       "age_min": 16,
       "duration": "90 min.",
       "duration_min": 90,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-labirinto-de-sombras",
@@ -3007,7 +3066,7 @@
           "weekday": "Qui"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-valor-sentimental",
@@ -3046,7 +3105,7 @@
           "weekday": "Sex"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-gilm-rio-vemba",
@@ -3085,7 +3144,7 @@
           "weekday": "Sex"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-entre-cores-arte-e-ci-ncia",
@@ -3118,7 +3177,7 @@
           "weekday": "Sáb"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-cineeco",
@@ -3148,7 +3207,7 @@
           "weekday": "Seg"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-conversa-de-balc-o",
@@ -3181,7 +3240,7 @@
           "weekday": "Seg"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-summer-lab-programa-intensivo-de-forma-o-em-dan-a",
@@ -3226,7 +3285,7 @@
       "technical_sheet": {
         "fotografia": "de António M Cabrita Centro de Artes do Espectáculo de Viseu Viriato Teatro Municipal Largo Mouzinho de Albuquerque"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-xxii-oito-badaladas-festival-de-tunas",
@@ -3272,7 +3331,7 @@
           "weekday": "Qua"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-raphael-ghanem",
@@ -3311,7 +3370,7 @@
           "weekday": "Qui"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-hamnet",
@@ -3366,7 +3425,7 @@
           "weekday": "Qui"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-o-agente-secreto",
@@ -3405,7 +3464,7 @@
           "weekday": "Qui"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-primeira-pessoa-do-plural",
@@ -3450,7 +3509,7 @@
         "som": "Sandro Aguilar Mistura de som Tiago Matos Correção de cor Paulo Américo Gestão de",
         "produção": "Patrícia Almeida"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-rui-sinel-de-cordes",
@@ -3492,7 +3551,7 @@
           "weekday": "Sex"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-jos-de-portugal-e-os-doce-da-casa-viver-melhor-que",
@@ -3529,7 +3588,7 @@
           "weekday": "Seg"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-atlas-gr-fico-de-coimbra",
@@ -3565,7 +3624,7 @@
           "weekday": "Seg"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-ciclo-m-sica-de-c-mara",
@@ -3607,7 +3666,7 @@
       "schedule": "18h00",
       "age_rating": "M/6",
       "age_min": 6,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-open-call-bolsas-de-cria-o-locais",
@@ -3667,7 +3726,7 @@
           "weekday": "Ter"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-pulchritudines-concerto-sinf-nico-de-abertura-da-x",
@@ -3711,7 +3770,7 @@
           "weekday": "Qua"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-festival-amostra",
@@ -3757,7 +3816,7 @@
       "director": "",
       "cast": [],
       "technical_sheet": {},
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-bolsa-am-lia-rey-cola-o",
@@ -3796,7 +3855,7 @@
       "technical_sheet": {
         "produção": "de espetáculos de jovens artistas e companhias emergentes, residentes em Portugal, esta bolsa de criação pretende contribuir para a promoção da renovação do tecido teatral português, injetando-lhe nov"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-pedras-de-parar-e-da-urg-ncia",
@@ -3833,7 +3892,7 @@
       "director": "",
       "cast": [],
       "technical_sheet": {},
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-dj-ahmet",
@@ -3886,7 +3945,7 @@
           "weekday": "Qui"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-aruna-e-a-arte-de-bordar-in-cios",
@@ -3939,7 +3998,7 @@
         "direção": "musical e arranjos Luís Martins Composição e letras Pedro da Silva Martins Voz Zoe Vidal Piano Joana Sá Gravação e mistura Joaquim Montes Exposição e recolha de conteúdos Simon Deprez e Eléonore Labat",
         "produção": "menosmuitomais CRL"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-os-amantes-regulares",
@@ -4004,7 +4063,7 @@
           "weekday": "Sex"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-ode-mar-tima-leitura-encenada",
@@ -4074,7 +4133,7 @@
           "weekday": "Sáb"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-o-narrador",
@@ -4110,7 +4169,7 @@
           "weekday": "Sáb"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-oficina-de-cinema-de-anima-o",
@@ -4153,7 +4212,7 @@
       "director": "",
       "cast": [],
       "technical_sheet": {},
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-nada-imposs-vel-de-mudar-po-tica-da-revolta",
@@ -4201,7 +4260,7 @@
           "weekday": "Seg"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-lan-amento-coreia-14-performance-the-erotic-clown",
@@ -4237,7 +4296,7 @@
           "weekday": "Seg"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-laborat-rio-do-tonus-ao-gestus-poder-afeto-e-resis",
@@ -4276,7 +4335,7 @@
           "weekday": "Qui"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-oficina-escutar-escrever-arquivar-cria-o-documenta",
@@ -4327,7 +4386,7 @@
           "weekday": "Qui"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-s-mais-uma-gaivota",
@@ -4381,7 +4440,7 @@
         "fotografia": "de divulgação José Carlos Duarte, Manuel Loureiro, Gonçalo Costa Rebelo e Sofia Bernardo Comunicação Mafalda Guedes Vaz",
         "produção": "Luna Rebelo e Sofia Bernardo"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-as-minhas-namoradinhas",
@@ -4437,7 +4496,7 @@
           "weekday": "Sex"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-gaivotas-em-terra",
@@ -4482,7 +4541,7 @@
         "direção": "do projeto Inês Barahona e Miguel Fragata Assistência Beatriz Brito Comunicação Mafalda Guedes Vaz",
         "música": "e Artes do Espectáculo (ESMAE) / Teatro Helena Sá e Costa (THSC)"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-beleza-em-cena-um-espet-culo-de-bandas-sonoras-xxv",
@@ -4525,7 +4584,7 @@
           "weekday": "Sáb"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-yunan",
@@ -4568,7 +4627,7 @@
           "weekday": "Sáb"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-reenact-now",
@@ -4601,7 +4660,7 @@
           "weekday": "Dom"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-banda-encantada-xxviii-semana-cultural-uc",
@@ -4639,7 +4698,7 @@
           "weekday": "Seg"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-maria-vit-ria",
@@ -4684,7 +4743,7 @@
           "weekday": "Ter"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-70-anos-do-coro-misto-da-universidade-de-coimbra-x",
@@ -4735,7 +4794,7 @@
           "weekday": "Ter"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-oficina-de-dramaturgia",
@@ -4775,7 +4834,7 @@
           "weekday": "Ter"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-blue-moon",
@@ -4815,7 +4874,7 @@
           "weekday": "Ter"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "saoluiz-todos-p-ssaros",
@@ -4917,7 +4976,7 @@
         "interpretação": "Cucha Carvalheiro, David Esteves, Fernando Luís, Madalena Almeida, Manuela Couto, Virgílio Castelo e Duarte Romão e Laura Garnel (alunos finalistas da ESTC)",
         "coprodução": "Culturproject, Teatro Municipal Joaquim Benite e São Luiz Teatro Municipal Projeto apoiado por República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "mariamatos-uma-ideia-genial",
@@ -4966,7 +5025,7 @@
         "interpretação": "Ana Guiomar, Cristóvão Campos, Ruben Madureira e Sandra Faleiro",
         "elenco": "Ana Guiomar, Cristóvão Campos, Ruben Madureira e Sandra Faleiro, “Uma Ideia Genial” conta a história hilariante de uma personagem que se multiplica em três, cada uma com as suas características e perplexidades. Atrações, ciúmes, suspeitas e destinos cruzados criam uma sucessão de mal-entendidos e um"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-doc-coimbra-concerto-filipe-furtado-trio-filme-de-",
@@ -5006,7 +5065,7 @@
           "weekday": "Qua"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-doc-coimbra-kikakui-renaissance",
@@ -5046,7 +5105,7 @@
           "weekday": "Qua"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-aurora-ou-livro",
@@ -5097,7 +5156,7 @@
         "fotografia": "João Tuna Gestão de projeto Paula Diogo e Daniela Ribeiro",
         "produção": "Ricardo Arenga e Má-Criação"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-doc-coimbra-abele",
@@ -5137,7 +5196,7 @@
           "weekday": "Qui"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-doc-coimbra-y-our-mother",
@@ -5186,7 +5245,7 @@
           "weekday": "Sex"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "saoluiz-as-quatro-mortes-de-napole-o",
@@ -5286,7 +5345,7 @@
         "produção": "Fátima Santos Filipe Difusão João Vaz Silva",
         "coprodução": "O Fim do Teatro, Casa Varela, Teatro-Cine de Pombal e São Luiz Teatro Municipal Parceria RTP Palco Apoio Largo Residências Media partner Radar 97.8 FM AGRADECIMENTOS Chão de Oliva, Elsa Lago Matos e Luiz Quaresma"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "saoluiz-dia-mundial-da-marioneta-apresenta-o-do-fimfa-lx26",
@@ -5325,7 +5384,7 @@
         "direção": "Luís Vieira e Rute Ribeiro",
         "coprodução": "LU.CA – Teatro Luís de Camões, Teatro Nacional D. Maria II, Centro Cultural de Belém e São Luiz Teatro Municipal /// A Tarumba é uma estrutura financiada por República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-apresenta-o-tr-s-tempos",
@@ -5363,7 +5422,7 @@
       "sala": "Pequeno Auditório",
       "age_rating": "M/6",
       "age_min": 6,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-yerai-cort-s",
@@ -5401,7 +5460,7 @@
       "age_min": 6,
       "price_min": 12.0,
       "price_max": 12.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-doc-coimbra-notas-sobre-um-desterro",
@@ -5449,7 +5508,7 @@
           "weekday": "Sáb"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-doc-coimbra-salatinas-hist-rias-da-velha-alta-de-c",
@@ -5489,7 +5548,7 @@
           "weekday": "Sáb"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-maria-vit-ria",
@@ -5525,7 +5584,7 @@
       "age_min": 14,
       "price_min": 4.0,
       "price_max": 4.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "saoluiz-teatro-de-imagens",
@@ -5560,7 +5619,7 @@
       "age_rating": "M1770",
       "age_min": 1770,
       "sala": "Sala Bernardo Sassetti",
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "mariamatos-ponto-de-fuga-martim-sousa-tavares",
@@ -5591,7 +5650,7 @@
         "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
         "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-la-guitarra-flamenca-de-yerai-cort-s",
@@ -5631,7 +5690,7 @@
       "age_min": 6,
       "price_min": 4.0,
       "price_max": 4.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-sublinhar",
@@ -5667,7 +5726,7 @@
         "com programação na cidade de Aveiro. Data 24 - 27",
         "Março 2026 Horário — Duração — Faixa etária — Preço — Local Coimbra"
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-alinhas-dan-ar-os-pensamentos-e-a-imagina-o",
@@ -5718,7 +5777,7 @@
           "weekday": "Ter"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-la-cicatrice-int-rieure-athanor",
@@ -5771,7 +5830,7 @@
           "weekday": "Ter"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-kik-nightshift",
@@ -5820,7 +5879,7 @@
           "weekday": "Ter"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-festival-end",
@@ -5880,7 +5939,7 @@
           "weekday": "Ter"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "variedades-in-the-heights",
@@ -5922,7 +5981,7 @@
       "duration": "120 min",
       "duration_min": 120,
       "age_min": 12,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-festival-end-julieta-romeu-uma-pe-a-para-um-par-de",
@@ -5967,7 +6026,7 @@
           "weekday": "Qua"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-festival-end-souvenir",
@@ -6030,7 +6089,7 @@
           "weekday": "Qua"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-festival-end-estaleiro-almada-oroz",
@@ -6081,7 +6140,7 @@
           "weekday": "Qua"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-festival-end-partes-sens-veis",
@@ -6126,7 +6185,7 @@
           "weekday": "Qua"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-festival-end-reparations-baby",
@@ -6188,7 +6247,7 @@
           "weekday": "Qua"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "ccb-a-valentina-e-a-valeria-n-o-est-o-mortas",
@@ -6229,7 +6288,7 @@
         "produção": "Executiva Marisa Coelho Gestão Financeira Nuno Pratas",
         "coprodução": "Associação Bo Dixam Bai, Associação Palavrão, Centro Cultural de Belém, Cineteatro Louletano e Culturproject"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-conversa-jantar-com-sara-in-s-gigante",
@@ -6264,7 +6323,7 @@
       "accessibility": [],
       "subtitle": "Celebração do Dia Mundial do Teatro",
       "schedule": "19h00",
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "teatrodasfiguras-para-so-meu-para-so",
@@ -6296,7 +6355,7 @@
       "duration": "",
       "age_rating": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-festival-end-a-cavalo-dado",
@@ -6342,7 +6401,7 @@
           "weekday": "Qui"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-festival-end-dressing-room",
@@ -6389,7 +6448,7 @@
           "weekday": "Qui"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-leituras-indisciplinadas-queer",
@@ -6451,7 +6510,48 @@
           "weekday": "Qui"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
+    },
+    {
+      "id": "tagv-festival-end-dramaturgia-contempor-nea-processo-de",
+      "title": "Festival END: Dramaturgia Contemporânea. Processo de Composição",
+      "theater": "TAGV — Teatro Académico Gil Vicente",
+      "category": "Outro",
+      "date_start": "2026-03-26",
+      "source_url": "https://tagv.pt/agenda/ser-preciso-ser-aqui-conversas-com-pessoas-dotadas-de-minucia-fevereiro-2026-marco/",
+      "dates_label": "26 mar 2026",
+      "synopsis": "Ciclo de conversas mensais, preferencialmente na última quinta-feira de cada mês, cuja premissa assenta em ter à mesa duas pessoas de contextos diversos.…",
+      "image": {
+        "url": "https://tagv.pt/public/uploads/2026/01/tagv.pt-ser-preciso-ser-aqui-conversas-com-pessoas-dotadas-de-minucia-com-celia-marques-e-marta-chaves-ser-preciso-01.jpg",
+        "credit": null,
+        "source": "https://tagv.pt/agenda/ser-preciso-ser-aqui-conversas-com-pessoas-dotadas-de-minucia-fevereiro-2026-marco/",
+        "theater": "TAGV — Teatro Académico Gil Vicente"
+      },
+      "ticket_url": "https://tagv.bol.pt",
+      "price_info": "Entrada livre",
+      "price_min": 0.0,
+      "price_max": 0.0,
+      "duration": "18h30",
+      "duration_min": 1110,
+      "age_rating": "Livre",
+      "age_min": 0,
+      "technical_sheet": {
+        "dramaturgia": "Contemporânea. Processo de",
+        "música": "Teatro Festival END: O Projecto Elgelbreckt Engelbrecktsson Teatro Festival END: Vado e Non Torno Teatro Festival END: As Mãos Sujas de Sangue. Crítica e"
+      },
+      "people": [
+        "Contemporânea. Processo de",
+        "Teatro Festival END: O Projecto Elgelbreckt Engelbrecktsson Teatro Festival END: Vado",
+        "Non Torno Teatro Festival END: As Mãos Sujas de Sangue. Crítica e"
+      ],
+      "sessions": [
+        {
+          "date": "2026-03-26",
+          "time": "18:30",
+          "weekday": "Qui"
+        }
+      ],
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "capitolio-evita",
@@ -6493,7 +6593,7 @@
       "duration": "120 min",
       "duration_min": 120,
       "age_min": 12,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "saoluiz-a-luz-que-ficou",
@@ -6536,7 +6636,7 @@
       "technical_sheet": {
         "produção": "São Luiz Teatro Municipal"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "saoluiz-dia-mundial-do-teatro",
@@ -6570,7 +6670,7 @@
       "duration_min": 1,
       "age_rating": "Consultar a classificação dos espetáculos",
       "sala": "Vários espaços do Teatro",
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-mem-rias-do-teatro-da-cornuc-pia",
@@ -6613,7 +6713,7 @@
         "direção": "de",
         "produção": "Jacinta Barros Assistente de"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-popular",
@@ -6650,8 +6750,8 @@
         "produção": "Leonardo Garibaldi, Joana Silva"
       },
       "tags": [
-        "Acessibilidade",
-        "Dia Mundial do Teatro"
+        "Dia Mundial do Teatro",
+        "Acessibilidade"
       ],
       "accessibility": [
         "LGP",
@@ -6666,7 +6766,7 @@
       "age_min": 14,
       "price_min": 5.0,
       "price_max": 5.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-festival-end-o-projecto-elgelbreckt-engelbrecktsso",
@@ -6702,7 +6802,7 @@
           "weekday": "Sex"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-companhia-de-espectadores",
@@ -6738,7 +6838,7 @@
       "accessibility": [],
       "subtitle": "Biografia e Autoficção",
       "schedule": "11h00",
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-visita-guiada-ao-theatro-circo",
@@ -6772,7 +6872,7 @@
       "duration_min": 45,
       "price_min": 3.5,
       "price_max": 3.5,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-dora-morelenbaum",
@@ -6810,7 +6910,7 @@
       "age_min": 6,
       "price_min": 12.0,
       "price_max": 12.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-festival-end-vado-e-non-torno",
@@ -6846,7 +6946,7 @@
           "weekday": "Sáb"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-festival-end-as-m-os-sujas-de-sangue-cr-tica-e-dra",
@@ -6882,7 +6982,7 @@
           "weekday": "Sáb"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-blue-moon",
@@ -6920,7 +7020,43 @@
       "age_min": 14,
       "price_min": 4.0,
       "price_max": 4.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
+    },
+    {
+      "id": "tagv-european-student-orchestra-festival-2026-coimbra",
+      "title": "European Student Orchestra Festival 2026 Coimbra",
+      "theater": "TAGV — Teatro Académico Gil Vicente",
+      "category": "Outro",
+      "date_start": "2026-03-30",
+      "source_url": "https://tagv.pt/agenda/historias-do-vale-bom-de-jose-luis-guerin/",
+      "dates_label": "30 mar 2026",
+      "synopsis": "Num bairro periférico, onde os mundos rural e urbano se encontram, as casas dos primeiros migrantes que chegaram no pós-guerra coexistem com os novos quarteirões da cidade-dormitório, lugar onde se concentra a mais recente vaga migratória. Este humilde recanto é agora uma autêntica aldeia global.…",
+      "image": {
+        "url": "https://tagv.pt/public/uploads/2026/02/tagv.pt-as-minhas-namoradinhas-de-jean-eustache-20260230-1-historias-do-vale-bom-02.jpg",
+        "credit": null,
+        "source": "https://tagv.pt/agenda/historias-do-vale-bom-de-jose-luis-guerin/",
+        "theater": "TAGV — Teatro Académico Gil Vicente"
+      },
+      "ticket_url": "https://tagv.bol.pt",
+      "price_info": "Entrada livre",
+      "price_min": 0.0,
+      "price_max": 0.0,
+      "duration": "18h30",
+      "duration_min": 1110,
+      "technical_sheet": {
+        "música": "European Student Orchestra Festival 2026 Coimbra"
+      },
+      "people": [
+        "European Student Orchestra Festival 2026 Coimbra"
+      ],
+      "sessions": [
+        {
+          "date": "2026-03-30",
+          "time": "18:30",
+          "weekday": "Seg"
+        }
+      ],
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-romeu-julieta",
@@ -6964,7 +7100,7 @@
       "age_min": 12,
       "price_min": 10.0,
       "price_max": 10.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "mariamatos-dr-love-a-cerim-nia",
@@ -6994,7 +7130,7 @@
         "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
         "produção": "90 Minutos aprox. M/16 Em Abril, o Dr. Love entra em modo cerimónia para o grande evento matrimonial, com direito a véu, grinalda, bouquet e ilustres convidados que irão apadrinhar a boda e ajudar-nos a responder, em tempo real, aos dilemas mais surpreendentes e inéditos de sempre. Breakups, makeout"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-tr-s-tempos",
@@ -7045,67 +7181,7 @@
         "música": "ESTREIA QUI 19h00 Duração a definir Preços bilhetes 2,50€ // Descontos não aplicáveis LOCAL Sala de Espetáculos Ao longo de seis meses, jovens de Viseu participaram no projeto “Três Tempos”. Na compan",
         "interpretação": "e cocriação Bernardo Sousa, Eduardo Rolo, Guilherme Sanches, João Oliveira, João Alves, Margarida Lopes, Matilde Correia, Rafael Dias e Úrsula Pinto Projeto coproduzido por Teatro Viriato (Viseu), The"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
-    },
-    {
-      "id": "tagv-european-student-orchestra-festival-2026-coimbra",
-      "title": "European Student Orchestra Festival 2026 Coimbra",
-      "theater": "TAGV — Teatro Académico Gil Vicente",
-      "category": "Dança",
-      "date_start": "2026-04-02",
-      "source_url": "https://tagv.pt/agenda/festival-adc-onyx/",
-      "dates_label": "2 abr 2026",
-      "synopsis": "A prática destes corpos é tão encantada quanto brutal. Há uma ancestralidade de um futuro potente. É poético e tem prazer. Há calma e um caos meteórico, uma partilha de arquivos pessoais e fantasias em que a pele não é uma fronteira, mas sim um veículo.…",
-      "image": {
-        "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-festival-adc-onyx-20260402-onix-alipio-padilha-02.jpg",
-        "credit": null,
-        "source": "https://tagv.pt/agenda/festival-adc-onyx/",
-        "theater": "TAGV — Teatro Académico Gil Vicente"
-      },
-      "ticket_url": "https://tagv.bol.pt",
-      "price_info": "7€",
-      "price_min": 7.0,
-      "price_max": 7.0,
-      "duration": "21h30",
-      "duration_min": 1290,
-      "age_rating": "Livre",
-      "age_min": 0,
-      "technical_sheet": {
-        "música": "European Student Orchestra Festival 2026 Coimbra",
-        "texto": "Piny Co-criação de movimento",
-        "interpretação": "André Cabral, Lua Aurora Desenho de",
-        "som": "Carincur, Leo Soulflow",
-        "luz": "João Pedro Fonseca",
-        "adaptação": "e operação de",
-        "produção": "DDD — Festival Dias da Dança, TBA – Teatro do Bairro Alto, Materiais Diversos, Teatro Aveirense – Câmara Municipal de Aveiro, Rota Clandestina",
-        "apoio": "em residência Alkantara, TBA — Teatro do Bairro Alto, Estúdios Victor Cordon, Jazzy Dance Studios Fotografia Alípio Padilha *O espetáculo tem"
-      },
-      "cast": [
-        "André Cabral",
-        "Lua Aurora Desenho de"
-      ],
-      "people": [
-        "Piny Co-criação de movimento",
-        "João Pedro Fonseca",
-        "Carincur",
-        "Leo Soulflow",
-        "European Student Orchestra Festival 2026 Coimbra",
-        "André Cabral",
-        "Lua Aurora Desenho de",
-        "DDD — Festival Dias da Dança",
-        "TBA – Teatro do Bairro Alto",
-        "Materiais Diversos",
-        "Teatro Aveirense – Câmara Municipal de Aveiro",
-        "Rota Clandestina"
-      ],
-      "sessions": [
-        {
-          "date": "2026-04-02",
-          "time": "21:30",
-          "weekday": "Qui"
-        }
-      ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "teatrodobairro-rei-lear",
@@ -7150,7 +7226,7 @@
         "luz": "Rui Seabra",
         "som": "Paulo Abelho; Costureira: RosÃ¡rio Balbi; ConstruÃ§Ã£o de cenÃ¡rio: FÃ¡bio Paulo; OperaÃ§Ã£o de luz: AntÃ³nio SerrÃ£o e JoÃ£o Madeira; OperaÃ§Ã£o de som: Vasco Maciel; Chefe de guarda roupa: InÃªs da Mata; Assistentes de guarda-roupa: Beatriz Dinis e Ema FalcÃ£o; IlustraÃ§Ã£o: Joana Villaverde; Foto"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "teatrodasfiguras-ciclo-de-solistas",
@@ -7182,7 +7258,37 @@
       "duration": "",
       "age_rating": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
+    },
+    {
+      "id": "tagv-entroncamento",
+      "title": "Entroncamento",
+      "theater": "TAGV — Teatro Académico Gil Vicente",
+      "category": "Outro",
+      "date_start": "2026-04-06",
+      "source_url": "https://tagv.pt/agenda/stalker-de-andrei-tarkovsky-2026/",
+      "dates_label": "6 abr 2026",
+      "synopsis": "Na chamada “Zona Proibida” há rumores de que existe um quarto onde os mais íntimos desejos são realizados. Um badalado escritor e um professor autoritário partem em busca deste quarto, cada um com as suas razões, que preferem não revelar.…",
+      "image": {
+        "url": "https://tagv.pt/public/uploads/2024/06/tagv.pt-stalker-stalker-02.jpg",
+        "credit": null,
+        "source": "https://tagv.pt/agenda/stalker-de-andrei-tarkovsky-2026/",
+        "theater": "TAGV — Teatro Académico Gil Vicente"
+      },
+      "ticket_url": "https://tagv.bol.pt",
+      "price_info": "6€",
+      "price_min": 6.0,
+      "price_max": 6.0,
+      "duration": "18h30",
+      "duration_min": 1110,
+      "sessions": [
+        {
+          "date": "2026-04-06",
+          "time": "18:30",
+          "weekday": "Seg"
+        }
+      ],
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "mariamatos-o-amor-fodid",
@@ -7218,7 +7324,7 @@
         "produção": "Janice Mayamona Apoio Técnico: Léo Emílio Contabilidade: Irene Gaspar Comunicação e Design Gráfico: Natacha Ventura Comunicação Digital: Miguel Durão Hilário Registo em vídeo: Bruno Canas Costureira: Teresa Matos Assessoria de imprensa: Canal Aberto – Márcia Marques, Daniele Valério e Carina Bordalo",
         "autor": "diz-nos que há algo de sinistro numa mulher que só usa roupa uma vez. Como haverá, dizemos nós, algo de identicamente sinistro em vestir sempre a mesma roupa. É igual com o amor. Há algo pecaminoso em vestir-nos de amor uma vez e de novamente repetir a dose. Ao entrar para dentro do círculo amoroso,"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-open-call-laborat-rio-assim-trico",
@@ -7262,7 +7368,7 @@
       "subtitle": "com Beatriz Valentim",
       "date_end": "2026-04-09",
       "schedule": "11h00",
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "teatrodasfiguras-os-invis-veis",
@@ -7294,7 +7400,7 @@
       "duration": "",
       "age_rating": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "saoluiz-os-contratos-do-comerciante",
@@ -7352,7 +7458,7 @@
         "produção": "Frederico Barata",
         "coprodução": "auéééu e São Luiz Teatro Municipal Apoios SPA, Junta de Freguesia de Santo António, Casa da Comarca de Arganil, MTC, os nossos putos Agradecimentos Eva Baudry, Filipe Andrade, Fernando Roussado, auéééu teatro"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-amadeo-s",
@@ -7394,7 +7500,7 @@
       "age_min": 6,
       "price_min": 10.0,
       "price_max": 10.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "teatrodasfiguras-para-so-de-los-negros",
@@ -7426,7 +7532,7 @@
       "duration": "",
       "age_rating": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "saoluiz-kabe-a-or",
@@ -7498,7 +7604,7 @@
         "produção": "Vanessa Amaral Produção Associação Orí – Negritudes em Convergência Espiralar",
         "coprodução": "Bolsa de Criação O Espaço do Tempo com apoio do Banco BPI e Fundação “la Caixa” /// Projeto financiado por República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes Apoios Biblioteca de Alcântara, Câmara Municipal de Almada, Câmara Municipal da Moita, RDP África, Buala"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-contraponto-g-recki-e-adams",
@@ -7534,7 +7640,7 @@
       "age_min": 6,
       "price_min": 12.0,
       "price_max": 12.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "teatrodasfiguras-s-rgio-os-assessores",
@@ -7566,7 +7672,7 @@
       "duration": "",
       "age_rating": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "saoluiz-jardim-aberto-cores-em-cinza-m-sica-francesa-da-gr",
@@ -7601,7 +7707,7 @@
       "age_rating": "M/6",
       "age_min": 6,
       "sala": "Sala Bernardo Sassetti",
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-entroncamento",
@@ -7635,7 +7741,88 @@
       "sala": "Pequeno Auditório",
       "price_min": 4.0,
       "price_max": 4.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
+    },
+    {
+      "id": "tagv-os-domingos",
+      "title": "Os Domingos",
+      "theater": "TAGV — Teatro Académico Gil Vicente",
+      "category": "Outro",
+      "date_start": "2026-04-13",
+      "source_url": "https://tagv.pt/agenda/a-mascara-de-ingmar-bergman/",
+      "dates_label": "13 abr 2026",
+      "synopsis": "Depois de emudecer durante a interpretação de Electra, a atriz Elisabeth Vogler isola-se completamente do mundo, e tem como única companhia a enfermeira Alma. Entre as duas mulheres irá estabelecer-se uma estranha relação de identidade e dependência mútua.",
+      "image": {
+        "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-os-domingos-de-alauda-ruiz-de-azua-a-mascara-01.jpg",
+        "credit": null,
+        "source": "https://tagv.pt/agenda/a-mascara-de-ingmar-bergman/",
+        "theater": "TAGV — Teatro Académico Gil Vicente"
+      },
+      "ticket_url": "https://tagv.bol.pt",
+      "price_info": "6€",
+      "price_min": 6.0,
+      "price_max": 6.0,
+      "duration": "18h30",
+      "duration_min": 1110,
+      "technical_sheet": {
+        "interpretação": "de Electra, a atriz Elisabeth Vogler isola-se completamente do mundo, e tem como única",
+        "companhia": "a enfermeira Alma. Entre as duas mulheres irá estabelecer-se uma estranha relação de identidade e dependência mútua. Ingmar Bergman é amplamente reconhecido como o maior realizador e argumentista sueco. Começou a carreira no teatro, escreveu guiões e trabalhou como encenador. Quando Alf Sjöberg, imp",
+        "luz": "branca se abre para nós, o nosso olhar pára, instala-se e torna-se bastante estável. Sentamo-nos apenas ali, deixando que as imagens fluam sobre nós. A nossa vontade cessa. Perdemos a capacidade de resolver as coisas e de colocá-las nos seus devidos lugares. Somos arrastados para uma sequência de ev"
+      },
+      "cast": [
+        "de Electra",
+        "a atriz Elisabeth Vogler isola-se completamente do mundo",
+        "tem como única"
+      ],
+      "people": [
+        "branca se abre para nós",
+        "o nosso olhar pára",
+        "instala-se",
+        "torna-se bastante estável. Sentamo-nos apenas ali",
+        "deixando que as imagens fluam sobre nós. A nossa vontade cessa. Perdemos a capacidade de resolver as coisas",
+        "de colocá-las nos seus devidos lugares. Somos arrastados para uma sequência de ev",
+        "de Electra",
+        "a atriz Elisabeth Vogler isola-se completamente do mundo",
+        "tem como única"
+      ],
+      "sessions": [
+        {
+          "date": "2026-04-13",
+          "time": "18:30",
+          "weekday": "Seg"
+        }
+      ],
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
+    },
+    {
+      "id": "tagv-festival-adc-onyx",
+      "title": "Festival ADC: ONYX",
+      "theater": "TAGV — Teatro Académico Gil Vicente",
+      "category": "Outro",
+      "date_start": "2026-04-13",
+      "source_url": "https://tagv.pt/agenda/o-barqueiro-de-simao-cayatte/",
+      "dates_label": "13 abr 2026",
+      "synopsis": "Joaquim sai em liberdade condicional antes do fim da pena de dezasseis anos mas não conta à família. Aceita trabalhar como barqueiro clandestino no Tejo transportando apanhadores de amêijoa ilegais de forma a cumprir a promessa que fez à filha de lhe oferecer um piano.",
+      "image": {
+        "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-a-mascara-de-ingmar-bergman-o-barqueiro-02.jpg",
+        "credit": null,
+        "source": "https://tagv.pt/agenda/o-barqueiro-de-simao-cayatte/",
+        "theater": "TAGV — Teatro Académico Gil Vicente"
+      },
+      "ticket_url": "https://tagv.bol.pt",
+      "price_info": "6€",
+      "price_min": 6.0,
+      "price_max": 6.0,
+      "duration": "21h30",
+      "duration_min": 1290,
+      "sessions": [
+        {
+          "date": "2026-04-13",
+          "time": "21:30",
+          "weekday": "Seg"
+        }
+      ],
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "saoluiz-coisas-de-teatro",
@@ -7674,7 +7861,7 @@
         "produção": "Canário Bonacheirão",
         "coprodução": "Canário Bonacheirão e São Luiz Teatro Municipal"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "mariamatos-m-nica-salmaso",
@@ -7702,7 +7889,82 @@
         "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
         "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
+    },
+    {
+      "id": "tagv-stalker",
+      "title": "Stalker",
+      "theater": "TAGV — Teatro Académico Gil Vicente",
+      "category": "Dança",
+      "date_start": "2026-04-14",
+      "source_url": "https://tagv.pt/agenda/festival-adc-onyx-2/",
+      "dates_label": "14 abr 2026",
+      "synopsis": "Alguns dos problemas do tempo das Carquejeiras – século XIX e início do século XX – ainda são motivo para sairmos à rua com o punho cerrado. Outros, são só dissemelhantes.…",
+      "image": {
+        "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-festival-adc-onyx-20260414-isto-nao-e-para-gente02.jpg",
+        "credit": null,
+        "source": "https://tagv.pt/agenda/festival-adc-onyx-2/",
+        "theater": "TAGV — Teatro Académico Gil Vicente"
+      },
+      "ticket_url": "https://tagv.bol.pt",
+      "price_info": "7€",
+      "price_min": 7.0,
+      "price_max": 7.0,
+      "duration": "21h30",
+      "duration_min": 1290,
+      "technical_sheet": {
+        "música": "e Artes do Espetáculo, na variante Interpretação, que terminou em 2021. Também em 2021 ingressou na Escola Superior de Dança, no Mestrado de Criação Coreográfica e práticas profissionais, que terminou em 2023. O seu percurso passa pelas áreas de interpretação, criação e produção. Como intérprete e/o",
+        "companhia": "Dançando com a Diferença (2023), O Mal de Ortov (2023) do Teatro do Calafrio com a",
+        "encenação": "de Florbela Sá Cunha e Perdição (2025) também com a",
+        "interpretação": "(teatro e dança), voz e coreografia. Partindo de um interesse comum pela dança contemporânea e reconhecendo o lugar central que a dança ocupa na renovação da linguagem das artes performativas nas últimas décadas, a Câmara Municipal de Coimbra / Convento São Francisco e a Universidade de Coimbra / Te",
+        "apoio": "à criação Miguel F",
+        "luz": "Francisco Campos Design de",
+        "som": "João Coutada",
+        "figurinos": "Magda, Margarida Magalhães",
+        "produção": "Instável – Centro Coreográfico, Teatro Municipal do Porto"
+      },
+      "cast": [
+        "(teatro",
+        "dança)",
+        "voz",
+        "coreografia. Partindo de um interesse comum pela dança contemporânea",
+        "reconhecendo o lugar central que a dança ocupa na renovação da linguagem das artes performativas nas últimas décadas",
+        "a Câmara Municipal de Coimbra / Convento São Francisco",
+        "a Universidade de Coimbra / Te"
+      ],
+      "people": [
+        "de Florbela Sá Cunha",
+        "Perdição (2025) também com a",
+        "Magda",
+        "Margarida Magalhães",
+        "Francisco Campos Design de",
+        "João Coutada",
+        "e Artes do Espetáculo",
+        "na variante Interpretação",
+        "que terminou em 2021. Também em 2021 ingressou na Escola Superior de Dança",
+        "no Mestrado de Criação Coreográfica",
+        "práticas profissionais",
+        "que terminou em 2023. O seu percurso passa pelas áreas de interpretação",
+        "criação",
+        "produção. Como intérprete e/o",
+        "(teatro",
+        "dança)",
+        "voz",
+        "coreografia. Partindo de um interesse comum pela dança contemporânea",
+        "reconhecendo o lugar central que a dança ocupa na renovação da linguagem das artes performativas nas últimas décadas",
+        "a Câmara Municipal de Coimbra / Convento São Francisco",
+        "a Universidade de Coimbra / Te",
+        "Instável – Centro Coreográfico",
+        "Teatro Municipal do Porto"
+      ],
+      "sessions": [
+        {
+          "date": "2026-04-14",
+          "time": "21:30",
+          "weekday": "Ter"
+        }
+      ],
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "mariamatos-carolina-de-deus",
@@ -7732,7 +7994,7 @@
         "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
         "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-2062-k-cena-projeto-de-teatro-jovem",
@@ -7798,7 +8060,7 @@
         "interpretação": "e cocriação Ana Lúcia Duarte, André Fiúza, Bruna Augusto, Carlos Pereira, Diana Silva, Gabriela Santos, Helena Silva, Joaquim Lopes, José Duarte, Lucas Madeira, Madalena Alves, Madalena Rocha, Maria I",
         "produção": "Teatro Viriato Este projeto integra a programação da RTCP @ Carlos Fernandes > Neste espetáculo será feito um registo fotográfico e/ou de vídeo (com/sem som) para fins de promoção do mesmo e de arquiv"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "teatrodasfiguras-estou-beira-do-abismo-mas-a-vista-excepcional",
@@ -7830,7 +8092,44 @@
       "duration": "",
       "age_rating": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
+    },
+    {
+      "id": "tagv-uma-onda-na-mente-dois-dias-com-ursula-k-le-guin-n",
+      "title": "Uma Onda na Mente — Dois Dias com Ursula K. Le Guin no TAGV",
+      "theater": "TAGV — Teatro Académico Gil Vicente",
+      "category": "Performance",
+      "date_start": "2026-04-15",
+      "source_url": "https://tagv.pt/agenda/festival-adc-corpos-performaticos/",
+      "dates_label": "15 abr 2026",
+      "synopsis": "Evento de Performance: Evento performativo nos espaços não convencionais do TAGV, no qual quatro performers Ed Freitas, Elisabete Magalhães, Gabriela Manfredini e Hugo Leite, apresentam criações individuais que ecoam das suas pesquisas de investigação doutoral.…",
+      "image": {
+        "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-festival-adc-onyx-2-corpos-performaticos15-e-28.04.jpg",
+        "credit": null,
+        "source": "https://tagv.pt/agenda/festival-adc-corpos-performaticos/",
+        "theater": "TAGV — Teatro Académico Gil Vicente"
+      },
+      "ticket_url": "https://tagv.bol.pt",
+      "duration": "18h30",
+      "duration_min": 1110,
+      "technical_sheet": {
+        "luz": "e pelo tecido, que reforça a ideia de presença oculta. duração aprox. 30 min. M6 Sala Verde (lotação limitada — 25 pessoas) A Place Left Square / De Hugo Leite O que sobra do corpo, quando o Horror se aproxima e aperta nossos corações, como se quisesse comê-los? Os mortos não nos oferecem o coração"
+      },
+      "people": [
+        "e pelo tecido",
+        "que reforça a ideia de presença oculta. duração aprox. 30 min. M6 Sala Verde (lotação limitada — 25 pessoas) A Place Left Square / De Hugo Leite O que sobra do corpo",
+        "quando o Horror se aproxima",
+        "aperta nossos corações",
+        "como se quisesse comê-los? Os mortos não nos oferecem o coração"
+      ],
+      "sessions": [
+        {
+          "date": "2026-04-15",
+          "time": "18:30",
+          "weekday": "Qua"
+        }
+      ],
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-111-anivers-rio-do-theatro-circo",
@@ -7902,7 +8201,7 @@
       "date_end": "2026-04-24",
       "schedule": "21h30",
       "sala": "Pequeno Auditório",
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-capra-or-how-to-say-hello-to-fear",
@@ -7948,7 +8247,7 @@
       "duration_min": 90,
       "price_min": 9.0,
       "price_max": 9.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-o-barqueiro",
@@ -8018,7 +8317,7 @@
           "weekday": "Sex"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-hist-rias-de-sonho",
@@ -8054,7 +8353,7 @@
       "schedule": "11h30",
       "duration": "35 min.",
       "duration_min": 35,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-elisabete-matos-maciej-pikulski-e-pedro-ribeiro",
@@ -8094,7 +8393,7 @@
       "age_min": 6,
       "price_min": 15.0,
       "price_max": 15.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "teatrodasfiguras-a-luminosa-viol-ncia-da-perfei-o",
@@ -8126,7 +8425,7 @@
       "duration": "",
       "age_rating": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-a-m-scara",
@@ -8161,7 +8460,7 @@
           "weekday": "Sáb"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "saoluiz-lan-amento-livro-contra-corvos",
@@ -8196,7 +8495,7 @@
       "age_rating": "M1770",
       "age_min": 1770,
       "sala": "Sala Bernardo Sassetti",
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-tortoise",
@@ -8237,7 +8536,7 @@
       "age_min": 6,
       "price_min": 20.0,
       "price_max": 20.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-o-barqueiro",
@@ -8273,7 +8572,67 @@
       "age_min": 16,
       "price_min": 4.0,
       "price_max": 4.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
+    },
+    {
+      "id": "tagv-festival-adc-corpos-perform-ticos",
+      "title": "Festival ADC: Corpos Performáticos",
+      "theater": "TAGV — Teatro Académico Gil Vicente",
+      "category": "Outro",
+      "date_start": "2026-04-20",
+      "source_url": "https://tagv.pt/agenda/aprender-de-claire-simon/",
+      "dates_label": "20 abr 2026",
+      "synopsis": "O novo documentário de Claire Simon leva-nos para uma escola primária pública nos arredores de Paris. Entre o recreio e as salas de aula, observamos as interações diárias entre professores e alunos e os seus pequenos dramas e triunfos.…",
+      "image": {
+        "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-o-barqueiro-de-simao-cayatte-aprender-01.jpg",
+        "credit": null,
+        "source": "https://tagv.pt/agenda/aprender-de-claire-simon/",
+        "theater": "TAGV — Teatro Académico Gil Vicente"
+      },
+      "ticket_url": "https://tagv.bol.pt",
+      "price_info": "6€",
+      "price_min": 6.0,
+      "price_max": 6.0,
+      "duration": "18h30",
+      "duration_min": 1110,
+      "sessions": [
+        {
+          "date": "2026-04-20",
+          "time": "18:30",
+          "weekday": "Seg"
+        }
+      ],
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
+    },
+    {
+      "id": "tagv-festival-adc-isto-n-o-para-besta-para-gente-o-qu",
+      "title": "Festival ADC: Isto Não É Para Besta, É Para Gente! + O Quê?",
+      "theater": "TAGV — Teatro Académico Gil Vicente",
+      "category": "Outro",
+      "date_start": "2026-04-20",
+      "source_url": "https://tagv.pt/agenda/solaris-de-andrei-tarkovsky-2/",
+      "dates_label": "20 abr 2026",
+      "synopsis": "Os três últimos residentes da estação espacial Solaris têm enviado misteriosas comunicações ao controlo terrestre. Quando o astronauta e psicólogo Kris Kelvin é enviado para investigar o fenómeno, começa a sentir os mesmos sintomas estranhos que afligem os tripulantes da estação, atirando-o para uma…",
+      "image": {
+        "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-aprender-de-claire-simon-20260420-2-solaris-1.jpg",
+        "credit": null,
+        "source": "https://tagv.pt/agenda/solaris-de-andrei-tarkovsky-2/",
+        "theater": "TAGV — Teatro Académico Gil Vicente"
+      },
+      "ticket_url": "https://tagv.bol.pt",
+      "price_info": "6€",
+      "price_min": 6.0,
+      "price_max": 6.0,
+      "duration": "21h30",
+      "duration_min": 1290,
+      "sessions": [
+        {
+          "date": "2026-04-20",
+          "time": "21:30",
+          "weekday": "Seg"
+        }
+      ],
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "mariamatos-pedro-cardoso-o-rec-m-nascido",
@@ -8307,7 +8666,7 @@
         "figurinos": "Giovanna Moretto",
         "produção": "e"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-a-garota-n-o",
@@ -8348,7 +8707,7 @@
       "age_min": 6,
       "price_min": 25.0,
       "price_max": 25.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "saoluiz-d-juan",
@@ -8409,7 +8768,7 @@
         "produção": "Loup Solitaire",
         "coprodução": "Teatro Virgínia, Casa das Artes de Vila Nova de Famalicão, Teatro Diogo Bernardes, Teatro Gil Vicente e São Luiz Teatro Municipal /// A Loup Solitaire é uma estrutura financiada pela República Portuguesa – Cultura, Juventude e Desporto / Direção-Geral das Artes"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "mariamatos-tom-smith",
@@ -8439,7 +8798,7 @@
         "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
         "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-formas-de-fazer-na-sombra-dos-relatos-oficiais",
@@ -8480,7 +8839,7 @@
       "duration_min": 120,
       "age_rating": "M/16",
       "age_min": 16,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "teatrodasfiguras-zoom-encontro-de-media-o-cultural",
@@ -8517,7 +8876,7 @@
       "duration": "",
       "age_rating": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "culturgest-catarina-r-lo-salgueiro-e-isabel-costa-os-possesso",
@@ -8568,7 +8927,7 @@
         "coprodução": "Teatro-Cine Torres Vedras"
       },
       "sala": "Auditório Emílio Rui Vilar",
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-archipelago",
@@ -8611,7 +8970,7 @@
         "direção": "Miquel Bernat Percussão Miquel Bernat, André Dias, Pedro Góis, João Tiago e Pedro Oliveira Som Suse Ribeiro Luz Emanuel Pereira",
         "produção": "ARTWAY > Neste espetáculo será feito um registo fotográfico e/ou de vídeo (com/sem som) para fins de promoção do mesmo e de arquivo pelo Teatro Viriato. Se não pretende que a sua imagem seja captada,"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "trindade-verdadeiro-oeste",
@@ -8668,7 +9027,7 @@
       "age_min": 12,
       "duration": "90 min.",
       "duration_min": 90,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-como-una-baguala-oscura",
@@ -8718,7 +9077,7 @@
       "age_min": 6,
       "price_min": 12.0,
       "price_max": 12.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-dj-ahmet",
@@ -8756,7 +9115,7 @@
       "age_min": 12,
       "price_min": 4.0,
       "price_max": 4.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-elas-s-o-5-milh-es",
@@ -8800,7 +9159,7 @@
           "weekday": "Seg"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "saoluiz-festival-m-sica-viva-2026-insurg-ncia",
@@ -8859,7 +9218,7 @@
       "age_rating": "M/6",
       "age_min": 6,
       "sala": "Sala Luis Miguel Cintra e sala Bernardo Sassetti",
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-solaris",
@@ -8898,7 +9257,7 @@
           "weekday": "Ter"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "mariamatos-nena-e-joana-almeirante-dois-pares-de-botas",
@@ -8929,7 +9288,7 @@
         "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
         "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-miguel-ara-jo",
@@ -8975,7 +9334,7 @@
       "age_min": 6,
       "price_min": 40.0,
       "price_max": 40.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-aprender",
@@ -9011,7 +9370,7 @@
           "weekday": "Qua"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-f-rs",
@@ -9067,7 +9426,7 @@
         "figurinos": "Catarina Miranda",
         "produção": "RÁRA Gestão de"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "trindade-clube-dos-poetas-mortos",
@@ -9124,7 +9483,7 @@
       "age_min": 14,
       "duration": "90 min.",
       "duration_min": 90,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "teatrodasfiguras-z-eduardo-trio-convida-clarke-peters",
@@ -9156,7 +9515,7 @@
       "duration": "",
       "age_rating": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "teatrodasfiguras-dino-d-santiago",
@@ -9188,7 +9547,7 @@
       "duration": "",
       "age_rating": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "teatrodasfiguras-joana-marques",
@@ -9220,7 +9579,7 @@
       "duration": "",
       "age_rating": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-a-m-sica-d-trabalho",
@@ -9278,7 +9637,7 @@
         "música": "dá Trabalho - Espetaculo - Programação - Teatro Viriato Conteudo Programação O Teatro Sobre nós Equipa CAEV Arquivo Mediação Instituições Educativas Visitas guiadas Residências Conexões Amigos Mecenat",
         "interpretação": "em palco. Ao início da tarde, toda a escola — e não apenas as turmas envolvidas nas oficinas — terá a oportunidade de assistir a um concerto, com a participação de músicos locais. As escolas interessa"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-os-transparentes",
@@ -9322,7 +9681,7 @@
       "age_min": 12,
       "price_min": 10.0,
       "price_max": 10.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "variedades-o-tamanho-das-coisas",
@@ -9409,7 +9768,7 @@
       "duration": "70 min",
       "duration_min": 70,
       "age_min": 14,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "saoluiz-fimfa-lx26",
@@ -9451,7 +9810,7 @@
         "direção": "Luís Vieira e Rute Ribeiro",
         "coprodução": "LU.CA – Teatro Luís de Camões, Teatro Nacional D. Maria II, Centro Cultural de Belém e São Luiz Teatro Municipal /// A Tarumba é uma estrutura financiada por República Portuguesa – Cultura / Direção-Geral das Artes"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-index",
@@ -9532,7 +9891,7 @@
       "accessibility": [],
       "subtitle": "Bienal de Arte e Tecnologia",
       "date_end": "2026-05-17",
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-index-fanfictional-politics",
@@ -9614,7 +9973,7 @@
       "subtitle": "Pedro Gossler",
       "date_end": "2026-05-17",
       "schedule": "14h30",
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-index-ther-poor-objects",
@@ -9698,7 +10057,7 @@
       "subtitle": "Shuang Li",
       "date_end": "2026-05-17",
       "schedule": "14h30",
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-index-forensis-bill-kouligas",
@@ -9736,7 +10095,7 @@
       "age_min": 6,
       "price_min": 9.0,
       "price_max": 9.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-index-supersilent-lawrence-abu-hamdan",
@@ -9772,7 +10131,7 @@
       "age_min": 6,
       "price_min": 9.0,
       "price_max": 9.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "teatrodasfiguras-falsas-hist-rias-verdadeiras-uma-pina-colagem",
@@ -9804,7 +10163,7 @@
       "duration": "",
       "age_rating": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-index-arkadi-zaides",
@@ -9840,7 +10199,7 @@
       "age_min": 6,
       "price_min": 9.0,
       "price_max": 9.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "mariamatos-latte-escrevi-can-es-e-s-o-todas-iguais",
@@ -9872,7 +10231,7 @@
         "elenco": "Zarko, que atingiu o top nacional e se tornou single de ouro.",
         "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-american-blues",
@@ -9927,7 +10286,7 @@
       "age_min": 12,
       "price_min": 10.0,
       "price_max": 10.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "trindade-diana-vilarinho",
@@ -9970,7 +10329,7 @@
       "price_max": 20.0,
       "age_rating": "M/6",
       "age_min": 6,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "mariamatos-sin-doque-ivo-canelas-e-jo-o-vasco",
@@ -10001,7 +10360,7 @@
         "elenco": "João Vasco. Actualmente em itinerância, Sinédoque estreou em 2023 e foi apresentado em Portugal, Tunísia, Cabo Verde, Brasil, França e Angola. Avenida Frei Miguel Contreiras, 52, 1700-213, Lisboa Horário da Bilheteira Segunda – Sábado 17h30 às 21h30 Domingo — 15h30 às 18h30 *Horários em vigor em dia",
         "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-mudar",
@@ -10057,7 +10416,7 @@
         "direção": "e operação técnica Nuno Samora",
         "produção": "e"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-da-cor-dos-sons",
@@ -10097,7 +10456,7 @@
       "technical_sheet": {
         "música": "portuguesa. Ao longo do seu percurso, já trabalhou com nomes como Sérgio Godinho, José Mário Branco, Janita Salomé ou Amélia Muge. Informação adicional +12 Maiores de Partilhar Orientação Filipe Rapos"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-saber-ir-ao-fundo",
@@ -10143,7 +10502,7 @@
       "age_min": 3,
       "price_min": 2.5,
       "price_max": 2.5,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-para-desarrumar-ideias",
@@ -10181,7 +10540,7 @@
       "director": "",
       "cast": [],
       "technical_sheet": {},
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-eu-capit-o",
@@ -10222,7 +10581,7 @@
       "technical_sheet": {
         "produção": "Archimede, Tarantula, Pathé Pictures, Logical Content Ventures, Rai Cinema, CANAL+, CINÉ+, RTBF, VOO-BE TV e Proximus Distribuição NOS Audiovisuais Esta exibição integra a programação da RTCP @ DR Cen"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "mariamatos-in-s-de-vasconcellos-entre-ontem-e-agora",
@@ -10254,7 +10613,7 @@
         "luz": "Pedro Leston Jr. 90 min. M/6 Inês de Vasconcellos apresenta o seu novo álbum Entre Ontem e Agora, num espetáculo que reflete cinco anos de percurso artístico e um momento de afirmação enquanto intérprete da",
         "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-mulheres-estrangeiras",
@@ -10295,7 +10654,7 @@
       "duration_min": 55,
       "price_min": 10.0,
       "price_max": 10.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "culturgest-alex-cassal-m-cria-o",
@@ -10339,7 +10698,7 @@
         "coprodução": "Má-Criação, Fundação Caixa Geral de Depósitos- Culturgest, Planetário do Porto – Centro Ciência Viva / U. Porto"
       },
       "sala": "",
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-xxxv-fitu-bracara-avgvsta",
@@ -10381,7 +10740,7 @@
       "sala": "Sala Principal",
       "age_rating": "M/6",
       "age_min": 6,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-suplicantes",
@@ -10432,7 +10791,7 @@
         "som": "e",
         "texto": "de estágio curricular) Lau Robert Comunicação Mariana Dixe Imagens de divulgação Diogo Marques Fotografias de cena Teresa Pacheco Miranda Design Marta Ramos"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "teatrodasfiguras-carminho",
@@ -10464,7 +10823,7 @@
       "duration": "",
       "age_rating": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "ccb-constitui-o-8211-estreia",
@@ -10541,7 +10900,7 @@
         "luz": "Ângela Bismarck",
         "coprodução": "CCB/Fábrica das Artes Apoio Fundo Cultural da Sociedade Portuguesa de Autores Apoio à investigação Tribunal Constitucional Projeto criado no âmbito da parceria Centro Cultural de Belém/Fábrica das Artes e Assembleia da República. Imagem ©Assembleia da República Ilustração de Mantr"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-n-s-sozinhas",
@@ -10596,7 +10955,7 @@
         "interpretação": "Sara Barros Leitão",
         "produção": "Cassandra Centro de Artes do Espectáculo de Viseu Viriato Teatro Municipal Largo Mouzinho de Albuquerque"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "trindade-mico-da-camara-pereira",
@@ -10637,7 +10996,7 @@
       "price_max": 20.0,
       "age_rating": "M/6",
       "age_min": 6,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-volta-de-n-s-sozinhas",
@@ -10678,7 +11037,7 @@
       "director": "",
       "cast": [],
       "technical_sheet": {},
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "teatrodasfiguras-para-que-serve-a-literatura",
@@ -10710,7 +11069,7 @@
       "duration": "",
       "age_rating": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "variedades-around-classic",
@@ -10757,7 +11116,7 @@
       "duration": "50 min",
       "duration_min": 50,
       "age_min": 6,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "capitolio-around-classic",
@@ -10804,7 +11163,7 @@
       "duration": "50 min",
       "duration_min": 50,
       "age_min": 6,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "saoluiz-hip-lito",
@@ -10851,7 +11210,7 @@
         "luz": "Pedro Guimarães",
         "produção": "Xana Lagusi"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-only-duos",
@@ -10889,7 +11248,7 @@
       "director": "",
       "cast": [],
       "technical_sheet": {},
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-habitar",
@@ -10936,7 +11295,7 @@
       "sala": "Sala Principal",
       "price_min": 9.0,
       "price_max": 9.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-contexto",
@@ -10969,7 +11328,7 @@
       "tags": [],
       "accessibility": [],
       "subtitle": "António Brito Guterres e Maria Manuel Oliveira",
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-contraponto-john-luther-adams-philip-glass",
@@ -11008,7 +11367,7 @@
       "age_min": 6,
       "price_min": 12.0,
       "price_max": 12.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-a-winged-victory-for-the-sullen",
@@ -11043,7 +11402,7 @@
       "age_min": 6,
       "price_min": 12.0,
       "price_max": 12.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "teatrodasfiguras-masha-e-o-urso",
@@ -11075,7 +11434,7 @@
       "duration": "",
       "age_rating": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-oru-kami",
@@ -11145,7 +11504,7 @@
       "duration_min": 35,
       "price_min": 3.0,
       "price_max": 3.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-teatro-para-so-palavra-ambulante",
@@ -11218,7 +11577,7 @@
         "fotografia": "Daniel Nunes Comunicação Daniel Nunes, Liliana Rodrigues, Zétavares e Romana Martins (assessoria de imprensa) Estudos de arquitetura João Rei Construção Citroen HY Food Trucks Factory Protótipo de ban",
         "produção": "geral Marta Costa e José Abrantes Coordenação do projeto “Palavra Ambulante” José Rui Martins Cooperação Coletivo ACERT Parceria especial Fundação José Saramago"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-chamada-aberta-ao-p-blico-do-theatro-circo",
@@ -11253,7 +11612,7 @@
       "tags": [],
       "accessibility": [],
       "date_end": "2026-10-31",
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-laurie-anderson-com-sexmob",
@@ -11293,7 +11652,7 @@
       "age_min": 6,
       "price_min": 30.0,
       "price_max": 30.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "variedades-radojka",
@@ -11335,7 +11694,7 @@
       "duration": "90 min",
       "duration_min": 90,
       "age_min": 351,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "saoluiz-da-boca-pra-fora",
@@ -11422,7 +11781,7 @@
         "produção": "André Camilo",
         "coprodução": "Camarote Produções e São Luiz Teatro Municipal"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-buluku",
@@ -11468,7 +11827,7 @@
       "age_min": 6,
       "price_min": 2.5,
       "price_max": 2.5,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "teatrodasfiguras-quinteto-de-morte",
@@ -11510,7 +11869,7 @@
       "duration": "",
       "age_rating": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-sonata-de-outono",
@@ -11546,7 +11905,7 @@
           "weekday": "Sex"
         }
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "saoluiz-l-allegro-il-penseroso-ed-il-moderato",
@@ -11580,7 +11939,7 @@
       "age_rating": "M/6",
       "age_min": 6,
       "sala": "Sala Luis Miguel Cintra",
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-o-meu-astronauta-e-o-metaverso",
@@ -11620,7 +11979,7 @@
       "age_min": 6,
       "price_min": 3.0,
       "price_max": 3.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-the-legendary-tigerman",
@@ -11661,7 +12020,7 @@
       "age_min": 6,
       "price_min": 2.5,
       "price_max": 2.5,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "ccb-o-direito-do-mais-fraco-liberdade",
@@ -11701,7 +12060,7 @@
         "produção": "Inês Pinto",
         "coprodução": "A Oficina/Centro Cultural Vila Flor , RTP – Rádio e Televisão de Portugal , Teatro Diogo Bernardes e Teatro das Figuras"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "saoluiz-jardim-aberto-m-sica-no-feminino",
@@ -11736,7 +12095,7 @@
       "age_rating": "M/6",
       "age_min": 6,
       "sala": "Sala Bernardo Sassetti",
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-lucrecia-dalt",
@@ -11775,7 +12134,7 @@
       "age_min": 6,
       "price_min": 12.0,
       "price_max": 12.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "saoluiz-a-reinven-o-de-vivaldi",
@@ -11809,7 +12168,7 @@
       "age_rating": "M/6",
       "age_min": 6,
       "sala": "Sala Luis Miguel Cintra",
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "teatrodasfiguras-as-guerreiras-do-k-pop-em-concerto-tributo",
@@ -11846,7 +12205,7 @@
       "duration": "",
       "age_rating": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-flow-deriva",
@@ -11889,7 +12248,7 @@
         "direção": "de animação Léo Silly-Pélissier",
         "produção": "Matīss Kaža, Gints Zilbalodis, Ron Dyens e Gregory Zalcman Apresentação no âmbito do projeto \" Pequeno Cinema\" Parceria Cine Clube de Viseu Esta exibição integra a programação da RTCP @ DR Centro de A"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-jos-afonso-ao-vivo-nos-coliseus-1983",
@@ -11942,7 +12301,7 @@
       "age_min": 12,
       "price_min": 12.0,
       "price_max": 12.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "saoluiz-as-paix-es-da-alma",
@@ -11979,7 +12338,7 @@
       "technical_sheet": {
         "direção": "Pedro Carneiro Violoncelo Vasco Ferrão Maestros assistentes Vasco Ferrão, Jorge Leiria"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-funny-funny-bones",
@@ -12034,7 +12393,7 @@
       "director": "",
       "cast": [],
       "technical_sheet": {},
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "trindade-andr-de-freitas",
@@ -12072,7 +12431,7 @@
       "cast": [],
       "price_min": 16.0,
       "price_max": 20.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "ccb-exerc-cio-de-montagem",
@@ -12162,7 +12521,7 @@
         "luz": "Leocádia Silva",
         "produção": "Alaíde Costa Assistente de"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "teatrodasfiguras-tommy-guerrero",
@@ -12194,7 +12553,7 @@
       "duration": "",
       "age_rating": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "saoluiz-a-cavalo",
@@ -12245,7 +12604,7 @@
         "direção_produção": "Maria João Garcia",
         "coprodução": "Fundação de Serralves/Serralves em Festa, Citemor, Festival End, Festival Paragem e São Luiz Teatro Municipal"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-carminho",
@@ -12284,7 +12643,7 @@
       "age_min": 6,
       "price_min": 25.0,
       "price_max": 25.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-eis-um-urso-agora-devem-faz-lo-rir",
@@ -12322,7 +12681,7 @@
       "director": "",
       "cast": [],
       "technical_sheet": {},
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "saoluiz-deixar-o-karate",
@@ -12408,7 +12767,7 @@
         "produção": "Razões Pessoais Residência artística Casa de Gigante",
         "coprodução": "Teatro das Figuras e São Luiz Teatro Municipal"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-o-caminho-do-c-u",
@@ -12458,7 +12817,7 @@
       "director": "",
       "cast": [],
       "technical_sheet": {},
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "saoluiz-es-tr3s-irms",
@@ -12508,7 +12867,7 @@
         "produção": "Trypas-Corassão Associação Cultural",
         "coprodução": "Es Tr3s Irms é o projeto vencedor da 5ª edição da Bolsa Amélia Rey Colaço, uma iniciativa promovida pelo Teatro Nacional D. Maria II (Lisboa), A Oficina / Centro Cultural Vila Flor (Guimarães), O Espaço do Tempo (Montemor-o-Novo), e o Teatro Viriato (Viseu)."
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "culturgest-mala-voadora",
@@ -12562,7 +12921,7 @@
         "coprodução": "Teatro Municipal do Porto – Rivoli / Campo Alegre A mala voadora é uma estrutura financiada pelo Governo de Portugal – Ministério da Cultura / Direção-Geral das Artes"
       },
       "sala": "Auditório Emílio Rui Vilar",
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-domte",
@@ -12606,7 +12965,7 @@
         "cenografia": "Uli Weigel, Jeremias Fanjul Dominguez e Jaume Valls",
         "figurinos": "Maite Martín Design gráfico Carla Aledo @ Mostra Arts Santa Eugènia Centro de Artes do Espectáculo de Viseu Viriato Teatro Municipal Largo Mouzinho de Albuquerque"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-composi-o-e-improvisa-o-na-m-sica-contempor-nea",
@@ -12641,7 +13000,7 @@
       "subtitle": "Com Pedro Melo Alves",
       "duration": "90 min.",
       "duration_min": 90,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-indigoquintet",
@@ -12681,7 +13040,7 @@
       "age_min": 6,
       "price_min": 9.0,
       "price_max": 9.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "ccb-um-julgamento",
@@ -12722,7 +13081,7 @@
         "produção": "Henrique Mariano",
         "coprodução": "Centro Cultural de Belém (Lisboa-Portugal), Holland Festival (Amsterdão), Festival d’Avignon (França), Edinburgh International Festival (Escócia) e DeSingel (Bélgica) Apoio UCLA’s Center for the Art of Performance e Instituto Guimarães Rosa — IGR — Ministério das Relações Exteriores do Brasi"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "capitolio-emel-mathlouthi",
@@ -12759,7 +13118,7 @@
       "duration": "150 min",
       "duration_min": 150,
       "age_min": 6,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "tagv-leituras-indisciplinadas-queer-oficina-fritta",
@@ -12787,7 +13146,7 @@
         "Linha de Fuga",
         "Teatro Académico de Gil Vicente Fotografia Paulo Abrantes Clique ou faça scroll para ver o próximo evento. Toque para ver o próximo evento."
       ],
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "mariamatos-swimming-pool-party",
@@ -12836,7 +13195,7 @@
         "produção": "e Cena TdE Sílvia Moura",
         "texto": "de Ricardo Neves-Neves, o enredo é muito mais dramático, as causas mais profundas, as personagens uns canalhas desprezíveis, e o final trará o espanto. Querem ser cúmplices deste crime? Avenida Frei Miguel Contreiras, 52, 1700-213, Lisboa Horário da Bilheteira Segunda – Sábado 17h30 às 21h30 Domingo"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "ccb-quem-tem-medo-de-virginia-woolf-de-edward-albee",
@@ -12878,7 +13237,7 @@
         "interpretação": "João Reis, Margarida Carvalho, Daniel Silva, Joana Africano",
         "coprodução": "Centro Cultural de Belém, Casa das Artes de Vila Nova de Famalicão, Teatro Nacional São João"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-tarde-fora",
@@ -12915,7 +13274,7 @@
       "technical_sheet": {
         "dramaturgia": "Preços bilhetes Entrada gratuita (mediante reserva de bilhete através de: bilheteira@teatroviriato.com ou 927 412 671) LOCAL Estúdio Depois de uma semana em criação intensiva com Sónia Barbosa, Inês B"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-cinema-play",
@@ -12956,7 +13315,7 @@
       "age_min": 3,
       "price_min": 1.5,
       "price_max": 1.5,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "capitolio-gongada-drag",
@@ -12996,7 +13355,7 @@
       "duration": "120 min",
       "duration_min": 120,
       "age_min": 16,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "saoluiz-escola-superior-de-teatro-e-cinema",
@@ -13050,7 +13409,7 @@
       "duration_min": 1,
       "age_rating": "A classificar pela CCE",
       "sala": "Sala Mário Viegas",
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "viriato-concerto-final-do-18-workshop-de-jazz-de-viseu",
@@ -13096,7 +13455,7 @@
         "música": "SEX 16h00 45 min. aprox. Preços bilhetes 2.50€ // Descontos não aplicáveis LOCAL Sala de Espetáculos Ao longo de três dias de trabalho intenso, sob a orientação dos músicos Rita Maria e Nuno Costa, os",
         "interpretação": "de conjunto, na construção de arranjos e na improvisação. Este concerto realiza-se no âmbito da parceria entre o Teatro Viriato e o Que Jazz é Este? – Festival de Jazz de Viseu, organizado pela associ"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-v-mit-mostra-internacional-de-teatro-sem-fronteira",
@@ -13163,7 +13522,7 @@
       "tags": [],
       "accessibility": [],
       "date_end": "2026-07-25",
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "capitolio-macbeth",
@@ -13220,7 +13579,7 @@
       "duration": "90 min",
       "duration_min": 90,
       "age_min": 351,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-hamlet",
@@ -13267,7 +13626,7 @@
       "age_min": 12,
       "price_min": 10.0,
       "price_max": 10.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-as-correntes-de-jo-o-c-sar-monteiro",
@@ -13309,7 +13668,7 @@
       "sala": "Pequeno Auditório",
       "price_min": 4.0,
       "price_max": 4.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-veredas",
@@ -13347,7 +13706,7 @@
       "age_min": 12,
       "price_min": 4.0,
       "price_max": 4.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-silvestre",
@@ -13385,7 +13744,7 @@
       "age_min": 12,
       "price_min": 4.0,
       "price_max": 4.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-flor-do-mar",
@@ -13423,7 +13782,7 @@
       "age_min": 12,
       "price_min": 4.0,
       "price_max": 4.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "teatrodasfiguras-evita",
@@ -13465,7 +13824,7 @@
       "duration": "",
       "age_rating": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-o-ltimo-mergulho",
@@ -13504,7 +13863,7 @@
       "age_min": 12,
       "price_min": 4.0,
       "price_max": 4.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "theatrocirco-as-bodas-de-deus",
@@ -13542,7 +13901,7 @@
       "age_min": 16,
       "price_min": 4.0,
       "price_max": 4.0,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "capitolio-come-from-away",
@@ -13584,7 +13943,7 @@
       "duration": "105 min",
       "duration_min": 105,
       "age_min": 351,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "saoluiz-visitas-guiadas-2025-2026",
@@ -13612,7 +13971,7 @@
       "age_rating": "M1770",
       "age_min": 1770,
       "sala": "Vários espaços do Teatro",
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "variedades-teatro-variedades-100-anos-100-entradas-na-wikip-d",
@@ -13643,7 +14002,7 @@
       "duration": "14h30",
       "duration_min": 870,
       "age_min": 351,
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "mariamatos-tova-leigh-fifty-shades-of-rage",
@@ -13672,7 +14031,7 @@
         "música": "Podcast ao vivo Stand Up Infantil Dança Presente Aberto O Teatro Missão História Equipa Informações Portfólio Teatro",
         "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "saoluiz-ra-l-refree-maria-mazzotta",
@@ -13706,7 +14065,7 @@
       "age_rating": "M/6",
       "age_min": 6,
       "sala": "Sala Luis Miguel Cintra",
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "saoluiz-vincent-peirani",
@@ -13740,7 +14099,7 @@
       "age_rating": "M/6",
       "age_min": 6,
       "sala": "Sala Luis Miguel Cintra",
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "mariamatos-mo-gilligan-the-mo-you-know",
@@ -13770,7 +14129,7 @@
         "elenco": "The Mo You Know , em 2026.",
         "produção": "+351 213 621 648 info@fproducao.pt Horário de Atendimento Dias úteis 10h – 18h Page load link Go to Top"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "saoluiz-podia-ser-na-tate-mas-aqui",
@@ -13799,7 +14158,7 @@
       "age_rating": "M1770",
       "age_min": 1770,
       "sala": "Sala Bernardo Sassetti",
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "saoluiz-uma-viagem-pela-m-sica-com-o-teatro-nacional-de-s-",
@@ -13834,7 +14193,7 @@
       "age_rating": "M/6",
       "age_min": 6,
       "sala": "Sala Bernardo Sassetti",
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "saoluiz-consultas-po-ticas",
@@ -13874,7 +14233,7 @@
       "technical_sheet": {
         "produção": "São Luiz Teatro Municipal"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "teatrodasfiguras-quatro-e-meia",
@@ -13906,7 +14265,7 @@
       "duration": "",
       "age_rating": "",
       "technical_sheet": {},
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     },
     {
       "id": "mariamatos-primeira-vista",
@@ -13945,7 +14304,7 @@
         "autor": "Suzie Miller é uma dramaturga e argumentista contemporânea, vencedora de diversos prémios internacionais. Gosta de histórias humanas complexas que frequentemente versam a injustiça. Trabalha em Londres, no Reino Unido, e em Sydney, na Austrália, mas a sua obra tem sido apresentada em todo o mundo. T",
         "dramaturgia": "no National Institute of Dramatic Art , na Austrália. Play Avenida Frei Miguel Contreiras, 52, 1700-213, Lisboa Horário da Bilheteira Segunda – Sábado 17h30 às 21h30 Domingo — 15h30 às 18h30 *Horários em vigor em dias de espectáculo. Horário sujeito a alterações. Reservas e informações de bilheteira"
       },
-      "scraped_at": "2026-03-21T13:05:04.485508+00:00"
+      "scraped_at": "2026-03-21T13:18:30.206227+00:00"
     }
   ]
 }
