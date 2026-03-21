@@ -7,7 +7,6 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-0NRMKQMQ4D');
 </script>
 <meta charset="UTF-8"/>
@@ -95,7 +94,6 @@
   background: var(--surface-bg);
 }
 
-/* Cortina diagonal — azul-meia-noite */
 .hero-curtain {
   position: absolute;
   top: 0;
@@ -111,7 +109,6 @@
   opacity: .5;
 }
 
-/* Textura de linhas subtil sobre a cortina */
 .hero-curtain::before {
   content: '';
   position: absolute;
@@ -125,7 +122,6 @@
   );
 }
 
-/* Ponto de luz vermelho */
 .hero-curtain::after {
   content: '';
   position: absolute;
@@ -210,7 +206,7 @@
 /* Stats */
 .hero-stats {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: var(--space-12);
   flex-wrap: wrap;
   margin-top: var(--space-16);
@@ -250,6 +246,28 @@
   height: 48px;
   background: var(--surface-divider);
   flex-shrink: 0;
+  margin-top: 4px; /* alinha com o topo dos números */
+}
+
+/* Data de actualização — discreta, abaixo das stats */
+.hero-updated {
+  margin-top: var(--space-5);
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+  opacity: .65;
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.hero-updated-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  opacity: .7;
+  flex-shrink: 0;
+  display: inline-block;
 }
 
 /* ── SECÇÃO: DESTAQUES ──────────────────────────────────────── */
@@ -324,7 +342,6 @@
   transform: scale(1.04);
 }
 
-/* Placeholder quando não há imagem */
 .ev-card-img-placeholder {
   width: 100%;
   height: 100%;
@@ -419,13 +436,14 @@
 .ev-card-skeleton .ev-card-img {
   aspect-ratio: 3/4;
   background: var(--surface-bg-2);
+  min-height: 120px; /* evita colapso antes do CSS */
 }
 
 .ev-card-skeleton .ev-card-body {
   gap: var(--space-2);
 }
 
-/* ── SECÇÃO: NAVEGA‍ÃO ─────────────────────────────────────── */
+/* ── SECÇÃO: NAVEGAÇÃO ──────────────────────────────────────── */
 .section-navegar {
   padding: var(--space-24) var(--space-12);
   background: var(--surface-bg-2);
@@ -532,6 +550,34 @@
   flex: 1;
 }
 
+/* Linha de dados dinâmicos nos cards de navegação */
+.nav-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-top: var(--space-5);
+}
+
+.nav-card-meta-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .04em;
+  color: var(--text-muted);
+  background: var(--surface-bg-2);
+  border: 1px solid var(--surface-divider);
+  border-radius: var(--radius-full);
+  padding: 2px 10px;
+  white-space: nowrap;
+}
+
+.nav-card-meta-pill strong {
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
 .nav-card-cta {
   display: inline-flex;
   align-items: center;
@@ -620,7 +666,7 @@
 
   <div class="nav-right">
     <ul class="nav-links" id="nav-menu" role="list">
-      <li><a href="programacao/" aria-current="page">Programação</a></li>
+      <li><a href="programacao/">Programação</a></li>
       <li><a href="calendario/">Calendário</a></li>
       <li><a href="teatros/">Teatros</a></li>
       <li><a href="sobre/">Sobre</a></li>
@@ -666,19 +712,25 @@
       <div class="hero-stats" aria-label="Em números">
         <div class="stat">
           <span class="stat-num" id="stat-theaters" aria-label="Número de teatros">—</span>
-          <span class="stat-label">Teatros em Portugal</span>
+          <span class="stat-label">Teatros</span>
         </div>
         <div class="stat-sep" aria-hidden="true"></div>
         <div class="stat">
-          <span class="stat-num" id="stat-events" aria-label="Número de espectáculos">—</span>
-          <span class="stat-label">Em cena agora</span>
+          <span class="stat-num" id="stat-today" aria-label="Espectáculos hoje">—</span>
+          <span class="stat-label">Em cena hoje</span>
         </div>
         <div class="stat-sep" aria-hidden="true"></div>
         <div class="stat">
-          <span class="stat-num" id="stat-updated" aria-label="Última actualização">—</span>
-          <span class="stat-label">Actualizado hoje</span>
+          <span class="stat-num" id="stat-events" aria-label="Espectáculos em cartaz">—</span>
+          <span class="stat-label">Em cartaz</span>
         </div>
       </div>
+
+      <!-- Data de actualização — discreta -->
+      <p class="hero-updated" id="hero-updated" aria-live="polite" hidden>
+        <span class="hero-updated-dot" aria-hidden="true"></span>
+        <span id="hero-updated-text"></span>
+      </p>
 
     </div>
   </section>
@@ -688,6 +740,7 @@
     <div class="destaques-header">
       <div class="destaques-header-text">
         <p class="section-label" aria-hidden="true">Em cena</p>
+        <!-- Título muda dinamicamente: "Hoje nos palcos" ou "Próximos espectáculos" -->
         <h2 class="section-h2" id="destaques-title">
           Próximos<br><em>espectáculos</em>
         </h2>
@@ -751,24 +804,45 @@
 
       <div class="navegar-grid" style="max-width:var(--max-w);margin:0 auto">
 
+        <!-- Card: Programação -->
         <a href="programacao/" class="nav-card" aria-label="Ver programação completa">
           <span class="nav-card-tag">Agenda</span>
           <h3 class="nav-card-title">Programa<em>ção</em></h3>
-          <p class="nav-card-desc">Todos os espectáculos em cartaz. Filtra por cidade, data, categoria ou preço.</p>
+          <p class="nav-card-desc">
+            Todos os espectáculos em cartaz, num único lugar. Filtra por cidade,
+            data, categoria ou preço e encontra o que procuras em segundos.
+          </p>
+          <div class="nav-card-meta" id="meta-programacao" aria-hidden="true">
+            <!-- preenchido dinamicamente -->
+          </div>
           <span class="nav-card-cta" aria-hidden="true">Ver programação →</span>
         </a>
 
+        <!-- Card: Calendário -->
         <a href="calendario/" class="nav-card" aria-label="Ver calendário de espectáculos">
           <span class="nav-card-tag">Datas</span>
           <h3 class="nav-card-title">Calen<em>dário</em></h3>
-          <p class="nav-card-desc">Navega por dia. Vê o que há hoje à noite, este fim-de-semana ou esta semana.</p>
+          <p class="nav-card-desc">
+            Navega dia a dia e descobre o que há hoje à noite, este fim-de-semana
+            ou em qualquer data que escolheres.
+          </p>
+          <div class="nav-card-meta" id="meta-calendario" aria-hidden="true">
+            <!-- preenchido dinamicamente -->
+          </div>
           <span class="nav-card-cta" aria-hidden="true">Ver calendário →</span>
         </a>
 
+        <!-- Card: Teatros -->
         <a href="teatros/" class="nav-card" aria-label="Ver lista de teatros">
           <span class="nav-card-tag">Espaços</span>
           <h3 class="nav-card-title"><em>Tea</em>tros</h3>
-          <p class="nav-card-desc">Todos os palcos, de Faro a Braga. Programação completa de cada espaço.</p>
+          <p class="nav-card-desc">
+            Todos os palcos cobertos pela Primeira Plateia, de Faro a Braga.
+            Consulta a programação completa de cada espaço.
+          </p>
+          <div class="nav-card-meta" id="meta-teatros" aria-hidden="true">
+            <!-- preenchido dinamicamente -->
+          </div>
           <span class="nav-card-cta" aria-hidden="true">Ver teatros →</span>
         </a>
 
@@ -782,7 +856,6 @@
 <footer class="footer" role="contentinfo">
   <div class="footer-inner">
 
-    <!-- Marca + social -->
     <div class="footer-brand-col">
       <div class="footer-brand">
         <span class="footer-brand-primeira">Primeira</span>
@@ -805,7 +878,6 @@
       </nav>
     </div>
 
-    <!-- Explorar -->
     <div>
       <p class="footer-col-title">Explorar</p>
       <nav class="footer-col-links" aria-label="Links de exploração">
@@ -815,7 +887,6 @@
       </nav>
     </div>
 
-    <!-- Sobre -->
     <div>
       <p class="footer-col-title">Sobre</p>
       <nav class="footer-col-links" aria-label="Links sobre o projecto">
@@ -824,7 +895,6 @@
       </nav>
     </div>
 
-    <!-- Legal -->
     <div>
       <p class="footer-col-title">Legal</p>
       <nav class="footer-col-links" aria-label="Links legais">
@@ -877,7 +947,6 @@
     navToggle.textContent = isOpen ? '✕' : '☰';
   });
 
-  // Fechar menu ao clicar fora
   document.addEventListener('click', function (e) {
     if (!navMenu.contains(e.target) && !navToggle.contains(e.target)) {
       navMenu.classList.remove('open');
@@ -924,66 +993,149 @@
       if (!res.ok) throw new Error('meta.json não disponível');
       const meta = await res.json();
 
-      // Stats no hero
-      const tEl = document.getElementById('stat-theaters');
-      const eEl = document.getElementById('stat-events');
-      const uEl = document.getElementById('stat-updated');
+      /* Stats no hero */
+      const tEl     = document.getElementById('stat-theaters');
+      const todayEl = document.getElementById('stat-today');
+      const eEl     = document.getElementById('stat-events');
 
-      if (tEl) tEl.textContent = meta.total_theaters ?? '—';
-      if (eEl) eEl.textContent = meta.total_events ?? '—';
-      if (uEl) uEl.textContent = formatRelativeTime(meta.updated_at);
+      if (tEl)     tEl.textContent     = meta.total_theaters ?? '—';
+      if (todayEl) todayEl.textContent = meta.events_today   ?? '—';
+      if (eEl)     eEl.textContent     = meta.total_events   ?? '—';
 
-      // Meta no footer
+      /* Data de actualização — discreta */
+      const heroUpdated     = document.getElementById('hero-updated');
+      const heroUpdatedText = document.getElementById('hero-updated-text');
+      if (heroUpdated && heroUpdatedText && meta.updated_at) {
+        heroUpdatedText.textContent = `Programação actualizada ${formatRelativeTime(meta.updated_at)}`;
+        heroUpdated.hidden = false;
+      }
+
+      /* Footer */
       const footerUpdated = document.getElementById('footer-updated');
-      if (footerUpdated) {
+      if (footerUpdated && meta.updated_at) {
         footerUpdated.textContent = `Programação actualizada ${formatRelativeTime(meta.updated_at)}`;
       }
+
+      /* Cards de navegação — Programação */
+      const metaProgramacao = document.getElementById('meta-programacao');
+      if (metaProgramacao && meta.total_events != null) {
+        metaProgramacao.innerHTML =
+          `<span class="nav-card-meta-pill"><strong>${meta.total_events}</strong> espectáculos</span>` +
+          (meta.cities && meta.cities.length
+            ? `<span class="nav-card-meta-pill">${meta.cities.join(' · ')}</span>`
+            : '');
+        metaProgramacao.removeAttribute('aria-hidden');
+      }
+
+      /* Cards de navegação — Calendário */
+      const metaCalendario = document.getElementById('meta-calendario');
+      if (metaCalendario) {
+        const parts = [];
+        if (meta.events_today != null) {
+          parts.push(`<span class="nav-card-meta-pill"><strong>${meta.events_today}</strong> hoje</span>`);
+        }
+        if (meta.events_this_weekend != null) {
+          parts.push(`<span class="nav-card-meta-pill"><strong>${meta.events_this_weekend}</strong> este fim-de-semana</span>`);
+        }
+        if (parts.length) {
+          metaCalendario.innerHTML = parts.join('');
+          metaCalendario.removeAttribute('aria-hidden');
+        }
+      }
+
+      /* Cards de navegação — Teatros */
+      const metaTeatros = document.getElementById('meta-teatros');
+      if (metaTeatros && meta.total_theaters != null) {
+        metaTeatros.innerHTML =
+          `<span class="nav-card-meta-pill"><strong>${meta.total_theaters}</strong> teatros</span>` +
+          (meta.cities && meta.cities.length
+            ? `<span class="nav-card-meta-pill">${meta.cities.join(' · ')}</span>`
+            : '');
+        metaTeatros.removeAttribute('aria-hidden');
+      }
+
+      return meta; // devolvemos o meta para uso em loadDestaques
     } catch (_) {
-      // Falha silenciosa — stats ficam com "—"
+      /* Falha silenciosa — stats ficam com "—" */
       const footerUpdated = document.getElementById('footer-updated');
       if (footerUpdated) footerUpdated.textContent = '';
+      return null;
     }
   }
 
   /* ── Carregar destaques ─────────────────────────────────── */
   async function loadDestaques() {
-    const grid = document.getElementById('destaques-grid');
+    const grid    = document.getElementById('destaques-grid');
     const errorEl = document.getElementById('destaques-error');
+    const titleEl = document.getElementById('destaques-title');
 
     async function fetchSlim() {
       const r = await fetch('data/events.slim.json');
       if (r.ok) return r.json();
-      // Fallback para raiz
       const r2 = await fetch('events.json');
       if (r2.ok) return r2.json();
       throw new Error('Sem dados');
     }
 
     try {
-      let rawFetch = await fetchSlim();
-      const events = Array.isArray(rawFetch) ? rawFetch : (rawFetch.events || rawFetch);
-      const today = new Date().toISOString().slice(0, 10);
+      const rawFetch = await fetchSlim();
+      const events   = Array.isArray(rawFetch) ? rawFetch : (rawFetch.events || rawFetch);
+      const today    = new Date().toISOString().slice(0, 10);
 
-      // Filtrar futuros, ordenar por next_session, pegar os primeiros 4
-      const upcoming = events
-        .filter(e => (e.next_session || e.date_start) >= today)
-        .sort((a, b) => {
-          const da = a.next_session || a.date_start;
-          const db = b.next_session || b.date_start;
-          return da < db ? -1 : da > db ? 1 : 0;
-        })
-        .slice(0, 4);
+      /* 1. Tentar mostrar eventos com sessão HOJE */
+      const todayEvents = events.filter(e => {
+        const sessions = e.sessions || [];
+        if (sessions.length) return sessions.some(s => s.date === today);
+        /* Sem sessões detalhadas: verifica date_start/date_end */
+        const ds = e.date_start || '';
+        const de = e.date_end   || ds;
+        return ds <= today && today <= de;
+      });
 
-      if (upcoming.length === 0) throw new Error('Sem eventos futuros');
+      /* 2. Se não houver eventos hoje, cai para os mais próximos */
+      const showingToday = todayEvents.length > 0;
 
-      grid.innerHTML = upcoming.map(ev => {
+      let candidates;
+      if (showingToday) {
+        /* Embaralha ligeiramente para não mostrar sempre os mesmos teatros */
+        candidates = todayEvents.sort(() => Math.random() - 0.5).slice(0, 4);
+      } else {
+        candidates = events
+          .filter(e => (e.next_session || e.date_start) >= today)
+          .sort((a, b) => {
+            const da = a.next_session || a.date_start;
+            const db = b.next_session || b.date_start;
+            return da < db ? -1 : da > db ? 1 : 0;
+          })
+          .slice(0, 4);
+      }
+
+      if (candidates.length === 0) throw new Error('Sem eventos');
+
+      /* Actualizar título da secção */
+      if (titleEl) {
+        titleEl.innerHTML = showingToday
+          ? 'Hoje<br><em>nos palcos</em>'
+          : 'Próximos<br><em>espectáculos</em>';
+      }
+
+      grid.innerHTML = candidates.map(ev => {
         const catClass = getCategoryClass(ev.category);
+
         const imgHtml = ev.image_url
           ? `<img src="${ev.image_url}" alt="" loading="lazy" decoding="async"/>`
           : `<div class="ev-card-img-placeholder" aria-hidden="true">🎭</div>`;
-        const dateStr = ev.next_session
-          ? formatDate(ev.next_session)
-          : (ev.dates_label || formatDate(ev.date_start));
+
+        /* Data a mostrar: sessão de hoje (se showingToday), next_session, ou dates_label */
+        let dateStr;
+        if (showingToday) {
+          dateStr = 'Hoje';
+        } else {
+          dateStr = ev.next_session
+            ? formatDate(ev.next_session)
+            : (ev.dates_label || formatDate(ev.date_start));
+        }
+
         const priceStr = ev.price_info
           ? `<span class="ev-card-price">${ev.price_info}</span>`
           : '';
