@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-21T00:57:41.827881+00:00",
-  "build_version": "20260321-0057",
+  "updated_at": "2026-03-21T00:58:55.132692+00:00",
+  "build_version": "20260321-0058",
   "total_events": 221,
   "total_theaters": 12,
   "events_today": 7,
@@ -12,7 +12,7 @@
     "Lisboa",
     "Viseu"
   ],
-  "stale_theaters": 45,
+  "stale_theaters": 0,
   "by_theater": {
     "Theatro Circo": 63,
     "Teatro Viriato": 29,
