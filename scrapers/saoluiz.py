@@ -47,7 +47,7 @@ THEATER = {
     "salas":       ["Grande Sala", "Sala Estúdio"],
     "aliases":     ["são luiz", "sao luiz", "teatro são luiz", "teatro municipal são luiz", "saoluiz"],
     "description": "O São Luiz Teatro Municipal é um dos mais emblemáticos teatros de Lisboa, com programação diversa de teatro, dança e performance. Situado no Chiado.",
-    "logo_svg":    _LOGO_SVG,   # SVG inline (definido abaixo como constante)
+    "logo_url":    "data:image/svg+xml;charset=utf-8," + _LOGO_SVG.replace("#", "%23").replace('"', "'"),
     "favicon_url": "https://www.teatrosaoluiz.pt/favicon.ico",
     "facade_url":  None,        # confirmar URL real antes de preencher
 }
