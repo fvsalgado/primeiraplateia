@@ -57,7 +57,7 @@
     "price_max": 22.0,
     "age_rating": "M/12",
     "age_min": 12,
-    "scraped_at": "2026-03-21T23:21:07.214163+00:00",
+    "scraped_at": "2026-03-22T08:03:05.845616+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
@@ -120,7 +120,7 @@
     "age_min": 16,
     "duration": "90 min.",
     "duration_min": 90,
-    "scraped_at": "2026-03-21T23:21:07.214163+00:00",
+    "scraped_at": "2026-03-22T08:03:05.845616+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
@@ -182,7 +182,7 @@
     "age_min": 12,
     "duration": "90 min.",
     "duration_min": 90,
-    "scraped_at": "2026-03-21T23:21:07.214163+00:00",
+    "scraped_at": "2026-03-22T08:03:05.845616+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
@@ -244,7 +244,7 @@
     "age_min": 14,
     "duration": "90 min.",
     "duration_min": 90,
-    "scraped_at": "2026-03-21T23:21:07.214163+00:00",
+    "scraped_at": "2026-03-22T08:03:05.845616+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
@@ -292,7 +292,7 @@
     "price_max": 20.0,
     "age_rating": "M/6",
     "age_min": 6,
-    "scraped_at": "2026-03-21T23:21:07.214163+00:00",
+    "scraped_at": "2026-03-22T08:03:05.845616+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
@@ -338,7 +338,7 @@
     "price_max": 20.0,
     "age_rating": "M/6",
     "age_min": 6,
-    "scraped_at": "2026-03-21T23:21:07.214163+00:00",
+    "scraped_at": "2026-03-22T08:03:05.845616+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {
@@ -381,7 +381,7 @@
     "cast": [],
     "price_min": 16.0,
     "price_max": 20.0,
-    "scraped_at": "2026-03-21T23:21:07.214163+00:00",
+    "scraped_at": "2026-03-22T08:03:05.845616+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "_meta": {

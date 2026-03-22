@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-03-21T23:21:14.015198+00:00",
-  "build_version": "20260321-2321",
-  "total_events": 226,
+  "updated_at": "2026-03-22T08:03:11.459211+00:00",
+  "build_version": "20260322-0803",
+  "total_events": 223,
   "total_theaters": 12,
-  "events_today": 7,
-  "events_this_weekend": 7,
+  "events_today": 2,
+  "events_this_weekend": 2,
   "cities": [
     "Braga",
     "Coimbra",
@@ -13,30 +13,30 @@
     "Viseu"
   ],
   "by_category": {
-    "Outro": 99,
+    "Outro": 97,
     "Teatro": 66,
-    "Música": 44,
+    "Música": 43,
     "Dança": 8,
     "Performance": 7,
     "Circo": 1,
     "Teatro Musical": 1
   },
-  "stale_theaters": 45,
+  "stale_theaters": 0,
   "by_theater": {
     "Theatro Circo": 63,
     "Teatro Viriato": 29,
     "Teatro Variedades": 6,
     "Teatro da Trindade INATEL": 7,
-    "São Luiz Teatro Municipal": 35,
+    "São Luiz Teatro Municipal": 34,
     "Teatro Maria Matos": 16,
-    "TAGV — Teatro Académico Gil Vicente": 34,
+    "TAGV — Teatro Académico Gil Vicente": 32,
     "CCB — Centro Cultural de Belém": 6,
     "Teatro das Figuras": 20,
     "Capitólio": 6,
     "Teatro do Bairro": 1,
     "Culturgest": 3
   },
-  "completeness_avg": 0.64,
+  "completeness_avg": 0.639,
   "anomalies": [],
   "scraper_health": {}
 }
