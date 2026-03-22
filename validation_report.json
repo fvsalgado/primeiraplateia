@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-21T23:21:07.228034Z",
-  "total_raw": 312,
-  "total_accepted": 303,
-  "total_rejected": 9,
-  "total_warnings": 78,
+  "generated_at": "2026-03-22T08:03:05.860366Z",
+  "total_raw": 337,
+  "total_accepted": 327,
+  "total_rejected": 10,
+  "total_warnings": 105,
   "rejected": [
     {
       "id": "saoluiz-um-homem-e-o-seu-criado",
@@ -67,6 +67,13 @@
       "errors": [
         "'date_start' ausente ou vazio"
       ]
+    },
+    {
+      "id": "mariamatos-lap-laborat-rio-de-artes-performativas-para-crian-",
+      "title": "LAP | Laboratório de Artes Performativas para crianças",
+      "errors": [
+        "'date_start' ausente ou vazio"
+      ]
     }
   ],
   "warnings": [
@@ -75,6 +82,181 @@
       "title": "Teatro Variedades: 100 Anos, 100 Entradas na Wikipédia",
       "warnings": [
         "'date_end' (2026-06-20) < 'date_start' (2026-10-18) — corrigido"
+      ]
+    },
+    {
+      "id": "viriato-new-age-new-time",
+      "title": "NEW AGE, NEW TIME",
+      "warnings": [
+        "evento já terminou (2026-01-31)"
+      ]
+    },
+    {
+      "id": "viriato-warm-up",
+      "title": "WARM-UP",
+      "warnings": [
+        "evento já terminou (2026-01-13)"
+      ]
+    },
+    {
+      "id": "viriato-o-qu",
+      "title": "O Quê?",
+      "warnings": [
+        "evento já terminou (2026-01-13)"
+      ]
+    },
+    {
+      "id": "viriato-isto-n-o-para-gente-para-besta",
+      "title": "Isto não é para Gente, é para Besta!",
+      "warnings": [
+        "evento já terminou (2026-01-13)"
+      ]
+    },
+    {
+      "id": "viriato-sublinhar",
+      "title": "SubLinhar",
+      "warnings": [
+        "evento já terminou (2026-01-17)"
+      ]
+    },
+    {
+      "id": "viriato-reverbera-es",
+      "title": "Reverberações",
+      "warnings": [
+        "evento já terminou (2026-01-23)"
+      ]
+    },
+    {
+      "id": "viriato-sibela-e-digoo",
+      "title": "Sibela e Digoo",
+      "warnings": [
+        "evento já terminou (2026-01-21)"
+      ]
+    },
+    {
+      "id": "viriato-bull-s-heart",
+      "title": "Bull’s Heart",
+      "warnings": [
+        "evento já terminou (2026-01-22)"
+      ]
+    },
+    {
+      "id": "viriato-reverberando",
+      "title": "Reverberando",
+      "warnings": [
+        "evento já terminou (2026-01-23)"
+      ]
+    },
+    {
+      "id": "viriato-bright-horses",
+      "title": "Bright Horses",
+      "warnings": [
+        "evento já terminou (2026-01-24)"
+      ]
+    },
+    {
+      "id": "viriato-entre-um-abra-o-e-um-beijinho",
+      "title": "Entre um abraço e um beijinho",
+      "warnings": [
+        "evento já terminou (2026-01-27)"
+      ]
+    },
+    {
+      "id": "viriato-um-abra-o-ou-um-beijinho",
+      "title": "Um abraço ou um beijinho",
+      "warnings": [
+        "evento já terminou (2026-01-28)"
+      ]
+    },
+    {
+      "id": "viriato-wonderlandi",
+      "title": "WonderLandi",
+      "warnings": [
+        "evento já terminou (2026-01-31)"
+      ]
+    },
+    {
+      "id": "viriato-luca-argel",
+      "title": "Luca Argel",
+      "warnings": [
+        "evento já terminou (2026-02-06)"
+      ]
+    },
+    {
+      "id": "viriato-toshiib4",
+      "title": "TOSHiiB4",
+      "warnings": [
+        "evento já terminou (2026-02-21)"
+      ]
+    },
+    {
+      "id": "viriato-justi-a-cega",
+      "title": "Justiça Cega",
+      "warnings": [
+        "evento já terminou (2026-02-13)"
+      ]
+    },
+    {
+      "id": "viriato-tatabitato",
+      "title": "Tatabitato",
+      "warnings": [
+        "evento já terminou (2026-02-14)"
+      ]
+    },
+    {
+      "id": "viriato-primeira-pessoa-do-plural",
+      "title": "Primeira Pessoa do Plural",
+      "warnings": [
+        "evento já terminou (2026-02-27)"
+      ]
+    },
+    {
+      "id": "viriato-festival-amostra",
+      "title": "Festival AMOSTRA",
+      "warnings": [
+        "evento já terminou (2026-03-07)"
+      ]
+    },
+    {
+      "id": "viriato-bolsa-am-lia-rey-cola-o",
+      "title": "BOLSA AMÉLIA REY COLAÇO",
+      "warnings": [
+        "evento já terminou (2026-03-05)"
+      ]
+    },
+    {
+      "id": "viriato-pedras-de-parar-e-da-urg-ncia",
+      "title": "Pedras de parar e da urgência",
+      "warnings": [
+        "evento já terminou (2026-03-05)"
+      ]
+    },
+    {
+      "id": "viriato-aruna-e-a-arte-de-bordar-in-cios",
+      "title": "Aruna e a arte de bordar inícios",
+      "warnings": [
+        "evento já terminou (2026-03-07)"
+      ]
+    },
+    {
+      "id": "viriato-s-mais-uma-gaivota",
+      "title": "Só Mais Uma Gaivota",
+      "warnings": [
+        "evento já terminou (2026-03-13)"
+      ]
+    },
+    {
+      "id": "viriato-gaivotas-em-terra",
+      "title": "Gaivotas em Terra",
+      "warnings": [
+        "evento já terminou (2026-03-14)"
+      ]
+    },
+    {
+      "id": "viriato-aurora-ou-livro",
+      "title": "Aurora (ou Livro)",
+      "warnings": [
+        "evento já terminou (2026-03-20)"
       ]
     },
     {
@@ -603,6 +785,20 @@
       ]
     },
     {
+      "id": "tagv-doc-coimbra-notas-sobre-um-desterro",
+      "title": "DOC.Coimbra: Notas Sobre um Desterro",
+      "warnings": [
+        "evento já terminou (2026-03-21)"
+      ]
+    },
+    {
+      "id": "tagv-doc-coimbra-salatinas-hist-rias-da-velha-alta-de-c",
+      "title": "DOC.Coimbra: Salatinas. Histórias da Velha Alta de Coimbra",
+      "warnings": [
+        "evento já terminou (2026-03-21)"
+      ]
+    },
+    {
       "id": "tagv-festival-end-dramaturgia-contempor-nea-processos-d",
       "title": "Festival END: Dramaturgia Contemporânea. Processos de Composição",
       "warnings": [
@@ -630,15 +826,11 @@
     },
     "São Luiz Teatro Municipal": {
       "status": "ok",
-      "events_collected": 44
+      "events_collected": 43
     },
     "Teatro Maria Matos": {
-      "status": "stale",
-      "reason": "zero_results",
-      "exception": null,
-      "events_from_cache": 16,
-      "events_expired_discarded": 0,
-      "stale_since": "2026-03-21"
+      "status": "ok",
+      "events_collected": 17
     },
     "Culturgest": {
       "status": "ok",
@@ -649,12 +841,8 @@
       "events_collected": 6
     },
     "Teatro Viriato": {
-      "status": "stale",
-      "reason": "zero_results",
-      "exception": null,
-      "events_from_cache": 29,
-      "events_expired_discarded": 25,
-      "stale_since": "2026-03-21"
+      "status": "ok",
+      "events_collected": 54
     },
     "Theatro Circo": {
       "status": "ok",
