@@ -1,10 +1,11 @@
 {
-  "updated_at": "2026-03-23T10:34:55.093290+00:00",
-  "build_version": "20260323-1034",
-  "total_events": 221,
+  "updated_at": "2026-03-23T11:35:24.554079+00:00",
+  "build_version": "20260323-1135",
+  "schema_version": "2.0",
+  "total_events": 300,
   "total_theaters": 12,
-  "events_today": 1,
-  "events_this_weekend": 7,
+  "events_today": 16,
+  "events_this_weekend": 35,
   "cities": [
     "Braga",
     "Coimbra",
@@ -13,15 +14,38 @@
     "Viseu"
   ],
   "by_category": {
-    "Outro": 97,
-    "Teatro": 66,
-    "Música": 41,
-    "Dança": 8,
-    "Performance": 7,
-    "Circo": 1,
+    "Artes Performativas": 124,
+    "Música": 71,
+    "Multidisciplinar": 37,
+    "Cinema & Audiovisual": 26,
+    "Formação & Participação": 18,
+    "Artes Visuais & Exposições": 13,
+    "Pensamento & Conversa": 7,
+    "Infanto-Juvenil": 2,
+    "Literatura & Palavra": 2
+  },
+  "by_subcategory": {
+    "Performance": 72,
+    "Teatro": 45,
+    "Concerto": 31,
+    "Exposição": 6,
+    "Conversa": 5,
+    "Workshop": 4,
+    "Cinema": 2,
+    "Ópera": 2,
+    "Dança": 2,
+    "Comédia": 2,
     "Teatro Musical": 1
   },
-  "stale_theaters": 32,
+  "filter_counts": {
+    "is_free": 28,
+    "is_accessible": 0,
+    "for_families": 113,
+    "for_schools": 16,
+    "has_lsp": 0,
+    "is_festival": 21
+  },
+  "stale_theaters": 0,
   "by_theater": {
     "Theatro Circo": 61,
     "Teatro Viriato": 29,
@@ -29,14 +53,19 @@
     "Teatro da Trindade INATEL": 7,
     "São Luiz Teatro Municipal": 34,
     "Teatro Maria Matos": 16,
-    "TAGV — Teatro Académico Gil Vicente": 32,
-    "CCB — Centro Cultural de Belém": 6,
+    "CCB — Centro Cultural de Belém": 86,
+    "TAGV — Teatro Académico Gil Vicente": 31,
     "Teatro das Figuras": 20,
     "Capitólio": 6,
     "Teatro do Bairro": 1,
     "Culturgest": 3
   },
-  "completeness_avg": 0.639,
+  "completeness_avg": 0.603,
   "anomalies": [],
-  "scraper_health": {}
+  "scraper_health": {
+    "Cine-Teatro Avenida": {
+      "status": "empty",
+      "stale_since": null
+    }
+  }
 }

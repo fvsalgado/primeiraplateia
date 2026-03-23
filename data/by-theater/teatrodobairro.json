@@ -4,7 +4,7 @@
     "title": "Rei Lear",
     "theater": "Teatro do Bairro",
     "subtitle": "William Shakespeare; TraduÃ§Ã£o: Ãlvaro Cunhal; EncenaÃ§Ã£o: AntÃ³nio Pires",
-    "category": "Teatro",
+    "category": "Artes Performativas",
     "dates_label": "3 a 26 Abril",
     "date_start": "2026-04-03",
     "date_end": "2026-04-26",
@@ -42,11 +42,16 @@
       "luz": "Rui Seabra",
       "som": "Paulo Abelho; Costureira: RosÃ¡rio Balbi; ConstruÃ§Ã£o de cenÃ¡rio: FÃ¡bio Paulo; OperaÃ§Ã£o de luz: AntÃ³nio SerrÃ£o e JoÃ£o Madeira; OperaÃ§Ã£o de som: Vasco Maciel; Chefe de guarda roupa: InÃªs da Mata; Assistentes de guarda-roupa: Beatriz Dinis e Ema FalcÃ£o; IlustraÃ§Ã£o: Joana Villaverde; Foto"
     },
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "teatrodobairro",
     "city": "Lisboa",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.72
+      "completeness": 0.718
     }
   }
 ]

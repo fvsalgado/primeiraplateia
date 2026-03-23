@@ -4,7 +4,7 @@
     "title": "Paraíso, Meu Paraíso",
     "subtitle": "de Lígia Soares",
     "theater": "Teatro das Figuras",
-    "category": "Performance",
+    "category": "Artes Performativas",
     "dates_label": "26 Mar 2026",
     "date_start": "2026-03-26",
     "date_end": "2026-03-26",
@@ -29,11 +29,16 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.45
+      "completeness": 0.46
     }
   },
   {
@@ -66,11 +71,15 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.45
+      "completeness": 0.42
     }
   },
   {
@@ -78,7 +87,7 @@
     "title": "Os Invisíveis",
     "subtitle": "Documentário",
     "theater": "Teatro das Figuras",
-    "category": "Outro",
+    "category": "Cinema & Audiovisual",
     "dates_label": "7 Abr 2026",
     "date_start": "2026-04-07",
     "date_end": "2026-04-07",
@@ -103,11 +112,16 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Cinema",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.45
+      "completeness": 0.46
     }
   },
   {
@@ -115,7 +129,7 @@
     "title": "Paraíso de los Negros",
     "subtitle": "María Pagés Compañia",
     "theater": "Teatro das Figuras",
-    "category": "Dança",
+    "category": "Artes Performativas",
     "dates_label": "10 Abr 2026",
     "date_start": "2026-04-10",
     "date_end": "2026-04-10",
@@ -140,11 +154,16 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Dança",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.45
+      "completeness": 0.46
     }
   },
   {
@@ -177,11 +196,15 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.45
+      "completeness": 0.42
     }
   },
   {
@@ -189,7 +212,7 @@
     "title": "Estou à beira do abismo, mas a vista é excepcional",
     "subtitle": "Ciclo de Conversas",
     "theater": "Teatro das Figuras",
-    "category": "Outro",
+    "category": "Artes Performativas",
     "dates_label": "15 Abr 2026",
     "date_start": "2026-04-15",
     "date_end": "2026-04-15",
@@ -214,11 +237,16 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.45
+      "completeness": 0.46
     }
   },
   {
@@ -226,7 +254,7 @@
     "title": "A Luminosa Violência da Perfeição",
     "subtitle": "de Daniel Matos",
     "theater": "Teatro das Figuras",
-    "category": "Dança",
+    "category": "Artes Performativas",
     "dates_label": "18 Abr 2026",
     "date_start": "2026-04-18",
     "date_end": "2026-04-18",
@@ -251,11 +279,16 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Dança",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.45
+      "completeness": 0.46
     }
   },
   {
@@ -263,7 +296,7 @@
     "title": "ZOOM - Encontro de Mediação Cultural",
     "subtitle": "2.ª edição",
     "theater": "Teatro das Figuras",
-    "category": "Outro",
+    "category": "Artes Performativas",
     "dates_label": "22 Abr 2026 – 23 Abr 2026",
     "date_start": "2026-04-22",
     "date_end": "2026-04-23",
@@ -293,11 +326,16 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.45
+      "completeness": 0.46
     }
   },
   {
@@ -330,11 +368,15 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.45
+      "completeness": 0.42
     }
   },
   {
@@ -367,11 +409,16 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "is_festival": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.45
+      "completeness": 0.42
     }
   },
   {
@@ -379,7 +426,7 @@
     "title": "Joana Marques",
     "subtitle": "Em Sede Própria",
     "theater": "Teatro das Figuras",
-    "category": "Outro",
+    "category": "Artes Performativas",
     "dates_label": "3 Mai 2026",
     "date_start": "2026-05-03",
     "date_end": "2026-05-03",
@@ -404,11 +451,16 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Comédia",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.45
+      "completeness": 0.46
     }
   },
   {
@@ -416,7 +468,7 @@
     "title": "Falsas Histórias Verdadeiras: Uma Pina Colagem",
     "subtitle": "de Victor Hugo Pontes",
     "theater": "Teatro das Figuras",
-    "category": "Teatro",
+    "category": "Artes Performativas",
     "dates_label": "8 Mai 2026",
     "date_start": "2026-05-08",
     "date_end": "2026-05-08",
@@ -441,11 +493,16 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.45
+      "completeness": 0.46
     }
   },
   {
@@ -478,11 +535,15 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.45
+      "completeness": 0.42
     }
   },
   {
@@ -490,7 +551,7 @@
     "title": "Para que serve a Literatura?",
     "subtitle": "Ciclo de Conversas",
     "theater": "Teatro das Figuras",
-    "category": "Outro",
+    "category": "Artes Performativas",
     "dates_label": "27 Mai 2026",
     "date_start": "2026-05-27",
     "date_end": "2026-05-27",
@@ -515,11 +576,16 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.45
+      "completeness": 0.46
     }
   },
   {
@@ -527,7 +593,7 @@
     "title": "Masha e o Urso",
     "subtitle": "Missão no Circo",
     "theater": "Teatro das Figuras",
-    "category": "Teatro",
+    "category": "Artes Performativas",
     "dates_label": "31 Mai 2026",
     "date_start": "2026-05-31",
     "date_end": "2026-05-31",
@@ -552,11 +618,16 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.45
+      "completeness": 0.46
     }
   },
   {
@@ -564,7 +635,7 @@
     "title": "Quinteto de Morte",
     "subtitle": "",
     "theater": "Teatro das Figuras",
-    "category": "Teatro",
+    "category": "Artes Performativas",
     "dates_label": "5 Jun 2026 – 7 Jun 2026",
     "date_start": "2026-06-05",
     "date_end": "2026-06-07",
@@ -599,11 +670,16 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.45
+      "completeness": 0.46
     }
   },
   {
@@ -641,11 +717,15 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.45
+      "completeness": 0.42
     }
   },
   {
@@ -678,11 +758,15 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.45
+      "completeness": 0.42
     }
   },
   {
@@ -690,7 +774,7 @@
     "title": "Evita",
     "subtitle": "Yellow Star Company",
     "theater": "Teatro das Figuras",
-    "category": "Teatro Musical",
+    "category": "Artes Performativas",
     "dates_label": "20 Ago 2026 – 22 Ago 2026",
     "date_start": "2026-08-20",
     "date_end": "2026-08-22",
@@ -725,11 +809,16 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Teatro Musical",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.45
+      "completeness": 0.46
     }
   },
   {
@@ -762,11 +851,15 @@
     "duration": "",
     "age_rating": "",
     "technical_sheet": {},
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "teatrodasfiguras",
     "city": "Faro",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.45
+      "completeness": 0.42
     }
   }
 ]

@@ -3,7 +3,7 @@
     "id": "variedades-clube-de-leitura-do-teatro-variedades",
     "title": "Clube de Leitura do Teatro Variedades",
     "theater": "Teatro Variedades",
-    "category": "Outro",
+    "category": "Multidisciplinar",
     "dates_label": "19.01 – 14.12.2026",
     "date_start": "2026-01-19",
     "date_end": "2026-12-14",
@@ -36,19 +36,23 @@
     "subtitle": "60 min.",
     "duration": "60 min",
     "duration_min": 60,
-    "age_min": 351,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "age_min": null,
+    "schema_version": "2.0",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.6
+      "completeness": 0.57
     }
   },
   {
     "id": "variedades-in-the-heights",
     "title": "In the Heights",
     "theater": "Teatro Variedades",
-    "category": "Teatro",
+    "category": "Artes Performativas",
     "dates_label": "25.03 – 03.05.2026",
     "date_start": "2026-03-25",
     "date_end": "2026-05-03",
@@ -84,18 +88,23 @@
     "duration": "120 min",
     "duration_min": 120,
     "age_min": 12,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.65
+      "completeness": 0.66
     }
   },
   {
     "id": "variedades-o-tamanho-das-coisas",
     "title": "O Tamanho das Coisas",
     "theater": "Teatro Variedades",
-    "category": "Teatro",
+    "category": "Artes Performativas",
     "dates_label": "07.05 – 17.05.2026",
     "date_start": "2026-05-07",
     "date_end": "2026-05-17",
@@ -176,11 +185,16 @@
     "duration": "70 min",
     "duration_min": 70,
     "age_min": 14,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.65
+      "completeness": 0.66
     }
   },
   {
@@ -228,18 +242,23 @@
     "duration": "50 min",
     "duration_min": 50,
     "age_min": 6,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.65
+      "completeness": 0.63
     }
   },
   {
     "id": "variedades-radojka",
     "title": "Radojka",
     "theater": "Teatro Variedades",
-    "category": "Teatro",
+    "category": "Artes Performativas",
     "dates_label": "03.06 – 28.06.2026",
     "date_start": "2026-06-03",
     "date_end": "2026-06-28",
@@ -274,19 +293,24 @@
     "price_max": 14.0,
     "duration": "90 min",
     "duration_min": 90,
-    "age_min": 351,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "age_min": null,
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.65
+      "completeness": 0.66
     }
   },
   {
     "id": "variedades-teatro-variedades-100-anos-100-entradas-na-wikip-d",
     "title": "Teatro Variedades: 100 Anos, 100 Entradas na Wikipédia",
     "theater": "Teatro Variedades",
-    "category": "Outro",
+    "category": "Multidisciplinar",
     "dates_label": "18.10 – 20.06.2026",
     "date_start": "2026-10-18",
     "date_end": "2026-10-18",
@@ -310,12 +334,16 @@
     "price_max": 0.0,
     "duration": "14h30",
     "duration_min": 870,
-    "age_min": 351,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "age_min": null,
+    "schema_version": "2.0",
+    "is_free": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "variedades",
     "city": "Lisboa",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.45
+      "completeness": 0.46
     }
   }
 ]

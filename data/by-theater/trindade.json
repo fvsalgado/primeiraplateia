@@ -3,7 +3,7 @@
     "id": "trindade-a-gaivota",
     "title": "A GAIVOTA",
     "theater": "Teatro da Trindade INATEL",
-    "category": "Outro",
+    "category": "Artes Performativas",
     "subtitle": "De Anton Tchékhov Versão e encenação Diogo Infante",
     "dates_label": "29 Jan – 05 Abr 2026",
     "date_start": "2026-01-29",
@@ -57,18 +57,23 @@
     "price_max": 22.0,
     "age_rating": "M/12",
     "age_min": 12,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.74
+      "completeness": 0.736
     }
   },
   {
     "id": "trindade-brokeback-mountain",
     "title": "BROKEBACK MOUNTAIN",
     "theater": "Teatro da Trindade INATEL",
-    "category": "Outro",
+    "category": "Música",
     "subtitle": "De Ashley Robinson , a partir do conto de Annie Proulx Música Dan Gillespie Sells Encenação Daniel Gorjão",
     "dates_label": "19 Fev – 05 Abr 2026",
     "date_start": "2026-02-19",
@@ -120,18 +125,23 @@
     "age_min": 16,
     "duration": "90 min.",
     "duration_min": 90,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Concerto",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.81
+      "completeness": 0.804
     }
   },
   {
     "id": "trindade-verdadeiro-oeste",
     "title": "Verdadeiro Oeste",
     "theater": "Teatro da Trindade INATEL",
-    "category": "Outro",
+    "category": "Artes Performativas",
     "subtitle": "De Sam Shepard Encenação Rita Lello",
     "dates_label": "23 Abr – 07 Jun 2026",
     "date_start": "2026-04-23",
@@ -182,18 +192,23 @@
     "age_min": 12,
     "duration": "90 min.",
     "duration_min": 90,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.81
+      "completeness": 0.804
     }
   },
   {
     "id": "trindade-clube-dos-poetas-mortos",
     "title": "CLUBE DOS POETAS MORTOS",
     "theater": "Teatro da Trindade INATEL",
-    "category": "Outro",
+    "category": "Artes Performativas",
     "subtitle": "De Tom Schulman Encenação Hélder Gamboa",
     "dates_label": "30 Abr – 02 Ago 2026",
     "date_start": "2026-04-30",
@@ -244,18 +259,23 @@
     "age_min": 14,
     "duration": "90 min.",
     "duration_min": 90,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.85
+      "completeness": 0.84
     }
   },
   {
     "id": "trindade-diana-vilarinho",
     "title": "Diana Vilarinho",
     "theater": "Teatro da Trindade INATEL",
-    "category": "Outro",
+    "category": "Artes Performativas",
     "subtitle": "Uma Carta Escrita",
     "dates_label": "12 Mai 2026",
     "date_start": "2026-05-12",
@@ -292,18 +312,24 @@
     "price_max": 20.0,
     "age_rating": "M/6",
     "age_min": 6,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.72
+      "completeness": 0.728
     }
   },
   {
     "id": "trindade-mico-da-camara-pereira",
     "title": "Mico da Camara Pereira",
     "theater": "Teatro da Trindade INATEL",
-    "category": "Outro",
+    "category": "Artes Performativas",
     "subtitle": "40 anos de teimosia Convidados Francisca da Camara Pereira, Frederico BC, Jaqueline Carvalho, CC, Gonçalo da Camara Pereira, Lara Afonso, João Campos, Noa, Luís Represas, Namorados da Cidade, Pedro Urbano, Rão Kyao, Rui Melo, Silvestre Fonseca e Sónia Costa.",
     "dates_label": "26 Mai 2026",
     "date_start": "2026-05-26",
@@ -338,18 +364,24 @@
     "price_max": 20.0,
     "age_rating": "M/6",
     "age_min": 6,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.68
+      "completeness": 0.692
     }
   },
   {
     "id": "trindade-andr-de-freitas",
     "title": "André de Freitas",
     "theater": "Teatro da Trindade INATEL",
-    "category": "Outro",
+    "category": "Artes Performativas",
     "subtitle": "Stand-up comedy Public display of affection",
     "dates_label": "16 Jun 2026",
     "date_start": "2026-06-16",
@@ -381,11 +413,16 @@
     "cast": [],
     "price_min": 16.0,
     "price_max": 20.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Comédia",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.61
+      "completeness": 0.614
     }
   }
 ]

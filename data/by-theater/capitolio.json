@@ -3,7 +3,7 @@
     "id": "capitolio-evita",
     "title": "Evita",
     "theater": "Capitólio",
-    "category": "Teatro",
+    "category": "Artes Performativas",
     "dates_label": "27.03 – 28.06.2026",
     "date_start": "2026-03-27",
     "date_end": "2026-06-28",
@@ -39,11 +39,16 @@
     "duration": "120 min",
     "duration_min": 120,
     "age_min": 12,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.65
+      "completeness": 0.66
     }
   },
   {
@@ -91,11 +96,16 @@
     "duration": "50 min",
     "duration_min": 50,
     "age_min": 6,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.65
+      "completeness": 0.63
     }
   },
   {
@@ -133,18 +143,23 @@
     "duration": "150 min",
     "duration_min": 150,
     "age_min": 6,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.65
+      "completeness": 0.63
     }
   },
   {
     "id": "capitolio-gongada-drag",
     "title": "Gongada Drag",
     "theater": "Capitólio",
-    "category": "Performance",
+    "category": "Artes Performativas",
     "dates_label": "15.07 – 16.07.2026",
     "date_start": "2026-07-15",
     "date_end": "2026-07-16",
@@ -178,18 +193,23 @@
     "duration": "120 min",
     "duration_min": 120,
     "age_min": 16,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.6
+      "completeness": 0.61
     }
   },
   {
     "id": "capitolio-macbeth",
     "title": "MACBETH",
     "theater": "Capitólio",
-    "category": "Teatro",
+    "category": "Artes Performativas",
     "dates_label": "21.07 – 25.07.2026",
     "date_start": "2026-07-21",
     "date_end": "2026-07-25",
@@ -239,19 +259,24 @@
     "price_max": 10.0,
     "duration": "90 min",
     "duration_min": 90,
-    "age_min": 351,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "age_min": null,
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.65
+      "completeness": 0.66
     }
   },
   {
     "id": "capitolio-come-from-away",
     "title": "Come From Away",
     "theater": "Capitólio",
-    "category": "Teatro",
+    "category": "Artes Performativas",
     "dates_label": "10.09 – 04.10.2026",
     "date_start": "2026-09-10",
     "date_end": "2026-10-04",
@@ -286,12 +311,17 @@
     "price_max": 25.0,
     "duration": "105 min",
     "duration_min": 105,
-    "age_min": 351,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "age_min": null,
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "capitolio",
     "city": "Lisboa",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.65
+      "completeness": 0.66
     }
   }
 ]

@@ -5,7 +5,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/tres-tempos-2026/",
     "date_start": "2026-01-12",
-    "category": "Outro",
+    "category": "Multidisciplinar",
     "dates_label": "12 Janeiro a 18 Abril",
     "sessions": [
       {
@@ -38,11 +38,15 @@
     "subtitle": "Com Xullaji e Tiago Sampaio",
     "date_end": "2026-04-18",
     "schedule": "18h45",
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.56
+      "completeness": 0.544
     }
   },
   {
@@ -85,11 +89,16 @@
     "schedule": "18h00",
     "age_rating": "M/6",
     "age_min": 6,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": true,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.59
+      "completeness": 0.586
     }
   },
   {
@@ -98,7 +107,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/maria-vitoria/",
     "date_start": "2026-03-23",
-    "category": "Outro",
+    "category": "Cinema & Audiovisual",
     "dates_label": "23 Março",
     "sessions": [
       {
@@ -126,11 +135,15 @@
     "age_min": 14,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.6
+      "completeness": 0.57
     }
   },
   {
@@ -139,7 +152,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/la-guitarra-flamenca-de-yerai-cortes/",
     "date_start": "2026-03-24",
-    "category": "Outro",
+    "category": "Cinema & Audiovisual",
     "dates_label": "24 Março",
     "sessions": [
       {
@@ -171,11 +184,16 @@
     "age_min": 6,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.62
+      "completeness": 0.598
     }
   },
   {
@@ -184,7 +202,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/conversa-jantar-sara-ines-gigante/",
     "date_start": "2026-03-26",
-    "category": "Outro",
+    "category": "Multidisciplinar",
     "dates_label": "26 Março",
     "sessions": [
       {
@@ -211,11 +229,15 @@
     "accessibility": [],
     "subtitle": "Celebração do Dia Mundial do Teatro",
     "schedule": "19h00",
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.52
+      "completeness": 0.508
     }
   },
   {
@@ -224,7 +246,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/popular/",
     "date_start": "2026-03-27",
-    "category": "Teatro",
+    "category": "Artes Performativas",
     "dates_label": "27 Março",
     "sessions": [
       {
@@ -253,8 +275,8 @@
       "produção": "Leonardo Garibaldi, Joana Silva"
     },
     "tags": [
-      "Dia Mundial do Teatro",
-      "Acessibilidade"
+      "Acessibilidade",
+      "Dia Mundial do Teatro"
     ],
     "accessibility": [
       "LGP",
@@ -269,11 +291,16 @@
     "age_min": 14,
     "price_min": 5.0,
     "price_max": 5.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.81
+      "completeness": 0.804
     }
   },
   {
@@ -282,7 +309,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/companhia-de-espectadores-mar2026/",
     "date_start": "2026-03-28",
-    "category": "Outro",
+    "category": "Multidisciplinar",
     "dates_label": "28 Março",
     "sessions": [
       {
@@ -310,11 +337,16 @@
     "accessibility": [],
     "subtitle": "Biografia e Autoficção",
     "schedule": "11h00",
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": true,
+    "for_schools": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.58
+      "completeness": 0.562
     }
   },
   {
@@ -323,7 +355,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/visita-guiada-ao-theatro-circo-mar2026/",
     "date_start": "2026-03-28",
-    "category": "Outro",
+    "category": "Multidisciplinar",
     "dates_label": "28 Março",
     "sessions": [
       {
@@ -349,11 +381,15 @@
     "duration_min": 45,
     "price_min": 3.5,
     "price_max": 3.5,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.55
+      "completeness": 0.52
     }
   },
   {
@@ -392,11 +428,16 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.62
+      "completeness": 0.598
     }
   },
   {
@@ -405,7 +446,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/blue-moon/",
     "date_start": "2026-03-30",
-    "category": "Outro",
+    "category": "Cinema & Audiovisual",
     "dates_label": "30 Março",
     "sessions": [
       {
@@ -435,11 +476,15 @@
     "age_min": 14,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.62
+      "completeness": 0.588
     }
   },
   {
@@ -448,7 +493,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/romeu-julieta-mar-2/",
     "date_start": "2026-03-31",
-    "category": "Teatro",
+    "category": "Artes Performativas",
     "dates_label": "31 Março",
     "sessions": [
       {
@@ -484,11 +529,16 @@
     "age_min": 12,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.74
+      "completeness": 0.736
     }
   },
   {
@@ -497,7 +547,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/supracasa-open-call-laboratorio-assimetrico/",
     "date_start": "2026-04-07",
-    "category": "Dança",
+    "category": "Artes Performativas",
     "dates_label": "7 a 9 Abril",
     "sessions": [
       {
@@ -533,11 +583,16 @@
     "subtitle": "com Beatriz Valentim",
     "date_end": "2026-04-09",
     "schedule": "11h00",
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.52
+      "completeness": 0.548
     }
   },
   {
@@ -546,7 +601,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/amadeos/",
     "date_start": "2026-04-08",
-    "category": "Teatro",
+    "category": "Artes Performativas",
     "dates_label": "8 Abril",
     "sessions": [
       {
@@ -580,11 +635,17 @@
     "age_min": 6,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.71
+      "completeness": 0.724
     }
   },
   {
@@ -621,11 +682,16 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.6
+      "completeness": 0.58
     }
   },
   {
@@ -634,7 +700,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/entroncamento/",
     "date_start": "2026-04-13",
-    "category": "Outro",
+    "category": "Cinema & Audiovisual",
     "dates_label": "13 Abril",
     "sessions": [
       {
@@ -660,11 +726,15 @@
     "sala": "Pequeno Auditório",
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.55
+      "completeness": 0.52
     }
   },
   {
@@ -673,7 +743,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/111-aniversario-theatro-circo/",
     "date_start": "2026-04-17",
-    "category": "Outro",
+    "category": "Multidisciplinar",
     "dates_label": "17 a 24 Abril",
     "sessions": [
       {
@@ -737,11 +807,15 @@
     "date_end": "2026-04-24",
     "schedule": "21h30",
     "sala": "Pequeno Auditório",
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.49
+      "completeness": 0.456
     }
   },
   {
@@ -750,7 +824,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/capra/",
     "date_start": "2026-04-17",
-    "category": "Teatro",
+    "category": "Artes Performativas",
     "dates_label": "17 Abril",
     "sessions": [
       {
@@ -788,11 +862,16 @@
     "duration_min": 90,
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.74
+      "completeness": 0.736
     }
   },
   {
@@ -801,7 +880,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/historias-de-sonho/",
     "date_start": "2026-04-18",
-    "category": "Teatro",
+    "category": "Artes Performativas",
     "dates_label": "18 Abril",
     "sessions": [
       {
@@ -821,19 +900,24 @@
     "price_info": "",
     "technical_sheet": {},
     "tags": [
-      "Aniversário",
-      "Infantojuvenil"
+      "Infantojuvenil",
+      "Aniversário"
     ],
     "accessibility": [],
     "subtitle": "Livraria Aqui há Gato",
     "schedule": "11h30",
     "duration": "35 min.",
     "duration_min": 35,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.55
+      "completeness": 0.56
     }
   },
   {
@@ -874,11 +958,16 @@
     "age_min": 6,
     "price_min": 15.0,
     "price_max": 15.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.65
+      "completeness": 0.63
     }
   },
   {
@@ -920,11 +1009,16 @@
     "age_min": 6,
     "price_min": 20.0,
     "price_max": 20.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.66
+      "completeness": 0.634
     }
   },
   {
@@ -933,7 +1027,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/o-barqueiro/",
     "date_start": "2026-04-20",
-    "category": "Outro",
+    "category": "Cinema & Audiovisual",
     "dates_label": "20 Abril",
     "sessions": [
       {
@@ -961,11 +1055,16 @@
     "age_min": 16,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.6
+      "completeness": 0.58
     }
   },
   {
@@ -1007,11 +1106,16 @@
     "age_min": 6,
     "price_min": 25.0,
     "price_max": 25.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.64
+      "completeness": 0.616
     }
   },
   {
@@ -1020,7 +1124,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/formas-de-fazer-nina-laisne/",
     "date_start": "2026-04-22",
-    "category": "Outro",
+    "category": "Multidisciplinar",
     "dates_label": "22 Abril",
     "sessions": [
       {
@@ -1053,11 +1157,15 @@
     "duration_min": 120,
     "age_rating": "M/16",
     "age_min": 16,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.64
+      "completeness": 0.626
     }
   },
   {
@@ -1066,7 +1174,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/nina-laisne-nestor-pastorive/",
     "date_start": "2026-04-24",
-    "category": "Dança",
+    "category": "Artes Performativas",
     "dates_label": "24 Abril",
     "sessions": [
       {
@@ -1108,9 +1216,15 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
       "completeness": 0.8
     }
@@ -1121,7 +1235,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/dj-ahmet/",
     "date_start": "2026-04-27",
-    "category": "Outro",
+    "category": "Cinema & Audiovisual",
     "dates_label": "27 Abril",
     "sessions": [
       {
@@ -1151,11 +1265,16 @@
     "age_min": 12,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.62
+      "completeness": 0.598
     }
   },
   {
@@ -1202,11 +1321,16 @@
     "age_min": 6,
     "price_min": 40.0,
     "price_max": 40.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.66
+      "completeness": 0.634
     }
   },
   {
@@ -1215,7 +1339,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/os-transparentes/",
     "date_start": "2026-05-06",
-    "category": "Teatro",
+    "category": "Artes Performativas",
     "dates_label": "6 Maio",
     "sessions": [
       {
@@ -1251,9 +1375,14 @@
     "age_min": 12,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
       "completeness": 0.75
     }
@@ -1264,7 +1393,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/index-2026/",
     "date_start": "2026-05-07",
-    "category": "Outro",
+    "category": "Multidisciplinar",
     "dates_label": "7 a 17 Maio",
     "sessions": [
       {
@@ -1337,11 +1466,15 @@
     "accessibility": [],
     "subtitle": "Bienal de Arte e Tecnologia",
     "date_end": "2026-05-17",
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.45
+      "completeness": 0.42
     }
   },
   {
@@ -1350,7 +1483,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/index-fanfictional-politics-pedro-gossler/",
     "date_start": "2026-05-07",
-    "category": "Outro",
+    "category": "Artes Visuais & Exposições",
     "dates_label": "7 a 17 Maio",
     "sessions": [
       {
@@ -1424,11 +1557,15 @@
     "subtitle": "Pedro Gossler",
     "date_end": "2026-05-17",
     "schedule": "14h30",
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.5
+      "completeness": 0.49
     }
   },
   {
@@ -1437,7 +1574,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/index-aether-poor-objects/",
     "date_start": "2026-05-07",
-    "category": "Outro",
+    "category": "Artes Visuais & Exposições",
     "dates_label": "7 a 17 Maio",
     "sessions": [
       {
@@ -1513,11 +1650,15 @@
     "subtitle": "Shuang Li",
     "date_end": "2026-05-17",
     "schedule": "14h30",
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.52
+      "completeness": 0.508
     }
   },
   {
@@ -1526,7 +1667,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/index-forensis-bill-kouligas/",
     "date_start": "2026-05-07",
-    "category": "Performance",
+    "category": "Artes Performativas",
     "dates_label": "7 Maio",
     "sessions": [
       {
@@ -1556,11 +1697,17 @@
     "age_min": 6,
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.62
+      "completeness": 0.638
     }
   },
   {
@@ -1569,7 +1716,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/index-supersilent-lawrence-abu-hamdan/",
     "date_start": "2026-05-08",
-    "category": "Performance",
+    "category": "Artes Performativas",
     "dates_label": "8 Maio",
     "sessions": [
       {
@@ -1597,11 +1744,17 @@
     "age_min": 6,
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.6
+      "completeness": 0.62
     }
   },
   {
@@ -1610,7 +1763,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/index-arkadi-zaides/",
     "date_start": "2026-05-09",
-    "category": "Performance",
+    "category": "Artes Performativas",
     "dates_label": "9 Maio",
     "sessions": [
       {
@@ -1638,11 +1791,17 @@
     "age_min": 6,
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.6
+      "completeness": 0.62
     }
   },
   {
@@ -1651,7 +1810,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/american-blues-mai/",
     "date_start": "2026-05-12",
-    "category": "Teatro",
+    "category": "Artes Performativas",
     "dates_label": "12 a 14 Maio",
     "sessions": [
       {
@@ -1698,11 +1857,16 @@
     "age_min": 12,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.74
+      "completeness": 0.736
     }
   },
   {
@@ -1711,7 +1875,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/saber-ir-ao-fundo/",
     "date_start": "2026-05-15",
-    "category": "Teatro",
+    "category": "Artes Performativas",
     "dates_label": "15 e 16 Maio",
     "sessions": [
       {
@@ -1749,11 +1913,17 @@
     "age_min": 3,
     "price_min": 2.5,
     "price_max": 2.5,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.65
+      "completeness": 0.67
     }
   },
   {
@@ -1762,7 +1932,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/mulheres-estrangeiras/",
     "date_start": "2026-05-20",
-    "category": "Teatro",
+    "category": "Artes Performativas",
     "dates_label": "20 Maio",
     "sessions": [
       {
@@ -1795,11 +1965,16 @@
     "duration_min": 55,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.63
+      "completeness": 0.632
     }
   },
   {
@@ -1842,11 +2017,17 @@
     "sala": "Sala Principal",
     "age_rating": "M/6",
     "age_min": 6,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "is_festival": true,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.52
+      "completeness": 0.498
     }
   },
   {
@@ -1855,7 +2036,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/habitar-hotel-europa/",
     "date_start": "2026-05-29",
-    "category": "Teatro",
+    "category": "Artes Performativas",
     "dates_label": "29 Maio",
     "sessions": [
       {
@@ -1894,11 +2075,16 @@
     "sala": "Sala Principal",
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.71
+      "completeness": 0.704
     }
   },
   {
@@ -1907,7 +2093,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/contexto-antoniobritoguterres-mariamanueloliveira/",
     "date_start": "2026-05-30",
-    "category": "Outro",
+    "category": "Pensamento & Conversa",
     "dates_label": "30 Maio",
     "sessions": [
       {
@@ -1932,11 +2118,15 @@
     "tags": [],
     "accessibility": [],
     "subtitle": "António Brito Guterres e Maria Manuel Oliveira",
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.54
+      "completeness": 0.526
     }
   },
   {
@@ -1976,11 +2166,16 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.64
+      "completeness": 0.616
     }
   },
   {
@@ -2016,11 +2211,16 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.6
+      "completeness": 0.58
     }
   },
   {
@@ -2029,7 +2229,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/oru-kami-garibambi/",
     "date_start": "2026-06-01",
-    "category": "Outro",
+    "category": "Multidisciplinar",
     "dates_label": "1 e 6 Junho",
     "sessions": [
       {
@@ -2091,11 +2291,15 @@
     "duration_min": 35,
     "price_min": 3.0,
     "price_max": 3.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.67
+      "completeness": 0.628
     }
   },
   {
@@ -2104,7 +2308,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/chamada-aberta-ao-publico-do-theatro-circo/",
     "date_start": "2026-06-02",
-    "category": "Outro",
+    "category": "Multidisciplinar",
     "dates_label": "2 Junho a 31 Outubro",
     "sessions": [
       {
@@ -2131,11 +2335,15 @@
     "tags": [],
     "accessibility": [],
     "date_end": "2026-10-31",
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.45
+      "completeness": 0.42
     }
   },
   {
@@ -2176,11 +2384,16 @@
     "age_min": 6,
     "price_min": 30.0,
     "price_max": 30.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.66
+      "completeness": 0.634
     }
   },
   {
@@ -2189,7 +2402,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/buluku/",
     "date_start": "2026-06-05",
-    "category": "Dança",
+    "category": "Artes Performativas",
     "dates_label": "5 e 6 Junho",
     "sessions": [
       {
@@ -2227,11 +2440,17 @@
     "age_min": 6,
     "price_min": 2.5,
     "price_max": 2.5,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.65
+      "completeness": 0.67
     }
   },
   {
@@ -2240,7 +2459,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/o-meu-astronauta-e-o-metaverso/",
     "date_start": "2026-06-06",
-    "category": "Outro",
+    "category": "Multidisciplinar",
     "dates_label": "6 Junho",
     "sessions": [
       {
@@ -2272,11 +2491,16 @@
     "age_min": 6,
     "price_min": 3.0,
     "price_max": 3.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.62
+      "completeness": 0.598
     }
   },
   {
@@ -2285,7 +2509,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/the-legendary-tigerman-curtas-metragens/",
     "date_start": "2026-06-06",
-    "category": "Outro",
+    "category": "Multidisciplinar",
     "dates_label": "6 Junho",
     "sessions": [
       {
@@ -2318,11 +2542,16 @@
     "age_min": 6,
     "price_min": 2.5,
     "price_max": 2.5,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.66
+      "completeness": 0.634
     }
   },
   {
@@ -2362,11 +2591,16 @@
     "age_min": 6,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.64
+      "completeness": 0.616
     }
   },
   {
@@ -2375,7 +2609,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/jose-afonso-ao-vivo-nos-coliseus-1983/",
     "date_start": "2026-06-13",
-    "category": "Teatro",
+    "category": "Artes Performativas",
     "dates_label": "13 Junho",
     "sessions": [
       {
@@ -2420,11 +2654,16 @@
     "age_min": 12,
     "price_min": 12.0,
     "price_max": 12.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.85
+      "completeness": 0.84
     }
   },
   {
@@ -2464,11 +2703,16 @@
     "age_min": 6,
     "price_min": 25.0,
     "price_max": 25.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.64
+      "completeness": 0.616
     }
   },
   {
@@ -2477,7 +2721,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/formas-de-fazer-pedro-melo-alves/",
     "date_start": "2026-06-26",
-    "category": "Outro",
+    "category": "Multidisciplinar",
     "dates_label": "26 Junho",
     "sessions": [
       {
@@ -2504,11 +2748,15 @@
     "subtitle": "Com Pedro Melo Alves",
     "duration": "90 min.",
     "duration_min": 90,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.59
+      "completeness": 0.576
     }
   },
   {
@@ -2549,11 +2797,16 @@
     "age_min": 6,
     "price_min": 9.0,
     "price_max": 9.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.66
+      "completeness": 0.634
     }
   },
   {
@@ -2562,7 +2815,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/cinema-play-possivel-e-impossivel/",
     "date_start": "2026-07-11",
-    "category": "Outro",
+    "category": "Cinema & Audiovisual",
     "dates_label": "11 Julho",
     "sessions": [
       {
@@ -2595,11 +2848,16 @@
     "age_min": 3,
     "price_min": 1.5,
     "price_max": 1.5,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.62
+      "completeness": 0.598
     }
   },
   {
@@ -2608,7 +2866,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/v-mit-mostra-internacional-de-teatro-sem-fronteiras/",
     "date_start": "2026-07-18",
-    "category": "Teatro",
+    "category": "Artes Performativas",
     "dates_label": "18 a 25 Julho",
     "sessions": [
       {
@@ -2667,11 +2925,16 @@
     "tags": [],
     "accessibility": [],
     "date_end": "2026-07-25",
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.47
+      "completeness": 0.478
     }
   },
   {
@@ -2680,7 +2943,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/hamlet-jul2026/",
     "date_start": "2026-07-28",
-    "category": "Teatro",
+    "category": "Artes Performativas",
     "dates_label": "28 e 29 Julho",
     "sessions": [
       {
@@ -2719,11 +2982,16 @@
     "age_min": 12,
     "price_min": 10.0,
     "price_max": 10.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.63
+      "completeness": 0.632
     }
   },
   {
@@ -2732,7 +3000,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/as-correntes-de-joao-cesar-monteiro/",
     "date_start": "2026-08-03",
-    "category": "Outro",
+    "category": "Cinema & Audiovisual",
     "dates_label": "3 e 31 Agosto",
     "sessions": [
       {
@@ -2766,11 +3034,15 @@
     "sala": "Pequeno Auditório",
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.57
+      "completeness": 0.538
     }
   },
   {
@@ -2779,7 +3051,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/veredas/",
     "date_start": "2026-08-03",
-    "category": "Outro",
+    "category": "Cinema & Audiovisual",
     "dates_label": "3 Agosto",
     "sessions": [
       {
@@ -2809,11 +3081,15 @@
     "age_min": 12,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.57
+      "completeness": 0.538
     }
   },
   {
@@ -2822,7 +3098,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/silvestre/",
     "date_start": "2026-08-10",
-    "category": "Outro",
+    "category": "Cinema & Audiovisual",
     "dates_label": "10 Agosto",
     "sessions": [
       {
@@ -2852,11 +3128,15 @@
     "age_min": 12,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.57
+      "completeness": 0.538
     }
   },
   {
@@ -2865,7 +3145,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/a-flor-do-mar/",
     "date_start": "2026-08-17",
-    "category": "Outro",
+    "category": "Cinema & Audiovisual",
     "dates_label": "17 Agosto",
     "sessions": [
       {
@@ -2895,11 +3175,15 @@
     "age_min": 12,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.57
+      "completeness": 0.538
     }
   },
   {
@@ -2908,7 +3192,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/o-ultimo-mergulho/",
     "date_start": "2026-08-24",
-    "category": "Outro",
+    "category": "Cinema & Audiovisual",
     "dates_label": "24 Agosto",
     "sessions": [
       {
@@ -2939,11 +3223,15 @@
     "age_min": 12,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.59
+      "completeness": 0.556
     }
   },
   {
@@ -2952,7 +3240,7 @@
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/as-bodas-de-deus/",
     "date_start": "2026-08-31",
-    "category": "Outro",
+    "category": "Cinema & Audiovisual",
     "dates_label": "31 Agosto",
     "sessions": [
       {
@@ -2982,11 +3270,15 @@
     "age_min": 16,
     "price_min": 4.0,
     "price_max": 4.0,
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.57
+      "completeness": 0.538
     }
   }
 ]

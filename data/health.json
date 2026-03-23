@@ -1,0 +1,12 @@
+{
+  "updated_at": "2026-03-23T11:35:24.554079+00:00",
+  "status": "degraded",
+  "total_events": 300,
+  "total_scrapers": 13,
+  "scrapers_ok": 12,
+  "scrapers_stale": 0,
+  "scrapers_empty": 1,
+  "is_free_count": 28,
+  "anomalies": 0,
+  "last_build": "20260323-1135"
+}

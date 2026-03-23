@@ -1,10 +1,146 @@
 [
   {
+    "id": "ccb-may-i-help-you-posso-ajudar",
+    "title": "May I Help You? Posso Ajudar?",
+    "subtitle": "Artes e artistas da década de 1970 em diante",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Visuais & Exposições",
+    "dates_label": "2026-03-24",
+    "date_start": "2026-03-24",
+    "date_end": "2026-03-24",
+    "sessions": [
+      {
+        "date": "2026-03-24",
+        "time": "",
+        "weekday": "Ter"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Exposição que toma como ponto de partida cinco décadas de produção artística, da década de 1970 em diante, e que inclui obras de 90 artistas. Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB A questão quotidiana «Posso …",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/11/May-I-Help-You_MAC_CCB2-creditoAntonioJorgeSilva-scaled.jpg",
+      "credit": "Vista parcial da exposição «May I Help You? Posso ajudar?» © António Jorge Silva",
+      "source": "https://www.ccb.pt/evento/exposicao-may-i-help-you-posso-ajudar/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/exposicao-may-i-help-you-posso-ajudar/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "música": "Teatro Dança Conferências e Conversas Exposições Escolas Familías Bilheteira Podcasts CCB CCB Digital Arquivo Visitar Como Chegar Acessibilidade Mercado CCB Lojas e Restaurantes Jardins e Ar Livre Sala de Leitura, Acervo e Arquivo Daciano da Costa no CCB CCB Sobre Informações sob"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Exposição",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.538
+    }
+  },
+  {
+    "id": "ccb-minist-rio-do-sens-vel",
+    "title": "Ministério do Sensível",
+    "subtitle": "Um projeto de mediação, participação e inspiração",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Performativas",
+    "dates_label": "2026-03-24",
+    "date_start": "2026-03-24",
+    "date_end": "2026-03-24",
+    "sessions": [
+      {
+        "date": "2026-03-24",
+        "time": "",
+        "weekday": "Ter"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Talvez tenhamos que começar a pensar em proteger, organizar e a reivindicar o que faz de nós Humanos. Talvez possamos utilizar formas de organização da sociedade, colocando-as ao serviço de outras dimensões humanas que não se definem por critérios funcionais, operativos, lucrativos ou reguladores.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/11/Misterio-do-sensivel.jpeg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/ministerio-do-sensivel/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/ministerio-do-sensivel/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.52
+    }
+  },
+  {
+    "id": "ccb-uma-deriva-atl-ntica",
+    "title": "Uma deriva atlântica",
+    "subtitle": "As artes do século XX a partir da Coleção Berardo",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Visuais & Exposições",
+    "dates_label": "2026-03-24",
+    "date_start": "2026-03-24",
+    "date_end": "2026-03-24",
+    "sessions": [
+      {
+        "date": "2026-03-24",
+        "time": "",
+        "weekday": "Ter"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Exposição que apresenta de forma inédita a Coleção Berardo, mas também a Coleção Holma/Ellipse, a Coleção Teixeira de Freitas e a Coleção de Arte Contemporânea do Estado.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/03/Antonio-JorgeSilvaUma-Deriva-Atlantida-L-CCB-4K.jpg",
+      "credit": "António Jorge Silva Vista parcial da exposição «Uma Deriva Atlântida» © António",
+      "source": "https://www.ccb.pt/evento/uma-deriva-atlantica-as-artes-do-seculo-xx-a-partir-da-colecao-berardo/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/uma-deriva-atlantica-as-artes-do-seculo-xx-a-partir-da-colecao-berardo/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "música": "Teatro Dança Conferências e Conversas Exposições Escolas Familías Bilheteira Podcasts CCB CCB Digital Arquivo Visitar Como Chegar Acessibilidade Mercado CCB Lojas e Restaurantes Jardins e Ar Livre Sala de Leitura, Acervo e Arquivo Daciano da Costa no CCB CCB Sobre Informações sob"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Exposição",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.538
+    }
+  },
+  {
     "id": "ccb-a-valentina-e-a-valeria-n-o-est-o-mortas",
     "title": "A Valentina e a Valeria não estão mortas",
     "subtitle": "Flávia Gusmão e Jacinto Lucas Pires",
     "theater": "CCB — Centro Cultural de Belém",
-    "category": "Teatro",
+    "category": "Música",
     "dates_label": "2026-03-26",
     "date_start": "2026-03-26",
     "date_end": "2026-03-26",
@@ -38,11 +174,2598 @@
       "produção": "Executiva Marisa Coelho Gestão Financeira Nuno Pratas",
       "coprodução": "Associação Bo Dixam Bai, Associação Palavrão, Centro Cultural de Belém, Cineteatro Louletano e Culturproject"
     },
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Concerto",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.71
+      "completeness": 0.704
+    }
+  },
+  {
+    "id": "ccb-lee-ritenour-038-friends",
+    "title": "Lee Ritenour & Friends",
+    "subtitle": "",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Música",
+    "dates_label": "2026-03-26",
+    "date_start": "2026-03-26",
+    "date_end": "2026-03-26",
+    "sessions": [
+      {
+        "date": "2026-03-26",
+        "time": "",
+        "weekday": "Qui"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Uma viagem musical e dinâmica pelo soul jazz, liderada por Vincent Herring, que se apresenta com um septeto de músicos de primeira linha. Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB Ao longo da sua brilhante carrei…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/09/LeeRitenour_EventoFacebook.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/lee-ritenour-friends/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/lee-ritenour-friends/",
+    "ticket_url": "",
+    "price_info": "35\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Concerto",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.51
+    }
+  },
+  {
+    "id": "ccb-notas-de-m-sica-8211-ciclo-de-confer-ncias",
+    "title": "Notas de Música – Ciclo de Conferências",
+    "subtitle": "",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Música",
+    "dates_label": "2026-03-26",
+    "date_start": "2026-03-26",
+    "date_end": "2026-03-26",
+    "sessions": [
+      {
+        "date": "2026-03-26",
+        "time": "",
+        "weekday": "Qui"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Pensado como uma extensão do ciclo de concertos Sexta Maior, propõe-se como um espaço privilegiado para o pensamento e a partilha em torno da música. Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB O ciclo de conferênc…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/07/imagem-temporada25-26-e1751965822935.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/notas-de-musica-ciclo-de-conferencias/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/notas-de-musica-ciclo-de-conferencias/",
+    "ticket_url": "https://ccb.bol.pt/Comprar/Bilhetes/160293-notas_de_musica_ciclo_de_conferencias-ccb/",
+    "price_info": "7\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Concerto",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.56
+    }
+  },
+  {
+    "id": "ccb-programas-p-blicos",
+    "title": "Programas Públicos",
+    "subtitle": "No âmbito das exposições",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Cinema & Audiovisual",
+    "dates_label": "2026-03-26",
+    "date_start": "2026-03-26",
+    "date_end": "2026-03-26",
+    "sessions": [
+      {
+        "date": "2026-03-26",
+        "time": "",
+        "weekday": "Qui"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Ciclo de visitas, cinema e conversas no âmbito das exposições temporárias patentes no MAC/CCB. Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB ◾ Jardins: Lugares de OlharESGOTADOSábado, 21 de março, às 11:00ComIvo Meco…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/04/MAC_CCB_h5920┬creditoRitaCarmo_edited-e1744013699769.jpg",
+      "credit": "Rita Carmo Mantenha-se a par das novidades da FCCB Subscreva a nossa newsletter",
+      "source": "https://www.ccb.pt/evento/programa-publico-mac-ccb/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/programa-publico-mac-ccb/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "música": "Teatro Dança Conferências e Conversas Exposições Escolas Familías Bilheteira Podcasts CCB CCB Digital Arquivo Visitar Como Chegar Acessibilidade Mercado CCB Lojas e Restaurantes Jardins e Ar Livre Sala de Leitura, Acervo e Arquivo Daciano da Costa no CCB CCB Sobre Informações sob"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Cinema",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.538
+    }
+  },
+  {
+    "id": "ccb-sobre-a-verdade-da-mentira",
+    "title": "Sobre a verdade da mentira",
+    "subtitle": "António de Castro Caeiro",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Performativas",
+    "dates_label": "2026-03-26",
+    "date_start": "2026-03-26",
+    "date_end": "2026-03-26",
+    "sessions": [
+      {
+        "date": "2026-03-26",
+        "time": "",
+        "weekday": "Qui"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Não querer ser enganado com mentiras é a situação em que cada ser humano se encontra. Há uma pressão contínua — 24h por dia, 7 dias na semana — para escapar à mentira e saber da verdade.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/07/2000x940_AntoniodeCastroCaeiro_MatildeFieschi.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/sobre-a-verdade-da-mentira/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/sobre-a-verdade-da-mentira/",
+    "ticket_url": "https://ccb.bol.pt/Comprar/Bilhetes/160257-sobre_a_verdade_da_mentira_antonio_de_castro_caeiro_26_mar_26_as_19_00-ccb/",
+    "price_info": "",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "música": "Teatro Dança Conferências e Conversas Exposições Escolas Familías Bilheteira Podcasts CCB CCB Digital Arquivo Visitar Como Chegar Acessibilidade Mercado CCB Lojas e Restaurantes Jardins e Ar Livre Sala de Leitura, Acervo e Arquivo Daciano da Costa no CCB CCB Sobre Informações sob"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.528
+    }
+  },
+  {
+    "id": "ccb-ana-sofia-varela",
+    "title": "Ana Sofia Varela",
+    "subtitle": "A Mulher e Outras Guitarras |  Há Fado no Cais",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Performativas",
+    "dates_label": "2026-03-28",
+    "date_start": "2026-03-28",
+    "date_end": "2026-03-28",
+    "sessions": [
+      {
+        "date": "2026-03-28",
+        "time": "",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Ana Sofia Varela regressa aos palcos com um novo trabalho que celebra a mulher e a guitarra portuguesa. Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB Ana Sofia Varela apresenta o álbumA Mulher e Outras Guitarrase cel…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/07/2000x940_AnaSofiaVarela_Alfredo-Matos.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/ana-sofia-varela-2/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/ana-sofia-varela-2/",
+    "ticket_url": "https://ccb.bol.pt/Comprar/Bilhetes/160895-jose_manuel_neto_ha_fado_no_cais-fundacao_centro_cultural_de_belem/Sessoes",
+    "price_info": "25\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "luz": "António Martins Técnico de Som Jorge Jorge Imagem: (c) Alfredo Matos Co-",
+      "produção": "Centro Cultural de Belém, Lisboa Cultura/Museu do Fado"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.596
+    }
+  },
+  {
+    "id": "ccb-aprender-a-brincar-para-a-brincar-a-aprender",
+    "title": "Aprender a Brincar para a Brincar a Aprender",
+    "subtitle": "Sala Lúdica",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Performativas",
+    "dates_label": "2026-03-28 – 2026-03-29",
+    "date_start": "2026-03-28",
+    "date_end": "2026-03-29",
+    "sessions": [
+      {
+        "date": "2026-03-28",
+        "time": "",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-03-29",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Aprender a brincar para a brincar aprender- Projeto Lúdico MAC/CCB Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB Participação gratuita aos domingos, entre as 10h00 e as 13h00, para residentes em Portugal.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2024/10/EstelleValente-4402-e1729167267654.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/aprender-a-brincar-para-a-brincar-aprender-projeto-ludico-mac-ccb/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/aprender-a-brincar-para-a-brincar-aprender-projeto-ludico-mac-ccb/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "música": "Teatro Dança Conferências e Conversas Exposições Escolas Familías Bilheteira Podcasts CCB CCB Digital Arquivo Visitar Como Chegar Acessibilidade Mercado CCB Lojas e Restaurantes Jardins e Ar Livre Sala de Leitura, Acervo e Arquivo Daciano da Costa no CCB CCB Sobre Informações sob"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.538
+    }
+  },
+  {
+    "id": "ccb-avenida-211",
+    "title": "Avenida 211",
+    "subtitle": "Um espaço de artistas em Lisboa",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Visuais & Exposições",
+    "dates_label": "2026-03-28 – 2026-05-03",
+    "date_start": "2026-03-28",
+    "date_end": "2026-05-03",
+    "sessions": [
+      {
+        "date": "2026-03-28",
+        "time": "",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-05-03",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Exposição que propõe um olhar sobre toda uma geração de artistas através de um arquivo vivo que revê e atualiza as exposições e ações que aí ocorreram. Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB Exposição temporár…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2024/11/ExpoAvenida211_13creditoAntonioJorgeSsilva_MACCCB.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/avenida-211/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/avenida-211/",
+    "ticket_url": "https://www.bol.pt/Comprar/Pesquisa?ces=147009,164398",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "música": "Teatro Dança Conferências e Conversas Exposições Escolas Familías Bilheteira Podcasts CCB CCB Digital Arquivo Visitar Como Chegar Acessibilidade Mercado CCB Lojas e Restaurantes Jardins e Ar Livre Sala de Leitura, Acervo e Arquivo Daciano da Costa no CCB CCB Sobre Informações sob"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Exposição",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.588
+    }
+  },
+  {
+    "id": "ccb-avenida-l-dica",
+    "title": "Avenida Lúdica",
+    "subtitle": "Atelier — Um espaço para imaginar, jogar e criar | Museu Aberto",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Música",
+    "dates_label": "2026-03-28",
+    "date_start": "2026-03-28",
+    "date_end": "2026-03-28",
+    "sessions": [
+      {
+        "date": "2026-03-28",
+        "time": "",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Convidamos os mais novos a explorar desafios que despertam a imaginação e transformam ideias em obras. Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB Agora que nos despedimos de uma exposição marcante para a cidade, r…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2024/10/ServicoEducativo2909_ritacarmo.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/avenida-ludica/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/avenida-ludica/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "música": "... 28 março às 16:00 Concertos Filho Único Museu Aberto MAC/CCB Entrada Livre Apresentação ... 28 março às 15:00 Lançamento do catálogo Avenida 211: Um espaço de artistas em Lisboa Páginas de Um Prédio | Museu Aberto MAC/CCB Entrada Livre Ver todos eventos Mantenha-se a par das novidades da FCCB Su"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Concerto",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.538
+    }
+  },
+  {
+    "id": "ccb-concertos-filho-nico",
+    "title": "Concertos Filho Único",
+    "subtitle": "Museu Aberto",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Performativas",
+    "dates_label": "2026-03-28",
+    "date_start": "2026-03-28",
+    "date_end": "2026-03-28",
+    "sessions": [
+      {
+        "date": "2026-03-28",
+        "time": "",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Entrada gratuita, sujeita ao número de lugares disponíveis. Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB Vasco Alves e as Rochas da AjudaFormação moldada pela pressão, fricção e movimento do ar, desde o verão de 202…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2026/03/2023_Vaiapraia.3_PhotocreditoJame_St_Findlay.jpg",
+      "credit": "Jame St Findlay Sugerimos-lhe também Performance ... 27 e 28 março às 18:00 Alar",
+      "source": "https://www.ccb.pt/evento/concerto-filho-unico/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/concerto-filho-unico/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "música": "Teatro Dança Conferências e Conversas Exposições Escolas Familías Bilheteira Podcasts CCB CCB Digital Arquivo Visitar Como Chegar Acessibilidade Mercado CCB Lojas e Restaurantes Jardins e Ar Livre Sala de Leitura, Acervo e Arquivo Daciano da Costa no CCB CCB Sobre Informações sob"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.538
+    }
+  },
+  {
+    "id": "ccb-revisitar-experimentar-e-aprender",
+    "title": "Revisitar, experimentar e aprender",
+    "subtitle": "Cursos & Formação",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Performativas",
+    "dates_label": "2026-03-28",
+    "date_start": "2026-03-28",
+    "date_end": "2026-03-28",
+    "sessions": [
+      {
+        "date": "2026-03-28",
+        "time": "",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Um conjunto de cursos breves dedicados à exploração de momentos e contextos significativos da história da arte moderna e contemporânea. Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB 21 e 28 março de 202614:30 às 18:0…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/12/Jacques-Villeglé_Libération-Thorez-22-août-1964-1964_Col.-Berardo.png",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/curso-e-formacao-revisitar-experimentar-e-aprender/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/curso-e-formacao-revisitar-experimentar-e-aprender/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "música": "Teatro Dança Conferências e Conversas Exposições Escolas Familías Bilheteira Podcasts CCB CCB Digital Arquivo Visitar Como Chegar Acessibilidade Mercado CCB Lojas e Restaurantes Jardins e Ar Livre Sala de Leitura, Acervo e Arquivo Daciano da Costa no CCB CCB Sobre Informações sob"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.538
+    }
+  },
+  {
+    "id": "ccb-habitar-portugal",
+    "title": "Habitar Portugal",
+    "subtitle": "",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Performativas",
+    "dates_label": "2026-03-28 – 2026-06-09",
+    "date_start": "2026-03-28",
+    "date_end": "2026-06-09",
+    "sessions": [
+      {
+        "date": "2026-03-28",
+        "time": "",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-06-09",
+        "time": "",
+        "weekday": "Ter"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Um registo que oferece um olhar panorâmico sobre o último quartel do século XX e o primeiro do século XXI, e que procura projetar o futuro da arquitetura portuguesa.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/11/Hotel-e-Casino-do-Funchal-de-1976-por-Oscar-Niemeyer-e-Alfredo-Viana-de-Lima-credito-Faculdade-de-Arquitectura-da-Universidade-do-Porto-CDUA.jpg",
+      "credit": "Fábio Cunha MAC_CCB Vista parcial da exposição «Habitar Portugal» ©Fábio Cunha M",
+      "source": "https://www.ccb.pt/evento/exposicao-habitar-portugal/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/exposicao-habitar-portugal/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "música": "Teatro Dança Conferências e Conversas Exposições Escolas Familías Bilheteira Podcasts CCB CCB Digital Arquivo Visitar Como Chegar Acessibilidade Mercado CCB Lojas e Restaurantes Jardins e Ar Livre Sala de Leitura, Acervo e Arquivo Daciano da Costa no CCB CCB Sobre Informações sob"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.538
+    }
+  },
+  {
+    "id": "ccb-lan-amento-do-cat-logo-avenida-211-um-espa-o-de-ar",
+    "title": "Lançamento do catálogo Avenida 211: Um espaço de artistas em Lisboa",
+    "subtitle": "Páginas de Um Prédio | Museu Aberto",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Performativas",
+    "dates_label": "2026-03-28",
+    "date_start": "2026-03-28",
+    "date_end": "2026-03-28",
+    "sessions": [
+      {
+        "date": "2026-03-28",
+        "time": "",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Editado por Nuria Enguita e Marta Mestre, curadoras da exposição, com o apoio de Giorgia Casara e Sara De Chiara, investigadoras, este livro parte de um ensaio visual de Pedro Tropa.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2026/03/Av211BXcreditoTiagoFezasVital.jpg",
+      "credit": "Tiago Fezas Vital Sugerimos-lhe também Performance ... 27 e 28 março às 18:00 Al",
+      "source": "https://www.ccb.pt/evento/lancamento-do-catalogo-avenida-211-um-espaco-de-artistas-em-lisboa/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/lancamento-do-catalogo-avenida-211-um-espaco-de-artistas-em-lisboa/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "música": "... 28 março às 16:00 Concertos Filho Único Museu Aberto MAC/CCB Entrada Livre Ver todos eventos Mantenha-se a par das novidades da FCCB Subscreva a nossa newsletter Redes CCB: Redes MAC/CCB: Programação Toda a Programação Espetáculos Programação Acessível Projetos de Mediação"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.538
+    }
+  },
+  {
+    "id": "ccb-lugar-de-estar",
+    "title": "Lugar de estar",
+    "subtitle": "O legado Burle Marx",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Visuais & Exposições",
+    "dates_label": "2026-03-28 – 2026-05-03",
+    "date_start": "2026-03-28",
+    "date_end": "2026-05-03",
+    "sessions": [
+      {
+        "date": "2026-03-28",
+        "time": "",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-05-03",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Exposição que propõe novas leituras sobre o acervo documental do trabalho de Roberto Burle Marx e dos seus colaboradores. Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB Lugar de estar: o legado Burle Marxé uma exposiç…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/11/2BurleMarx_MACCCB_©Fabio-Cunha-1.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/lugar-de-estar-o-legado-burle-marx/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/lugar-de-estar-o-legado-burle-marx/",
+    "ticket_url": "https://www.bol.pt/Comprar/Pesquisa?ces=147009,164398",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "música": "Teatro Dança Conferências e Conversas Exposições Escolas Familías Bilheteira Podcasts CCB CCB Digital Arquivo Visitar Como Chegar Acessibilidade Mercado CCB Lojas e Restaurantes Jardins e Ar Livre Sala de Leitura, Acervo e Arquivo Daciano da Costa no CCB CCB Sobre Informações sob"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Exposição",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.588
+    }
+  },
+  {
+    "id": "ccb-museu-aberto",
+    "title": "Museu Aberto",
+    "subtitle": "Celebração com entrada livre",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Performativas",
+    "dates_label": "2026-03-28",
+    "date_start": "2026-03-28",
+    "date_end": "2026-03-28",
+    "sessions": [
+      {
+        "date": "2026-03-28",
+        "time": "",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "O encerramento de duas exposições serve de mote para uma tarde de sábado em festa com entrada livre. Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB O MAC/CCB acolhe um programa de festa com performance, livros, música…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2026/03/MuseuAberto_TiagoFezasVital.jpg",
+      "credit": "Tiago Fezas Vital Mantenha-se a par das novidades da FCCB Subscreva a nossa news",
+      "source": "https://www.ccb.pt/evento/museu-aberto/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/museu-aberto/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "música": "Teatro Dança Conferências e Conversas Exposições Escolas Familías Bilheteira Podcasts CCB CCB Digital Arquivo Visitar Como Chegar Acessibilidade Mercado CCB Lojas e Restaurantes Jardins e Ar Livre Sala de Leitura, Acervo e Arquivo Daciano da Costa no CCB CCB Sobre Informações sob"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.538
+    }
+  },
+  {
+    "id": "ccb-alarve",
+    "title": "Alarve",
+    "subtitle": "Joaão dos Santos Martins | Museu Aberto",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Música",
+    "dates_label": "2026-03-28",
+    "date_start": "2026-03-28",
+    "date_end": "2026-03-28",
+    "sessions": [
+      {
+        "date": "2026-03-28",
+        "time": "",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Performance integrada na exposição \"Lugar de estar: o legado Burle Marx\", em que o bailarino e coreógrafo toma o corpo como campo de negociação entre natureza e construção.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2026/03/Alarvemuseuaberto_DR.jpg",
+      "credit": "DR Sugerimos-lhe também Música ... 28 março às 16:00 Concertos Filho Único Museu",
+      "source": "https://www.ccb.pt/evento/performance-alarve/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/performance-alarve/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "música": "... 28 março às 16:00 Concertos Filho Único Museu Aberto MAC/CCB Entrada Livre Apresentação ... 28 março às 15:00 Lançamento do catálogo Avenida 211: Um espaço de artistas em Lisboa Páginas de Um Prédio | Museu Aberto MAC/CCB Entrada Livre Atividades ... 28 março das 14:30 às 19:00 Avenida Lúdica At"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Concerto",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.538
+    }
+  },
+  {
+    "id": "ccb-visitas-s-exposi-es",
+    "title": "Visitas às Exposições",
+    "subtitle": "",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Performativas",
+    "dates_label": "2026-03-29",
+    "date_start": "2026-03-29",
+    "date_end": "2026-03-29",
+    "sessions": [
+      {
+        "date": "2026-03-29",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "visitas guiadas às exposições permanentes e temporárias que procuram contribuir para uma aproximação do público ao espólio que neste museu se conserva e apresenta Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB Como es…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2023/10/ExpoDeriva_31MulheresPub8834_ritacarmo.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/visitas-guiadas-a-exposicao-2-museu-mac-ccb/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/visitas-guiadas-a-exposicao-2-museu-mac-ccb/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.52
+    }
+  },
+  {
+    "id": "ccb-james-webb-lt-br-gt-there-s-no-place-called-home-b",
+    "title": "James Webb There’s No Place Called Home (Belém, Lisbon)",
+    "subtitle": "Um guarda-rios-da-floresta em Lisboa, entre a época colonial e 2025",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Performativas",
+    "dates_label": "2026-03-30 – 2026-06-16",
+    "date_start": "2026-03-30",
+    "date_end": "2026-06-16",
+    "sessions": [
+      {
+        "date": "2026-03-30",
+        "time": "",
+        "weekday": "Seg"
+      },
+      {
+        "date": "2026-06-16",
+        "time": "",
+        "weekday": "Ter"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "tuuui trrrrrrrrrrrrrrrrrrr, de James Webb (1975, Kimberley, África do Sul), opera como dois capítulos da mesma história — There’s No Place Called Home (Belém, Lisboa) (2025) e Learning from Birds (2025). A maioria das histórias tem, pelo menos, uma personagem principal, um espaço e um tempo.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/06/instalacao-artistica-de-james-webb_edited.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/instalacao-james-webb/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/instalacao-james-webb/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "produção": "Mariana Scarpa (MAC/CCB) Iván Prego (Rádio-Galeria Antecâmara) Comunicação Namalimba Coelho (MAC/CCB) Maria João Jorge (Rádio-Galeria Antecâmara) Maria Eduarda Duarte (Institution(ing)s) Revisão de",
+      "texto": "Diogo Montenegro (MAC/CCB) James Webb James Webb é representado por Galerie Imane Farès & blank projects tuuui trrrrrrrrrrrrrrrrr, de James Webb , é um projeto com dois momentos: uma exposição na Rádio-Galeria Antecâmara, que inclui a publicação Learning from Birds ; e a instalação site-specific The",
+      "música": "Teatro Dança Conferências e Conversas Exposições Escolas Familías Bilheteira Podcasts CCB CCB Digital Arquivo Visitar Como Chegar Acessibilidade Mercado CCB Lojas e Restaurantes Jardins e Ar Livre Sala de Leitura, Acervo e Arquivo Daciano da Costa no CCB CCB Sobre Informações sob"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Ópera",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.574
+    }
+  },
+  {
+    "id": "ccb-programa-vincular-8211-servi-o-de-educa-o-e-media-",
+    "title": "Programa Vincular – Serviço de Educação e Mediação",
+    "subtitle": "2025-26 Escolas",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Performativas",
+    "dates_label": "2026-03-30",
+    "date_start": "2026-03-30",
+    "date_end": "2026-03-30",
+    "sessions": [
+      {
+        "date": "2026-03-30",
+        "time": "",
+        "weekday": "Seg"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Programação para escolas, serviço educativo para 2024-2025. Conheça toda a programação. Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB O Serviço de Educação e Mediação do MAC/CCB abre as portas às escolas, da primeira…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2023/10/museumacccb-1.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/programa-de-educacao-e-mediacao-do-mac-ccb/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/programa-de-educacao-e-mediacao-do-mac-ccb/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "for_schools": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.52
+    }
+  },
+  {
+    "id": "ccb-programa-l-dico",
+    "title": "Programa Lúdico",
+    "subtitle": "Serviço Educativo do Museu do MAC/CCB",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Performativas",
+    "dates_label": "2026-03-30 – 2026-06-30",
+    "date_start": "2026-03-30",
+    "date_end": "2026-06-30",
+    "sessions": [
+      {
+        "date": "2026-03-30",
+        "time": "",
+        "weekday": "Seg"
+      },
+      {
+        "date": "2026-06-30",
+        "time": "",
+        "weekday": "Ter"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Uma abordagem expandida do conceito de «brincar», que se estende tanto ao espaço expositivo como ao exterior do museu. Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB «Aprender a brincar para a brincar aprender»Sábados…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2024/10/ServicoEducativo2892_ritacarmo.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/programa-ludico-servico-educativo-museu-macccb/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/programa-ludico-servico-educativo-museu-macccb/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.52
+    }
+  },
+  {
+    "id": "ccb-oficinas-de-f-rias-de-p-scoa-no-museu",
+    "title": "Oficinas de Férias de Páscoa no Museu",
+    "subtitle": "Famílias",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Infanto-Juvenil",
+    "dates_label": "2026-03-31",
+    "date_start": "2026-03-31",
+    "date_end": "2026-03-31",
+    "sessions": [
+      {
+        "date": "2026-03-31",
+        "time": "",
+        "weekday": "Ter"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Atividades lúdicas e pedagógicas para crianças dos 4 aos 13 anos. Almoço e seguro incluídos. Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB 30 março a 2 abril e 6 a 10 abril de 20269:30 às 17:30 ( inscrições até 16 ma…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/12/19MACcreditoRC_MACCCB-scaled.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/oficinas-de-ferias-de-pascoa-no-museu/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/oficinas-de-ferias-de-pascoa-no-museu/",
+    "ticket_url": "",
+    "price_info": "140\n€",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.53
+    }
+  },
+  {
+    "id": "ccb-visitas-guiadas-ao-edif-cio-centro-cultural-de-bel",
+    "title": "Visitas Guiadas ao Edifício Centro Cultural de Belém",
+    "subtitle": "",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Performativas",
+    "dates_label": "2026-03-31 – 2026-08-29",
+    "date_start": "2026-03-31",
+    "date_end": "2026-08-29",
+    "sessions": [
+      {
+        "date": "2026-03-31",
+        "time": "",
+        "weekday": "Ter"
+      },
+      {
+        "date": "2026-08-29",
+        "time": "",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Para escolas e grupos organizados, dão a conhecer a história do edifício através de um percurso pelo Centro de Congressos e Reuniões, pelo Centro de Espetáculos e pelo MAC/CCB.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2020/03/visitasguiadasCCB©ritacarmo-7-scaled-e1695222526987.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/visitas-guiadas-ao-edificio-centro-cultural-de-belem/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/visitas-guiadas-ao-edificio-centro-cultural-de-belem/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "for_schools": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.52
+    }
+  },
+  {
+    "id": "ccb-visitas-orientadas-e-tem-ticas-oficinas",
+    "title": "Visitas Orientadas e Temáticas / Oficinas",
+    "subtitle": "Programa Vincular - Adultos",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Performativas",
+    "dates_label": "2026-03-31 – 2027-06-02",
+    "date_start": "2026-03-31",
+    "date_end": "2027-06-02",
+    "sessions": [
+      {
+        "date": "2026-03-31",
+        "time": "",
+        "weekday": "Ter"
+      },
+      {
+        "date": "2027-06-02",
+        "time": "",
+        "weekday": "Qua"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Os museus têm um papel fundamental nas aprendizagens ao longo da vida e é esse um dos desígnios e a missão do Serviço de Educação e Mediação do MAC/CCB.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2024/09/visitas-tematicas.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/visitas-orientadas-e-tematicas-oficinas/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/visitas-orientadas-e-tematicas-oficinas/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.52
+    }
+  },
+  {
+    "id": "ccb-educa-o-inclusiva",
+    "title": "Educação Inclusiva",
+    "subtitle": "Programa Vincular - Escolas",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Formação & Participação",
+    "dates_label": "2026-04-01",
+    "date_start": "2026-04-01",
+    "date_end": "2026-04-01",
+    "sessions": [
+      {
+        "date": "2026-04-01",
+        "time": "",
+        "weekday": "Qua"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "A programação está estruturada em visitas-jogo, visitas-jogo-oficina, visitas-oficina, visitas temáticas e visitas guiadas, e está assente em metodologias ativas e práticas inclusivas. A mediação no espaço expositivo potencia a compreensão, reflexão e a construção do conhecimento.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2023/10/ensino-especialmuseumacccb-e1726737805568.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/educacao-inclusiva-escolas-museu-mac-ccb/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/educacao-inclusiva-escolas-museu-mac-ccb/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Workshop",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "for_schools": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.52
+    }
+  },
+  {
+    "id": "ccb-pr-escolar",
+    "title": "Pré-escolar",
+    "subtitle": "Programa Vincular - Escolas",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Formação & Participação",
+    "dates_label": "2026-04-01",
+    "date_start": "2026-04-01",
+    "date_end": "2026-04-01",
+    "sessions": [
+      {
+        "date": "2026-04-01",
+        "time": "",
+        "weekday": "Qua"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Esta programação está estruturada em visitas-jogo e visitas-jogo-oficina, e assente em metodologias ativas e práticas que facilitem e suscitem a curiosidade das crianças pela Arte Moderna e Contemporânea.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2023/10/servicoeducativopreinfancia-scaled.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/pre-escolar-escolas-museu-mac-ccb/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/pre-escolar-escolas-museu-mac-ccb/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Workshop",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "for_schools": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.52
+    }
+  },
+  {
+    "id": "ccb-primeira-inf-ncia",
+    "title": "Primeira Infância",
+    "subtitle": "Programa Vincular - Escolas",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Performativas",
+    "dates_label": "2026-04-01",
+    "date_start": "2026-04-01",
+    "date_end": "2026-04-01",
+    "sessions": [
+      {
+        "date": "2026-04-01",
+        "time": "",
+        "weekday": "Qua"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Esta programação está pensada desde a primeira infância (2 anos) ao ensino universitário, incluindo o ensino especial, atribuindo-lhes um conjunto de atividades pensadas a partir das suas especificidades.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2023/10/ServicoEducativo3683primeira-infanciacreditoritacarmo-scaled.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/primeira-infancia/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/primeira-infancia/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "for_schools": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.52
+    }
+  },
+  {
+    "id": "ccb-segundo-ciclo",
+    "title": "Segundo Ciclo",
+    "subtitle": "Programa Vincular - Escolas",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Performativas",
+    "dates_label": "2026-04-01 – 2027-04-01",
+    "date_start": "2026-04-01",
+    "date_end": "2027-04-01",
+    "sessions": [
+      {
+        "date": "2026-04-01",
+        "time": "",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2027-04-01",
+        "time": "",
+        "weekday": "Qui"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Atividades para segundo ciclo, no museu MACCCB. Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB Esta programação está estruturada em visitas-jogo e visitas-jogo-oficina, e assente em metodologias ativas e práticas que …",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2023/10/servicoeducativosegundociclo-scaled.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/segundo-ciclo-escolas-museu-mac-ccb/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/segundo-ciclo-escolas-museu-mac-ccb/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "for_schools": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.52
+    }
+  },
+  {
+    "id": "ccb-terceiro-ciclo-e-secund-rio",
+    "title": "Terceiro Ciclo e Secundário",
+    "subtitle": "Programa Vincular - Escolas",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Formação & Participação",
+    "dates_label": "2026-04-01 – 2027-04-01",
+    "date_start": "2026-04-01",
+    "date_end": "2027-04-01",
+    "sessions": [
+      {
+        "date": "2026-04-01",
+        "time": "",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2027-04-01",
+        "time": "",
+        "weekday": "Qui"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Esta programação está estruturada em visitas-jogo, visitas-jogo-oficina, visitas-oficina, visitas temáticas e está assente em metodologias ativas e práticas inclusivas. A mediação no espaço expositivo potencia a compreensão, reflexão e a construção do conhecimento.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2023/10/servicoeducativoterceirociclo-scaled.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/terceiro-ciclo-e-secundario-escolas-museu-mac-ccb/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/terceiro-ciclo-e-secundario-escolas-museu-mac-ccb/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Workshop",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "for_schools": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.52
+    }
+  },
+  {
+    "id": "ccb-universit-rio",
+    "title": "Universitário",
+    "subtitle": "Programa Vincular - Universidades",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Performativas",
+    "dates_label": "2026-04-01",
+    "date_start": "2026-04-01",
+    "date_end": "2026-04-01",
+    "sessions": [
+      {
+        "date": "2026-04-01",
+        "time": "",
+        "weekday": "Qua"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "A relação entre museu e universidade significauma experiência enriquecedora para o públicouniversitário, independentemente da sua áreade estudos, promovendo o desenvolvimentopessoal e social.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2023/11/1200Museu-MACCCB.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/universitario/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/universitario/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.52
+    }
+  },
+  {
+    "id": "ccb-concerto-de-p-scoa-requiem-de-mozart",
+    "title": "Concerto de Páscoa – Requiem de Mozart",
+    "subtitle": "Orquestra Metropolitana de Lisboa e Coro Sinfónico Lisboa Cantat",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Música",
+    "dates_label": "2026-04-02",
+    "date_start": "2026-04-02",
+    "date_end": "2026-04-02",
+    "sessions": [
+      {
+        "date": "2026-04-02",
+        "time": "",
+        "weekday": "Qui"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "O Requiem de Mozart é um monumento à condição humana. Por um lado, tem na sua origem os ingredientes essenciais de um romance best-seller, tais como a entrega incondicional do génio à causa artística, identidades omissas, conspiração, morte… e neste caso por intermédio do género musical que lhe está…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/09/2000x940_requiem_mozart_orquestra_metropolitana_coro_sinfonico_ccb.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/concerto-de-pascoa-requiem-de-mozart/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/concerto-de-pascoa-requiem-de-mozart/",
+    "ticket_url": "https://ccb.bol.pt/Comprar/Bilhetes/160828/1735591/Sectores",
+    "price_info": "35\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "direção": "musical Pedro Neves Orquestra Metropolitana de Lisboa Maestro do Coro Jorge Alves Coro Sinfónico Lisboa Cantat Programa Pedro Lima (1994) Dance Steps (obra em estreia) Wolfgang Amadeus Mozart (1756-1791) Requiem, em Ré Menor, KV 626",
+      "coprodução": "Centro Cultural de Belém, Metropolitana"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Concerto",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.596
+    }
+  },
+  {
+    "id": "ccb-festas-de-anivers-rio-no-museu",
+    "title": "Festas de aniversário no Museu",
+    "subtitle": "Para crianças dos 4 aos 12 anos",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Infanto-Juvenil",
+    "dates_label": "2026-04-07",
+    "date_start": "2026-04-07",
+    "date_end": "2026-04-07",
+    "sessions": [
+      {
+        "date": "2026-04-07",
+        "time": "",
+        "weekday": "Ter"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Festas de aniversário temáticas no Museu, para crianças dos 4 aos 12 anos. Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB Celebra o teu aniversário no Museu.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2023/05/Website1200x630.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/festas-de-aniversario-no-museu-mac-ccb/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/festas-de-aniversario-no-museu-mac-ccb/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "música": "Teatro Dança Conferências e Conversas Exposições Escolas Familías Bilheteira Podcasts CCB CCB Digital Arquivo Visitar Como Chegar Acessibilidade Mercado CCB Lojas e Restaurantes Jardins e Ar Livre Sala de Leitura, Acervo e Arquivo Daciano da Costa no CCB CCB Sobre Informações sob"
+    },
+    "schema_version": "2.0",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.498
+    }
+  },
+  {
+    "id": "ccb-confer-ncia-8211-a-sinfonia-em-finais-do-s-culo-xv",
+    "title": "Conferência – A sinfonia em finais do século XVIII: aspetos históricos e estilísticos",
+    "subtitle": "Luís M. Santos",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Pensamento & Conversa",
+    "dates_label": "2026-04-10",
+    "date_start": "2026-04-10",
+    "date_end": "2026-04-10",
+    "sessions": [
+      {
+        "date": "2026-04-10",
+        "time": "",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Ciclo de Conferências A sinfonia foi um dos géneros musicais que mais se destacou na cultura europeia setecentista. Estima-se, de facto, que só nesse período tenham sido compostas perto de 20 mil obras, numa grande variedade de formatos.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/07/2000x940_LuisMSantos.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/conferencia-a-sinfonia-em-finais-do-seculo-xviii-aspetos-historicos-e-estilisticos-com-luis-m-santos/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/conferencia-a-sinfonia-em-finais-do-seculo-xviii-aspetos-historicos-e-estilisticos-com-luis-m-santos/",
+    "ticket_url": "https://ccb.bol.pt/Comprar/Bilhetes/160293-notas_de_musica_ciclo_de_conferencias-ccb/",
+    "price_info": "7\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Conversa",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.56
+    }
+  },
+  {
+    "id": "ccb-sinfonia-n-41-8220-j-piter-8221-de-mozart",
+    "title": "Sinfonia N.º 41 “Júpiter”, de Mozart",
+    "subtitle": "London Mozart Players",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Música",
+    "dates_label": "2026-04-10",
+    "date_start": "2026-04-10",
+    "date_end": "2026-04-10",
+    "sessions": [
+      {
+        "date": "2026-04-10",
+        "time": "",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "London Mozart Players é a Orquestra de Câmara mais antiga do Reino Unido, fundada há mais de 75 anos por Harry Blech, com o intuito de apresentar obras de Mozart e Haydn.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/07/London-Mozart-Players-e1753352781813.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/sinfonia-n-o-41-jupiter-de-mozart/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/sinfonia-n-o-41-jupiter-de-mozart/",
+    "ticket_url": "https://www.bol.pt/Comprar/Packs/584-london_mozart_players_conferencia-fundacao_centro_cultural_de_belem/Quantidade",
+    "price_info": "25\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "direção": "Musical Nuno Côrte-Real Solista Filipe Quaresma * London Mozart Players Programa Dmitri Shostakovich (1906—1975) Concerto N.º 1 para violoncelo e orquestra * Wolfgang Amadeus Mozart (1756—1791) Sinfonia N.º 41, «Júpiter» Nuno Côrte-Real (1971) Todo o Teatro é um Muro Branco de Músi"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Concerto",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.578
+    }
+  },
+  {
+    "id": "ccb-garfo",
+    "title": "GARFO",
+    "subtitle": "",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Música",
+    "dates_label": "2026-04-11",
+    "date_start": "2026-04-11",
+    "date_end": "2026-04-11",
+    "sessions": [
+      {
+        "date": "2026-04-11",
+        "time": "",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Formado por quatro músicos da nova geração do jazz nacional — Bernardo Tinoco, João Almeida, João Fragoso e João Sousa —, o grupo GARFO tem vindo a afirmar-se no panorama musical português desde a sua estreia em 2019.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/07/GARFO-creditoJoAo-Hasselberg.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/garfo/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/garfo/",
+    "ticket_url": "https://ccb.bol.pt/Comprar/Bilhetes/162208/1741168/Sectores",
+    "price_info": "15\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Concerto",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.56
+    }
+  },
+  {
+    "id": "ccb-museu-em-partilha",
+    "title": "Museu em Partilha",
+    "subtitle": "Encontros para Pessoas com Demência e Famílias",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Performativas",
+    "dates_label": "2026-04-11",
+    "date_start": "2026-04-11",
+    "date_end": "2026-04-11",
+    "sessions": [
+      {
+        "date": "2026-04-11",
+        "time": "",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Ao fim de semana, o MAC/CCB abre as suas portas a pessoas com demência e às suas famílias para momentos de partilha e descoberta através da arte. Estes encontros procuram oferecer experiências artísticas inclusivas e significativas nas quais as obras de arte se tornam ponto de partida para o diálogo…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2026/01/Museu-em-partilhamuseumacccb-2.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/museu-em-partilha/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/museu-em-partilha/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.52
+    }
+  },
+  {
+    "id": "ccb-m-sica-no-museu",
+    "title": "Música no Museu",
+    "subtitle": "",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Música",
+    "dates_label": "2026-04-11",
+    "date_start": "2026-04-11",
+    "date_end": "2026-04-11",
+    "sessions": [
+      {
+        "date": "2026-04-11",
+        "time": "",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Uma iniciativa entre o MAC/CCB - Museu de Arte Contemporânea e Centro de Arquitetura e as Artes Performativas do CCB. Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB Sábados, 31 janeiro, 7 fevereiro, 7 março e 11 abril…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/12/24_MACcreditoAJC_MACCCB-1.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/musica-no-museu/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/musica-no-museu/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Concerto",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.52
+    }
+  },
+  {
+    "id": "ccb-tr-s-vozes-de-morton-feldman",
+    "title": "Três vozes, de Morton Feldman",
+    "subtitle": "Camila Mandillo",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Música",
+    "dates_label": "2026-04-11",
+    "date_start": "2026-04-11",
+    "date_end": "2026-04-11",
+    "sessions": [
+      {
+        "date": "2026-04-11",
+        "time": "",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Dedicada a Joan La Barbara, \"Três Vozes\" é uma homenagem de Feldman a Philip Guston e Frank O'Hara. Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB Participação gratuita, mediante aquisição do bilhete de entrada no Mus…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/07/Camila-Mandillo-scaled.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/tres-vozes-de-morton-feldman/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/tres-vozes-de-morton-feldman/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "música": "no Museu, o programa A Voz das Cores , da Antena 2, da autoria de Andrea Lupi, será inteiramente dedicado ao concerto e às obras que podem ser visitadas no MAC/CCB. Programa Morton Feldman (1926-1987) Três vozes Mantenha-se a par das novidades da FCCB Subscreva a nossa newsletter Redes CCB: Redes MA"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Concerto",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.538
+    }
+  },
+  {
+    "id": "ccb-atividades-para-fam-lias",
+    "title": "Atividades para Famílias",
+    "subtitle": "",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Performativas",
+    "dates_label": "2026-04-12 – 2026-08-12",
+    "date_start": "2026-04-12",
+    "date_end": "2026-08-12",
+    "sessions": [
+      {
+        "date": "2026-04-12",
+        "time": "",
+        "weekday": "Dom"
+      },
+      {
+        "date": "2026-08-12",
+        "time": "",
+        "weekday": "Qua"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Atividades para famílias do MAC/CCB. Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB Participação gratuita, mediante aquisição do bilhete de entrada no museu.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2023/10/atividadesparafamiliasmuseu.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/atividades-para-familias-museu-mac-ccb/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/atividades-para-familias-museu-mac-ccb/",
+    "ticket_url": "https://ccb.bol.pt/Comprar/Bilhetes/174896/1932998/Sectores",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.57
+    }
+  },
+  {
+    "id": "ccb-tahiti-estreia",
+    "title": "Tahiti! – ESTREIA",
+    "subtitle": "Fadas e Elfos - Associação Cultural | Orquestra do Algarve",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Performativas",
+    "dates_label": "2026-04-17",
+    "date_start": "2026-04-17",
+    "date_end": "2026-04-17",
+    "sessions": [
+      {
+        "date": "2026-04-17",
+        "time": "",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Tahiti! é uma double bill da ópera Trouble in Tahiti (1952), de Leonard Bernstein, e de Pacific Pleasures (2016-17), de Alannah Marie Halay, com libreto de Jorge Balça. Pacific Pleasures terá a sua estreia nacional com esta produção. Num subúrbio residencial como tantos outros, Tahiti!…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/09/2000x940_Tahiti_2.jpg",
+      "credit": "Bruno Simão ©Bruno Simão ©Bruno Simão ©Bruno Simão ©Bruno Simão Idades +16 Ficha",
+      "source": "https://www.ccb.pt/evento/tahiti-estreia/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/tahiti-estreia/",
+    "ticket_url": "",
+    "price_info": "15\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "encenação": "e",
+      "cenografia": "Jorge Balça",
+      "direção": "Musical Pablo Urbina",
+      "produção": "Executiva e Gestão Financeira Sara Lamares / Fadas e Elfos – Associação Cultural",
+      "luz": "Wilma Moutinho Operação de Luz (Cineteatro Louletano e Pequeno Auditório do Centro Cultural de Belém) Tiago Coelho Figurinos, Adereços e Caracterização Nuno Esteves (Blue) Design e Construção de Marionetas Natacha Costa Pereira / S.A.Marionetas Coordenação de Manipulação de Marionetas José Manuel Va",
+      "tradução": "e Legendagem Jorge Balça",
+      "coprodução": "Fadas e Elfos – Associação Cultural e Orquestra do Algarve Apoios Câmara Municipal de Lagoa , Câmara Municipal de Loulé , Centro Cultural de Belém , Câmara Municipal de Lagos , Égide – Associação Portuguesa das Artes e Junta de Freguesia da Misericórdia Apoio Institucional Plano Nacional das Artes e"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Ópera",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.636
+    }
+  },
+  {
+    "id": "ccb-a-hist-ria-do-pequeno-alfaiate-de-tibor-hars-nyi",
+    "title": "A História do Pequeno Alfaiate, de Tibor Harsányi",
+    "subtitle": "ars ad hoc",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Música",
+    "dates_label": "2026-04-19",
+    "date_start": "2026-04-19",
+    "date_end": "2026-04-19",
+    "sessions": [
+      {
+        "date": "2026-04-19",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "O ars ad hoc diferencia-se pela qualidade das suas interpretações e pelo igual à vontade com que se move entre música de diferentes estilos e épocas. Na sua oitava temporada, o ars ad hoc estreia-se no Centro Cultural de Belém, com a apresentação de Esercizio di Pazzia II, de Francesco Filidei, e A …",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/07/2000x940_ArsAdHoc-e1757696444153.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/a-historia-do-pequeno-alfaiate-de-tibor-harsanyi/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/a-historia-do-pequeno-alfaiate-de-tibor-harsanyi/",
+    "ticket_url": "https://ccb.bol.pt/Comprar/Bilhetes/161945/1740508/Sectores",
+    "price_info": "12\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "produção": "Arte no Tempo Apoio Banco BPI | Fundação “la Caixa” Programa Francesco Filidei (1973) Esercizio di Pazzia I Tibor Harsányi (1898-1954) A História do Pequeno Alfaiate"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Concerto",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.578
+    }
+  },
+  {
+    "id": "ccb-o-coro-miss-o-democracia-8211-estreia",
+    "title": "O Coro – Missão: Democracia – Estreia",
+    "subtitle": "Beatriz Pessoa",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Música",
+    "dates_label": "2026-04-23 – 2026-04-26",
+    "date_start": "2026-04-23",
+    "date_end": "2026-04-26",
+    "sessions": [
+      {
+        "date": "2026-04-23",
+        "time": "",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-04-24",
+        "time": "",
+        "weekday": "Sex"
+      },
+      {
+        "date": "2026-04-25",
+        "time": "",
+        "weekday": "Sáb"
+      },
+      {
+        "date": "2026-04-26",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Beatriz Pessoa inspira-se na coleção de livros \"Missão: Democracia\" para criar canções, explorando diferentes sonoridades e mostrando como a música reflete diversas formas de pensar.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/05/Missao-Democracia_O-Coro_creditoMadalena-Matoso.jpg",
+      "credit": "Assembleia da República Ilustração de Madalena Matoso, Sempre! (8.º volume da Co",
+      "source": "https://www.ccb.pt/evento/o-coro-missao-democracia/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/o-coro-missao-democracia/",
+    "ticket_url": "https://ccb.bol.pt/Comprar/Bilhetes/161028-missao_democracia_a_constituicao_teatro_forum-ccb/Sessoes",
+    "price_info": "3,5\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "criação": "Beatriz Pessoa Baixo, Guitarra e",
+      "produção": "Musical Gustavo Almeida Teclados e Coros Raquel Pimpão Bateria e Coros João Lopes Pereira Saxofone Tomás Marques Trombone Rubén da Luz Técnico de Som Guilherme Simões"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Concerto",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.596
+    }
+  },
+  {
+    "id": "ccb-um-territ-rio-comum-para-a-arte-cultura-e-educa-o",
+    "title": "Um Território Comum para a Arte, Cultura e Educação",
+    "subtitle": "Projeto de mediação",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Pensamento & Conversa",
+    "dates_label": "2026-04-23",
+    "date_start": "2026-04-23",
+    "date_end": "2026-04-23",
+    "sessions": [
+      {
+        "date": "2026-04-23",
+        "time": "",
+        "weekday": "Qui"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Espetáculos, conversas, momentos de reflexão e residências artísticas em escolas com as quais temos relações contínuas e que permitem explorar as fases do processo criativo.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/10/2000x940_Um-Territorio-Comum-Para-a-Arte-Cultura-e-Educacao_MarisaNunes.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/um-territorio-comum-para-a-arte-cultura-e-educacao/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/um-territorio-comum-para-a-arte-cultura-e-educacao/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Conversa",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "for_schools": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.52
+    }
+  },
+  {
+    "id": "ccb-tannh-user-de-wagner",
+    "title": "Tannhäuser de Wagner",
+    "subtitle": "Direção musical de Graeme JenkinsEncenação de Max Hoehn",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Música",
+    "dates_label": "2026-04-24",
+    "date_start": "2026-04-24",
+    "date_end": "2026-04-24",
+    "sessions": [
+      {
+        "date": "2026-04-24",
+        "time": "",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Tannhäuser und der Sängerkrieg auf Wartburg – «Tannhäuser e o concurso de canto de Wartburg» – é uma ópera em três atos com libreto e música de Richard Wagner, composta entre 1843 e 1845.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/09/2000x940_TannhauserWagnerBanner_Abril26.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/tannhauser-de-wagner/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/tannhauser-de-wagner/",
+    "ticket_url": "",
+    "price_info": "65\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "direção": "Musical Graeme Jenkins",
+      "encenação": "Max Hoehn",
+      "cenografia": "Darko Petrovic Vídeo e Animação Amber Cooper-Davies",
+      "figurinos": "Nuno Velez",
+      "luz": "Wilma Moutinho Tannhäuser Jonathan Stoughton Elisabeth Allison Oakes Venus Annemarie Kremer Landgraf Hermann Wolfgang Rauch Wolfram von Eschenbach André Baleiro Walter von der Vogelweide Marco Alves dos Santos Heinrich der Schreiber Sergio Martins Biterolf Luís Rodrigues Reinmar von Zwetter Christia",
+      "coprodução": "Centro Cultural de Belém, OPART/Teatro Nacional de São Carlos Programa Tannhäuser Ópera em 3 atos",
+      "música": "e libreto Richard Wagner"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Concerto",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.636
+    }
+  },
+  {
+    "id": "ccb-cidade-cultural-participativa",
+    "title": "Cidade cultural participativa",
+    "subtitle": "",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Pensamento & Conversa",
+    "dates_label": "2026-04-25",
+    "date_start": "2026-04-25",
+    "date_end": "2026-04-25",
+    "sessions": [
+      {
+        "date": "2026-04-25",
+        "time": "",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Conversas-debates informais sobre propostas para uma melhor democracia cultural. Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB Sábado, 25 abril de 202611:00 no Jardim das Oliveiras, Jardim/Terraço da Sala Jorge de Se…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/06/Missao-Democracia_Debates_CCP_credito-Madalena-Matoso.jpg",
+      "credit": "Assembleia da República Ilustração de Madalena Matoso, Sempre! (8.º volume da Co",
+      "source": "https://www.ccb.pt/evento/cidade-cultural-participativa/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/cidade-cultural-participativa/",
+    "ticket_url": "https://ccb.bol.pt/Comprar/Bilhetes/161028-missao_democracia_a_constituicao_teatro_forum-ccb/Sessoes",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "elenco": "Dori Nigro (Criador, mediador e arte-educador), Elisabete Paiva (Programadora Cultural), Catarina Oliveira (Acessibilidades); Alexis Trindade, Dina Mendonça e Tomás Magalhães Carneiro (Facilitadores de filosofia com crianças) Projeto criado no âmbito da parceria Centro Cultural de Belém/Fábrica das ",
+      "música": "Teatro Dança Conferências e Conversas Exposições Escolas Familías Bilheteira Podcasts CCB CCB Digital Arquivo Visitar Como Chegar Acessibilidade Mercado CCB Lojas e Restaurantes Jardins e Ar Livre Sala de Leitura, Acervo e Arquivo Daciano da Costa no CCB CCB Sobre Informações sob"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Conversa",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.606
+    }
+  },
+  {
+    "id": "ccb-prepara-o-d-o-coro-miss-o-democracia",
+    "title": "Preparação d’O Coro – Missão: Democracia",
+    "subtitle": "Beatriz Pessoa | Gui Calegari",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Música",
+    "dates_label": "2026-04-25",
+    "date_start": "2026-04-25",
+    "date_end": "2026-04-25",
+    "sessions": [
+      {
+        "date": "2026-04-25",
+        "time": "",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Beatriz Pessoa inspira-se na coleção de livros \"Missão: Democracia\" para criar canções, explorando diferentes sonoridades e mostrando como a música reflete diversas formas de pensar.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/05/Missao-Democracia_O-Coro_creditoMadalena-Matoso.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/preparacao-do-coro-missao-democracia/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/preparacao-do-coro-missao-democracia/",
+    "ticket_url": "https://ccb.bol.pt/Comprar/Bilhetes/161273-missao_democracia_o_coro_concerto_multidisciplinar-ccb/Sessoes",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Concerto",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.57
+    }
+  },
+  {
+    "id": "ccb-as-quatro-esta-es-de-vivaldi",
+    "title": "As Quatro Estações de Vivaldi",
+    "subtitle": "Camerata de Salzburgo e Janine Jansen",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Música",
+    "dates_label": "2026-04-27",
+    "date_start": "2026-04-27",
+    "date_end": "2026-04-27",
+    "sessions": [
+      {
+        "date": "2026-04-27",
+        "time": "",
+        "weekday": "Seg"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Janine Jansen não vê qualquer problema em interpretar, repetidamente, obras tão populares como As Quatro Estações de Vivaldi — afinal, «cada interpretação é única», como a própria afirma.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/07/2000x940_CamerataSalzburg_IGORSTUDIO.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/as-quatro-estacoes-de-vivaldi/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/as-quatro-estacoes-de-vivaldi/",
+    "ticket_url": "https://ccb.bol.pt/Comprar/Bilhetes/161626-sinfonia_no_7_de_beethoven_oml-fundacao_centro_cultural_de_belem/Sessoes",
+    "price_info": "40\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "direção": "musical Gregory Ahss Camerata de Salzburgo Programa Richard Dubugnon (1968) Piccolo Concerto Grosso para quarteto de cordas, orquestra de cordas e cravo , Op. 87 – Obra em estreia absoluta Violino Janine Jansen e Gregory Ahss Viola Firmian Lermer Violoncelo Stefano Guarino Francesco G"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Concerto",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.578
+    }
+  },
+  {
+    "id": "ccb-projetos-media-o",
+    "title": "Projetos Mediação",
+    "subtitle": "Temporada 2025-2026",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Pensamento & Conversa",
+    "dates_label": "2026-04-30",
+    "date_start": "2026-04-30",
+    "date_end": "2026-04-30",
+    "sessions": [
+      {
+        "date": "2026-04-30",
+        "time": "",
+        "weekday": "Qui"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Espetáculos, conversas, momentos de reflexão e residências artísticas em escolas com as quais temos relações contínuas e que permitem explorar as fases do processo criativo.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/07/2000x940_NovaTemporada2526.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/projetos-mediacao/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/projetos-mediacao/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Conversa",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "for_schools": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.52
+    }
+  },
+  {
+    "id": "ccb-jos-pedro-croft",
+    "title": "José Pedro Croft",
+    "subtitle": "Reflexos, Enclaves, Desvios",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Performativas",
+    "dates_label": "2026-05-01",
+    "date_start": "2026-05-01",
+    "date_end": "2026-05-01",
+    "sessions": [
+      {
+        "date": "2026-05-01",
+        "time": "",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Gravuras, desenhos e relevos dialogam em torno de um conjunto de esculturas que ocupa o eixo longitudinal do espaço expositivo. Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB Gravuras, desenhos e relevos dialogam em t…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/11/5_-JosePedroCroft2025creditoPatKilgore.jpg",
+      "credit": "PatKilgore Apoios Mecenas Centro de Arquitetura MAC/CCB Mecenas MAC/CCB Parceiro",
+      "source": "https://www.ccb.pt/evento/exposicao-jose-pedro-croft/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/exposicao-jose-pedro-croft/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "música": "Teatro Dança Conferências e Conversas Exposições Escolas Familías Bilheteira Podcasts CCB CCB Digital Arquivo Visitar Como Chegar Acessibilidade Mercado CCB Lojas e Restaurantes Jardins e Ar Livre Sala de Leitura, Acervo e Arquivo Daciano da Costa no CCB CCB Sobre Informações sob"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.538
+    }
+  },
+  {
+    "id": "ccb-programa-miss-o-democracia",
+    "title": "Programa Missão Democracia",
+    "subtitle": "Concertos, oficinas, debates, teatro",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Performativas",
+    "dates_label": "2026-05-01",
+    "date_start": "2026-05-01",
+    "date_end": "2026-05-01",
+    "sessions": [
+      {
+        "date": "2026-05-01",
+        "time": "",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Uma missão é uma tarefa especial que se confia a pessoas também elas especiais. Para fortalecer ainda mais a democracia e a liberdade, o Centro Cultural de Belém – FÁBRICA DAS ARTES transforma os 12 livros e temas da coleção Missão: Democracia, das Edições Assembleia da República, numa programação e…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/10/Ilustracao-Missao-Democracia-1024x575.png",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/programa-missao-democracia/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/programa-missao-democracia/",
+    "ticket_url": "https://ccb.bol.pt/Comprar/Bilhetes/161273-missao_democracia_o_coro_concerto_multidisciplinar-ccb/Sessoes",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.57
+    }
+  },
+  {
+    "id": "ccb-jos-manuel-neto",
+    "title": "José Manuel Neto",
+    "subtitle": "Há Fado no Cais",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Música",
+    "dates_label": "2026-05-02",
+    "date_start": "2026-05-02",
+    "date_end": "2026-05-02",
+    "sessions": [
+      {
+        "date": "2026-05-02",
+        "time": "",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "José Manuel Neto prepara-se para lançar o seu novo disco, Madrepérolas. O concerto de apresentação reúne alguns dos músicos com quem partilha mais de trinta anos de cumplicidade artística, bem como convidados especiais que participam neste novo registo — o segundo em nome próprio, depois de Tons de …",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/09/2000x940_2maio2026_ritacarmo.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/jose-manuel-neto/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/jose-manuel-neto/",
+    "ticket_url": "",
+    "price_info": "25\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "luz": "António Martins – Aldeia da Luz Imagem: (c) Rita Carmo Co-",
+      "produção": "Centro Cultural de Belém, Lisboa Cultura/Museu do Fado"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Concerto",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.546
+    }
+  },
+  {
+    "id": "ccb-olhos-m-ltiplos",
+    "title": "Olhos Múltiplos",
+    "subtitle": "Ines Doujak, Lubaina Himid, Patricia Domínguez",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Visuais & Exposições",
+    "dates_label": "2026-05-15",
+    "date_start": "2026-05-15",
+    "date_end": "2026-05-15",
+    "sessions": [
+      {
+        "date": "2026-05-15",
+        "time": "",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Exposição que convida o público a encarar a alteridade não como ameaça, mas como espaço de aprendizagem, reflexão e cocriação de conhecimento. Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB Numa era em que os ecrãs mo…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/11/9_PatriciaDominguez_creditoImagenSubliminal.jpg",
+      "credit": "ImagenSubliminal Apoios Mecenas Centro de Arquitetura MAC/CCB Mecenas MAC/CCB Pa",
+      "source": "https://www.ccb.pt/evento/exposicao-olhos-multiplos/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/exposicao-olhos-multiplos/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "música": "Teatro Dança Conferências e Conversas Exposições Escolas Familías Bilheteira Podcasts CCB CCB Digital Arquivo Visitar Como Chegar Acessibilidade Mercado CCB Lojas e Restaurantes Jardins e Ar Livre Sala de Leitura, Acervo e Arquivo Daciano da Costa no CCB CCB Sobre Informações sob"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Exposição",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.538
+    }
+  },
+  {
+    "id": "ccb-miss-o-literacia-democr-tica-e-liter-ria-nas-escol",
+    "title": "Missão: Literacia democrática e literária nas escolas",
+    "subtitle": "Com Dora Batalim SottoMayor e Sara Ludovico",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Performativas",
+    "dates_label": "2026-05-16",
+    "date_start": "2026-05-16",
+    "date_end": "2026-05-16",
+    "sessions": [
+      {
+        "date": "2026-05-16",
+        "time": "",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Partindo do elo entre a educação para as artes e a qualidade da democracia, pensaremos em conjunto a forma como estes livros permitem reforçar o desejo de participar na vida democrática.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/05/missao-literacia-democraticaMD_Oficina-SDcreditoMantraste.jpg",
+      "credit": "Assembleia da República Ilustração de Bernardo P. Carvalho, A melhor amiga da Me",
+      "source": "https://www.ccb.pt/evento/missao-literacia-democratica-e-literaria-nas-escolas/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/missao-literacia-democratica-e-literaria-nas-escolas/",
+    "ticket_url": "",
+    "price_info": "20\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "is_free": null,
+    "for_schools": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.51
+    }
+  },
+  {
+    "id": "ccb-candinho-uma-pera-para-todos-de-jo-o-guilherme-rip",
+    "title": "Candinho – Uma Ópera para Todos, de João Guilherme Ripper",
+    "subtitle": "Ensemble ProART",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Música",
+    "dates_label": "2026-05-17",
+    "date_start": "2026-05-17",
+    "date_end": "2026-05-17",
+    "sessions": [
+      {
+        "date": "2026-05-17",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "A ópera Candinho retrata a infância de Cândido Portinari. Estruturada num ato e dez cenas, a obra mistura realidade e ficção ao recriar o quotidiano da aldeia natal do pintor, as brincadeiras das crianças e os momentos que conduziram ao despertar artístico de um dos maiores pintores brasileiros.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/07/2000x940_Candinho.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/candinho-uma-opera-para-todos-de-joao-guilherme-ripper/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/candinho-uma-opera-para-todos-de-joao-guilherme-ripper/",
+    "ticket_url": "",
+    "price_info": "12\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "música": "e",
+      "texto": "João Guilherme Ripper",
+      "encenação": "Mário Alves",
+      "direção": "Musical José Eduardo Gomes"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Concerto",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.582
+    }
+  },
+  {
+    "id": "ccb-dia-internacional-dos-museus",
+    "title": "Dia Internacional dos Museus",
+    "subtitle": "",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Performativas",
+    "dates_label": "2026-05-17",
+    "date_start": "2026-05-17",
+    "date_end": "2026-05-17",
+    "sessions": [
+      {
+        "date": "2026-05-17",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "No dia 17 de maio, o MAC/CCB celebra o Dia Internacional dos Museus com entrada gratuita e atividades para todos os públicos. Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB ◾10:00 às 18:00| Reivindicar os direitos das…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2024/04/dia-interncaional-dos-museusEstelleValente-4305.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/dia-internacional-dos-museus/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/dia-internacional-dos-museus/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.52
+    }
+  },
+  {
+    "id": "ccb-confer-ncia-8211-o-belo-em-som-viagem-atrav-s-dos-",
+    "title": "Conferência – O belo em som: viagem através dos séculos",
+    "subtitle": "Manuel Pedro Ferreira",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Música",
+    "dates_label": "2026-05-22",
+    "date_start": "2026-05-22",
+    "date_end": "2026-05-22",
+    "sessions": [
+      {
+        "date": "2026-05-22",
+        "time": "",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Ciclo de Conferências A partir da Batalha de Amor no Sonho de Polifilo, Paul van Nevel concebeu um programa em que a beleza é o fio condutor entre obras dos séculos XIV e XVI e alguma música mais recente.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/07/imagem-temporada25-26-e1751965822935.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/conferencia-o-belo-em-som-viagem-atraves-dos-seculos-com-manuel-pedro-ferreira/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/conferencia-o-belo-em-som-viagem-atraves-dos-seculos-com-manuel-pedro-ferreira/",
+    "ticket_url": "https://ccb.bol.pt/Comprar/Bilhetes/160293-notas_de_musica_ciclo_de_conferencias-ccb/",
+    "price_info": "7\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Concerto",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.56
+    }
+  },
+  {
+    "id": "ccb-sobre-a-beleza-da-m-sica-renascentista-m-sica-dos-",
+    "title": "Sobre a beleza: da música renascentista à música dos nossos dias",
+    "subtitle": "Huelgas Ensemble",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Música",
+    "dates_label": "2026-05-22",
+    "date_start": "2026-05-22",
+    "date_end": "2026-05-22",
+    "sessions": [
+      {
+        "date": "2026-05-22",
+        "time": "",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "À semelhança do que Franz Liszt fez com Après une lecture du Dante, Paul Van Nevel concebeu este programa após a leitura de Hypnerotomachia Poliphili (O Sonho de Poliphilo), de Francesco Colonna (1432–1527). Nesta obra singular, Colonna descreve a busca onírica de Poliphilo pela sua amada Polia.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/07/2000x940_HuelgasEnsemble.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/sobre-a-beleza-da-musica-renascentista-a-musica-dos-nossos-dias/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/sobre-a-beleza-da-musica-renascentista-a-musica-dos-nossos-dias/",
+    "ticket_url": "https://www.bol.pt/Comprar/Packs/581-huelgas_ensemble_conferencia-fundacao_centro_cultural_de_belem/Quantidade",
+    "price_info": "25\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Concerto",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.56
+    }
+  },
+  {
+    "id": "ccb-dardust",
+    "title": "Dardust",
+    "subtitle": "",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Música",
+    "dates_label": "2026-05-23",
+    "date_start": "2026-05-23",
+    "date_end": "2026-05-23",
+    "sessions": [
+      {
+        "date": "2026-05-23",
+        "time": "",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Dardust – nome artístico de Dario Faini – é autor de cinco álbuns onde redefiniu as fronteiras entre a música clássica e a música contemporânea. Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB Considerado um dos mais i…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2026/01/Dardust_2026_PainelHorizontal_1920x1080.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/dardust/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/dardust/",
+    "ticket_url": "",
+    "price_info": "35\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Concerto",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.51
     }
   },
   {
@@ -50,7 +2773,7 @@
     "title": "Constituição – Estreia",
     "subtitle": "Isabel Costa",
     "theater": "CCB — Centro Cultural de Belém",
-    "category": "Teatro",
+    "category": "Artes Performativas",
     "dates_label": "2026-05-24 – 2026-05-31",
     "date_start": "2026-05-24",
     "date_end": "2026-05-31",
@@ -120,11 +2843,237 @@
       "luz": "Ângela Bismarck",
       "coprodução": "CCB/Fábrica das Artes Apoio Fundo Cultural da Sociedade Portuguesa de Autores Apoio à investigação Tribunal Constitucional Projeto criado no âmbito da parceria Centro Cultural de Belém/Fábrica das Artes e Assembleia da República. Imagem ©Assembleia da República Ilustração de Mantr"
     },
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.73
+      "completeness": 0.722
+    }
+  },
+  {
+    "id": "ccb-sinfonia-n-7-de-beethoven",
+    "title": "Sinfonia n.º 7 de Beethoven",
+    "subtitle": "Orquestra Metropolitana de Lisboa",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Música",
+    "dates_label": "2026-05-24",
+    "date_start": "2026-05-24",
+    "date_end": "2026-05-24",
+    "sessions": [
+      {
+        "date": "2026-05-24",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "A Sétima de Beethoven é uma sinfonia que alterna tipologias de danças populares com arquétipos militares. Mas tem um momento de grande contraste, na afetação expressiva de um dos mais famosos segundos andamentos de todo o repertório sinfónico.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/07/OML-2024_Marcelo-Albuquerque-e1752245983377.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/sinfonia-n-o-7-de-beethoven/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/sinfonia-n-o-7-de-beethoven/",
+    "ticket_url": "https://ccb.bol.pt/Comprar/Bilhetes/161955/1740838/Sectores",
+    "price_info": "25\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "direção": "musical Pietari Inkinen Orquestra Metropolitana de Lisboa Programa Richard Wagner (1813—1883) Idílio de Siegfried Jean Sibelius (1865—1957) Pelléas et Mélisande (Suíte), Op. 46 I. Na porta do castelo II. Mélisande III. À beira-mar IV. Uma fonte no parque V. As três irmãs cegas VI. Pastoral VII. Méli",
+      "coprodução": "Centro Cultural de Belém, Metropolitana"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Concerto",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.596
+    }
+  },
+  {
+    "id": "ccb-dia-mundial-da-crian-a",
+    "title": "Dia Mundial da Criança",
+    "subtitle": "",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Performativas",
+    "dates_label": "2026-05-31",
+    "date_start": "2026-05-31",
+    "date_end": "2026-05-31",
+    "sessions": [
+      {
+        "date": "2026-05-31",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Celebramos o Dia Mundial da Criança com várias atividades para famílias. Traga as suas crianças e venha comemorar connosco! Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB Porquê esperar por 1 de junho?…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2024/05/diadacrianca2026.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/dia-mundial-da-crianca-macccb/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/dia-mundial-da-crianca-macccb/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.52
+    }
+  },
+  {
+    "id": "ccb-laurie-anderson-com-sexmob",
+    "title": "Laurie Anderson com Sexmob",
+    "subtitle": "Republic of Love",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Performativas",
+    "dates_label": "2026-05-31",
+    "date_start": "2026-05-31",
+    "date_end": "2026-05-31",
+    "sessions": [
+      {
+        "date": "2026-05-31",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Uma coleção de canções e histórias sobre o estado atual da América. Uma celebração da liberdade. Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB «Na primavera passada fui convidada a integrar um festival em Viena.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2026/03/2000x940_LaurieAnderson_StephanieDiani_Times.jpg",
+      "credit": "Stephanie Diani_Times Preços e Descontos Cadeiras de orquestra - 40 € 1º Setor -",
+      "source": "https://www.ccb.pt/evento/laurie-anderson-com-sexmob/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/laurie-anderson-com-sexmob/",
+    "ticket_url": "",
+    "price_info": "40\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.51
+    }
+  },
+  {
+    "id": "ccb-visitas-guiadas",
+    "title": "Visitas Guiadas",
+    "subtitle": "",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Formação & Participação",
+    "dates_label": "2026-05-31",
+    "date_start": "2026-05-31",
+    "date_end": "2026-05-31",
+    "sessions": [
+      {
+        "date": "2026-05-31",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Como espaço multidisciplinar e atentando à importância que os museus desempenham na educação ao longo da vida, na formação e aquisição de novos conhecimentos, o Serviço de Educação e Mediação do MAC/CCB assume o propósito de promover a fruição, reflexão e participação na discussão de temas da atuali…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2024/09/1200museumacccbcreditoEstelleValente-1.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/visitas-guiadas-2/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/visitas-guiadas-2/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Workshop",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.52
+    }
+  },
+  {
+    "id": "ccb-frida-orupabo",
+    "title": "Frida Orupabo",
+    "subtitle": "Cloud of Confusion",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Performativas",
+    "dates_label": "2026-06-05",
+    "date_start": "2026-06-05",
+    "date_end": "2026-06-05",
+    "sessions": [
+      {
+        "date": "2026-06-05",
+        "time": "",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Frida Orupabo revisita o vasto arquivo de imagens que tem vindo a reunir na sua conta de Instagram, composto por tensões entre intimidade e violência, e instaura um espaço crítico.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/11/11_FridaOrupabocreditoBonniersKonsthall.jpg",
+      "credit": "Bonniers Konsthall Apoios Mecenas Centro de Arquitetura MAC/CCB Mecenas MAC/CCB",
+      "source": "https://www.ccb.pt/evento/exposicao-frida-orupabo/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/exposicao-frida-orupabo/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "música": "Teatro Dança Conferências e Conversas Exposições Escolas Familías Bilheteira Podcasts CCB CCB Digital Arquivo Visitar Como Chegar Acessibilidade Mercado CCB Lojas e Restaurantes Jardins e Ar Livre Sala de Leitura, Acervo e Arquivo Daciano da Costa no CCB CCB Sobre Informações sob"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.538
     }
   },
   {
@@ -132,7 +3081,7 @@
     "title": "O Direito do Mais Fraco à Liberdade",
     "subtitle": "SillySeason - Temps d’Images",
     "theater": "CCB — Centro Cultural de Belém",
-    "category": "Teatro",
+    "category": "Artes Performativas",
     "dates_label": "2026-06-07",
     "date_start": "2026-06-07",
     "date_end": "2026-06-07",
@@ -165,11 +3114,61 @@
       "produção": "Inês Pinto",
       "coprodução": "A Oficina/Centro Cultural Vila Flor , RTP – Rádio e Televisão de Portugal , Teatro Diogo Bernardes e Teatro das Figuras"
     },
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.64
+      "completeness": 0.636
+    }
+  },
+  {
+    "id": "ccb-scheherazade-de-rimsky-korsakov",
+    "title": "Scheherazade, de Rimsky-Korsakov",
+    "subtitle": "Orquestra Sinfónica Portuguesa e Alondra de la Parra",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Música",
+    "dates_label": "2026-06-07",
+    "date_start": "2026-06-07",
+    "date_end": "2026-06-07",
+    "sessions": [
+      {
+        "date": "2026-06-07",
+        "time": "",
+        "weekday": "Dom"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Uma das mais empolgantes diretoras de orquestra da atualidade, a maestra mexicana Alondra de la Parra dirige a Orquestra Sinfónica Portuguesa num programa orquestral inteiramente dedicado a sonoridades e imaginários da Andaluzia ao Oriente Próximo.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/09/ADLP-BY-FELIX-BROEDE-10-1440x960_edited-e1757346806738.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/scheherazade-de-rimsky-korsakov/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/scheherazade-de-rimsky-korsakov/",
+    "ticket_url": "https://ccb.bol.pt/Comprar/Bilhetes/162341-sinfonia_no_9_do_novo_mundo_de_dvorak_orquestra_xxi-fundacao_centro_cultural_de_belem/Sessoes",
+    "price_info": "25\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "direção": "Musical Alondra de la Parra Orquestra Sinfónica Portuguesa Programa Manuel de Falla (1876-1946) El amor brujo (Suíte) Richard Strauss (1864-1949) Till Eulenspiegels lustige Streiche Nicolai Rimsky-Korsakov (1844-1908) Scheherazade",
+      "coprodução": "Centro Cultural de Belém, OPART/Teatro Nacional de São Carlos"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Concerto",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.596
     }
   },
   {
@@ -177,7 +3176,7 @@
     "title": "Exercício de Montagem",
     "subtitle": "Um objeto multidisciplinar do Teatro do VestidoUm filme futuro",
     "theater": "CCB — Centro Cultural de Belém",
-    "category": "Teatro",
+    "category": "Música",
     "dates_label": "2026-06-18 – 2026-06-28",
     "date_start": "2026-06-18",
     "date_end": "2026-06-28",
@@ -260,11 +3259,194 @@
       "luz": "Leocádia Silva",
       "produção": "Alaíde Costa Assistente de"
     },
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Concerto",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.69
+      "completeness": 0.686
+    }
+  },
+  {
+    "id": "ccb-terra-crua",
+    "title": "Terra Crua",
+    "subtitle": "",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Performativas",
+    "dates_label": "2026-06-18",
+    "date_start": "2026-06-18",
+    "date_end": "2026-06-18",
+    "sessions": [
+      {
+        "date": "2026-06-18",
+        "time": "",
+        "weekday": "Qui"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Pretende-se fomentar o diálogo entre profissionais, investigadores e cidadãos; dar visibilidade a um movimento discreto, mas significativo, de arquitetura e construção; e contribuir para uma mudança mais ampla, rumo a formas de arquitetura sustentáveis.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/11/10_TerraCruacreditoNunoVasconcelos-scaled.jpg",
+      "credit": "Nuno Vasconcelos Apoios Mecenas Centro de Arquitetura MAC/CCB Mecenas MAC/CCB Pa",
+      "source": "https://www.ccb.pt/evento/exposicao-terra-crua/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/exposicao-terra-crua/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "música": "Teatro Dança Conferências e Conversas Exposições Escolas Familías Bilheteira Podcasts CCB CCB Digital Arquivo Visitar Como Chegar Acessibilidade Mercado CCB Lojas e Restaurantes Jardins e Ar Livre Sala de Leitura, Acervo e Arquivo Daciano da Costa no CCB CCB Sobre Informações sob"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.538
+    }
+  },
+  {
+    "id": "ccb-confer-ncia-o-mesmo-nada-em-tudo-a-tor-o-barroca-d",
+    "title": "Conferência – O mesmo nada em tudo: a torção barroca do olhar e o desengano do mundo",
+    "subtitle": "Paulo Pires do Vale",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Pensamento & Conversa",
+    "dates_label": "2026-06-26",
+    "date_start": "2026-06-26",
+    "date_end": "2026-06-26",
+    "sessions": [
+      {
+        "date": "2026-06-26",
+        "time": "",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Ciclo de Conferências Como pensar o nada no excesso que associamos, habitualmente, ao barroco? Retomando uma operação comum nos séculos XVII e XVIII, proponho um desvio por torção, para nos aproximarmos do que se esconde diante de nós — em anamorfose — nas obras engenhosas desse período.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/07/Paulo-Pires-do-Vale-2-e1758556809354.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/conferencia-o-mesmo-nada-em-tudo-a-torcao-barroca-do-olhar-e-o-desengano-do-mundo/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/conferencia-o-mesmo-nada-em-tudo-a-torcao-barroca-do-olhar-e-o-desengano-do-mundo/",
+    "ticket_url": "https://ccb.bol.pt/Comprar/Bilhetes/160293-notas_de_musica_ciclo_de_conferencias-ccb/",
+    "price_info": "7\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Conversa",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.56
+    }
+  },
+  {
+    "id": "ccb-da-desordem-das-paix-es",
+    "title": "Da Desordem das Paixões",
+    "subtitle": "Os Músicos do Tejo e Sofia Dias & Vítor Roriz",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Música",
+    "dates_label": "2026-06-26",
+    "date_start": "2026-06-26",
+    "date_end": "2026-06-26",
+    "sessions": [
+      {
+        "date": "2026-06-26",
+        "time": "",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Música Renascentista Os Músicos do Tejo e Sofia Dias & Vítor Roriz, unidos pelo seu amor ao barroco, ao século XVII e XVIII, à dança, à música de dança, aos pássaros, aos textos sobre dança, aos textos que falam de danças maravilhosas, aos professores de dança que tocam violino e que compõem melodia…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/09/2000x940__SofiaDiasVtorRuizcomMusicosdoTejo_brunosimao.jpg",
+      "credit": "Bruno Simão Preços e Descontos Palco - 20 € Comprar Bilhete Nota: S/ lugares mar",
+      "source": "https://www.ccb.pt/evento/da-desordem-das-paixoes/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/da-desordem-das-paixoes/",
+    "ticket_url": "https://www.bol.pt/Comprar/Packs/597-musicos_do_tejo_conferencia-fundacao_centro_cultural_de_belem/",
+    "price_info": "20\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "direção": "Artística Marcos Magalhães , Marta Araújo , Sofia Dias e Vítor Roriz",
+      "interpretação": "Sofia Dias e Vítor Roriz Ensemble Instrumental Os Músicos Do Tejo Desenho De Luz Cárin Geada",
+      "figurinos": "José António Tenente",
+      "coprodução": "Centro Cultural De Belém Apoios Estúdios Victor Cordon (espaço de ensaios no âmbito do projeto Em Casa )",
+      "produção": "SD&VR, Lda e Os Músicos do Tejo Os Músicos do Tejo e So fi a Dias & Vítor Roriz são estruturas fi nanciadas pela República Portuguesa. imagem © Bruno Simão"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Concerto",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.65
+    }
+  },
+  {
+    "id": "ccb-raiz",
+    "title": "Raiz",
+    "subtitle": "André Rosinha Trio",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Música",
+    "dates_label": "2026-07-03",
+    "date_start": "2026-07-03",
+    "date_end": "2026-07-03",
+    "sessions": [
+      {
+        "date": "2026-07-03",
+        "time": "",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "O músico apresenta-nos o álbum \"Raiz\" (2025), que explora uma fusão entre os mundos do jazz, da música tradicional portuguesa e do improviso. Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB André Rosinha apresenta-nos …",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/08/2000x940_Trio_MariaBicker-e1755877862553.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/raiz-andre-rosinha-trio/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/raiz-andre-rosinha-trio/",
+    "ticket_url": "",
+    "price_info": "15\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Concerto",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.51
     }
   },
   {
@@ -272,7 +3454,7 @@
     "title": "UM JULGAMENTO",
     "subtitle": "Depois do Inimigo do Povo, de Henrik Ibsen - um projeto de Christiane Jatahy e Wagner Moura",
     "theater": "CCB — Centro Cultural de Belém",
-    "category": "Teatro",
+    "category": "Artes Performativas",
     "dates_label": "2026-07-03",
     "date_start": "2026-07-03",
     "date_end": "2026-07-03",
@@ -306,11 +3488,80 @@
       "produção": "Henrique Mariano",
       "coprodução": "Centro Cultural de Belém (Lisboa-Portugal), Holland Festival (Amsterdão), Festival d’Avignon (França), Edinburgh International Festival (Escócia) e DeSingel (Bélgica) Apoio UCLA’s Center for the Art of Performance e Instituto Guimarães Rosa — IGR — Ministério das Relações Exteriores do Brasi"
     },
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.66
+      "completeness": 0.654
+    }
+  },
+  {
+    "id": "ccb-e-se-f-ssemos-a-votos",
+    "title": "E se fôssemos a votos?",
+    "subtitle": "Artes nas Férias do Verão",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Performativas",
+    "dates_label": "2026-07-06 – 2026-07-10",
+    "date_start": "2026-07-06",
+    "date_end": "2026-07-10",
+    "sessions": [
+      {
+        "date": "2026-07-06",
+        "time": "",
+        "weekday": "Seg"
+      },
+      {
+        "date": "2026-07-07",
+        "time": "",
+        "weekday": "Ter"
+      },
+      {
+        "date": "2026-07-08",
+        "time": "",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-07-09",
+        "time": "",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-07-10",
+        "time": "",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Pela mão da ilustradora Rachel Caiano, mergulhamos com o músico Nuno Cintrão, o ator José Leite e a bailarina Clara Vevilaqua, no seu livro \"E se fôssemos a votos?…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/06/IMG-MD_ANFDV-Oficina_Eleicoes_creditoRachel-Caiano.jpg",
+      "credit": "Assembleia da República Ilustração de Rachel Caiano, E se fõssemos a votos? (5.º",
+      "source": "https://www.ccb.pt/evento/e-se-fossemos-a-votos/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/e-se-fossemos-a-votos/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "+351",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "música": "Teatro Dança Conferências e Conversas Exposições Escolas Familías Bilheteira Podcasts CCB CCB Digital Arquivo Visitar Como Chegar Acessibilidade Mercado CCB Lojas e Restaurantes Jardins e Ar Livre Sala de Leitura, Acervo e Arquivo Daciano da Costa no CCB CCB Sobre Informações sob"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.528
     }
   },
   {
@@ -318,7 +3569,7 @@
     "title": "Quem tem medo de Virginia Woolf?, de Edward Albee",
     "subtitle": "Simão do Vale Africano",
     "theater": "CCB — Centro Cultural de Belém",
-    "category": "Teatro",
+    "category": "Artes Performativas",
     "dates_label": "2026-07-09",
     "date_start": "2026-07-09",
     "date_end": "2026-07-09",
@@ -353,11 +3604,458 @@
       "interpretação": "João Reis, Margarida Carvalho, Daniel Silva, Joana Africano",
       "coprodução": "Centro Cultural de Belém, Casa das Artes de Vila Nova de Famalicão, Teatro Nacional São João"
     },
-    "scraped_at": "2026-03-23T10:34:48.711215+00:00",
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
     "theater_id": "ccb",
     "city": "Lisboa",
+    "venue_type": "",
     "_meta": {
-      "completeness": 0.68
+      "completeness": 0.672
+    }
+  },
+  {
+    "id": "ccb-jason-moran",
+    "title": "Jason Moran",
+    "subtitle": "",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Música",
+    "dates_label": "2026-07-14",
+    "date_start": "2026-07-14",
+    "date_end": "2026-07-14",
+    "sessions": [
+      {
+        "date": "2026-07-14",
+        "time": "",
+        "weekday": "Ter"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Figura ímpar do Jazz e da sua divulgação a nível mundial. Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB Figura ímpar do Jazz e da sua divulgação a nível mundial, Jason Moran é pianista e compositor.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2026/01/JasonMoran_1200x630-1.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/jason-moran/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/jason-moran/",
+    "ticket_url": "",
+    "price_info": "30\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Concerto",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.51
+    }
+  },
+  {
+    "id": "ccb-sinfonia-n-9-8220-novo-mundo-8221-de-dvo-k",
+    "title": "Sinfonia n.º 9 “Novo Mundo”, de Dvořák",
+    "subtitle": "Orquestra XXI",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Música",
+    "dates_label": "2026-07-18",
+    "date_start": "2026-07-18",
+    "date_end": "2026-07-18",
+    "sessions": [
+      {
+        "date": "2026-07-18",
+        "time": "",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "A Orquestra XXI é uma iniciativa cultural inovadora, que reúne músicos portugueses residentes no estrangeiro. Dirigida desde a sua criação pelo maestro Dinis Sousa, a Orquestra XXI é hoje reconhecida como uma das comunidades culturais mais inspiradoras de Portugal, com apresentações que vêm sendo ac…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/09/OrquestraXXI_2000x940.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/sinfonia-n-9-novo-mundo-de-dvorak/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/sinfonia-n-9-novo-mundo-de-dvorak/",
+    "ticket_url": "",
+    "price_info": "25\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "direção": "musical Dinis Sousa Orquestra XXI Programa Antonín Dvořák – Sinfonia n.º 9 em Mi menor, Op. 95 ‘Novo Mundo’ I. Adagio – Allegro molto II. Largo III. Scherzo: Molto vivace IV. Allegro con fuoco Restante programa a anunciar*"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Concerto",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.528
+    }
+  },
+  {
+    "id": "ccb-ngela-ferreira",
+    "title": "Ângela Ferreira",
+    "subtitle": "Here I Stand",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Visuais & Exposições",
+    "dates_label": "2026-10-24",
+    "date_start": "2026-10-24",
+    "date_end": "2026-10-24",
+    "sessions": [
+      {
+        "date": "2026-10-24",
+        "time": "",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Exposição que traça um percurso entre os primeiros trabalhos da década de 1990 e os mais recentes, revelando as investigações da artista. Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB Exposição temporária, de 24 outu…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/11/14_AngelaFerreira©LaurentLecat.jpg",
+      "credit": "Laurent Lecat Ângela Ferreira©Leonard Pongo - Preçário Consulte Bilheteira Marca",
+      "source": "https://www.ccb.pt/evento/exposicao-angela-ferreira/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/exposicao-angela-ferreira/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "música": "Teatro Dança Conferências e Conversas Exposições Escolas Familías Bilheteira Podcasts CCB CCB Digital Arquivo Visitar Como Chegar Acessibilidade Mercado CCB Lojas e Restaurantes Jardins e Ar Livre Sala de Leitura, Acervo e Arquivo Daciano da Costa no CCB CCB Sobre Informações sob"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Exposição",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.538
+    }
+  },
+  {
+    "id": "ccb-sul",
+    "title": "Sul",
+    "subtitle": "Há Fado no Cais",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Música",
+    "dates_label": "2026-10-30",
+    "date_start": "2026-10-30",
+    "date_end": "2026-10-30",
+    "sessions": [
+      {
+        "date": "2026-10-30",
+        "time": "",
+        "weekday": "Sex"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Depois de um aclamado disco de estreia (JACC Records, 2022) e de inúmeros concertos de norte a sul do país, o trio Sul prossegue a sua viagem no universo do Jazz e da música instrumental portuguesa.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/09/2000x940_SUL-e1760370826764.jpg",
+      "credit": "Márcia Lessa Coprodução Centro Cultural de Belém, Lisboa Cultura/Museu do Fado P",
+      "source": "https://www.ccb.pt/evento/sul/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/sul/",
+    "ticket_url": "",
+    "price_info": "15\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "coprodução": "Centro Cultural de Belém, Lisboa Cultura/Museu do Fado"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Concerto",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.528
+    }
+  },
+  {
+    "id": "ccb-marco-rodrigues-canta-carlos-do-carmo",
+    "title": "Marco Rodrigues canta Carlos do Carmo",
+    "subtitle": "",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Música",
+    "dates_label": "2026-11-07",
+    "date_start": "2026-11-07",
+    "date_end": "2026-11-07",
+    "sessions": [
+      {
+        "date": "2026-11-07",
+        "time": "",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Marco Rodrigues apresenta-se em palco com um espetáculo que evoca a memória e o legado de Carlos do Carmo – sua referência e figura maior do Fado. Com a solidez de uma carreira firmada no respeito pela tradição, o fadista revisita os temas do álbum Canta Carlos do Carmo, um registo profundamente pes…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/09/2000x940-marco-Rodrigues.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/marco-rodrigues-canta-carlos-do-carmo/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/marco-rodrigues-canta-carlos-do-carmo/",
+    "ticket_url": "",
+    "price_info": "25\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "produção": "Centro Cultural de Belém, Lisboa Cultura/Museu do Fado"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Concerto",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.528
+    }
+  },
+  {
+    "id": "ccb-francisca-carvalho",
+    "title": "Francisca Carvalho",
+    "subtitle": "Kouroi al cora",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Performativas",
+    "dates_label": "2026-11-12",
+    "date_start": "2026-11-12",
+    "date_end": "2026-11-12",
+    "sessions": [
+      {
+        "date": "2026-11-12",
+        "time": "",
+        "weekday": "Qui"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Para lá de uma vasta seleção de obras em papel, a mostra explora a investigação que a artista levou a cabo na Índia, nas regiões de Rajastão e de Gujarat.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/11/16_FranciscaCarvalhodreditoAJS2025-copiar-scaled.jpg",
+      "credit": "AJS2025 Apoios Mecenas Centro de Arquitetura MAC/CCB Mecenas MAC/CCB Parceiro de",
+      "source": "https://www.ccb.pt/evento/exposicao-francisca-carvalho/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/exposicao-francisca-carvalho/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "música": "Teatro Dança Conferências e Conversas Exposições Escolas Familías Bilheteira Podcasts CCB CCB Digital Arquivo Visitar Como Chegar Acessibilidade Mercado CCB Lojas e Restaurantes Jardins e Ar Livre Sala de Leitura, Acervo e Arquivo Daciano da Costa no CCB CCB Sobre Informações sob"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.538
+    }
+  },
+  {
+    "id": "ccb-ne-l-beloufa",
+    "title": "Neïl Beloufa",
+    "subtitle": "",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Performativas",
+    "dates_label": "2026-11-12",
+    "date_start": "2026-11-12",
+    "date_end": "2026-11-12",
+    "sessions": [
+      {
+        "date": "2026-11-12",
+        "time": "",
+        "weekday": "Qui"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "O artista franco-argelino Neïl Beloufa cria um percurso no qual o público interage com objetos e experimenta capítulos de um jogo de computador ao vivo.…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/11/19_NeilBeloufacreditoAgostinoOsio.jpg",
+      "credit": "Agostino Osio Apoios Mecenas Centro de Arquitetura MAC/CCB Mecenas MAC/CCB Parce",
+      "source": "https://www.ccb.pt/evento/exposicao-neil-beloufa/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/exposicao-neil-beloufa/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "música": "Teatro Dança Conferências e Conversas Exposições Escolas Familías Bilheteira Podcasts CCB CCB Digital Arquivo Visitar Como Chegar Acessibilidade Mercado CCB Lojas e Restaurantes Jardins e Ar Livre Sala de Leitura, Acervo e Arquivo Daciano da Costa no CCB CCB Sobre Informações sob"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.538
+    }
+  },
+  {
+    "id": "ccb-al-di-meola",
+    "title": "Al Di Meola",
+    "subtitle": "Misty Fest",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Música",
+    "dates_label": "2026-11-28",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "sessions": [
+      {
+        "date": "2026-11-28",
+        "time": "",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "No âmbito do Misty Fest, o guitarrista norte-americano regressa a Portugal para um concerto muito especial. Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB Al Di Meola é um dos mais influentes guitarristas da história …",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2026/03/AlDiMeola_banner_fnac_1920x1080.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/al-di-meola-misty-fest/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/al-di-meola-misty-fest/",
+    "ticket_url": "",
+    "price_info": "100\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Concerto",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.51
+    }
+  },
+  {
+    "id": "ccb-marisol",
+    "title": "Marisol",
+    "subtitle": "When Things are Just Beginning",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Performativas",
+    "dates_label": "2026-12-03",
+    "date_start": "2026-12-03",
+    "date_end": "2026-12-03",
+    "sessions": [
+      {
+        "date": "2026-12-03",
+        "time": "",
+        "weekday": "Qui"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "A primeira retrospetiva dedicada aos desenhos de Marisol Escobar, que reúne mais de 100 obras produzidas desde a década de 1950 até à sua morte. Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB A primeira retrospetiva d…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/11/10_creditoMarisol-Escobar_Untitled-1974_colored-pencil-and-collage-on-paper.-Bequest-of-Marisol-2016.jpg",
+      "credit": "Marisol Escobar: [Untitled], 1974. Colored pencil and collage on paper. Bequest",
+      "source": "https://www.ccb.pt/evento/exposicao-marisol/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/exposicao-marisol/",
+    "ticket_url": "",
+    "price_info": "",
+    "age_rating": "Livre",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {
+      "música": "Teatro Dança Conferências e Conversas Exposições Escolas Familías Bilheteira Podcasts CCB CCB Digital Arquivo Visitar Como Chegar Acessibilidade Mercado CCB Lojas e Restaurantes Jardins e Ar Livre Sala de Leitura, Acervo e Arquivo Daciano da Costa no CCB CCB Sobre Informações sob"
+    },
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "age_min": 0,
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.538
+    }
+  },
+  {
+    "id": "ccb-glenn-miller-orchestra",
+    "title": "Glenn Miller Orchestra",
+    "subtitle": "In The Christmas Mood",
+    "theater": "CCB — Centro Cultural de Belém",
+    "category": "Artes Performativas",
+    "dates_label": "2026-12-12",
+    "date_start": "2026-12-12",
+    "date_end": "2026-12-12",
+    "sessions": [
+      {
+        "date": "2026-12-12",
+        "time": "",
+        "weekday": "Sáb"
+      }
+    ],
+    "schedule": "",
+    "synopsis": "Ray McVay dirige os 21 talentosos músicos e cantores num espetáculo que, como num estalar de dedos, nos faz recuar até aos anos trinta. Ou se preferir, podemos ajudá-lo a encontrar os melhores eventos para si,\ne até, a planear um dia inteiro de visita ao CCB Caso de sucesso em Portugal, Glenn…",
+    "image": {
+      "url": "https://www.ccb.pt/wp-content/uploads/2025/04/GMO_XMAS3_1200x630.jpg",
+      "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+      "source": "https://www.ccb.pt/evento/glenn-miller-orchestra-4/",
+      "theater": "CCB — Centro Cultural de Belém"
+    },
+    "source_url": "https://www.ccb.pt/evento/glenn-miller-orchestra-4/",
+    "ticket_url": "",
+    "price_info": "47,5\n€",
+    "age_rating": "",
+    "sala": "Fábrica Das Artes",
+    "technical_sheet": {},
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "theater_id": "ccb",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.51
     }
   }
 ]
