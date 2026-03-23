@@ -37,9 +37,7 @@
     "subcategory": "Performance",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-23T14:51:48.690783+00:00",
-    "_stale": true,
-    "_stale_since": "2026-03-23",
+    "scraped_at": "2026-03-23T15:55:39.522470+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
@@ -102,9 +100,7 @@
     "for_families": true,
     "for_schools": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-23T14:51:48.690783+00:00",
-    "_stale": true,
-    "_stale_since": "2026-03-23",
+    "scraped_at": "2026-03-23T15:55:39.522470+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
@@ -169,14 +165,391 @@
     "is_festival": true,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-23T14:51:48.690783+00:00",
-    "_stale": true,
-    "_stale_since": "2026-03-23",
+    "scraped_at": "2026-03-23T15:55:39.522470+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
     "_meta": {
       "completeness": 0.928
+    }
+  },
+  {
+    "id": "tagv-sublinhar",
+    "title": "SubLinhar",
+    "theater": "TAGV — Teatro Académico Gil Vicente",
+    "category": "Artes Performativas",
+    "date_start": "2026-03-24",
+    "source_url": "https://tagv.pt/agenda/festival-end-souvenir/",
+    "dates_label": "24 mar 2026",
+    "synopsis": "Em SOUVENIR Tiago Cadete parte dos movimentos de migração portuguesa para França, na segunda metade do século XX, para investigar a história pouco conhecida da migração da sua família paterna. O que não esperava era que SOUVENIR se tornasse num confronto consigo mesmo e com o seu próprio passado.",
+    "image": {
+      "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-festival-end-souvenir-souvenir-divulgacao-horizontal-2026-dr.jpg",
+      "credit": null,
+      "source": "https://tagv.pt/agenda/festival-end-souvenir/",
+      "theater": "TAGV — Teatro Académico Gil Vicente"
+    },
+    "ticket_url": "https://tagv.bol.pt",
+    "duration": "16h00",
+    "duration_min": 960,
+    "technical_sheet": {
+      "música": "KIK: Nightshift Oficina Alinhas? — Dançar os Pensamentos e a Imaginação Cinema La Cicatrice Intérieure + Athanor Teatro Festival END: Souvenir Teatro Festival END: Partes Sensíveis Teatro Festival END: Reparations Baby! Teatro Festival END Teatro Festival END:",
+      "dramaturgia": "Contemporânea. Processos de",
+      "produção": "com o Teatro Académico de Gil Vicente, e Aveiro, com o Teatro Aveirense. O festival assinala o Dia Mundial do Teatro, a 27 de março, com programação na cidade de Aveiro. Data 24, Março 2026 Horário 16H00 Duração 1h30 Faixa etária M12 Preço entrada gratuita Local Teatro da Cerca de São Bernardo Criaç",
+      "apoio": "à",
+      "som": "Lurdes Osswald",
+      "figurinos": "Carlota Lagido",
+      "direção": "artística Mickaël de Oliveira Assistente de"
+    },
+    "people": [
+      "artística Mickaël de Oliveira Assistente de",
+      "Contemporânea. Processos de",
+      "Carlota Lagido",
+      "Lurdes Osswald",
+      "KIK: Nightshift Oficina Alinhas? — Dançar os Pensamentos",
+      "a Imaginação Cinema La Cicatrice Intérieure + Athanor Teatro Festival END: Souvenir Teatro Festival END: Partes Sensíveis Teatro Festival END: Reparations Baby! Teatro Festival END Teatro Festival END:",
+      "com o Teatro Académico de Gil Vicente",
+      "Aveiro",
+      "com o Teatro Aveirense. O festival assinala o Dia Mundial do Teatro",
+      "a 27 de março",
+      "com programação na cidade de Aveiro. Data 24",
+      "Março 2026 Horário 16H00 Duração 1h30 Faixa etária M12 Preço entrada gratuita Local Teatro da Cerca de São Bernardo Criaç"
+    ],
+    "sessions": [
+      {
+        "date": "2026-03-24",
+        "time": "16:00",
+        "weekday": "Ter"
+      }
+    ],
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T15:55:39.522470+00:00",
+    "theater_id": "tagv",
+    "city": "Coimbra",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.826
+    }
+  },
+  {
+    "id": "tagv-kik-nightshift",
+    "title": "KIK: Nightshift",
+    "theater": "TAGV — Teatro Académico Gil Vicente",
+    "category": "Artes Performativas",
+    "date_start": "2026-03-24",
+    "source_url": "https://tagv.pt/agenda/festival-end-partes-sensiveis/",
+    "dates_label": "24 mar 2026",
+    "synopsis": "Aos primeiros anfiteatros, onde se estudou o corpo humano, na Europa, deu-se o nome de teatro anatómico. Ali, onde se deram a ver as primeiras dissecações, revelaram-se maravilhas sobre o interior do corpo.…",
+    "image": {
+      "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-festival-end-partes-sensiveis-partes-sensiveis-beatriz-pequeno.jpg",
+      "credit": null,
+      "source": "https://tagv.pt/agenda/festival-end-partes-sensiveis/",
+      "theater": "TAGV — Teatro Académico Gil Vicente"
+    },
+    "ticket_url": "https://tagv.bol.pt",
+    "duration": "21h30",
+    "duration_min": 1290,
+    "technical_sheet": {
+      "música": "KIK: Nightshift Oficina Alinhas? — Dançar os Pensamentos e a Imaginação Cinema La Cicatrice Intérieure + Athanor Teatro Festival END: Souvenir Teatro Festival END: Partes Sensíveis Teatro Festival END: Reparations Baby! Teatro Festival END Teatro Festival END:",
+      "dramaturgia": "Contemporânea. Processos de",
+      "produção": "com o Teatro Académico de Gil Vicente, e Aveiro, com o Teatro Aveirense. O festival assinala o Dia Mundial do Teatro, a 27 de março, com programação na cidade de Aveiro. Data 24, Março 2026 Horário 21H30 Duração 1h10 Faixa etária M12 Preço €5 Local TAGV Criação",
+      "texto": "e",
+      "interpretação": "David Marques e Nuno Pinheiro Assistência de ensaios Francisco Rolo Espaço cenográfico e luzes Tiago Cadete",
+      "som": "Gonçalo Alegria",
+      "figurinos": "Marisa Escaleira Fotografias para impressão em tecidos Tamara Seilman",
+      "direção": "técnica Ricardo Pimentel Acompanhamento crítico João Manuel de Oliveira Olhar exterior (Campus Paulo Cunha e Silva) José Maria Vieira Mendes",
+      "apoio": "à comunicação Inês Melo"
+    },
+    "cast": [
+      "David Marques",
+      "Nuno Pinheiro Assistência de ensaios Francisco Rolo Espaço cenográfico",
+      "luzes Tiago Cadete"
+    ],
+    "people": [
+      "técnica Ricardo Pimentel Acompanhamento crítico João Manuel de Oliveira Olhar exterior (Campus Paulo Cunha",
+      "Silva) José Maria Vieira Mendes",
+      "Contemporânea. Processos de",
+      "Marisa Escaleira Fotografias para impressão em tecidos Tamara Seilman",
+      "Gonçalo Alegria",
+      "KIK: Nightshift Oficina Alinhas? — Dançar os Pensamentos",
+      "a Imaginação Cinema La Cicatrice Intérieure + Athanor Teatro Festival END: Souvenir Teatro Festival END: Partes Sensíveis Teatro Festival END: Reparations Baby! Teatro Festival END Teatro Festival END:",
+      "David Marques",
+      "Nuno Pinheiro Assistência de ensaios Francisco Rolo Espaço cenográfico",
+      "luzes Tiago Cadete",
+      "com o Teatro Académico de Gil Vicente",
+      "Aveiro",
+      "com o Teatro Aveirense. O festival assinala o Dia Mundial do Teatro",
+      "a 27 de março",
+      "com programação na cidade de Aveiro. Data 24",
+      "Março 2026 Horário 21H30 Duração 1h10 Faixa etária M12 Preço €5 Local TAGV Criação"
+    ],
+    "sessions": [
+      {
+        "date": "2026-03-24",
+        "time": "21:30",
+        "weekday": "Ter"
+      }
+    ],
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T15:55:39.522470+00:00",
+    "theater_id": "tagv",
+    "city": "Coimbra",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.852
+    }
+  },
+  {
+    "id": "tagv-festival-end-julieta-romeu-uma-pe-a-para-um-par-de",
+    "title": "Festival END: Julieta & Romeu. Uma Peça Para Um Par de Desditos Amantes",
+    "theater": "TAGV — Teatro Académico Gil Vicente",
+    "category": "Artes Performativas",
+    "date_start": "2026-03-25",
+    "source_url": "https://tagv.pt/agenda/festival-end-dramaturgia-contemporanea-processo-de-composicao/",
+    "dates_label": "25 mar 2026",
+    "synopsis": "Pensados como espaços de partilha e escuta ativa, estes encontros tomam os processos de composição dramatúrgica como ponto de partida para a conversa, privilegiando a reflexão sobre modos de escrita, decisões formais, contextos de criação e relações com a cena.…",
+    "image": {
+      "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-festival-end-dramaturgia-contemporanea-processo-de-composicao-seminariopatricia-portelathomaslangdon.jpg",
+      "credit": null,
+      "source": "https://tagv.pt/agenda/festival-end-dramaturgia-contemporanea-processo-de-composicao/",
+      "theater": "TAGV — Teatro Académico Gil Vicente"
+    },
+    "ticket_url": "https://tagv.bol.pt",
+    "duration": "11h00",
+    "duration_min": 660,
+    "technical_sheet": {
+      "dramaturgia": "Contemporânea. Processo de",
+      "música": "| TAGV Menu Início Agenda O TAGV Laboratório LIPA Aluguer Espaços Bilheteira Praça da República 3000-343 Coimbra | Bilheteira Online: tagv.bol.pt | 239 855 636 (Chamada para a rede fixa nacional) teatro@tagv.uc.pt Teatro Festival END: Julieta & Romeu. Uma Peça Para Um Par de Desditos Amantes Clube d",
+      "produção": "com o Teatro Académico de Gil Vicente, e Aveiro, com o Teatro Aveirense. O festival assinala o Dia Mundial do Teatro, a 27 de março, com programação na cidade de Aveiro. Data 25, Março 2026 Horário 11H00 Duração 1h30 Faixa etária M12 Preço entrada gratuita Local Teatro-Estúdio CITAC Fotografia Thoma",
+      "direção": "artística Mickaël de Oliveira Assistente de",
+      "apoio": "à comunicação Inês Melo"
+    },
+    "people": [
+      "artística Mickaël de Oliveira Assistente de",
+      "Contemporânea. Processo de",
+      "| TAGV Menu Início Agenda O TAGV Laboratório LIPA Aluguer Espaços Bilheteira Praça da República 3000-343 Coimbra | Bilheteira Online: tagv.bol.pt | 239 855 636 (Chamada para a rede fixa nacional) teatro@tagv.uc.pt Teatro Festival END: Julieta & Romeu. Uma Peça Para Um Par de Desditos Amantes Clube d",
+      "com o Teatro Académico de Gil Vicente",
+      "Aveiro",
+      "com o Teatro Aveirense. O festival assinala o Dia Mundial do Teatro",
+      "a 27 de março",
+      "com programação na cidade de Aveiro. Data 25",
+      "Março 2026 Horário 11H00 Duração 1h30 Faixa etária M12 Preço entrada gratuita Local Teatro-Estúdio CITAC Fotografia Thoma"
+    ],
+    "sessions": [
+      {
+        "date": "2026-03-25",
+        "time": "11:00",
+        "weekday": "Qua"
+      }
+    ],
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "is_festival": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T15:55:39.522470+00:00",
+    "theater_id": "tagv",
+    "city": "Coimbra",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.78
+    }
+  },
+  {
+    "id": "tagv-festival-end-reparations-baby",
+    "title": "Festival END: Reparations Baby!",
+    "theater": "TAGV — Teatro Académico Gil Vicente",
+    "category": "Artes Performativas",
+    "date_start": "2026-03-25",
+    "source_url": "https://tagv.pt/agenda/festival-end-julieta-romeu-uma-peca-para-um-par-de-desditos-amantes/",
+    "dates_label": "25 mar 2026",
+    "synopsis": "Esta é a história de dois jovens que se apaixonam num grupo de teatro. Ele é Romeu, filho de migrantes; ela, Julieta, filha de um político xenófobo. À medida que ensaiam Romeu e Julieta, a fronteira entre a ficção e a realidade dilui-se, e as suas vidas entrelaçam-se com a tragédia que interpretam.…",
+    "image": {
+      "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-festival-end-dramaturgia-contemporanea-processo-de-composicao-ricardo-correia.jpg",
+      "credit": null,
+      "source": "https://tagv.pt/agenda/festival-end-julieta-romeu-uma-peca-para-um-par-de-desditos-amantes/",
+      "theater": "TAGV — Teatro Académico Gil Vicente"
+    },
+    "ticket_url": "https://tagv.bol.pt",
+    "duration": "14h30",
+    "duration_min": 870,
+    "technical_sheet": {
+      "dramaturgia": "Contemporânea. Processos de",
+      "música": "Teatro Festival END: ESTALEIRO Almada/Oroz Teatro Festival END: Julieta & Romeu. Uma Peça Para Um Par de Desditos Amantes Clube de Leitura Leituras Indisciplinadas Queer Teatro Festival END: Dressing Room Teatro Festival END: A Cavalo Dado Teatro Festival END:",
+      "texto": "vencedor da 7.ª edição do Prémio Miguel Rovisco – Novos Textos Teatrais. Romeu & Julieta é apresentada no Festival END numa leitura dirigida pelo autor, com",
+      "interpretação": "de Vicente Gil e Beatriz Maia, depois de ter estreado no Teatro da Trindade em Setembro de 2025, com",
+      "encenação": "de Flávio Gil. O Festival END — Encontros de Novas Dramaturgias é uma celebração bienal da escrita original para teatro e outras artes performativas. Convida criadores a partilhar os seus trabalhos mais recentes em múltiplos formatos – seminários, leituras encenadas ou participativas, ensaios aberto",
+      "produção": "com o Teatro Académico de Gil Vicente, e Aveiro, com o Teatro Aveirense. O festival assinala o Dia Mundial do Teatro, a 27 de março, com programação na cidade de Aveiro. Data 25, Março 2026 Horário 14H30 Duração 1h00 Faixa etária M14 Preço entrada gratuita Local Casa da Esquina Festival END Encontro",
+      "direção": "artística Mickaël de Oliveira Assistente de",
+      "apoio": "à comunicação Inês Melo"
+    },
+    "cast": [
+      "de Vicente Gil",
+      "Beatriz Maia",
+      "depois de ter estreado no Teatro da Trindade em Setembro de 2025",
+      "com"
+    ],
+    "people": [
+      "vencedor da 7.ª edição do Prémio Miguel Rovisco – Novos Textos Teatrais. Romeu & Julieta é apresentada no Festival END numa leitura dirigida pelo autor",
+      "com",
+      "de Flávio Gil. O Festival END — Encontros de Novas Dramaturgias é uma celebração bienal da escrita original para teatro",
+      "outras artes performativas. Convida criadores a partilhar os seus trabalhos mais recentes em múltiplos formatos – seminários",
+      "leituras encenadas ou participativas",
+      "ensaios aberto",
+      "artística Mickaël de Oliveira Assistente de",
+      "Contemporânea. Processos de",
+      "Teatro Festival END: ESTALEIRO Almada/Oroz Teatro Festival END: Julieta & Romeu. Uma Peça Para Um Par de Desditos Amantes Clube de Leitura Leituras Indisciplinadas Queer Teatro Festival END: Dressing Room Teatro Festival END: A Cavalo Dado Teatro Festival END:",
+      "de Vicente Gil",
+      "Beatriz Maia",
+      "depois de ter estreado no Teatro da Trindade em Setembro de 2025",
+      "com o Teatro Académico de Gil Vicente",
+      "Aveiro",
+      "com o Teatro Aveirense. O festival assinala o Dia Mundial do Teatro",
+      "a 27 de março",
+      "com programação na cidade de Aveiro. Data 25",
+      "Março 2026 Horário 14H30 Duração 1h00 Faixa etária M14 Preço entrada gratuita Local Casa da Esquina Festival END Encontro"
+    ],
+    "sessions": [
+      {
+        "date": "2026-03-25",
+        "time": "14:30",
+        "weekday": "Qua"
+      }
+    ],
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "is_festival": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T15:55:39.522470+00:00",
+    "theater_id": "tagv",
+    "city": "Coimbra",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.834
+    }
+  },
+  {
+    "id": "tagv-festival-end-estaleiro-almada-oroz",
+    "title": "Festival END: ESTALEIRO Almada/Oroz",
+    "theater": "TAGV — Teatro Académico Gil Vicente",
+    "category": "Artes Performativas",
+    "date_start": "2026-03-25",
+    "source_url": "https://tagv.pt/agenda/festival-end-a-cavalo-dado/",
+    "dates_label": "25 mar 2026",
+    "synopsis": "Conferência-Performance que, partindo do capítulo das Viagens de Gulliver: A Voyage to the Land of the Houyhnhnms e de várias referências culturais e representações do Cavalo e da sua relação com os seres humanos – resultando num imaginário cheio de signos e significados, alguns problemáticos, outro…",
+    "image": {
+      "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-festival-end-dramaturgia-contemporanea-processo-de-composicao-a-cavalo-dado-raquel-melgue.jpg",
+      "credit": null,
+      "source": "https://tagv.pt/agenda/festival-end-a-cavalo-dado/",
+      "theater": "TAGV — Teatro Académico Gil Vicente"
+    },
+    "ticket_url": "https://tagv.bol.pt",
+    "duration": "18h00",
+    "duration_min": 1080,
+    "technical_sheet": {
+      "dramaturgia": "Contemporânea. Processo de",
+      "música": "Conversa Ser Preciso, Ser Aqui: Conversas Com Pessoas Dotadas de Minúcia Teatro Festival END: Vado e Non Torno Teatro Festival END: As Mãos Sujas de Sangue. Crítica e",
+      "produção": "com o Teatro Académico de Gil Vicente, e Aveiro, com o Teatro Aveirense. O festival assinala o Dia Mundial do Teatro, a 27 de março, com programação na cidade de Aveiro. Data 25, Março 2026 Horário 18H00 Duração 50 min. Faixa etária M12 Preço entrada gratuita Local Teatro da Cerca de São Bernardo Cr",
+      "interpretação": "Sónia Baptista",
+      "apoio": "à apresentação no âmbito do Festival END Teatro da Cerca de São Bernardo /A Escola da Noite Fotografia Raquel Melgue Festival END Encontros de Novas Dramaturgias",
+      "direção": "artística Mickaël de Oliveira Assistente de"
+    },
+    "cast": [
+      "Sónia Baptista"
+    ],
+    "people": [
+      "artística Mickaël de Oliveira Assistente de",
+      "Contemporânea. Processo de",
+      "Conversa Ser Preciso",
+      "Ser Aqui: Conversas Com Pessoas Dotadas de Minúcia Teatro Festival END: Vado",
+      "Non Torno Teatro Festival END: As Mãos Sujas de Sangue. Crítica e",
+      "Sónia Baptista",
+      "com o Teatro Académico de Gil Vicente",
+      "Aveiro",
+      "com o Teatro Aveirense. O festival assinala o Dia Mundial do Teatro",
+      "a 27 de março",
+      "com programação na cidade de Aveiro. Data 25",
+      "Março 2026 Horário 18H00 Duração 50 min. Faixa etária M12 Preço entrada gratuita Local Teatro da Cerca de São Bernardo Cr"
+    ],
+    "sessions": [
+      {
+        "date": "2026-03-25",
+        "time": "18:00",
+        "weekday": "Qua"
+      }
+    ],
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "is_festival": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T15:55:39.522470+00:00",
+    "theater_id": "tagv",
+    "city": "Coimbra",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.798
+    }
+  },
+  {
+    "id": "tagv-festival-end",
+    "title": "Festival END",
+    "theater": "TAGV — Teatro Académico Gil Vicente",
+    "category": "Multidisciplinar",
+    "date_start": "2026-03-25",
+    "source_url": "https://tagv.pt/agenda/leituras-indisciplinadas-2-kitchen-banana-yoshimoto/",
+    "dates_label": "25 mar 2026",
+    "synopsis": "O ciclo Leituras Indisciplinadas Queer nasce como um espaço de encontro, partilha e presença. A cada sessão, abrimos um território coletivo onde a literatura se torna ferramenta de cuidado, reflexão e afirmação de existências.",
+    "image": {
+      "url": "https://tagv.pt/public/uploads/2025/10/tagv.pt-leituras-indisciplinadas-queer-0k4a2805.jpg",
+      "credit": null,
+      "source": "https://tagv.pt/agenda/leituras-indisciplinadas-2-kitchen-banana-yoshimoto/",
+      "theater": "TAGV — Teatro Académico Gil Vicente"
+    },
+    "ticket_url": "https://tagv.bol.pt",
+    "duration": "18h30",
+    "duration_min": 1110,
+    "technical_sheet": {
+      "dramaturgia": "Contemporânea. Processos de",
+      "música": "Teatro Festival END: ESTALEIRO Almada/Oroz Teatro Festival END: Julieta & Romeu. Uma Peça Para Um Par de Desditos Amantes Clube de Leitura Leituras Indisciplinadas Queer Teatro Festival END: Dressing Room Teatro Festival END: A Cavalo Dado Teatro Festival END:",
+      "texto": "escolhido não é apenas literatura, é também memória, resistência e possibilidade de imaginar futuros. A curadoria e a mediação são conduzidas por Fabrina Martinez e Iuri Lopes, ambas doutorandas em Estudos Feministas da Faculdade de Letras e do Centro de Estudos Sociais da Universidade de Coimbra. P"
+    },
+    "people": [
+      "escolhido não é apenas literatura",
+      "é também memória",
+      "resistência",
+      "possibilidade de imaginar futuros. A curadoria",
+      "a mediação são conduzidas por Fabrina Martinez",
+      "Iuri Lopes",
+      "ambas doutorandas em Estudos Feministas da Faculdade de Letras",
+      "do Centro de Estudos Sociais da Universidade de Coimbra. P",
+      "Contemporânea. Processos de",
+      "Teatro Festival END: ESTALEIRO Almada/Oroz Teatro Festival END: Julieta & Romeu. Uma Peça Para Um Par de Desditos Amantes Clube de Leitura Leituras Indisciplinadas Queer Teatro Festival END: Dressing Room Teatro Festival END: A Cavalo Dado Teatro Festival END:"
+    ],
+    "sessions": [
+      {
+        "date": "2026-03-25",
+        "time": "18:30",
+        "weekday": "Qua"
+      }
+    ],
+    "schema_version": "2.0",
+    "is_free": null,
+    "is_festival": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T15:55:39.522470+00:00",
+    "theater_id": "tagv",
+    "city": "Coimbra",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.704
     }
   },
   {
@@ -216,9 +589,52 @@
     "is_free": null,
     "is_festival": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-23T14:51:48.690783+00:00",
-    "_stale": true,
-    "_stale_since": "2026-03-23",
+    "scraped_at": "2026-03-23T15:55:39.522470+00:00",
+    "theater_id": "tagv",
+    "city": "Coimbra",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.608
+    }
+  },
+  {
+    "id": "tagv-festival-end-vado-e-non-torno",
+    "title": "Festival END: Vado e Non Torno",
+    "theater": "TAGV — Teatro Académico Gil Vicente",
+    "category": "Música",
+    "date_start": "2026-03-28",
+    "source_url": "https://tagv.pt/agenda/european-student-orchestra-festival-2026-coimbra-orchestre-universitaire-de-strasbourg-2/",
+    "dates_label": "28 mar 2026",
+    "synopsis": "A edição de 2026, em Coimbra, representa um marco importante nesta missão, sendo o primeiro ESOF realizado no Sul da Europa (edições anteriores em Leuven, Estrasburgo, Tallinn, Bruxelas, Toulouse e Münster).…",
+    "image": {
+      "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-european-student-orchestra-festival-2026-coimbra-orchestre-universitaire-de-strasbourg-toulouse.jpg",
+      "credit": null,
+      "source": "https://tagv.pt/agenda/european-student-orchestra-festival-2026-coimbra-orchestre-universitaire-de-strasbourg-2/",
+      "theater": "TAGV — Teatro Académico Gil Vicente"
+    },
+    "ticket_url": "https://tagv.bol.pt",
+    "duration": "21h00",
+    "duration_min": 1260,
+    "technical_sheet": {
+      "dramaturgia": "Teatro Festival END: O Projecto Elgelbreckt Engelbrecktsson",
+      "música": "European Student Orchestra Festival 2026 Coimbra"
+    },
+    "people": [
+      "Teatro Festival END: O Projecto Elgelbreckt Engelbrecktsson",
+      "European Student Orchestra Festival 2026 Coimbra"
+    ],
+    "sessions": [
+      {
+        "date": "2026-03-28",
+        "time": "21:00",
+        "weekday": "Sáb"
+      }
+    ],
+    "schema_version": "2.0",
+    "is_free": null,
+    "is_festival": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T15:55:39.522470+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
@@ -264,9 +680,7 @@
     "is_free": true,
     "is_festival": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-23T14:51:48.690783+00:00",
-    "_stale": true,
-    "_stale_since": "2026-03-23",
+    "scraped_at": "2026-03-23T15:55:39.522470+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
@@ -312,9 +726,7 @@
     "is_free": null,
     "is_festival": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-23T14:51:48.690783+00:00",
-    "_stale": true,
-    "_stale_since": "2026-03-23",
+    "scraped_at": "2026-03-23T15:55:39.522470+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
@@ -374,14 +786,358 @@
     "schema_version": "2.0",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-23T14:51:48.690783+00:00",
-    "_stale": true,
-    "_stale_since": "2026-03-23",
+    "scraped_at": "2026-03-23T15:55:39.522470+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
     "_meta": {
       "completeness": 0.754
+    }
+  },
+  {
+    "id": "tagv-uma-onda-na-mente-apresenta-o-dos-livros",
+    "title": "Uma Onda na Mente — Apresentação dos Livros",
+    "theater": "TAGV — Teatro Académico Gil Vicente",
+    "category": "Cinema & Audiovisual",
+    "date_start": "2026-04-13",
+    "source_url": "https://tagv.pt/agenda/o-barqueiro-de-simao-cayatte/",
+    "dates_label": "13 abr 2026",
+    "synopsis": "Joaquim sai em liberdade condicional antes do fim da pena de dezasseis anos mas não conta à família. Aceita trabalhar como barqueiro clandestino no Tejo transportando apanhadores de amêijoa ilegais de forma a cumprir a promessa que fez à filha de lhe oferecer um piano.",
+    "image": {
+      "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-a-mascara-de-ingmar-bergman-o-barqueiro-02.jpg",
+      "credit": null,
+      "source": "https://tagv.pt/agenda/o-barqueiro-de-simao-cayatte/",
+      "theater": "TAGV — Teatro Académico Gil Vicente"
+    },
+    "ticket_url": "https://tagv.bol.pt",
+    "price_info": "6€",
+    "price_min": 6.0,
+    "price_max": 6.0,
+    "duration": "21h30",
+    "duration_min": 1290,
+    "sessions": [
+      {
+        "date": "2026-04-13",
+        "time": "21:30",
+        "weekday": "Seg"
+      }
+    ],
+    "schema_version": "2.0",
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T15:55:39.522470+00:00",
+    "theater_id": "tagv",
+    "city": "Coimbra",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.58
+    }
+  },
+  {
+    "id": "tagv-uma-onda-na-mente-mundos-de-ursula-k-le-guin",
+    "title": "Uma Onda na Mente — Mundos de Ursula K. Le Guin",
+    "theater": "TAGV — Teatro Académico Gil Vicente",
+    "category": "Artes Performativas",
+    "date_start": "2026-04-14",
+    "source_url": "https://tagv.pt/agenda/festival-adc-onyx-2/",
+    "dates_label": "14 abr 2026",
+    "synopsis": "Alguns dos problemas do tempo das Carquejeiras – século XIX e início do século XX – ainda são motivo para sairmos à rua com o punho cerrado. Outros, são só dissemelhantes.…",
+    "image": {
+      "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-festival-adc-onyx-20260414-isto-nao-e-para-gente02.jpg",
+      "credit": null,
+      "source": "https://tagv.pt/agenda/festival-adc-onyx-2/",
+      "theater": "TAGV — Teatro Académico Gil Vicente"
+    },
+    "ticket_url": "https://tagv.bol.pt",
+    "price_info": "7€",
+    "price_min": 7.0,
+    "price_max": 7.0,
+    "duration": "21h30",
+    "duration_min": 1290,
+    "technical_sheet": {
+      "música": "e Artes do Espetáculo, na variante Interpretação, que terminou em 2021. Também em 2021 ingressou na Escola Superior de Dança, no Mestrado de Criação Coreográfica e práticas profissionais, que terminou em 2023. O seu percurso passa pelas áreas de interpretação, criação e produção. Como intérprete e/o",
+      "companhia": "Dançando com a Diferença (2023), O Mal de Ortov (2023) do Teatro do Calafrio com a",
+      "encenação": "de Florbela Sá Cunha e Perdição (2025) também com a",
+      "interpretação": "(teatro e dança), voz e coreografia. Partindo de um interesse comum pela dança contemporânea e reconhecendo o lugar central que a dança ocupa na renovação da linguagem das artes performativas nas últimas décadas, a Câmara Municipal de Coimbra / Convento São Francisco e a Universidade de Coimbra / Te",
+      "apoio": "à criação Miguel F",
+      "luz": "Francisco Campos Design de",
+      "som": "João Coutada",
+      "figurinos": "Magda, Margarida Magalhães",
+      "produção": "Instável – Centro Coreográfico, Teatro Municipal do Porto"
+    },
+    "cast": [
+      "(teatro",
+      "dança)",
+      "voz",
+      "coreografia. Partindo de um interesse comum pela dança contemporânea",
+      "reconhecendo o lugar central que a dança ocupa na renovação da linguagem das artes performativas nas últimas décadas",
+      "a Câmara Municipal de Coimbra / Convento São Francisco",
+      "a Universidade de Coimbra / Te"
+    ],
+    "people": [
+      "de Florbela Sá Cunha",
+      "Perdição (2025) também com a",
+      "Magda",
+      "Margarida Magalhães",
+      "Francisco Campos Design de",
+      "João Coutada",
+      "e Artes do Espetáculo",
+      "na variante Interpretação",
+      "que terminou em 2021. Também em 2021 ingressou na Escola Superior de Dança",
+      "no Mestrado de Criação Coreográfica",
+      "práticas profissionais",
+      "que terminou em 2023. O seu percurso passa pelas áreas de interpretação",
+      "criação",
+      "produção. Como intérprete e/o",
+      "(teatro",
+      "dança)",
+      "voz",
+      "coreografia. Partindo de um interesse comum pela dança contemporânea",
+      "reconhecendo o lugar central que a dança ocupa na renovação da linguagem das artes performativas nas últimas décadas",
+      "a Câmara Municipal de Coimbra / Convento São Francisco",
+      "a Universidade de Coimbra / Te",
+      "Instável – Centro Coreográfico",
+      "Teatro Municipal do Porto"
+    ],
+    "sessions": [
+      {
+        "date": "2026-04-14",
+        "time": "21:30",
+        "weekday": "Ter"
+      }
+    ],
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T15:55:39.522470+00:00",
+    "theater_id": "tagv",
+    "city": "Coimbra",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.902
+    }
+  },
+  {
+    "id": "tagv-uma-onda-na-mente-oficina-de-escrita",
+    "title": "Uma Onda na Mente — Oficina de Escrita",
+    "theater": "TAGV — Teatro Académico Gil Vicente",
+    "category": "Artes Performativas",
+    "date_start": "2026-04-15",
+    "source_url": "https://tagv.pt/agenda/festival-adc-corpos-performaticos/",
+    "dates_label": "15 abr 2026",
+    "synopsis": "Evento de Performance: Evento performativo nos espaços não convencionais do TAGV, no qual quatro performers Ed Freitas, Elisabete Magalhães, Gabriela Manfredini e Hugo Leite, apresentam criações individuais que ecoam das suas pesquisas de investigação doutoral.…",
+    "image": {
+      "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-festival-adc-onyx-2-corpos-performaticos15-e-28.04.jpg",
+      "credit": null,
+      "source": "https://tagv.pt/agenda/festival-adc-corpos-performaticos/",
+      "theater": "TAGV — Teatro Académico Gil Vicente"
+    },
+    "ticket_url": "https://tagv.bol.pt",
+    "duration": "18h30",
+    "duration_min": 1110,
+    "technical_sheet": {
+      "luz": "e pelo tecido, que reforça a ideia de presença oculta. duração aprox. 30 min. M6 Sala Verde (lotação limitada — 25 pessoas) A Place Left Square / De Hugo Leite O que sobra do corpo, quando o Horror se aproxima e aperta nossos corações, como se quisesse comê-los? Os mortos não nos oferecem o coração"
+    },
+    "people": [
+      "e pelo tecido",
+      "que reforça a ideia de presença oculta. duração aprox. 30 min. M6 Sala Verde (lotação limitada — 25 pessoas) A Place Left Square / De Hugo Leite O que sobra do corpo",
+      "quando o Horror se aproxima",
+      "aperta nossos corações",
+      "como se quisesse comê-los? Os mortos não nos oferecem o coração"
+    ],
+    "sessions": [
+      {
+        "date": "2026-04-15",
+        "time": "18:30",
+        "weekday": "Qua"
+      }
+    ],
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T15:55:39.522470+00:00",
+    "theater_id": "tagv",
+    "city": "Coimbra",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.708
+    }
+  },
+  {
+    "id": "tagv-o-barqueiro",
+    "title": "O Barqueiro",
+    "theater": "TAGV — Teatro Académico Gil Vicente",
+    "category": "Artes Performativas",
+    "date_start": "2026-04-17",
+    "source_url": "https://tagv.pt/agenda/elas-sao-5-milhoes/",
+    "dates_label": "17 abr 2026",
+    "synopsis": "É um manifesto a viva voz que partiu da ideia de trabalho vocal sobre o texto Revolução de Mulheres. Maria Velho da Costa escreveu um texto intemporal sobre um sujeito coletivo “Elas”.…",
+    "image": {
+      "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-elas-sao-5-milhoes-20260417-elas-sao-5-milhoes.jpg",
+      "credit": null,
+      "source": "https://tagv.pt/agenda/elas-sao-5-milhoes/",
+      "theater": "TAGV — Teatro Académico Gil Vicente"
+    },
+    "ticket_url": "https://tagv.bol.pt",
+    "price_info": "10€",
+    "price_min": 10.0,
+    "price_max": 10.0,
+    "duration": "21h30",
+    "duration_min": 1290,
+    "technical_sheet": {
+      "texto": "intemporal sobre um sujeito coletivo “Elas”. Partimos delas, desta voz coletiva, um coro de vozes de Mulheres que interpreta um",
+      "dramaturgia": "e",
+      "encenação": "Helena Faria e Filipa Alves",
+      "interpretação": "(atrizes) Cláudia Carvalho, Helena Faria, Mafalda Canhola, Rita Camões, Teresa Faria Coro de vozes para Revolução e Mulheres Consultoria de conteúdos Ana Costa, José Geraldo Movimento Catarina Trota",
+      "cenografia": "e",
+      "figurinos": "Helena Faria, Filipa Alves Vídeo Sérgio Gomes",
+      "som": "Sérgio Gomes",
+      "luz": "Mafalda Oliveira Cabelos Carlos Gago Design e ilustrações Joana Corker",
+      "produção": "Casa da Esquina / Analú Bailosa, Filipa Alves, Sandra Jorge",
+      "apoio": "Câmara Municipal de Coimbra, Câmara Municipal do Fundão / A Moagem, cidade do engenho e das artes / Fundão, Câmara Municipal de Lisboa / Arquivo Municipal de Lisboa, ACM, Biblioteca Municipal de Coimbra, A Escola da Noite, Ilídio Design Clique ou faça scroll para ver o próximo evento. Toque para ver"
+    },
+    "cast": [
+      "(atrizes) Cláudia Carvalho",
+      "Helena Faria",
+      "Mafalda Canhola",
+      "Rita Camões",
+      "Teresa Faria Coro de vozes para Revolução",
+      "Mulheres Consultoria de conteúdos Ana Costa",
+      "José Geraldo Movimento Catarina Trota"
+    ],
+    "people": [
+      "intemporal sobre um sujeito coletivo “Elas”. Partimos delas",
+      "desta voz coletiva",
+      "um coro de vozes de Mulheres que interpreta um",
+      "Helena Faria",
+      "Filipa Alves",
+      "Filipa Alves Vídeo Sérgio Gomes",
+      "Mafalda Oliveira Cabelos Carlos Gago Design",
+      "ilustrações Joana Corker",
+      "Sérgio Gomes",
+      "(atrizes) Cláudia Carvalho",
+      "Mafalda Canhola",
+      "Rita Camões",
+      "Teresa Faria Coro de vozes para Revolução",
+      "Mulheres Consultoria de conteúdos Ana Costa",
+      "José Geraldo Movimento Catarina Trota",
+      "Casa da Esquina / Analú Bailosa",
+      "Sandra Jorge"
+    ],
+    "sessions": [
+      {
+        "date": "2026-04-17",
+        "time": "21:30",
+        "weekday": "Sex"
+      }
+    ],
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T15:55:39.522470+00:00",
+    "theater_id": "tagv",
+    "city": "Coimbra",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.92
+    }
+  },
+  {
+    "id": "tagv-solaris",
+    "title": "Solaris",
+    "theater": "TAGV — Teatro Académico Gil Vicente",
+    "category": "Artes Performativas",
+    "date_start": "2026-04-28",
+    "source_url": "https://tagv.pt/agenda/festival-adc-corpos-performaticos-2/",
+    "dates_label": "28 abr 2026",
+    "synopsis": "Durante dois meses, os artistas do grupo Corpos Performáticos do doutoramento do Colégio das Artes em Coimbra reuniram-se para ensaiar o tema da lentidão.…",
+    "image": {
+      "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-festival-adc-onyx-2-corpos-performaticos15-e-28.04.jpg",
+      "credit": null,
+      "source": "https://tagv.pt/agenda/festival-adc-corpos-performaticos-2/",
+      "theater": "TAGV — Teatro Académico Gil Vicente"
+    },
+    "ticket_url": "https://tagv.bol.pt",
+    "duration": "18h30",
+    "duration_min": 1110,
+    "technical_sheet": {
+      "luz": "a uma terra com deficiência climática, fazer e desfazer, construir e destruir para suspender o tempo. Partindo de um interesse comum pela dança contemporânea e reconhecendo o lugar central que a dança ocupa na renovação da linguagem das artes performativas nas últimas décadas, a Câmara Municipal de"
+    },
+    "people": [
+      "a uma terra com deficiência climática",
+      "fazer",
+      "desfazer",
+      "construir",
+      "destruir para suspender o tempo. Partindo de um interesse comum pela dança contemporânea",
+      "reconhecendo o lugar central que a dança ocupa na renovação da linguagem das artes performativas nas últimas décadas",
+      "a Câmara Municipal de"
+    ],
+    "sessions": [
+      {
+        "date": "2026-04-28",
+        "time": "18:30",
+        "weekday": "Ter"
+      }
+    ],
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T15:55:39.522470+00:00",
+    "theater_id": "tagv",
+    "city": "Coimbra",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.708
+    }
+  },
+  {
+    "id": "tagv-aprender",
+    "title": "Aprender",
+    "theater": "TAGV — Teatro Académico Gil Vicente",
+    "category": "Multidisciplinar",
+    "date_start": "2026-04-29",
+    "source_url": "https://tagv.pt/agenda/antonio-azevedo-coutinho-gentil/",
+    "dates_label": "29 abr 2026",
+    "synopsis": "Gentil é o primeiro solo de António Azevedo Coutinho e é bem provável que seja o último, que o que ele gostava de ser era jardineiro.",
+    "image": {
+      "url": "https://tagv.pt/public/uploads/2025/12/tagv.pt-antonio-azevedo-coutinho-gentil-gentil-1080x1920.jpg",
+      "credit": null,
+      "source": "https://tagv.pt/agenda/antonio-azevedo-coutinho-gentil/",
+      "theater": "TAGV — Teatro Académico Gil Vicente"
+    },
+    "ticket_url": "https://tagv.bol.pt",
+    "duration": "21h30",
+    "duration_min": 1290,
+    "technical_sheet": {
+      "produção": "Freakshow Clique ou faça scroll para ver o próximo evento. Toque para ver o próximo evento. Humor ​​Ana Garcia Martins O TAGV, remodelado em 2003, é um polo de conhecimento e formação artística. Subscreve a newsletter. Aviso sobre tratamento de dados Praça da República 3000-342 Coimbra Bilheteira on"
+    },
+    "people": [
+      "Freakshow Clique ou faça scroll para ver o próximo evento. Toque para ver o próximo evento. Humor ​​Ana Garcia Martins O TAGV",
+      "remodelado em 2003",
+      "é um polo de conhecimento",
+      "formação artística. Subscreve a newsletter. Aviso sobre tratamento de dados Praça da República 3000-342 Coimbra Bilheteira on"
+    ],
+    "sessions": [
+      {
+        "date": "2026-04-29",
+        "time": "21:30",
+        "weekday": "Qua"
+      }
+    ],
+    "schema_version": "2.0",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-23T15:55:39.522470+00:00",
+    "theater_id": "tagv",
+    "city": "Coimbra",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.642
     }
   },
   {
@@ -421,9 +1177,7 @@
     "schema_version": "2.0",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-23T14:51:48.690783+00:00",
-    "_stale": true,
-    "_stale_since": "2026-03-23",
+    "scraped_at": "2026-03-23T15:55:39.522470+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",

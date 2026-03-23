@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-23T15:43:47.157651+00:00",
-  "build_version": "20260323-1543",
+  "updated_at": "2026-03-23T15:55:45.217326+00:00",
+  "build_version": "20260323-1555",
   "schema_version": "2.0",
-  "total_events": 277,
+  "total_events": 290,
   "total_theaters": 12,
   "events_today": 16,
-  "events_this_weekend": 34,
+  "events_this_weekend": 35,
   "cities": [
     "Braga",
     "Coimbra",
@@ -14,10 +14,10 @@
     "Viseu"
   ],
   "by_category": {
-    "Artes Performativas": 111,
-    "Música": 70,
-    "Multidisciplinar": 34,
-    "Cinema & Audiovisual": 21,
+    "Artes Performativas": 120,
+    "Música": 71,
+    "Multidisciplinar": 36,
+    "Cinema & Audiovisual": 22,
     "Formação & Participação": 18,
     "Artes Visuais & Exposições": 13,
     "Pensamento & Conversa": 6,
@@ -25,7 +25,7 @@
     "Literatura & Palavra": 2
   },
   "by_subcategory": {
-    "Performance": 59,
+    "Performance": 68,
     "Teatro": 45,
     "Concerto": 31,
     "Exposição": 6,
@@ -40,12 +40,12 @@
   "filter_counts": {
     "is_free": 27,
     "is_accessible": 0,
-    "for_families": 108,
+    "for_families": 110,
     "for_schools": 15,
     "has_lsp": 0,
-    "is_festival": 10
+    "is_festival": 15
   },
-  "stale_theaters": 8,
+  "stale_theaters": 0,
   "by_theater": {
     "Theatro Circo": 61,
     "Teatro Viriato": 29,
@@ -54,19 +54,15 @@
     "São Luiz Teatro Municipal": 34,
     "Teatro Maria Matos": 16,
     "CCB — Centro Cultural de Belém": 86,
-    "TAGV — Teatro Académico Gil Vicente": 8,
+    "TAGV — Teatro Académico Gil Vicente": 21,
     "Teatro das Figuras": 20,
     "Capitólio": 6,
     "Teatro do Bairro": 1,
     "Culturgest": 3
   },
-  "completeness_avg": 0.592,
+  "completeness_avg": 0.599,
   "anomalies": [],
   "scraper_health": {
-    "TAGV — Teatro Académico Gil Vicente": {
-      "status": "stale",
-      "stale_since": "2026-03-23"
-    },
     "Cine-Teatro Avenida": {
       "status": "empty",
       "stale_since": null
