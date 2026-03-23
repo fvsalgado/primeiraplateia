@@ -29,5 +29,10 @@ Thumbs.db
 # Logs
 *.log
 scraper_run.log
-
 scraper_run.jsonl
+
+# Cache por teatro (gerado pelo scraper.py — não commitar)
+scrapers/cache/*.json
+
+# Pytest
+.pytest_cache/

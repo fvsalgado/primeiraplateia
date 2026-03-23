@@ -36,6 +36,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 
+from config import STALE_MAX_DAYS, SCRAPER_WORKERS, SYNOPSIS_MAX_CHARS  # noqa: E402
+
 # ─────────────────────────────────────────────────────────────
 # Configuração de logging (texto + JSONL estruturado)
 # ─────────────────────────────────────────────────────────────
@@ -71,14 +73,6 @@ _jsonl_handler.setFormatter(logging.Formatter())
 logging.getLogger().addHandler(_jsonl_handler)
 
 logger = logging.getLogger("primeiraplateia")
-
-# ─────────────────────────────────────────────────────────────
-# Configuração central
-# ─────────────────────────────────────────────────────────────
-
-STALE_MAX_DAYS   = 120   # dias máximos de cache antes de descartar
-SCRAPER_WORKERS  = 4     # scrapers em paralelo (conservador)
-SYNOPSIS_MAX_CHARS = 300 # truncagem de sinopses
 
 # ─────────────────────────────────────────────────────────────
 # Scrapers activos

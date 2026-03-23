@@ -1,8 +1,12 @@
 """Utilitários partilhados pelos scrapers."""
 import re
 import logging
+import time
+import threading
 import urllib.robotparser
+from collections import defaultdict
 from datetime import datetime, date
+from typing import Any
 
 # ─────────────────────────────────────────────────────────────
 # NOTA: logging.basicConfig() foi removido deste módulo.
@@ -13,6 +17,118 @@ from datetime import datetime, date
 # ─────────────────────────────────────────────────────────────
 
 logger = logging.getLogger(__name__)
+
+# ─────────────────────────────────────────────────────────────
+# Importar configuração central (com fallbacks para uso isolado)
+# ─────────────────────────────────────────────────────────────
+try:
+    import sys
+    from pathlib import Path
+    _root = str(Path(__file__).parent.parent)
+    if _root not in sys.path:
+        sys.path.insert(0, _root)
+    from config import (
+        SCRAPER_TIMEOUT,
+        HTTP_MAX_RETRIES,
+        HTTP_RETRY_BACKOFF,
+        HTTP_RETRY_CODES,
+        DOMAIN_MAX_CONCURRENT,
+    )
+except ImportError:
+    SCRAPER_TIMEOUT      = 15
+    HTTP_MAX_RETRIES     = 3
+    HTTP_RETRY_BACKOFF   = 1.0
+    HTTP_RETRY_CODES     = (429, 500, 502, 503, 504)
+    DOMAIN_MAX_CONCURRENT = 3
+
+
+# ─────────────────────────────────────────────────────────────
+# Rate limiting por domínio
+# ─────────────────────────────────────────────────────────────
+
+_domain_semaphores: dict[str, threading.Semaphore] = defaultdict(
+    lambda: threading.Semaphore(DOMAIN_MAX_CONCURRENT)
+)
+_domain_lock = threading.Lock()
+
+
+def _get_domain_semaphore(url: str) -> threading.Semaphore:
+    """Devolve (ou cria) o semáforo para o domínio de uma URL."""
+    try:
+        from urllib.parse import urlparse
+        domain = urlparse(url).netloc or url
+    except Exception:
+        domain = url
+    with _domain_lock:
+        return _domain_semaphores[domain]
+
+
+# ─────────────────────────────────────────────────────────────
+# Retry com backoff exponencial
+# ─────────────────────────────────────────────────────────────
+
+def fetch_with_retry(
+    session: Any,
+    url: str,
+    method: str = "GET",
+    timeout: int | None = None,
+    max_retries: int | None = None,
+    backoff: float | None = None,
+    **kwargs: Any,
+) -> Any:
+    """
+    Faz um pedido HTTP com retry exponencial e rate limiting por domínio.
+
+    Parâmetros:
+        session:     objecto requests.Session
+        url:         URL a pedir
+        method:      método HTTP (GET, POST, …)
+        timeout:     timeout em segundos (usa SCRAPER_TIMEOUT por omissão)
+        max_retries: número máximo de tentativas (usa HTTP_MAX_RETRIES por omissão)
+        backoff:     base de backoff em segundos (usa HTTP_RETRY_BACKOFF por omissão)
+        **kwargs:    argumentos adicionais para session.request()
+
+    Devolve:
+        requests.Response
+
+    Lança:
+        requests.RequestException se todas as tentativas falharem.
+    """
+    import requests
+
+    _timeout    = timeout    if timeout    is not None else SCRAPER_TIMEOUT
+    _retries    = max_retries if max_retries is not None else HTTP_MAX_RETRIES
+    _backoff    = backoff    if backoff    is not None else HTTP_RETRY_BACKOFF
+
+    semaphore = _get_domain_semaphore(url)
+
+    last_exc: Exception | None = None
+    for attempt in range(1, _retries + 1):
+        try:
+            with semaphore:
+                response = session.request(method, url, timeout=_timeout, **kwargs)
+            if response.status_code in HTTP_RETRY_CODES and attempt < _retries:
+                wait = _backoff * (2 ** (attempt - 1))
+                logger.warning(
+                    f"fetch_with_retry: HTTP {response.status_code} em {url} "
+                    f"(tentativa {attempt}/{_retries}) — a aguardar {wait:.1f}s"
+                )
+                time.sleep(wait)
+                continue
+            return response
+        except requests.RequestException as exc:
+            last_exc = exc
+            if attempt < _retries:
+                wait = _backoff * (2 ** (attempt - 1))
+                logger.warning(
+                    f"fetch_with_retry: erro em {url} "
+                    f"(tentativa {attempt}/{_retries}): {exc} — a aguardar {wait:.1f}s"
+                )
+                time.sleep(wait)
+            else:
+                logger.error(f"fetch_with_retry: todas as tentativas falharam para {url}: {exc}")
+
+    raise last_exc or Exception(f"fetch_with_retry: falha inesperada para {url}")
 
 
 def log(msg: str) -> None:

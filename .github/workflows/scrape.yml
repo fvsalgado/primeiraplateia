@@ -16,6 +16,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 45
 
+    env:
+      SCRAPER_WORKERS:       ${{ vars.SCRAPER_WORKERS || '4' }}
+      MIN_EVENTS_THRESHOLD:  ${{ vars.MIN_EVENTS_THRESHOLD || '50' }}
+      NTFY_URL:              ${{ secrets.NTFY_URL }}
+
     steps:
 
       - name: Checkout repositório
@@ -29,8 +34,14 @@ jobs:
           python-version: '3.12'
           cache: 'pip'
 
-      - name: Instalar dependências
+      - name: Instalar dependências de scraping
         run: pip install -r requirements.txt
+
+      - name: Instalar pytest
+        run: pip install pytest
+
+      - name: Correr testes unitários
+        run: pytest tests/ -v --tb=short
 
       - name: Sincronizar scrapers
         run: python scripts/sync_scrapers.py
@@ -45,13 +56,32 @@ jobs:
       - name: Correr scraper
         run: python scraper.py
 
-      - name: Instalar dependências de stats
+      - name: Verificar integridade mínima do events.json
+        id: integrity_check
         run: |
-          pip install \
-            google-analytics-data \
-            google-api-python-client \
-            google-auth \
-            --break-system-packages
+          python3 << 'EOF'
+          import json, sys, os
+          threshold = int(os.environ.get('MIN_EVENTS_THRESHOLD', 50))
+          try:
+              d = json.load(open('events.json'))
+              events = d.get('events', []) if isinstance(d, dict) else d
+              n = len(events)
+              health = d.get('scraper_health', {}) if isinstance(d, dict) else {}
+              empty  = sum(1 for h in health.values() if h.get('status') == 'empty')
+              stale  = sum(1 for h in health.values() if h.get('status') == 'stale')
+              with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+                  f.write(f"total={n}\nempty={empty}\nstale={stale}\n")
+              if n < threshold:
+                  print(f'ERRO CRITICO: só {n} eventos (mínimo: {threshold})', file=sys.stderr)
+                  sys.exit(1)
+              print(f'OK: {n} eventos | {empty} vazios | {stale} stale')
+          except FileNotFoundError:
+              print('ERRO: events.json não encontrado', file=sys.stderr)
+              sys.exit(1)
+          EOF
+
+      - name: Instalar dependências de stats
+        run: pip install -r requirements-stats.txt
         continue-on-error: true
 
       - name: Fetch stats
@@ -65,26 +95,6 @@ jobs:
         run: python scripts/fetch_stats.py
         continue-on-error: true
 
-      - name: Debug — verificar events.json
-        run: |
-          echo "=== events.json existe? ==="
-          ls -lh events.json || echo "NAO EXISTE"
-          echo "=== primeiras linhas ==="
-          head -8 events.json || true
-          echo "=== total de eventos ==="
-          python3 -c "
-          import json
-          d = json.load(open('events.json'))
-          if isinstance(d, dict):
-              evs = d.get('events', [])
-              print(f'{len(evs)} eventos | schema v{d.get(\"schema_version\",\"?\")}')
-              free = sum(1 for e in evs if e.get('is_free') is True)
-              fam  = sum(1 for e in evs if e.get('for_families') is True)
-              print(f'Gratuitos: {free} | Para famílias: {fam}')
-          elif isinstance(d, list):
-              print(f'lista com {len(d)} eventos')
-          "
-
       - name: Gerar artefactos (build.py)
         run: python scripts/build.py
 
@@ -92,10 +102,10 @@ jobs:
         run: |
           echo "=== data/ ==="
           ls -lh data/ || echo "NAO EXISTE"
-          echo "=== data/meta.json ==="
-          cat data/meta.json || echo "NAO EXISTE"
           echo "=== data/health.json ==="
           cat data/health.json || echo "NAO EXISTE"
+          echo "=== data/archive/ (últimos 3) ==="
+          ls -lt data/archive/ 2>/dev/null | head -4 || echo "(vazio)"
 
       - name: Commitar events.json para main
         run: |
@@ -118,35 +128,25 @@ jobs:
           set -e
           mkdir -p _site
 
-          echo "--- a copiar assets estaticos ---"
           cp -r design fonts _site/
           cp manifest.webmanifest robots.txt sitemap.xml llms.txt CNAME _site/ 2>/dev/null || true
 
-          echo "--- a copiar paginas HTML ---"
           cp index.html 404.html _site/
           for dir in programacao calendario teatros espetaculo sobre privacidade aviso-legal acessibilidade perto-de-mim stats; do
             if [ -d "$dir" ]; then
               cp -r "$dir" _site/
-              echo "  copiado: $dir/"
-            else
-              echo "  AVISO: $dir/ nao existe"
             fi
           done
 
-          echo "--- a copiar dados ---"
           if [ -d "data" ]; then
             cp -r data _site/
-            echo "  copiado: data/ ($(ls data/ | wc -l) ficheiros)"
           else
-            echo "  ERRO CRITICO: data/ nao existe — build.py falhou?"
+            echo "ERRO CRITICO: data/ nao existe"
             exit 1
           fi
 
           cp events.json _site/
           cp theaters.json _site/
-
-          echo "--- conteudo _site/ ---"
-          find _site -type f | sort
 
       - name: Deploy para GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
@@ -160,37 +160,101 @@ jobs:
           commit_message: "deploy: ${{ github.sha }}"
           cname: primeiraplateia.pt
 
+      - name: Notificação ntfy.sh — sucesso
+        if: success() && env.NTFY_URL != ''
+        run: |
+          TOTAL="${{ steps.integrity_check.outputs.total }}"
+          STALE="${{ steps.integrity_check.outputs.stale }}"
+          EMPTY="${{ steps.integrity_check.outputs.empty }}"
+          DATE=$(date -u '+%Y-%m-%d %H:%M UTC')
+          curl -s -X POST "$NTFY_URL" \
+            -H "Title: Primeira Plateia — Build OK" \
+            -H "Priority: default" \
+            -H "Tags: white_check_mark" \
+            -d "${DATE} | ${TOTAL} eventos | ${STALE} stale | ${EMPTY} vazios" || true
+
+      - name: Notificação ntfy.sh — falha
+        if: failure() && env.NTFY_URL != ''
+        run: |
+          DATE=$(date -u '+%Y-%m-%d %H:%M UTC')
+          JOB_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          curl -s -X POST "$NTFY_URL" \
+            -H "Title: Primeira Plateia — Build FALHOU" \
+            -H "Priority: high" \
+            -H "Tags: x,warning" \
+            -d "${DATE} | Ver: ${JOB_URL}" || true
+
       - name: Sumário
         if: always()
         run: |
           echo "## Primeira Plateia — Build Summary" >> $GITHUB_STEP_SUMMARY
-          python3 -c "
-          import json, os
+          python3 << 'EOF'
+          import json, os, sys
+          gso = os.environ.get('GITHUB_STEP_SUMMARY', '/dev/null')
           try:
               m = json.load(open('data/meta.json'))
               h = json.load(open('data/health.json'))
-              print('| Campo | Valor |')
-              print('|---|---|')
-              print(f'| Schema | v{m.get(\"schema_version\", \"?\")} |')
-              print(f'| Espaços culturais | {m.get(\"total_theaters\", \"?\")} |')
-              print(f'| Em agenda | {m.get(\"total_events\", \"?\")} |')
-              print(f'| Hoje | {m.get(\"events_today\", \"?\")} |')
-              print(f'| Este fim-de-semana | {m.get(\"events_this_weekend\", \"?\")} |')
+              lines = [
+                  '| Campo | Valor |',
+                  '|---|---|',
+                  f'| Schema | v{m.get("schema_version", "?")} |',
+                  f'| Espaços culturais | {m.get("total_theaters", "?")} |',
+                  f'| Em agenda | {m.get("total_events", "?")} |',
+                  f'| Hoje | {m.get("events_today", "?")} |',
+                  f'| Este fim-de-semana | {m.get("events_this_weekend", "?")} |',
+              ]
               fc = m.get('filter_counts', {})
-              print(f'| Gratuitos | {fc.get(\"is_free\", 0)} |')
-              print(f'| Para famílias | {fc.get(\"for_families\", 0)} |')
-              print(f'| Festivais | {fc.get(\"is_festival\", 0)} |')
-              cidades = m.get('cities', [])
-              print(f'| Cidades | {\" · \".join(cidades) if cidades else \"?\"} |')
-              print(f'| Estado | {h.get(\"status\", \"?\")} |')
-              print(f'| Scrapers OK | {h.get(\"scrapers_ok\", \"?\")} |')
-              print(f'| Scrapers stale | {h.get(\"scrapers_stale\", 0)} |')
+              lines += [
+                  f'| Gratuitos | {fc.get("is_free", 0)} |',
+                  f'| Para famílias | {fc.get("for_families", 0)} |',
+                  f'| Festivais | {fc.get("is_festival", 0)} |',
+                  f'| Estado | {h.get("status", "?")} |',
+                  f'| Scrapers OK | {h.get("scrapers_ok", "?")} |',
+                  f'| Scrapers stale | {h.get("scrapers_stale", 0)} |',
+                  f'| Scrapers vazios | {h.get("scrapers_empty", 0)} |',
+              ]
               anomalias = m.get('anomalies', [])
-              print(f'| Anomalias | {len(anomalias)} |')
-              if anomalias:
-                  for a in anomalias:
-                      print(f'| ⚠️ | {a} |')
-              print(f'| Actualizado | {m.get(\"updated_at\", \"?\")} |')
+              lines.append(f'| Anomalias | {len(anomalias)} |')
+              for a in anomalias:
+                  lines.append(f'| ⚠️ | {a} |')
+              lines.append(f'| Actualizado | {m.get("updated_at", "?")} |')
+              with open(gso, 'a') as f:
+                  f.write('\n'.join(lines) + '\n')
           except Exception as e:
-              print(f'Erro: {e}')
-          " >> $GITHUB_STEP_SUMMARY || true
+              with open(gso, 'a') as f:
+                  f.write(f'Erro ao gerar sumário: {e}\n')
+          EOF
+
+  # ─────────────────────────────────────────────────────────────
+  # Verificação semanal de URLs (domingos 06:00 UTC)
+  # Job separado — não bloqueia o deploy diário
+  # ─────────────────────────────────────────────────────────────
+  check-urls:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    if: github.event_name == 'workflow_dispatch'
+
+    steps:
+      - name: Checkout repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Verificar URLs
+        run: python scripts/check_urls.py --workers 10 --timeout 8
+        continue-on-error: true
+
+      - name: Upload relatório de URLs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: broken-urls-${{ github.run_id }}
+          path: data/broken_urls.json
+          retention-days: 90

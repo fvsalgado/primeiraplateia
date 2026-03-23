@@ -40,25 +40,9 @@ EVENTS_PATH    = ROOT / "events.json"
 THEATERS_PATH  = ROOT / "theaters.json"
 BY_THEATER_DIR = DATA_DIR / "by-theater"
 
-
-# ─────────────────────────────────────────────────────────────
-# Completeness weights v2.0
-# ─────────────────────────────────────────────────────────────
-
-COMPLETENESS_WEIGHTS = {
-    "sessions":        0.18,
-    "synopsis":        0.14,
-    "image":           0.10,
-    "technical_sheet": 0.18,
-    "people":          0.13,
-    "price_info":      0.05,
-    "duration":        0.05,
-    "age_rating":      0.05,
-    "ticket_url":      0.05,
-    "subcategory":     0.04,  # novo v2.0
-    "is_free":         0.02,  # novo v2.0 (derivado automaticamente)
-    "for_families":    0.01,  # novo v2.0
-}
+# Importar config central
+sys.path.insert(0, str(ROOT))
+from config import COMPLETENESS_WEIGHTS, ARCHIVE_DIR, ARCHIVE_RETENTION_DAYS
 
 
 def compute_completeness(ev: dict) -> float:
@@ -500,6 +484,103 @@ def build(events_path: Path = EVENTS_PATH) -> None:
     logger.info(f"  Gratuitos:         {filter_counts['is_free']}")
     logger.info(f"  Para famílias:     {filter_counts['for_families']}")
     logger.info("=" * 55)
+
+    # ── Arquivo histórico comprimido ──────────────────────────
+    _write_archive_snapshot(ROOT, today, future_events, build_version)
+
+    # ── Relatório de qualidade por teatro ─────────────────────
+    _write_quality_report(DATA_DIR, future_events, scraper_health)
+
+
+def _write_archive_snapshot(
+    root: Path, today: str, events: list[dict], build_version: str
+) -> None:
+    """Grava snapshot comprimido do dia em data/archive/YYYY-MM-DD.json.gz."""
+    import gzip
+
+    archive_dir = root / ARCHIVE_DIR
+    archive_dir.mkdir(parents=True, exist_ok=True)
+
+    out_path = archive_dir / f"{today}.json.gz"
+    payload = json.dumps(
+        {"build_version": build_version, "total": len(events), "events": events},
+        ensure_ascii=False,
+    ).encode("utf-8")
+
+    with gzip.open(out_path, "wb") as f:
+        f.write(payload)
+    logger.info(f"  → {out_path} ({len(payload) // 1024}KB comprimido)")
+
+    # Remover snapshots antigos se ARCHIVE_RETENTION_DAYS > 0
+    if ARCHIVE_RETENTION_DAYS > 0:
+        cutoff = (
+            datetime.now(timezone.utc) - timedelta(days=ARCHIVE_RETENTION_DAYS)
+        ).date().isoformat()
+        removed = 0
+        for f in sorted(archive_dir.glob("*.json.gz")):
+            date_part = f.stem.replace(".json", "")  # "2025-01-15"
+            if date_part < cutoff:
+                f.unlink()
+                removed += 1
+        if removed:
+            logger.info(f"  arquivo: {removed} snapshot(s) antigos removidos (retenção {ARCHIVE_RETENTION_DAYS}d)")
+
+
+def _write_quality_report(
+    data_dir: Path, events: list[dict], scraper_health: dict
+) -> None:
+    """
+    Gera data/quality_report.json com cobertura de campos recomendados por teatro.
+    Mostra % de eventos de cada teatro que têm sinopse, imagem, preço, etc.
+    """
+    TRACKED_FIELDS = [
+        "synopsis", "image", "price_info", "ticket_url",
+        "duration", "age_rating", "subcategory", "sessions",
+    ]
+
+    by_theater: dict[str, list[dict]] = {}
+    for ev in events:
+        t = ev.get("theater", "Desconhecido")
+        by_theater.setdefault(t, []).append(ev)
+
+    theaters_report = {}
+    for theater, evs in sorted(by_theater.items()):
+        n = len(evs)
+        coverage = {}
+        for field in TRACKED_FIELDS:
+            filled = sum(1 for e in evs if _field_has_value(e, field))
+            coverage[field] = {"count": filled, "pct": round(filled / n * 100) if n else 0}
+
+        avg_completeness = round(
+            sum(e.get("_meta", {}).get("completeness", 0) for e in evs) / n, 3
+        ) if n else 0.0
+
+        health = scraper_health.get(theater, {})
+        theaters_report[theater] = {
+            "total_events":       n,
+            "status":             health.get("status", "ok"),
+            "completeness_avg":   avg_completeness,
+            "field_coverage":     coverage,
+        }
+
+    report = {
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "total_events":  len(events),
+        "tracked_fields": TRACKED_FIELDS,
+        "theaters":       theaters_report,
+    }
+    out = data_dir / "quality_report.json"
+    out.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+    logger.info(f"  → {out}")
+
+
+def _field_has_value(ev: dict, field: str) -> bool:
+    val = ev.get(field)
+    if field == "sessions":
+        return bool(val and len(val) > 0)
+    if field == "image":
+        return bool(val and (isinstance(val, dict) and val.get("url") or isinstance(val, str)))
+    return bool(val)
 
 
 if __name__ == "__main__":
