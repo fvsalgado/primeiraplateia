@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-23T13:45:55.142476+00:00",
-  "total_events": 295,
+  "generated_at": "2026-03-23T14:51:55.413081+00:00",
+  "total_events": 277,
   "tracked_fields": [
     "synopsis",
     "image",
@@ -169,47 +169,47 @@
       }
     },
     "TAGV — Teatro Académico Gil Vicente": {
-      "total_events": 26,
+      "total_events": 8,
       "status": "ok",
-      "completeness_avg": 0.735,
+      "completeness_avg": 0.705,
       "field_coverage": {
         "synopsis": {
-          "count": 26,
+          "count": 8,
           "pct": 100
         },
         "image": {
-          "count": 26,
+          "count": 8,
           "pct": 100
         },
         "price_info": {
-          "count": 12,
-          "pct": 46
+          "count": 5,
+          "pct": 62
         },
         "ticket_url": {
-          "count": 26,
+          "count": 8,
           "pct": 100
         },
         "duration": {
-          "count": 25,
-          "pct": 96
+          "count": 7,
+          "pct": 88
         },
         "age_rating": {
-          "count": 3,
-          "pct": 12
+          "count": 2,
+          "pct": 25
         },
         "subcategory": {
-          "count": 14,
-          "pct": 54
+          "count": 3,
+          "pct": 38
         },
         "sessions": {
-          "count": 25,
-          "pct": 96
+          "count": 7,
+          "pct": 88
         }
       }
     },
     "Teatro Maria Matos": {
       "total_events": 16,
-      "status": "ok",
+      "status": "stale",
       "completeness_avg": 0.527,
       "field_coverage": {
         "synopsis": {
@@ -287,7 +287,7 @@
     },
     "Teatro Viriato": {
       "total_events": 29,
-      "status": "ok",
+      "status": "stale",
       "completeness_avg": 0.616,
       "field_coverage": {
         "synopsis": {
@@ -327,7 +327,7 @@
     "Teatro da Trindade INATEL": {
       "total_events": 7,
       "status": "ok",
-      "completeness_avg": 0.745,
+      "completeness_avg": 0.748,
       "field_coverage": {
         "synopsis": {
           "count": 7,
