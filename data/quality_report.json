@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-23T14:51:55.413081+00:00",
+  "generated_at": "2026-03-23T15:43:47.225431+00:00",
   "total_events": 277,
   "tracked_fields": [
     "synopsis",
@@ -170,7 +170,7 @@
     },
     "TAGV — Teatro Académico Gil Vicente": {
       "total_events": 8,
-      "status": "ok",
+      "status": "stale",
       "completeness_avg": 0.705,
       "field_coverage": {
         "synopsis": {
@@ -209,7 +209,7 @@
     },
     "Teatro Maria Matos": {
       "total_events": 16,
-      "status": "stale",
+      "status": "ok",
       "completeness_avg": 0.527,
       "field_coverage": {
         "synopsis": {
@@ -287,8 +287,8 @@
     },
     "Teatro Viriato": {
       "total_events": 29,
-      "status": "stale",
-      "completeness_avg": 0.616,
+      "status": "ok",
+      "completeness_avg": 0.617,
       "field_coverage": {
         "synopsis": {
           "count": 29,
