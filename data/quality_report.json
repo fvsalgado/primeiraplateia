@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-23T15:55:45.288588+00:00",
-  "total_events": 290,
+  "generated_at": "2026-03-23T16:03:30.815056+00:00",
+  "total_events": 300,
   "tracked_fields": [
     "synopsis",
     "image",
@@ -169,41 +169,41 @@
       }
     },
     "TAGV — Teatro Académico Gil Vicente": {
-      "total_events": 21,
+      "total_events": 31,
       "status": "ok",
-      "completeness_avg": 0.738,
+      "completeness_avg": 0.729,
       "field_coverage": {
         "synopsis": {
-          "count": 21,
+          "count": 31,
           "pct": 100
         },
         "image": {
-          "count": 21,
+          "count": 31,
           "pct": 100
         },
         "price_info": {
-          "count": 8,
-          "pct": 38
+          "count": 13,
+          "pct": 42
         },
         "ticket_url": {
-          "count": 21,
+          "count": 31,
           "pct": 100
         },
         "duration": {
-          "count": 20,
-          "pct": 95
+          "count": 30,
+          "pct": 97
         },
         "age_rating": {
-          "count": 2,
-          "pct": 10
+          "count": 4,
+          "pct": 13
         },
         "subcategory": {
-          "count": 12,
-          "pct": 57
+          "count": 16,
+          "pct": 52
         },
         "sessions": {
-          "count": 20,
-          "pct": 95
+          "count": 30,
+          "pct": 97
         }
       }
     },

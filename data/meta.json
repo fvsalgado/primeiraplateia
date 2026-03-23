@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-03-23T15:55:45.217326+00:00",
-  "build_version": "20260323-1555",
+  "updated_at": "2026-03-23T16:03:30.738908+00:00",
+  "build_version": "20260323-1603",
   "schema_version": "2.0",
-  "total_events": 290,
+  "total_events": 300,
   "total_theaters": 12,
   "events_today": 16,
   "events_this_weekend": 35,
@@ -14,18 +14,18 @@
     "Viseu"
   ],
   "by_category": {
-    "Artes Performativas": 120,
+    "Artes Performativas": 124,
     "Música": 71,
-    "Multidisciplinar": 36,
-    "Cinema & Audiovisual": 22,
+    "Multidisciplinar": 37,
+    "Cinema & Audiovisual": 26,
     "Formação & Participação": 18,
     "Artes Visuais & Exposições": 13,
-    "Pensamento & Conversa": 6,
+    "Pensamento & Conversa": 7,
     "Infanto-Juvenil": 2,
     "Literatura & Palavra": 2
   },
   "by_subcategory": {
-    "Performance": 68,
+    "Performance": 72,
     "Teatro": 45,
     "Concerto": 31,
     "Exposição": 6,
@@ -38,12 +38,12 @@
     "Teatro Musical": 1
   },
   "filter_counts": {
-    "is_free": 27,
+    "is_free": 28,
     "is_accessible": 0,
-    "for_families": 110,
-    "for_schools": 15,
+    "for_families": 113,
+    "for_schools": 16,
     "has_lsp": 0,
-    "is_festival": 15
+    "is_festival": 21
   },
   "stale_theaters": 0,
   "by_theater": {
@@ -54,13 +54,13 @@
     "São Luiz Teatro Municipal": 34,
     "Teatro Maria Matos": 16,
     "CCB — Centro Cultural de Belém": 86,
-    "TAGV — Teatro Académico Gil Vicente": 21,
+    "TAGV — Teatro Académico Gil Vicente": 31,
     "Teatro das Figuras": 20,
     "Capitólio": 6,
     "Teatro do Bairro": 1,
     "Culturgest": 3
   },
-  "completeness_avg": 0.599,
+  "completeness_avg": 0.603,
   "anomalies": [],
   "scraper_health": {
     "Cine-Teatro Avenida": {
