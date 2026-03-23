@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-03-23T11:35:24.554079+00:00",
-  "build_version": "20260323-1135",
+  "updated_at": "2026-03-23T13:45:55.068691+00:00",
+  "build_version": "20260323-1345",
   "schema_version": "2.0",
-  "total_events": 300,
+  "total_events": 295,
   "total_theaters": 12,
   "events_today": 16,
   "events_this_weekend": 35,
@@ -14,10 +14,10 @@
     "Viseu"
   ],
   "by_category": {
-    "Artes Performativas": 124,
+    "Artes Performativas": 122,
     "Música": 71,
-    "Multidisciplinar": 37,
-    "Cinema & Audiovisual": 26,
+    "Multidisciplinar": 35,
+    "Cinema & Audiovisual": 25,
     "Formação & Participação": 18,
     "Artes Visuais & Exposições": 13,
     "Pensamento & Conversa": 7,
@@ -25,7 +25,7 @@
     "Literatura & Palavra": 2
   },
   "by_subcategory": {
-    "Performance": 72,
+    "Performance": 70,
     "Teatro": 45,
     "Concerto": 31,
     "Exposição": 6,
@@ -40,10 +40,10 @@
   "filter_counts": {
     "is_free": 28,
     "is_accessible": 0,
-    "for_families": 113,
+    "for_families": 112,
     "for_schools": 16,
     "has_lsp": 0,
-    "is_festival": 21
+    "is_festival": 20
   },
   "stale_theaters": 0,
   "by_theater": {
@@ -54,13 +54,13 @@
     "São Luiz Teatro Municipal": 34,
     "Teatro Maria Matos": 16,
     "CCB — Centro Cultural de Belém": 86,
-    "TAGV — Teatro Académico Gil Vicente": 31,
+    "TAGV — Teatro Académico Gil Vicente": 26,
     "Teatro das Figuras": 20,
     "Capitólio": 6,
     "Teatro do Bairro": 1,
     "Culturgest": 3
   },
-  "completeness_avg": 0.603,
+  "completeness_avg": 0.601,
   "anomalies": [],
   "scraper_health": {
     "Cine-Teatro Avenida": {

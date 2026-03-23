@@ -1,0 +1,484 @@
+{
+  "generated_at": "2026-03-23T13:45:55.142476+00:00",
+  "total_events": 295,
+  "tracked_fields": [
+    "synopsis",
+    "image",
+    "price_info",
+    "ticket_url",
+    "duration",
+    "age_rating",
+    "subcategory",
+    "sessions"
+  ],
+  "theaters": {
+    "CCB — Centro Cultural de Belém": {
+      "total_events": 86,
+      "status": "ok",
+      "completeness_avg": 0.554,
+      "field_coverage": {
+        "synopsis": {
+          "count": 86,
+          "pct": 100
+        },
+        "image": {
+          "count": 86,
+          "pct": 100
+        },
+        "price_info": {
+          "count": 37,
+          "pct": 43
+        },
+        "ticket_url": {
+          "count": 25,
+          "pct": 29
+        },
+        "duration": {
+          "count": 0,
+          "pct": 0
+        },
+        "age_rating": {
+          "count": 49,
+          "pct": 57
+        },
+        "subcategory": {
+          "count": 84,
+          "pct": 98
+        },
+        "sessions": {
+          "count": 86,
+          "pct": 100
+        }
+      }
+    },
+    "Capitólio": {
+      "total_events": 6,
+      "status": "ok",
+      "completeness_avg": 0.642,
+      "field_coverage": {
+        "synopsis": {
+          "count": 6,
+          "pct": 100
+        },
+        "image": {
+          "count": 6,
+          "pct": 100
+        },
+        "price_info": {
+          "count": 5,
+          "pct": 83
+        },
+        "ticket_url": {
+          "count": 6,
+          "pct": 100
+        },
+        "duration": {
+          "count": 6,
+          "pct": 100
+        },
+        "age_rating": {
+          "count": 6,
+          "pct": 100
+        },
+        "subcategory": {
+          "count": 4,
+          "pct": 67
+        },
+        "sessions": {
+          "count": 6,
+          "pct": 100
+        }
+      }
+    },
+    "Culturgest": {
+      "total_events": 3,
+      "status": "ok",
+      "completeness_avg": 0.792,
+      "field_coverage": {
+        "synopsis": {
+          "count": 3,
+          "pct": 100
+        },
+        "image": {
+          "count": 3,
+          "pct": 100
+        },
+        "price_info": {
+          "count": 3,
+          "pct": 100
+        },
+        "ticket_url": {
+          "count": 3,
+          "pct": 100
+        },
+        "duration": {
+          "count": 3,
+          "pct": 100
+        },
+        "age_rating": {
+          "count": 3,
+          "pct": 100
+        },
+        "subcategory": {
+          "count": 3,
+          "pct": 100
+        },
+        "sessions": {
+          "count": 3,
+          "pct": 100
+        }
+      }
+    },
+    "São Luiz Teatro Municipal": {
+      "total_events": 34,
+      "status": "ok",
+      "completeness_avg": 0.674,
+      "field_coverage": {
+        "synopsis": {
+          "count": 34,
+          "pct": 100
+        },
+        "image": {
+          "count": 34,
+          "pct": 100
+        },
+        "price_info": {
+          "count": 34,
+          "pct": 100
+        },
+        "ticket_url": {
+          "count": 34,
+          "pct": 100
+        },
+        "duration": {
+          "count": 34,
+          "pct": 100
+        },
+        "age_rating": {
+          "count": 26,
+          "pct": 76
+        },
+        "subcategory": {
+          "count": 17,
+          "pct": 50
+        },
+        "sessions": {
+          "count": 32,
+          "pct": 94
+        }
+      }
+    },
+    "TAGV — Teatro Académico Gil Vicente": {
+      "total_events": 26,
+      "status": "ok",
+      "completeness_avg": 0.735,
+      "field_coverage": {
+        "synopsis": {
+          "count": 26,
+          "pct": 100
+        },
+        "image": {
+          "count": 26,
+          "pct": 100
+        },
+        "price_info": {
+          "count": 12,
+          "pct": 46
+        },
+        "ticket_url": {
+          "count": 26,
+          "pct": 100
+        },
+        "duration": {
+          "count": 25,
+          "pct": 96
+        },
+        "age_rating": {
+          "count": 3,
+          "pct": 12
+        },
+        "subcategory": {
+          "count": 14,
+          "pct": 54
+        },
+        "sessions": {
+          "count": 25,
+          "pct": 96
+        }
+      }
+    },
+    "Teatro Maria Matos": {
+      "total_events": 16,
+      "status": "ok",
+      "completeness_avg": 0.527,
+      "field_coverage": {
+        "synopsis": {
+          "count": 16,
+          "pct": 100
+        },
+        "image": {
+          "count": 16,
+          "pct": 100
+        },
+        "price_info": {
+          "count": 16,
+          "pct": 100
+        },
+        "ticket_url": {
+          "count": 16,
+          "pct": 100
+        },
+        "duration": {
+          "count": 10,
+          "pct": 62
+        },
+        "age_rating": {
+          "count": 16,
+          "pct": 100
+        },
+        "subcategory": {
+          "count": 0,
+          "pct": 0
+        },
+        "sessions": {
+          "count": 2,
+          "pct": 12
+        }
+      }
+    },
+    "Teatro Variedades": {
+      "total_events": 6,
+      "status": "ok",
+      "completeness_avg": 0.607,
+      "field_coverage": {
+        "synopsis": {
+          "count": 6,
+          "pct": 100
+        },
+        "image": {
+          "count": 6,
+          "pct": 100
+        },
+        "price_info": {
+          "count": 5,
+          "pct": 83
+        },
+        "ticket_url": {
+          "count": 6,
+          "pct": 100
+        },
+        "duration": {
+          "count": 6,
+          "pct": 100
+        },
+        "age_rating": {
+          "count": 6,
+          "pct": 100
+        },
+        "subcategory": {
+          "count": 3,
+          "pct": 50
+        },
+        "sessions": {
+          "count": 5,
+          "pct": 83
+        }
+      }
+    },
+    "Teatro Viriato": {
+      "total_events": 29,
+      "status": "ok",
+      "completeness_avg": 0.616,
+      "field_coverage": {
+        "synopsis": {
+          "count": 29,
+          "pct": 100
+        },
+        "image": {
+          "count": 29,
+          "pct": 100
+        },
+        "price_info": {
+          "count": 21,
+          "pct": 72
+        },
+        "ticket_url": {
+          "count": 29,
+          "pct": 100
+        },
+        "duration": {
+          "count": 12,
+          "pct": 41
+        },
+        "age_rating": {
+          "count": 22,
+          "pct": 76
+        },
+        "subcategory": {
+          "count": 6,
+          "pct": 21
+        },
+        "sessions": {
+          "count": 29,
+          "pct": 100
+        }
+      }
+    },
+    "Teatro da Trindade INATEL": {
+      "total_events": 7,
+      "status": "ok",
+      "completeness_avg": 0.745,
+      "field_coverage": {
+        "synopsis": {
+          "count": 7,
+          "pct": 100
+        },
+        "image": {
+          "count": 7,
+          "pct": 100
+        },
+        "price_info": {
+          "count": 7,
+          "pct": 100
+        },
+        "ticket_url": {
+          "count": 7,
+          "pct": 100
+        },
+        "duration": {
+          "count": 3,
+          "pct": 43
+        },
+        "age_rating": {
+          "count": 6,
+          "pct": 86
+        },
+        "subcategory": {
+          "count": 7,
+          "pct": 100
+        },
+        "sessions": {
+          "count": 7,
+          "pct": 100
+        }
+      }
+    },
+    "Teatro das Figuras": {
+      "total_events": 20,
+      "status": "ok",
+      "completeness_avg": 0.444,
+      "field_coverage": {
+        "synopsis": {
+          "count": 20,
+          "pct": 100
+        },
+        "image": {
+          "count": 20,
+          "pct": 100
+        },
+        "price_info": {
+          "count": 0,
+          "pct": 0
+        },
+        "ticket_url": {
+          "count": 0,
+          "pct": 0
+        },
+        "duration": {
+          "count": 0,
+          "pct": 0
+        },
+        "age_rating": {
+          "count": 0,
+          "pct": 0
+        },
+        "subcategory": {
+          "count": 12,
+          "pct": 60
+        },
+        "sessions": {
+          "count": 20,
+          "pct": 100
+        }
+      }
+    },
+    "Teatro do Bairro": {
+      "total_events": 1,
+      "status": "ok",
+      "completeness_avg": 0.718,
+      "field_coverage": {
+        "synopsis": {
+          "count": 1,
+          "pct": 100
+        },
+        "image": {
+          "count": 1,
+          "pct": 100
+        },
+        "price_info": {
+          "count": 0,
+          "pct": 0
+        },
+        "ticket_url": {
+          "count": 1,
+          "pct": 100
+        },
+        "duration": {
+          "count": 1,
+          "pct": 100
+        },
+        "age_rating": {
+          "count": 1,
+          "pct": 100
+        },
+        "subcategory": {
+          "count": 1,
+          "pct": 100
+        },
+        "sessions": {
+          "count": 1,
+          "pct": 100
+        }
+      }
+    },
+    "Theatro Circo": {
+      "total_events": 61,
+      "status": "ok",
+      "completeness_avg": 0.601,
+      "field_coverage": {
+        "synopsis": {
+          "count": 61,
+          "pct": 100
+        },
+        "image": {
+          "count": 61,
+          "pct": 100
+        },
+        "price_info": {
+          "count": 55,
+          "pct": 90
+        },
+        "ticket_url": {
+          "count": 34,
+          "pct": 56
+        },
+        "duration": {
+          "count": 17,
+          "pct": 28
+        },
+        "age_rating": {
+          "count": 41,
+          "pct": 67
+        },
+        "subcategory": {
+          "count": 19,
+          "pct": 31
+        },
+        "sessions": {
+          "count": 61,
+          "pct": 100
+        }
+      }
+    }
+  }
+}

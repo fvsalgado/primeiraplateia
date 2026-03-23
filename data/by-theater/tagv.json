@@ -37,7 +37,7 @@
     "subcategory": "Performance",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "scraped_at": "2026-03-23T13:45:48.552912+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
@@ -100,7 +100,7 @@
     "for_families": true,
     "for_schools": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "scraped_at": "2026-03-23T13:45:48.552912+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
@@ -165,7 +165,7 @@
     "is_festival": true,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "scraped_at": "2026-03-23T13:45:48.552912+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
@@ -226,7 +226,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "scraped_at": "2026-03-23T13:45:48.552912+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
@@ -297,68 +297,12 @@
     "subcategory": "Performance",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "scraped_at": "2026-03-23T13:45:48.552912+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
     "_meta": {
       "completeness": 0.852
-    }
-  },
-  {
-    "id": "tagv-festival-end-julieta-romeu-uma-pe-a-para-um-par-de",
-    "title": "Festival END: Julieta & Romeu. Uma Peça Para Um Par de Desditos Amantes",
-    "theater": "TAGV — Teatro Académico Gil Vicente",
-    "category": "Artes Performativas",
-    "date_start": "2026-03-25",
-    "source_url": "https://tagv.pt/agenda/festival-end-dramaturgia-contemporanea-processo-de-composicao/",
-    "dates_label": "25 mar 2026",
-    "synopsis": "Pensados como espaços de partilha e escuta ativa, estes encontros tomam os processos de composição dramatúrgica como ponto de partida para a conversa, privilegiando a reflexão sobre modos de escrita, decisões formais, contextos de criação e relações com a cena.…",
-    "image": {
-      "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-festival-end-dramaturgia-contemporanea-processo-de-composicao-seminariopatricia-portelathomaslangdon.jpg",
-      "credit": null,
-      "source": "https://tagv.pt/agenda/festival-end-dramaturgia-contemporanea-processo-de-composicao/",
-      "theater": "TAGV — Teatro Académico Gil Vicente"
-    },
-    "ticket_url": "https://tagv.bol.pt",
-    "duration": "11h00",
-    "duration_min": 660,
-    "technical_sheet": {
-      "dramaturgia": "Contemporânea. Processo de",
-      "música": "| TAGV Menu Início Agenda O TAGV Laboratório LIPA Aluguer Espaços Bilheteira Praça da República 3000-343 Coimbra | Bilheteira Online: tagv.bol.pt | 239 855 636 (Chamada para a rede fixa nacional) teatro@tagv.uc.pt Teatro Festival END: Julieta & Romeu. Uma Peça Para Um Par de Desditos Amantes Clube d",
-      "produção": "com o Teatro Académico de Gil Vicente, e Aveiro, com o Teatro Aveirense. O festival assinala o Dia Mundial do Teatro, a 27 de março, com programação na cidade de Aveiro. Data 25, Março 2026 Horário 11H00 Duração 1h30 Faixa etária M12 Preço entrada gratuita Local Teatro-Estúdio CITAC Fotografia Thoma",
-      "direção": "artística Mickaël de Oliveira Assistente de",
-      "apoio": "à comunicação Inês Melo"
-    },
-    "people": [
-      "artística Mickaël de Oliveira Assistente de",
-      "Contemporânea. Processo de",
-      "| TAGV Menu Início Agenda O TAGV Laboratório LIPA Aluguer Espaços Bilheteira Praça da República 3000-343 Coimbra | Bilheteira Online: tagv.bol.pt | 239 855 636 (Chamada para a rede fixa nacional) teatro@tagv.uc.pt Teatro Festival END: Julieta & Romeu. Uma Peça Para Um Par de Desditos Amantes Clube d",
-      "com o Teatro Académico de Gil Vicente",
-      "Aveiro",
-      "com o Teatro Aveirense. O festival assinala o Dia Mundial do Teatro",
-      "a 27 de março",
-      "com programação na cidade de Aveiro. Data 25",
-      "Março 2026 Horário 11H00 Duração 1h30 Faixa etária M12 Preço entrada gratuita Local Teatro-Estúdio CITAC Fotografia Thoma"
-    ],
-    "sessions": [
-      {
-        "date": "2026-03-25",
-        "time": "11:00",
-        "weekday": "Qua"
-      }
-    ],
-    "schema_version": "2.0",
-    "subcategory": "Performance",
-    "is_free": null,
-    "is_festival": true,
-    "is_accessible": null,
-    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
-    "theater_id": "tagv",
-    "city": "Coimbra",
-    "venue_type": "",
-    "_meta": {
-      "completeness": 0.78
     }
   },
   {
@@ -427,7 +371,7 @@
     "is_free": null,
     "is_festival": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "scraped_at": "2026-03-23T13:45:48.552912+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
@@ -490,7 +434,7 @@
     "is_free": null,
     "is_festival": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "scraped_at": "2026-03-23T13:45:48.552912+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
@@ -544,7 +488,7 @@
     "is_free": null,
     "is_festival": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "scraped_at": "2026-03-23T13:45:48.552912+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
@@ -616,7 +560,7 @@
     "is_free": null,
     "is_festival": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "scraped_at": "2026-03-23T13:45:48.552912+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
@@ -674,7 +618,7 @@
     "is_free": null,
     "is_festival": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "scraped_at": "2026-03-23T13:45:48.552912+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
@@ -733,7 +677,7 @@
     "is_free": null,
     "is_festival": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "scraped_at": "2026-03-23T13:45:48.552912+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
@@ -807,7 +751,7 @@
     "is_free": null,
     "is_festival": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "scraped_at": "2026-03-23T13:45:48.552912+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
@@ -859,7 +803,7 @@
     "is_free": true,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "scraped_at": "2026-03-23T13:45:48.552912+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
@@ -904,7 +848,7 @@
     "is_free": null,
     "is_festival": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "scraped_at": "2026-03-23T13:45:48.552912+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
@@ -949,7 +893,7 @@
     "is_free": null,
     "is_festival": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "scraped_at": "2026-03-23T13:45:48.552912+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
@@ -995,7 +939,7 @@
     "is_free": true,
     "is_festival": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "scraped_at": "2026-03-23T13:45:48.552912+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
@@ -1041,7 +985,7 @@
     "is_free": null,
     "is_festival": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "scraped_at": "2026-03-23T13:45:48.552912+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
@@ -1081,7 +1025,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "scraped_at": "2026-03-23T13:45:48.552912+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
@@ -1141,7 +1085,7 @@
     "schema_version": "2.0",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "scraped_at": "2026-03-23T13:45:48.552912+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
@@ -1181,7 +1125,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "scraped_at": "2026-03-23T13:45:48.552912+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
@@ -1266,7 +1210,7 @@
     "subcategory": "Performance",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "scraped_at": "2026-03-23T13:45:48.552912+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
@@ -1313,7 +1257,7 @@
     "subcategory": "Performance",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "scraped_at": "2026-03-23T13:45:48.552912+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
@@ -1393,7 +1337,7 @@
     "subcategory": "Performance",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "scraped_at": "2026-03-23T13:45:48.552912+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
@@ -1437,7 +1381,7 @@
     "schema_version": "2.0",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "scraped_at": "2026-03-23T13:45:48.552912+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
@@ -1478,7 +1422,7 @@
     "is_festival": true,
     "for_schools": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "scraped_at": "2026-03-23T13:45:48.552912+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
@@ -1518,196 +1462,12 @@
     "is_free": null,
     "is_festival": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
+    "scraped_at": "2026-03-23T13:45:48.552912+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
     "_meta": {
       "completeness": 0.57
-    }
-  },
-  {
-    "id": "tagv-elas-s-o-5-milh-es",
-    "title": "Elas São 5 Milhões",
-    "theater": "TAGV — Teatro Académico Gil Vicente",
-    "category": "Cinema & Audiovisual",
-    "date_start": "2026-04-27",
-    "source_url": "https://tagv.pt/agenda/mektoub-meu-amor-canto-segundo-de-abdellatif-kechiche/",
-    "dates_label": "27 abr 2026",
-    "synopsis": "Amin regressa a Sète após os seus estudos em Paris, ainda a sonhar com o cinema. Por acaso, um produtor americano de férias interessa-se pelo seu projetom, Os Elementos Essenciais da Existência Universal, e quer que a sua esposa, Jess, seja a heroína.…",
-    "image": {
-      "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-aprender-de-claire-simon-mektoub-meu-amor-canto-segundo-01.jpg",
-      "credit": null,
-      "source": "https://tagv.pt/agenda/mektoub-meu-amor-canto-segundo-de-abdellatif-kechiche/",
-      "theater": "TAGV — Teatro Académico Gil Vicente"
-    },
-    "ticket_url": "https://tagv.bol.pt",
-    "price_info": "6€",
-    "price_min": 6.0,
-    "price_max": 6.0,
-    "duration": "21h30",
-    "duration_min": 1290,
-    "age_rating": "Livre",
-    "age_min": 0,
-    "technical_sheet": {
-      "adaptação": "livre do romance La Blessure, la vraie, de François Bégaudeau, projeto que deu origem à trilogia Mektoub, My Love, composta por Canto Primeiro (2017), Intermezzo (2019) e Canto Due (2025), obras que estrearam, respetivamente, nos festivais de Veneza, Cannes e Locarno. Data 27, Abril 2026 Horário 21H"
-    },
-    "sessions": [
-      {
-        "date": "2026-04-27",
-        "time": "21:30",
-        "weekday": "Seg"
-      }
-    ],
-    "schema_version": "2.0",
-    "is_free": null,
-    "for_families": true,
-    "is_accessible": null,
-    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
-    "theater_id": "tagv",
-    "city": "Coimbra",
-    "venue_type": "",
-    "_meta": {
-      "completeness": 0.648
-    }
-  },
-  {
-    "id": "tagv-solaris",
-    "title": "Solaris",
-    "theater": "TAGV — Teatro Académico Gil Vicente",
-    "category": "Artes Performativas",
-    "date_start": "2026-04-28",
-    "source_url": "https://tagv.pt/agenda/festival-adc-corpos-performaticos-2/",
-    "dates_label": "28 abr 2026",
-    "synopsis": "Durante dois meses, os artistas do grupo Corpos Performáticos do doutoramento do Colégio das Artes em Coimbra reuniram-se para ensaiar o tema da lentidão.…",
-    "image": {
-      "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-festival-adc-onyx-2-corpos-performaticos15-e-28.04.jpg",
-      "credit": null,
-      "source": "https://tagv.pt/agenda/festival-adc-corpos-performaticos-2/",
-      "theater": "TAGV — Teatro Académico Gil Vicente"
-    },
-    "ticket_url": "https://tagv.bol.pt",
-    "duration": "18h30",
-    "duration_min": 1110,
-    "technical_sheet": {
-      "luz": "a uma terra com deficiência climática, fazer e desfazer, construir e destruir para suspender o tempo. Partindo de um interesse comum pela dança contemporânea e reconhecendo o lugar central que a dança ocupa na renovação da linguagem das artes performativas nas últimas décadas, a Câmara Municipal de"
-    },
-    "people": [
-      "a uma terra com deficiência climática",
-      "fazer",
-      "desfazer",
-      "construir",
-      "destruir para suspender o tempo. Partindo de um interesse comum pela dança contemporânea",
-      "reconhecendo o lugar central que a dança ocupa na renovação da linguagem das artes performativas nas últimas décadas",
-      "a Câmara Municipal de"
-    ],
-    "sessions": [
-      {
-        "date": "2026-04-28",
-        "time": "18:30",
-        "weekday": "Ter"
-      }
-    ],
-    "schema_version": "2.0",
-    "subcategory": "Performance",
-    "is_free": null,
-    "is_accessible": null,
-    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
-    "theater_id": "tagv",
-    "city": "Coimbra",
-    "venue_type": "",
-    "_meta": {
-      "completeness": 0.708
-    }
-  },
-  {
-    "id": "tagv-aprender",
-    "title": "Aprender",
-    "theater": "TAGV — Teatro Académico Gil Vicente",
-    "category": "Multidisciplinar",
-    "date_start": "2026-04-29",
-    "source_url": "https://tagv.pt/agenda/antonio-azevedo-coutinho-gentil/",
-    "dates_label": "29 abr 2026",
-    "synopsis": "Gentil é o primeiro solo de António Azevedo Coutinho e é bem provável que seja o último, que o que ele gostava de ser era jardineiro.",
-    "image": {
-      "url": "https://tagv.pt/public/uploads/2025/12/tagv.pt-antonio-azevedo-coutinho-gentil-gentil-1080x1920.jpg",
-      "credit": null,
-      "source": "https://tagv.pt/agenda/antonio-azevedo-coutinho-gentil/",
-      "theater": "TAGV — Teatro Académico Gil Vicente"
-    },
-    "ticket_url": "https://tagv.bol.pt",
-    "duration": "21h30",
-    "duration_min": 1290,
-    "technical_sheet": {
-      "produção": "Freakshow Clique ou faça scroll para ver o próximo evento. Toque para ver o próximo evento. Humor ​​Ana Garcia Martins O TAGV, remodelado em 2003, é um polo de conhecimento e formação artística. Subscreve a newsletter. Aviso sobre tratamento de dados Praça da República 3000-342 Coimbra Bilheteira on"
-    },
-    "people": [
-      "Freakshow Clique ou faça scroll para ver o próximo evento. Toque para ver o próximo evento. Humor ​​Ana Garcia Martins O TAGV",
-      "remodelado em 2003",
-      "é um polo de conhecimento",
-      "formação artística. Subscreve a newsletter. Aviso sobre tratamento de dados Praça da República 3000-342 Coimbra Bilheteira on"
-    ],
-    "sessions": [
-      {
-        "date": "2026-04-29",
-        "time": "21:30",
-        "weekday": "Qua"
-      }
-    ],
-    "schema_version": "2.0",
-    "is_free": null,
-    "is_accessible": null,
-    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
-    "theater_id": "tagv",
-    "city": "Coimbra",
-    "venue_type": "",
-    "_meta": {
-      "completeness": 0.642
-    }
-  },
-  {
-    "id": "tagv-mektoub-meu-amor-canto-segundo",
-    "title": "Mektoub, Meu Amor: Canto Segundo",
-    "theater": "TAGV — Teatro Académico Gil Vicente",
-    "category": "Multidisciplinar",
-    "date_start": "2026-06-05",
-    "source_url": "https://tagv.pt/agenda/%e2%80%8b%e2%80%8bana-garcia-martins-insuficiente/",
-    "dates_label": "5 jun 2026",
-    "synopsis": "Sorte? Síndrome de impostor? Erro de cálculo do universo? Desde a infância que Ana Garcia Martins é perseguida pela sensação de insuficiência e autocrítica, por mais que a vida se esforce por provar-lhe o contrário. “Nunca chego”. “Há sempre quem faça melhor”. “Vão descobrir que sou uma fraude”.…",
-    "image": {
-      "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-20260605-ana-garcia-web.jpg",
-      "credit": null,
-      "source": "https://tagv.pt/agenda/%e2%80%8b%e2%80%8bana-garcia-martins-insuficiente/",
-      "theater": "TAGV — Teatro Académico Gil Vicente"
-    },
-    "ticket_url": "https://tagv.bol.pt",
-    "duration": "21h30",
-    "duration_min": 1290,
-    "technical_sheet": {
-      "produção": "It’s Showtime Stage O TAGV, remodelado em 2003, é um polo de conhecimento e formação artística. Subscreve a newsletter. Aviso sobre tratamento de dados Praça da República 3000-342 Coimbra Bilheteira online —— tagv.bol.pt Lojas FNAC —— teatro@tagv.uc.pt Café TAGV 239 052 563 (Chamada para a rede fixa"
-    },
-    "people": [
-      "It’s Showtime Stage O TAGV",
-      "remodelado em 2003",
-      "é um polo de conhecimento",
-      "formação artística. Subscreve a newsletter. Aviso sobre tratamento de dados Praça da República 3000-342 Coimbra Bilheteira online —— tagv.bol.pt Lojas FNAC —— teatro@tagv.uc.pt Café TAGV 239 052 563 (Chamada para a rede fixa"
-    ],
-    "sessions": [
-      {
-        "date": "2026-06-05",
-        "time": "21:30",
-        "weekday": "Sex"
-      }
-    ],
-    "schema_version": "2.0",
-    "is_free": null,
-    "is_accessible": null,
-    "scraped_at": "2026-03-23T11:35:17.950801+00:00",
-    "theater_id": "tagv",
-    "city": "Coimbra",
-    "venue_type": "",
-    "_meta": {
-      "completeness": 0.642
     }
   }
 ]
