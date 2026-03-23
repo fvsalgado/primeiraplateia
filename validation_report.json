@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-23T15:55:39.560468+00:00",
+  "generated_at": "2026-03-23T16:03:25.236357+00:00",
   "schema_version": "2.0",
-  "total_raw": 408,
-  "total_accepted": 398,
+  "total_raw": 419,
+  "total_accepted": 409,
   "total_rejected": 10,
-  "total_warnings": 109,
+  "total_warnings": 110,
   "rejected": [
     {
       "id": "saoluiz-um-homem-e-o-seu-criado",
@@ -840,6 +840,13 @@
       "warnings": [
         "evento já terminou (1929-10-21)"
       ]
+    },
+    {
+      "id": "tagv-os-domingos",
+      "title": "Os Domingos",
+      "warnings": [
+        "evento já terminou (1929-10-21)"
+      ]
     }
   ],
   "total_duplicates_removed": 0,
@@ -891,7 +898,7 @@
     },
     "TAGV — Teatro Académico Gil Vicente": {
       "status": "ok",
-      "events_collected": 104
+      "events_collected": 115
     },
     "Cine-Teatro Avenida": {
       "status": "empty",
