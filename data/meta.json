@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-03-22T08:03:11.459211+00:00",
-  "build_version": "20260322-0803",
-  "total_events": 223,
+  "updated_at": "2026-03-23T10:34:55.093290+00:00",
+  "build_version": "20260323-1034",
+  "total_events": 221,
   "total_theaters": 12,
-  "events_today": 2,
-  "events_this_weekend": 2,
+  "events_today": 1,
+  "events_this_weekend": 7,
   "cities": [
     "Braga",
     "Coimbra",
@@ -15,15 +15,15 @@
   "by_category": {
     "Outro": 97,
     "Teatro": 66,
-    "Música": 43,
+    "Música": 41,
     "Dança": 8,
     "Performance": 7,
     "Circo": 1,
     "Teatro Musical": 1
   },
-  "stale_theaters": 0,
+  "stale_theaters": 32,
   "by_theater": {
-    "Theatro Circo": 63,
+    "Theatro Circo": 61,
     "Teatro Viriato": 29,
     "Teatro Variedades": 6,
     "Teatro da Trindade INATEL": 7,
