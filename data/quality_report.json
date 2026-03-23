@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-23T16:03:30.815056+00:00",
-  "total_events": 300,
+  "generated_at": "2026-03-23T17:59:57.499993+00:00",
+  "total_events": 303,
   "tracked_fields": [
     "synopsis",
     "image",
@@ -364,16 +364,16 @@
       }
     },
     "Teatro das Figuras": {
-      "total_events": 20,
+      "total_events": 22,
       "status": "ok",
       "completeness_avg": 0.444,
       "field_coverage": {
         "synopsis": {
-          "count": 20,
+          "count": 22,
           "pct": 100
         },
         "image": {
-          "count": 20,
+          "count": 22,
           "pct": 100
         },
         "price_info": {
@@ -393,11 +393,11 @@
           "pct": 0
         },
         "subcategory": {
-          "count": 12,
-          "pct": 60
+          "count": 13,
+          "pct": 59
         },
         "sessions": {
-          "count": 20,
+          "count": 22,
           "pct": 100
         }
       }
@@ -442,40 +442,40 @@
       }
     },
     "Theatro Circo": {
-      "total_events": 61,
+      "total_events": 62,
       "status": "ok",
-      "completeness_avg": 0.601,
+      "completeness_avg": 0.603,
       "field_coverage": {
         "synopsis": {
-          "count": 61,
+          "count": 62,
           "pct": 100
         },
         "image": {
-          "count": 61,
+          "count": 62,
           "pct": 100
         },
         "price_info": {
-          "count": 55,
+          "count": 56,
           "pct": 90
         },
         "ticket_url": {
-          "count": 34,
+          "count": 35,
           "pct": 56
         },
         "duration": {
-          "count": 17,
-          "pct": 28
+          "count": 18,
+          "pct": 29
         },
         "age_rating": {
           "count": 41,
-          "pct": 67
+          "pct": 66
         },
         "subcategory": {
           "count": 19,
           "pct": 31
         },
         "sessions": {
-          "count": 61,
+          "count": 62,
           "pct": 100
         }
       }

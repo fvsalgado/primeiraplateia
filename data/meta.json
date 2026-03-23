@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-03-23T16:03:30.738908+00:00",
-  "build_version": "20260323-1603",
+  "updated_at": "2026-03-23T17:59:57.422463+00:00",
+  "build_version": "20260323-1759",
   "schema_version": "2.0",
-  "total_events": 300,
+  "total_events": 303,
   "total_theaters": 12,
   "events_today": 16,
   "events_this_weekend": 35,
@@ -14,9 +14,9 @@
     "Viseu"
   ],
   "by_category": {
-    "Artes Performativas": 124,
-    "Música": 71,
-    "Multidisciplinar": 37,
+    "Artes Performativas": 125,
+    "Música": 72,
+    "Multidisciplinar": 38,
     "Cinema & Audiovisual": 26,
     "Formação & Participação": 18,
     "Artes Visuais & Exposições": 13,
@@ -26,7 +26,7 @@
   },
   "by_subcategory": {
     "Performance": 72,
-    "Teatro": 45,
+    "Teatro": 46,
     "Concerto": 31,
     "Exposição": 6,
     "Conversa": 5,
@@ -38,7 +38,7 @@
     "Teatro Musical": 1
   },
   "filter_counts": {
-    "is_free": 28,
+    "is_free": 29,
     "is_accessible": 0,
     "for_families": 113,
     "for_schools": 16,
@@ -47,7 +47,7 @@
   },
   "stale_theaters": 0,
   "by_theater": {
-    "Theatro Circo": 61,
+    "Theatro Circo": 62,
     "Teatro Viriato": 29,
     "Teatro Variedades": 6,
     "Teatro da Trindade INATEL": 7,
@@ -55,12 +55,12 @@
     "Teatro Maria Matos": 16,
     "CCB — Centro Cultural de Belém": 86,
     "TAGV — Teatro Académico Gil Vicente": 31,
-    "Teatro das Figuras": 20,
+    "Teatro das Figuras": 22,
     "Capitólio": 6,
     "Teatro do Bairro": 1,
     "Culturgest": 3
   },
-  "completeness_avg": 0.603,
+  "completeness_avg": 0.602,
   "anomalies": [],
   "scraper_health": {
     "Cine-Teatro Avenida": {
