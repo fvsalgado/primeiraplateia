@@ -137,10 +137,17 @@ class TestTruncateSynopsis:
         assert len(result) <= 301  # 300 + reticências
 
     def test_trunca_na_frase(self):
-        text = ("Esta é a primeira frase. " * 10) + "Esta última não deve aparecer."
-        result = truncate_synopsis(text, max_chars=100)
-        assert result.endswith(".")  # cortou na frase
-        assert "…" not in result  # não precisou de reticências
+        # A função corta na última frase COMPLETA antes do limite,
+        # mas sempre adiciona '…' a indicar que o texto foi truncado.
+        # O mínimo de 150 chars é necessário para activar o corte na frase.
+        text = ("Esta é a primeira frase completa aqui. " * 10) + "Esta última não deve aparecer."
+        result = truncate_synopsis(text, max_chars=250)
+        # Deve ter cortado numa frase (não a meio de palavra)
+        # e adicionado reticências (comportamento documentado)
+        assert "Esta última" not in result
+        assert result.endswith("…")
+        # O corte foi numa frase completa (o char antes de '…' é '.')
+        assert result.endswith(".…") or result.endswith("!…") or result.endswith("?…")
 
     def test_adiciona_reticencias(self):
         # Sem frase completa antes do limite → usa reticências

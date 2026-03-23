@@ -174,9 +174,9 @@ def parse_date(s: str, force_year: int | None = None) -> str:
             return f"{y:04d}-{mo:02d}-{d:02d}"
         except ValueError:
             return ""
-    # DD [de] MES [YYYY]
+    # DD [de] MES [de] [YYYY]
     m = re.match(
-        r"(\d{1,2})\s+(?:de\s+)?([A-Za-zçãáéíóúàèìòùÇÃÁÉÍÓÚ]{3,})(?:\s+(\d{4}))?",
+        r"(\d{1,2})\s+(?:de\s+)?([A-Za-zçãáéíóúàèìòùÇÃÁÉÍÓÚ]{3,})(?:\s+(?:de\s+)?(\d{4}))?",
         s, re.IGNORECASE,
     )
     if m:

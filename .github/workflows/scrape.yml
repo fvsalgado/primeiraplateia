@@ -7,6 +7,11 @@ on:
     branches:
       - main
   workflow_dispatch:
+    inputs:
+      run_check_urls:
+        description: 'Correr verificação de URLs'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -121,6 +126,7 @@ jobs:
           path: |
             scraper_run.log
             scraper_run.jsonl
+          if-no-files-found: ignore
           retention-days: 30
 
       - name: Preparar pasta _site/ para deploy
@@ -226,13 +232,13 @@ jobs:
           EOF
 
   # ─────────────────────────────────────────────────────────────
-  # Verificação semanal de URLs (domingos 06:00 UTC)
-  # Job separado — não bloqueia o deploy diário
+  # Verificação de URLs — só corre quando activado manualmente
+  # (workflow_dispatch com run_check_urls=true)
   # ─────────────────────────────────────────────────────────────
   check-urls:
     runs-on: ubuntu-latest
     timeout-minutes: 20
-    if: github.event_name == 'workflow_dispatch'
+    if: github.event_name == 'workflow_dispatch' && github.event.inputs.run_check_urls == 'true'
 
     steps:
       - name: Checkout repositório
@@ -257,4 +263,5 @@ jobs:
         with:
           name: broken-urls-${{ github.run_id }}
           path: data/broken_urls.json
+          if-no-files-found: ignore
           retention-days: 90

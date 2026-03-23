@@ -13,7 +13,7 @@ v2.0:
 """
 import re
 import logging
-from datetime import date, datetime
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 from scrapers.schema import (
@@ -140,7 +140,7 @@ def validate(events: list[dict]) -> tuple[list[dict], dict]:
                 warnings.append({"id": ev_id, "title": ev_title, "warnings": warns})
 
     report = {
-        "generated_at":   datetime.utcnow().isoformat() + "Z",
+        "generated_at":   datetime.now(timezone.utc).isoformat(),
         "schema_version": "2.0",
         "total_raw":      len(events),
         "total_accepted": len(accepted),
