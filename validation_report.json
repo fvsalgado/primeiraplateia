@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-23T16:03:25.236357+00:00",
+  "generated_at": "2026-03-23T17:59:51.807408+00:00",
   "schema_version": "2.0",
-  "total_raw": 419,
-  "total_accepted": 409,
+  "total_raw": 416,
+  "total_accepted": 406,
   "total_rejected": 10,
-  "total_warnings": 110,
+  "total_warnings": 104,
   "rejected": [
     {
       "id": "saoluiz-um-homem-e-o-seu-criado",
@@ -331,20 +331,6 @@
       ]
     },
     {
-      "id": "tagv-viva-jo-o-c-sar-monteiro",
-      "title": "Viva João César Monteiro",
-      "warnings": [
-        "evento já terminou (1939-02-02)"
-      ]
-    },
-    {
-      "id": "tagv-flor-do-mar",
-      "title": "À Flor do Mar",
-      "warnings": [
-        "evento já terminou (1939-02-02)"
-      ]
-    },
-    {
       "id": "tagv-silvestre",
       "title": "Silvestre",
       "warnings": [
@@ -569,13 +555,6 @@
       ]
     },
     {
-      "id": "tagv-raphael-ghanem",
-      "title": "Raphael Ghanem",
-      "warnings": [
-        "evento já terminou (2026-02-26)"
-      ]
-    },
-    {
       "id": "tagv-hamnet",
       "title": "Hamnet",
       "warnings": [
@@ -629,27 +608,6 @@
       "title": "Open Call: Bolsas de Criação Locais",
       "warnings": [
         "evento já terminou (2026-03-04)"
-      ]
-    },
-    {
-      "id": "tagv-os-amantes-regulares",
-      "title": "Os Amantes Regulares",
-      "warnings": [
-        "evento já terminou (2026-03-05)"
-      ]
-    },
-    {
-      "id": "tagv-dj-ahmet",
-      "title": "DJ Ahmet",
-      "warnings": [
-        "evento já terminou (2026-03-06)"
-      ]
-    },
-    {
-      "id": "tagv-o-narrador",
-      "title": "O Narrador",
-      "warnings": [
-        "evento já terminou (2026-03-07)"
       ]
     },
     {
@@ -882,7 +840,7 @@
     },
     "Theatro Circo": {
       "status": "ok",
-      "events_collected": 61
+      "events_collected": 62
     },
     "Teatro do Bairro": {
       "status": "ok",
@@ -894,11 +852,11 @@
     },
     "Teatro das Figuras": {
       "status": "ok",
-      "events_collected": 20
+      "events_collected": 22
     },
     "TAGV — Teatro Académico Gil Vicente": {
       "status": "ok",
-      "events_collected": 115
+      "events_collected": 109
     },
     "Cine-Teatro Avenida": {
       "status": "empty",
