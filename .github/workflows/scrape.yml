@@ -99,7 +99,7 @@ jobs:
 
       - name: Commitar events.json para main
         run: |
-          git add events.json validation_report.json scraper_run.log scraper_run.jsonl
+          git add events.json validation_report.json
           git diff --staged --quiet || git commit -m "data: $(date -u '+%Y-%m-%d %H:%M UTC') [skip ci]"
           git push || true
 

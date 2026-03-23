@@ -362,11 +362,14 @@ def _scrape_event(stub: dict) -> dict | None:
         log(f"[{THEATER_NAME}] '{title}' sem date_start — ignorado")
         return None
 
+    # Extrair sinopse ANTES da inferência de categoria (evita UnboundLocalError)
+    synopsis = _extract_synopsis(soup)
+
     category_raw_norm = _infer_category_viriato(
         stub["category_raw"],
         stub.get("title", ""),
         stub.get("subtitle", ""),
-        synopsis if synopsis else "",
+        synopsis,
     )
     category = normalize_category(category_raw_norm)
 
@@ -375,8 +378,6 @@ def _scrape_event(stub: dict) -> dict | None:
         m = re.search(r"(\d{1,2}[h:]\d{2})", full_text)
         if m:
             schedule = m.group(1)
-
-    synopsis = _extract_synopsis(soup)
 
     raw_img = ""
     og = soup.find("meta", property="og:image")

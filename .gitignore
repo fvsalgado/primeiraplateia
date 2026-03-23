@@ -29,3 +29,5 @@ Thumbs.db
 # Logs
 *.log
 scraper_run.log
+
+scraper_run.jsonl

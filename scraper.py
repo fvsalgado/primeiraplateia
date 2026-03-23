@@ -378,6 +378,7 @@ def run(scraper_filter: str | None = None, dry_run: bool = False) -> None:
         "updated_at":     datetime.now(timezone.utc).isoformat(),
         "total":          len(valid_events),
         "by_theater":     scraper_stats,
+        "scraper_health": scraper_health,
         "meta": {
             "description":  "Primeira Plateia — Agenda cultural em Portugal. A cultura no melhor lugar.",
             "author":       "Fábio Salgado",

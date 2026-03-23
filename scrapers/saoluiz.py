@@ -269,9 +269,48 @@ def _scrape_event(url: str, card_data: dict) -> dict | None:
     # ── Datas ───────────────────────────────────────────────
     date_start, date_end = _parse_dates_from_field(dates_label)
 
-    # fallback: datas do card
+    # fallback 1: datas do card
     if not date_start and card_data.get("dates_label_raw"):
         date_start, date_end = _parse_dates_from_field(card_data["dates_label_raw"])
+
+    # fallback 2: JSON-LD na página (startDate / endDate)
+    if not date_start:
+        import json as _json
+        for script in soup.find_all("script", type="application/ld+json"):
+            try:
+                ld = _json.loads(script.string or "")
+                if isinstance(ld, dict):
+                    ld_list = [ld]
+                elif isinstance(ld, list):
+                    ld_list = ld
+                else:
+                    ld_list = []
+                for item in ld_list:
+                    sd = item.get("startDate", "") or item.get("eventSchedule", [{}])[0].get("startDate", "") if isinstance(item.get("eventSchedule"), list) else ""
+                    if sd and len(sd) >= 10:
+                        date_start = sd[:10]
+                        ed = item.get("endDate", "")
+                        date_end = ed[:10] if ed and len(ed) >= 10 else date_start
+                        break
+                if date_start:
+                    break
+            except Exception:
+                pass
+
+    # fallback 3: padrões de data no texto da página
+    if not date_start:
+        import re as _re2
+        # Padrão: DD/MM/YYYY ou YYYY-MM-DD
+        m_date = _re2.search(r"\b(20\d{2}-\d{2}-\d{2})\b", raw)
+        if m_date:
+            date_start = m_date.group(1)
+            date_end   = date_start
+        else:
+            m_date2 = _re2.search(r"\b(\d{1,2})[./](\d{1,2})[./](20\d{2})\b", raw)
+            if m_date2:
+                d, mo, y = int(m_date2.group(1)), int(m_date2.group(2)), int(m_date2.group(3))
+                date_start = f"{y:04d}-{mo:02d}-{d:02d}"
+                date_end   = date_start
 
     # ── Duração ─────────────────────────────────────────────
     duration_min = None
