@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-23T11:35:17.995582Z",
+  "generated_at": "2026-03-23T13:45:48.595484+00:00",
   "schema_version": "2.0",
-  "total_raw": 419,
-  "total_accepted": 409,
+  "total_raw": 393,
+  "total_accepted": 383,
   "total_rejected": 10,
-  "total_warnings": 110,
+  "total_warnings": 89,
   "rejected": [
     {
       "id": "saoluiz-um-homem-e-o-seu-criado",
@@ -541,13 +541,6 @@
       ]
     },
     {
-      "id": "tagv-entre-cores-arte-e-ci-ncia",
-      "title": "Entre Cores: Arte e Ciência",
-      "warnings": [
-        "evento já terminou (2026-02-21)"
-      ]
-    },
-    {
       "id": "tagv-cineeco",
       "title": "CineEco",
       "warnings": [
@@ -566,13 +559,6 @@
       "title": "XXII Oito Badaladas — Festival de Tunas",
       "warnings": [
         "evento já terminou (2026-02-25)"
-      ]
-    },
-    {
-      "id": "tagv-raphael-ghanem",
-      "title": "Raphael Ghanem",
-      "warnings": [
-        "evento já terminou (2026-02-26)"
       ]
     },
     {
@@ -597,22 +583,8 @@
       ]
     },
     {
-      "id": "tagv-leituras-indisciplinadas-queer-oficina-fritta",
-      "title": "Leituras Indisciplinadas Queer + Oficina Fritta",
-      "warnings": [
-        "evento já terminou (2026-03-01)"
-      ]
-    },
-    {
       "id": "tagv-atlas-gr-fico-de-coimbra",
       "title": "Atlas Gráfico de Coimbra",
-      "warnings": [
-        "evento já terminou (2026-03-02)"
-      ]
-    },
-    {
-      "id": "tagv-jos-de-portugal-e-os-doce-da-casa-viver-melhor-que",
-      "title": "José de Portugal e os DOCE da Casa: Viver é Melhor Que Sonhar",
       "warnings": [
         "evento já terminou (2026-03-02)"
       ]
@@ -621,119 +593,14 @@
       "id": "tagv-pulchritudines-concerto-sinf-nico-de-abertura-da-x",
       "title": "Pulchritudines — Concerto Sinfónico de Abertura da XXVIII Semana Cultural UC",
       "warnings": [
-        "evento já terminou (2026-03-03)"
+        "evento já terminou (2026-03-04)"
       ]
     },
     {
       "id": "tagv-open-call-bolsas-de-cria-o-locais",
       "title": "Open Call: Bolsas de Criação Locais",
       "warnings": [
-        "evento já terminou (2026-03-04)"
-      ]
-    },
-    {
-      "id": "tagv-os-amantes-regulares",
-      "title": "Os Amantes Regulares",
-      "warnings": [
-        "evento já terminou (2026-03-05)"
-      ]
-    },
-    {
-      "id": "tagv-dj-ahmet",
-      "title": "DJ Ahmet",
-      "warnings": [
-        "evento já terminou (2026-03-06)"
-      ]
-    },
-    {
-      "id": "tagv-o-narrador",
-      "title": "O Narrador",
-      "warnings": [
-        "evento já terminou (2026-03-07)"
-      ]
-    },
-    {
-      "id": "tagv-ode-mar-tima-leitura-encenada",
-      "title": "Ode Marítima — Leitura Encenada",
-      "warnings": [
-        "evento já terminou (2026-03-07)"
-      ]
-    },
-    {
-      "id": "tagv-nada-imposs-vel-de-mudar-po-tica-da-revolta",
-      "title": "Nada é Impossível de Mudar: Poética da Revolta",
-      "warnings": [
-        "evento já terminou (2026-03-09)"
-      ]
-    },
-    {
-      "id": "tagv-lan-amento-coreia-14-performance-the-erotic-clown",
-      "title": "Lançamento Coreia#14 + Performance The Erotic Clown",
-      "warnings": [
-        "evento já terminou (2026-03-09)"
-      ]
-    },
-    {
-      "id": "tagv-oficina-escutar-escrever-arquivar-cria-o-documenta",
-      "title": "Oficina Escutar / Escrever / Arquivar (Criação Documental)",
-      "warnings": [
-        "evento já terminou (2026-03-12)"
-      ]
-    },
-    {
-      "id": "tagv-laborat-rio-do-tonus-ao-gestus-poder-afeto-e-resis",
-      "title": "Laboratório Do Tonus ao Gestus: Poder, Afeto e Resistência no Corpo",
-      "warnings": [
-        "evento já terminou (2026-03-12)"
-      ]
-    },
-    {
-      "id": "tagv-as-minhas-namoradinhas",
-      "title": "As Minhas Namoradinhas",
-      "warnings": [
-        "evento já terminou (2026-03-13)"
-      ]
-    },
-    {
-      "id": "tagv-beleza-em-cena-um-espet-culo-de-bandas-sonoras-xxv",
-      "title": "Beleza em Cena: Um Espetáculo de Bandas Sonoras — XXVIII Semana Cultural UC",
-      "warnings": [
-        "evento já terminou (2026-03-14)"
-      ]
-    },
-    {
-      "id": "tagv-yunan",
-      "title": "Yunan",
-      "warnings": [
-        "evento já terminou (2026-03-14)"
-      ]
-    },
-    {
-      "id": "tagv-reenact-now",
-      "title": "REENACT NOW",
-      "warnings": [
-        "evento já terminou (2026-03-15)"
-      ]
-    },
-    {
-      "id": "tagv-banda-encantada-xxviii-semana-cultural-uc",
-      "title": "Banda EnCantada — XXVIII Semana Cultural UC",
-      "warnings": [
-        "evento já terminou (1943-03-31)"
-      ]
-    },
-    {
-      "id": "tagv-xi-l-grimas-de-amores",
-      "title": "XI Lágrimas de Amores",
-      "warnings": [
-        "evento já terminou (2026-03-16)"
-      ]
-    },
-    {
-      "id": "tagv-blue-moon",
-      "title": "Blue Moon",
-      "warnings": [
-        "evento já terminou (2026-03-17)"
+        "evento já terminou (2026-03-11)"
       ]
     },
     {
@@ -755,13 +622,6 @@
       "title": "Oficina de Dramaturgia",
       "warnings": [
         "evento já terminou (2026-03-17)"
-      ]
-    },
-    {
-      "id": "tagv-doc-coimbra-concerto-filipe-furtado-trio-filme-de-",
-      "title": "DOC.Coimbra: Concerto Filipe Furtado Trio + Filme de Abertura",
-      "warnings": [
-        "evento já terminou (2026-03-18)"
       ]
     },
     {
@@ -790,13 +650,6 @@
       "title": "DOC.Coimbra: Salatinas. Histórias da Velha Alta de Coimbra",
       "warnings": [
         "evento já terminou (2026-03-20)"
-      ]
-    },
-    {
-      "id": "tagv-doc-coimbra-notas-sobre-um-desterro",
-      "title": "DOC.Coimbra: Notas Sobre um Desterro",
-      "warnings": [
-        "evento já terminou (2026-03-21)"
       ]
     },
     {
@@ -898,7 +751,7 @@
     },
     "TAGV — Teatro Académico Gil Vicente": {
       "status": "ok",
-      "events_collected": 115
+      "events_collected": 89
     },
     "Cine-Teatro Avenida": {
       "status": "empty",
