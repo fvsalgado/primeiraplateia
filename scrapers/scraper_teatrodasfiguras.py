@@ -62,6 +62,49 @@ THEATER = {
 THEATER_NAME = THEATER["name"]
 SOURCE_SLUG  = THEATER["id"]
 BASE         = "https://teatrodasfiguras.pt"
+
+import re as _re_fig
+
+# Mapa de categorias raw do site Teatro das Figuras → valor para normalize_category
+_FIGURAS_CAT_MAP: dict[str, str] = {
+    "teatro":           "teatro",
+    "dança":            "dança",
+    "música":           "música",
+    "concerto":         "concerto",
+    "ópera":            "ópera",
+    "circo":            "circo",
+    "performance":      "performance",
+    "cinema":           "cinema",
+    "exposição":        "exposição",
+    "infantil":         "infantil",
+    "família":          "família",
+    "para famílias":    "família",
+    "workshop":         "workshop",
+    "oficina":          "workshop",
+    "conferência":      "conferência",
+    "debate":           "debate",
+    "conversa":         "conversa",
+    "festival":         "festival",
+    "musical":          "musical",
+    "stand-up":         "stand-up",
+    "comédia":          "comédia",
+    "fado":             "fado",
+    "jazz":             "jazz",
+    "world music":      "world music",
+}
+
+def _normalize_figuras_category(raw: str) -> str:
+    """Normalização de categoria para Teatro das Figuras."""
+    if not raw:
+        return "teatro"  # T. Figuras é maioritariamente teatro
+    key = raw.strip().lower()
+    mapped = _FIGURAS_CAT_MAP.get(key)
+    if mapped:
+        return mapped
+    from scrapers.schema import normalize_category as _nc
+    result = _nc(raw)
+    return result if result != "Multidisciplinar" else "teatro"
+
 AGENDA_URL   = f"{BASE}/agenda"
 
 _PT_MONTHS = {
@@ -213,7 +256,7 @@ def _parse_card(card, section_month: int, section_year: int) -> dict | None:
         "title":           title,
         "subtitle":        subtitle,
         "theater":         THEATER_NAME,
-        "category":        normalize_category(category_raw),
+        "category":        _normalize_figuras_category(category_raw),
         "dates_label":     dates_label,
         "date_start":      date_start,
         "date_end":        date_end,

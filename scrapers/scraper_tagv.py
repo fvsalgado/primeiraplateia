@@ -58,6 +58,70 @@ from scrapers.utils import (
 from scrapers.schema import normalize_category
 
 BASE      = "https://tagv.pt"
+
+# ─────────────────────────────────────────────────────────────
+# Mapa de categorias raw do TAGV → valor para normalize_category
+# ─────────────────────────────────────────────────────────────
+_TAGV_CATEGORY_MAP: dict[str, str] = {
+    "teatro":              "teatro",
+    "dança":               "dança",
+    "música":              "música",
+    "concerto":            "concerto",
+    "cinema":              "cinema",
+    "filme":               "cinema",
+    "documentário":        "documentário",
+    "exposição":           "exposição",
+    "performance":         "performance",
+    "workshop":            "workshop",
+    "oficina":             "workshop",
+    "conferência":         "conferência",
+    "conversa":            "conversa",
+    "debate":              "debate",
+    "leitura":             "leitura",
+    "poesia":              "poesia",
+    "festival":            "festival",
+    "infantil":            "infantil",
+    "família":             "família",
+    "residência":          "residência",
+}
+
+import re as _re
+
+def _infer_category_tagv(title: str, full_text: str) -> str:
+    """
+    Inferência de categoria para eventos TAGV sem categoria explícita,
+    a partir de padrões no título e texto da página.
+    """
+    t = (title + " " + full_text[:300]).lower()
+
+    if _re.search(r"\bfilm[e]?\b|cinema|doc\.coimbra|cineeco|labirinto de sombras|festival de cinema|sess[aã]o.*film|proje[cç][aã]o", t):
+        return "cinema"
+    if _re.search(r"\bconvert[ao]\b|conversa[s]?\b|ciclo de convers|convers.*basc[aã]o|di[aá]logo|debate|col[oó]quio|painel\b|confer[eê]ncia", t):
+        return "conversa"
+    if _re.search(r"\bpoesia\b|declam|spoken word|po[eé]tico|leituras? (queer|indisciplin|encen)", t):
+        return "poesia"
+    if _re.search(r"\bleitura[s]?\b|lançamento.*livro|apresenta[cç][aã]o.*livro|clube de leitura", t):
+        return "leitura"
+    if _re.search(r"\boficina\b|workshop\b|laborat[oó]rio\b|forma[cç][aã]o\b|resid[eê]ncia\b|bolsa\b|candidatura", t):
+        return "workshop"
+    if _re.search(r"\bconcerto\b|m[uú]sica\b|tun[ao]\b|orquestra\b|coro\b|banda\b|recital\b|jazz|fado|cantora?\b", t):
+        return "concerto"
+    if _re.search(r"\bfestival\b", t):
+        return "festival"
+    if _re.search(r"\bexpos[ií][cç][aã]o\b|instala[cç][aã]o\b|galeria\b", t):
+        return "exposição"
+    if _re.search(r"\binfantil\b|para\s+crian[cç]as?\b|espet[aá]culo\s+infantil|teatro\s+infantil|fam[íi]li[ao]\b|beb[eé]s?\b", t):
+        return "infantil"
+    if _re.search(r"\bdan[cç]a\b|bailado\b|coreografi", t):
+        return "dança"
+    if _re.search(r"\bteatr[ao]\b|pe[cç]a\b|encena[cç][aã]o\b|dramaturgi", t):
+        return "teatro"
+    if _re.search(r"\bperformance\b|acontecimento\b", t):
+        return "performance"
+    if _re.search(r"\bvisita[s]? guiada[s]?\b|percurso\b|caminhada\b", t):
+        return "visita guiada"
+    return "multidisciplinar"
+
 AGENDA    = f"{BASE}/agenda/"
 
 # Paralelismo: pedidos de detalhe em simultâneo
@@ -297,7 +361,7 @@ def _scrape_event(item: dict) -> dict | None:
         if t:
             cat_raw = t
             break
-    category = normalize_category(cat_raw) if cat_raw else "Outro"
+    category = normalize_category(cat_raw) if cat_raw else _infer_category_tagv(title, full_text)
 
     day       = item["day"]
     month_num = item["month_num"]

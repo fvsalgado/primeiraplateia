@@ -37,6 +37,34 @@ _AGENDA  = f"{_BASE}/programa/"
 _DETAIL_WORKERS = 5
 _DETAIL_SLEEP   = 0.1   # segundos por worker entre pedidos
 
+import re as _re_tc
+
+def _infer_category_circo(title: str, synopsis: str, tags: list) -> str:
+    """Inferência de categoria para eventos Theatro Circo sem categoria explícita."""
+    t = (title + " " + (synopsis or "")[:200] + " " + " ".join(tags or [])).lower()
+    if _re_tc.search(r"\bfilm[e]?\b|cinema\b|document[aá]rio\b|proje[cç][aã]o\b|blue moon\b|entroncamento\b|barqueiro\b|dj ahmet\b|maria vit[oó]ria\b", t):
+        return "cinema"
+    if _re_tc.search(r"\bconversa[s]?\b|di[aá]logo\b|col[oó]quio\b|confer[eê]ncia\b|debate\b|mesa.redonda\b|jantar.*conversa\b|conversa.jantar\b", t):
+        return "conversa"
+    if _re_tc.search(r"\boficina\b|workshop\b|forma[cç][aã]o\b|resid[eê]ncia\b|laborat[oó]rio\b", t):
+        return "workshop"
+    if _re_tc.search(r"\bconcerto\b|recital\b|m[uú]sica\b|tun[ao]\b|guitarra\b|flamenc\b|jazz\b|coro\b|cantora?\b", t):
+        return "concerto"
+    if _re_tc.search(r"\bfestival\b|anivers[aá]rio\b", t):
+        return "festival"
+    if _re_tc.search(r"\bvisita[s]? guiada[s]?\b|percurso\b|bastidores\b", t):
+        return "visita guiada"
+    if _re_tc.search(r"\binfantil\b|para\s+crian[cç]as?\b|espet[aá]culo\s+infantil|fam[ií]li[ao]\b", t):
+        return "infantil"
+    if _re_tc.search(r"\binstala[cç][aã]o\b|exposi[cç][aã]o\b", t):
+        return "exposição"
+    if _re_tc.search(r"\bperformance\b", t):
+        return "performance"
+    if _re_tc.search(r"\bdan[cç]a\b|coreografi", t):
+        return "dança"
+    return "multidisciplinar"
+
+
 _PT_MONTHS = {
     "janeiro": 1,  "fevereiro": 2,  "março": 3,   "marco": 3,
     "abril": 4,    "maio": 5,       "junho": 6,    "julho": 7,
@@ -247,7 +275,9 @@ def _scrape_event(item: dict) -> dict | None:
     raw_cat   = item.get("raw_category", "")
     page_tags = [a.get_text(strip=True) for a in soup.find_all("a", href=re.compile(r"/event_tag/"))]
     all_tags  = list({t for t in (item.get("tags", []) + page_tags) if t})
-    category  = normalize_category(raw_cat) if raw_cat else "Outro"
+    # Extrair sinopse cedo para usar na inferência de categoria
+    synopsis_early = _extract_synopsis(soup)
+    category  = normalize_category(raw_cat) if raw_cat else _infer_category_circo(title, synopsis_early, all_tags)
 
     dates_label = item.get("dates_label", "")
     date_start  = item.get("date_start", "")
@@ -342,7 +372,7 @@ def _scrape_event(item: dict) -> dict | None:
                 ticket_url = h if h.startswith("http") else urljoin(_BASE, h)
                 break
 
-    synopsis        = _extract_synopsis(soup)
+    synopsis        = synopsis_early
     technical_sheet = _parse_ficha(soup, full_text)
 
     accessibility = []

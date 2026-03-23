@@ -63,6 +63,38 @@ THEATER = {
 THEATER_NAME = THEATER["name"]
 SOURCE_SLUG  = THEATER["id"]
 BASE         = "https://teatrotrindade.inatel.pt"
+
+import re as _re_tr
+
+def _infer_category_trindade(raw_cat: str, title: str, subtitle: str) -> str:
+    """
+    Inferência de categoria para Trindade.
+    Tenta raw_cat primeiro; se vazio ou não reconhecido, infere por título/subtitle.
+    Evita passar o título completo ao normalize_category (produz 'Multidisciplinar').
+    """
+    if raw_cat:
+        from scrapers.schema import normalize_category as _nc
+        result = _nc(raw_cat)
+        if result != "Multidisciplinar":
+            return result
+
+    t = (title + " " + subtitle).lower()
+    if _re_tr.search(r"\bstand.up\b|stand up\b|com[eé]dia\b|humor\b|improviso\b", t):
+        return "stand-up"
+    if _re_tr.search(r"\bmusical\b|teatro musical\b", t):
+        return "teatro musical"
+    if _re_tr.search(r"\b[oó]pera\b|l[íi]rica\b|zarzuela\b", t):
+        return "ópera"
+    if _re_tr.search(r"\bconcerto\b|recital\b|m[uú]sica\b|jazz\b|fado\b", t):
+        return "concerto"
+    if _re_tr.search(r"\bdan[cç]a\b|coreografi\b|bailado\b", t):
+        return "dança"
+    if _re_tr.search(r"\bperformance\b", t):
+        return "performance"
+    if _re_tr.search(r"\binfantil\b|crian[cç]as?\b|fam[íi]lia\b", t):
+        return "infantil"
+    return "teatro"  # a Trindade é essencialmente um teatro
+
 AGENDA       = f"{BASE}/programacao/"
 
 # Headers de browser completos para contornar bloqueio do servidor
@@ -334,7 +366,7 @@ def _scrape_event(
                 if t:
                     raw_cat = t
                     break
-    category = normalize_category(raw_cat or title)
+    category = _infer_category_trindade(raw_cat, title, subtitle)
 
     # ── Datas — fonte primária: stub da listagem ──────────────
     dates_label, date_start, date_end = _parse_date_text(stub.get("dates_raw", ""))

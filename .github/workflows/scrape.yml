@@ -70,13 +70,17 @@ jobs:
           echo "=== events.json existe? ==="
           ls -lh events.json || echo "NAO EXISTE"
           echo "=== primeiras linhas ==="
-          head -5 events.json || true
+          head -8 events.json || true
           echo "=== total de eventos ==="
           python3 -c "
           import json
           d = json.load(open('events.json'))
           if isinstance(d, dict):
-              print(f'dict com {len(d.get(\"events\",[]))} eventos')
+              evs = d.get('events', [])
+              print(f'{len(evs)} eventos | schema v{d.get(\"schema_version\",\"?\")}')
+              free = sum(1 for e in evs if e.get('is_free') is True)
+              fam  = sum(1 for e in evs if e.get('for_families') is True)
+              print(f'Gratuitos: {free} | Para famílias: {fam}')
           elif isinstance(d, list):
               print(f'lista com {len(d)} eventos')
           "
@@ -86,18 +90,28 @@ jobs:
 
       - name: Debug — verificar data/
         run: |
-          echo "=== data/ existe? ==="
+          echo "=== data/ ==="
           ls -lh data/ || echo "NAO EXISTE"
           echo "=== data/meta.json ==="
           cat data/meta.json || echo "NAO EXISTE"
-          echo "=== data/by-theater/ ==="
-          ls data/by-theater/ || echo "VAZIO"
+          echo "=== data/health.json ==="
+          cat data/health.json || echo "NAO EXISTE"
 
       - name: Commitar events.json para main
         run: |
-          git add events.json validation_report.json
+          git add events.json validation_report.json scraper_run.log scraper_run.jsonl
           git diff --staged --quiet || git commit -m "data: $(date -u '+%Y-%m-%d %H:%M UTC') [skip ci]"
           git push || true
+
+      - name: Upload logs como artefact CI
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scraper-logs-${{ github.run_id }}
+          path: |
+            scraper_run.log
+            scraper_run.jsonl
+          retention-days: 30
 
       - name: Preparar pasta _site/ para deploy
         run: |
@@ -154,15 +168,24 @@ jobs:
           import json, os
           try:
               m = json.load(open('data/meta.json'))
+              h = json.load(open('data/health.json'))
               print('| Campo | Valor |')
               print('|---|---|')
-              print(f'| Teatros | {m.get(\"total_theaters\", \"?\")} |')
-              print(f'| Em cartaz | {m.get(\"total_events\", \"?\")} |')
-              print(f'| Em cena hoje | {m.get(\"events_today\", \"?\")} |')
+              print(f'| Schema | v{m.get(\"schema_version\", \"?\")} |')
+              print(f'| Espaços culturais | {m.get(\"total_theaters\", \"?\")} |')
+              print(f'| Em agenda | {m.get(\"total_events\", \"?\")} |')
+              print(f'| Hoje | {m.get(\"events_today\", \"?\")} |')
               print(f'| Este fim-de-semana | {m.get(\"events_this_weekend\", \"?\")} |')
-              cidades = m.get(\"cities\", [])
+              fc = m.get('filter_counts', {})
+              print(f'| Gratuitos | {fc.get(\"is_free\", 0)} |')
+              print(f'| Para famílias | {fc.get(\"for_families\", 0)} |')
+              print(f'| Festivais | {fc.get(\"is_festival\", 0)} |')
+              cidades = m.get('cities', [])
               print(f'| Cidades | {\" · \".join(cidades) if cidades else \"?\"} |')
-              anomalias = m.get(\"anomalias\", [])
+              print(f'| Estado | {h.get(\"status\", \"?\")} |')
+              print(f'| Scrapers OK | {h.get(\"scrapers_ok\", \"?\")} |')
+              print(f'| Scrapers stale | {h.get(\"scrapers_stale\", 0)} |')
+              anomalias = m.get('anomalies', [])
               print(f'| Anomalias | {len(anomalias)} |')
               if anomalias:
                   for a in anomalias:

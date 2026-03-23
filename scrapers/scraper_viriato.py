@@ -72,7 +72,62 @@ AGENDA       = f"{BASE}/pt/programacao"
 _DETAIL_WORKERS = 5
 _DETAIL_SLEEP   = 0.1   # segundos por worker entre pedidos
 
-_SKIP_CATEGORIES = {"cmv"}
+_SKIP_CATEGORIES = {"cmv", "cancelado"}
+
+# Mapa de categorias raw do Viriato → valor para normalize_category
+_VIRIATO_CATEGORY_MAP: dict[str, str] = {
+    "teatro":           "teatro",
+    "dança":            "dança",
+    "música":           "música",
+    "concerto":         "concerto",
+    "ópera":            "ópera",
+    "cinema":           "cinema",
+    "performance":      "performance",
+    "circo":            "circo",
+    "infantil":         "infantil",
+    "família":          "família",
+    "workshop":         "workshop",
+    "oficina":          "workshop",
+    "residência":       "residência",
+    "conversa":         "conversa",
+    "conferência":      "conferência",
+    "exposição":        "exposição",
+    "festival":         "festival",
+    "visita":           "visita guiada",
+}
+
+import re as _re_v
+
+def _infer_category_viriato(category_raw: str, title: str, subtitle: str, synopsis: str) -> str:
+    """Inferência de categoria para eventos Viriato sem categoria explícita."""
+    # Tentar primeiro o mapeamento directo
+    mapped = _VIRIATO_CATEGORY_MAP.get(category_raw.lower().strip())
+    if mapped:
+        return mapped
+
+    t = (title + " " + subtitle + " " + (synopsis or "")[:200]).lower()
+
+    if _re_v.search(r"\bresid[eê]ncia\b|laborat[oó]rio\b", t):
+        return "residência"
+    if _re_v.search(r"\boficina\b|workshop\b|forma[cç][aã]o\b|summer lab\b|candidatura", t):
+        return "workshop"
+    if _re_v.search(r"\bconversa[s]?\b|di[aá]logo\b|col[oó]quio\b|debate\b|confer[eê]ncia\b", t):
+        return "conversa"
+    if _re_v.search(r"\bvisita[s]? guiada[s]?\b|percurso\b", t):
+        return "visita guiada"
+    if _re_v.search(r"\bconcerto\b|m[uú]sica\b|recital\b|tun[ao]\b|coro\b|banda\b|cantora?\b", t):
+        return "concerto"
+    if _re_v.search(r"\bfilm[e]?\b|cinema\b|document[aá]rio\b|proje[cç][aã]o\b", t):
+        return "cinema"
+    if _re_v.search(r"\bfestival\b", t):
+        return "festival"
+    if _re_v.search(r"\binfantil\b|para\s+crian[cç]as?\b|espet[aá]culo\s+infantil|fam[ií]li[ao]\b", t):
+        return "infantil"
+    if _re_v.search(r"\bperformance\b|instala[cç][aã]o\b", t):
+        return "performance"
+    if _re_v.search(r"\bdan[cç]a\b|coreografi", t):
+        return "dança"
+    return category_raw  # deixar para o harmonizer decidir
 
 _PT_MONTHS = {
     "jan": 1, "fev": 2, "mar": 3, "abr": 4, "mai": 5, "jun": 6,
@@ -307,7 +362,13 @@ def _scrape_event(stub: dict) -> dict | None:
         log(f"[{THEATER_NAME}] '{title}' sem date_start — ignorado")
         return None
 
-    category = normalize_category(stub["category_raw"])
+    category_raw_norm = _infer_category_viriato(
+        stub["category_raw"],
+        stub.get("title", ""),
+        stub.get("subtitle", ""),
+        synopsis if synopsis else "",
+    )
+    category = normalize_category(category_raw_norm)
 
     schedule = stub["schedule"]
     if not schedule:

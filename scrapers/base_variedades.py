@@ -271,7 +271,7 @@ def _scrape_event(
             if el:
                 raw_category = el.get_text(strip=True)
                 break
-    category = normalize_category(raw_category) if raw_category else "Outro"
+    category = normalize_category(raw_category) if raw_category else "multidisciplinar"
 
     # ── Datas ─────────────────────────────────────────────────
     dates_label = seed.get("dates_label", "")

@@ -119,17 +119,30 @@ _PT_MONTHS = {
 _MONTHS_ABBR = ["", "Jan", "Fev", "Mar", "Abr", "Mai", "Jun",
                  "Jul", "Ago", "Set", "Out", "Nov", "Dez"]
 
-# Mapa nome-de-tipologia → string canónica (lida dos links ?typology= na página)
+# Mapa nome-de-tipologia → string para normalize_category() (v2.0)
 _TYPOLOGY_MAP = {
-    "teatro":                 "Teatro",
-    "dança":                  "Dança",
-    "performance":            "Performance",
-    "música":                 "Música",
-    "artes visuais":          "Artes Visuais",
-    "cinema":                 "Cinema",
-    "conferências e debates": "Conferências e Debates",
-    "conferências":           "Conferências e Debates",
-    "escolas":                "Infanto-Juvenil",
+    "teatro":                  "teatro",
+    "dança":                   "dança",
+    "performance":             "performance",
+    "música":                  "música",
+    "concerto":                "concerto",
+    "artes visuais":           "exposição",
+    "exposição":               "exposição",
+    "instalação":              "instalação",
+    "cinema":                  "cinema",
+    "filme":                   "cinema",
+    "conferências e debates":  "debate",
+    "conferências":            "conferência",
+    "debate":                  "debate",
+    "conversa":                "conversa",
+    "workshop":                "workshop",
+    "oficina":                 "workshop",
+    "formação":                "workshop",
+    "escolas":                 "infantil",
+    "infantil":                "infantil",
+    "família":                 "família",
+    "ópera":                   "ópera",
+    "circo":                   "circo",
 }
 
 # Campos reconhecidos na ficha técnica
@@ -334,7 +347,7 @@ def _scrape_event_page(url: str) -> dict | None:
             raw_category = txt
             break
     category = normalize_category(
-        _TYPOLOGY_MAP.get(raw_category.lower(), raw_category) or "Teatro"
+        _TYPOLOGY_MAP.get(raw_category.lower(), raw_category) or "multidisciplinar"
     )
 
     # ── Datas ─────────────────────────────────────────────────────────────────

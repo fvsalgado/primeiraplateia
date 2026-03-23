@@ -77,7 +77,7 @@ SOURCE_SLUG  = THEATER["id"]
 BASE         = "https://teatrodobairro.org"
 AGENDA       = BASE + "/"
 
-_REJECT_KEYWORDS = {"cinema", "dança", "danca", "música", "musica"}
+_REJECT_KEYWORDS = {"seminário académico", "congresso"}  # só rejeitar eventos claramente não-culturais
 
 # IDs de secções da homepage que não são espetáculos
 _NON_EVENT_IDS = {
@@ -209,10 +209,8 @@ def _parse_work_details(wd, slug: str) -> dict | None:
     cat_lower = category_raw.lower()
     if any(kw in cat_lower for kw in _REJECT_KEYWORDS):
         return None
-    if category_raw and "teatro" not in cat_lower:
-        return None
 
-    category = normalize_category(category_raw) if category_raw else "Teatro"
+    category = normalize_category(category_raw) if category_raw else "teatro"
 
     # ── Datas ─────────────────────────────────────────────────
     dates_label, date_start, date_end = _parse_dates(dates_raw)

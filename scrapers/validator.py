@@ -1,33 +1,37 @@
 """
-Validador de eventos Primeira Plateia.
-Corre após harmonização e antes de escrever o events.json.
-Produz um validation_report.json com estatísticas e erros.
+scrapers/validator.py
+Primeira Plateia — Validador de eventos. v2.0
 
-Mudanças face à versão anterior:
-- VALID_THEATERS substituída por leitura dinâmica de theaters.json via registry
-- Validação de 'image' actualizada para objecto {url, credit, source, theater}
-- Logging via logging.getLogger (sem configurar basicConfig aqui)
-- Campo 'source_url' agora obrigatório (rejeita se ausente)
-- Campos obrigatórios lidos de schema.REQUIRED_FIELDS
+Corre após harmonização e antes de escrever o events.json.
+Produz validation_report.json com estatísticas e erros.
+
+v2.0:
+- Validação de subcategory contra VALID_SUBCATEGORIES (aviso, não rejeição)
+- Validação de filtros booleanos (só true/false/None)
+- category obrigatória: Multidisciplinar como fallback (não rejeita)
+- age_min: verifica intervalo [0–21]
 """
 import re
 import logging
 from datetime import date, datetime
 from pathlib import Path
 
-from scrapers.schema import REQUIRED_FIELDS
+from scrapers.schema import (
+    REQUIRED_FIELDS,
+    VALID_CATEGORIES,
+    VALID_SUBCATEGORIES,
+    FILTER_FIELDS,
+)
 from scrapers.theater_registry import build_theater_registry
 
 logger = logging.getLogger(__name__)
 
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
-# Registry carregado uma vez — partilhado com o harmonizer via módulo
 _registry: dict[str, str] | None = None
 
 
 def _get_valid_theaters() -> set[str]:
-    """Devolve o conjunto de nomes canónicos a partir de theaters.json."""
     global _registry
     if _registry is None:
         _registry = build_theater_registry()
@@ -35,9 +39,7 @@ def _get_valid_theaters() -> set[str]:
 
 
 def validate(events: list[dict]) -> tuple[list[dict], dict]:
-    """
-    Recebe lista de eventos harmonizados, devolve (eventos_válidos, relatório).
-    """
+    """Recebe lista de eventos harmonizados, devolve (eventos_válidos, relatório)."""
     today = date.today().isoformat()
     valid_theaters = _get_valid_theaters()
 
@@ -74,20 +76,38 @@ def validate(events: list[dict]) -> tuple[list[dict], dict]:
             if de < ds:
                 warns.append(f"'date_end' ({de}) < 'date_start' ({ds}) — corrigido")
                 ev = dict(ev)
-                ev["date_end"] = ds  # correcção não-destrutiva (ev já é cópia do harmonizer)
+                ev["date_end"] = ds
 
-        # ── Teatro: verificar contra registry ─────────────────
+        # ── Espaço cultural: verificar contra registry ────────
         theater = ev.get("theater", "")
         if theater and theater not in valid_theaters:
-            # Aviso, não erro — o harmonizer já tentou normalizar
-            # Se chegou aqui não normalizado, é um teatro genuinamente novo
-            warns.append(f"teatro não reconhecido no registry: {theater!r}")
+            warns.append(f"espaço cultural não reconhecido no registry: {theater!r}")
+
+        # ── Categoria: verificar vocabulário controlado ───────
+        category = ev.get("category", "")
+        if category and category not in VALID_CATEGORIES:
+            warns.append(f"'category' não reconhecida: {category!r}")
+
+        # ── Subcategoria: verificar vocabulário controlado ────
+        subcategory = ev.get("subcategory")
+        if subcategory and subcategory not in VALID_SUBCATEGORIES:
+            warns.append(f"'subcategory' não reconhecida: {subcategory!r}")
+
+        # ── Filtros booleanos: verificar tipos ────────────────
+        for field in FILTER_FIELDS:
+            val = ev.get(field)
+            if val is not None and not isinstance(val, bool):
+                warns.append(f"'{field}' deve ser true/false/null, recebido: {val!r}")
+
+        # ── age_min: verificar intervalo ──────────────────────
+        age_min = ev.get("age_min")
+        if age_min is not None and (not isinstance(age_min, int) or age_min < 0 or age_min > 21):
+            warns.append(f"'age_min' fora do intervalo válido [0–21]: {age_min!r}")
 
         # ── Imagem: validar como objecto ──────────────────────
         image = ev.get("image")
         if image is not None:
             if isinstance(image, str):
-                # Scraper não foi ainda actualizado — aceitar mas avisar
                 if image and not image.startswith("http"):
                     warns.append("'image' (string) com URL inválida — ignorada")
                     ev = dict(ev)
@@ -113,22 +133,15 @@ def validate(events: list[dict]) -> tuple[list[dict], dict]:
         ev_title = ev.get("title", "?")
 
         if errors:
-            rejected.append({
-                "id":     ev_id,
-                "title":  ev_title,
-                "errors": errors,
-            })
+            rejected.append({"id": ev_id, "title": ev_title, "errors": errors})
         else:
             accepted.append(ev)
             if warns:
-                warnings.append({
-                    "id":       ev_id,
-                    "title":    ev_title,
-                    "warnings": warns,
-                })
+                warnings.append({"id": ev_id, "title": ev_title, "warnings": warns})
 
     report = {
         "generated_at":   datetime.utcnow().isoformat() + "Z",
+        "schema_version": "2.0",
         "total_raw":      len(events),
         "total_accepted": len(accepted),
         "total_rejected": len(rejected),
@@ -139,8 +152,7 @@ def validate(events: list[dict]) -> tuple[list[dict], dict]:
 
     logger.info(
         f"validação: {len(accepted)} aceites | "
-        f"{len(rejected)} rejeitados | "
-        f"{len(warnings)} com avisos"
+        f"{len(rejected)} rejeitados | {len(warnings)} com avisos"
     )
     for r in rejected:
         logger.warning(f"  REJEITADO {r['id']!r}: {r['errors']}")

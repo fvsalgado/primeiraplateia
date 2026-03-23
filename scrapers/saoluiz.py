@@ -17,6 +17,62 @@ BASE       = "https://www.teatrosaoluiz.pt"
 AGENDA     = f"{BASE}/programacao/"
 IMG_DOMAIN = "www.teatrosaoluiz.pt"
 
+import re as _re_sl
+
+# Mapa de categorias raw do São Luiz → valor para normalize_category
+_SL_CAT_MAP: dict[str, str] = {
+    "teatro": "teatro",
+    "dança": "dança",
+    "música": "música",
+    "concerto": "concerto",
+    "ópera": "ópera",
+    "circo": "circo",
+    "performance": "performance",
+    "infantil": "infantil",
+    "família": "família",
+    "para famílias": "família",
+    "conversa": "conversa",
+    "debate": "debate",
+    "leitura": "leitura",
+    "poesia": "poesia",
+    "exposição": "exposição",
+    "workshop": "workshop",
+    "festival": "festival",
+    "cinema": "cinema",
+    "visita": "visita guiada",
+}
+
+def _infer_sl_category(category_raw: str, title: str, synopsis: str) -> str:
+    """Inferência de categoria para São Luiz quando category_raw está vazio."""
+    if category_raw:
+        mapped = _SL_CAT_MAP.get(category_raw.strip().lower())
+        if mapped:
+            return mapped
+
+    t = (title + " " + (synopsis or "")[:150]).lower()
+    if _re_sl.search(r"\bconversa[s]?\b|ciclo de convers|di[aá]logo\b|col[oó]quio\b|debate\b|confer[eê]ncia\b", t):
+        return "conversa"
+    if _re_sl.search(r"\bleitura[s]?\b|lançamento.*livro\b|apresenta[cç][aã]o.*livro\b|clube de leitura\b", t):
+        return "leitura"
+    if _re_sl.search(r"\bpoesia\b|spoken word\b", t):
+        return "poesia"
+    if _re_sl.search(r"\bvisita[s]? guiada[s]?\b|percurso\b|bastidores\b", t):
+        return "visita guiada"
+    if _re_sl.search(r"\bconcerto\b|m[uú]sica\b|recital\b|cantora?\b", t):
+        return "concerto"
+    if _re_sl.search(r"\bfilm[e]?\b|cinema\b|proje[cç][aã]o\b", t):
+        return "cinema"
+    if _re_sl.search(r"\bdan[cç]a\b|coreografi\b", t):
+        return "dança"
+    if _re_sl.search(r"\bperformance\b", t):
+        return "performance"
+    if _re_sl.search(r"\binfantil\b|crian[cç]as?\b|fam[íi]li[ao]\b", t):
+        return "infantil"
+    if _re_sl.search(r"\bfestival\b", t):
+        return "festival"
+    return category_raw or "teatro"
+
+
 # SVG oficial do São Luiz (fundo preto, letras brancas).
 # Guardado inline para não depender de URLs externas que podem mudar.
 _LOGO_SVG = (
@@ -193,7 +249,12 @@ def _scrape_event(url: str, card_data: dict) -> dict | None:
             )
             if m:
                 category_raw = m.group(1).lower()
-    category = normalize_category(category_raw) if category_raw else "Outro"
+    # Usar título do card para inferência quando category_raw não mapeia
+    _title_for_cat = card_data.get("title", "")
+    _text_for_cat = soup.get_text(" ", strip=True)[:200]
+    category = normalize_category(
+        _infer_sl_category(category_raw, _title_for_cat, _text_for_cat)
+    )
 
     # ── Campos estruturados (spans.subtitle na página) ──────
     fields      = _parse_subtitle_fields(soup)

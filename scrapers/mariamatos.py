@@ -232,7 +232,7 @@ def _scrape_event(url: str, raw_cat_listing: str) -> dict | None:
     # Preferir categoria da página individual sobre a da listagem
     cat_links_page = soup.find_all("a", href=re.compile(r"/tipo/(?!arquivo)"))
     raw_cat_page = ", ".join(a.get_text(strip=True) for a in cat_links_page) if cat_links_page else ""
-    raw_cat = raw_cat_page or raw_cat_listing or "Teatro"
+    raw_cat = raw_cat_page or raw_cat_listing or "multidisciplinar"
     # normalize_category espera uma string simples; passar a primeira categoria
     first_cat = re.split(r"[,/]", raw_cat)[0].strip()
     category = normalize_category(first_cat)

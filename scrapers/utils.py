@@ -225,6 +225,26 @@ def can_scrape(base_url: str, path: str = "/") -> bool:
 
 
 # ─────────────────────────────────────────────────────────────
+# CONSTANTES DE VALIDAÇÃO
+# ─────────────────────────────────────────────────────────────
+
+# Intervalo válido de age_min — valores fora são lixo de parsing
+AGE_MIN_MAX = (0, 21)
+
+
+def sanitize_age_min(val: int | None) -> int | None:
+    """
+    Verifica se age_min está no intervalo válido [0–21].
+    Devolve None se o valor for impossível (ex: 351, 1770, 120).
+    """
+    if val is None:
+        return None
+    if AGE_MIN_MAX[0] <= val <= AGE_MIN_MAX[1]:
+        return val
+    return None
+
+
+# ─────────────────────────────────────────────────────────────
 # SESSÕES — construção de sessions[] (Nível 2, Architecture §6)
 # ─────────────────────────────────────────────────────────────
 

@@ -17,7 +17,37 @@ from bs4 import BeautifulSoup
 from scrapers.utils import make_id, log, HEADERS, can_scrape, truncate_synopsis, build_image_object, build_sessions
 
 BASE   = "https://www.ccb.pt"
-AGENDA = f"{BASE}/eventos/category/teatro/"
+AGENDA = f"{BASE}/eventos/"   # agenda completa, não só /category/teatro/
+
+import re as _re_ccb
+
+def _infer_category_ccb(title: str, synopsis: str, ficha_text: str) -> str:
+    """Inferência de categoria CCB a partir de título, sinopse e ficha técnica."""
+    t = (title + " " + (synopsis or "")[:200] + " " + (ficha_text or "")[:200]).lower()
+    if _re_ccb.search(r"\bconcerto\b|orquestra\b|sinfon\b|jazz\b|recital\b|m[uú]sica\b|quarteto\b|quinteto\b|fado\b|coral\b|c[aâ]mara\b", t):
+        return "concerto"
+    if _re_ccb.search(r"\bdan[cç]a\b|coreograf\b|bailado\b|ballet\b", t):
+        return "dança"
+    if _re_ccb.search(r"\b[oó]pera\b|l[íi]rica\b", t):
+        return "ópera"
+    if _re_ccb.search(r"\bcirco\b|acrobac\b|artes circenses\b", t):
+        return "circo"
+    if _re_ccb.search(r"\bperformance\b|instala[cç][aã]o performativa\b", t):
+        return "performance"
+    if _re_ccb.search(r"\bfilm[e]?\b|cinema\b|document[aá]rio\b|proje[cç][aã]o\b", t):
+        return "cinema"
+    if _re_ccb.search(r"\bexposi[cç][aã]o\b|vernissage\b", t):
+        return "exposição"
+    if _re_ccb.search(r"\boficina\b|workshop\b|forma[cç][aã]o\b", t):
+        return "workshop"
+    if _re_ccb.search(r"\bconversa[s]?\b|debate\b|confer[eê]ncia\b|col[oó]quio\b", t):
+        return "conversa"
+    if _re_ccb.search(r"\binfantil\b|para\s+crian[cç]as?\b|espet[aá]culo\s+infantil|fam[ií]li[ao]\b|beb[eé]s?\b", t):
+        return "infantil"
+    if _re_ccb.search(r"\bfestival\b", t):
+        return "festival"
+    return "teatro"
+
 
 THEATER = {
     "id":          "ccb",
@@ -27,7 +57,7 @@ THEATER = {
     "city":        "Lisboa",
     "address":     "Praça do Império, 1449-003 Lisboa",
     "site":        "https://www.ccb.pt",
-    "programacao": "https://www.ccb.pt/eventos/category/teatro/",
+    "programacao": "https://www.ccb.pt/eventos/",
     "lat":         38.6974,
     "lng":         -9.2059,
     "salas":       ["Grande Auditório", "Pequeno Auditório", "Black Box"],
@@ -243,7 +273,7 @@ def _scrape_event(url: str) -> dict | None:
         "title":           title,
         "subtitle":        subtitle,
         "theater":         THEATER_NAME,
-        "category":        "Teatro",
+        "category":        _infer_category_ccb(title, synopsis, ficha_block),
         "dates_label":     dates_label,
         "date_start":      date_start,
         "date_end":        date_end,
