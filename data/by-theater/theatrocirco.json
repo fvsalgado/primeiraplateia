@@ -41,7 +41,7 @@
     "schema_version": "2.0",
     "is_free": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -93,62 +93,12 @@
     "is_free": true,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
     "_meta": {
       "completeness": 0.586
-    }
-  },
-  {
-    "id": "theatrocirco-la-guitarra-flamenca-de-yerai-cort-s",
-    "title": "La guitarra flamenca de Yerai Cortés",
-    "theater": "Theatro Circo",
-    "source_url": "https://theatrocirco.com/event/la-guitarra-flamenca-de-yerai-cortes/",
-    "date_start": "2026-03-24",
-    "category": "Cinema & Audiovisual",
-    "dates_label": "24 Março",
-    "sessions": [
-      {
-        "date": "2026-03-24",
-        "time": "21:30",
-        "weekday": "Ter"
-      }
-    ],
-    "image": {
-      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/FOTOGRAMA_4_0000000020281292.jpg",
-      "credit": null,
-      "source": "https://theatrocirco.com/event/la-guitarra-flamenca-de-yerai-cortes/",
-      "theater": "Theatro Circo"
-    },
-    "synopsis": "Depois de receber o concerto de Yerai Cortés, exibimos o documentárioLa guitarra flamenca de Yerai Cortés(2024), a aclamada estreia na realização de Antón Álvarez, mais conhecido como C. Tangana.…",
-    "ticket_url": "https://theatrocirco.bol.pt/Comprar/Bilhetes/175360-la_guitarra_flamenca_de_yerai_cortes-theatro_circo/",
-    "price_info": "4€",
-    "technical_sheet": {
-      "música": "como meio para confrontar um segredo familiar e explorar temas de identidade, amor e perdão. Considerado um dos documentários"
-    },
-    "tags": [],
-    "accessibility": [],
-    "subtitle": "Antón Álvarez",
-    "schedule": "21h30",
-    "sala": "Pequeno Auditório",
-    "duration": "95 min.",
-    "duration_min": 95,
-    "age_rating": "M/6",
-    "age_min": 6,
-    "price_min": 4.0,
-    "price_max": 4.0,
-    "schema_version": "2.0",
-    "is_free": null,
-    "for_families": true,
-    "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
-    "theater_id": "theatrocirco",
-    "city": "Braga",
-    "venue_type": "",
-    "_meta": {
-      "completeness": 0.648
     }
   },
   {
@@ -187,7 +137,7 @@
     "schema_version": "2.0",
     "is_free": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -230,8 +180,8 @@
       "produção": "Leonardo Garibaldi, Joana Silva"
     },
     "tags": [
-      "Dia Mundial do Teatro",
-      "Acessibilidade"
+      "Acessibilidade",
+      "Dia Mundial do Teatro"
     ],
     "accessibility": [
       "LGP",
@@ -250,12 +200,55 @@
     "subcategory": "Performance",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
     "_meta": {
       "completeness": 0.804
+    }
+  },
+  {
+    "id": "theatrocirco-visita-guiada-ao-theatro-circo",
+    "title": "Visita Guiada ao Theatro Circo",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/visita-guiada-ao-theatro-circo-mar2026/",
+    "date_start": "2026-03-28",
+    "category": "Multidisciplinar",
+    "dates_label": "28 Março",
+    "sessions": [
+      {
+        "date": "2026-03-28",
+        "time": "",
+        "weekday": "Sáb"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/250828_theatro_circo_visita_guiada_lgp-25-scaled.jpg",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/visita-guiada-ao-theatro-circo-mar2026/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Com mais de um século de história, o Theatro Circo é um dos teatros mais emblemáticos e majestosos de Portugal. Nesta visita guiada, revelam-se os bastidores e as histórias que deram forma a este espaço, oferecendo uma perspetiva única sobre o seu valor patrimonial e simbólico.…",
+    "ticket_url": "",
+    "price_info": "3,5€",
+    "technical_sheet": {},
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "Visita Guiada ao Theatro Circo (28/03/2026)",
+    "duration": "45 min.",
+    "duration_min": 45,
+    "price_min": 3.5,
+    "price_max": 3.5,
+    "schema_version": "2.0",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.52
     }
   },
   {
@@ -296,55 +289,12 @@
     "is_free": true,
     "for_schools": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
     "_meta": {
       "completeness": 0.562
-    }
-  },
-  {
-    "id": "theatrocirco-visita-guiada-ao-theatro-circo",
-    "title": "Visita Guiada ao Theatro Circo",
-    "theater": "Theatro Circo",
-    "source_url": "https://theatrocirco.com/event/visita-guiada-ao-theatro-circo-mar2026/",
-    "date_start": "2026-03-28",
-    "category": "Multidisciplinar",
-    "dates_label": "28 Março",
-    "sessions": [
-      {
-        "date": "2026-03-28",
-        "time": "",
-        "weekday": "Sáb"
-      }
-    ],
-    "image": {
-      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/250828_theatro_circo_visita_guiada_lgp-25-scaled.jpg",
-      "credit": null,
-      "source": "https://theatrocirco.com/event/visita-guiada-ao-theatro-circo-mar2026/",
-      "theater": "Theatro Circo"
-    },
-    "synopsis": "Com mais de um século de história, o Theatro Circo é um dos teatros mais emblemáticos e majestosos de Portugal. Nesta visita guiada, revelam-se os bastidores e as histórias que deram forma a este espaço, oferecendo uma perspetiva única sobre o seu valor patrimonial e simbólico.…",
-    "ticket_url": "",
-    "price_info": "3,5€",
-    "technical_sheet": {},
-    "tags": [],
-    "accessibility": [],
-    "subtitle": "Visita Guiada ao Theatro Circo (28/03/2026)",
-    "duration": "45 min.",
-    "duration_min": 45,
-    "price_min": 3.5,
-    "price_max": 3.5,
-    "schema_version": "2.0",
-    "is_free": null,
-    "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
-    "theater_id": "theatrocirco",
-    "city": "Braga",
-    "venue_type": "",
-    "_meta": {
-      "completeness": 0.52
     }
   },
   {
@@ -387,7 +337,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -434,7 +384,7 @@
     "schema_version": "2.0",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -443,43 +393,48 @@
     }
   },
   {
-    "id": "theatrocirco-romeu-julieta",
-    "title": "Romeu & Julieta",
+    "id": "theatrocirco-porta-do-c-u",
+    "title": "Porta do Céu",
     "theater": "Theatro Circo",
-    "source_url": "https://theatrocirco.com/event/romeu-julieta-mar-2/",
+    "source_url": "https://theatrocirco.com/event/porta-do-ceu-2026/",
     "date_start": "2026-03-31",
     "category": "Artes Performativas",
-    "dates_label": "31 Março",
+    "dates_label": "31 Março a 2 Abril",
     "sessions": [
       {
         "date": "2026-03-31",
         "time": "21:30",
         "weekday": "Ter"
+      },
+      {
+        "date": "2026-04-01",
+        "time": "21:30",
+        "weekday": "Qua"
+      },
+      {
+        "date": "2026-04-02",
+        "time": "21:30",
+        "weekday": "Qui"
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/ROMEU-E-JULIETA-2-1-scaled.jpg",
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/03/we-braga-teatro-porta-ceu.webp",
       "credit": null,
-      "source": "https://theatrocirco.com/event/romeu-julieta-mar-2/",
+      "source": "https://theatrocirco.com/event/porta-do-ceu-2026/",
       "theater": "Theatro Circo"
     },
-    "synopsis": "de Alexej Schipenko, a partir de William Shakespeare Este é um espetáculo sobre seis dias de amor absoluto. São precisamente seis dias que dura a história de Romeu e Julieta, e o próprio tempo torna-se a personagem principal desta peça.…",
-    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/166602-companhia_de_teatro_de_braga_romeu_e_julieta-theatro_circo/Sessoes",
+    "synopsis": "Texto dedicado à vida e obra do grande escritor humanista georgiano Nodar Dumbadze. O jogo de marioneta torna o espectáculo particularmente emotivo. A linha autobiográfica transmite uma sensação de magia, de realidade.…",
+    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/175455-companhia_de_teatro_de_braga_porta_do_ceu-theatro_circo/",
     "price_info": "10€",
     "technical_sheet": {
-      "encenação": "e",
-      "dramaturgia": "Alexej Schipenko A partir da obra de William Shakespeare",
-      "cenografia": "e",
-      "figurinos": "Lesja Chernish Vídeo e som Sepehr Mousavi",
-      "luz": "Alexej Schipenko e Sérgio Lajas Construção de cenário e montagem Fernando Gomes Assistente de",
-      "criação": "de conteúdo Leonor Pereira Elenco André Laires, Carlos Feio, Dinis Lapyuk, Eduarda Filipa, Jaime Monsanto, Rogério Boane, Rui Madeira, Sílvia Brito e Solange Sá",
-      "produção": "Paula Fonseca"
+      "texto": "dedicado à vida e obra do grande escritor humanista georgiano Nodar Dumbadze. O jogo de marioneta torna o espectáculo particularmente emotivo. A linha autobiográfica transmite uma sensação de magia, d"
     },
     "tags": [],
     "accessibility": [],
-    "subtitle": "de Alexej Schipenko, a partir de William Shakespeare",
+    "subtitle": "Companhia de Teatro de Braga",
+    "date_end": "2026-04-02",
     "schedule": "21h30",
-    "sala": "Sala Principal",
+    "sala": "Pequeno Auditório",
     "age_rating": "M/12",
     "age_min": 12,
     "price_min": 10.0,
@@ -488,12 +443,12 @@
     "subcategory": "Performance",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
     "_meta": {
-      "completeness": 0.736
+      "completeness": 0.628
     }
   },
   {
@@ -542,7 +497,7 @@
     "subcategory": "Performance",
     "is_free": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -595,7 +550,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -641,7 +596,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -684,7 +639,7 @@
     "schema_version": "2.0",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -765,7 +720,7 @@
     "schema_version": "2.0",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -795,7 +750,7 @@
       "theater": "Theatro Circo"
     },
     "synopsis": "Um espetáculo criado a partir de uma tradição ancestral pagã da memória coletiva romena e moldava — a cabra do Ano Novo — um ritual de renovação. Uma CAPRA que procura espelhar as nossas entranhas — aquelas que, de tão desconhecidas, nos metem medo.…",
-    "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/166107-supracasa_capra_or_how_to_say_hello_to_fear_roxana_ionesco-theatro_circo/Sessoes",
+    "ticket_url": "",
     "price_info": "9€",
     "technical_sheet": {
       "encenação": "Roxana Ionesco",
@@ -821,12 +776,12 @@
     "subcategory": "Performance",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
     "_meta": {
-      "completeness": 0.736
+      "completeness": 0.686
     }
   },
   {
@@ -855,8 +810,8 @@
     "price_info": "",
     "technical_sheet": {},
     "tags": [
-      "Infantojuvenil",
-      "Aniversário"
+      "Aniversário",
+      "Infantojuvenil"
     ],
     "accessibility": [],
     "subtitle": "Livraria Aqui há Gato",
@@ -867,7 +822,7 @@
     "subcategory": "Performance",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -917,7 +872,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -968,7 +923,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -1014,7 +969,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -1065,7 +1020,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -1115,7 +1070,7 @@
     "schema_version": "2.0",
     "is_free": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -1176,7 +1131,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -1224,7 +1179,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -1280,7 +1235,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -1334,7 +1289,7 @@
     "subcategory": "Performance",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -1424,7 +1379,7 @@
     "schema_version": "2.0",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -1515,7 +1470,7 @@
     "schema_version": "2.0",
     "is_free": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -1608,7 +1563,7 @@
     "schema_version": "2.0",
     "is_free": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -1657,7 +1612,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -1704,7 +1659,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -1751,7 +1706,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -1816,7 +1771,7 @@
     "subcategory": "Performance",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -1873,7 +1828,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -1924,7 +1879,7 @@
     "subcategory": "Performance",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -1977,7 +1932,7 @@
     "is_festival": true,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2034,7 +1989,7 @@
     "subcategory": "Performance",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2076,7 +2031,7 @@
     "schema_version": "2.0",
     "is_free": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2125,7 +2080,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2170,7 +2125,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2213,7 +2168,7 @@
     "ticket_url": "",
     "price_info": "Gratuito",
     "technical_sheet": {
-      "música": "Teatro ORU KAMI GariBambi 10h30 e 11h30 (sessões exclusivas para escolas) Salão Nobre Gratuito mediante inscrição para participacao@theatrocirco.com Até aos 3 Infantojuvenil 1/2 1/2 2/2 ORU KAMI par",
+      "música": "Teatro ORU KAMI GariBambi 10h30 e 11h30 (sessões exclusivas para escolas) Salão Nobre Gratuito mediante inscrição para participacao@theatrocirco.com Até aos 5 anos Infantojuvenil 1/2 1/2 2/2 ORU KAM",
       "interpretação": "Aurora Miranda e Joana Mafalda Araújo",
       "cenografia": "Joana Mafalda Araújo e Maria Silva",
       "figurinos": "Ana Peixoto",
@@ -2232,7 +2187,7 @@
     "schema_version": "2.0",
     "is_free": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2276,7 +2231,7 @@
     "schema_version": "2.0",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2326,7 +2281,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2365,8 +2320,8 @@
     "price_info": "2,5€",
     "technical_sheet": {},
     "tags": [
-      "Infantojuvenil",
-      "Crianças ao Poder"
+      "Crianças ao Poder",
+      "Infantojuvenil"
     ],
     "accessibility": [],
     "subtitle": "Djam Neguin",
@@ -2384,7 +2339,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2417,7 +2372,7 @@
     "ticket_url": "",
     "price_info": "3€",
     "technical_sheet": {
-      "música": "Teatro Crianças ao Poder: ORU KAMI GariBambi 10h30 e 11h30 Salão Nobre 3€ criança e 4€ adulto (Bilhetes disponíveis brevemente) Até aos 3 Crianças ao Poder Infantojuvenil 1/2 1/2 2/2 ORU KAMI parte",
+      "música": "Teatro Crianças ao Poder: ORU KAMI GariBambi 10h30 e 11h30 Salão Nobre 3€ criança e 4€ adulto (Bilhetes disponíveis brevemente) Até aos 5 anos Crianças ao Poder Infantojuvenil 1/2 1/2 2/2 ORU KAMI p",
       "interpretação": "Aurora Miranda e Joana Mafalda Araújo",
       "cenografia": "Joana Mafalda Araújo e Maria Silva",
       "figurinos": "Ana Peixoto",
@@ -2425,8 +2380,8 @@
       "direção": "-Geral das Artes / Rede Portuguesa de Teatros e Cineteatros Portugueses (RTCP) TheatroCirco Reservas Reservas Programação Sobre Informações Acessibilidade En Inscreva-se aqui na nossa Newsletter para"
     },
     "tags": [
-      "Infantojuvenil",
-      "Crianças ao Poder"
+      "Crianças ao Poder",
+      "Infantojuvenil"
     ],
     "accessibility": [],
     "subtitle": "GariBambi",
@@ -2438,7 +2393,7 @@
     "schema_version": "2.0",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2474,8 +2429,8 @@
       "direção": "-Geral das Artes / Rede Portuguesa de Teatros e Cineteatros Portugueses (RTCP) TheatroCirco Reservas Reservas Programação Sobre Informações Acessibilidade En Inscreva-se aqui na nossa Newsletter para"
     },
     "tags": [
-      "Infantojuvenil",
-      "Crianças ao Poder"
+      "Crianças ao Poder",
+      "Infantojuvenil"
     ],
     "accessibility": [],
     "subtitle": "Djam Neguin",
@@ -2489,7 +2444,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2527,8 +2482,8 @@
       "direção": "-Geral das Artes / Rede Portuguesa de Teatros e Cineteatros Portugueses (RTCP) TheatroCirco Bilhetes Reservas Bilhetes Reservas Programação Sobre Informações Acessibilidade En Inscreva-se aqui na noss"
     },
     "tags": [
-      "Infantojuvenil",
-      "Crianças ao Poder"
+      "Crianças ao Poder",
+      "Infantojuvenil"
     ],
     "accessibility": [],
     "subtitle": "Curtas-metragens de Charley Bowers",
@@ -2541,7 +2496,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2590,7 +2545,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2653,7 +2608,7 @@
     "subcategory": "Performance",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2702,7 +2657,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2746,7 +2701,7 @@
     "schema_version": "2.0",
     "is_free": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2796,7 +2751,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2847,7 +2802,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2924,7 +2879,7 @@
     "subcategory": "Performance",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2981,12 +2936,70 @@
     "subcategory": "Performance",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
     "_meta": {
       "completeness": 0.632
+    }
+  },
+  {
+    "id": "theatrocirco-romeu-julieta",
+    "title": "Romeu & Julieta",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/romeuejulieta-jul2026/",
+    "date_start": "2026-07-30",
+    "category": "Artes Performativas",
+    "dates_label": "30 e 31 Julho",
+    "sessions": [
+      {
+        "date": "2026-07-30",
+        "time": "21:30",
+        "weekday": "Qui"
+      },
+      {
+        "date": "2026-07-31",
+        "time": "21:30",
+        "weekday": "Sex"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/ROMEU-E-JULIETA-2-1-scaled.jpg",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/romeuejulieta-jul2026/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "de Alexej Schipenko, a partir de William Shakespeare Este é um espetáculo sobre seis dias de amor absoluto. São precisamente seis dias que dura a história de Romeu e Julieta, e o próprio tempo torna-se a personagem principal desta peça.…",
+    "ticket_url": "https://theatrocirco.bol.pt/Comprar/Bilhetes/166602-companhia_de_teatro_de_braga_romeu_e_julieta-theatro_circo/Sessoes",
+    "price_info": "10€",
+    "technical_sheet": {
+      "encenação": "e",
+      "dramaturgia": "Alexej Schipenko A partir da obra de William Shakespeare",
+      "cenografia": "e",
+      "figurinos": "Lesja Chernish",
+      "interpretação": "André Laires, Carlos Feio, Dinis Lapyuk, Eduarda Filipa, Jaime Monsanto, Rogério Boane, Rui Madeira, Sílvia Brito e Solange Sá TheatroCirco Bilhetes Bilhetes Programação Sobre Informações Acessibilida"
+    },
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "de Alexej Schipenko, a partir de William Shakespeare",
+    "date_end": "2026-07-31",
+    "schedule": "21h30",
+    "sala": "Sala Principal",
+    "age_rating": "M/16",
+    "age_min": 16,
+    "price_min": 10.0,
+    "price_max": 10.0,
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.7
     }
   },
   {
@@ -3032,7 +3045,7 @@
     "schema_version": "2.0",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -3079,7 +3092,7 @@
     "schema_version": "2.0",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -3126,7 +3139,7 @@
     "schema_version": "2.0",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -3173,7 +3186,7 @@
     "schema_version": "2.0",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -3221,7 +3234,7 @@
     "schema_version": "2.0",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -3268,7 +3281,7 @@
     "schema_version": "2.0",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -3277,48 +3290,53 @@
     }
   },
   {
-    "id": "theatrocirco-maria-vit-ria",
-    "title": "Maria Vitória",
+    "id": "theatrocirco-la-guitarra-flamenca-de-yerai-cort-s",
+    "title": "La guitarra flamenca de Yerai Cortés",
     "theater": "Theatro Circo",
-    "source_url": "https://theatrocirco.com/event/maria-vitoria/",
-    "date_start": "2027-03-23",
+    "source_url": "https://theatrocirco.com/event/la-guitarra-flamenca-de-yerai-cortes/",
+    "date_start": "2027-03-24",
     "category": "Cinema & Audiovisual",
-    "dates_label": "23 Março",
+    "dates_label": "24 Março",
     "sessions": [
       {
-        "date": "2027-03-23",
+        "date": "2027-03-24",
         "time": "21:30",
-        "weekday": "Ter"
+        "weekday": "Qua"
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/uploads/2026/02/MariaVitoria_03_2025-09-17-152548_kfvi-scaled.jpg",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/FOTOGRAMA_4_0000000020281292.jpg",
       "credit": null,
-      "source": "https://theatrocirco.com/event/maria-vitoria/",
+      "source": "https://theatrocirco.com/event/la-guitarra-flamenca-de-yerai-cortes/",
       "theater": "Theatro Circo"
     },
-    "synopsis": "Maria Vitóriade Mário Patrocínio2025 | Portugal | Drama | 1h53 Maria Vitória vive numa aldeia remota nas montanhas portuguesas e joga futebol na equipa juvenil masculina local. Determinada a tornar-se profissional, dedica todo o seu tempo livre a treinos intensos com o pai, Nacho.…",
-    "ticket_url": "https://theatrocirco.bol.pt/Comprar/Bilhetes/172894-cinema_maria_vitoria-theatro_circo/Sessoes",
+    "synopsis": "Depois de receber o concerto de Yerai Cortés, exibimos o documentárioLa guitarra flamenca de Yerai Cortés(2024), a aclamada estreia na realização de Antón Álvarez, mais conhecido como C. Tangana.…",
+    "ticket_url": "https://theatrocirco.bol.pt/Comprar/Bilhetes/175360-la_guitarra_flamenca_de_yerai_cortes-theatro_circo/",
     "price_info": "4€",
-    "technical_sheet": {},
+    "technical_sheet": {
+      "música": "como meio para confrontar um segredo familiar e explorar temas de identidade, amor e perdão. Considerado um dos documentários"
+    },
     "tags": [],
     "accessibility": [],
-    "subtitle": "Mário Patrocínio",
+    "subtitle": "Antón Álvarez",
     "schedule": "21h30",
     "sala": "Pequeno Auditório",
-    "age_rating": "M/14",
-    "age_min": 14,
+    "duration": "95 min.",
+    "duration_min": 95,
+    "age_rating": "M/6",
+    "age_min": 6,
     "price_min": 4.0,
     "price_max": 4.0,
     "schema_version": "2.0",
     "is_free": null,
+    "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-24T10:18:08.433663+00:00",
+    "scraped_at": "2026-03-25T10:17:32.995108+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
     "_meta": {
-      "completeness": 0.57
+      "completeness": 0.648
     }
   }
 ]

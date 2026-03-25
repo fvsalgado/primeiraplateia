@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-24T10:18:14.377573+00:00",
-  "total_events": 279,
+  "generated_at": "2026-03-25T10:17:39.909091+00:00",
+  "total_events": 283,
   "tracked_fields": [
     "synopsis",
     "image",
@@ -13,21 +13,21 @@
   ],
   "theaters": {
     "CCB — Centro Cultural de Belém": {
-      "total_events": 86,
-      "status": "ok",
-      "completeness_avg": 0.554,
+      "total_events": 85,
+      "status": "stale",
+      "completeness_avg": 0.555,
       "field_coverage": {
         "synopsis": {
-          "count": 86,
+          "count": 85,
           "pct": 100
         },
         "image": {
-          "count": 86,
+          "count": 85,
           "pct": 100
         },
         "price_info": {
           "count": 37,
-          "pct": 43
+          "pct": 44
         },
         "ticket_url": {
           "count": 25,
@@ -38,15 +38,15 @@
           "pct": 0
         },
         "age_rating": {
-          "count": 49,
-          "pct": 57
+          "count": 48,
+          "pct": 56
         },
         "subcategory": {
-          "count": 84,
+          "count": 83,
           "pct": 98
         },
         "sessions": {
-          "count": 86,
+          "count": 85,
           "pct": 100
         }
       }
@@ -130,79 +130,79 @@
       }
     },
     "São Luiz Teatro Municipal": {
-      "total_events": 34,
+      "total_events": 33,
       "status": "ok",
-      "completeness_avg": 0.674,
+      "completeness_avg": 0.677,
       "field_coverage": {
         "synopsis": {
-          "count": 34,
+          "count": 33,
           "pct": 100
         },
         "image": {
-          "count": 34,
+          "count": 33,
           "pct": 100
         },
         "price_info": {
-          "count": 34,
+          "count": 33,
           "pct": 100
         },
         "ticket_url": {
-          "count": 34,
+          "count": 33,
           "pct": 100
         },
         "duration": {
-          "count": 34,
+          "count": 33,
           "pct": 100
         },
         "age_rating": {
           "count": 26,
-          "pct": 76
+          "pct": 79
         },
         "subcategory": {
           "count": 17,
-          "pct": 50
+          "pct": 52
         },
         "sessions": {
-          "count": 32,
+          "count": 31,
           "pct": 94
         }
       }
     },
     "TAGV — Teatro Académico Gil Vicente": {
-      "total_events": 4,
+      "total_events": 8,
       "status": "ok",
-      "completeness_avg": 0.804,
+      "completeness_avg": 0.717,
       "field_coverage": {
         "synopsis": {
-          "count": 4,
+          "count": 8,
           "pct": 100
         },
         "image": {
-          "count": 4,
+          "count": 8,
           "pct": 100
         },
         "price_info": {
           "count": 3,
-          "pct": 75
+          "pct": 38
         },
         "ticket_url": {
-          "count": 4,
+          "count": 8,
           "pct": 100
         },
         "duration": {
-          "count": 4,
+          "count": 8,
           "pct": 100
         },
         "age_rating": {
           "count": 1,
-          "pct": 25
+          "pct": 12
         },
         "subcategory": {
-          "count": 3,
-          "pct": 75
+          "count": 2,
+          "pct": 25
         },
         "sessions": {
-          "count": 4,
+          "count": 8,
           "pct": 100
         }
       }
@@ -364,16 +364,16 @@
       }
     },
     "Teatro das Figuras": {
-      "total_events": 25,
+      "total_events": 27,
       "status": "ok",
-      "completeness_avg": 0.441,
+      "completeness_avg": 0.439,
       "field_coverage": {
         "synopsis": {
-          "count": 25,
+          "count": 27,
           "pct": 100
         },
         "image": {
-          "count": 25,
+          "count": 27,
           "pct": 100
         },
         "price_info": {
@@ -394,10 +394,10 @@
         },
         "subcategory": {
           "count": 13,
-          "pct": 52
+          "pct": 48
         },
         "sessions": {
-          "count": 25,
+          "count": 27,
           "pct": 100
         }
       }
@@ -444,7 +444,7 @@
     "Theatro Circo": {
       "total_events": 62,
       "status": "ok",
-      "completeness_avg": 0.603,
+      "completeness_avg": 0.602,
       "field_coverage": {
         "synopsis": {
           "count": 62,
@@ -459,8 +459,8 @@
           "pct": 90
         },
         "ticket_url": {
-          "count": 35,
-          "pct": 56
+          "count": 34,
+          "pct": 55
         },
         "duration": {
           "count": 18,
@@ -471,8 +471,8 @@
           "pct": 66
         },
         "subcategory": {
-          "count": 19,
-          "pct": 31
+          "count": 20,
+          "pct": 32
         },
         "sessions": {
           "count": 62,

@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-03-24T10:18:14.308502+00:00",
-  "build_version": "20260324-1018",
+  "updated_at": "2026-03-25T10:17:39.837533+00:00",
+  "build_version": "20260325-1017",
   "schema_version": "2.0",
-  "total_events": 279,
+  "total_events": 283,
   "total_theaters": 12,
   "events_today": 20,
   "events_this_weekend": 33,
@@ -14,19 +14,19 @@
     "Viseu"
   ],
   "by_category": {
-    "Artes Performativas": 112,
-    "Música": 73,
-    "Multidisciplinar": 34,
-    "Cinema & Audiovisual": 19,
+    "Artes Performativas": 111,
+    "Música": 76,
+    "Multidisciplinar": 36,
     "Formação & Participação": 18,
+    "Cinema & Audiovisual": 18,
     "Artes Visuais & Exposições": 13,
-    "Pensamento & Conversa": 6,
+    "Pensamento & Conversa": 7,
     "Infanto-Juvenil": 2,
     "Literatura & Palavra": 2
   },
   "by_subcategory": {
     "Performance": 59,
-    "Teatro": 46,
+    "Teatro": 45,
     "Concerto": 31,
     "Exposição": 6,
     "Conversa": 5,
@@ -38,24 +38,24 @@
     "Teatro Musical": 1
   },
   "filter_counts": {
-    "is_free": 26,
+    "is_free": 25,
     "is_accessible": 0,
-    "for_families": 107,
+    "for_families": 106,
     "for_schools": 14,
     "has_lsp": 0,
-    "is_festival": 7
+    "is_festival": 10
   },
-  "stale_theaters": 0,
+  "stale_theaters": 85,
   "by_theater": {
     "Theatro Circo": 62,
     "Teatro Viriato": 29,
     "Teatro Variedades": 6,
     "Teatro da Trindade INATEL": 7,
-    "São Luiz Teatro Municipal": 34,
+    "São Luiz Teatro Municipal": 33,
     "Teatro Maria Matos": 16,
-    "CCB — Centro Cultural de Belém": 86,
-    "TAGV — Teatro Académico Gil Vicente": 4,
-    "Teatro das Figuras": 25,
+    "CCB — Centro Cultural de Belém": 85,
+    "TAGV — Teatro Académico Gil Vicente": 8,
+    "Teatro das Figuras": 27,
     "Capitólio": 6,
     "Teatro do Bairro": 1,
     "Culturgest": 3
@@ -63,6 +63,10 @@
   "completeness_avg": 0.589,
   "anomalies": [],
   "scraper_health": {
+    "CCB — Centro Cultural de Belém": {
+      "status": "stale",
+      "stale_since": "2026-03-25"
+    },
     "Cine-Teatro Avenida": {
       "status": "empty",
       "stale_since": null
