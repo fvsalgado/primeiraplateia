@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-25T10:17:33.035210+00:00",
+  "generated_at": "2026-03-26T10:22:39.476519+00:00",
   "schema_version": "2.0",
-  "total_raw": 360,
-  "total_accepted": 350,
+  "total_raw": 350,
+  "total_accepted": 340,
   "total_rejected": 10,
-  "total_warnings": 68,
+  "total_warnings": 41,
   "rejected": [
     {
       "id": "saoluiz-um-homem-e-o-seu-criado",
@@ -264,7 +264,7 @@
       "id": "tagv-batalha-atr-s-de-batalha",
       "title": "Batalha Atrás de Batalha",
       "warnings": [
-        "evento já terminou (2025-12-11)"
+        "evento já terminou (2025-12-18)"
       ]
     },
     {
@@ -289,132 +289,6 @@
       ]
     },
     {
-      "id": "tagv-na-terra-dos-nossos-irm-os",
-      "title": "Na Terra dos Nossos Irmãos",
-      "warnings": [
-        "evento já terminou (1939-02-02)"
-      ]
-    },
-    {
-      "id": "tagv-caminhada-salatina",
-      "title": "Caminhada Salatina",
-      "warnings": [
-        "evento já terminou (1939-02-02)"
-      ]
-    },
-    {
-      "id": "tagv-sophia-de-melo-breyner-andresen-fragmentos-de-um-f",
-      "title": "Sophia de Melo Breyner Andresen + Fragmentos de Um Filme-Esmola",
-      "warnings": [
-        "evento já terminou (2026-01-21)"
-      ]
-    },
-    {
-      "id": "tagv-quem-espera-por-sapatos-de-defunto-morre-descal-o-",
-      "title": "Quem Espera Por Sapatos De Defunto Morre Descalço + Que Farei Eu Com Esta Espada?",
-      "warnings": [
-        "evento já terminou (2026-01-23)"
-      ]
-    },
-    {
-      "id": "tagv-thiago-ventura",
-      "title": "Thiago Ventura",
-      "warnings": [
-        "evento já terminou (1939-02-02)"
-      ]
-    },
-    {
-      "id": "tagv-ser-preciso-ser-aqui-conversas-com-pessoas-dotadas",
-      "title": "Ser Preciso, Ser Aqui: Conversas Com Pessoas Dotadas de Minúcia",
-      "warnings": [
-        "evento já terminou (1939-02-02)"
-      ]
-    },
-    {
-      "id": "tagv-veredas",
-      "title": "Veredas",
-      "warnings": [
-        "evento já terminou (2026-02-02)"
-      ]
-    },
-    {
-      "id": "tagv-a-cronologia-da-gua",
-      "title": "A Cronologia da Água",
-      "warnings": [
-        "evento já terminou (2026-02-07)"
-      ]
-    },
-    {
-      "id": "tagv-mulholland-drive",
-      "title": "Mulholland Drive",
-      "warnings": [
-        "evento já terminou (2026-02-09)"
-      ]
-    },
-    {
-      "id": "tagv-whindersson-nunes-e-robson-sousa",
-      "title": "Whindersson Nunes e Robson Sousa",
-      "warnings": [
-        "evento já terminou (2026-02-09)"
-      ]
-    },
-    {
-      "id": "tagv-aurora-ou-livro",
-      "title": "Aurora (ou Livro)",
-      "warnings": [
-        "evento já terminou (2026-02-12)"
-      ]
-    },
-    {
-      "id": "tagv-labirinto-de-sombras",
-      "title": "Labirinto de Sombras",
-      "warnings": [
-        "evento já terminou (2026-02-19)"
-      ]
-    },
-    {
-      "id": "tagv-entre-cores-arte-e-ci-ncia",
-      "title": "Entre Cores: Arte e Ciência",
-      "warnings": [
-        "evento já terminou (2026-02-20)"
-      ]
-    },
-    {
-      "id": "tagv-cineeco",
-      "title": "CineEco",
-      "warnings": [
-        "evento já terminou (2026-02-23)"
-      ]
-    },
-    {
-      "id": "tagv-conversa-de-balc-o",
-      "title": "Conversa de Balcão",
-      "warnings": [
-        "evento já terminou (2026-02-23)"
-      ]
-    },
-    {
-      "id": "tagv-xxii-oito-badaladas-festival-de-tunas",
-      "title": "XXII Oito Badaladas — Festival de Tunas",
-      "warnings": [
-        "evento já terminou (2026-02-25)"
-      ]
-    },
-    {
-      "id": "tagv-hamnet",
-      "title": "Hamnet",
-      "warnings": [
-        "evento já terminou (2026-02-26)"
-      ]
-    },
-    {
-      "id": "tagv-o-agente-secreto",
-      "title": "O Agente Secreto",
-      "warnings": [
-        "evento já terminou (2026-02-26)"
-      ]
-    },
-    {
       "id": "tagv-rui-sinel-de-cordes",
       "title": "Rui Sinel de Cordes",
       "warnings": [
@@ -422,59 +296,31 @@
       ]
     },
     {
-      "id": "tagv-atlas-gr-fico-de-coimbra",
-      "title": "Atlas Gráfico de Coimbra",
+      "id": "tagv-pulchritudines-concerto-sinf-nico-de-abertura-da-x",
+      "title": "Pulchritudines — Concerto Sinfónico de Abertura da XXVIII Semana Cultural UC",
       "warnings": [
-        "evento já terminou (2026-03-02)"
+        "evento já terminou (2026-03-11)"
+      ]
+    },
+    {
+      "id": "tagv-laborat-rio-do-tonus-ao-gestus-poder-afeto-e-resis",
+      "title": "Laboratório Do Tonus ao Gestus: Poder, Afeto e Resistência no Corpo",
+      "warnings": [
+        "evento já terminou (2026-03-12)"
       ]
     },
     {
       "id": "tagv-open-call-bolsas-de-cria-o-locais",
       "title": "Open Call: Bolsas de Criação Locais",
       "warnings": [
-        "evento já terminou (2026-03-04)"
+        "evento já terminou (2026-03-16)"
       ]
     },
     {
-      "id": "tagv-pulchritudines-concerto-sinf-nico-de-abertura-da-x",
-      "title": "Pulchritudines — Concerto Sinfónico de Abertura da XXVIII Semana Cultural UC",
+      "id": "tagv-blue-moon",
+      "title": "Blue Moon",
       "warnings": [
-        "evento já terminou (2026-03-04)"
-      ]
-    },
-    {
-      "id": "tagv-dj-ahmet",
-      "title": "DJ Ahmet",
-      "warnings": [
-        "evento já terminou (2026-03-05)"
-      ]
-    },
-    {
-      "id": "tagv-os-amantes-regulares",
-      "title": "Os Amantes Regulares",
-      "warnings": [
-        "evento já terminou (2026-03-06)"
-      ]
-    },
-    {
-      "id": "tagv-reenact-now",
-      "title": "REENACT NOW",
-      "warnings": [
-        "evento já terminou (2026-03-15)"
-      ]
-    },
-    {
-      "id": "tagv-doc-coimbra-concerto-filipe-furtado-trio-filme-de-",
-      "title": "DOC.Coimbra: Concerto Filipe Furtado Trio + Filme de Abertura",
-      "warnings": [
-        "evento já terminou (2026-03-18)"
-      ]
-    },
-    {
-      "id": "tagv-doc-coimbra-kikakui-renaissance",
-      "title": "DOC.Coimbra: Kikakui Renaissance",
-      "warnings": [
-        "evento já terminou (2023-10-07)"
+        "evento já terminou (2026-03-17)"
       ]
     },
     {
@@ -485,10 +331,10 @@
       ]
     },
     {
-      "id": "tagv-doc-coimbra-substrato",
-      "title": "DOC.Coimbra: Substrato",
+      "id": "tagv-doc-coimbra-salatinas-hist-rias-da-velha-alta-de-c",
+      "title": "DOC.Coimbra: Salatinas. Histórias da Velha Alta de Coimbra",
       "warnings": [
-        "evento já terminou (2026-03-19)"
+        "evento já terminou (2026-03-20)"
       ]
     },
     {
@@ -499,36 +345,8 @@
       ]
     },
     {
-      "id": "tagv-doc-coimbra-salatinas-hist-rias-da-velha-alta-de-c",
-      "title": "DOC.Coimbra: Salatinas. Histórias da Velha Alta de Coimbra",
-      "warnings": [
-        "evento já terminou (2026-03-21)"
-      ]
-    },
-    {
-      "id": "tagv-declamar-poesia",
-      "title": "declAMAR Poesia",
-      "warnings": [
-        "evento já terminou (2026-03-23)"
-      ]
-    },
-    {
-      "id": "tagv-alinhas-dan-ar-os-pensamentos-e-a-imagina-o",
-      "title": "Alinhas? — Dançar os Pensamentos e a Imaginação",
-      "warnings": [
-        "evento já terminou (2026-03-24)"
-      ]
-    },
-    {
-      "id": "tagv-festival-end-partes-sens-veis",
-      "title": "Festival END: Partes Sensíveis",
-      "warnings": [
-        "evento já terminou (2026-03-24)"
-      ]
-    },
-    {
-      "id": "tagv-festival-end-reparations-baby",
-      "title": "Festival END: Reparations Baby!",
+      "id": "tagv-sublinhar",
+      "title": "SubLinhar",
       "warnings": [
         "evento já terminou (2026-03-24)"
       ]
@@ -541,15 +359,8 @@
       ]
     },
     {
-      "id": "tagv-sublinhar",
-      "title": "SubLinhar",
-      "warnings": [
-        "evento já terminou (2026-03-24)"
-      ]
-    },
-    {
-      "id": "tagv-os-domingos",
-      "title": "Os Domingos",
+      "id": "tagv-uma-onda-na-mente-fotografias-de-jo-o-duarte",
+      "title": "Uma Onda na Mente — Fotografias de João Duarte",
       "warnings": [
         "evento já terminou (1929-10-21)"
       ]
@@ -579,12 +390,8 @@
       "events_collected": 3
     },
     "CCB — Centro Cultural de Belém": {
-      "status": "stale",
-      "reason": "zero_results",
-      "exception": null,
-      "events_from_cache": 85,
-      "events_expired_discarded": 1,
-      "stale_since": "2026-03-25"
+      "status": "ok",
+      "events_collected": 87
     },
     "Teatro Viriato": {
       "status": "ok",
@@ -592,7 +399,7 @@
     },
     "Theatro Circo": {
       "status": "ok",
-      "events_collected": 62
+      "events_collected": 61
     },
     "Teatro do Bairro": {
       "status": "ok",
@@ -604,16 +411,15 @@
     },
     "Teatro das Figuras": {
       "status": "ok",
-      "events_collected": 27
+      "events_collected": 32
     },
     "TAGV — Teatro Académico Gil Vicente": {
       "status": "ok",
-      "events_collected": 50
+      "events_collected": 27
     },
     "Cine-Teatro Avenida": {
-      "status": "empty",
-      "reason": "zero_results",
-      "exception": null
+      "status": "ok",
+      "events_collected": 7
     }
   }
 }
