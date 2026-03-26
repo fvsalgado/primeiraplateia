@@ -1,0 +1,226 @@
+[
+  {
+    "id": "cine-teatro-avenida-happy-days-teatro-meridional",
+    "title": "Happy Days | Teatro Meridional",
+    "theater": "Cine-Teatro Avenida",
+    "date_start": "2026-03-27",
+    "source_url": "https://www.ticketline.pt/evento/happy-day-teatro-meridional-102225",
+    "ticket_url": "https://www.ticketline.pt/evento/happy-day-teatro-meridional-102225",
+    "sessions": [
+      {
+        "date": "2026-03-27",
+        "time": null,
+        "weekday": "Sex"
+      }
+    ],
+    "image": {
+      "url": "https://info.ticketline.pt/images/Espectaculos/102225/cartaz.jpg",
+      "credit": null,
+      "source": "https://www.ticketline.pt/evento/happy-day-teatro-meridional-102225",
+      "theater": "Cine-Teatro Avenida"
+    },
+    "schema_version": "2.0",
+    "category": "Multidisciplinar",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-26T10:22:39.437582+00:00",
+    "theater_id": "cine-teatro-avenida",
+    "city": "Castelo Branco",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.33
+    }
+  },
+  {
+    "id": "cine-teatro-avenida-jo-o-barradas-100-anos-eug-nia-lima",
+    "title": "João Barradas_ 100 anos Eugénia Lima",
+    "theater": "Cine-Teatro Avenida",
+    "date_start": "2026-03-28",
+    "source_url": "https://www.ticketline.pt/evento/eugenia-lima-nos-100-anos-do-nascimento-102226",
+    "ticket_url": "https://www.ticketline.pt/evento/eugenia-lima-nos-100-anos-do-nascimento-102226",
+    "sessions": [
+      {
+        "date": "2026-03-28",
+        "time": null,
+        "weekday": "Sáb"
+      }
+    ],
+    "image": {
+      "url": "https://info.ticketline.pt/images/Espectaculos/102226/cartaz.jpg",
+      "credit": null,
+      "source": "https://www.ticketline.pt/evento/eugenia-lima-nos-100-anos-do-nascimento-102226",
+      "theater": "Cine-Teatro Avenida"
+    },
+    "schema_version": "2.0",
+    "category": "Multidisciplinar",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-26T10:22:39.437582+00:00",
+    "theater_id": "cine-teatro-avenida",
+    "city": "Castelo Branco",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.33
+    }
+  },
+  {
+    "id": "cine-teatro-avenida-quando-vem-a-taciturna-joana-t-hugo-c",
+    "title": "Quando vem a Taciturna... Joana T. & Hugo C.",
+    "theater": "Cine-Teatro Avenida",
+    "date_start": "2026-04-02",
+    "source_url": "https://www.ticketline.pt/evento/joana-von-mayer-t-hugo-calhim-cristovao-103015",
+    "ticket_url": "https://www.ticketline.pt/evento/joana-von-mayer-t-hugo-calhim-cristovao-103015",
+    "sessions": [
+      {
+        "date": "2026-04-02",
+        "time": null,
+        "weekday": "Qui"
+      }
+    ],
+    "image": {
+      "url": "https://info.ticketline.pt/images/Espectaculos/103015/cartaz.jpg",
+      "credit": null,
+      "source": "https://www.ticketline.pt/evento/joana-von-mayer-t-hugo-calhim-cristovao-103015",
+      "theater": "Cine-Teatro Avenida"
+    },
+    "schema_version": "2.0",
+    "category": "Multidisciplinar",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-26T10:22:39.437582+00:00",
+    "theater_id": "cine-teatro-avenida",
+    "city": "Castelo Branco",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.33
+    }
+  },
+  {
+    "id": "cine-teatro-avenida-o-estrangeiro-de-fran-ois-ozon",
+    "title": "O Estrangeiro_ de François Ozon",
+    "theater": "Cine-Teatro Avenida",
+    "date_start": "2026-04-07",
+    "source_url": "https://www.ticketline.pt/evento/o-estrangeiro-de-francois-ozon-103072",
+    "ticket_url": "https://www.ticketline.pt/evento/o-estrangeiro-de-francois-ozon-103072",
+    "sessions": [
+      {
+        "date": "2026-04-07",
+        "time": null,
+        "weekday": "Ter"
+      }
+    ],
+    "image": {
+      "url": "https://info.ticketline.pt/images/Espectaculos/103072/cartaz.jpg",
+      "credit": null,
+      "source": "https://www.ticketline.pt/evento/o-estrangeiro-de-francois-ozon-103072",
+      "theater": "Cine-Teatro Avenida"
+    },
+    "schema_version": "2.0",
+    "category": "Multidisciplinar",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-26T10:22:39.437582+00:00",
+    "theater_id": "cine-teatro-avenida",
+    "city": "Castelo Branco",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.33
+    }
+  },
+  {
+    "id": "cine-teatro-avenida-o-barqueiro-de-sim-o-cayatte",
+    "title": "O Barqueiro_ de Simão Cayatte",
+    "theater": "Cine-Teatro Avenida",
+    "date_start": "2026-04-14",
+    "source_url": "https://www.ticketline.pt/evento/o-barqueiro-de-simao-cayatte-103074",
+    "ticket_url": "https://www.ticketline.pt/evento/o-barqueiro-de-simao-cayatte-103074",
+    "sessions": [
+      {
+        "date": "2026-04-14",
+        "time": null,
+        "weekday": "Ter"
+      }
+    ],
+    "image": {
+      "url": "https://info.ticketline.pt/images/Espectaculos/103074/cartaz.jpg",
+      "credit": null,
+      "source": "https://www.ticketline.pt/evento/o-barqueiro-de-simao-cayatte-103074",
+      "theater": "Cine-Teatro Avenida"
+    },
+    "schema_version": "2.0",
+    "category": "Multidisciplinar",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-26T10:22:39.437582+00:00",
+    "theater_id": "cine-teatro-avenida",
+    "city": "Castelo Branco",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.33
+    }
+  },
+  {
+    "id": "cine-teatro-avenida-riefensthal-de-andres-veiel",
+    "title": "Riefensthal_ de Andres Veiel",
+    "theater": "Cine-Teatro Avenida",
+    "date_start": "2026-04-20",
+    "source_url": "https://www.ticketline.pt/evento/riefensthal-de-andres-veiel-103075",
+    "ticket_url": "https://www.ticketline.pt/evento/riefensthal-de-andres-veiel-103075",
+    "sessions": [
+      {
+        "date": "2026-04-20",
+        "time": null,
+        "weekday": "Seg"
+      }
+    ],
+    "image": {
+      "url": "https://info.ticketline.pt/images/Espectaculos/103075/cartaz.jpg",
+      "credit": null,
+      "source": "https://www.ticketline.pt/evento/riefensthal-de-andres-veiel-103075",
+      "theater": "Cine-Teatro Avenida"
+    },
+    "schema_version": "2.0",
+    "category": "Multidisciplinar",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-26T10:22:39.437582+00:00",
+    "theater_id": "cine-teatro-avenida",
+    "city": "Castelo Branco",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.33
+    }
+  },
+  {
+    "id": "cine-teatro-avenida-aprender-de-claire-simon",
+    "title": "Aprender_ de Claire Simon",
+    "theater": "Cine-Teatro Avenida",
+    "date_start": "2026-04-28",
+    "source_url": "https://www.ticketline.pt/evento/aprender-de-claire-simon-103076",
+    "ticket_url": "https://www.ticketline.pt/evento/aprender-de-claire-simon-103076",
+    "sessions": [
+      {
+        "date": "2026-04-28",
+        "time": null,
+        "weekday": "Ter"
+      }
+    ],
+    "image": {
+      "url": "https://info.ticketline.pt/images/Espectaculos/103076/cartaz.jpg",
+      "credit": null,
+      "source": "https://www.ticketline.pt/evento/aprender-de-claire-simon-103076",
+      "theater": "Cine-Teatro Avenida"
+    },
+    "schema_version": "2.0",
+    "category": "Multidisciplinar",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-26T10:22:39.437582+00:00",
+    "theater_id": "cine-teatro-avenida",
+    "city": "Castelo Branco",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.33
+    }
+  }
+]

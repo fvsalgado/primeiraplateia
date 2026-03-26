@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-25T10:17:39.909091+00:00",
-  "total_events": 283,
+  "generated_at": "2026-03-26T10:22:45.753730+00:00",
+  "total_events": 300,
   "tracked_fields": [
     "synopsis",
     "image",
@@ -13,20 +13,20 @@
   ],
   "theaters": {
     "CCB — Centro Cultural de Belém": {
-      "total_events": 85,
-      "status": "stale",
-      "completeness_avg": 0.555,
+      "total_events": 87,
+      "status": "ok",
+      "completeness_avg": 0.551,
       "field_coverage": {
         "synopsis": {
-          "count": 85,
+          "count": 87,
           "pct": 100
         },
         "image": {
-          "count": 85,
+          "count": 87,
           "pct": 100
         },
         "price_info": {
-          "count": 37,
+          "count": 38,
           "pct": 44
         },
         "ticket_url": {
@@ -38,15 +38,15 @@
           "pct": 0
         },
         "age_rating": {
-          "count": 48,
+          "count": 49,
           "pct": 56
         },
         "subcategory": {
-          "count": 83,
+          "count": 85,
           "pct": 98
         },
         "sessions": {
-          "count": 85,
+          "count": 87,
           "pct": 100
         }
       }
@@ -86,6 +86,45 @@
         },
         "sessions": {
           "count": 6,
+          "pct": 100
+        }
+      }
+    },
+    "Cine-Teatro Avenida": {
+      "total_events": 7,
+      "status": "ok",
+      "completeness_avg": 0.33,
+      "field_coverage": {
+        "synopsis": {
+          "count": 0,
+          "pct": 0
+        },
+        "image": {
+          "count": 7,
+          "pct": 100
+        },
+        "price_info": {
+          "count": 0,
+          "pct": 0
+        },
+        "ticket_url": {
+          "count": 7,
+          "pct": 100
+        },
+        "duration": {
+          "count": 0,
+          "pct": 0
+        },
+        "age_rating": {
+          "count": 0,
+          "pct": 0
+        },
+        "subcategory": {
+          "count": 0,
+          "pct": 0
+        },
+        "sessions": {
+          "count": 7,
           "pct": 100
         }
       }
@@ -169,40 +208,40 @@
       }
     },
     "TAGV — Teatro Académico Gil Vicente": {
-      "total_events": 8,
+      "total_events": 12,
       "status": "ok",
-      "completeness_avg": 0.717,
+      "completeness_avg": 0.705,
       "field_coverage": {
         "synopsis": {
-          "count": 8,
+          "count": 12,
           "pct": 100
         },
         "image": {
-          "count": 8,
+          "count": 12,
           "pct": 100
         },
         "price_info": {
-          "count": 3,
-          "pct": 38
+          "count": 6,
+          "pct": 50
         },
         "ticket_url": {
-          "count": 8,
+          "count": 12,
           "pct": 100
         },
         "duration": {
-          "count": 8,
+          "count": 12,
           "pct": 100
         },
         "age_rating": {
           "count": 1,
-          "pct": 12
+          "pct": 8
         },
         "subcategory": {
-          "count": 2,
-          "pct": 25
+          "count": 4,
+          "pct": 33
         },
         "sessions": {
-          "count": 8,
+          "count": 12,
           "pct": 100
         }
       }
@@ -364,16 +403,16 @@
       }
     },
     "Teatro das Figuras": {
-      "total_events": 27,
+      "total_events": 32,
       "status": "ok",
       "completeness_avg": 0.439,
       "field_coverage": {
         "synopsis": {
-          "count": 27,
+          "count": 32,
           "pct": 100
         },
         "image": {
-          "count": 27,
+          "count": 32,
           "pct": 100
         },
         "price_info": {
@@ -393,11 +432,11 @@
           "pct": 0
         },
         "subcategory": {
-          "count": 13,
-          "pct": 48
+          "count": 15,
+          "pct": 47
         },
         "sessions": {
-          "count": 27,
+          "count": 32,
           "pct": 100
         }
       }
@@ -442,40 +481,40 @@
       }
     },
     "Theatro Circo": {
-      "total_events": 62,
+      "total_events": 61,
       "status": "ok",
       "completeness_avg": 0.602,
       "field_coverage": {
         "synopsis": {
-          "count": 62,
+          "count": 61,
           "pct": 100
         },
         "image": {
-          "count": 62,
+          "count": 61,
           "pct": 100
         },
         "price_info": {
-          "count": 56,
+          "count": 55,
           "pct": 90
         },
         "ticket_url": {
-          "count": 34,
-          "pct": 55
+          "count": 33,
+          "pct": 54
         },
         "duration": {
-          "count": 18,
-          "pct": 29
+          "count": 17,
+          "pct": 28
         },
         "age_rating": {
-          "count": 41,
+          "count": 40,
           "pct": 66
         },
         "subcategory": {
           "count": 20,
-          "pct": 32
+          "pct": 33
         },
         "sessions": {
-          "count": 62,
+          "count": 61,
           "pct": 100
         }
       }

@@ -1,75 +1,68 @@
 {
-  "updated_at": "2026-03-25T10:17:39.837533+00:00",
-  "build_version": "20260325-1017",
+  "updated_at": "2026-03-26T10:22:45.678484+00:00",
+  "build_version": "20260326-1022",
   "schema_version": "2.0",
-  "total_events": 283,
-  "total_theaters": 12,
-  "events_today": 20,
-  "events_this_weekend": 33,
+  "total_events": 300,
+  "total_theaters": 13,
+  "events_today": 25,
+  "events_this_weekend": 36,
   "cities": [
     "Braga",
+    "Castelo Branco",
     "Coimbra",
     "Faro",
     "Lisboa",
     "Viseu"
   ],
   "by_category": {
-    "Artes Performativas": 111,
-    "Música": 76,
-    "Multidisciplinar": 36,
+    "Artes Performativas": 117,
+    "Música": 81,
+    "Multidisciplinar": 41,
+    "Cinema & Audiovisual": 19,
     "Formação & Participação": 18,
-    "Cinema & Audiovisual": 18,
     "Artes Visuais & Exposições": 13,
     "Pensamento & Conversa": 7,
     "Infanto-Juvenil": 2,
     "Literatura & Palavra": 2
   },
   "by_subcategory": {
-    "Performance": 59,
-    "Teatro": 45,
+    "Performance": 61,
+    "Teatro": 48,
     "Concerto": 31,
     "Exposição": 6,
     "Conversa": 5,
     "Workshop": 4,
+    "Dança": 3,
     "Cinema": 2,
     "Ópera": 2,
-    "Dança": 2,
     "Comédia": 2,
     "Teatro Musical": 1
   },
   "filter_counts": {
-    "is_free": 25,
+    "is_free": 26,
     "is_accessible": 0,
     "for_families": 106,
     "for_schools": 14,
     "has_lsp": 0,
-    "is_festival": 10
+    "is_festival": 11
   },
-  "stale_theaters": 85,
+  "stale_theaters": 0,
   "by_theater": {
-    "Theatro Circo": 62,
+    "Theatro Circo": 61,
     "Teatro Viriato": 29,
     "Teatro Variedades": 6,
     "Teatro da Trindade INATEL": 7,
     "São Luiz Teatro Municipal": 33,
     "Teatro Maria Matos": 16,
-    "CCB — Centro Cultural de Belém": 85,
-    "TAGV — Teatro Académico Gil Vicente": 8,
-    "Teatro das Figuras": 27,
+    "CCB — Centro Cultural de Belém": 87,
+    "Teatro das Figuras": 32,
+    "TAGV — Teatro Académico Gil Vicente": 12,
     "Capitólio": 6,
+    "Cine-Teatro Avenida": 7,
     "Teatro do Bairro": 1,
     "Culturgest": 3
   },
-  "completeness_avg": 0.589,
+  "completeness_avg": 0.58,
   "anomalies": [],
-  "scraper_health": {
-    "CCB — Centro Cultural de Belém": {
-      "status": "stale",
-      "stale_since": "2026-03-25"
-    },
-    "Cine-Teatro Avenida": {
-      "status": "empty",
-      "stale_since": null
-    }
-  }
+  "scraper_health": {}
 }
