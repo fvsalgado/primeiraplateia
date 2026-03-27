@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-27T10:14:49.359053+00:00",
+  "generated_at": "2026-03-27T18:48:07.838419+00:00",
   "schema_version": "2.0",
-  "total_raw": 327,
-  "total_accepted": 317,
+  "total_raw": 329,
+  "total_accepted": 319,
   "total_rejected": 10,
-  "total_warnings": 28,
+  "total_warnings": 29,
   "rejected": [
     {
       "id": "saoluiz-um-homem-e-o-seu-criado",
@@ -261,17 +261,24 @@
       ]
     },
     {
-      "id": "tagv-miroirs-no-3",
-      "title": "Miroirs No. 3",
+      "id": "tagv-open-call-bolsas-de-cria-o-locais",
+      "title": "Open Call: Bolsas de Criação Locais",
       "warnings": [
-        "evento já terminou (1939-02-02)"
+        "evento já terminou (2026-03-16)"
       ]
     },
     {
-      "id": "tagv-pulchritudines-concerto-sinf-nico-de-abertura-da-x",
-      "title": "Pulchritudines — Concerto Sinfónico de Abertura da XXVIII Semana Cultural UC",
+      "id": "tagv-banda-encantada-xxviii-semana-cultural-uc",
+      "title": "Banda EnCantada — XXVIII Semana Cultural UC",
       "warnings": [
-        "evento já terminou (2026-03-18)"
+        "evento já terminou (2026-03-16)"
+      ]
+    },
+    {
+      "id": "tagv-festival-end-a-cavalo-dado",
+      "title": "Festival END: A Cavalo Dado",
+      "warnings": [
+        "evento já terminou (2026-03-26)"
       ]
     }
   ],
@@ -280,7 +287,7 @@
   "scraper_health": {
     "Teatro Variedades": {
       "status": "ok",
-      "events_collected": 6
+      "events_collected": 7
     },
     "Capitólio": {
       "status": "ok",
@@ -300,7 +307,7 @@
     },
     "CCB — Centro Cultural de Belém": {
       "status": "ok",
-      "events_collected": 86
+      "events_collected": 87
     },
     "Teatro Viriato": {
       "status": "ok",
@@ -316,7 +323,7 @@
     },
     "Teatro da Trindade INATEL": {
       "status": "ok",
-      "events_collected": 7
+      "events_collected": 8
     },
     "Teatro das Figuras": {
       "status": "ok",
@@ -324,7 +331,7 @@
     },
     "TAGV — Teatro Académico Gil Vicente": {
       "status": "ok",
-      "events_collected": 5
+      "events_collected": 4
     },
     "Cine-Teatro Avenida": {
       "status": "stale",
