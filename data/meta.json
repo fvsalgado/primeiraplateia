@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-26T10:22:45.678484+00:00",
-  "build_version": "20260326-1022",
+  "updated_at": "2026-03-27T10:14:54.329410+00:00",
+  "build_version": "20260327-1014",
   "schema_version": "2.0",
-  "total_events": 300,
+  "total_events": 290,
   "total_theaters": 13,
-  "events_today": 25,
-  "events_this_weekend": 36,
+  "events_today": 22,
+  "events_this_weekend": 39,
   "cities": [
     "Braga",
     "Castelo Branco",
@@ -15,20 +15,20 @@
     "Viseu"
   ],
   "by_category": {
-    "Artes Performativas": 117,
-    "Música": 81,
-    "Multidisciplinar": 41,
-    "Cinema & Audiovisual": 19,
+    "Artes Performativas": 114,
+    "Música": 80,
+    "Multidisciplinar": 39,
     "Formação & Participação": 18,
+    "Cinema & Audiovisual": 16,
     "Artes Visuais & Exposições": 13,
-    "Pensamento & Conversa": 7,
+    "Pensamento & Conversa": 6,
     "Infanto-Juvenil": 2,
     "Literatura & Palavra": 2
   },
   "by_subcategory": {
-    "Performance": 61,
+    "Performance": 58,
     "Teatro": 48,
-    "Concerto": 31,
+    "Concerto": 30,
     "Exposição": 6,
     "Conversa": 5,
     "Workshop": 4,
@@ -39,30 +39,35 @@
     "Teatro Musical": 1
   },
   "filter_counts": {
-    "is_free": 26,
+    "is_free": 24,
     "is_accessible": 0,
     "for_families": 106,
     "for_schools": 14,
     "has_lsp": 0,
-    "is_festival": 11
+    "is_festival": 7
   },
-  "stale_theaters": 0,
+  "stale_theaters": 7,
   "by_theater": {
     "Theatro Circo": 61,
     "Teatro Viriato": 29,
     "Teatro Variedades": 6,
     "Teatro da Trindade INATEL": 7,
-    "São Luiz Teatro Municipal": 33,
-    "Teatro Maria Matos": 16,
-    "CCB — Centro Cultural de Belém": 87,
-    "Teatro das Figuras": 32,
-    "TAGV — Teatro Académico Gil Vicente": 12,
+    "São Luiz Teatro Municipal": 34,
+    "Teatro Maria Matos": 15,
     "Capitólio": 6,
     "Cine-Teatro Avenida": 7,
+    "CCB — Centro Cultural de Belém": 86,
+    "TAGV — Teatro Académico Gil Vicente": 3,
     "Teatro do Bairro": 1,
+    "Teatro das Figuras": 32,
     "Culturgest": 3
   },
-  "completeness_avg": 0.58,
+  "completeness_avg": 0.577,
   "anomalies": [],
-  "scraper_health": {}
+  "scraper_health": {
+    "Cine-Teatro Avenida": {
+      "status": "stale",
+      "stale_since": "2026-03-27"
+    }
+  }
 }

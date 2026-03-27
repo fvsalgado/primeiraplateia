@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-26T10:22:45.753730+00:00",
-  "total_events": 300,
+  "generated_at": "2026-03-27T10:14:54.395800+00:00",
+  "total_events": 290,
   "tracked_fields": [
     "synopsis",
     "image",
@@ -13,21 +13,21 @@
   ],
   "theaters": {
     "CCB — Centro Cultural de Belém": {
-      "total_events": 87,
+      "total_events": 86,
       "status": "ok",
       "completeness_avg": 0.551,
       "field_coverage": {
         "synopsis": {
-          "count": 87,
+          "count": 86,
           "pct": 100
         },
         "image": {
-          "count": 87,
+          "count": 86,
           "pct": 100
         },
         "price_info": {
-          "count": 38,
-          "pct": 44
+          "count": 37,
+          "pct": 43
         },
         "ticket_url": {
           "count": 25,
@@ -39,14 +39,14 @@
         },
         "age_rating": {
           "count": 49,
-          "pct": 56
+          "pct": 57
         },
         "subcategory": {
-          "count": 85,
+          "count": 84,
           "pct": 98
         },
         "sessions": {
-          "count": 87,
+          "count": 86,
           "pct": 100
         }
       }
@@ -92,7 +92,7 @@
     },
     "Cine-Teatro Avenida": {
       "total_events": 7,
-      "status": "ok",
+      "status": "stale",
       "completeness_avg": 0.33,
       "field_coverage": {
         "synopsis": {
@@ -169,110 +169,110 @@
       }
     },
     "São Luiz Teatro Municipal": {
-      "total_events": 33,
+      "total_events": 34,
       "status": "ok",
-      "completeness_avg": 0.677,
+      "completeness_avg": 0.676,
       "field_coverage": {
         "synopsis": {
-          "count": 33,
+          "count": 34,
           "pct": 100
         },
         "image": {
-          "count": 33,
+          "count": 34,
           "pct": 100
         },
         "price_info": {
-          "count": 33,
+          "count": 34,
           "pct": 100
         },
         "ticket_url": {
-          "count": 33,
+          "count": 34,
           "pct": 100
         },
         "duration": {
-          "count": 33,
+          "count": 34,
           "pct": 100
         },
         "age_rating": {
-          "count": 26,
+          "count": 27,
           "pct": 79
         },
         "subcategory": {
           "count": 17,
-          "pct": 52
+          "pct": 50
         },
         "sessions": {
-          "count": 31,
+          "count": 32,
           "pct": 94
         }
       }
     },
     "TAGV — Teatro Académico Gil Vicente": {
-      "total_events": 12,
+      "total_events": 3,
       "status": "ok",
-      "completeness_avg": 0.705,
+      "completeness_avg": 0.769,
       "field_coverage": {
         "synopsis": {
-          "count": 12,
+          "count": 3,
           "pct": 100
         },
         "image": {
-          "count": 12,
+          "count": 3,
           "pct": 100
         },
         "price_info": {
-          "count": 6,
-          "pct": 50
+          "count": 1,
+          "pct": 33
         },
         "ticket_url": {
-          "count": 12,
+          "count": 3,
           "pct": 100
         },
         "duration": {
-          "count": 12,
+          "count": 3,
           "pct": 100
         },
         "age_rating": {
           "count": 1,
-          "pct": 8
-        },
-        "subcategory": {
-          "count": 4,
           "pct": 33
         },
+        "subcategory": {
+          "count": 2,
+          "pct": 67
+        },
         "sessions": {
-          "count": 12,
+          "count": 3,
           "pct": 100
         }
       }
     },
     "Teatro Maria Matos": {
-      "total_events": 16,
+      "total_events": 15,
       "status": "ok",
-      "completeness_avg": 0.527,
+      "completeness_avg": 0.53,
       "field_coverage": {
         "synopsis": {
-          "count": 16,
+          "count": 15,
           "pct": 100
         },
         "image": {
-          "count": 16,
+          "count": 15,
           "pct": 100
         },
         "price_info": {
-          "count": 16,
+          "count": 15,
           "pct": 100
         },
         "ticket_url": {
-          "count": 16,
+          "count": 15,
           "pct": 100
         },
         "duration": {
-          "count": 10,
-          "pct": 62
+          "count": 9,
+          "pct": 60
         },
         "age_rating": {
-          "count": 16,
+          "count": 15,
           "pct": 100
         },
         "subcategory": {
@@ -281,7 +281,7 @@
         },
         "sessions": {
           "count": 2,
-          "pct": 12
+          "pct": 13
         }
       }
     },
@@ -405,7 +405,7 @@
     "Teatro das Figuras": {
       "total_events": 32,
       "status": "ok",
-      "completeness_avg": 0.439,
+      "completeness_avg": 0.438,
       "field_coverage": {
         "synopsis": {
           "count": 32,
@@ -432,8 +432,8 @@
           "pct": 0
         },
         "subcategory": {
-          "count": 15,
-          "pct": 47
+          "count": 14,
+          "pct": 44
         },
         "sessions": {
           "count": 32,
