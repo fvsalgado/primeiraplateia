@@ -1,26 +1,26 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-03-27T10:14:49.359934+00:00",
-  "total": 317,
+  "updated_at": "2026-03-27T18:48:07.839384+00:00",
+  "total": 319,
   "by_theater": {
-    "Teatro Variedades": 6,
+    "Teatro Variedades": 7,
     "Capitólio": 6,
     "São Luiz Teatro Municipal": 43,
     "Teatro Maria Matos": 16,
     "Culturgest": 3,
-    "CCB — Centro Cultural de Belém": 86,
+    "CCB — Centro Cultural de Belém": 87,
     "Teatro Viriato": 54,
     "Theatro Circo": 61,
     "Teatro do Bairro": 1,
-    "Teatro da Trindade INATEL": 7,
+    "Teatro da Trindade INATEL": 8,
     "Teatro das Figuras": 32,
-    "TAGV — Teatro Académico Gil Vicente": 5,
+    "TAGV — Teatro Académico Gil Vicente": 4,
     "Cine-Teatro Avenida": 7
   },
   "scraper_health": {
     "Teatro Variedades": {
       "status": "ok",
-      "events_collected": 6
+      "events_collected": 7
     },
     "Capitólio": {
       "status": "ok",
@@ -40,7 +40,7 @@
     },
     "CCB — Centro Cultural de Belém": {
       "status": "ok",
-      "events_collected": 86
+      "events_collected": 87
     },
     "Teatro Viriato": {
       "status": "ok",
@@ -56,7 +56,7 @@
     },
     "Teatro da Trindade INATEL": {
       "status": "ok",
-      "events_collected": 7
+      "events_collected": 8
     },
     "Teatro das Figuras": {
       "status": "ok",
@@ -64,7 +64,7 @@
     },
     "TAGV — Teatro Académico Gil Vicente": {
       "status": "ok",
-      "events_collected": 5
+      "events_collected": 4
     },
     "Cine-Teatro Avenida": {
       "status": "stale",
@@ -85,55 +85,6 @@
     "takedown_sla": "Remoção em 48h mediante pedido."
   },
   "events": [
-    {
-      "id": "tagv-miroirs-no-3",
-      "title": "Miroirs No. 3",
-      "theater": "TAGV — Teatro Académico Gil Vicente",
-      "category": "Cinema & Audiovisual",
-      "date_start": "1939-02-02",
-      "source_url": "https://tagv.pt/agenda/viva-joao-cesar-monteiro-ciclo-de-cinema/",
-      "dates_label": "2 fevereiro 1939",
-      "synopsis": "Agora que os filmes de João César Monteiro estão todos digitalizados, num trabalho levado a cabo pela Cinemateca Portuguesa – Museu do Cinema, é o tempo certo para que os espectadores portugueses possam voltar a ver de novo nas salas, em cópias restauradas, esta obra extraordinária, ferozmente livre…",
-      "image": {
-        "url": "https://tagv.pt/public/uploads/2025/12/tagv.pt-miroirs-no-3-christian-petzold-joao-cesar-monteiro-1.jpg",
-        "credit": null,
-        "source": "https://tagv.pt/agenda/viva-joao-cesar-monteiro-ciclo-de-cinema/",
-        "theater": "TAGV — Teatro Académico Gil Vicente"
-      },
-      "ticket_url": "https://tagv.bol.pt",
-      "price_info": "6€",
-      "price_min": 6.0,
-      "price_max": 6.0,
-      "duration": "18h30",
-      "duration_min": 1110,
-      "age_rating": "Livre",
-      "age_min": 0,
-      "technical_sheet": {
-        "texto": "de Robert Walser pedia, e ter ousado um gesto artístico único, criando um “extraordinário filme da palavra sobre o écran negro”, como disse Manoel de Oliveira; até às “três horas de puro prazer”, de Vai e Vem (2003), filme derradeiro de uma lucidez extrema de um cineasta que “inventou” para si um lu"
-      },
-      "people": [
-        "de Robert Walser pedia",
-        "ter ousado um gesto artístico único",
-        "criando um “extraordinário filme da palavra sobre o écran negro”",
-        "como disse Manoel de Oliveira",
-        "até às “três horas de puro prazer”",
-        "de Vai",
-        "Vem (2003)",
-        "filme derradeiro de uma lucidez extrema de um cineasta que “inventou” para si um lu"
-      ],
-      "sessions": [
-        {
-          "date": "1939-02-02",
-          "time": "18:30",
-          "weekday": "Qui"
-        }
-      ],
-      "schema_version": "2.0",
-      "is_free": null,
-      "for_families": true,
-      "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
-    },
     {
       "id": "theatrocirco-tr-s-tempos",
       "title": "Três Tempos",
@@ -176,7 +127,7 @@
       "schema_version": "2.0",
       "is_free": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-new-age-new-time",
@@ -229,7 +180,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-regenerar",
@@ -276,7 +227,7 @@
       "is_free": true,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-warm-up",
@@ -324,7 +275,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-o-qu",
@@ -369,7 +320,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-isto-n-o-para-gente-para-besta",
@@ -419,7 +370,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-sublinhar",
@@ -475,7 +426,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "variedades-clube-de-leitura-do-teatro-variedades",
@@ -518,7 +469,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-reverbera-es",
@@ -576,7 +527,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-sibela-e-digoo",
@@ -625,7 +576,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-bull-s-heart",
@@ -670,7 +621,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-reverberando",
@@ -711,7 +662,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-bright-horses",
@@ -768,7 +719,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-entre-um-abra-o-e-um-beijinho",
@@ -812,7 +763,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-um-abra-o-ou-um-beijinho",
@@ -867,7 +818,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "trindade-a-gaivota",
@@ -931,7 +882,7 @@
       "subcategory": "Teatro",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-wonderlandi",
@@ -991,7 +942,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-regenera",
@@ -1034,7 +985,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-noite-fora-cria-o-dramat-rgica",
@@ -1082,7 +1033,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-o-teatro-tamb-m-a-nossa-casa",
@@ -1129,7 +1080,7 @@
       "is_free": true,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-visitas-guiadas-ao-teatro-viriato",
@@ -1177,7 +1128,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-luca-argel",
@@ -1223,7 +1174,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-toshiib4",
@@ -1323,7 +1274,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-justi-a-cega",
@@ -1382,7 +1333,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-tatabitato",
@@ -1427,7 +1378,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "trindade-brokeback-mountain",
@@ -1489,7 +1440,7 @@
       "subcategory": "Concerto",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-summer-lab-programa-intensivo-de-forma-o-em-dan-a",
@@ -1537,7 +1488,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-primeira-pessoa-do-plural",
@@ -1585,7 +1536,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-ciclo-m-sica-de-c-mara",
@@ -1631,7 +1582,7 @@
       "is_free": true,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-festival-amostra",
@@ -1682,7 +1633,7 @@
       "is_festival": true,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-bolsa-am-lia-rey-cola-o",
@@ -1724,7 +1675,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-pedras-de-parar-e-da-urg-ncia",
@@ -1764,7 +1715,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-aruna-e-a-arte-de-bordar-in-cios",
@@ -1822,7 +1773,7 @@
       "is_festival": true,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-oficina-de-cinema-de-anima-o",
@@ -1868,7 +1819,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-s-mais-uma-gaivota",
@@ -1926,7 +1877,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-gaivotas-em-terra",
@@ -1974,7 +1925,113 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
+    },
+    {
+      "id": "tagv-open-call-bolsas-de-cria-o-locais",
+      "title": "Open Call: Bolsas de Criação Locais",
+      "theater": "TAGV — Teatro Académico Gil Vicente",
+      "category": "Artes Performativas",
+      "date_start": "2026-03-16",
+      "source_url": "https://tagv.pt/agenda/ode-maritima-leitura-encenada-teatro-do-interior/",
+      "dates_label": "16 mar 2026",
+      "synopsis": "Na Ode Marítima, solitário entre a multidão da grande cidade, o poeta chega ao cais e vê “pequeno, negro e claro, um paquete entrando”. A partir dessa visão, o poeta viaja no tempo e no espaço, recupera fugazmente a própria infância.…",
+      "image": {
+        "url": "https://tagv.pt/public/uploads/2026/02/tagv.pt-ode-maritima-leitura-encenada-teatro-do-interior-20260305-ode-maritimateatro-do-interior-cartaz.jpg",
+        "credit": null,
+        "source": "https://tagv.pt/agenda/ode-maritima-leitura-encenada-teatro-do-interior/",
+        "theater": "TAGV — Teatro Académico Gil Vicente"
+      },
+      "ticket_url": "https://tagv.bol.pt",
+      "duration": "10h30",
+      "duration_min": 630,
+      "technical_sheet": {
+        "música": "Pulchritudines — Concerto Sinfónico de Abertura da XXVIII Semana Cultural UC Cinema DJ Ahmet Cinema Os Amantes Regulares Teatro Ode Marítima — Leitura Encenada Performance O Narrador Performance Lançamento Coreia#14 + Performance The Erotic Clown Poesia Nada é Impossível de Mudar: Poética da Revolta",
+        "texto": "grandioso, situando-se como um dos mais representativos da obra do poeta Na Ode Marítima, solitário entre a multidão da grande cidade, o poeta chega ao cais e vê “pequeno, negro e claro, um paquete entrando”. A partir dessa visão, o poeta viaja no tempo e no espaço, recupera fugazmente a própria inf",
+        "direção": "artística, Encenação",
+        "interpretação": "Manuel Wiborg Imagens William Turner Música",
+        "som": "André Pires Grafismo Álvaro Rosendo",
+        "produção": "Teatro do Interior Clique ou faça scroll para ver o próximo evento. Toque para ver o próximo evento. Performance O Narrador O TAGV, remodelado em 2003, é um polo de conhecimento e formação artística. Subscreve a newsletter. Aviso sobre tratamento de dados Praça da República 3000-342 Coimbra Bilhetei"
+      },
+      "cast": [
+        "Manuel Wiborg Imagens William Turner Música"
+      ],
+      "people": [
+        "grandioso",
+        "situando-se como um dos mais representativos da obra do poeta Na Ode Marítima",
+        "solitário entre a multidão da grande cidade",
+        "o poeta chega ao cais",
+        "vê “pequeno",
+        "negro",
+        "claro",
+        "um paquete entrando”. A partir dessa visão",
+        "o poeta viaja no tempo",
+        "no espaço",
+        "recupera fugazmente a própria inf",
+        "artística",
+        "Encenação",
+        "André Pires Grafismo Álvaro Rosendo",
+        "Pulchritudines — Concerto Sinfónico de Abertura da XXVIII Semana Cultural UC Cinema DJ Ahmet Cinema Os Amantes Regulares Teatro Ode Marítima — Leitura Encenada Performance O Narrador Performance Lançamento Coreia#14 + Performance The Erotic Clown Poesia Nada é Impossível de Mudar: Poética da Revolta",
+        "Manuel Wiborg Imagens William Turner Música",
+        "Teatro do Interior Clique ou faça scroll para ver o próximo evento. Toque para ver o próximo evento. Performance O Narrador O TAGV",
+        "remodelado em 2003",
+        "é um polo de conhecimento",
+        "formação artística. Subscreve a newsletter. Aviso sobre tratamento de dados Praça da República 3000-342 Coimbra Bilhetei"
+      ],
+      "sessions": [
+        {
+          "date": "2026-03-16",
+          "time": "10:30",
+          "weekday": "Seg"
+        }
+      ],
+      "schema_version": "2.0",
+      "subcategory": "Performance",
+      "is_free": null,
+      "is_accessible": null,
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
+    },
+    {
+      "id": "tagv-banda-encantada-xxviii-semana-cultural-uc",
+      "title": "Banda EnCantada — XXVIII Semana Cultural UC",
+      "theater": "TAGV — Teatro Académico Gil Vicente",
+      "category": "Cinema & Audiovisual",
+      "date_start": "2026-03-16",
+      "source_url": "https://tagv.pt/agenda/maria-vitoria-de-mario-patrocinio/",
+      "dates_label": "16 mar 2026",
+      "synopsis": "Maria Vitória vive numa aldeia remota nas montanhas portuguesas e joga futebol na equipa juvenil masculina local. Determinada a tornar-se profissional, dedica todo o seu tempo livre a treinos intensos com o pai, Nacho.…",
+      "image": {
+        "url": "https://tagv.pt/public/uploads/2026/02/tagv.pt-olhar-o-sol-de-mascha-schilinski-20260316-2-mariavitoria-02.jpg",
+        "credit": null,
+        "source": "https://tagv.pt/agenda/maria-vitoria-de-mario-patrocinio/",
+        "theater": "TAGV — Teatro Académico Gil Vicente"
+      },
+      "ticket_url": "https://tagv.bol.pt",
+      "price_info": "6€",
+      "price_min": 6.0,
+      "price_max": 6.0,
+      "duration": "21h30",
+      "duration_min": 1290,
+      "age_rating": "Livre",
+      "age_min": 0,
+      "technical_sheet": {
+        "música": "Banda EnCantada — XXVIII Semana Cultural UC Academia XI Lágrimas de Amores Oficina Oficina de"
+      },
+      "people": [
+        "Banda EnCantada — XXVIII Semana Cultural UC Academia XI Lágrimas de Amores Oficina Oficina de"
+      ],
+      "sessions": [
+        {
+          "date": "2026-03-16",
+          "time": "21:30",
+          "weekday": "Seg"
+        }
+      ],
+      "schema_version": "2.0",
+      "is_free": null,
+      "for_families": true,
+      "is_accessible": null,
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "saoluiz-todos-p-ssaros",
@@ -2080,7 +2137,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "mariamatos-uma-ideia-genial",
@@ -2132,55 +2189,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
-    },
-    {
-      "id": "tagv-pulchritudines-concerto-sinf-nico-de-abertura-da-x",
-      "title": "Pulchritudines — Concerto Sinfónico de Abertura da XXVIII Semana Cultural UC",
-      "theater": "TAGV — Teatro Académico Gil Vicente",
-      "category": "Artes Performativas",
-      "date_start": "2026-03-18",
-      "source_url": "https://tagv.pt/agenda/o-narrador-diogo-liberano/",
-      "dates_label": "18 mar 2026",
-      "synopsis": "O Narrador é uma performance criada a partir do ensaio O Narrador – Considerações sobre a obra de Nikolai Leskov, do filósofo alemão Walter Benjamin. No ensaio, Benjamin analisa o empobrecimento do gesto de contar histórias e, consequentemente, da noção de experiência.…",
-      "image": {
-        "url": "https://tagv.pt/public/uploads/2026/02/tagv.pt-o-narrador-diogo-liberano-o-narrador-01-foto-de-anna-clara-carvalho.jpg",
-        "credit": null,
-        "source": "https://tagv.pt/agenda/o-narrador-diogo-liberano/",
-        "theater": "TAGV — Teatro Académico Gil Vicente"
-      },
-      "ticket_url": "https://tagv.bol.pt",
-      "duration": "18h30",
-      "duration_min": 1110,
-      "technical_sheet": {
-        "música": "Pulchritudines — Concerto Sinfónico de Abertura da XXVIII Semana Cultural UC Cinema DJ Ahmet Cinema Os Amantes Regulares Teatro Ode Marítima — Leitura Encenada Performance O Narrador Performance Lançamento Coreia#14 + Performance The Erotic Clown Poesia Nada é Impossível de Mudar: Poética da Revolta",
-        "dramaturgia": "original que partilha vivências pessoais relacionadas com a morte de familiares e amigos. Segundo Benjamin, a morte é a sanção de tudo o que o Narrador pode contar. É da morte que ele deriva sua autoridade. Por isso, O Narrador não se limita a abordar a morte, mas parte dela para construir um olhar",
-        "companhia": "teatral brasileira (2008-2021). Data 04, Março 2026 11, Março 2026 18, Março 2026 Horário 18H30 18H30 17H30 Duração 50 min. Faixa etária M16 Preço entrada gratuita Local Café Teatro",
-        "direção": "de",
-        "produção": "Diogo Liberano"
-      },
-      "people": [
-        "de",
-        "original que partilha vivências pessoais relacionadas com a morte de familiares",
-        "amigos. Segundo Benjamin",
-        "a morte é a sanção de tudo o que o Narrador pode contar. É da morte que ele deriva sua autoridade. Por isso",
-        "O Narrador não se limita a abordar a morte",
-        "mas parte dela para construir um olhar",
-        "Pulchritudines — Concerto Sinfónico de Abertura da XXVIII Semana Cultural UC Cinema DJ Ahmet Cinema Os Amantes Regulares Teatro Ode Marítima — Leitura Encenada Performance O Narrador Performance Lançamento Coreia#14 + Performance The Erotic Clown Poesia Nada é Impossível de Mudar: Poética da Revolta",
-        "Diogo Liberano"
-      ],
-      "sessions": [
-        {
-          "date": "2026-03-18",
-          "time": "17:30",
-          "weekday": "Qua"
-        }
-      ],
-      "schema_version": "2.0",
-      "subcategory": "Performance",
-      "is_free": null,
-      "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-aurora-ou-livro",
@@ -2234,7 +2243,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "saoluiz-as-quatro-mortes-de-napole-o",
@@ -2246,17 +2255,12 @@
       "subtitle": "Pedro Saavedra",
       "date_end": "2026-04-04",
       "dates_label": "21 março a 4 abril",
-      "schedule": "quarta a sábado, 19h30; domingo, 16h",
+      "schedule": "quarta a sábado, 19h30\núnico domingo (22 março), 16h",
       "sessions": [
         {
           "date": "2026-03-21",
           "time": "19:30",
           "weekday": "Sáb"
-        },
-        {
-          "date": "2026-03-22",
-          "time": "16:00",
-          "weekday": "Dom"
         },
         {
           "date": "2026-03-25",
@@ -2277,11 +2281,6 @@
           "date": "2026-03-28",
           "time": "19:30",
           "weekday": "Sáb"
-        },
-        {
-          "date": "2026-03-29",
-          "time": "16:00",
-          "weekday": "Dom"
         },
         {
           "date": "2026-04-01",
@@ -2338,7 +2337,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "variedades-in-the-heights",
@@ -2384,7 +2383,59 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
+    },
+    {
+      "id": "tagv-festival-end-a-cavalo-dado",
+      "title": "Festival END: A Cavalo Dado",
+      "theater": "TAGV — Teatro Académico Gil Vicente",
+      "category": "Artes Performativas",
+      "date_start": "2026-03-26",
+      "source_url": "https://tagv.pt/agenda/festival-end-o-projecto-elgelbreckt-engelbrecktsson/",
+      "dates_label": "26 mar 2026",
+      "synopsis": "Engelbrekt (Engelbrekt Engelbrektsson, c. 1390–1436) foi o líder da revolta de mineiros e camponeses em Dalarna, Suécia, na Primavera de 1434, cuja lema era “Queimem os castelos!”. Após vitórias militares iniciais, aliou-se à nobreza contra Érico da Pomerânia, rei da União de Kalmar.…",
+      "image": {
+        "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-festival-end-o-projecto-elgelbreckt-engelbrecktsson-oficina-rui-pina-coelho-vitorino-coragem.jpg",
+        "credit": null,
+        "source": "https://tagv.pt/agenda/festival-end-o-projecto-elgelbreckt-engelbrecktsson/",
+        "theater": "TAGV — Teatro Académico Gil Vicente"
+      },
+      "ticket_url": "https://tagv.bol.pt",
+      "duration": "11h00",
+      "duration_min": 660,
+      "technical_sheet": {
+        "dramaturgia": "Conversa Ser Preciso, Ser Aqui: Conversas Com Pessoas Dotadas de Minúcia Teatro Festival END: O Projecto Elgelbreckt Engelbrecktsson Teatro Festival END: Vado e Non Torno",
+        "música": "European Student Orchestra Festival 2026 Coimbra",
+        "produção": "com o Teatro Académico de Gil Vicente, e Aveiro, com o Teatro Aveirense. O festival assinala o Dia Mundial do Teatro, a 27 de março, com programação na cidade de Aveiro. Data 26, Março 2026 Horário 11H00 Duração 2h00 Faixa etária M12 Preço entrada gratuita Local Oficina Municipal do Teatro Fotografi",
+        "direção": "artística Mickaël de Oliveira Assistente de",
+        "apoio": "à comunicação Inês Melo"
+      },
+      "people": [
+        "artística Mickaël de Oliveira Assistente de",
+        "Conversa Ser Preciso",
+        "Ser Aqui: Conversas Com Pessoas Dotadas de Minúcia Teatro Festival END: O Projecto Elgelbreckt Engelbrecktsson Teatro Festival END: Vado",
+        "Non Torno",
+        "European Student Orchestra Festival 2026 Coimbra",
+        "com o Teatro Académico de Gil Vicente",
+        "Aveiro",
+        "com o Teatro Aveirense. O festival assinala o Dia Mundial do Teatro",
+        "a 27 de março",
+        "com programação na cidade de Aveiro. Data 26",
+        "Março 2026 Horário 11H00 Duração 2h00 Faixa etária M12 Preço entrada gratuita Local Oficina Municipal do Teatro Fotografi"
+      ],
+      "sessions": [
+        {
+          "date": "2026-03-26",
+          "time": "11:00",
+          "weekday": "Qui"
+        }
+      ],
+      "schema_version": "2.0",
+      "subcategory": "Performance",
+      "is_free": null,
+      "is_festival": true,
+      "is_accessible": null,
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "capitolio-evita",
@@ -2430,7 +2481,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "saoluiz-dia-mundial-do-teatro",
@@ -2468,7 +2519,7 @@
       "subcategory": "Performance",
       "is_free": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "saoluiz-a-luz-que-ficou",
@@ -2589,7 +2640,7 @@
       "schema_version": "2.0",
       "is_free": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-mem-rias-do-teatro-da-cornuc-pia",
@@ -2635,7 +2686,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-popular",
@@ -2692,7 +2743,48 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
+    },
+    {
+      "id": "tagv-festival-end-as-m-os-sujas-de-sangue-cr-tica-e-dra",
+      "title": "Festival END: As Mãos Sujas de Sangue. Crítica e Dramaturgia",
+      "theater": "TAGV — Teatro Académico Gil Vicente",
+      "category": "Música",
+      "date_start": "2026-03-27",
+      "source_url": "https://tagv.pt/agenda/european-student-orchestra-festival-2026-coimbra-sinfonietta-of-leuphana-universitat-luneburg-leipziger-universitatsorchester/",
+      "dates_label": "27 mar 2026",
+      "synopsis": "A edição de 2026, em Coimbra, representa um marco importante nesta missão, sendo o primeiro ESOF realizado no Sul da Europa (edições anteriores em Leuven, Estrasburgo, Tallinn, Bruxelas, Toulouse e Münster).…",
+      "image": {
+        "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-european-student-orchestra-festival-leipzig-1.jpg",
+        "credit": null,
+        "source": "https://tagv.pt/agenda/european-student-orchestra-festival-2026-coimbra-sinfonietta-of-leuphana-universitat-luneburg-leipziger-universitatsorchester/",
+        "theater": "TAGV — Teatro Académico Gil Vicente"
+      },
+      "ticket_url": "https://tagv.bol.pt",
+      "duration": "21h00",
+      "duration_min": 1260,
+      "technical_sheet": {
+        "dramaturgia": "Conversa Ser Preciso, Ser Aqui: Conversas Com Pessoas Dotadas de Minúcia Teatro Festival END: O Projecto Elgelbreckt Engelbrecktsson Teatro Festival END: Vado e Non Torno",
+        "música": "European Student Orchestra Festival 2026 Coimbra"
+      },
+      "people": [
+        "Conversa Ser Preciso",
+        "Ser Aqui: Conversas Com Pessoas Dotadas de Minúcia Teatro Festival END: O Projecto Elgelbreckt Engelbrecktsson Teatro Festival END: Vado",
+        "Non Torno",
+        "European Student Orchestra Festival 2026 Coimbra"
+      ],
+      "sessions": [
+        {
+          "date": "2026-03-27",
+          "time": "21:00",
+          "weekday": "Sex"
+        }
+      ],
+      "schema_version": "2.0",
+      "is_free": null,
+      "is_festival": true,
+      "is_accessible": null,
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "cine-teatro-avenida-happy-days-teatro-meridional",
@@ -2765,7 +2857,7 @@
       "subcategory": "Concerto",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-ana-sofia-varela",
@@ -2804,7 +2896,7 @@
       "subcategory": "Teatro",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-aprender-a-brincar-para-a-brincar-a-aprender",
@@ -2849,7 +2941,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-avenida-211",
@@ -2894,7 +2986,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-avenida-l-dica",
@@ -2934,7 +3026,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-concertos-filho-nico",
@@ -2974,7 +3066,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-revisitar-experimentar-e-aprender",
@@ -3014,7 +3106,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-habitar-portugal",
@@ -3059,7 +3151,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-may-i-help-you-posso-ajudar",
@@ -3099,7 +3191,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-lan-amento-do-cat-logo-avenida-211-um-espa-o-de-ar",
@@ -3139,7 +3231,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-lugar-de-estar",
@@ -3184,7 +3276,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-museu-aberto",
@@ -3224,7 +3316,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-alarve",
@@ -3264,7 +3356,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-programas-p-blicos",
@@ -3304,7 +3396,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-uma-deriva-atl-ntica",
@@ -3344,7 +3436,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-companhia-de-espectadores",
@@ -3384,7 +3476,7 @@
       "is_free": true,
       "for_schools": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-visita-guiada-ao-theatro-circo",
@@ -3421,7 +3513,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-dora-morelenbaum",
@@ -3463,44 +3555,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
-    },
-    {
-      "id": "tagv-festival-end-o-projecto-elgelbreckt-engelbrecktsso",
-      "title": "Festival END: O Projecto Elgelbreckt Engelbrecktsson",
-      "theater": "TAGV — Teatro Académico Gil Vicente",
-      "category": "Música",
-      "date_start": "2026-03-28",
-      "source_url": "https://tagv.pt/agenda/european-student-orchestra-festival-2026-coimbra-orchestre-universitaire-de-strasbourg-2/",
-      "dates_label": "28 mar 2026",
-      "synopsis": "A edição de 2026, em Coimbra, representa um marco importante nesta missão, sendo o primeiro ESOF realizado no Sul da Europa (edições anteriores em Leuven, Estrasburgo, Tallinn, Bruxelas, Toulouse e Münster).…",
-      "image": {
-        "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-european-student-orchestra-festival-2026-coimbra-orchestre-universitaire-de-strasbourg-toulouse.jpg",
-        "credit": null,
-        "source": "https://tagv.pt/agenda/european-student-orchestra-festival-2026-coimbra-orchestre-universitaire-de-strasbourg-2/",
-        "theater": "TAGV — Teatro Académico Gil Vicente"
-      },
-      "ticket_url": "https://tagv.bol.pt",
-      "duration": "21h00",
-      "duration_min": 1260,
-      "technical_sheet": {
-        "música": "European Student Orchestra Festival 2026 Coimbra"
-      },
-      "people": [
-        "European Student Orchestra Festival 2026 Coimbra"
-      ],
-      "sessions": [
-        {
-          "date": "2026-03-28",
-          "time": "21:00",
-          "weekday": "Sáb"
-        }
-      ],
-      "schema_version": "2.0",
-      "is_free": null,
-      "is_festival": true,
-      "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "cine-teatro-avenida-jo-o-barradas-100-anos-eug-nia-lima",
@@ -3566,7 +3621,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-james-webb-lt-br-gt-there-s-no-place-called-home-b",
@@ -3613,7 +3668,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-programa-vincular-8211-servi-o-de-educa-o-e-media-",
@@ -3652,7 +3707,7 @@
       "for_families": true,
       "for_schools": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-programa-l-dico",
@@ -3695,7 +3750,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-blue-moon",
@@ -3736,7 +3791,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-oficinas-de-f-rias-de-p-scoa-no-museu",
@@ -3773,7 +3828,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-visitas-guiadas-ao-edif-cio-centro-cultural-de-bel",
@@ -3817,7 +3872,7 @@
       "for_families": true,
       "for_schools": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-visitas-orientadas-e-tem-ticas-oficinas",
@@ -3860,7 +3915,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-porta-do-c-u",
@@ -3913,7 +3968,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "mariamatos-dr-love-a-cerim-nia",
@@ -3946,7 +4001,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-concerto-de-p-scoa-requiem-de-mozart",
@@ -3985,7 +4040,7 @@
       "subcategory": "Concerto",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-educa-o-inclusiva",
@@ -4024,7 +4079,7 @@
       "for_families": true,
       "for_schools": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-pr-escolar",
@@ -4063,7 +4118,7 @@
       "for_families": true,
       "for_schools": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-primeira-inf-ncia",
@@ -4102,7 +4157,7 @@
       "for_families": true,
       "for_schools": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-segundo-ciclo",
@@ -4146,7 +4201,7 @@
       "for_families": true,
       "for_schools": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-terceiro-ciclo-e-secund-rio",
@@ -4190,7 +4245,7 @@
       "for_families": true,
       "for_schools": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-universit-rio",
@@ -4228,7 +4283,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-tr-s-tempos",
@@ -4283,73 +4338,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
-    },
-    {
-      "id": "tagv-european-student-orchestra-festival-2026-coimbra",
-      "title": "European Student Orchestra Festival 2026 Coimbra",
-      "theater": "TAGV — Teatro Académico Gil Vicente",
-      "category": "Artes Performativas",
-      "date_start": "2026-04-02",
-      "source_url": "https://tagv.pt/agenda/festival-adc-onyx/",
-      "dates_label": "2 abr 2026",
-      "synopsis": "A prática destes corpos é tão encantada quanto brutal. Há uma ancestralidade de um futuro potente. É poético e tem prazer. Há calma e um caos meteórico, uma partilha de arquivos pessoais e fantasias em que a pele não é uma fronteira, mas sim um veículo.…",
-      "image": {
-        "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-festival-adc-onyx-20260402-onix-alipio-padilha-02.jpg",
-        "credit": null,
-        "source": "https://tagv.pt/agenda/festival-adc-onyx/",
-        "theater": "TAGV — Teatro Académico Gil Vicente"
-      },
-      "ticket_url": "https://tagv.bol.pt",
-      "price_info": "7€",
-      "price_min": 7.0,
-      "price_max": 7.0,
-      "duration": "21h30",
-      "duration_min": 1290,
-      "age_rating": "Livre",
-      "age_min": 0,
-      "technical_sheet": {
-        "música": "European Student Orchestra Festival 2026 Coimbra",
-        "texto": "Piny Co-criação de movimento",
-        "interpretação": "André Cabral, Lua Aurora Desenho de",
-        "som": "Carincur, Leo Soulflow",
-        "luz": "João Pedro Fonseca",
-        "adaptação": "e operação de",
-        "produção": "DDD — Festival Dias da Dança, TBA – Teatro do Bairro Alto, Materiais Diversos, Teatro Aveirense – Câmara Municipal de Aveiro, Rota Clandestina",
-        "apoio": "em residência Alkantara, TBA — Teatro do Bairro Alto, Estúdios Victor Cordon, Jazzy Dance Studios Fotografia Alípio Padilha *O espetáculo tem"
-      },
-      "cast": [
-        "André Cabral",
-        "Lua Aurora Desenho de"
-      ],
-      "people": [
-        "Piny Co-criação de movimento",
-        "João Pedro Fonseca",
-        "Carincur",
-        "Leo Soulflow",
-        "European Student Orchestra Festival 2026 Coimbra",
-        "André Cabral",
-        "Lua Aurora Desenho de",
-        "DDD — Festival Dias da Dança",
-        "TBA – Teatro do Bairro Alto",
-        "Materiais Diversos",
-        "Teatro Aveirense – Câmara Municipal de Aveiro",
-        "Rota Clandestina"
-      ],
-      "sessions": [
-        {
-          "date": "2026-04-02",
-          "time": "21:30",
-          "weekday": "Qui"
-        }
-      ],
-      "schema_version": "2.0",
-      "subcategory": "Performance",
-      "is_free": null,
-      "is_festival": true,
-      "for_families": true,
-      "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "cine-teatro-avenida-quando-vem-a-taciturna-joana-t-hugo-c",
@@ -4426,7 +4415,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "teatrodasfiguras-ciclo-grandes-solistas",
@@ -4445,7 +4434,7 @@
         }
       ],
       "schedule": "18h00",
-      "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+      "synopsis": "Concerto de celebração do Centenário do Rotary em Portugal",
       "image": {
         "url": "https://teatrodasfiguras.pt/uploads/Eventos/2026/Abril/Ciclo_Solistas_Abril_MINIATURA.jpg?file=07OfXDBPtOQ0RrNIYZRbbA",
         "credit": null,
@@ -4461,7 +4450,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "mariamatos-o-amor-fodid",
@@ -4500,7 +4489,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-festas-de-anivers-rio-no-museu",
@@ -4539,7 +4528,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-open-call-laborat-rio-assim-trico",
@@ -4587,7 +4576,7 @@
       "subcategory": "Performance",
       "is_free": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "teatrodasfiguras-os-invis-veis",
@@ -4606,7 +4595,7 @@
         }
       ],
       "schedule": "18h00",
-      "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+      "synopsis": "Concerto de celebração do Centenário do Rotary em Portugal",
       "image": {
         "url": "https://teatrodasfiguras.pt/uploads/Eventos/2026/Abril/Document%C3%A1rio_Os_Invis%C3%ADveis_MINIATURA.jpg?file=p-keOaf6wGFcOsG25hyoaA",
         "credit": null,
@@ -4623,7 +4612,7 @@
       "subcategory": "Cinema",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "cine-teatro-avenida-o-estrangeiro-de-fran-ois-ozon",
@@ -4713,7 +4702,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-amadeo-s",
@@ -4760,7 +4749,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-confer-ncia-8211-a-sinfonia-em-finais-do-s-culo-xv",
@@ -4796,7 +4785,7 @@
       "subcategory": "Conversa",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-sinfonia-n-41-8220-j-piter-8221-de-mozart",
@@ -4835,7 +4824,7 @@
       "subcategory": "Concerto",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "teatrodasfiguras-para-so-de-los-negros",
@@ -4854,7 +4843,7 @@
         }
       ],
       "schedule": "21h30",
-      "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+      "synopsis": "Concerto de celebração do Centenário do Rotary em Portugal",
       "image": {
         "url": "https://teatrodasfiguras.pt/uploads/Eventos/2026/Abril/Paraiso_de_los_Negros_MINIATURA.jpg?file=rLy-4754X6rXQsBGY0jTMg",
         "credit": null,
@@ -4871,7 +4860,7 @@
       "subcategory": "Dança",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "saoluiz-kabe-a-or",
@@ -4947,7 +4936,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-garfo",
@@ -4983,7 +4972,7 @@
       "subcategory": "Concerto",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-museu-em-partilha",
@@ -5021,7 +5010,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-m-sica-no-museu",
@@ -5059,7 +5048,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-tr-s-vozes-de-morton-feldman",
@@ -5099,7 +5088,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-contraponto-g-recki-e-adams",
@@ -5139,7 +5128,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "teatrodasfiguras-s-rgio-os-assessores",
@@ -5158,7 +5147,7 @@
         }
       ],
       "schedule": "21h30",
-      "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+      "synopsis": "Concerto de celebração do Centenário do Rotary em Portugal",
       "image": {
         "url": "https://teatrodasfiguras.pt/uploads/Eventos/2026/Abril/S%C3%A9rgio_Godinho_MINIATURA.jpg?file=38HMzJRhtVZphR-3UUsj_Q",
         "credit": null,
@@ -5174,7 +5163,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-atividades-para-fam-lias",
@@ -5217,7 +5206,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "saoluiz-jardim-aberto-cores-em-cinza-m-sica-francesa-da-gr",
@@ -5256,7 +5245,7 @@
       "is_free": true,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-entroncamento",
@@ -5293,71 +5282,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
-    },
-    {
-      "id": "tagv-open-call-bolsas-de-cria-o-locais",
-      "title": "Open Call: Bolsas de Criação Locais",
-      "theater": "TAGV — Teatro Académico Gil Vicente",
-      "category": "Artes Performativas",
-      "date_start": "2026-04-13",
-      "source_url": "https://tagv.pt/agenda/ode-maritima-leitura-encenada-teatro-do-interior/",
-      "dates_label": "13 abr 2026",
-      "synopsis": "Na Ode Marítima, solitário entre a multidão da grande cidade, o poeta chega ao cais e vê “pequeno, negro e claro, um paquete entrando”. A partir dessa visão, o poeta viaja no tempo e no espaço, recupera fugazmente a própria infância.…",
-      "image": {
-        "url": "https://tagv.pt/public/uploads/2026/02/tagv.pt-ode-maritima-leitura-encenada-teatro-do-interior-20260305-ode-maritimateatro-do-interior-cartaz.jpg",
-        "credit": null,
-        "source": "https://tagv.pt/agenda/ode-maritima-leitura-encenada-teatro-do-interior/",
-        "theater": "TAGV — Teatro Académico Gil Vicente"
-      },
-      "ticket_url": "https://tagv.bol.pt",
-      "duration": "10h30",
-      "duration_min": 630,
-      "technical_sheet": {
-        "música": "Pulchritudines — Concerto Sinfónico de Abertura da XXVIII Semana Cultural UC Cinema DJ Ahmet Cinema Os Amantes Regulares Teatro Ode Marítima — Leitura Encenada Performance O Narrador Performance Lançamento Coreia#14 + Performance The Erotic Clown Poesia Nada é Impossível de Mudar: Poética da Revolta",
-        "texto": "grandioso, situando-se como um dos mais representativos da obra do poeta Na Ode Marítima, solitário entre a multidão da grande cidade, o poeta chega ao cais e vê “pequeno, negro e claro, um paquete entrando”. A partir dessa visão, o poeta viaja no tempo e no espaço, recupera fugazmente a própria inf",
-        "direção": "artística, Encenação",
-        "interpretação": "Manuel Wiborg Imagens William Turner Música",
-        "som": "André Pires Grafismo Álvaro Rosendo",
-        "produção": "Teatro do Interior Clique ou faça scroll para ver o próximo evento. Toque para ver o próximo evento. Performance O Narrador O TAGV, remodelado em 2003, é um polo de conhecimento e formação artística. Subscreve a newsletter. Aviso sobre tratamento de dados Praça da República 3000-342 Coimbra Bilhetei"
-      },
-      "cast": [
-        "Manuel Wiborg Imagens William Turner Música"
-      ],
-      "people": [
-        "grandioso",
-        "situando-se como um dos mais representativos da obra do poeta Na Ode Marítima",
-        "solitário entre a multidão da grande cidade",
-        "o poeta chega ao cais",
-        "vê “pequeno",
-        "negro",
-        "claro",
-        "um paquete entrando”. A partir dessa visão",
-        "o poeta viaja no tempo",
-        "no espaço",
-        "recupera fugazmente a própria inf",
-        "artística",
-        "Encenação",
-        "André Pires Grafismo Álvaro Rosendo",
-        "Pulchritudines — Concerto Sinfónico de Abertura da XXVIII Semana Cultural UC Cinema DJ Ahmet Cinema Os Amantes Regulares Teatro Ode Marítima — Leitura Encenada Performance O Narrador Performance Lançamento Coreia#14 + Performance The Erotic Clown Poesia Nada é Impossível de Mudar: Poética da Revolta",
-        "Manuel Wiborg Imagens William Turner Música",
-        "Teatro do Interior Clique ou faça scroll para ver o próximo evento. Toque para ver o próximo evento. Performance O Narrador O TAGV",
-        "remodelado em 2003",
-        "é um polo de conhecimento",
-        "formação artística. Subscreve a newsletter. Aviso sobre tratamento de dados Praça da República 3000-342 Coimbra Bilhetei"
-      ],
-      "sessions": [
-        {
-          "date": "2026-04-13",
-          "time": "10:30",
-          "weekday": "Seg"
-        }
-      ],
-      "schema_version": "2.0",
-      "subcategory": "Performance",
-      "is_free": null,
-      "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "saoluiz-coisas-de-teatro",
@@ -5399,7 +5324,7 @@
       "schema_version": "2.0",
       "is_free": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "mariamatos-m-nica-salmaso",
@@ -5431,7 +5356,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "cine-teatro-avenida-o-barqueiro-de-sim-o-cayatte",
@@ -5493,7 +5418,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-2062-k-cena-projeto-de-teatro-jovem",
@@ -5563,7 +5488,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "teatrodasfiguras-estou-beira-do-abismo-mas-a-vista-excepcional",
@@ -5582,7 +5507,7 @@
         }
       ],
       "schedule": "18h00",
-      "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+      "synopsis": "Concerto de celebração do Centenário do Rotary em Portugal",
       "image": {
         "url": "https://teatrodasfiguras.pt/uploads/Eventos/2026/Fevereiro/Ciclo_de_Conversas_Abril_MINIATURA.jpg?file=yHyc0aW8sT8SVJKA1I6JJg",
         "credit": null,
@@ -5599,7 +5524,7 @@
       "subcategory": "Teatro",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-tahiti-estreia",
@@ -5643,7 +5568,7 @@
       "subcategory": "Ópera",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-111-anivers-rio-do-theatro-circo",
@@ -5718,7 +5643,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-capra-or-how-to-say-hello-to-fear",
@@ -5768,7 +5693,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-hist-rias-de-sonho",
@@ -5796,8 +5721,8 @@
       "price_info": "",
       "technical_sheet": {},
       "tags": [
-        "Infantojuvenil",
-        "Aniversário"
+        "Aniversário",
+        "Infantojuvenil"
       ],
       "accessibility": [],
       "subtitle": "Livraria Aqui há Gato",
@@ -5808,7 +5733,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-elisabete-matos-maciej-pikulski-e-pedro-ribeiro",
@@ -5852,7 +5777,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "teatrodasfiguras-a-luminosa-viol-ncia-da-perfei-o",
@@ -5871,7 +5796,7 @@
         }
       ],
       "schedule": "21h30",
-      "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+      "synopsis": "Concerto de celebração do Centenário do Rotary em Portugal",
       "image": {
         "url": "https://teatrodasfiguras.pt/uploads/Eventos/2026/Abril/A_Luminosa_Viol%C3%AAncia_FINAL_EVENTO.jpg?file=3JE9w8vCLtQlShFW12DmHQ",
         "credit": null,
@@ -5888,7 +5813,7 @@
       "subcategory": "Dança",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "saoluiz-lan-amento-livro-contra-corvos",
@@ -5926,7 +5851,7 @@
       "schema_version": "2.0",
       "is_free": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-a-hist-ria-do-pequeno-alfaiate-de-tibor-hars-nyi",
@@ -5964,7 +5889,7 @@
       "subcategory": "Concerto",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-tortoise",
@@ -6009,7 +5934,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-o-barqueiro",
@@ -6049,7 +5974,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "cine-teatro-avenida-riefensthal-de-andres-veiel",
@@ -6114,7 +6039,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-a-garota-n-o",
@@ -6159,7 +6084,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "saoluiz-d-juan",
@@ -6230,7 +6155,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "mariamatos-tom-smith",
@@ -6264,7 +6189,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-formas-de-fazer-na-sombra-dos-relatos-oficiais",
@@ -6308,7 +6233,7 @@
       "schema_version": "2.0",
       "is_free": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "teatrodasfiguras-zoom-encontro-de-media-o-cultural",
@@ -6332,7 +6257,7 @@
         }
       ],
       "schedule": "9h30 - 18h00",
-      "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+      "synopsis": "Concerto de celebração do Centenário do Rotary em Portugal",
       "image": {
         "url": "https://teatrodasfiguras.pt/uploads/Eventos/2026/Abril/Zoom_Final_MINIATURA.jpg?file=vIHQsNiP-YFWj6ewbxFnVA",
         "credit": null,
@@ -6349,7 +6274,7 @@
       "subcategory": "Teatro",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "culturgest-catarina-r-lo-salgueiro-e-isabel-costa-os-possesso",
@@ -6404,7 +6329,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-o-coro-miss-o-democracia-8211-estreia",
@@ -6455,7 +6380,7 @@
       "subcategory": "Concerto",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-um-territ-rio-comum-para-a-arte-cultura-e-educa-o",
@@ -6494,7 +6419,7 @@
       "for_families": true,
       "for_schools": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-archipelago",
@@ -6541,7 +6466,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "trindade-verdadeiro-oeste",
@@ -6603,7 +6528,7 @@
       "subcategory": "Teatro",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-minist-rio-do-sens-vel",
@@ -6641,7 +6566,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-tannh-user-de-wagner",
@@ -6685,7 +6610,7 @@
       "subcategory": "Concerto",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-como-una-baguala-oscura",
@@ -6740,7 +6665,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-cidade-cultural-participativa",
@@ -6778,7 +6703,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-prepara-o-d-o-coro-miss-o-democracia",
@@ -6816,7 +6741,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-notas-de-m-sica-8211-ciclo-de-confer-ncias",
@@ -6852,7 +6777,7 @@
       "subcategory": "Concerto",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-as-quatro-esta-es-de-vivaldi",
@@ -6890,7 +6815,7 @@
       "subcategory": "Concerto",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-dj-ahmet",
@@ -6932,7 +6857,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "saoluiz-festival-m-sica-viva-2026-insurg-ncia",
@@ -6996,7 +6921,7 @@
       "is_festival": true,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "cine-teatro-avenida-aprender-de-claire-simon",
@@ -7059,7 +6984,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-miguel-ara-jo",
@@ -7109,7 +7034,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-projetos-media-o",
@@ -7148,7 +7073,7 @@
       "for_families": true,
       "for_schools": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-sobre-a-verdade-da-mentira",
@@ -7186,7 +7111,7 @@
       "subcategory": "Teatro",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-f-rs",
@@ -7247,7 +7172,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "trindade-clube-dos-poetas-mortos",
@@ -7308,7 +7233,7 @@
       "subcategory": "Teatro",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "teatrodasfiguras-z-eduardo-trio-convida-clarke-peters",
@@ -7327,7 +7252,7 @@
         }
       ],
       "schedule": "21h30",
-      "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+      "synopsis": "Concerto de celebração do Centenário do Rotary em Portugal",
       "image": {
         "url": "https://teatrodasfiguras.pt/uploads/Eventos/2026/Abril/Z%C3%A9_Eduardo_MINIATURA.jpg?file=ImogMKXDuUBjUSMsv5l9tw",
         "credit": null,
@@ -7343,7 +7268,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-jos-pedro-croft",
@@ -7383,7 +7308,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-programa-miss-o-democracia",
@@ -7421,7 +7346,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-jos-manuel-neto",
@@ -7460,7 +7385,7 @@
       "subcategory": "Concerto",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "teatrodasfiguras-dino-d-santiago",
@@ -7479,7 +7404,7 @@
         }
       ],
       "schedule": "21h30",
-      "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+      "synopsis": "Concerto de celebração do Centenário do Rotary em Portugal",
       "image": {
         "url": "https://teatrodasfiguras.pt/uploads/Eventos/2026/Maio/Dino_DSantiago_MINIATURA.jpg?file=P32CSvgnNx2DTk9XN7966Q",
         "credit": null,
@@ -7496,7 +7421,7 @@
       "is_free": null,
       "is_festival": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "teatrodasfiguras-joana-marques",
@@ -7515,7 +7440,7 @@
         }
       ],
       "schedule": "17h30 e 21h30",
-      "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+      "synopsis": "Concerto de celebração do Centenário do Rotary em Portugal",
       "image": {
         "url": "https://teatrodasfiguras.pt/uploads/Eventos/2026/Maio/Joana_Marques_MINIATURA.jpg?file=x5-BtJgRHibKrGHy0qRAQw",
         "credit": null,
@@ -7532,7 +7457,7 @@
       "subcategory": "Comédia",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-a-m-sica-d-trabalho",
@@ -7593,7 +7518,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-os-transparentes",
@@ -7641,7 +7566,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "variedades-o-tamanho-das-coisas",
@@ -7732,7 +7657,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "saoluiz-dead-as-a-dodo",
@@ -7790,7 +7715,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "saoluiz-fimfa-lx26",
@@ -7837,7 +7762,7 @@
       "is_free": null,
       "is_festival": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-index",
@@ -7921,7 +7846,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-index-fanfictional-politics",
@@ -8006,7 +7931,7 @@
       "schema_version": "2.0",
       "is_free": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-index-ther-poor-objects",
@@ -8093,7 +8018,7 @@
       "schema_version": "2.0",
       "is_free": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-index-forensis-bill-kouligas",
@@ -8136,7 +8061,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "saoluiz-cabaret-love-hen",
@@ -8191,7 +8116,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-index-supersilent-lawrence-abu-hamdan",
@@ -8232,7 +8157,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "teatrodasfiguras-falsas-hist-rias-verdadeiras-uma-pina-colagem",
@@ -8251,7 +8176,7 @@
         }
       ],
       "schedule": "21h30",
-      "synopsis": "A comédia dramática O FIGURANTE é o primeiro monólogo de Mateus Solano.",
+      "synopsis": "Concerto de celebração do Centenário do Rotary em Portugal",
       "image": {
         "url": "https://teatrodasfiguras.pt/uploads/Eventos/2026/Maio/Uma_Pina_Colagem_MINIATURA.jpg?file=J7xwYyEKlPhzT1d1Zr0DMQ",
         "credit": null,
@@ -8268,7 +8193,7 @@
       "subcategory": "Teatro",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-index-arkadi-zaides",
@@ -8309,7 +8234,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "teatrodasfiguras-ocenpsiea",
@@ -8344,7 +8269,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "teatrodasfiguras-ciclo-grandes-solistas-concerto-para-violino-de-br",
@@ -8379,7 +8304,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "teatrodasfiguras-paula-sousa-trio",
@@ -8414,7 +8339,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "mariamatos-latte-escrevi-can-es-e-s-o-todas-iguais",
@@ -8450,7 +8375,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-american-blues",
@@ -8509,7 +8434,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "trindade-diana-vilarinho",
@@ -8557,7 +8482,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "mariamatos-sin-doque-ivo-canelas-e-jo-o-vasco",
@@ -8591,7 +8516,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "saoluiz-thauma",
@@ -8650,7 +8575,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "teatrodasfiguras-petr-leo",
@@ -8686,7 +8611,7 @@
       "subcategory": "Teatro",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-olhos-m-ltiplos",
@@ -8726,7 +8651,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-mudar",
@@ -8787,7 +8712,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-da-cor-dos-sons",
@@ -8830,7 +8755,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-saber-ir-ao-fundo",
@@ -8881,7 +8806,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "teatrodasfiguras-miguel-ngelo-trio",
@@ -8916,7 +8841,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-miss-o-literacia-democr-tica-e-liter-ria-nas-escol",
@@ -8953,7 +8878,7 @@
       "is_free": null,
       "for_schools": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-para-desarrumar-ideias",
@@ -8994,7 +8919,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "teatrodasfiguras-bruno-pernadas",
@@ -9029,7 +8954,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-candinho-uma-pera-para-todos-de-jo-o-guilherme-rip",
@@ -9070,7 +8995,7 @@
       "subcategory": "Concerto",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-dia-internacional-dos-museus",
@@ -9108,7 +9033,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-eu-capit-o",
@@ -9152,7 +9077,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "mariamatos-in-s-de-vasconcellos-entre-ontem-e-agora",
@@ -9188,7 +9113,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-mulheres-estrangeiras",
@@ -9233,7 +9158,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "saoluiz-vidro-pantera-estilha-os-de-heiner-muller",
@@ -9283,7 +9208,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "culturgest-alex-cassal-m-cria-o",
@@ -9331,7 +9256,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "teatrodasfiguras-o-nome",
@@ -9367,7 +9292,7 @@
       "subcategory": "Teatro",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-confer-ncia-8211-o-belo-em-som-viagem-atrav-s-dos-",
@@ -9403,7 +9328,7 @@
       "subcategory": "Concerto",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-sobre-a-beleza-da-m-sica-renascentista-m-sica-dos-",
@@ -9439,7 +9364,7 @@
       "subcategory": "Concerto",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-xxxv-fitu-bracara-avgvsta",
@@ -9485,7 +9410,7 @@
       "is_festival": true,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-dardust",
@@ -9521,7 +9446,7 @@
       "subcategory": "Concerto",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-suplicantes",
@@ -9576,7 +9501,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "teatrodasfiguras-carminho",
@@ -9611,7 +9536,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-constitui-o-8211-estreia",
@@ -9682,7 +9607,7 @@
       "subcategory": "Teatro",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-sinfonia-n-7-de-beethoven",
@@ -9721,7 +9646,7 @@
       "subcategory": "Concerto",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "teatrodasfiguras-jo-o-paulo-esteves-da-silva",
@@ -9756,7 +9681,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-n-s-sozinhas",
@@ -9814,7 +9739,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "trindade-mico-da-camara-pereira",
@@ -9860,7 +9785,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-volta-de-n-s-sozinhas",
@@ -9905,7 +9830,7 @@
       "is_free": null,
       "for_schools": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "teatrodasfiguras-para-que-serve-a-literatura",
@@ -9941,7 +9866,7 @@
       "subcategory": "Teatro",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "variedades-around-classic",
@@ -9992,7 +9917,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "capitolio-around-classic",
@@ -10043,7 +9968,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "saoluiz-hip-lito",
@@ -10094,7 +10019,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-only-duos",
@@ -10137,7 +10062,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-habitar",
@@ -10188,7 +10113,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "teatrodasfiguras-o-que-se-abre-em-n-s",
@@ -10224,7 +10149,7 @@
       "subcategory": "Dança",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-contexto",
@@ -10260,7 +10185,7 @@
       "schema_version": "2.0",
       "is_free": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-contraponto-john-luther-adams-philip-glass",
@@ -10303,7 +10228,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-dia-mundial-da-crian-a",
@@ -10341,7 +10266,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-laurie-anderson-com-sexmob",
@@ -10377,7 +10302,7 @@
       "subcategory": "Teatro",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-visitas-guiadas",
@@ -10415,7 +10340,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-a-winged-victory-for-the-sullen",
@@ -10454,7 +10379,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "teatrodasfiguras-masha-e-o-urso",
@@ -10490,7 +10415,7 @@
       "subcategory": "Teatro",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-oru-kami",
@@ -10546,7 +10471,7 @@
       "schema_version": "2.0",
       "is_free": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-teatro-para-so-palavra-ambulante",
@@ -10623,7 +10548,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-chamada-aberta-ao-p-blico-do-theatro-circo",
@@ -10661,7 +10586,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-laurie-anderson-com-sexmob",
@@ -10705,7 +10630,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "saoluiz-da-boca-pra-fora",
@@ -10796,7 +10721,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "teatrodasfiguras-m-sica-em-forma-de-rio",
@@ -10831,7 +10756,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "variedades-radojka",
@@ -10877,7 +10802,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-frida-orupabo",
@@ -10917,7 +10842,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-crian-as-ao-poder-buluku",
@@ -10969,7 +10894,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "teatrodasfiguras-um-quinteto-de-morte",
@@ -11015,7 +10940,7 @@
       "subcategory": "Teatro",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "saoluiz-l-allegro-il-penseroso-ed-il-moderato",
@@ -11053,7 +10978,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-crian-as-ao-poder-oru-kami",
@@ -11101,7 +11026,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-crian-as-ao-poder-o-meu-astronauta-e-o-metaverso",
@@ -11146,7 +11071,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-crian-as-ao-poder-the-legendary-tigerman",
@@ -11192,7 +11117,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-o-direito-do-mais-fraco-liberdade",
@@ -11236,7 +11161,7 @@
       "subcategory": "Teatro",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-scheherazade-de-rimsky-korsakov",
@@ -11275,7 +11200,7 @@
       "subcategory": "Concerto",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "saoluiz-jardim-aberto-m-sica-no-feminino",
@@ -11314,7 +11239,7 @@
       "is_free": true,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-lucrecia-dalt",
@@ -11357,7 +11282,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "saoluiz-a-reinven-o-de-vivaldi",
@@ -11395,7 +11320,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "teatrodasfiguras-a-batalha-do-k-pop-em-concerto-tributo",
@@ -11435,7 +11360,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-flow-deriva",
@@ -11482,7 +11407,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-jos-afonso-ao-vivo-nos-coliseus-1983",
@@ -11539,7 +11464,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "saoluiz-as-paix-es-da-alma",
@@ -11580,7 +11505,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "teatrodasfiguras-ciclo-grandes-solistas-tributo-a-elgar",
@@ -11615,7 +11540,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-funny-funny-bones",
@@ -11673,7 +11598,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "trindade-andr-de-freitas",
@@ -11715,7 +11640,7 @@
       "subcategory": "Comédia",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-exerc-cio-de-montagem",
@@ -11809,7 +11734,7 @@
       "subcategory": "Concerto",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-terra-crua",
@@ -11849,7 +11774,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "teatrodasfiguras-tommy-guerrero",
@@ -11884,7 +11809,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "saoluiz-a-cavalo",
@@ -11939,7 +11864,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-carminho",
@@ -11982,7 +11907,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-eis-um-urso-agora-devem-faz-lo-rir",
@@ -12023,7 +11948,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "saoluiz-deixar-o-karate",
@@ -12113,7 +12038,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-o-caminho-do-c-u",
@@ -12166,7 +12091,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "saoluiz-es-tr3s-irms",
@@ -12220,7 +12145,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "culturgest-mala-voadora",
@@ -12278,7 +12203,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-confer-ncia-o-mesmo-nada-em-tudo-a-tor-o-barroca-d",
@@ -12314,7 +12239,7 @@
       "subcategory": "Conversa",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-da-desordem-das-paix-es",
@@ -12356,7 +12281,7 @@
       "subcategory": "Concerto",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-domte",
@@ -12404,7 +12329,7 @@
       "is_free": null,
       "is_festival": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-composi-o-e-improvisa-o-na-m-sica-contempor-nea",
@@ -12442,7 +12367,7 @@
       "schema_version": "2.0",
       "is_free": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-indigo-quintet",
@@ -12485,7 +12410,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "saoluiz-pedro-moutinho-h-lder-moutinho",
@@ -12526,7 +12451,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-raiz",
@@ -12562,7 +12487,7 @@
       "subcategory": "Concerto",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-um-julgamento",
@@ -12607,7 +12532,7 @@
       "subcategory": "Teatro",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "capitolio-emel-mathlouthi",
@@ -12648,7 +12573,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-e-se-f-ssemos-a-votos",
@@ -12704,7 +12629,53 @@
       "subcategory": "Teatro",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
+    },
+    {
+      "id": "variedades-variedades",
+      "title": "VARIEDADES",
+      "theater": "Teatro Variedades",
+      "category": "Artes Performativas",
+      "dates_label": "08.07 – 16.08.2026",
+      "date_start": "2026-07-08",
+      "date_end": "2026-08-16",
+      "sessions": [
+        {
+          "date": "2026-07-08",
+          "time": "21:00",
+          "weekday": "Qua"
+        },
+        {
+          "date": "2026-08-16",
+          "time": "21:00",
+          "weekday": "Dom"
+        }
+      ],
+      "schedule": "21h",
+      "synopsis": "Dez personagens assíduas do Parque Mayer, uma varina, um marujo, um ardina, um vendedor de coplas, um cauteleiro, uma menina de barraca de tiros, uma viúva rica, uma escritora, uma costureira e o dono dum restaurante, tornam-se os guardiões das memórias do Teatro Variedades – assistem a todas as est…",
+      "image": {
+        "url": "https://teatrovariedades-capitolio.pt/wp-content/uploads/2026/03/3-a-conta-que-deus-fez-TEATRO-VARIEDADES-10-de-janeiro-Francisco-Correia-24.jpg",
+        "credit": null,
+        "source": "https://teatrovariedades-capitolio.pt/evento/variedades/",
+        "theater": "Teatro Variedades"
+      },
+      "source_url": "https://teatrovariedades-capitolio.pt/evento/variedades/",
+      "ticket_url": "https://teatrovariedades-capitolio.pt/visite-nos/bilheteira-e-horarios/",
+      "price_info": "14€",
+      "age_rating": "+351",
+      "accessibility": "",
+      "technical_sheet": {},
+      "subtitle": "Entre 14€ e 22€",
+      "price_min": 14.0,
+      "price_max": 14.0,
+      "duration": "120 min",
+      "duration_min": 120,
+      "age_min": null,
+      "schema_version": "2.0",
+      "subcategory": "Performance",
+      "is_free": null,
+      "is_accessible": null,
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "mariamatos-swimming-pool-party",
@@ -12756,7 +12727,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-quem-tem-medo-de-virginia-woolf-de-edward-albee",
@@ -12802,7 +12773,7 @@
       "subcategory": "Teatro",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-tarde-fora",
@@ -12842,7 +12813,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-cinema-play",
@@ -12887,7 +12858,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-jason-moran",
@@ -12923,7 +12894,7 @@
       "subcategory": "Concerto",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "capitolio-gongada-drag",
@@ -12967,7 +12938,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "saoluiz-escola-superior-de-teatro-e-cinema",
@@ -13026,7 +12997,7 @@
       "is_free": true,
       "for_schools": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "viriato-concerto-final-do-18-workshop-de-jazz-de-viseu",
@@ -13076,7 +13047,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-sinfonia-n-9-8220-novo-mundo-8221-de-dvo-k",
@@ -13114,7 +13085,7 @@
       "subcategory": "Concerto",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-v-mit-mostra-internacional-de-teatro-sem-fronteira",
@@ -13185,7 +13156,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "capitolio-macbeth",
@@ -13246,7 +13217,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-hamlet",
@@ -13297,7 +13268,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-romeu-julieta",
@@ -13349,7 +13320,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-as-correntes-de-jo-o-c-sar-monteiro",
@@ -13394,7 +13365,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-veredas",
@@ -13435,7 +13406,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-silvestre",
@@ -13476,7 +13447,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-flor-do-mar",
@@ -13517,7 +13488,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "teatrodasfiguras-evita",
@@ -13563,7 +13534,7 @@
       "subcategory": "Teatro Musical",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-o-ltimo-mergulho",
@@ -13605,7 +13576,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-as-bodas-de-deus",
@@ -13646,7 +13617,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "capitolio-come-from-away",
@@ -13692,7 +13663,7 @@
       "subcategory": "Performance",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "saoluiz-visitas-guiadas-2025-2026",
@@ -13723,7 +13694,7 @@
       "schema_version": "2.0",
       "is_free": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-mike-stern-band",
@@ -13759,7 +13730,7 @@
       "subcategory": "Teatro",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "variedades-teatro-variedades-100-anos-100-entradas-na-wikip-d",
@@ -13793,7 +13764,7 @@
       "schema_version": "2.0",
       "is_free": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "mariamatos-tova-leigh-fifty-shades-of-rage",
@@ -13825,7 +13796,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-ngela-ferreira",
@@ -13865,7 +13836,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-sul",
@@ -13903,7 +13874,7 @@
       "subcategory": "Concerto",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-marco-rodrigues-canta-carlos-do-carmo",
@@ -13941,7 +13912,7 @@
       "subcategory": "Concerto",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-francisca-carvalho",
@@ -13981,7 +13952,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-ne-l-beloufa",
@@ -14021,7 +13992,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "saoluiz-ra-l-refree-maria-mazzotta",
@@ -14059,7 +14030,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "saoluiz-vincent-peirani",
@@ -14097,7 +14068,87 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
+    },
+    {
+      "id": "ccb-alan-stivell",
+      "title": "Alan Stivell",
+      "subtitle": "Misty Fest",
+      "theater": "CCB — Centro Cultural de Belém",
+      "category": "Formação & Participação",
+      "dates_label": "2026-11-21",
+      "date_start": "2026-11-21",
+      "date_end": "2026-11-21",
+      "sessions": [
+        {
+          "date": "2026-11-21",
+          "time": "",
+          "weekday": "Sáb"
+        }
+      ],
+      "schedule": "",
+      "synopsis": "A celebrar 60 anos de carreira, o artista apresenta uma formação renovada, de 10 músicos, com a qual parte em digressão para partilhar o seu repertório com o público.…",
+      "image": {
+        "url": "https://www.ccb.pt/wp-content/uploads/2026/03/Alan_banner_1200x.jpg",
+        "credit": "2026 Fundação Centro Cultural de Belém - Todos os direitos reservados Apoio inst",
+        "source": "https://www.ccb.pt/evento/alan-stivell/",
+        "theater": "CCB — Centro Cultural de Belém"
+      },
+      "source_url": "https://www.ccb.pt/evento/alan-stivell/",
+      "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/174588/1930670/Sectores",
+      "price_info": "70\n€",
+      "age_rating": "",
+      "sala": "Fábrica Das Artes",
+      "technical_sheet": {},
+      "schema_version": "2.0",
+      "subcategory": "Workshop",
+      "is_free": null,
+      "is_accessible": null,
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
+    },
+    {
+      "id": "trindade-miramar",
+      "title": "MIRAMAR",
+      "theater": "Teatro da Trindade INATEL",
+      "category": "Artes Performativas",
+      "subtitle": "Frankie Chavez e Peixe + Convidados a anunciar",
+      "dates_label": "24 Nov 2026",
+      "date_start": "2026-11-24",
+      "date_end": "2026-11-24",
+      "sessions": [
+        {
+          "date": "2026-11-24",
+          "time": "21:00",
+          "weekday": "Ter"
+        }
+      ],
+      "schedule": "21:00",
+      "synopsis": "Há um nítido fio condutor no caminho que os guitarristas Frankie Chavez e Peixe têm vindo a fazer ao volante do projeto Miramar. Se o primeiro álbum da dupla foi descrito como um diário de viagem numa estrada que se percorre de forma contemplativa e o segundo como um laboratório de lugares, o novíss…",
+      "image": {
+        "url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2026/03/miramar-1920x1080-1.jpg",
+        "credit": "Miguel Oliveira Ir para Sinopse Galeria Ficha Artística Partilhar no Twitter Par",
+        "source": "https://teatrotrindade.inatel.pt/espetaculo/miramar/",
+        "theater": "Teatro da Trindade INATEL"
+      },
+      "source_url": "https://teatrotrindade.inatel.pt/espetaculo/miramar/",
+      "ticket_url": "https://teatrotrindade.inatel.pt/bilheteira/",
+      "price_info": "16€ a 22,5€",
+      "sala": "Sala Carmen Dolores",
+      "technical_sheet": {
+        "autor": "Quico Serrano",
+        "produção": "Azáfama – Produções Artísticas e Paulo Pato Management"
+      },
+      "cast": [],
+      "price_min": 16.0,
+      "price_max": 22.5,
+      "age_rating": "M/6",
+      "age_min": 6,
+      "schema_version": "2.0",
+      "subcategory": "Teatro",
+      "is_free": null,
+      "for_families": true,
+      "is_accessible": null,
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "saoluiz-miguel-ara-jo",
@@ -14138,7 +14189,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "mariamatos-mo-gilligan-the-mo-you-know",
@@ -14171,7 +14222,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-al-di-meola",
@@ -14198,7 +14249,7 @@
         "theater": "CCB — Centro Cultural de Belém"
       },
       "source_url": "https://www.ccb.pt/evento/al-di-meola-misty-fest/",
-      "ticket_url": "",
+      "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/175829/1936588/Sectores",
       "price_info": "100\n€",
       "age_rating": "",
       "sala": "Fábrica Das Artes",
@@ -14207,7 +14258,7 @@
       "subcategory": "Concerto",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-marisol",
@@ -14247,7 +14298,7 @@
       "is_free": null,
       "for_families": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "ccb-glenn-miller-orchestra",
@@ -14283,7 +14334,7 @@
       "subcategory": "Teatro",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "saoluiz-podia-ser-na-tate-mas-aqui",
@@ -14315,7 +14366,7 @@
       "schema_version": "2.0",
       "is_free": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "saoluiz-uma-viagem-pela-m-sica-com-o-teatro-nacional-de-s-",
@@ -14355,7 +14406,7 @@
       "for_families": true,
       "for_schools": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "saoluiz-consultas-po-ticas",
@@ -14398,7 +14449,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "teatrodasfiguras-quatro-e-meia",
@@ -14433,7 +14484,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "mariamatos-primeira-vista",
@@ -14475,7 +14526,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "teatrodasfiguras-b-rbara-tinoco",
@@ -14510,7 +14561,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "theatrocirco-conversa-jantar-com-sara-in-s-gigante",
@@ -14548,7 +14599,7 @@
       "schema_version": "2.0",
       "is_free": true,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     },
     {
       "id": "teatrodasfiguras-nena",
@@ -14583,7 +14634,7 @@
       "schema_version": "2.0",
       "is_free": null,
       "is_accessible": null,
-      "scraped_at": "2026-03-27T10:14:49.328642+00:00"
+      "scraped_at": "2026-03-27T18:48:07.802078+00:00"
     }
   ]
 }

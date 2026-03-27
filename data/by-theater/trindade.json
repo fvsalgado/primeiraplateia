@@ -61,7 +61,7 @@
     "subcategory": "Teatro",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-27T10:14:49.328642+00:00",
+    "scraped_at": "2026-03-27T18:48:07.802078+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "venue_type": "",
@@ -129,7 +129,7 @@
     "subcategory": "Concerto",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-27T10:14:49.328642+00:00",
+    "scraped_at": "2026-03-27T18:48:07.802078+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "venue_type": "",
@@ -197,7 +197,7 @@
     "subcategory": "Teatro",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-27T10:14:49.328642+00:00",
+    "scraped_at": "2026-03-27T18:48:07.802078+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "venue_type": "",
@@ -264,7 +264,7 @@
     "subcategory": "Teatro",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-27T10:14:49.328642+00:00",
+    "scraped_at": "2026-03-27T18:48:07.802078+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "venue_type": "",
@@ -318,7 +318,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-27T10:14:49.328642+00:00",
+    "scraped_at": "2026-03-27T18:48:07.802078+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "venue_type": "",
@@ -370,7 +370,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-27T10:14:49.328642+00:00",
+    "scraped_at": "2026-03-27T18:48:07.802078+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "venue_type": "",
@@ -418,12 +418,62 @@
     "subcategory": "Comédia",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-27T10:14:49.328642+00:00",
+    "scraped_at": "2026-03-27T18:48:07.802078+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "venue_type": "",
     "_meta": {
       "completeness": 0.614
+    }
+  },
+  {
+    "id": "trindade-miramar",
+    "title": "MIRAMAR",
+    "theater": "Teatro da Trindade INATEL",
+    "category": "Artes Performativas",
+    "subtitle": "Frankie Chavez e Peixe + Convidados a anunciar",
+    "dates_label": "24 Nov 2026",
+    "date_start": "2026-11-24",
+    "date_end": "2026-11-24",
+    "sessions": [
+      {
+        "date": "2026-11-24",
+        "time": "21:00",
+        "weekday": "Ter"
+      }
+    ],
+    "schedule": "21:00",
+    "synopsis": "Há um nítido fio condutor no caminho que os guitarristas Frankie Chavez e Peixe têm vindo a fazer ao volante do projeto Miramar. Se o primeiro álbum da dupla foi descrito como um diário de viagem numa estrada que se percorre de forma contemplativa e o segundo como um laboratório de lugares, o novíss…",
+    "image": {
+      "url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2026/03/miramar-1920x1080-1.jpg",
+      "credit": "Miguel Oliveira Ir para Sinopse Galeria Ficha Artística Partilhar no Twitter Par",
+      "source": "https://teatrotrindade.inatel.pt/espetaculo/miramar/",
+      "theater": "Teatro da Trindade INATEL"
+    },
+    "source_url": "https://teatrotrindade.inatel.pt/espetaculo/miramar/",
+    "ticket_url": "https://teatrotrindade.inatel.pt/bilheteira/",
+    "price_info": "16€ a 22,5€",
+    "sala": "Sala Carmen Dolores",
+    "technical_sheet": {
+      "autor": "Quico Serrano",
+      "produção": "Azáfama – Produções Artísticas e Paulo Pato Management"
+    },
+    "cast": [],
+    "price_min": 16.0,
+    "price_max": 22.5,
+    "age_rating": "M/6",
+    "age_min": 6,
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-03-27T18:48:07.802078+00:00",
+    "theater_id": "trindade",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.656
     }
   }
 ]

@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-27T10:14:54.329410+00:00",
-  "build_version": "20260327-1014",
+  "updated_at": "2026-03-27T18:48:13.258210+00:00",
+  "build_version": "20260327-1848",
   "schema_version": "2.0",
-  "total_events": 290,
+  "total_events": 291,
   "total_theaters": 13,
-  "events_today": 22,
-  "events_this_weekend": 39,
+  "events_today": 23,
+  "events_this_weekend": 38,
   "cities": [
     "Braga",
     "Castelo Branco",
@@ -18,7 +18,7 @@
     "Artes Performativas": 114,
     "Música": 80,
     "Multidisciplinar": 39,
-    "Formação & Participação": 18,
+    "Formação & Participação": 19,
     "Cinema & Audiovisual": 16,
     "Artes Visuais & Exposições": 13,
     "Pensamento & Conversa": 6,
@@ -26,12 +26,12 @@
     "Literatura & Palavra": 2
   },
   "by_subcategory": {
-    "Performance": 58,
-    "Teatro": 48,
+    "Performance": 57,
+    "Teatro": 49,
     "Concerto": 30,
     "Exposição": 6,
+    "Workshop": 5,
     "Conversa": 5,
-    "Workshop": 4,
     "Dança": 3,
     "Cinema": 2,
     "Ópera": 2,
@@ -44,25 +44,25 @@
     "for_families": 106,
     "for_schools": 14,
     "has_lsp": 0,
-    "is_festival": 7
+    "is_festival": 6
   },
   "stale_theaters": 7,
   "by_theater": {
     "Theatro Circo": 61,
     "Teatro Viriato": 29,
-    "Teatro Variedades": 6,
-    "Teatro da Trindade INATEL": 7,
+    "Teatro Variedades": 7,
+    "Teatro da Trindade INATEL": 8,
     "São Luiz Teatro Municipal": 34,
     "Teatro Maria Matos": 15,
     "Capitólio": 6,
+    "TAGV — Teatro Académico Gil Vicente": 1,
     "Cine-Teatro Avenida": 7,
-    "CCB — Centro Cultural de Belém": 86,
-    "TAGV — Teatro Académico Gil Vicente": 3,
+    "CCB — Centro Cultural de Belém": 87,
     "Teatro do Bairro": 1,
     "Teatro das Figuras": 32,
     "Culturgest": 3
   },
-  "completeness_avg": 0.577,
+  "completeness_avg": 0.576,
   "anomalies": [],
   "scraper_health": {
     "Cine-Teatro Avenida": {

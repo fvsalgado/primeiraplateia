@@ -1,187 +1,49 @@
 [
   {
-    "id": "tagv-festival-end-o-projecto-elgelbreckt-engelbrecktsso",
-    "title": "Festival END: O Projecto Elgelbreckt Engelbrecktsson",
+    "id": "tagv-festival-end-as-m-os-sujas-de-sangue-cr-tica-e-dra",
+    "title": "Festival END: As Mãos Sujas de Sangue. Crítica e Dramaturgia",
     "theater": "TAGV — Teatro Académico Gil Vicente",
     "category": "Música",
-    "date_start": "2026-03-28",
-    "source_url": "https://tagv.pt/agenda/european-student-orchestra-festival-2026-coimbra-orchestre-universitaire-de-strasbourg-2/",
-    "dates_label": "28 mar 2026",
+    "date_start": "2026-03-27",
+    "source_url": "https://tagv.pt/agenda/european-student-orchestra-festival-2026-coimbra-sinfonietta-of-leuphana-universitat-luneburg-leipziger-universitatsorchester/",
+    "dates_label": "27 mar 2026",
     "synopsis": "A edição de 2026, em Coimbra, representa um marco importante nesta missão, sendo o primeiro ESOF realizado no Sul da Europa (edições anteriores em Leuven, Estrasburgo, Tallinn, Bruxelas, Toulouse e Münster).…",
     "image": {
-      "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-european-student-orchestra-festival-2026-coimbra-orchestre-universitaire-de-strasbourg-toulouse.jpg",
+      "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-european-student-orchestra-festival-leipzig-1.jpg",
       "credit": null,
-      "source": "https://tagv.pt/agenda/european-student-orchestra-festival-2026-coimbra-orchestre-universitaire-de-strasbourg-2/",
+      "source": "https://tagv.pt/agenda/european-student-orchestra-festival-2026-coimbra-sinfonietta-of-leuphana-universitat-luneburg-leipziger-universitatsorchester/",
       "theater": "TAGV — Teatro Académico Gil Vicente"
     },
     "ticket_url": "https://tagv.bol.pt",
     "duration": "21h00",
     "duration_min": 1260,
     "technical_sheet": {
+      "dramaturgia": "Conversa Ser Preciso, Ser Aqui: Conversas Com Pessoas Dotadas de Minúcia Teatro Festival END: O Projecto Elgelbreckt Engelbrecktsson Teatro Festival END: Vado e Non Torno",
       "música": "European Student Orchestra Festival 2026 Coimbra"
     },
     "people": [
+      "Conversa Ser Preciso",
+      "Ser Aqui: Conversas Com Pessoas Dotadas de Minúcia Teatro Festival END: O Projecto Elgelbreckt Engelbrecktsson Teatro Festival END: Vado",
+      "Non Torno",
       "European Student Orchestra Festival 2026 Coimbra"
     ],
     "sessions": [
       {
-        "date": "2026-03-28",
+        "date": "2026-03-27",
         "time": "21:00",
-        "weekday": "Sáb"
+        "weekday": "Sex"
       }
     ],
     "schema_version": "2.0",
     "is_free": null,
     "is_festival": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-27T10:14:49.328642+00:00",
+    "scraped_at": "2026-03-27T18:48:07.802078+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
     "_meta": {
-      "completeness": 0.564
-    }
-  },
-  {
-    "id": "tagv-european-student-orchestra-festival-2026-coimbra",
-    "title": "European Student Orchestra Festival 2026 Coimbra",
-    "theater": "TAGV — Teatro Académico Gil Vicente",
-    "category": "Artes Performativas",
-    "date_start": "2026-04-02",
-    "source_url": "https://tagv.pt/agenda/festival-adc-onyx/",
-    "dates_label": "2 abr 2026",
-    "synopsis": "A prática destes corpos é tão encantada quanto brutal. Há uma ancestralidade de um futuro potente. É poético e tem prazer. Há calma e um caos meteórico, uma partilha de arquivos pessoais e fantasias em que a pele não é uma fronteira, mas sim um veículo.…",
-    "image": {
-      "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-festival-adc-onyx-20260402-onix-alipio-padilha-02.jpg",
-      "credit": null,
-      "source": "https://tagv.pt/agenda/festival-adc-onyx/",
-      "theater": "TAGV — Teatro Académico Gil Vicente"
-    },
-    "ticket_url": "https://tagv.bol.pt",
-    "price_info": "7€",
-    "price_min": 7.0,
-    "price_max": 7.0,
-    "duration": "21h30",
-    "duration_min": 1290,
-    "age_rating": "Livre",
-    "age_min": 0,
-    "technical_sheet": {
-      "música": "European Student Orchestra Festival 2026 Coimbra",
-      "texto": "Piny Co-criação de movimento",
-      "interpretação": "André Cabral, Lua Aurora Desenho de",
-      "som": "Carincur, Leo Soulflow",
-      "luz": "João Pedro Fonseca",
-      "adaptação": "e operação de",
-      "produção": "DDD — Festival Dias da Dança, TBA – Teatro do Bairro Alto, Materiais Diversos, Teatro Aveirense – Câmara Municipal de Aveiro, Rota Clandestina",
-      "apoio": "em residência Alkantara, TBA — Teatro do Bairro Alto, Estúdios Victor Cordon, Jazzy Dance Studios Fotografia Alípio Padilha *O espetáculo tem"
-    },
-    "cast": [
-      "André Cabral",
-      "Lua Aurora Desenho de"
-    ],
-    "people": [
-      "Piny Co-criação de movimento",
-      "João Pedro Fonseca",
-      "Carincur",
-      "Leo Soulflow",
-      "European Student Orchestra Festival 2026 Coimbra",
-      "André Cabral",
-      "Lua Aurora Desenho de",
-      "DDD — Festival Dias da Dança",
-      "TBA – Teatro do Bairro Alto",
-      "Materiais Diversos",
-      "Teatro Aveirense – Câmara Municipal de Aveiro",
-      "Rota Clandestina"
-    ],
-    "sessions": [
-      {
-        "date": "2026-04-02",
-        "time": "21:30",
-        "weekday": "Qui"
-      }
-    ],
-    "schema_version": "2.0",
-    "subcategory": "Performance",
-    "is_free": null,
-    "is_festival": true,
-    "for_families": true,
-    "is_accessible": null,
-    "scraped_at": "2026-03-27T10:14:49.328642+00:00",
-    "theater_id": "tagv",
-    "city": "Coimbra",
-    "venue_type": "",
-    "_meta": {
-      "completeness": 0.944
-    }
-  },
-  {
-    "id": "tagv-open-call-bolsas-de-cria-o-locais",
-    "title": "Open Call: Bolsas de Criação Locais",
-    "theater": "TAGV — Teatro Académico Gil Vicente",
-    "category": "Artes Performativas",
-    "date_start": "2026-04-13",
-    "source_url": "https://tagv.pt/agenda/ode-maritima-leitura-encenada-teatro-do-interior/",
-    "dates_label": "13 abr 2026",
-    "synopsis": "Na Ode Marítima, solitário entre a multidão da grande cidade, o poeta chega ao cais e vê “pequeno, negro e claro, um paquete entrando”. A partir dessa visão, o poeta viaja no tempo e no espaço, recupera fugazmente a própria infância.…",
-    "image": {
-      "url": "https://tagv.pt/public/uploads/2026/02/tagv.pt-ode-maritima-leitura-encenada-teatro-do-interior-20260305-ode-maritimateatro-do-interior-cartaz.jpg",
-      "credit": null,
-      "source": "https://tagv.pt/agenda/ode-maritima-leitura-encenada-teatro-do-interior/",
-      "theater": "TAGV — Teatro Académico Gil Vicente"
-    },
-    "ticket_url": "https://tagv.bol.pt",
-    "duration": "10h30",
-    "duration_min": 630,
-    "technical_sheet": {
-      "música": "Pulchritudines — Concerto Sinfónico de Abertura da XXVIII Semana Cultural UC Cinema DJ Ahmet Cinema Os Amantes Regulares Teatro Ode Marítima — Leitura Encenada Performance O Narrador Performance Lançamento Coreia#14 + Performance The Erotic Clown Poesia Nada é Impossível de Mudar: Poética da Revolta",
-      "texto": "grandioso, situando-se como um dos mais representativos da obra do poeta Na Ode Marítima, solitário entre a multidão da grande cidade, o poeta chega ao cais e vê “pequeno, negro e claro, um paquete entrando”. A partir dessa visão, o poeta viaja no tempo e no espaço, recupera fugazmente a própria inf",
-      "direção": "artística, Encenação",
-      "interpretação": "Manuel Wiborg Imagens William Turner Música",
-      "som": "André Pires Grafismo Álvaro Rosendo",
-      "produção": "Teatro do Interior Clique ou faça scroll para ver o próximo evento. Toque para ver o próximo evento. Performance O Narrador O TAGV, remodelado em 2003, é um polo de conhecimento e formação artística. Subscreve a newsletter. Aviso sobre tratamento de dados Praça da República 3000-342 Coimbra Bilhetei"
-    },
-    "cast": [
-      "Manuel Wiborg Imagens William Turner Música"
-    ],
-    "people": [
-      "grandioso",
-      "situando-se como um dos mais representativos da obra do poeta Na Ode Marítima",
-      "solitário entre a multidão da grande cidade",
-      "o poeta chega ao cais",
-      "vê “pequeno",
-      "negro",
-      "claro",
-      "um paquete entrando”. A partir dessa visão",
-      "o poeta viaja no tempo",
-      "no espaço",
-      "recupera fugazmente a própria inf",
-      "artística",
-      "Encenação",
-      "André Pires Grafismo Álvaro Rosendo",
-      "Pulchritudines — Concerto Sinfónico de Abertura da XXVIII Semana Cultural UC Cinema DJ Ahmet Cinema Os Amantes Regulares Teatro Ode Marítima — Leitura Encenada Performance O Narrador Performance Lançamento Coreia#14 + Performance The Erotic Clown Poesia Nada é Impossível de Mudar: Poética da Revolta",
-      "Manuel Wiborg Imagens William Turner Música",
-      "Teatro do Interior Clique ou faça scroll para ver o próximo evento. Toque para ver o próximo evento. Performance O Narrador O TAGV",
-      "remodelado em 2003",
-      "é um polo de conhecimento",
-      "formação artística. Subscreve a newsletter. Aviso sobre tratamento de dados Praça da República 3000-342 Coimbra Bilhetei"
-    ],
-    "sessions": [
-      {
-        "date": "2026-04-13",
-        "time": "10:30",
-        "weekday": "Seg"
-      }
-    ],
-    "schema_version": "2.0",
-    "subcategory": "Performance",
-    "is_free": null,
-    "is_accessible": null,
-    "scraped_at": "2026-03-27T10:14:49.328642+00:00",
-    "theater_id": "tagv",
-    "city": "Coimbra",
-    "venue_type": "",
-    "_meta": {
-      "completeness": 0.798
+      "completeness": 0.66
     }
   }
 ]

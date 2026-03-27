@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-27T10:14:54.395800+00:00",
-  "total_events": 290,
+  "generated_at": "2026-03-27T18:48:13.324912+00:00",
+  "total_events": 291,
   "tracked_fields": [
     "synopsis",
     "image",
@@ -13,25 +13,25 @@
   ],
   "theaters": {
     "CCB — Centro Cultural de Belém": {
-      "total_events": 86,
+      "total_events": 87,
       "status": "ok",
-      "completeness_avg": 0.551,
+      "completeness_avg": 0.552,
       "field_coverage": {
         "synopsis": {
-          "count": 86,
+          "count": 87,
           "pct": 100
         },
         "image": {
-          "count": 86,
+          "count": 87,
           "pct": 100
         },
         "price_info": {
-          "count": 37,
-          "pct": 43
+          "count": 38,
+          "pct": 44
         },
         "ticket_url": {
-          "count": 25,
-          "pct": 29
+          "count": 27,
+          "pct": 31
         },
         "duration": {
           "count": 0,
@@ -39,14 +39,14 @@
         },
         "age_rating": {
           "count": 49,
-          "pct": 57
+          "pct": 56
         },
         "subcategory": {
-          "count": 84,
+          "count": 85,
           "pct": 98
         },
         "sessions": {
-          "count": 86,
+          "count": 87,
           "pct": 100
         }
       }
@@ -208,40 +208,40 @@
       }
     },
     "TAGV — Teatro Académico Gil Vicente": {
-      "total_events": 3,
+      "total_events": 1,
       "status": "ok",
-      "completeness_avg": 0.769,
+      "completeness_avg": 0.66,
       "field_coverage": {
         "synopsis": {
-          "count": 3,
+          "count": 1,
           "pct": 100
         },
         "image": {
-          "count": 3,
+          "count": 1,
           "pct": 100
         },
         "price_info": {
-          "count": 1,
-          "pct": 33
+          "count": 0,
+          "pct": 0
         },
         "ticket_url": {
-          "count": 3,
+          "count": 1,
           "pct": 100
         },
         "duration": {
-          "count": 3,
+          "count": 1,
           "pct": 100
         },
         "age_rating": {
-          "count": 1,
-          "pct": 33
+          "count": 0,
+          "pct": 0
         },
         "subcategory": {
-          "count": 2,
-          "pct": 67
+          "count": 0,
+          "pct": 0
         },
         "sessions": {
-          "count": 3,
+          "count": 1,
           "pct": 100
         }
       }
@@ -286,41 +286,41 @@
       }
     },
     "Teatro Variedades": {
-      "total_events": 6,
+      "total_events": 7,
       "status": "ok",
-      "completeness_avg": 0.607,
+      "completeness_avg": 0.614,
       "field_coverage": {
         "synopsis": {
-          "count": 6,
+          "count": 7,
           "pct": 100
         },
         "image": {
-          "count": 6,
+          "count": 7,
           "pct": 100
         },
         "price_info": {
-          "count": 5,
-          "pct": 83
+          "count": 6,
+          "pct": 86
         },
         "ticket_url": {
-          "count": 6,
+          "count": 7,
           "pct": 100
         },
         "duration": {
-          "count": 6,
+          "count": 7,
           "pct": 100
         },
         "age_rating": {
-          "count": 6,
+          "count": 7,
           "pct": 100
         },
         "subcategory": {
-          "count": 3,
-          "pct": 50
+          "count": 4,
+          "pct": 57
         },
         "sessions": {
-          "count": 5,
-          "pct": 83
+          "count": 6,
+          "pct": 86
         }
       }
     },
@@ -364,40 +364,40 @@
       }
     },
     "Teatro da Trindade INATEL": {
-      "total_events": 7,
+      "total_events": 8,
       "status": "ok",
-      "completeness_avg": 0.748,
+      "completeness_avg": 0.736,
       "field_coverage": {
         "synopsis": {
-          "count": 7,
+          "count": 8,
           "pct": 100
         },
         "image": {
-          "count": 7,
+          "count": 8,
           "pct": 100
         },
         "price_info": {
-          "count": 7,
+          "count": 8,
           "pct": 100
         },
         "ticket_url": {
-          "count": 7,
+          "count": 8,
           "pct": 100
         },
         "duration": {
           "count": 3,
-          "pct": 43
+          "pct": 38
         },
         "age_rating": {
-          "count": 6,
-          "pct": 86
+          "count": 7,
+          "pct": 88
         },
         "subcategory": {
-          "count": 7,
+          "count": 8,
           "pct": 100
         },
         "sessions": {
-          "count": 7,
+          "count": 8,
           "pct": 100
         }
       }
