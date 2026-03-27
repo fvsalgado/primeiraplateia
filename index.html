@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Primeira Plateia - A Cultura no melhor lugar. Brevemente.">
+    <title>Primeira Plateia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&amp;family=Inter:wght@300;400;500&amp;display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&amp;family=Inter:wght@300;400;500&amp;display=swap');
+        
+        :root {
+            --red: #e11d48;
+        }
+        
+        * {
+            transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 150ms;
+        }
+        
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+        }
+        
+        .title-font {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .hero {
+            background: radial-gradient(circle at 30% 20%, rgba(225, 29, 72, 0.18) 0%, transparent 50%),
+                        radial-gradient(circle at 70% 80%, rgba(225, 29, 72, 0.12) 0%, transparent 60%),
+                        linear-gradient(135deg, #0a0a0a 0%, #111111 100%);
+        }
+        
+        .spotlight {
+            animation: subtle-pulse 8s ease-in-out infinite;
+        }
+        
+        @keyframes subtle-pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.97; }
+        }
+        
+        .text-glow {
+            text-shadow: 0 0 40px rgba(225, 29, 72, 0.45),
+                         0 0 80px rgba(225, 29, 72, 0.2);
+        }
+        
+        .brevemente-box {
+            backdrop-filter: blur(16px);
+            box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.4);
+        }
+        
+        .email-link {
+            position: relative;
+        }
+        
+        .email-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 1px;
+            bottom: -2px;
+            left: 0;
+            background-color: #e11d48;
+        }
+        
+        .email-link:hover::after {
+            width: 100%;
+        }
+    </style>
+</head>
+<body class="hero min-h-screen flex flex-col text-white overflow-hidden">
+    
+    <!-- Main content -->
+    <main class="flex-1 flex items-center justify-center px-6 py-16 spotlight">
+        <div class="max-w-5xl mx-auto text-center">
+            
+            <!-- Logo / Título -->
+            <h1 class="title-font text-[4.8rem] sm:text-[5.8rem] md:text-[6.8rem] lg:text-[7.5rem] font-medium leading-none tracking-[-3px] text-[#e11d48] text-glow mb-6">
+                Primeira Plateia
+            </h1>
+            
+            <!-- Slogan -->
+            <p class="text-2xl sm:text-3xl md:text-4xl font-light tracking-[1.5px] text-zinc-100 mb-24">
+                A Cultura no melhor lugar.
+            </p>
+            
+            <!-- Brevemente -->
+            <div class="brevemente-box inline-flex items-center justify-center border border-[#e11d48]/30 bg-white/5 rounded-3xl px-14 py-8 md:px-20 md:py-10 mb-20">
+                <p class="text-5xl sm:text-6xl md:text-7xl font-light text-[#e11d48] tracking-[6px] uppercase">
+                    Brevemente.
+                </p>
+            </div>
+            
+            <!-- Email -->
+            <a href="mailto:fabio@primeiraplateia.pt" 
+               class="email-link group inline-flex items-center gap-3 text-lg font-medium text-zinc-400 hover:text-[#e11d48] uppercase tracking-widest">
+                <span class="text-base">✉</span>
+                fabio@primeiraplateia.pt
+            </a>
+            
+        </div>
+    </main>
+    
+    <!-- Subtle bottom bar -->
+    <div class="h-px bg-gradient-to-r from-transparent via-[#e11d48]/20 to-transparent"></div>
+    
+    <script>
+        // Tailwind script initialization
+        function initializeTailwind() {
+            return {
+                config(userConfig = {}) {
+                    return {
+                        configUser: userConfig,
+                        theme: {
+                            extend: {
+                                colors: {
+                                    red: '#e11d48'
+                                }
+                            }
+                        }
+                    }
+                },
+                theme(userConfig = {}) {
+                    return {
+                        configUser: userConfig,
+                        ...this.defaultTheme()
+                    }
+                },
+                defaultTheme() {
+                    return {
+                        extend: {}
+                    }
+                }
+            }
+        }
+        
+        // Initialize on load
+        document.addEventListener('DOMContentLoaded', () => {
+            const config = initializeTailwind().config()
+            return {
+                configUser: config.configUser,
+                theme: config.theme
+            }
+        })
+    </script>
+</body>
+</html>
