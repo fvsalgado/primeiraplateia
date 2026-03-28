@@ -1,49 +1,134 @@
 [
   {
-    "id": "tagv-festival-end-as-m-os-sujas-de-sangue-cr-tica-e-dra",
-    "title": "Festival END: As Mãos Sujas de Sangue. Crítica e Dramaturgia",
+    "id": "tagv-ser-preciso-ser-aqui-conversas-com-pessoas-dotadas",
+    "title": "Ser Preciso, Ser Aqui: Conversas Com Pessoas Dotadas de Minúcia",
     "theater": "TAGV — Teatro Académico Gil Vicente",
     "category": "Música",
-    "date_start": "2026-03-27",
-    "source_url": "https://tagv.pt/agenda/european-student-orchestra-festival-2026-coimbra-sinfonietta-of-leuphana-universitat-luneburg-leipziger-universitatsorchester/",
-    "dates_label": "27 mar 2026",
+    "date_start": "2026-03-28",
+    "source_url": "https://tagv.pt/agenda/european-student-orchestra-festival-2026-coimbra-orchestre-universitaire-de-strasbourg/",
+    "dates_label": "28 mar 2026",
     "synopsis": "A edição de 2026, em Coimbra, representa um marco importante nesta missão, sendo o primeiro ESOF realizado no Sul da Europa (edições anteriores em Leuven, Estrasburgo, Tallinn, Bruxelas, Toulouse e Münster).…",
     "image": {
-      "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-european-student-orchestra-festival-leipzig-1.jpg",
+      "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-european-student-orchestra-festival-2026-coimbra-strasbourg-3.jpg",
       "credit": null,
-      "source": "https://tagv.pt/agenda/european-student-orchestra-festival-2026-coimbra-sinfonietta-of-leuphana-universitat-luneburg-leipziger-universitatsorchester/",
+      "source": "https://tagv.pt/agenda/european-student-orchestra-festival-2026-coimbra-orchestre-universitaire-de-strasbourg/",
       "theater": "TAGV — Teatro Académico Gil Vicente"
     },
     "ticket_url": "https://tagv.bol.pt",
-    "duration": "21h00",
-    "duration_min": 1260,
+    "duration": "17h30",
+    "duration_min": 1050,
     "technical_sheet": {
-      "dramaturgia": "Conversa Ser Preciso, Ser Aqui: Conversas Com Pessoas Dotadas de Minúcia Teatro Festival END: O Projecto Elgelbreckt Engelbrecktsson Teatro Festival END: Vado e Non Torno",
       "música": "European Student Orchestra Festival 2026 Coimbra"
     },
     "people": [
-      "Conversa Ser Preciso",
-      "Ser Aqui: Conversas Com Pessoas Dotadas de Minúcia Teatro Festival END: O Projecto Elgelbreckt Engelbrecktsson Teatro Festival END: Vado",
-      "Non Torno",
       "European Student Orchestra Festival 2026 Coimbra"
     ],
     "sessions": [
       {
-        "date": "2026-03-27",
-        "time": "21:00",
-        "weekday": "Sex"
+        "date": "2026-03-28",
+        "time": "17:30",
+        "weekday": "Sáb"
       }
     ],
     "schema_version": "2.0",
     "is_free": null,
-    "is_festival": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-27T18:48:07.802078+00:00",
+    "scraped_at": "2026-03-28T09:11:08.180854+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
     "_meta": {
-      "completeness": 0.66
+      "completeness": 0.564
+    }
+  },
+  {
+    "id": "tagv-uma-onda-na-mente-apresenta-o-dos-livros",
+    "title": "Uma Onda na Mente — Apresentação dos Livros",
+    "theater": "TAGV — Teatro Académico Gil Vicente",
+    "category": "Artes Performativas",
+    "date_start": "2026-04-11",
+    "source_url": "https://tagv.pt/agenda/welcome-to-europe-de-ricardo-correia/",
+    "dates_label": "11 abr 2026",
+    "synopsis": "Welcome to Europe não é apenas um espetáculo — é uma provocação, uma viagem, uma visita guiada a um museu que se instala em cada palco por onde passa. Este museu vivo desafia o público a atravessar salas de memória, identidade e política, colocando em cena performances que questionam o que significa…",
+    "image": {
+      "url": "https://tagv.pt/public/uploads/2025/09/tagv.pt-welcome-to-europe-20260227-welcome-to-europe--ricardo-correia-02.jpg",
+      "credit": null,
+      "source": "https://tagv.pt/agenda/welcome-to-europe-de-ricardo-correia/",
+      "theater": "TAGV — Teatro Académico Gil Vicente"
+    },
+    "ticket_url": "https://tagv.bol.pt",
+    "price_info": "7€",
+    "price_min": 7.0,
+    "price_max": 7.0,
+    "duration": "14h30",
+    "duration_min": 870,
+    "technical_sheet": {
+      "autor": "de cerca de 10 peças de teatro, publicadas em Portugal, México e França, com edições pela Imprensa da Universidade de Coimbra, Teatro Nacional D. Maria II e Les Presses Universitaires du Midi. Data 10, Abril 2026 11, Abril 2026 Horário 14H30, 21H30 16H30, 21H30 Duração 1h00 Faixa etária M16 Preço €7",
+      "interpretação": "Beatriz Antunes, Fábio Saraiva, Sofia Coelho, Ricardo Correia Vozes vídeo Ana Teresa Santos, Cláudia Carvalho, Carolina Santos, João Amorim, Patrícia Pinheiro, Ricardo Correia Bailarina a designar",
+      "apoio": "ao movimento e",
+      "figurinos": "Rita Grade",
+      "direção": "técnica e",
+      "luz": "Diogo Marques Registo vídeo Fernando Antunes Amaral Design Joana Corker Cabeleireiro Ilídio Design by Carlos Gago Mediação e",
+      "produção": "Beatriz Antunes, Casa da Esquina – Associação Cultural Espetáculo com a cumplicidade do Comité Dissonante Ana Vilela da Costa, Jorge Louraço, Nuno Lucas, Sónia Ferreira, Vanesa Sotelo"
+    },
+    "cast": [
+      "Beatriz Antunes",
+      "Fábio Saraiva",
+      "Sofia Coelho",
+      "Ricardo Correia Vozes vídeo Ana Teresa Santos",
+      "Cláudia Carvalho",
+      "Carolina Santos",
+      "João Amorim",
+      "Patrícia Pinheiro",
+      "Ricardo Correia Bailarina a designar"
+    ],
+    "people": [
+      "de cerca de 10 peças de teatro",
+      "publicadas em Portugal",
+      "México",
+      "França",
+      "com edições pela Imprensa da Universidade de Coimbra",
+      "Teatro Nacional D. Maria II",
+      "Les Presses Universitaires du Midi. Data 10",
+      "Abril 2026 11",
+      "Abril 2026 Horário 14H30",
+      "21H30 16H30",
+      "21H30 Duração 1h00 Faixa etária M16 Preço €7",
+      "técnica e",
+      "Rita Grade",
+      "Diogo Marques Registo vídeo Fernando Antunes Amaral Design Joana Corker Cabeleireiro Ilídio Design by Carlos Gago Mediação e",
+      "Beatriz Antunes",
+      "Fábio Saraiva",
+      "Sofia Coelho",
+      "Ricardo Correia Vozes vídeo Ana Teresa Santos",
+      "Cláudia Carvalho",
+      "Carolina Santos",
+      "João Amorim",
+      "Patrícia Pinheiro",
+      "Ricardo Correia Bailarina a designar",
+      "Casa da Esquina – Associação Cultural Espetáculo com a cumplicidade do Comité Dissonante Ana Vilela da Costa",
+      "Jorge Louraço",
+      "Nuno Lucas",
+      "Sónia Ferreira",
+      "Vanesa Sotelo"
+    ],
+    "sessions": [
+      {
+        "date": "2026-04-11",
+        "time": "16:30",
+        "weekday": "Sáb"
+      }
+    ],
+    "schema_version": "2.0",
+    "subcategory": "Performance",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-28T09:11:08.180854+00:00",
+    "theater_id": "tagv",
+    "city": "Coimbra",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.866
     }
   }
 ]

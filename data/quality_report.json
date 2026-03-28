@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-27T18:48:13.324912+00:00",
-  "total_events": 291,
+  "generated_at": "2026-03-28T09:11:14.960864+00:00",
+  "total_events": 288,
   "tracked_fields": [
     "synopsis",
     "image",
@@ -91,7 +91,7 @@
       }
     },
     "Cine-Teatro Avenida": {
-      "total_events": 7,
+      "total_events": 6,
       "status": "stale",
       "completeness_avg": 0.33,
       "field_coverage": {
@@ -100,7 +100,7 @@
           "pct": 0
         },
         "image": {
-          "count": 7,
+          "count": 6,
           "pct": 100
         },
         "price_info": {
@@ -108,7 +108,7 @@
           "pct": 0
         },
         "ticket_url": {
-          "count": 7,
+          "count": 6,
           "pct": 100
         },
         "duration": {
@@ -124,7 +124,7 @@
           "pct": 0
         },
         "sessions": {
-          "count": 7,
+          "count": 6,
           "pct": 100
         }
       }
@@ -169,67 +169,67 @@
       }
     },
     "São Luiz Teatro Municipal": {
-      "total_events": 34,
+      "total_events": 33,
       "status": "ok",
-      "completeness_avg": 0.676,
+      "completeness_avg": 0.678,
       "field_coverage": {
         "synopsis": {
-          "count": 34,
+          "count": 33,
           "pct": 100
         },
         "image": {
-          "count": 34,
+          "count": 33,
           "pct": 100
         },
         "price_info": {
-          "count": 34,
+          "count": 33,
           "pct": 100
         },
         "ticket_url": {
-          "count": 34,
+          "count": 33,
           "pct": 100
         },
         "duration": {
-          "count": 34,
+          "count": 33,
           "pct": 100
         },
         "age_rating": {
           "count": 27,
-          "pct": 79
+          "pct": 82
         },
         "subcategory": {
-          "count": 17,
-          "pct": 50
+          "count": 16,
+          "pct": 48
         },
         "sessions": {
-          "count": 32,
+          "count": 31,
           "pct": 94
         }
       }
     },
     "TAGV — Teatro Académico Gil Vicente": {
-      "total_events": 1,
+      "total_events": 2,
       "status": "ok",
-      "completeness_avg": 0.66,
+      "completeness_avg": 0.715,
       "field_coverage": {
         "synopsis": {
-          "count": 1,
+          "count": 2,
           "pct": 100
         },
         "image": {
-          "count": 1,
+          "count": 2,
           "pct": 100
         },
         "price_info": {
-          "count": 0,
-          "pct": 0
+          "count": 1,
+          "pct": 50
         },
         "ticket_url": {
-          "count": 1,
+          "count": 2,
           "pct": 100
         },
         "duration": {
-          "count": 1,
+          "count": 2,
           "pct": 100
         },
         "age_rating": {
@@ -237,11 +237,11 @@
           "pct": 0
         },
         "subcategory": {
-          "count": 0,
-          "pct": 0
+          "count": 1,
+          "pct": 50
         },
         "sessions": {
-          "count": 1,
+          "count": 2,
           "pct": 100
         }
       }
@@ -325,47 +325,47 @@
       }
     },
     "Teatro Viriato": {
-      "total_events": 29,
+      "total_events": 28,
       "status": "ok",
-      "completeness_avg": 0.617,
+      "completeness_avg": 0.615,
       "field_coverage": {
         "synopsis": {
-          "count": 29,
+          "count": 28,
           "pct": 100
         },
         "image": {
-          "count": 29,
+          "count": 28,
           "pct": 100
         },
         "price_info": {
-          "count": 21,
-          "pct": 72
+          "count": 20,
+          "pct": 71
         },
         "ticket_url": {
-          "count": 29,
+          "count": 28,
           "pct": 100
         },
         "duration": {
-          "count": 12,
-          "pct": 41
+          "count": 11,
+          "pct": 39
         },
         "age_rating": {
-          "count": 22,
-          "pct": 76
+          "count": 21,
+          "pct": 75
         },
         "subcategory": {
           "count": 6,
           "pct": 21
         },
         "sessions": {
-          "count": 29,
+          "count": 28,
           "pct": 100
         }
       }
     },
     "Teatro da Trindade INATEL": {
       "total_events": 8,
-      "status": "ok",
+      "status": "stale",
       "completeness_avg": 0.736,
       "field_coverage": {
         "synopsis": {
@@ -481,25 +481,25 @@
       }
     },
     "Theatro Circo": {
-      "total_events": 61,
+      "total_events": 60,
       "status": "ok",
-      "completeness_avg": 0.602,
+      "completeness_avg": 0.603,
       "field_coverage": {
         "synopsis": {
-          "count": 61,
+          "count": 60,
           "pct": 100
         },
         "image": {
-          "count": 61,
+          "count": 60,
           "pct": 100
         },
         "price_info": {
-          "count": 55,
+          "count": 54,
           "pct": 90
         },
         "ticket_url": {
           "count": 33,
-          "pct": 54
+          "pct": 55
         },
         "duration": {
           "count": 17,
@@ -507,14 +507,14 @@
         },
         "age_rating": {
           "count": 40,
-          "pct": 66
+          "pct": 67
         },
         "subcategory": {
           "count": 20,
           "pct": 33
         },
         "sessions": {
-          "count": 61,
+          "count": 60,
           "pct": 100
         }
       }
