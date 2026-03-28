@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-27T18:48:07.838419+00:00",
+  "generated_at": "2026-03-28T09:11:08.218695+00:00",
   "schema_version": "2.0",
-  "total_raw": 329,
-  "total_accepted": 319,
+  "total_raw": 332,
+  "total_accepted": 322,
   "total_rejected": 10,
-  "total_warnings": 29,
+  "total_warnings": 35,
   "rejected": [
     {
       "id": "saoluiz-um-homem-e-o-seu-criado",
@@ -261,24 +261,66 @@
       ]
     },
     {
+      "id": "viriato-mem-rias-do-teatro-da-cornuc-pia",
+      "title": "Memórias do Teatro da Cornucópia",
+      "warnings": [
+        "evento já terminou (2026-03-27)"
+      ]
+    },
+    {
+      "id": "tagv-viva-jo-o-c-sar-monteiro",
+      "title": "Viva João César Monteiro",
+      "warnings": [
+        "evento já terminou (1939-02-02)"
+      ]
+    },
+    {
+      "id": "tagv-miroirs-no-3",
+      "title": "Miroirs No. 3",
+      "warnings": [
+        "evento já terminou (1939-02-02)"
+      ]
+    },
+    {
       "id": "tagv-open-call-bolsas-de-cria-o-locais",
       "title": "Open Call: Bolsas de Criação Locais",
       "warnings": [
-        "evento já terminou (2026-03-16)"
+        "evento já terminou (2026-03-04)"
       ]
     },
     {
-      "id": "tagv-banda-encantada-xxviii-semana-cultural-uc",
-      "title": "Banda EnCantada — XXVIII Semana Cultural UC",
+      "id": "tagv-pulchritudines-concerto-sinf-nico-de-abertura-da-x",
+      "title": "Pulchritudines — Concerto Sinfónico de Abertura da XXVIII Semana Cultural UC",
       "warnings": [
-        "evento já terminou (2026-03-16)"
+        "evento já terminou (2026-03-11)"
       ]
     },
     {
-      "id": "tagv-festival-end-a-cavalo-dado",
-      "title": "Festival END: A Cavalo Dado",
+      "id": "tagv-blue-moon",
+      "title": "Blue Moon",
       "warnings": [
-        "evento já terminou (2026-03-26)"
+        "evento já terminou (2026-03-17)"
+      ]
+    },
+    {
+      "id": "tagv-doc-coimbra-abele",
+      "title": "DOC.Coimbra: Abele",
+      "warnings": [
+        "evento já terminou (2026-03-18)"
+      ]
+    },
+    {
+      "id": "tagv-doc-coimbra-salatinas-hist-rias-da-velha-alta-de-c",
+      "title": "DOC.Coimbra: Salatinas. Histórias da Velha Alta de Coimbra",
+      "warnings": [
+        "evento já terminou (2026-03-20)"
+      ]
+    },
+    {
+      "id": "tagv-doc-coimbra-y-our-mother",
+      "title": "DOC.Coimbra: (Y)our Mother",
+      "warnings": [
+        "evento já terminou (2026-03-21)"
       ]
     }
   ],
@@ -295,7 +337,7 @@
     },
     "São Luiz Teatro Municipal": {
       "status": "ok",
-      "events_collected": 43
+      "events_collected": 42
     },
     "Teatro Maria Matos": {
       "status": "ok",
@@ -315,15 +357,19 @@
     },
     "Theatro Circo": {
       "status": "ok",
-      "events_collected": 61
+      "events_collected": 60
     },
     "Teatro do Bairro": {
       "status": "ok",
       "events_collected": 1
     },
     "Teatro da Trindade INATEL": {
-      "status": "ok",
-      "events_collected": 8
+      "status": "stale",
+      "reason": "zero_results",
+      "exception": null,
+      "events_from_cache": 8,
+      "events_expired_discarded": 0,
+      "stale_since": "2026-03-28"
     },
     "Teatro das Figuras": {
       "status": "ok",
@@ -331,14 +377,14 @@
     },
     "TAGV — Teatro Académico Gil Vicente": {
       "status": "ok",
-      "events_collected": 4
+      "events_collected": 10
     },
     "Cine-Teatro Avenida": {
       "status": "stale",
       "reason": "zero_results",
       "exception": null,
-      "events_from_cache": 7,
-      "events_expired_discarded": 0,
+      "events_from_cache": 6,
+      "events_expired_discarded": 1,
       "stale_since": "2026-03-27"
     }
   }
