@@ -1,47 +1,5 @@
 [
   {
-    "id": "tagv-ser-preciso-ser-aqui-conversas-com-pessoas-dotadas",
-    "title": "Ser Preciso, Ser Aqui: Conversas Com Pessoas Dotadas de Minúcia",
-    "theater": "TAGV — Teatro Académico Gil Vicente",
-    "category": "Música",
-    "date_start": "2026-03-28",
-    "source_url": "https://tagv.pt/agenda/european-student-orchestra-festival-2026-coimbra-orchestre-universitaire-de-strasbourg/",
-    "dates_label": "28 mar 2026",
-    "synopsis": "A edição de 2026, em Coimbra, representa um marco importante nesta missão, sendo o primeiro ESOF realizado no Sul da Europa (edições anteriores em Leuven, Estrasburgo, Tallinn, Bruxelas, Toulouse e Münster).…",
-    "image": {
-      "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-european-student-orchestra-festival-2026-coimbra-strasbourg-3.jpg",
-      "credit": null,
-      "source": "https://tagv.pt/agenda/european-student-orchestra-festival-2026-coimbra-orchestre-universitaire-de-strasbourg/",
-      "theater": "TAGV — Teatro Académico Gil Vicente"
-    },
-    "ticket_url": "https://tagv.bol.pt",
-    "duration": "17h30",
-    "duration_min": 1050,
-    "technical_sheet": {
-      "música": "European Student Orchestra Festival 2026 Coimbra"
-    },
-    "people": [
-      "European Student Orchestra Festival 2026 Coimbra"
-    ],
-    "sessions": [
-      {
-        "date": "2026-03-28",
-        "time": "17:30",
-        "weekday": "Sáb"
-      }
-    ],
-    "schema_version": "2.0",
-    "is_free": null,
-    "is_accessible": null,
-    "scraped_at": "2026-03-28T09:11:08.180854+00:00",
-    "theater_id": "tagv",
-    "city": "Coimbra",
-    "venue_type": "",
-    "_meta": {
-      "completeness": 0.564
-    }
-  },
-  {
     "id": "tagv-uma-onda-na-mente-apresenta-o-dos-livros",
     "title": "Uma Onda na Mente — Apresentação dos Livros",
     "theater": "TAGV — Teatro Académico Gil Vicente",
@@ -123,7 +81,7 @@
     "subcategory": "Performance",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-28T09:11:08.180854+00:00",
+    "scraped_at": "2026-03-29T09:12:02.382673+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",

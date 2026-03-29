@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-28T09:11:14.887417+00:00",
-  "build_version": "20260328-0911",
+  "updated_at": "2026-03-29T09:12:07.906967+00:00",
+  "build_version": "20260329-0912",
   "schema_version": "2.0",
-  "total_events": 288,
+  "total_events": 278,
   "total_theaters": 13,
-  "events_today": 37,
-  "events_this_weekend": 39,
+  "events_today": 25,
+  "events_this_weekend": 26,
   "cities": [
     "Braga",
     "Castelo Branco",
@@ -15,9 +15,9 @@
     "Viseu"
   ],
   "by_category": {
-    "Artes Performativas": 114,
-    "Música": 80,
-    "Multidisciplinar": 37,
+    "Artes Performativas": 109,
+    "Música": 76,
+    "Multidisciplinar": 36,
     "Formação & Participação": 19,
     "Cinema & Audiovisual": 15,
     "Artes Visuais & Exposições": 13,
@@ -26,49 +26,45 @@
     "Literatura & Palavra": 2
   },
   "by_subcategory": {
-    "Performance": 57,
-    "Teatro": 49,
-    "Concerto": 30,
+    "Performance": 54,
+    "Teatro": 47,
+    "Concerto": 27,
     "Exposição": 6,
     "Workshop": 5,
     "Conversa": 5,
     "Dança": 3,
-    "Cinema": 2,
     "Ópera": 2,
+    "Cinema": 2,
     "Comédia": 2,
     "Teatro Musical": 1
   },
   "filter_counts": {
     "is_free": 22,
     "is_accessible": 0,
-    "for_families": 106,
+    "for_families": 101,
     "for_schools": 14,
     "has_lsp": 0,
     "is_festival": 5
   },
-  "stale_theaters": 14,
+  "stale_theaters": 5,
   "by_theater": {
-    "Theatro Circo": 60,
+    "Theatro Circo": 59,
     "Teatro Viriato": 28,
     "Teatro Variedades": 7,
     "Teatro da Trindade INATEL": 8,
     "São Luiz Teatro Municipal": 33,
     "Teatro Maria Matos": 15,
     "Capitólio": 6,
-    "CCB — Centro Cultural de Belém": 87,
-    "TAGV — Teatro Académico Gil Vicente": 2,
-    "Cine-Teatro Avenida": 6,
+    "CCB — Centro Cultural de Belém": 80,
+    "Cine-Teatro Avenida": 5,
     "Teatro do Bairro": 1,
     "Teatro das Figuras": 32,
+    "TAGV — Teatro Académico Gil Vicente": 1,
     "Culturgest": 3
   },
-  "completeness_avg": 0.577,
+  "completeness_avg": 0.578,
   "anomalies": [],
   "scraper_health": {
-    "Teatro da Trindade INATEL": {
-      "status": "stale",
-      "stale_since": "2026-03-28"
-    },
     "Cine-Teatro Avenida": {
       "status": "stale",
       "stale_since": "2026-03-27"

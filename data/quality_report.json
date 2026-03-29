@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-28T09:11:14.960864+00:00",
-  "total_events": 288,
+  "generated_at": "2026-03-29T09:12:07.974879+00:00",
+  "total_events": 278,
   "tracked_fields": [
     "synopsis",
     "image",
@@ -13,24 +13,24 @@
   ],
   "theaters": {
     "CCB — Centro Cultural de Belém": {
-      "total_events": 87,
+      "total_events": 80,
       "status": "ok",
-      "completeness_avg": 0.552,
+      "completeness_avg": 0.55,
       "field_coverage": {
         "synopsis": {
-          "count": 87,
+          "count": 80,
           "pct": 100
         },
         "image": {
-          "count": 87,
+          "count": 80,
           "pct": 100
         },
         "price_info": {
-          "count": 38,
-          "pct": 44
+          "count": 36,
+          "pct": 45
         },
         "ticket_url": {
-          "count": 27,
+          "count": 25,
           "pct": 31
         },
         "duration": {
@@ -38,15 +38,15 @@
           "pct": 0
         },
         "age_rating": {
-          "count": 49,
-          "pct": 56
+          "count": 44,
+          "pct": 55
         },
         "subcategory": {
-          "count": 85,
+          "count": 78,
           "pct": 98
         },
         "sessions": {
-          "count": 87,
+          "count": 80,
           "pct": 100
         }
       }
@@ -91,7 +91,7 @@
       }
     },
     "Cine-Teatro Avenida": {
-      "total_events": 6,
+      "total_events": 5,
       "status": "stale",
       "completeness_avg": 0.33,
       "field_coverage": {
@@ -100,7 +100,7 @@
           "pct": 0
         },
         "image": {
-          "count": 6,
+          "count": 5,
           "pct": 100
         },
         "price_info": {
@@ -108,7 +108,7 @@
           "pct": 0
         },
         "ticket_url": {
-          "count": 6,
+          "count": 5,
           "pct": 100
         },
         "duration": {
@@ -124,7 +124,7 @@
           "pct": 0
         },
         "sessions": {
-          "count": 6,
+          "count": 5,
           "pct": 100
         }
       }
@@ -208,28 +208,28 @@
       }
     },
     "TAGV — Teatro Académico Gil Vicente": {
-      "total_events": 2,
+      "total_events": 1,
       "status": "ok",
-      "completeness_avg": 0.715,
+      "completeness_avg": 0.866,
       "field_coverage": {
         "synopsis": {
-          "count": 2,
+          "count": 1,
           "pct": 100
         },
         "image": {
-          "count": 2,
+          "count": 1,
           "pct": 100
         },
         "price_info": {
           "count": 1,
-          "pct": 50
+          "pct": 100
         },
         "ticket_url": {
-          "count": 2,
+          "count": 1,
           "pct": 100
         },
         "duration": {
-          "count": 2,
+          "count": 1,
           "pct": 100
         },
         "age_rating": {
@@ -238,10 +238,10 @@
         },
         "subcategory": {
           "count": 1,
-          "pct": 50
+          "pct": 100
         },
         "sessions": {
-          "count": 2,
+          "count": 1,
           "pct": 100
         }
       }
@@ -365,7 +365,7 @@
     },
     "Teatro da Trindade INATEL": {
       "total_events": 8,
-      "status": "stale",
+      "status": "ok",
       "completeness_avg": 0.736,
       "field_coverage": {
         "synopsis": {
@@ -481,40 +481,40 @@
       }
     },
     "Theatro Circo": {
-      "total_events": 60,
+      "total_events": 59,
       "status": "ok",
-      "completeness_avg": 0.603,
+      "completeness_avg": 0.6,
       "field_coverage": {
         "synopsis": {
-          "count": 60,
+          "count": 59,
           "pct": 100
         },
         "image": {
-          "count": 60,
+          "count": 59,
           "pct": 100
         },
         "price_info": {
-          "count": 54,
+          "count": 53,
           "pct": 90
         },
         "ticket_url": {
-          "count": 33,
-          "pct": 55
+          "count": 32,
+          "pct": 54
         },
         "duration": {
-          "count": 17,
-          "pct": 28
+          "count": 16,
+          "pct": 27
         },
         "age_rating": {
-          "count": 40,
-          "pct": 67
+          "count": 39,
+          "pct": 66
         },
         "subcategory": {
-          "count": 20,
-          "pct": 33
+          "count": 19,
+          "pct": 32
         },
         "sessions": {
-          "count": 60,
+          "count": 59,
           "pct": 100
         }
       }

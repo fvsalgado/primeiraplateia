@@ -1,39 +1,5 @@
 [
   {
-    "id": "cine-teatro-avenida-jo-o-barradas-100-anos-eug-nia-lima",
-    "title": "João Barradas_ 100 anos Eugénia Lima",
-    "theater": "Cine-Teatro Avenida",
-    "date_start": "2026-03-28",
-    "source_url": "https://www.ticketline.pt/evento/eugenia-lima-nos-100-anos-do-nascimento-102226",
-    "ticket_url": "https://www.ticketline.pt/evento/eugenia-lima-nos-100-anos-do-nascimento-102226",
-    "sessions": [
-      {
-        "date": "2026-03-28",
-        "time": null,
-        "weekday": "Sáb"
-      }
-    ],
-    "image": {
-      "url": "https://info.ticketline.pt/images/Espectaculos/102226/cartaz.jpg",
-      "credit": null,
-      "source": "https://www.ticketline.pt/evento/eugenia-lima-nos-100-anos-do-nascimento-102226",
-      "theater": "Cine-Teatro Avenida"
-    },
-    "schema_version": "2.0",
-    "category": "Multidisciplinar",
-    "is_free": null,
-    "is_accessible": null,
-    "scraped_at": "2026-03-26T10:22:39.437582+00:00",
-    "_stale": true,
-    "_stale_since": "2026-03-27",
-    "theater_id": "cine-teatro-avenida",
-    "city": "Castelo Branco",
-    "venue_type": "",
-    "_meta": {
-      "completeness": 0.33
-    }
-  },
-  {
     "id": "cine-teatro-avenida-quando-vem-a-taciturna-joana-t-hugo-c",
     "title": "Quando vem a Taciturna... Joana T. & Hugo C.",
     "theater": "Cine-Teatro Avenida",
