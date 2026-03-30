@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-29T09:12:02.420786+00:00",
+  "generated_at": "2026-03-30T10:52:20.470104+00:00",
   "schema_version": "2.0",
-  "total_raw": 338,
-  "total_accepted": 328,
+  "total_raw": 312,
+  "total_accepted": 302,
   "total_rejected": 10,
-  "total_warnings": 51,
+  "total_warnings": 28,
   "rejected": [
     {
       "id": "saoluiz-um-homem-e-o-seu-criado",
@@ -86,10 +86,10 @@
       ]
     },
     {
-      "id": "ccb-a-valentina-e-a-valeria-n-o-est-o-mortas",
-      "title": "A Valentina e a Valeria não estão mortas",
+      "id": "ccb-aprender-a-brincar-para-a-brincar-a-aprender",
+      "title": "Aprender a Brincar para a Brincar a Aprender",
       "warnings": [
-        "evento já terminou (2026-03-19)"
+        "evento já terminou (2026-03-01)"
       ]
     },
     {
@@ -273,167 +273,6 @@
       "warnings": [
         "evento já terminou (2026-03-27)"
       ]
-    },
-    {
-      "id": "tagv-batalha-atr-s-de-batalha",
-      "title": "Batalha Atrás de Batalha",
-      "warnings": [
-        "evento já terminou (2025-12-11)"
-      ]
-    },
-    {
-      "id": "tagv-onde-aterrar",
-      "title": "Onde Aterrar",
-      "warnings": [
-        "evento já terminou (2026-01-10)"
-      ]
-    },
-    {
-      "id": "tagv-laguna",
-      "title": "Laguna",
-      "warnings": [
-        "evento já terminou (2025-11-11)"
-      ]
-    },
-    {
-      "id": "tagv-caminhada-salatina",
-      "title": "Caminhada Salatina",
-      "warnings": [
-        "evento já terminou (1939-02-02)"
-      ]
-    },
-    {
-      "id": "tagv-miroirs-no-3",
-      "title": "Miroirs No. 3",
-      "warnings": [
-        "evento já terminou (1939-02-02)"
-      ]
-    },
-    {
-      "id": "tagv-na-terra-dos-nossos-irm-os",
-      "title": "Na Terra dos Nossos Irmãos",
-      "warnings": [
-        "evento já terminou (1939-02-02)"
-      ]
-    },
-    {
-      "id": "tagv-amor-e-informa-o",
-      "title": "Amor e Informação",
-      "warnings": [
-        "evento já terminou (2026-01-13)"
-      ]
-    },
-    {
-      "id": "tagv-viva-jo-o-c-sar-monteiro",
-      "title": "Viva João César Monteiro",
-      "warnings": [
-        "evento já terminou (1939-02-02)"
-      ]
-    },
-    {
-      "id": "tagv-salatinas-hist-rias-da-velha-alta-de-coimbra",
-      "title": "Salatinas. Histórias da Velha Alta de Coimbra",
-      "warnings": [
-        "evento já terminou (1939-02-02)"
-      ]
-    },
-    {
-      "id": "tagv-recorda-es-da-casa-amarela",
-      "title": "Recordações da Casa Amarela",
-      "warnings": [
-        "evento já terminou (2026-01-17)"
-      ]
-    },
-    {
-      "id": "tagv-as-curtas",
-      "title": "As Curtas",
-      "warnings": [
-        "evento já terminou (1939-02-02)"
-      ]
-    },
-    {
-      "id": "tagv-silvestre",
-      "title": "Silvestre",
-      "warnings": [
-        "evento já terminou (1939-02-02)"
-      ]
-    },
-    {
-      "id": "tagv-o-av-tem-uma-borracha-na-cabe-a",
-      "title": "O Avô Tem Uma Borracha Na Cabeça",
-      "warnings": [
-        "evento já terminou (1974-04-25)"
-      ]
-    },
-    {
-      "id": "tagv-sophia-de-melo-breyner-andresen-fragmentos-de-um-f",
-      "title": "Sophia de Melo Breyner Andresen + Fragmentos de Um Filme-Esmola",
-      "warnings": [
-        "evento já terminou (2026-01-21)"
-      ]
-    },
-    {
-      "id": "tagv-as-bodas-de-deus",
-      "title": "As Bodas de Deus",
-      "warnings": [
-        "evento já terminou (2026-01-23)"
-      ]
-    },
-    {
-      "id": "tagv-quem-espera-por-sapatos-de-defunto-morre-descal-o-",
-      "title": "Quem Espera Por Sapatos De Defunto Morre Descalço + Que Farei Eu Com Esta Espada?",
-      "warnings": [
-        "evento já terminou (2026-01-24)"
-      ]
-    },
-    {
-      "id": "tagv-ser-preciso-ser-aqui-conversas-com-pessoas-dotadas",
-      "title": "Ser Preciso, Ser Aqui: Conversas Com Pessoas Dotadas de Minúcia",
-      "warnings": [
-        "evento já terminou (1939-02-02)"
-      ]
-    },
-    {
-      "id": "tagv-portugal-n-o-um-pa-s-pequeno",
-      "title": "Portugal Não É Um País Pequeno",
-      "warnings": [
-        "evento já terminou (2026-01-29)"
-      ]
-    },
-    {
-      "id": "tagv-ii-beira-rio-festival-de-tunas",
-      "title": "II À Beira Rio — Festival de Tunas",
-      "warnings": [
-        "evento já terminou (2026-02-10)"
-      ]
-    },
-    {
-      "id": "tagv-open-call-bolsas-de-cria-o-locais",
-      "title": "Open Call: Bolsas de Criação Locais",
-      "warnings": [
-        "evento já terminou (2026-03-04)"
-      ]
-    },
-    {
-      "id": "tagv-pulchritudines-concerto-sinf-nico-de-abertura-da-x",
-      "title": "Pulchritudines — Concerto Sinfónico de Abertura da XXVIII Semana Cultural UC",
-      "warnings": [
-        "evento já terminou (2026-03-11)"
-      ]
-    },
-    {
-      "id": "tagv-doc-coimbra-abele",
-      "title": "DOC.Coimbra: Abele",
-      "warnings": [
-        "evento já terminou (2026-03-18)"
-      ]
-    },
-    {
-      "id": "tagv-doc-coimbra-salatinas-hist-rias-da-velha-alta-de-c",
-      "title": "DOC.Coimbra: Salatinas. Histórias da Velha Alta de Coimbra",
-      "warnings": [
-        "evento já terminou (2026-03-20)"
-      ]
     }
   ],
   "total_duplicates_removed": 0,
@@ -449,7 +288,7 @@
     },
     "São Luiz Teatro Municipal": {
       "status": "ok",
-      "events_collected": 42
+      "events_collected": 41
     },
     "Teatro Maria Matos": {
       "status": "ok",
@@ -461,7 +300,7 @@
     },
     "CCB — Centro Cultural de Belém": {
       "status": "ok",
-      "events_collected": 81
+      "events_collected": 80
     },
     "Teatro Viriato": {
       "status": "ok",
@@ -469,7 +308,7 @@
     },
     "Theatro Circo": {
       "status": "ok",
-      "events_collected": 59
+      "events_collected": 58
     },
     "Teatro do Bairro": {
       "status": "ok",
@@ -484,15 +323,19 @@
       "events_collected": 32
     },
     "TAGV — Teatro Académico Gil Vicente": {
-      "status": "ok",
-      "events_collected": 24
+      "status": "stale",
+      "reason": "zero_results",
+      "exception": null,
+      "events_from_cache": 1,
+      "events_expired_discarded": 23,
+      "stale_since": "2026-03-30"
     },
     "Cine-Teatro Avenida": {
       "status": "stale",
       "reason": "zero_results",
       "exception": null,
       "events_from_cache": 5,
-      "events_expired_discarded": 1,
+      "events_expired_discarded": 0,
       "stale_since": "2026-03-27"
     }
   }
