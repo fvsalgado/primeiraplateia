@@ -82,6 +82,8 @@
     "is_free": null,
     "is_accessible": null,
     "scraped_at": "2026-03-29T09:12:02.382673+00:00",
+    "_stale": true,
+    "_stale_since": "2026-03-30",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
