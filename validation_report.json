@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-30T10:52:20.470104+00:00",
+  "generated_at": "2026-03-31T10:37:14.991001+00:00",
   "schema_version": "2.0",
   "total_raw": 312,
   "total_accepted": 302,
   "total_rejected": 10,
-  "total_warnings": 28,
+  "total_warnings": 27,
   "rejected": [
     {
       "id": "saoluiz-um-homem-e-o-seu-criado",
@@ -83,13 +83,6 @@
       "title": "Teatro Variedades: 100 Anos, 100 Entradas na Wikipédia",
       "warnings": [
         "'date_end' (2026-06-20) < 'date_start' (2026-10-18) — corrigido"
-      ]
-    },
-    {
-      "id": "ccb-aprender-a-brincar-para-a-brincar-a-aprender",
-      "title": "Aprender a Brincar para a Brincar a Aprender",
-      "warnings": [
-        "evento já terminou (2026-03-01)"
       ]
     },
     {
@@ -280,7 +273,7 @@
   "scraper_health": {
     "Teatro Variedades": {
       "status": "ok",
-      "events_collected": 7
+      "events_collected": 8
     },
     "Capitólio": {
       "status": "ok",
@@ -299,8 +292,12 @@
       "events_collected": 3
     },
     "CCB — Centro Cultural de Belém": {
-      "status": "ok",
-      "events_collected": 80
+      "status": "stale",
+      "reason": "zero_results",
+      "exception": null,
+      "events_from_cache": 79,
+      "events_expired_discarded": 1,
+      "stale_since": "2026-03-31"
     },
     "Teatro Viriato": {
       "status": "ok",
@@ -327,7 +324,7 @@
       "reason": "zero_results",
       "exception": null,
       "events_from_cache": 1,
-      "events_expired_discarded": 23,
+      "events_expired_discarded": 0,
       "stale_since": "2026-03-30"
     },
     "Cine-Teatro Avenida": {
