@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-03-30T10:52:26.135671+00:00",
-  "build_version": "20260330-1052",
+  "updated_at": "2026-03-31T10:37:20.081838+00:00",
+  "build_version": "20260331-1037",
   "schema_version": "2.0",
-  "total_events": 275,
+  "total_events": 276,
   "total_theaters": 13,
-  "events_today": 23,
+  "events_today": 28,
   "events_this_weekend": 26,
   "cities": [
     "Braga",
@@ -15,7 +15,7 @@
     "Viseu"
   ],
   "by_category": {
-    "Artes Performativas": 107,
+    "Artes Performativas": 108,
     "Música": 75,
     "Multidisciplinar": 36,
     "Formação & Participação": 19,
@@ -26,7 +26,7 @@
     "Literatura & Palavra": 2
   },
   "by_subcategory": {
-    "Performance": 53,
+    "Performance": 54,
     "Teatro": 46,
     "Concerto": 27,
     "Exposição": 6,
@@ -46,11 +46,11 @@
     "has_lsp": 0,
     "is_festival": 5
   },
-  "stale_theaters": 6,
+  "stale_theaters": 85,
   "by_theater": {
     "Theatro Circo": 58,
     "Teatro Viriato": 28,
-    "Teatro Variedades": 7,
+    "Teatro Variedades": 8,
     "Teatro da Trindade INATEL": 8,
     "Teatro Maria Matos": 15,
     "São Luiz Teatro Municipal": 32,
@@ -65,6 +65,10 @@
   "completeness_avg": 0.577,
   "anomalies": [],
   "scraper_health": {
+    "CCB — Centro Cultural de Belém": {
+      "status": "stale",
+      "stale_since": "2026-03-31"
+    },
     "TAGV — Teatro Académico Gil Vicente": {
       "status": "stale",
       "stale_since": "2026-03-30"

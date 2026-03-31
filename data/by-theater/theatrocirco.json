@@ -31,7 +31,8 @@
     "technical_sheet": {
       "música": "Três Tempos Com Xullaji e Tiago Sampaio Segundas · 18h45 Sala de Ensaios Gratuito mediante inscrição para participacao@theatrocirco.com Jovens dos 15 aos 18 anos 1/8 1/8 2/8 3/8 4/8 5/8 6/8 7/8 8/8 A",
       "criação": "deste projeto participativo, fora do ambiente escolar, pensado para que cada grupo viva o processo de forma igual. Assim, entre novembro de 2025 e abril de 2026, têm lugar encontros semanais de escrit",
-      "produção": "Theatro Circo (Braga), Culturgest (Lisboa) e Teatro Viriato (Viseu) Queres fazer parte deste projeto? Escreve-nos para participacao@theatrocirco.com TheatroCirco Programação Sobre Informações Acessibi"
+      "produção": "Theatro Circo (Braga), Culturgest (Lisboa) e Teatro Viriato (Viseu) Queres fazer parte deste projeto? Escreve-nos para participacao@theatrocirco.com _",
+      "direção": "-Geral das Artes / Rede Portuguesa de Teatros e Cineteatros Portugueses (RTCP) O dst group é mecenas do programa de Mediação e Participação. TheatroCirco Programação Sobre Informações Acessibilidade E"
     },
     "tags": [],
     "accessibility": [],
@@ -41,12 +42,12 @@
     "schema_version": "2.0",
     "is_free": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
     "_meta": {
-      "completeness": 0.544
+      "completeness": 0.562
     }
   },
   {
@@ -93,59 +94,12 @@
     "is_free": true,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
     "_meta": {
       "completeness": 0.586
-    }
-  },
-  {
-    "id": "theatrocirco-blue-moon",
-    "title": "Blue Moon",
-    "theater": "Theatro Circo",
-    "source_url": "https://theatrocirco.com/event/blue-moon/",
-    "date_start": "2026-03-30",
-    "category": "Cinema & Audiovisual",
-    "dates_label": "30 Março",
-    "sessions": [
-      {
-        "date": "2026-03-30",
-        "time": "21:30",
-        "weekday": "Seg"
-      }
-    ],
-    "image": {
-      "url": "https://theatrocirco.com/wp-content/uploads/2026/02/nprbrightspotcdn.jpg",
-      "credit": null,
-      "source": "https://theatrocirco.com/event/blue-moon/",
-      "theater": "Theatro Circo"
-    },
-    "synopsis": "Blue Moonde Richard Linklater2025 | EUA | Drama | 1h40 O lendário letrista da Broadway Lorenz Hart sai de um teatro e dirige-se ao Sardi’s. O dia é 31 de Março de 1943, noite de estreia do musicalOklahoma!, do seu antigo parceiro de escrita Richard Rodgers e Oscar Hammerstein II.…",
-    "ticket_url": "https://theatrocirco.bol.pt/Comprar/Bilhetes/172896/1914781/Sectores",
-    "price_info": "4€",
-    "technical_sheet": {
-      "música": "l Oklahoma! , do seu antigo parceiro de escrita Richard Rodgers e Oscar Hammerstein II. Na festa dessa noite, Hart vê-se confrontado com o declínio da carreira… Captando este momento singular, Blue Mo"
-    },
-    "tags": [],
-    "accessibility": [],
-    "subtitle": "Richard Linklater",
-    "schedule": "21h30",
-    "sala": "Pequeno Auditório",
-    "age_rating": "M/14",
-    "age_min": 14,
-    "price_min": 4.0,
-    "price_max": 4.0,
-    "schema_version": "2.0",
-    "is_free": null,
-    "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
-    "theater_id": "theatrocirco",
-    "city": "Braga",
-    "venue_type": "",
-    "_meta": {
-      "completeness": 0.588
     }
   },
   {
@@ -199,7 +153,7 @@
     "subcategory": "Performance",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -242,7 +196,8 @@
     "ticket_url": "",
     "price_info": "Gratuito",
     "technical_sheet": {
-      "criação": ". Durante três dias, sob a orientação da bailarina e coreógrafa Beatriz Valentim, será desenvolvido um laboratório prático que integra o processo de"
+      "criação": ". Durante três dias, sob a orientação da bailarina e coreógrafa Beatriz Valentim, será desenvolvido um laboratório prático que integra o processo de",
+      "direção": "-Geral das Artes / Rede Portuguesa de Teatros e Cineteatros Portugueses (RTCP) TheatroCirco Programação Sobre Informações Acessibilidade En Inscreva-se aqui na nossa Newsletter para não perder nenhum"
     },
     "tags": [],
     "accessibility": [],
@@ -253,12 +208,12 @@
     "subcategory": "Performance",
     "is_free": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
     "_meta": {
-      "completeness": 0.548
+      "completeness": 0.566
     }
   },
   {
@@ -306,7 +261,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -342,7 +297,8 @@
       "texto": "imagem, som, espaço, tempo e relação com o público. Entre encontros e conversas, o grupo investiga os mecanismos que fazem uma",
       "criação": "acontecer: como se constrói uma",
       "dramaturgia": "que escolhas sustentam uma composição, de que forma o espectador participa no sentido do espetáculo. Continuamos a ver, ouvir e discutir — mas também a pensar as artes performativas como linguagem e",
-      "encenação": "28 março – Biografia e Autoficção 11 abril – Teatro pós-dramático Mediação BALA – Núcleo Dramatúrgico Inscrição gratuita para participacao@theatrocirco.com A participação na Companhia de Espectadores"
+      "encenação": "28 março – Biografia e Autoficção 11 abril – Teatro pós-dramático Mediação BALA – Núcleo Dramatúrgico Inscrição gratuita para participacao@theatrocirco.com A participação na Companhia de Espectadores",
+      "direção": "-Geral das Artes / Rede Portuguesa de Teatros e Cineteatros Portugueses (RTCP) O dst group é mecenas do programa de Mediação e Participação. TheatroCirco Programação Sobre Informações Acessibilidade E"
     },
     "tags": [],
     "accessibility": [],
@@ -352,12 +308,12 @@
     "is_free": true,
     "for_schools": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
     "_meta": {
-      "completeness": 0.562
+      "completeness": 0.58
     }
   },
   {
@@ -376,7 +332,7 @@
       }
     ],
     "image": {
-      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/Rakhi-Singh-Press-Portrait-22-2-Robin-Clewley-scaled.jpg",
+      "url": "https://theatrocirco.com/wp-content/uploads/2025/11/Rakhi-Singh-Press-Portrait-22-2-Robin-Clewley-1-scaled.jpg",
       "credit": null,
       "source": "https://theatrocirco.com/event/contraponto-gorecki-adams/",
       "theater": "Theatro Circo"
@@ -398,7 +354,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -441,7 +397,7 @@
     "schema_version": "2.0",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -510,7 +466,8 @@
     "price_info": "",
     "technical_sheet": {
       "criação": "experimentação e celebração. Para assinalar esta festividade, entre os dias 17 e 24 de abril passarão por esta casa de espetáculos centenária um conjunto de propostas artísticas que vão da",
-      "música": "ao teatro, à dança e ainda atividades para o público infantojuvenil. Programa completo Capra – or how to say hello to fear · Roxana Ionesco 17 abr · 21h30 · Pequeno Auditório Histórias de Sonho · Li"
+      "música": "ao teatro, à dança e ainda atividades para o público infantojuvenil. Programa completo CAPRA – or how to say hello to fear · Roxana Ionesco 17 abr · 21h30 · Pequeno Auditório Histórias de Sonho · Li",
+      "direção": "-Geral das Artes / Rede Portuguesa de Teatros e Cineteatros Portugueses (RTCP) TheatroCirco Programação Sobre Informações Acessibilidade En Inscreva-se aqui na nossa Newsletter para não perder nenhum"
     },
     "tags": [
       "Aniversário"
@@ -522,17 +479,17 @@
     "schema_version": "2.0",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
     "_meta": {
-      "completeness": 0.456
+      "completeness": 0.474
     }
   },
   {
     "id": "theatrocirco-capra-or-how-to-say-hello-to-fear",
-    "title": "Capra – or how to say hello to fear",
+    "title": "CAPRA – or how to say hello to fear",
     "theater": "Theatro Circo",
     "source_url": "https://theatrocirco.com/event/capra/",
     "date_start": "2026-04-17",
@@ -554,15 +511,7 @@
     "synopsis": "Um espetáculo criado a partir de uma tradição ancestral pagã da memória coletiva romena e moldava — a cabra do Ano Novo — um ritual de renovação. Uma CAPRA que procura espelhar as nossas entranhas — aquelas que, de tão desconhecidas, nos metem medo.…",
     "ticket_url": "",
     "price_info": "9€",
-    "technical_sheet": {
-      "encenação": "Roxana Ionesco",
-      "interpretação": "Bianca Banica, Vanessa Lonau, Daria Asaftei, Ramona Gherasim",
-      "som": "Guilherme Curado Design de luz Renato Marinho",
-      "figurinos": "Çal Pfungst Artesão Gonçalo Alegria",
-      "produção": "Mariana de Sá Marques Comunicação Filipa Machado",
-      "fotografia": "Max Shuz Teaser Maria Couto",
-      "direção": "-Geral das Artes"
-    },
+    "technical_sheet": {},
     "tags": [
       "Aniversário"
     ],
@@ -578,12 +527,12 @@
     "subcategory": "Performance",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
     "_meta": {
-      "completeness": 0.686
+      "completeness": 0.56
     }
   },
   {
@@ -610,7 +559,9 @@
     "synopsis": "Histórias contadas com emoção. O Aqui Há Gato escolhe as melhores: as mais divertidas, as que fazem pensar, as que fazem sentir e as que fazem crescer lendo!Uma história? Duas histórias? Três histórias? Queremos mais! Pois muito bem, muitas histórias iremos contar e os teus sonhos embalar. Curiosos?…",
     "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/166110-historias_de_sonho_livraria_aqui_ha_gato-theatro_circo/Sessoes",
     "price_info": "",
-    "technical_sheet": {},
+    "technical_sheet": {
+      "direção": "-Geral das Artes / Rede Portuguesa de Teatros e Cineteatros Portugueses (RTCP) TheatroCirco Bilhetes Bilhetes Programação Sobre Informações Acessibilidade En Inscreva-se aqui na nossa Newsletter para"
+    },
     "tags": [
       "Aniversário",
       "Infantojuvenil"
@@ -624,12 +575,12 @@
     "subcategory": "Performance",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
     "_meta": {
-      "completeness": 0.56
+      "completeness": 0.578
     }
   },
   {
@@ -656,7 +607,9 @@
     "synopsis": "Com mais de um século de história, o Theatro Circo é um dos teatros mais emblemáticos e majestosos de Portugal. Nesta visita guiada, revelam-se os bastidores e as histórias que deram forma a este espaço, oferecendo uma perspetiva única sobre o seu valor patrimonial e simbólico.…",
     "ticket_url": "",
     "price_info": "3,5€",
-    "technical_sheet": {},
+    "technical_sheet": {
+      "direção": "-Geral das Artes / Rede Portuguesa de Teatros e Cineteatros Portugueses (RTCP) O dst group é mecenas do programa de Mediação e Participação. TheatroCirco Programação Sobre Informações Acessibilidade E"
+    },
     "tags": [
       "Aniversário"
     ],
@@ -669,12 +622,12 @@
     "schema_version": "2.0",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
     "_meta": {
-      "completeness": 0.52
+      "completeness": 0.538
     }
   },
   {
@@ -719,7 +672,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -770,7 +723,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -816,7 +769,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -850,7 +803,8 @@
     "price_info": "25€",
     "technical_sheet": {
       "música": "A Garota Não A Vulgar Mulher Extraordinária 21h30 Sala Principal 25€ / Cartão Pentágono 12,5€ M/6 Aniversário A Vulgar Mulher Extraordinária , é um espetáculo de A Garota Não, que terá apenas duas apr",
-      "criação": "que é uma profunda homenagem ao universo feminino. A Garota Não parte de uma figura singular — a sua mãe — para construir uma biografia coletiva que atravessa as vidas de mulheres anónimas, amigas e f"
+      "criação": "que é uma profunda homenagem ao universo feminino. A Garota Não parte de uma figura singular — a sua mãe — para construir uma biografia coletiva que atravessa as vidas de mulheres anónimas, amigas e f",
+      "direção": "-Geral das Artes / Rede Portuguesa de Teatros e Cineteatros Portugueses (RTCP) TheatroCirco Bilhetes Bilhetes Programação Sobre Informações Acessibilidade En Inscreva-se aqui na nossa Newsletter para"
     },
     "tags": [
       "Aniversário"
@@ -867,12 +821,12 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
     "_meta": {
-      "completeness": 0.616
+      "completeness": 0.634
     }
   },
   {
@@ -901,7 +855,8 @@
     "price_info": "Gratuito",
     "technical_sheet": {
       "texto": "que não é o da sua origem, sem se desconectar das raízes? Estas são algumas das questões que orientam as pesquisas de Nina Laisné, artista multidisciplinar francesa. Através do seu conhecimento profun",
-      "cenografia": "que acolhe tanto formas de utopias como feridas coletivas. Nesta masterclass que antecede o seu espetáculo Como una baguala oscura , Nina Laisné partilhará alguns aspetos do seu processo criativo, ent"
+      "cenografia": "que acolhe tanto formas de utopias como feridas coletivas. Nesta masterclass que antecede o seu espetáculo Como una baguala oscura , Nina Laisné partilhará alguns aspetos do seu processo criativo, ent",
+      "direção": "-Geral das Artes / Rede Portuguesa de Teatros e Cineteatros Portugueses (RTCP) O dst group é mecenas do programa de Mediação e Participação. TheatroCirco Programação Sobre Informações Acessibilidade E"
     },
     "tags": [
       "Aniversário"
@@ -917,12 +872,12 @@
     "schema_version": "2.0",
     "is_free": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
     "_meta": {
-      "completeness": 0.626
+      "completeness": 0.644
     }
   },
   {
@@ -949,19 +904,7 @@
     "synopsis": "Como una baguala oscuramarca o regresso da artista multidisciplinar Nina Laisné ao Theatro Circo, onde em 2022 apresentou o impressionanteArca Ostinata.…",
     "ticket_url": "https://www.bol.pt/Comprar/Bilhetes/166121-nina_laisne_nestor_pola_pastorive_como_una_baguala_oscura-theatro_circo/Sessoes",
     "price_info": "12€",
-    "technical_sheet": {
-      "criação": "Nina Laisné e Néstor Pola Pastorive Ideia Original,",
-      "encenação": "e",
-      "figurinos": "Nina Laisné",
-      "coreografia": "e",
-      "interpretação": "Néstor Pola Pastorive Piano e Composição Hilda Herrera Peças a 4 mãos Sebastián Gangi",
-      "luz": "Shaly López Engenharia de som Arthur Frick",
-      "direção": "de palco e vídeo Caroline Nguyen Imagens e vídeos Dante Martinez Engenharia de som em estúdio Mireille Faure",
-      "cenografia": "Nicolas Bénard Carpintaria Jonathan Chaillou Serralharia Jean-Christophe David, Jules Chavigny Escultura e pintura decorativa Laurent Pelois, Margaux Hocquart Construção do ecrã Serrurerie Gaby Sitter",
-      "tradução": "Adrienne Orssaud Administração Martine Girol Responsável de",
-      "produção": "Valentina Salazar Henao Gestão de",
-      "música": "le-Metz; Théâtre Garonne – Scène européenne; La Place de la danse CDCN Toulouse-Occitanie; Théâtre Molière Sète, Scène nationale archipel de Thau; Festival d’Automne à Paris"
-    },
+    "technical_sheet": {},
     "tags": [
       "Aniversário"
     ],
@@ -978,12 +921,12 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
     "_meta": {
-      "completeness": 0.8
+      "completeness": 0.62
     }
   },
   {
@@ -1026,7 +969,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -1082,7 +1025,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -1136,7 +1079,7 @@
     "subcategory": "Performance",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -1226,7 +1169,7 @@
     "schema_version": "2.0",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -1317,7 +1260,7 @@
     "schema_version": "2.0",
     "is_free": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -1410,7 +1353,7 @@
     "schema_version": "2.0",
     "is_free": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -1459,7 +1402,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -1506,7 +1449,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -1553,7 +1496,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -1618,7 +1561,7 @@
     "subcategory": "Performance",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -1675,7 +1618,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -1726,7 +1669,7 @@
     "subcategory": "Performance",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -1778,7 +1721,7 @@
     "is_festival": true,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -1835,7 +1778,7 @@
     "subcategory": "Performance",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -1877,7 +1820,7 @@
     "schema_version": "2.0",
     "is_free": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -1926,7 +1869,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -1971,7 +1914,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2033,7 +1976,7 @@
     "schema_version": "2.0",
     "is_free": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2077,7 +2020,7 @@
     "schema_version": "2.0",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2127,7 +2070,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2166,8 +2109,8 @@
     "price_info": "2,5€",
     "technical_sheet": {},
     "tags": [
-      "Crianças ao Poder",
-      "Infantojuvenil"
+      "Infantojuvenil",
+      "Crianças ao Poder"
     ],
     "accessibility": [],
     "subtitle": "Djam Neguin",
@@ -2185,7 +2128,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2226,8 +2169,8 @@
       "direção": "-Geral das Artes / Rede Portuguesa de Teatros e Cineteatros Portugueses (RTCP) TheatroCirco Reservas Reservas Programação Sobre Informações Acessibilidade En Inscreva-se aqui na nossa Newsletter para"
     },
     "tags": [
-      "Crianças ao Poder",
-      "Infantojuvenil"
+      "Infantojuvenil",
+      "Crianças ao Poder"
     ],
     "accessibility": [],
     "subtitle": "GariBambi",
@@ -2239,7 +2182,7 @@
     "schema_version": "2.0",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2275,8 +2218,8 @@
       "direção": "-Geral das Artes / Rede Portuguesa de Teatros e Cineteatros Portugueses (RTCP) TheatroCirco Reservas Reservas Programação Sobre Informações Acessibilidade En Inscreva-se aqui na nossa Newsletter para"
     },
     "tags": [
-      "Crianças ao Poder",
-      "Infantojuvenil"
+      "Infantojuvenil",
+      "Crianças ao Poder"
     ],
     "accessibility": [],
     "subtitle": "Djam Neguin",
@@ -2290,7 +2233,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2328,8 +2271,8 @@
       "direção": "-Geral das Artes / Rede Portuguesa de Teatros e Cineteatros Portugueses (RTCP) TheatroCirco Bilhetes Reservas Bilhetes Reservas Programação Sobre Informações Acessibilidade En Inscreva-se aqui na noss"
     },
     "tags": [
-      "Crianças ao Poder",
-      "Infantojuvenil"
+      "Infantojuvenil",
+      "Crianças ao Poder"
     ],
     "accessibility": [],
     "subtitle": "Curtas-metragens de Charley Bowers",
@@ -2342,7 +2285,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2391,7 +2334,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2454,7 +2397,7 @@
     "subcategory": "Performance",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2503,7 +2446,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2547,7 +2490,7 @@
     "schema_version": "2.0",
     "is_free": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2596,7 +2539,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2647,7 +2590,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2724,7 +2667,7 @@
     "subcategory": "Performance",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2781,7 +2724,7 @@
     "subcategory": "Performance",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2839,7 +2782,7 @@
     "subcategory": "Performance",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2890,7 +2833,7 @@
     "schema_version": "2.0",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2937,7 +2880,7 @@
     "schema_version": "2.0",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -2984,7 +2927,7 @@
     "schema_version": "2.0",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -3031,7 +2974,7 @@
     "schema_version": "2.0",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -3079,7 +3022,7 @@
     "schema_version": "2.0",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
@@ -3126,12 +3069,59 @@
     "schema_version": "2.0",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-03-30T10:52:20.434232+00:00",
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
     "theater_id": "theatrocirco",
     "city": "Braga",
     "venue_type": "",
     "_meta": {
       "completeness": 0.538
+    }
+  },
+  {
+    "id": "theatrocirco-blue-moon",
+    "title": "Blue Moon",
+    "theater": "Theatro Circo",
+    "source_url": "https://theatrocirco.com/event/blue-moon/",
+    "date_start": "2027-03-30",
+    "category": "Cinema & Audiovisual",
+    "dates_label": "30 Março",
+    "sessions": [
+      {
+        "date": "2027-03-30",
+        "time": "21:30",
+        "weekday": "Ter"
+      }
+    ],
+    "image": {
+      "url": "https://theatrocirco.com/wp-content/uploads/2026/02/nprbrightspotcdn.jpg",
+      "credit": null,
+      "source": "https://theatrocirco.com/event/blue-moon/",
+      "theater": "Theatro Circo"
+    },
+    "synopsis": "Blue Moonde Richard Linklater2025 | EUA | Drama | 1h40 O lendário letrista da Broadway Lorenz Hart sai de um teatro e dirige-se ao Sardi’s. O dia é 31 de Março de 1943, noite de estreia do musicalOklahoma!, do seu antigo parceiro de escrita Richard Rodgers e Oscar Hammerstein II.…",
+    "ticket_url": "https://theatrocirco.bol.pt/Comprar/Bilhetes/172896/1914781/Sectores",
+    "price_info": "4€",
+    "technical_sheet": {
+      "música": "l Oklahoma! , do seu antigo parceiro de escrita Richard Rodgers e Oscar Hammerstein II. Na festa dessa noite, Hart vê-se confrontado com o declínio da carreira… Captando este momento singular, Blue Mo"
+    },
+    "tags": [],
+    "accessibility": [],
+    "subtitle": "Richard Linklater",
+    "schedule": "21h30",
+    "sala": "Pequeno Auditório",
+    "age_rating": "M/14",
+    "age_min": 14,
+    "price_min": 4.0,
+    "price_max": 4.0,
+    "schema_version": "2.0",
+    "is_free": null,
+    "is_accessible": null,
+    "scraped_at": "2026-03-31T10:37:14.956685+00:00",
+    "theater_id": "theatrocirco",
+    "city": "Braga",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.588
     }
   }
 ]

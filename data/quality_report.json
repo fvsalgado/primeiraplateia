@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-30T10:52:26.203360+00:00",
-  "total_events": 275,
+  "generated_at": "2026-03-31T10:37:20.146237+00:00",
+  "total_events": 276,
   "tracked_fields": [
     "synopsis",
     "image",
@@ -14,7 +14,7 @@
   "theaters": {
     "CCB — Centro Cultural de Belém": {
       "total_events": 79,
-      "status": "ok",
+      "status": "stale",
       "completeness_avg": 0.551,
       "field_coverage": {
         "synopsis": {
@@ -286,41 +286,41 @@
       }
     },
     "Teatro Variedades": {
-      "total_events": 7,
+      "total_events": 8,
       "status": "ok",
-      "completeness_avg": 0.614,
+      "completeness_avg": 0.62,
       "field_coverage": {
         "synopsis": {
-          "count": 7,
+          "count": 8,
           "pct": 100
         },
         "image": {
-          "count": 7,
+          "count": 8,
           "pct": 100
         },
         "price_info": {
-          "count": 6,
-          "pct": 86
+          "count": 7,
+          "pct": 88
         },
         "ticket_url": {
-          "count": 7,
+          "count": 8,
           "pct": 100
         },
         "duration": {
-          "count": 7,
+          "count": 8,
           "pct": 100
         },
         "age_rating": {
-          "count": 7,
+          "count": 8,
           "pct": 100
         },
         "subcategory": {
-          "count": 4,
-          "pct": 57
+          "count": 5,
+          "pct": 62
         },
         "sessions": {
-          "count": 6,
-          "pct": 86
+          "count": 7,
+          "pct": 88
         }
       }
     },
@@ -483,7 +483,7 @@
     "Theatro Circo": {
       "total_events": 58,
       "status": "ok",
-      "completeness_avg": 0.6,
+      "completeness_avg": 0.597,
       "field_coverage": {
         "synopsis": {
           "count": 58,
