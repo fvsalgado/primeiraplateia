@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-31T10:37:20.081838+00:00",
-  "build_version": "20260331-1037",
+  "updated_at": "2026-04-01T10:41:56.274426+00:00",
+  "build_version": "20260401-1041",
   "schema_version": "2.0",
-  "total_events": 276,
+  "total_events": 287,
   "total_theaters": 13,
-  "events_today": 28,
-  "events_this_weekend": 26,
+  "events_today": 20,
+  "events_this_weekend": 17,
   "cities": [
     "Braga",
     "Castelo Branco",
@@ -15,8 +15,8 @@
     "Viseu"
   ],
   "by_category": {
-    "Artes Performativas": 108,
-    "Música": 75,
+    "Artes Performativas": 113,
+    "Música": 81,
     "Multidisciplinar": 36,
     "Formação & Participação": 19,
     "Cinema & Audiovisual": 15,
@@ -27,48 +27,44 @@
   },
   "by_subcategory": {
     "Performance": 54,
-    "Teatro": 46,
-    "Concerto": 27,
+    "Teatro": 51,
+    "Concerto": 33,
     "Exposição": 6,
     "Workshop": 5,
     "Conversa": 5,
+    "Cinema": 3,
     "Dança": 3,
     "Ópera": 2,
-    "Cinema": 2,
     "Comédia": 2,
     "Teatro Musical": 1
   },
   "filter_counts": {
     "is_free": 22,
     "is_accessible": 0,
-    "for_families": 99,
-    "for_schools": 14,
+    "for_families": 102,
+    "for_schools": 16,
     "has_lsp": 0,
     "is_festival": 5
   },
-  "stale_theaters": 85,
+  "stale_theaters": 6,
   "by_theater": {
-    "Theatro Circo": 58,
+    "Theatro Circo": 57,
     "Teatro Viriato": 28,
     "Teatro Variedades": 8,
     "Teatro da Trindade INATEL": 8,
     "Teatro Maria Matos": 15,
     "São Luiz Teatro Municipal": 32,
     "Capitólio": 6,
-    "CCB — Centro Cultural de Belém": 79,
+    "CCB — Centro Cultural de Belém": 91,
     "Cine-Teatro Avenida": 5,
     "Teatro do Bairro": 1,
     "Teatro das Figuras": 32,
     "TAGV — Teatro Académico Gil Vicente": 1,
     "Culturgest": 3
   },
-  "completeness_avg": 0.577,
+  "completeness_avg": 0.576,
   "anomalies": [],
   "scraper_health": {
-    "CCB — Centro Cultural de Belém": {
-      "status": "stale",
-      "stale_since": "2026-03-31"
-    },
     "TAGV — Teatro Académico Gil Vicente": {
       "status": "stale",
       "stale_since": "2026-03-30"

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-31T10:37:20.146237+00:00",
-  "total_events": 276,
+  "generated_at": "2026-04-01T10:41:56.342287+00:00",
+  "total_events": 287,
   "tracked_fields": [
     "synopsis",
     "image",
@@ -13,40 +13,40 @@
   ],
   "theaters": {
     "CCB — Centro Cultural de Belém": {
-      "total_events": 79,
-      "status": "stale",
-      "completeness_avg": 0.551,
+      "total_events": 91,
+      "status": "ok",
+      "completeness_avg": 0.554,
       "field_coverage": {
         "synopsis": {
-          "count": 79,
+          "count": 91,
           "pct": 100
         },
         "image": {
-          "count": 79,
+          "count": 91,
           "pct": 100
         },
         "price_info": {
-          "count": 36,
-          "pct": 46
+          "count": 44,
+          "pct": 48
         },
         "ticket_url": {
-          "count": 25,
-          "pct": 32
+          "count": 37,
+          "pct": 41
         },
         "duration": {
           "count": 0,
           "pct": 0
         },
         "age_rating": {
-          "count": 43,
-          "pct": 54
+          "count": 47,
+          "pct": 52
         },
         "subcategory": {
-          "count": 77,
-          "pct": 97
+          "count": 89,
+          "pct": 98
         },
         "sessions": {
-          "count": 79,
+          "count": 91,
           "pct": 100
         }
       }
@@ -481,24 +481,24 @@
       }
     },
     "Theatro Circo": {
-      "total_events": 58,
+      "total_events": 57,
       "status": "ok",
       "completeness_avg": 0.597,
       "field_coverage": {
         "synopsis": {
-          "count": 58,
+          "count": 57,
           "pct": 100
         },
         "image": {
-          "count": 58,
+          "count": 57,
           "pct": 100
         },
         "price_info": {
-          "count": 52,
-          "pct": 90
+          "count": 51,
+          "pct": 89
         },
         "ticket_url": {
-          "count": 31,
+          "count": 30,
           "pct": 53
         },
         "duration": {
@@ -506,15 +506,15 @@
           "pct": 28
         },
         "age_rating": {
-          "count": 38,
-          "pct": 66
+          "count": 37,
+          "pct": 65
         },
         "subcategory": {
           "count": 19,
           "pct": 33
         },
         "sessions": {
-          "count": 58,
+          "count": 57,
           "pct": 100
         }
       }
