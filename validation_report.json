@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-03-31T10:37:14.991001+00:00",
+  "generated_at": "2026-04-01T10:41:50.381722+00:00",
   "schema_version": "2.0",
-  "total_raw": 312,
-  "total_accepted": 302,
+  "total_raw": 323,
+  "total_accepted": 313,
   "total_rejected": 10,
   "total_warnings": 27,
   "rejected": [
@@ -292,12 +292,8 @@
       "events_collected": 3
     },
     "CCB — Centro Cultural de Belém": {
-      "status": "stale",
-      "reason": "zero_results",
-      "exception": null,
-      "events_from_cache": 79,
-      "events_expired_discarded": 1,
-      "stale_since": "2026-03-31"
+      "status": "ok",
+      "events_collected": 91
     },
     "Teatro Viriato": {
       "status": "ok",
@@ -305,7 +301,7 @@
     },
     "Theatro Circo": {
       "status": "ok",
-      "events_collected": 58
+      "events_collected": 57
     },
     "Teatro do Bairro": {
       "status": "ok",
