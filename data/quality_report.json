@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-01T10:41:56.342287+00:00",
-  "total_events": 287,
+  "generated_at": "2026-04-02T10:22:49.948445+00:00",
+  "total_events": 283,
   "tracked_fields": [
     "synopsis",
     "image",
@@ -13,40 +13,40 @@
   ],
   "theaters": {
     "CCB — Centro Cultural de Belém": {
-      "total_events": 91,
+      "total_events": 89,
       "status": "ok",
-      "completeness_avg": 0.554,
+      "completeness_avg": 0.553,
       "field_coverage": {
         "synopsis": {
-          "count": 91,
+          "count": 89,
           "pct": 100
         },
         "image": {
-          "count": 91,
+          "count": 89,
           "pct": 100
         },
         "price_info": {
-          "count": 44,
+          "count": 43,
           "pct": 48
         },
         "ticket_url": {
-          "count": 37,
-          "pct": 41
+          "count": 36,
+          "pct": 40
         },
         "duration": {
           "count": 0,
           "pct": 0
         },
         "age_rating": {
-          "count": 47,
+          "count": 46,
           "pct": 52
         },
         "subcategory": {
-          "count": 89,
+          "count": 87,
           "pct": 98
         },
         "sessions": {
-          "count": 91,
+          "count": 89,
           "pct": 100
         }
       }
@@ -207,72 +207,33 @@
         }
       }
     },
-    "TAGV — Teatro Académico Gil Vicente": {
-      "total_events": 1,
-      "status": "stale",
-      "completeness_avg": 0.866,
-      "field_coverage": {
-        "synopsis": {
-          "count": 1,
-          "pct": 100
-        },
-        "image": {
-          "count": 1,
-          "pct": 100
-        },
-        "price_info": {
-          "count": 1,
-          "pct": 100
-        },
-        "ticket_url": {
-          "count": 1,
-          "pct": 100
-        },
-        "duration": {
-          "count": 1,
-          "pct": 100
-        },
-        "age_rating": {
-          "count": 0,
-          "pct": 0
-        },
-        "subcategory": {
-          "count": 1,
-          "pct": 100
-        },
-        "sessions": {
-          "count": 1,
-          "pct": 100
-        }
-      }
-    },
     "Teatro Maria Matos": {
-      "total_events": 15,
+      "total_events": 14,
       "status": "ok",
-      "completeness_avg": 0.53,
+      "completeness_avg": 0.523,
       "field_coverage": {
         "synopsis": {
-          "count": 15,
+          "count": 14,
           "pct": 100
         },
         "image": {
-          "count": 15,
+          "count": 14,
           "pct": 100
         },
         "price_info": {
-          "count": 15,
+          "count": 14,
           "pct": 100
         },
         "ticket_url": {
-          "count": 15,
+          "count": 14,
           "pct": 100
         },
         "duration": {
-          "count": 9,
-          "pct": 60
+          "count": 8,
+          "pct": 57
         },
         "age_rating": {
-          "count": 15,
+          "count": 14,
           "pct": 100
         },
         "subcategory": {
@@ -281,7 +242,7 @@
         },
         "sessions": {
           "count": 2,
-          "pct": 13
+          "pct": 14
         }
       }
     },
@@ -364,40 +325,40 @@
       }
     },
     "Teatro da Trindade INATEL": {
-      "total_events": 8,
+      "total_events": 9,
       "status": "ok",
-      "completeness_avg": 0.736,
+      "completeness_avg": 0.73,
       "field_coverage": {
         "synopsis": {
-          "count": 8,
+          "count": 9,
           "pct": 100
         },
         "image": {
-          "count": 8,
+          "count": 9,
           "pct": 100
         },
         "price_info": {
-          "count": 8,
+          "count": 9,
           "pct": 100
         },
         "ticket_url": {
-          "count": 8,
+          "count": 9,
           "pct": 100
         },
         "duration": {
           "count": 3,
-          "pct": 38
+          "pct": 33
         },
         "age_rating": {
-          "count": 7,
-          "pct": 88
+          "count": 8,
+          "pct": 89
         },
         "subcategory": {
-          "count": 8,
+          "count": 9,
           "pct": 100
         },
         "sessions": {
-          "count": 8,
+          "count": 9,
           "pct": 100
         }
       }
@@ -481,40 +442,40 @@
       }
     },
     "Theatro Circo": {
-      "total_events": 57,
+      "total_events": 56,
       "status": "ok",
-      "completeness_avg": 0.597,
+      "completeness_avg": 0.598,
       "field_coverage": {
         "synopsis": {
-          "count": 57,
+          "count": 56,
           "pct": 100
         },
         "image": {
-          "count": 57,
+          "count": 56,
           "pct": 100
         },
         "price_info": {
-          "count": 51,
+          "count": 50,
           "pct": 89
         },
         "ticket_url": {
           "count": 30,
-          "pct": 53
+          "pct": 54
         },
         "duration": {
           "count": 16,
-          "pct": 28
+          "pct": 29
         },
         "age_rating": {
-          "count": 37,
-          "pct": 65
+          "count": 36,
+          "pct": 64
         },
         "subcategory": {
           "count": 19,
-          "pct": 33
+          "pct": 34
         },
         "sessions": {
-          "count": 57,
+          "count": 56,
           "pct": 100
         }
       }

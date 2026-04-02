@@ -1,23 +1,22 @@
 {
-  "updated_at": "2026-04-01T10:41:56.274426+00:00",
-  "build_version": "20260401-1041",
+  "updated_at": "2026-04-02T10:22:49.880716+00:00",
+  "build_version": "20260402-1022",
   "schema_version": "2.0",
-  "total_events": 287,
-  "total_theaters": 13,
-  "events_today": 20,
+  "total_events": 283,
+  "total_theaters": 12,
+  "events_today": 19,
   "events_this_weekend": 17,
   "cities": [
     "Braga",
     "Castelo Branco",
-    "Coimbra",
     "Faro",
     "Lisboa",
     "Viseu"
   ],
   "by_category": {
-    "Artes Performativas": 113,
-    "Música": 81,
-    "Multidisciplinar": 36,
+    "Artes Performativas": 112,
+    "Música": 79,
+    "Multidisciplinar": 35,
     "Formação & Participação": 19,
     "Cinema & Audiovisual": 15,
     "Artes Visuais & Exposições": 13,
@@ -26,9 +25,9 @@
     "Literatura & Palavra": 2
   },
   "by_subcategory": {
-    "Performance": 54,
+    "Performance": 53,
     "Teatro": 51,
-    "Concerto": 33,
+    "Concerto": 32,
     "Exposição": 6,
     "Workshop": 5,
     "Conversa": 5,
@@ -39,36 +38,31 @@
     "Teatro Musical": 1
   },
   "filter_counts": {
-    "is_free": 22,
+    "is_free": 21,
     "is_accessible": 0,
-    "for_families": 102,
+    "for_families": 101,
     "for_schools": 16,
     "has_lsp": 0,
     "is_festival": 5
   },
-  "stale_theaters": 6,
+  "stale_theaters": 5,
   "by_theater": {
-    "Theatro Circo": 57,
+    "Theatro Circo": 56,
     "Teatro Viriato": 28,
     "Teatro Variedades": 8,
-    "Teatro da Trindade INATEL": 8,
-    "Teatro Maria Matos": 15,
+    "Teatro da Trindade INATEL": 9,
+    "Teatro Maria Matos": 14,
     "São Luiz Teatro Municipal": 32,
     "Capitólio": 6,
-    "CCB — Centro Cultural de Belém": 91,
     "Cine-Teatro Avenida": 5,
+    "CCB — Centro Cultural de Belém": 89,
     "Teatro do Bairro": 1,
     "Teatro das Figuras": 32,
-    "TAGV — Teatro Académico Gil Vicente": 1,
     "Culturgest": 3
   },
   "completeness_avg": 0.576,
   "anomalies": [],
   "scraper_health": {
-    "TAGV — Teatro Académico Gil Vicente": {
-      "status": "stale",
-      "stale_since": "2026-03-30"
-    },
     "Cine-Teatro Avenida": {
       "status": "stale",
       "stale_since": "2026-03-27"

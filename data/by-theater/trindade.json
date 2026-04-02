@@ -61,7 +61,7 @@
     "subcategory": "Teatro",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-04-01T10:41:50.344988+00:00",
+    "scraped_at": "2026-04-02T10:22:43.664116+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "venue_type": "",
@@ -129,7 +129,7 @@
     "subcategory": "Concerto",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-04-01T10:41:50.344988+00:00",
+    "scraped_at": "2026-04-02T10:22:43.664116+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "venue_type": "",
@@ -197,7 +197,7 @@
     "subcategory": "Teatro",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-04-01T10:41:50.344988+00:00",
+    "scraped_at": "2026-04-02T10:22:43.664116+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "venue_type": "",
@@ -264,7 +264,7 @@
     "subcategory": "Teatro",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-04-01T10:41:50.344988+00:00",
+    "scraped_at": "2026-04-02T10:22:43.664116+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "venue_type": "",
@@ -318,7 +318,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-04-01T10:41:50.344988+00:00",
+    "scraped_at": "2026-04-02T10:22:43.664116+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "venue_type": "",
@@ -370,7 +370,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-04-01T10:41:50.344988+00:00",
+    "scraped_at": "2026-04-02T10:22:43.664116+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "venue_type": "",
@@ -418,7 +418,7 @@
     "subcategory": "Comédia",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-04-01T10:41:50.344988+00:00",
+    "scraped_at": "2026-04-02T10:22:43.664116+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "venue_type": "",
@@ -468,12 +468,63 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-04-01T10:41:50.344988+00:00",
+    "scraped_at": "2026-04-02T10:22:43.664116+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "venue_type": "",
     "_meta": {
       "completeness": 0.656
+    }
+  },
+  {
+    "id": "trindade-elisa-tiago-nogueira",
+    "title": "Elisa & Tiago Nogueira",
+    "theater": "Teatro da Trindade INATEL",
+    "category": "Artes Performativas",
+    "subtitle": "",
+    "dates_label": "23 Mar 2027",
+    "date_start": "2027-03-23",
+    "date_end": "2027-03-23",
+    "sessions": [
+      {
+        "date": "2027-03-23",
+        "time": "21:00",
+        "weekday": "Ter"
+      }
+    ],
+    "schedule": "21:00",
+    "synopsis": "Elisa é uma orgulhosa madeirense e ganhou notoriedade com a sua vitória no Festival da Canção de 2020, trazendo a público uma voz sublime, que marca a nova geração de cantoras portuguesas.…",
+    "image": {
+      "url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2026/03/elisatiagonogueira-1920.jpg",
+      "credit": "2026 Teatro da Trindade INATEL Mapa do site Política de privacidade Livro de Rec",
+      "source": "https://teatrotrindade.inatel.pt/espetaculo/elisa-tiago-nogueira/",
+      "theater": "Teatro da Trindade INATEL"
+    },
+    "source_url": "https://teatrotrindade.inatel.pt/espetaculo/elisa-tiago-nogueira/",
+    "ticket_url": "https://teatrotrindade.inatel.pt/bilheteira/",
+    "price_info": "14€ a 20€",
+    "sala": "Sala Carmen Dolores",
+    "technical_sheet": {
+      "autor": "INATEL Saltar para o conteúdo principal Mapa do Website Ajuda de navegação e acessibilida",
+      "música": "ajude a descobrir novas rotas. Ficha artística Outros Espetáculos Todos os Espetáculos 29 Jan - 05 Abr 2026 A GAIVOTA",
+      "encenação": "Diogo Infante 19 Fev - 05 Abr 2026 BROKEBACK MOUNTAIN"
+    },
+    "cast": [],
+    "price_min": 14.0,
+    "price_max": 20.0,
+    "age_rating": "M/6",
+    "age_min": 6,
+    "schema_version": "2.0",
+    "subcategory": "Teatro",
+    "is_free": null,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-04-02T10:22:43.664116+00:00",
+    "theater_id": "trindade",
+    "city": "Lisboa",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.674
     }
   }
 ]
