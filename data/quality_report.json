@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-02T10:22:49.948445+00:00",
-  "total_events": 283,
+  "generated_at": "2026-04-03T10:09:56.458824+00:00",
+  "total_events": 287,
   "tracked_fields": [
     "synopsis",
     "image",
@@ -91,7 +91,7 @@
       }
     },
     "Cine-Teatro Avenida": {
-      "total_events": 5,
+      "total_events": 4,
       "status": "stale",
       "completeness_avg": 0.33,
       "field_coverage": {
@@ -100,7 +100,7 @@
           "pct": 0
         },
         "image": {
-          "count": 5,
+          "count": 4,
           "pct": 100
         },
         "price_info": {
@@ -108,7 +108,7 @@
           "pct": 0
         },
         "ticket_url": {
-          "count": 5,
+          "count": 4,
           "pct": 100
         },
         "duration": {
@@ -124,7 +124,7 @@
           "pct": 0
         },
         "sessions": {
-          "count": 5,
+          "count": 4,
           "pct": 100
         }
       }
@@ -207,6 +207,45 @@
         }
       }
     },
+    "TAGV — Teatro Académico Gil Vicente": {
+      "total_events": 6,
+      "status": "ok",
+      "completeness_avg": 0.716,
+      "field_coverage": {
+        "synopsis": {
+          "count": 6,
+          "pct": 100
+        },
+        "image": {
+          "count": 6,
+          "pct": 100
+        },
+        "price_info": {
+          "count": 4,
+          "pct": 67
+        },
+        "ticket_url": {
+          "count": 6,
+          "pct": 100
+        },
+        "duration": {
+          "count": 6,
+          "pct": 100
+        },
+        "age_rating": {
+          "count": 0,
+          "pct": 0
+        },
+        "subcategory": {
+          "count": 3,
+          "pct": 50
+        },
+        "sessions": {
+          "count": 6,
+          "pct": 100
+        }
+      }
+    },
     "Teatro Maria Matos": {
       "total_events": 14,
       "status": "ok",
@@ -286,40 +325,40 @@
       }
     },
     "Teatro Viriato": {
-      "total_events": 28,
+      "total_events": 27,
       "status": "ok",
       "completeness_avg": 0.615,
       "field_coverage": {
         "synopsis": {
-          "count": 28,
+          "count": 27,
           "pct": 100
         },
         "image": {
-          "count": 28,
+          "count": 27,
           "pct": 100
         },
         "price_info": {
-          "count": 20,
-          "pct": 71
+          "count": 19,
+          "pct": 70
         },
         "ticket_url": {
-          "count": 28,
+          "count": 27,
           "pct": 100
         },
         "duration": {
           "count": 11,
-          "pct": 39
+          "pct": 41
         },
         "age_rating": {
-          "count": 21,
-          "pct": 75
+          "count": 20,
+          "pct": 74
         },
         "subcategory": {
           "count": 6,
-          "pct": 21
+          "pct": 22
         },
         "sessions": {
-          "count": 28,
+          "count": 27,
           "pct": 100
         }
       }
@@ -444,7 +483,7 @@
     "Theatro Circo": {
       "total_events": 56,
       "status": "ok",
-      "completeness_avg": 0.598,
+      "completeness_avg": 0.599,
       "field_coverage": {
         "synopsis": {
           "count": 56,
@@ -455,12 +494,12 @@
           "pct": 100
         },
         "price_info": {
-          "count": 50,
-          "pct": 89
+          "count": 51,
+          "pct": 91
         },
         "ticket_url": {
-          "count": 30,
-          "pct": 54
+          "count": 31,
+          "pct": 55
         },
         "duration": {
           "count": 16,
