@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-02T10:22:43.700890+00:00",
+  "generated_at": "2026-04-03T10:09:51.150330+00:00",
   "schema_version": "2.0",
-  "total_raw": 322,
-  "total_accepted": 312,
+  "total_raw": 334,
+  "total_accepted": 324,
   "total_rejected": 10,
-  "total_warnings": 30,
+  "total_warnings": 38,
   "rejected": [
     {
       "id": "saoluiz-um-homem-e-o-seu-criado",
@@ -268,10 +268,52 @@
       ]
     },
     {
+      "id": "viriato-tr-s-tempos",
+      "title": "Três Tempos",
+      "warnings": [
+        "evento já terminou (2026-04-02)"
+      ]
+    },
+    {
+      "id": "tagv-batalha-atr-s-de-batalha",
+      "title": "Batalha Atrás de Batalha",
+      "warnings": [
+        "evento já terminou (2025-12-11)"
+      ]
+    },
+    {
+      "id": "tagv-laguna",
+      "title": "Laguna",
+      "warnings": [
+        "evento já terminou (2026-01-10)"
+      ]
+    },
+    {
+      "id": "tagv-onde-aterrar",
+      "title": "Onde Aterrar",
+      "warnings": [
+        "evento já terminou (2025-11-11)"
+      ]
+    },
+    {
       "id": "tagv-na-terra-dos-nossos-irm-os",
       "title": "Na Terra dos Nossos Irmãos",
       "warnings": [
         "evento já terminou (1939-02-02)"
+      ]
+    },
+    {
+      "id": "tagv-ouvido-absoluto",
+      "title": "Ouvido Absoluto",
+      "warnings": [
+        "evento já terminou (2026-02-06)"
+      ]
+    },
+    {
+      "id": "tagv-open-call-bolsas-de-cria-o-locais",
+      "title": "Open Call: Bolsas de Criação Locais",
+      "warnings": [
+        "evento já terminou (2026-03-03)"
       ]
     },
     {
@@ -282,10 +324,24 @@
       ]
     },
     {
-      "id": "tagv-open-call-bolsas-de-cria-o-locais",
-      "title": "Open Call: Bolsas de Criação Locais",
+      "id": "tagv-doc-coimbra-kikakui-renaissance",
+      "title": "DOC.Coimbra: Kikakui Renaissance",
       "warnings": [
-        "evento já terminou (2026-03-16)"
+        "evento já terminou (2026-03-18)"
+      ]
+    },
+    {
+      "id": "tagv-atlas-gr-fico-de-coimbra",
+      "title": "Atlas Gráfico de Coimbra",
+      "warnings": [
+        "evento já terminou (2026-03-19)"
+      ]
+    },
+    {
+      "id": "tagv-doc-coimbra-notas-sobre-um-desterro",
+      "title": "DOC.Coimbra: Notas Sobre um Desterro",
+      "warnings": [
+        "evento já terminou (2026-03-21)"
       ]
     }
   ],
@@ -338,14 +394,14 @@
     },
     "TAGV — Teatro Académico Gil Vicente": {
       "status": "ok",
-      "events_collected": 3
+      "events_collected": 16
     },
     "Cine-Teatro Avenida": {
       "status": "stale",
       "reason": "zero_results",
       "exception": null,
-      "events_from_cache": 5,
-      "events_expired_discarded": 0,
+      "events_from_cache": 4,
+      "events_expired_discarded": 1,
       "stale_since": "2026-03-27"
     }
   }
