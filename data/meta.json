@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-04-03T10:09:56.390483+00:00",
-  "build_version": "20260403-1009",
+  "updated_at": "2026-04-04T09:13:13.318158+00:00",
+  "build_version": "20260404-0913",
   "schema_version": "2.0",
-  "total_events": 287,
+  "total_events": 285,
   "total_theaters": 13,
-  "events_today": 18,
+  "events_today": 23,
   "events_this_weekend": 24,
   "cities": [
     "Braga",
@@ -15,8 +15,8 @@
     "Viseu"
   ],
   "by_category": {
-    "Artes Performativas": 115,
-    "Música": 78,
+    "Artes Performativas": 114,
+    "Música": 77,
     "Multidisciplinar": 35,
     "Formação & Participação": 19,
     "Cinema & Audiovisual": 17,
@@ -26,7 +26,7 @@
     "Literatura & Palavra": 2
   },
   "by_subcategory": {
-    "Performance": 56,
+    "Performance": 55,
     "Teatro": 51,
     "Concerto": 32,
     "Exposição": 6,
@@ -46,9 +46,9 @@
     "has_lsp": 0,
     "is_festival": 6
   },
-  "stale_theaters": 4,
+  "stale_theaters": 10,
   "by_theater": {
-    "Theatro Circo": 56,
+    "Theatro Circo": 55,
     "Teatro Viriato": 27,
     "Teatro Variedades": 8,
     "Teatro da Trindade INATEL": 9,
@@ -56,15 +56,19 @@
     "São Luiz Teatro Municipal": 32,
     "Capitólio": 6,
     "Teatro do Bairro": 1,
-    "Teatro das Figuras": 32,
     "CCB — Centro Cultural de Belém": 89,
     "TAGV — Teatro Académico Gil Vicente": 6,
+    "Teatro das Figuras": 31,
     "Cine-Teatro Avenida": 4,
     "Culturgest": 3
   },
   "completeness_avg": 0.58,
   "anomalies": [],
   "scraper_health": {
+    "TAGV — Teatro Académico Gil Vicente": {
+      "status": "stale",
+      "stale_since": "2026-04-04"
+    },
     "Cine-Teatro Avenida": {
       "status": "stale",
       "stale_since": "2026-03-27"

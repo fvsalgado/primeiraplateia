@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-03T10:09:56.458824+00:00",
-  "total_events": 287,
+  "generated_at": "2026-04-04T09:13:13.384087+00:00",
+  "total_events": 285,
   "tracked_fields": [
     "synopsis",
     "image",
@@ -209,7 +209,7 @@
     },
     "TAGV — Teatro Académico Gil Vicente": {
       "total_events": 6,
-      "status": "ok",
+      "status": "stale",
       "completeness_avg": 0.716,
       "field_coverage": {
         "synopsis": {
@@ -403,16 +403,16 @@
       }
     },
     "Teatro das Figuras": {
-      "total_events": 32,
+      "total_events": 31,
       "status": "ok",
       "completeness_avg": 0.438,
       "field_coverage": {
         "synopsis": {
-          "count": 32,
+          "count": 31,
           "pct": 100
         },
         "image": {
-          "count": 32,
+          "count": 31,
           "pct": 100
         },
         "price_info": {
@@ -433,10 +433,10 @@
         },
         "subcategory": {
           "count": 14,
-          "pct": 44
+          "pct": 45
         },
         "sessions": {
-          "count": 32,
+          "count": 31,
           "pct": 100
         }
       }
@@ -481,24 +481,24 @@
       }
     },
     "Theatro Circo": {
-      "total_events": 56,
+      "total_events": 55,
       "status": "ok",
       "completeness_avg": 0.599,
       "field_coverage": {
         "synopsis": {
-          "count": 56,
+          "count": 55,
           "pct": 100
         },
         "image": {
-          "count": 56,
+          "count": 55,
           "pct": 100
         },
         "price_info": {
-          "count": 51,
+          "count": 50,
           "pct": 91
         },
         "ticket_url": {
-          "count": 31,
+          "count": 30,
           "pct": 55
         },
         "duration": {
@@ -506,15 +506,15 @@
           "pct": 29
         },
         "age_rating": {
-          "count": 36,
+          "count": 35,
           "pct": 64
         },
         "subcategory": {
-          "count": 19,
-          "pct": 34
+          "count": 18,
+          "pct": 33
         },
         "sessions": {
-          "count": 56,
+          "count": 55,
           "pct": 100
         }
       }
