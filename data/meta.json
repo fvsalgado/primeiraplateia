@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-04-04T09:13:13.318158+00:00",
-  "build_version": "20260404-0913",
+  "updated_at": "2026-04-05T09:15:22.659472+00:00",
+  "build_version": "20260405-0915",
   "schema_version": "2.0",
-  "total_events": 285,
+  "total_events": 284,
   "total_theaters": 13,
-  "events_today": 23,
-  "events_this_weekend": 24,
+  "events_today": 22,
+  "events_this_weekend": 25,
   "cities": [
     "Braga",
     "Castelo Branco",
@@ -15,7 +15,7 @@
     "Viseu"
   ],
   "by_category": {
-    "Artes Performativas": 114,
+    "Artes Performativas": 113,
     "Música": 77,
     "Multidisciplinar": 35,
     "Formação & Participação": 19,
@@ -26,7 +26,7 @@
     "Literatura & Palavra": 2
   },
   "by_subcategory": {
-    "Performance": 55,
+    "Performance": 54,
     "Teatro": 51,
     "Concerto": 32,
     "Exposição": 6,
@@ -53,8 +53,8 @@
     "Teatro Variedades": 8,
     "Teatro da Trindade INATEL": 9,
     "Teatro Maria Matos": 14,
-    "São Luiz Teatro Municipal": 32,
     "Capitólio": 6,
+    "São Luiz Teatro Municipal": 31,
     "Teatro do Bairro": 1,
     "CCB — Centro Cultural de Belém": 89,
     "TAGV — Teatro Académico Gil Vicente": 6,
@@ -62,7 +62,7 @@
     "Cine-Teatro Avenida": 4,
     "Culturgest": 3
   },
-  "completeness_avg": 0.58,
+  "completeness_avg": 0.579,
   "anomalies": [],
   "scraper_health": {
     "TAGV — Teatro Académico Gil Vicente": {
