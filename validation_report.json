@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-04T09:13:07.940867+00:00",
+  "generated_at": "2026-04-05T09:15:17.225905+00:00",
   "schema_version": "2.0",
-  "total_raw": 322,
-  "total_accepted": 312,
+  "total_raw": 321,
+  "total_accepted": 311,
   "total_rejected": 10,
   "total_warnings": 28,
   "rejected": [
@@ -288,7 +288,7 @@
     },
     "São Luiz Teatro Municipal": {
       "status": "ok",
-      "events_collected": 41
+      "events_collected": 40
     },
     "Teatro Maria Matos": {
       "status": "ok",
@@ -327,7 +327,7 @@
       "reason": "zero_results",
       "exception": null,
       "events_from_cache": 6,
-      "events_expired_discarded": 10,
+      "events_expired_discarded": 0,
       "stale_since": "2026-04-04"
     },
     "Cine-Teatro Avenida": {
