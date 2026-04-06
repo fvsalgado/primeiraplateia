@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-05T09:15:22.659472+00:00",
+  "updated_at": "2026-04-06T10:47:28.785031+00:00",
   "status": "ok",
-  "total_events": 284,
+  "total_events": 277,
   "total_scrapers": 13,
-  "scrapers_ok": 11,
-  "scrapers_stale": 2,
+  "scrapers_ok": 12,
+  "scrapers_stale": 1,
   "scrapers_empty": 0,
-  "is_free_count": 21,
+  "is_free_count": 22,
   "anomalies": 0,
-  "last_build": "20260405-0915"
+  "last_build": "20260406-1047"
 }

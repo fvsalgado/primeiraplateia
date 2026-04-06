@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-05T09:15:22.726098+00:00",
-  "total_events": 284,
+  "generated_at": "2026-04-06T10:47:28.852372+00:00",
+  "total_events": 277,
   "tracked_fields": [
     "synopsis",
     "image",
@@ -13,40 +13,40 @@
   ],
   "theaters": {
     "CCB — Centro Cultural de Belém": {
-      "total_events": 89,
+      "total_events": 88,
       "status": "ok",
-      "completeness_avg": 0.553,
+      "completeness_avg": 0.552,
       "field_coverage": {
         "synopsis": {
-          "count": 89,
+          "count": 88,
           "pct": 100
         },
         "image": {
-          "count": 89,
+          "count": 88,
           "pct": 100
         },
         "price_info": {
           "count": 43,
-          "pct": 48
+          "pct": 49
         },
         "ticket_url": {
-          "count": 36,
-          "pct": 40
+          "count": 34,
+          "pct": 39
         },
         "duration": {
           "count": 0,
           "pct": 0
         },
         "age_rating": {
-          "count": 46,
-          "pct": 52
+          "count": 45,
+          "pct": 51
         },
         "subcategory": {
-          "count": 87,
+          "count": 86,
           "pct": 98
         },
         "sessions": {
-          "count": 89,
+          "count": 88,
           "pct": 100
         }
       }
@@ -208,40 +208,40 @@
       }
     },
     "TAGV — Teatro Académico Gil Vicente": {
-      "total_events": 6,
-      "status": "stale",
-      "completeness_avg": 0.716,
+      "total_events": 2,
+      "status": "ok",
+      "completeness_avg": 0.679,
       "field_coverage": {
         "synopsis": {
-          "count": 6,
+          "count": 2,
           "pct": 100
         },
         "image": {
-          "count": 6,
+          "count": 2,
           "pct": 100
         },
         "price_info": {
-          "count": 4,
-          "pct": 67
+          "count": 1,
+          "pct": 50
         },
         "ticket_url": {
-          "count": 6,
+          "count": 2,
           "pct": 100
         },
         "duration": {
-          "count": 6,
+          "count": 2,
           "pct": 100
         },
         "age_rating": {
-          "count": 0,
-          "pct": 0
+          "count": 1,
+          "pct": 50
         },
         "subcategory": {
-          "count": 3,
+          "count": 1,
           "pct": 50
         },
         "sessions": {
-          "count": 6,
+          "count": 2,
           "pct": 100
         }
       }
@@ -364,40 +364,40 @@
       }
     },
     "Teatro da Trindade INATEL": {
-      "total_events": 9,
+      "total_events": 7,
       "status": "ok",
-      "completeness_avg": 0.718,
+      "completeness_avg": 0.713,
       "field_coverage": {
         "synopsis": {
-          "count": 9,
+          "count": 7,
           "pct": 100
         },
         "image": {
-          "count": 9,
+          "count": 7,
           "pct": 100
         },
         "price_info": {
           "count": 7,
-          "pct": 78
+          "pct": 100
         },
         "ticket_url": {
-          "count": 9,
+          "count": 7,
           "pct": 100
         },
         "duration": {
-          "count": 3,
-          "pct": 33
+          "count": 2,
+          "pct": 29
         },
         "age_rating": {
-          "count": 8,
-          "pct": 89
+          "count": 6,
+          "pct": 86
         },
         "subcategory": {
-          "count": 9,
+          "count": 7,
           "pct": 100
         },
         "sessions": {
-          "count": 9,
+          "count": 7,
           "pct": 100
         }
       }

@@ -1,139 +1,5 @@
 [
   {
-    "id": "trindade-a-gaivota",
-    "title": "A GAIVOTA",
-    "theater": "Teatro da Trindade INATEL",
-    "category": "Artes Performativas",
-    "subtitle": "De Anton Tchékhov Versão e encenação Diogo Infante",
-    "dates_label": "29 Jan – 05 Abr 2026",
-    "date_start": "2026-01-29",
-    "date_end": "2026-04-05",
-    "sessions": [
-      {
-        "date": "2026-01-29",
-        "time": "21:00",
-        "weekday": "Qui"
-      },
-      {
-        "date": "2026-04-05",
-        "time": "21:00",
-        "weekday": "Dom"
-      }
-    ],
-    "schedule": "21:00",
-    "synopsis": "Escrita em 1895,A Gaivotaé uma das mais emblemáticas peças de Tchékhov e é frequentemente considerada um comentário meta-teatral à natureza da arte e dos artistas.…",
-    "image": {
-      "url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2025/06/gaivota-pedromacedo.jpg",
-      "credit": "2026 Teatro da Trindade INATEL Mapa do site Política de privacidade Livro de Rec",
-      "source": "https://teatrotrindade.inatel.pt/espetaculo/a-gaivota/",
-      "theater": "Teatro da Trindade INATEL"
-    },
-    "source_url": "https://teatrotrindade.inatel.pt/espetaculo/a-gaivota/",
-    "ticket_url": "https://teatrotrindade.inatel.pt/bilheteira/",
-    "price_info": "",
-    "sala": "Sala Carmen Dolores",
-    "technical_sheet": {
-      "autor": "Anton Tchékhov",
-      "encenação": "Diogo Infante",
-      "interpretação": "Alexandra Lencastre, André Leitão, António Melo, Flávio Gil, Guilherme Filipe, Ivo Canelas, Margarida Bakker, Pedro Laginha, Rita Rocha Silva e Rita Salema",
-      "cenografia": "Catarina Amaro",
-      "figurinos": "Filipe Faísca",
-      "assistência de encenação": "Flávio Gil",
-      "produção": "Teatro da Trindade INATEL"
-    },
-    "cast": [
-      "Alexandra Lencastre",
-      "André Leitão",
-      "António Melo",
-      "Flávio Gil",
-      "Guilherme Filipe",
-      "Ivo Canelas",
-      "Margarida Bakker",
-      "Pedro Laginha",
-      "Rita Rocha Silva",
-      "Rita Salema"
-    ],
-    "age_rating": "M/12",
-    "age_min": 12,
-    "schema_version": "2.0",
-    "subcategory": "Teatro",
-    "is_free": null,
-    "is_accessible": null,
-    "scraped_at": "2026-04-05T09:15:17.189581+00:00",
-    "theater_id": "trindade",
-    "city": "Lisboa",
-    "venue_type": "",
-    "_meta": {
-      "completeness": 0.686
-    }
-  },
-  {
-    "id": "trindade-brokeback-mountain",
-    "title": "BROKEBACK MOUNTAIN",
-    "theater": "Teatro da Trindade INATEL",
-    "category": "Música",
-    "subtitle": "De Ashley Robinson , a partir do conto de Annie Proulx Música Dan Gillespie Sells Encenação Daniel Gorjão",
-    "dates_label": "19 Fev – 05 Abr 2026",
-    "date_start": "2026-02-19",
-    "date_end": "2026-04-05",
-    "sessions": [
-      {
-        "date": "2026-02-19",
-        "time": "19:00",
-        "weekday": "Qui"
-      },
-      {
-        "date": "2026-04-05",
-        "time": "19:00",
-        "weekday": "Dom"
-      }
-    ],
-    "schedule": "19:00",
-    "synopsis": "DeAshley Robinson, a partir do conto deAnnie ProulxMúsicaDan Gillespie SellsEncenaçãoDaniel Gorjão Dois homens atravessam o mesmo silêncio, sem saber que a ausência de palavras pode ser o início de tudo. Não se encontram: colidem.…",
-    "image": {
-      "url": "https://teatrotrindade.inatel.pt/wp-content/uploads/2025/06/brokeback.jpg",
-      "credit": "Pedro Macedo - Framed Photos Ir para Sinopse Galeria Ficha Artística Comprar Bil",
-      "source": "https://teatrotrindade.inatel.pt/espetaculo/brokeback-mountain/",
-      "theater": "Teatro da Trindade INATEL"
-    },
-    "source_url": "https://teatrotrindade.inatel.pt/espetaculo/brokeback-mountain/",
-    "ticket_url": "https://teatrotrindade.inatel.pt/bilheteira/",
-    "price_info": "",
-    "sala": "Sala Estúdio",
-    "technical_sheet": {
-      "autor": "Ashley Robinson, Annie Proulx",
-      "tradução": "Ana Sampaio",
-      "música": "Dan Gillespie Sells",
-      "encenação": "Daniel Gorjão",
-      "interpretação": "Carla Galvão, Duarte Melo, Joana Ribeiro, João Candeias e Rui Pedro Silva",
-      "direção": "Miguel Lucas Mendes",
-      "produção": "Teatro do Vão",
-      "coprodução": "Teatro da Trindade INATEL, Teatro do Vão, Cine-Teatro São Pedro de Alcanena e Cine-teatro Paraíso"
-    },
-    "cast": [
-      "Carla Galvão",
-      "Duarte Melo",
-      "Joana Ribeiro",
-      "João Candeias",
-      "Rui Pedro Silva"
-    ],
-    "age_rating": "M/16",
-    "age_min": 16,
-    "duration": "90 min.",
-    "duration_min": 90,
-    "schema_version": "2.0",
-    "subcategory": "Concerto",
-    "is_free": null,
-    "is_accessible": null,
-    "scraped_at": "2026-04-05T09:15:17.189581+00:00",
-    "theater_id": "trindade",
-    "city": "Lisboa",
-    "venue_type": "",
-    "_meta": {
-      "completeness": 0.754
-    }
-  },
-  {
     "id": "trindade-verdadeiro-oeste",
     "title": "Verdadeiro Oeste",
     "theater": "Teatro da Trindade INATEL",
@@ -193,7 +59,7 @@
     "subcategory": "Teatro",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-04-05T09:15:17.189581+00:00",
+    "scraped_at": "2026-04-06T10:47:23.412746+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "venue_type": "",
@@ -260,7 +126,7 @@
     "subcategory": "Teatro",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-04-05T09:15:17.189581+00:00",
+    "scraped_at": "2026-04-06T10:47:23.412746+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "venue_type": "",
@@ -300,9 +166,8 @@
       "autor": "INATEL Saltar para o conteúdo principal Mapa do Website Ajuda de navegação e acessibilida",
       "direção": "artística contemporânea. Com",
       "som": "Francisco Grilo Técnico de",
-      "luz": "Jaime Mendes Outros Espetáculos Todos os Espetáculos 29 Jan - 05 Abr 2026 A GAIVOTA",
-      "encenação": "Diogo Infante 19 Fev - 05 Abr 2026 BROKEBACK MOUNTAIN",
-      "música": "Dan Gillespie Sells"
+      "luz": "Jaime Mendes Outros Espetáculos Todos os Espetáculos 23 Abr - 07 Jun 2026 Verdadeiro Oeste",
+      "encenação": "Rita Lello 30 Abr - 02 Ago 2026 CLUBE DOS POETAS MORTOS"
     },
     "cast": [],
     "price_min": 14.0,
@@ -314,12 +179,12 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-04-05T09:15:17.189581+00:00",
+    "scraped_at": "2026-04-06T10:47:23.412746+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "venue_type": "",
     "_meta": {
-      "completeness": 0.728
+      "completeness": 0.71
     }
   },
   {
@@ -354,7 +219,7 @@
       "autor": "INATEL Saltar para o conteúdo principal Mapa do Website Ajuda de navegação e acessibilida",
       "texto": "que iniciou o seu caminho artístico, aprendendo desde cedo o valor da palavra cantada, da escuta e do respeito pelo público. Ao longo de mais de quatro décadas, construiu uma carreira sólida e reconhe",
       "música": "portuguesa. Ao seu lado esteve sempre a guitarra companheira de uma vida, extensão natural da sua voz e instrumento através do qual nasceram muitas das suas composições. É com ela que pensa a música,",
-      "encenação": "Diogo Infante 19 Fev - 05 Abr 2026 BROKEBACK MOUNTAIN"
+      "encenação": "Rita Lello 30 Abr - 02 Ago 2026 CLUBE DOS POETAS MORTOS"
     },
     "cast": [],
     "price_min": 14.0,
@@ -366,7 +231,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-04-05T09:15:17.189581+00:00",
+    "scraped_at": "2026-04-06T10:47:23.412746+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "venue_type": "",
@@ -404,8 +269,7 @@
     "sala": "Sala Carmen Dolores",
     "technical_sheet": {
       "autor": "Freitas | Teatro da Trinda",
-      "encenação": "Diogo Infante 19 Fev - 05 Abr 2026 BROKEBACK MOUNTAIN",
-      "música": "Dan Gillespie Sells"
+      "encenação": "Rita Lello 30 Abr - 02 Ago 2026 CLUBE DOS POETAS MORTOS"
     },
     "cast": [],
     "price_min": 16.0,
@@ -414,12 +278,12 @@
     "subcategory": "Comédia",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-04-05T09:15:17.189581+00:00",
+    "scraped_at": "2026-04-06T10:47:23.412746+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "venue_type": "",
     "_meta": {
-      "completeness": 0.614
+      "completeness": 0.596
     }
   },
   {
@@ -464,7 +328,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-04-05T09:15:17.189581+00:00",
+    "scraped_at": "2026-04-06T10:47:23.412746+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "venue_type": "",
@@ -502,8 +366,8 @@
     "sala": "Sala Carmen Dolores",
     "technical_sheet": {
       "autor": "INATEL Saltar para o conteúdo principal Mapa do Website Ajuda de navegação e acessibilida",
-      "música": "ajude a descobrir novas rotas. Ficha artística Outros Espetáculos Todos os Espetáculos 29 Jan - 05 Abr 2026 A GAIVOTA",
-      "encenação": "Diogo Infante 19 Fev - 05 Abr 2026 BROKEBACK MOUNTAIN"
+      "música": "ajude a descobrir novas rotas. Ficha artística Outros Espetáculos Todos os Espetáculos 23 Abr - 07 Jun 2026 Verdadeiro Oeste",
+      "encenação": "Rita Lello 30 Abr - 02 Ago 2026 CLUBE DOS POETAS MORTOS"
     },
     "cast": [],
     "price_min": 14.0,
@@ -515,7 +379,7 @@
     "is_free": null,
     "for_families": true,
     "is_accessible": null,
-    "scraped_at": "2026-04-05T09:15:17.189581+00:00",
+    "scraped_at": "2026-04-06T10:47:23.412746+00:00",
     "theater_id": "trindade",
     "city": "Lisboa",
     "venue_type": "",

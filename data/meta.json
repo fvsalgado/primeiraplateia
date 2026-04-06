@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-04-05T09:15:22.659472+00:00",
-  "build_version": "20260405-0915",
+  "updated_at": "2026-04-06T10:47:28.785031+00:00",
+  "build_version": "20260406-1047",
   "schema_version": "2.0",
-  "total_events": 284,
+  "total_events": 277,
   "total_theaters": 13,
-  "events_today": 22,
-  "events_this_weekend": 25,
+  "events_today": 14,
+  "events_this_weekend": 24,
   "cities": [
     "Braga",
     "Castelo Branco",
@@ -15,23 +15,23 @@
     "Viseu"
   ],
   "by_category": {
-    "Artes Performativas": 113,
-    "Música": 77,
-    "Multidisciplinar": 35,
+    "Artes Performativas": 111,
+    "Música": 76,
+    "Multidisciplinar": 34,
     "Formação & Participação": 19,
-    "Cinema & Audiovisual": 17,
-    "Artes Visuais & Exposições": 13,
+    "Cinema & Audiovisual": 15,
+    "Artes Visuais & Exposições": 11,
     "Pensamento & Conversa": 6,
-    "Infanto-Juvenil": 2,
-    "Literatura & Palavra": 2
+    "Literatura & Palavra": 3,
+    "Infanto-Juvenil": 2
   },
   "by_subcategory": {
-    "Performance": 54,
+    "Performance": 52,
     "Teatro": 51,
-    "Concerto": 32,
-    "Exposição": 6,
+    "Concerto": 31,
     "Workshop": 5,
     "Conversa": 5,
+    "Exposição": 4,
     "Cinema": 3,
     "Dança": 3,
     "Ópera": 2,
@@ -39,36 +39,32 @@
     "Teatro Musical": 1
   },
   "filter_counts": {
-    "is_free": 21,
+    "is_free": 22,
     "is_accessible": 0,
-    "for_families": 101,
+    "for_families": 100,
     "for_schools": 16,
     "has_lsp": 0,
-    "is_festival": 6
+    "is_festival": 5
   },
-  "stale_theaters": 10,
+  "stale_theaters": 4,
   "by_theater": {
     "Theatro Circo": 55,
     "Teatro Viriato": 27,
     "Teatro Variedades": 8,
-    "Teatro da Trindade INATEL": 9,
     "Teatro Maria Matos": 14,
     "Capitólio": 6,
     "São Luiz Teatro Municipal": 31,
     "Teatro do Bairro": 1,
-    "CCB — Centro Cultural de Belém": 89,
-    "TAGV — Teatro Académico Gil Vicente": 6,
+    "CCB — Centro Cultural de Belém": 88,
     "Teatro das Figuras": 31,
     "Cine-Teatro Avenida": 4,
-    "Culturgest": 3
+    "TAGV — Teatro Académico Gil Vicente": 2,
+    "Culturgest": 3,
+    "Teatro da Trindade INATEL": 7
   },
-  "completeness_avg": 0.579,
+  "completeness_avg": 0.575,
   "anomalies": [],
   "scraper_health": {
-    "TAGV — Teatro Académico Gil Vicente": {
-      "status": "stale",
-      "stale_since": "2026-04-04"
-    },
     "Cine-Teatro Avenida": {
       "status": "stale",
       "stale_since": "2026-03-27"

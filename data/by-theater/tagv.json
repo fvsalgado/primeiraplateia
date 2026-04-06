@@ -1,320 +1,7 @@
 [
   {
-    "id": "tagv-nathalie-b-asse-cole-des-ma-tres-2026",
-    "title": "Nathalie Béasse — École des Maîtres 2026",
-    "theater": "TAGV — Teatro Académico Gil Vicente",
-    "category": "Cinema & Audiovisual",
-    "date_start": "2026-04-06",
-    "source_url": "https://tagv.pt/agenda/stalker-de-andrei-tarkovsky-2026/",
-    "dates_label": "6 abr 2026",
-    "synopsis": "Na chamada “Zona Proibida” há rumores de que existe um quarto onde os mais íntimos desejos são realizados. Um badalado escritor e um professor autoritário partem em busca deste quarto, cada um com as suas razões, que preferem não revelar.…",
-    "image": {
-      "url": "https://tagv.pt/public/uploads/2024/06/tagv.pt-stalker-stalker-02.jpg",
-      "credit": null,
-      "source": "https://tagv.pt/agenda/stalker-de-andrei-tarkovsky-2026/",
-      "theater": "TAGV — Teatro Académico Gil Vicente"
-    },
-    "ticket_url": "https://tagv.bol.pt",
-    "price_info": "6€",
-    "price_min": 6.0,
-    "price_max": 6.0,
-    "duration": "18h30",
-    "duration_min": 1110,
-    "sessions": [
-      {
-        "date": "2026-04-06",
-        "time": "18:30",
-        "weekday": "Seg"
-      }
-    ],
-    "schema_version": "2.0",
-    "is_free": null,
-    "is_accessible": null,
-    "scraped_at": "2026-04-03T10:09:51.113261+00:00",
-    "_stale": true,
-    "_stale_since": "2026-04-04",
-    "theater_id": "tagv",
-    "city": "Coimbra",
-    "venue_type": "",
-    "_meta": {
-      "completeness": 0.57
-    }
-  },
-  {
-    "id": "tagv-festival-adc-onyx",
-    "title": "Festival ADC: ONYX",
-    "theater": "TAGV — Teatro Académico Gil Vicente",
-    "category": "Cinema & Audiovisual",
-    "date_start": "2026-04-06",
-    "source_url": "https://tagv.pt/agenda/os-domingos-de-alauda-ruiz-de-azua/",
-    "dates_label": "6 abr 2026",
-    "synopsis": "Ainara, uma brilhante e idealista jovem de 17 anos, tem de decidir que curso quer seguir. Porém, a adolescente sente-se cada vez mais próxima de Deus e pondera a vida de freira. A notícia surpreende toda a família, provocando uma rutura e colocando todos à prova.…",
-    "image": {
-      "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-os-domingos-de-alauda-ruiz-de-azua-os-domingos-02.jpg",
-      "credit": null,
-      "source": "https://tagv.pt/agenda/os-domingos-de-alauda-ruiz-de-azua/",
-      "theater": "TAGV — Teatro Académico Gil Vicente"
-    },
-    "ticket_url": "https://tagv.bol.pt",
-    "price_info": "6€",
-    "price_min": 6.0,
-    "price_max": 6.0,
-    "duration": "21h30",
-    "duration_min": 1290,
-    "sessions": [
-      {
-        "date": "2026-04-06",
-        "time": "21:30",
-        "weekday": "Seg"
-      }
-    ],
-    "schema_version": "2.0",
-    "is_free": null,
-    "is_festival": true,
-    "for_families": true,
-    "is_accessible": null,
-    "scraped_at": "2026-04-03T10:09:51.113261+00:00",
-    "_stale": true,
-    "_stale_since": "2026-04-04",
-    "theater_id": "tagv",
-    "city": "Coimbra",
-    "venue_type": "",
-    "_meta": {
-      "completeness": 0.58
-    }
-  },
-  {
-    "id": "tagv-uma-onda-na-mente-apresenta-o-dos-livros",
-    "title": "Uma Onda na Mente — Apresentação dos Livros",
-    "theater": "TAGV — Teatro Académico Gil Vicente",
-    "category": "Multidisciplinar",
-    "date_start": "2026-04-10",
-    "source_url": "https://tagv.pt/agenda/conversa-de-balcao-com-ricardo-correia/",
-    "dates_label": "10 abr 2026",
-    "synopsis": "As Conversas de Balcão nascem no contexto do Espaço Curricular do LIPA num movimento de aproximação do público, em especial a comunidade universitária de Coimbra, ao universo de artistas e criadores.…",
-    "image": {
-      "url": "https://tagv.pt/public/uploads/2025/01/tagv.pt-conversa-de-balcaocom-a-equipa-tagv-conversas-balcao.jpg",
-      "credit": null,
-      "source": "https://tagv.pt/agenda/conversa-de-balcao-com-ricardo-correia/",
-      "theater": "TAGV — Teatro Académico Gil Vicente"
-    },
-    "ticket_url": "https://tagv.bol.pt",
-    "duration": "11h00",
-    "duration_min": 660,
-    "technical_sheet": {
-      "texto": "do Espaço Curricular do LIPA num movimento de aproximação do público, em especial a comunidade universitária de Coimbra, ao universo de artistas e criadores. Promovidas por Carlos Costa (Estudos Artísticos e Escrita Criativa FLUC e Visões Úteis), estas conversas têm lugar no balcão do auditório do T"
-    },
-    "people": [
-      "do Espaço Curricular do LIPA num movimento de aproximação do público",
-      "em especial a comunidade universitária de Coimbra",
-      "ao universo de artistas",
-      "criadores. Promovidas por Carlos Costa (Estudos Artísticos",
-      "Escrita Criativa FLUC",
-      "Visões Úteis)",
-      "estas conversas têm lugar no balcão do auditório do T"
-    ],
-    "sessions": [
-      {
-        "date": "2026-04-10",
-        "time": "11:00",
-        "weekday": "Sex"
-      }
-    ],
-    "schema_version": "2.0",
-    "is_free": null,
-    "is_accessible": null,
-    "scraped_at": "2026-04-03T10:09:51.113261+00:00",
-    "_stale": true,
-    "_stale_since": "2026-04-04",
-    "theater_id": "tagv",
-    "city": "Coimbra",
-    "venue_type": "",
-    "_meta": {
-      "completeness": 0.668
-    }
-  },
-  {
-    "id": "tagv-uma-onda-na-mente-fotografias-de-jo-o-duarte",
-    "title": "Uma Onda na Mente — Fotografias de João Duarte",
-    "theater": "TAGV — Teatro Académico Gil Vicente",
-    "category": "Artes Performativas",
-    "date_start": "2026-04-11",
-    "source_url": "https://tagv.pt/agenda/welcome-to-europe-de-ricardo-correia/",
-    "dates_label": "11 abr 2026",
-    "synopsis": "Welcome to Europe não é apenas um espetáculo — é uma provocação, uma viagem, uma visita guiada a um museu que se instala em cada palco por onde passa. Este museu vivo desafia o público a atravessar salas de memória, identidade e política, colocando em cena performances que questionam o que significa…",
-    "image": {
-      "url": "https://tagv.pt/public/uploads/2025/09/tagv.pt-welcome-to-europe-20260227-welcome-to-europe--ricardo-correia-02.jpg",
-      "credit": null,
-      "source": "https://tagv.pt/agenda/welcome-to-europe-de-ricardo-correia/",
-      "theater": "TAGV — Teatro Académico Gil Vicente"
-    },
-    "ticket_url": "https://tagv.bol.pt",
-    "price_info": "7€",
-    "price_min": 7.0,
-    "price_max": 7.0,
-    "duration": "14h30",
-    "duration_min": 870,
-    "technical_sheet": {
-      "autor": "de cerca de 10 peças de teatro, publicadas em Portugal, México e França, com edições pela Imprensa da Universidade de Coimbra, Teatro Nacional D. Maria II e Les Presses Universitaires du Midi. Data 10, Abril 2026 11, Abril 2026 Horário 14H30, 21H30 16H30, 21H30 Duração 1h00 Faixa etária M16 Preço €7",
-      "interpretação": "Beatriz Antunes, Fábio Saraiva, Sofia Coelho e Ricardo Correia Vozes Vídeo Ana Teresa santos, Cláudia Carvalho, Carolina Santos, João Amorim, Patrícia Pinheiro, Ricardo Correia",
-      "apoio": "ao movimento e",
-      "figurinos": "Rita Grade",
-      "direção": "técnica e",
-      "luz": "Diogo Marques",
-      "produção": "Beatriz Antunes, Casa da Esquina – Associação Cultural Espetáculo com a cumplicidade do Comité Dissonante Ana Vilela da Costa, Jorge Louraço, Nuno Lucas, Sónia Ferreira, Vanesa Sotelo"
-    },
-    "cast": [
-      "Beatriz Antunes",
-      "Fábio Saraiva",
-      "Sofia Coelho",
-      "Ricardo Correia Vozes Vídeo Ana Teresa santos",
-      "Cláudia Carvalho",
-      "Carolina Santos",
-      "João Amorim",
-      "Patrícia Pinheiro",
-      "Ricardo Correia"
-    ],
-    "people": [
-      "de cerca de 10 peças de teatro",
-      "publicadas em Portugal",
-      "México",
-      "França",
-      "com edições pela Imprensa da Universidade de Coimbra",
-      "Teatro Nacional D. Maria II",
-      "Les Presses Universitaires du Midi. Data 10",
-      "Abril 2026 11",
-      "Abril 2026 Horário 14H30",
-      "21H30 16H30",
-      "21H30 Duração 1h00 Faixa etária M16 Preço €7",
-      "técnica e",
-      "Rita Grade",
-      "Diogo Marques",
-      "Beatriz Antunes",
-      "Fábio Saraiva",
-      "Sofia Coelho",
-      "Ricardo Correia Vozes Vídeo Ana Teresa santos",
-      "Cláudia Carvalho",
-      "Carolina Santos",
-      "João Amorim",
-      "Patrícia Pinheiro",
-      "Ricardo Correia",
-      "Casa da Esquina – Associação Cultural Espetáculo com a cumplicidade do Comité Dissonante Ana Vilela da Costa",
-      "Jorge Louraço",
-      "Nuno Lucas",
-      "Sónia Ferreira",
-      "Vanesa Sotelo"
-    ],
-    "sessions": [
-      {
-        "date": "2026-04-11",
-        "time": "16:30",
-        "weekday": "Sáb"
-      }
-    ],
-    "schema_version": "2.0",
-    "subcategory": "Performance",
-    "is_free": null,
-    "is_accessible": null,
-    "scraped_at": "2026-04-03T10:09:51.113261+00:00",
-    "_stale": true,
-    "_stale_since": "2026-04-04",
-    "theater_id": "tagv",
-    "city": "Coimbra",
-    "venue_type": "",
-    "_meta": {
-      "completeness": 0.866
-    }
-  },
-  {
-    "id": "tagv-uma-onda-na-mente-mundos-de-ursula-k-le-guin",
-    "title": "Uma Onda na Mente — Mundos de Ursula K. Le Guin",
-    "theater": "TAGV — Teatro Académico Gil Vicente",
-    "category": "Artes Performativas",
-    "date_start": "2026-04-14",
-    "source_url": "https://tagv.pt/agenda/festival-adc-isto-nao-e-para-gente-e-para-besta-o-que/",
-    "dates_label": "14 abr 2026",
-    "synopsis": "Alguns dos problemas do tempo das Carquejeiras – século XIX e início do século XX – ainda são motivo para sairmos à rua com o punho cerrado. Outros, são só dissemelhantes.…",
-    "image": {
-      "url": "https://tagv.pt/public/uploads/2026/03/tagv.pt-festival-adc-onyx-20260414-isto-nao-e-para-gente02.jpg",
-      "credit": null,
-      "source": "https://tagv.pt/agenda/festival-adc-isto-nao-e-para-gente-e-para-besta-o-que/",
-      "theater": "TAGV — Teatro Académico Gil Vicente"
-    },
-    "ticket_url": "https://tagv.bol.pt",
-    "price_info": "7€",
-    "price_min": 7.0,
-    "price_max": 7.0,
-    "duration": "21h30",
-    "duration_min": 1290,
-    "technical_sheet": {
-      "música": "e Artes do Espetáculo, na variante Interpretação, que terminou em 2021. Também em 2021 ingressou na Escola Superior de Dança, no Mestrado de Criação Coreográfica e práticas profissionais, que terminou em 2023. O seu percurso passa pelas áreas de interpretação, criação e produção. Como intérprete e/o",
-      "companhia": "Dançando com a Diferença (2023), O Mal de Ortov (2023) do Teatro do Calafrio com a",
-      "encenação": "de Florbela Sá Cunha e Perdição (2025) também com a",
-      "interpretação": "(teatro e dança), voz e coreografia. Partindo de um interesse comum pela dança contemporânea e reconhecendo o lugar central que a dança ocupa na renovação da linguagem das artes performativas nas últimas décadas, a Câmara Municipal de Coimbra / Convento São Francisco e a Universidade de Coimbra / Te",
-      "apoio": "à criação Miguel F",
-      "luz": "Francisco Campos Design de",
-      "som": "João Coutada",
-      "figurinos": "Magda, Margarida Magalhães",
-      "produção": "Instável – Centro Coreográfico, Teatro Municipal do Porto"
-    },
-    "cast": [
-      "(teatro",
-      "dança)",
-      "voz",
-      "coreografia. Partindo de um interesse comum pela dança contemporânea",
-      "reconhecendo o lugar central que a dança ocupa na renovação da linguagem das artes performativas nas últimas décadas",
-      "a Câmara Municipal de Coimbra / Convento São Francisco",
-      "a Universidade de Coimbra / Te"
-    ],
-    "people": [
-      "de Florbela Sá Cunha",
-      "Perdição (2025) também com a",
-      "Magda",
-      "Margarida Magalhães",
-      "Francisco Campos Design de",
-      "João Coutada",
-      "e Artes do Espetáculo",
-      "na variante Interpretação",
-      "que terminou em 2021. Também em 2021 ingressou na Escola Superior de Dança",
-      "no Mestrado de Criação Coreográfica",
-      "práticas profissionais",
-      "que terminou em 2023. O seu percurso passa pelas áreas de interpretação",
-      "criação",
-      "produção. Como intérprete e/o",
-      "(teatro",
-      "dança)",
-      "voz",
-      "coreografia. Partindo de um interesse comum pela dança contemporânea",
-      "reconhecendo o lugar central que a dança ocupa na renovação da linguagem das artes performativas nas últimas décadas",
-      "a Câmara Municipal de Coimbra / Convento São Francisco",
-      "a Universidade de Coimbra / Te",
-      "Instável – Centro Coreográfico",
-      "Teatro Municipal do Porto"
-    ],
-    "sessions": [
-      {
-        "date": "2026-04-14",
-        "time": "21:30",
-        "weekday": "Ter"
-      }
-    ],
-    "schema_version": "2.0",
-    "subcategory": "Performance",
-    "is_free": null,
-    "is_accessible": null,
-    "scraped_at": "2026-04-03T10:09:51.113261+00:00",
-    "_stale": true,
-    "_stale_since": "2026-04-04",
-    "theater_id": "tagv",
-    "city": "Coimbra",
-    "venue_type": "",
-    "_meta": {
-      "completeness": 0.902
-    }
-  },
-  {
-    "id": "tagv-uma-onda-na-mente-oficina-de-escrita",
-    "title": "Uma Onda na Mente — Oficina de Escrita",
+    "id": "tagv-o-teatro-portugu-s-contempor-neo-para-franceses-ve",
+    "title": "O Teatro Português Contemporâneo ... Para Franceses Verem",
     "theater": "TAGV — Teatro Académico Gil Vicente",
     "category": "Artes Performativas",
     "date_start": "2026-04-15",
@@ -351,14 +38,54 @@
     "subcategory": "Performance",
     "is_free": null,
     "is_accessible": null,
-    "scraped_at": "2026-04-03T10:09:51.113261+00:00",
-    "_stale": true,
-    "_stale_since": "2026-04-04",
+    "scraped_at": "2026-04-06T10:47:23.412746+00:00",
     "theater_id": "tagv",
     "city": "Coimbra",
     "venue_type": "",
     "_meta": {
       "completeness": 0.708
+    }
+  },
+  {
+    "id": "tagv-atlas-gr-fico-de-coimbra",
+    "title": "Atlas Gráfico de Coimbra",
+    "theater": "TAGV — Teatro Académico Gil Vicente",
+    "category": "Literatura & Palavra",
+    "date_start": "2026-04-23",
+    "source_url": "https://tagv.pt/agenda/declamar-poesia-abril-2026/",
+    "dates_label": "23 abr 2026",
+    "synopsis": "O coletivo declAMAR Poesia tem em comum o gosto pela poesia e tem vindo a fazer leituras partilhadas, num ambiente intimista, criando assim um espaço informal de encontro com pessoas de gostos afins.",
+    "image": {
+      "url": "https://tagv.pt/public/uploads/2025/03/tagv.pt-declamar-poesia-abril-decalamar-poesia.jpg",
+      "credit": null,
+      "source": "https://tagv.pt/agenda/declamar-poesia-abril-2026/",
+      "theater": "TAGV — Teatro Académico Gil Vicente"
+    },
+    "ticket_url": "https://tagv.bol.pt",
+    "price_info": "Entrada livre",
+    "price_min": 0.0,
+    "price_max": 0.0,
+    "duration": "22h00",
+    "duration_min": 1320,
+    "age_rating": "Livre",
+    "age_min": 0,
+    "sessions": [
+      {
+        "date": "2026-04-23",
+        "time": "22:00",
+        "weekday": "Qui"
+      }
+    ],
+    "schema_version": "2.0",
+    "is_free": true,
+    "for_families": true,
+    "is_accessible": null,
+    "scraped_at": "2026-04-06T10:47:23.412746+00:00",
+    "theater_id": "tagv",
+    "city": "Coimbra",
+    "venue_type": "",
+    "_meta": {
+      "completeness": 0.65
     }
   }
 ]
